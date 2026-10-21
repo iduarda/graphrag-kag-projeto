@@ -14,7 +14,7 @@ Sistema de Geração Aumentada por Recuperação baseado em grafos de conhecimen
  
 | Integrante | Responsabilidade |
 |---|---|
-| _Nome 1_ | Modelagem LPG no Neo4j, repositório e coordenação do artigo |
+| _Maria Eduarda Zumbé Gomes_ | Modelagem LPG no Neo4j, repositório e coordenação do artigo |
 | _Nome 2_ | Extração de entidades e relações (NER/RE) |
 | _Nome 3_ | Pipeline de ingestão e resolução de entidades |
 | _Nome 4_ | Recuperação híbrida (vetorial + Cypher) e multi-hop |
@@ -55,7 +55,7 @@ _A estrutura será atualizada conforme os módulos forem criados._
 ### Pré-requisitos
  
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) instalado e aberto
-- [Git](https://git-scm.com/)
+- [GitHub]([https://git-scm.com/](https://desktop.github.com/download/))
 ### Passo a passo
  
 1. **Clone o repositório:**
