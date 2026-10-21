@@ -1,0 +1,49 @@
+# ===== Segredos =====
+# Nunca subir o .env real (tem senhas e chaves de API).
+# Suba apenas o .env.example, sem valores reais.
+.env
+.env.*
+!.env.example
+ 
+# ===== Banco Neo4j (Docker) =====
+# Arquivos do banco são gerados localmente por cada pessoa.
+neo4j/data/
+neo4j/logs/
+neo4j/plugins/
+# A pasta import fica no repositório (vazia, com .gitkeep),
+# mas os arquivos colocados nela não são versionados.
+neo4j/import/*
+!neo4j/import/.gitkeep
+ 
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+ 
+# ===== Streamlit =====
+.streamlit/secrets.toml
+ 
+# ===== Editores e sistema =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+ 
+# ===== Artigo LaTeX (arquivos auxiliares) =====
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
