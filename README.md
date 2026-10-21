@@ -55,7 +55,7 @@ _A estrutura será atualizada conforme os módulos forem criados._
 ### Pré-requisitos
  
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) instalado e aberto
-- [GitHub]([https://git-scm.com/](https://desktop.github.com/download/))
+- [GitHub](https://desktop.github.com/download/)
 ### Passo a passo
  
 1. **Clone o repositório:**
