@@ -1,0 +1,14 @@
+{
+  "titulo_solicitado": "Z3",
+  "categoria": "Hardware",
+  "semente": false,
+  "titulo": "Z3",
+  "pageid": 1494085,
+  "url": "https://pt.wikipedia.org/wiki/Z3",
+  "wikidata_id": "Q222419",
+  "desambiguacao": false,
+  "redirecionado": false,
+  "data_coleta": "2026-10-22T00:45:28+00:00",
+  "licenca": "CC BY-SA 4.0",
+  "texto": "O computador Z3 foi a primeira máquina de computação totalmente automática e programável do mundo, criado em 1941 pelo alemão Konrad Zuse. Foi utilizado pelo Instituto de pesquisa aeronáutica alemão a fim de realizar análises estatísticas em projetos de asas de novas aeronaves.\nSua construção se deu durante a segunda guerra mundial e tinha como objetivo a codificação de mensagens, por uma equipe de 15 pessoas em um anexo da fábrica de aviões Henschel. Tinha uma memória que armazenava 64 números de 22 bits. Seus cálculos eram realizados em aritmética binária de ponto flutuante e já calculava raízes quadradas e realizava uma multiplicação em cerca de 5 segundos. Foi a primeira máquina de calcular com controle automático de operações. Foi destruído, junto com a casa de Zuse, em Berlim, por um bombardeio."
+}

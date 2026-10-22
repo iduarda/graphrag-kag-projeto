@@ -1,0 +1,14 @@
+{
+  "titulo_solicitado": "John Backus",
+  "categoria": "Pessoa",
+  "semente": false,
+  "titulo": "John Backus",
+  "pageid": 298596,
+  "url": "https://pt.wikipedia.org/wiki/John_Backus",
+  "wikidata_id": "Q92746",
+  "desambiguacao": false,
+  "redirecionado": false,
+  "data_coleta": "2026-10-22T00:42:42+00:00",
+  "licenca": "CC BY-SA 4.0",
+  "texto": "John Warner Backus (Filadélfia, 3 de dezembro de 1924 — Ashland, 17 de março de 2007) foi um cientista da computação estadunidense.\nConhecido por criar a primeira linguagem de programação de alto nível - o Fortran - a notação BNF e o conceito de programação em nível de funções.\nRecebeu em 1977 o Prêmio Turing, por suas contribuições para o desenvolvimento de sistemas de programação de alto nível, principalmente por seu trabalho no Fortran e por publicações sobre métodos formais na especificação de linguagens de programação.\n\n== Biografia ==\nBackus nasceu em Filadélfia, Pensilvânia, mas cresceu em Wilmington, Delaware. Estudou na Hill School em Pottstown. Após entrar na Universidade da Virginia para estudar química e falhar nos estudos, entrou para as forças armadas dos Estados Unidos e iniciou treinamento médico. Durante seu estágio em um hospital, foi diagnosticado com um tumor no cérebro, que foi removido com sucesso; uma placa foi instalada em sua cabeça, e ele largou o treinamento médico após nove meses e uma nova operação para substituir a placa.\nApós mudar-se para Nova Iorque iniciou treinamento em técnica de rádio, e descobriu interesse pela matemática. Graduou-se na Universidade de Columbia em matemática em 1949, e entrou na IBM no ano seguinte. Durante seus três primeiros anos, John trabalhou no computador SSEC; seu primeiro grande projeto foi escrever um programa de computador para calcular as posições da lua. Em 1953 Backus desenvolveu a linguagem Speedcoding, a primeira linguagem de alto nível criada para um computador IBM.\nAs dificuldades contemporâneas em programação eram grandes, e em 1954 Backus montou uma equipe para definir e desenvolver o Fortran para o IBM 704. Apesar de não ser historicamente a primeira linguagem de programação de alto nível, o Fortran foi a primeira a ter grande uso. Durante a segunda metade da década de 1950, John serviu comitês internacionais para desenvolver o ALGOL 58 e o ALGOL 60, que tornou-se rapidamente o padrão para a publicação de algoritmos.\nPosteriormente trabalhou em programação funcional.\nBackus aposentou-se em 1991, e morreu em sua residência em Ashland, Oregon, em março de 2007, aos 82 anos de idade."
+}

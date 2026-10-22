@@ -1,0 +1,14 @@
+{
+  "titulo_solicitado": "BCPL",
+  "categoria": "Linguagem",
+  "semente": false,
+  "titulo": "BCPL",
+  "pageid": 100539,
+  "url": "https://pt.wikipedia.org/wiki/BCPL",
+  "wikidata_id": "Q810009",
+  "desambiguacao": false,
+  "redirecionado": false,
+  "data_coleta": "2026-10-22T00:44:37+00:00",
+  "licenca": "CC BY-SA 4.0",
+  "texto": "BCPL (Basic Combined Programming Language (Linguagem de Programação Básica Combinada)) é uma linguagem de programação procedural, imperativa e estruturada. Originalmente destinada a escrita de compiladores, BCPL não está mais em uso. Porém sua influência ainda é sentida devido a versão reduzida e mudada sintaticamente, chamada de B, foi a linguagem em que a linguagem de programação C foi baseada. BCPL introduziu várias características de muitas linguagens de programação modernas, incluindo o uso de chaves para delimitar blocos de código. BCPL foi implementada pela primeira vez Martin Richards, da Universidade de Cambridge em 1967.\n\n== Exemplo ==\nO famoso Programa Olá Mundo, escrito em BCPL:\n\nGET \"LIBHDR\"\n\nLET START () BE\n$(\n   WRITES (\"Olá, Mundo!*N\")\n$)"
+}

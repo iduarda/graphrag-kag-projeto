@@ -1,0 +1,14 @@
+{
+  "titulo_solicitado": "PDP-7",
+  "categoria": "Hardware",
+  "semente": false,
+  "titulo": "PDP-7",
+  "pageid": 8979,
+  "url": "https://pt.wikipedia.org/wiki/PDP-7",
+  "wikidata_id": "Q1270176",
+  "desambiguacao": false,
+  "redirecionado": false,
+  "data_coleta": "2026-10-22T00:45:45+00:00",
+  "licenca": "CC BY-SA 4.0",
+  "texto": "O DEC PDP-7 é um minicomputador produzido pela Digital Equipment Corporation. Introduzido em 1965, foi o primeiro a usar a tecnologia Flip Chip daquela companhia. Com um custo de apenas 72 mil dólares, era um computador muito barato mas bastante poderoso. Tinha uma arquitectura de 18 bits.\nEm 1969, Ken Thompson escreveu o primeiro sistema UNIX em assembly num PDP-7, então chamado Unics, o que era uma brincadeira algo traiçoeira com o Multics - o sistema operativo do Space Travel, um jogo que precisava de gráficos para ilustrar os movimentos dos planetas.\nAinda restam alguns PDP-7 funcionais, e decorre em Oslo, na Noruega, um projecto de restauro."
+}

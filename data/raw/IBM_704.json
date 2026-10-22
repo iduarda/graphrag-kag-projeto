@@ -1,0 +1,14 @@
+{
+  "titulo_solicitado": "IBM 704",
+  "categoria": "Hardware",
+  "semente": false,
+  "titulo": "IBM 704",
+  "pageid": 1020657,
+  "url": "https://pt.wikipedia.org/wiki/IBM_704",
+  "wikidata_id": "Q25826",
+  "desambiguacao": false,
+  "redirecionado": false,
+  "data_coleta": "2026-10-22T00:45:38+00:00",
+  "licenca": "CC BY-SA 4.0",
+  "texto": "O IBM 704 foi um computador desenvolvido para cálculos de larga escala, primordialmente para fins comerciais. Foi o sucessor dos modelos pertencentes às séries IBM 650 e IBM 700. Era chamado de UCAE (Unidade de Controle Análitico Eletrônico) e sua velocidade atingia a média de 4.000 operações matemáticas por segundo, muito menor do que qualquer PC (computador pessoal), porém avançadissímo para a época.\n\n== Características do IBM 704 ==\nTodos os modelos da série IBM 700 e o IBM 650 operavam seguindo regras do programa armazenado e resolviam um problema ou processavam dados seguindo um conjunto de instruções previamente armazenadas na \"memória\" da máquina.\nO principal recurso avançado do IBM 704 era sua memória de núcleo magnético de alta velocidade; diferente dos primeiros modelos 701 e 702, os quais usavam memória CRT. \nAlém desta memória de alta velocidade, o IBM 704 tinha uma unidade de armazenamento de [tambor magnético]. O tambor podia ser usado para armazenamento de partes do programa, resultados intermediários, tabelas de taxas ou outras informações.\nTambém podiam ser utilizadas fitas magnéticas, que agiam como armazenamento em massa, cada uma com até 5 milhões de caracteres.\nApesar da diferença de arquitetura de diversos computadores da série 700, as máquinas geralmente usavam os mesmos periféricos, como por exemplo: unidades de fita, leitores de cartões, perfuradoras de cartões e impressoras.\nO método de entrada de dados no sistema normalmente utilizado era a fita magnética, mas a entrada também podia ser obtida a partir de cartões perfurados através do leitor de cartões ou do console do operador, se instruções especiais fossem necessárias. \nEm sua época, o 704 era uma máquina excepcionalmente confiável. Sendo uma máquina de tubo a vácuo, no entanto, o IBM 704 tinha uma confiabilidade muito baixa para os padrões atuais. Em média, a máquina falhava a cada 8 horas, o que limitava o tamanho do programa que os primeiros compiladores Fortran podiam traduzir com sucesso porque a máquina falharia antes de uma compilação bem-sucedida de um programa grande.[carece de fontes]?\nAlguns equipamentos relacionados são:\n\n704 Electronic Analytical Control Unit 1\n711 Punched Card Reader 1\n716 Alphabetic Printer 1\n721 Punched Card Recorder 1\n727 Magnetic Tape Unit 1\n753 Tape Control Unit 1\n733 Magnetic Drum Reader and Recorder 1\n733 Magnetic Drum Reader and Recorder 2\n737 Magnetic Core Storage Unit 1\n740 Cathode Ray Tube Output Recorder 1"
+}

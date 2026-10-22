@@ -1,0 +1,14 @@
+{
+  "titulo_solicitado": "Apple II",
+  "categoria": "Hardware",
+  "semente": false,
+  "titulo": "Apple II",
+  "pageid": 30513,
+  "url": "https://pt.wikipedia.org/wiki/Apple_II",
+  "wikidata_id": "Q3017175",
+  "desambiguacao": false,
+  "redirecionado": false,
+  "data_coleta": "2026-10-22T00:45:54+00:00",
+  "licenca": "CC BY-SA 4.0",
+  "texto": "O Apple II foi um modelo de computador pessoal fabricado pela empresa Apple Inc no final da década de 1970, sendo vendido a partir de Junho de 1977, equipado com interface para fitas cassetes de áudio e controlador de vídeo com NTSC e um modulador RF para televisão. \nO preço de venda variava entre US$ 1 298,00 (com 16 kB RAM) e US$ 2 638,00 (com 48 kB RAM).\nO computador pessoal apple II faz parte da série Apple II, que inclui os seguintes dispositivos: apple II Plus (1979), apple II enhanced (1979), apple IIc (Apple portátil, 1979), apple III (1980), apple IIGS (1986), apple IIc Plus (1988).\n\n== Especificações técnicas ==\nO computador Apple II começou a ser vendido em 10 de Junho de 1977. Este era equipado com: microprocessador MOS Technology 6502 com uma velocidade clock de 1 MHz; 16 kB de memória RAM podendo chegar até 48k em sua placa; interface para fitas cassetes de áudio; uma ROM que incluía um interpretador de BASIC; controlador de vídeo que apresentava 24 linhas com 40 colunas de caráteres (apenas letras maiúsculas), com saída NTSC para um monitor ou, através de um modulador RF, para uma televisão.\nOs utilizadores podiam gravar e carregar os programas a partir de um gravador de cassetes áudio."
+}

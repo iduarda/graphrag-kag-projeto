@@ -1,0 +1,14 @@
+{
+  "titulo_solicitado": "UNIVAC I",
+  "categoria": "Hardware",
+  "semente": false,
+  "titulo": "UNIVAC I",
+  "pageid": 1134774,
+  "url": "https://pt.wikipedia.org/wiki/UNIVAC_I",
+  "wikidata_id": "Q1044055",
+  "desambiguacao": false,
+  "redirecionado": false,
+  "data_coleta": "2026-10-22T00:45:25+00:00",
+  "licenca": "CC BY-SA 4.0",
+  "texto": "O UNIVAC I (de UNIVersal Automatic Computer - Computador Automático Universal) foi o primeiro computador comercial fabricado e comercializado nos Estados Unidos, projetado por J. Presper Eckert e John Mauchly em 1951, na empresa Eckert-Mauchly Computer Corporation, usado inicialmente no Pentágono.\n\n== Histórico ==\nO UNIVAC I foi projetado por J. Presper Eckert e John Mauchly, os inventores do ENIAC para uma empresa fundada por ambos, a Eckert-Mauchly Computer Corporation, mas só ficou pronto após esta ser adquirida pela Remington e virar a divisão UNIVAC.\nO primeiro UNIVAC foi entregue ao escritório do censo dos Estados Unidos em 31 de março de 1951, mas demorou para começar a funcionar, então o primeiro que entrou em operação foi o segundo a ser fabricado, para o Pentágono. Era programado ajustando-se cerca de 6 000 chaves e conectando-se cabos a um painel.\nPor volta de dezembro de 1954, quinze UNIVACs haviam sido entregues para companhias de peso como a General Electric a US Steel e a Metropolitan Life Insurance.\nProjetado para custar US$ 159 000, o UNIVAC I foi vendido por um preço entre US$ 1 250 000 e US$ 1 500 000. No total, 46 unidades deste primeiro modelo foram fabricadas.\nAlgumas unidades estiveram em serviço por muitos anos. A primeira unidade funcionou até 1963. Duas unidades da própria Remington funcionaram até 1968 e outra unidade, de uma companhia de seguros do Tennessee, até 1970, com mais de treze anos de serviço.\nO UNIVAC foi um dos  primeiros computadores do Brasil, adquirido pelo IBGE em 1961 por US$ 2 976 351, incluídos acessórios e periféricos, para processar dados do censo.\n\n== Descrição ==\nO UNIVAC usava 5 200 válvulas, pesava 13 toneladas e consumia 125 kW para fazer 1905 operações por segundo, com um clock de 2,25 MHz. O sistema completo ocupava mais de 35 m² de espaço no piso.\nSua memória de mil palavras era armazenada num dispositivo chamado delay line memory, construído com mercúrio e cristais piezoelétricos.\nA entrada e saída de informações eram realizadas por uma fita metálica de 1/2 polegada de largura e 400 m de comprimento. Normalmente acompanhados de um dispositivo impressor chamado Uniprinter, que, sozinho, consumia 14 kW."
+}

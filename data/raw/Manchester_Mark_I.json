@@ -1,0 +1,14 @@
+{
+  "titulo_solicitado": "Manchester Mark I",
+  "categoria": "Hardware",
+  "semente": false,
+  "titulo": "Manchester Mark I",
+  "pageid": 581232,
+  "url": "https://pt.wikipedia.org/wiki/Manchester_Mark_I",
+  "wikidata_id": "Q1463814",
+  "desambiguacao": false,
+  "redirecionado": false,
+  "data_coleta": "2026-10-22T00:45:34+00:00",
+  "licenca": "CC BY-SA 4.0",
+  "texto": "O Manchester Mark I foi um dos primeiros computadores eletrônicos desenvolvidos. Foi construído pela Universidade de Manchester do periodo de 1948 a 1949. Também era chamado de MADM (Manchester Automatic Digital Machine). Ele foi desenvolvido a partir do SSEM (ou \"baby\") pelo Prof. F. C. Williams e pelo Prof. Tom Kilburn (nesse caso o seu prótotipo - O Manchester MARK I - The Baby Machine) e teve importância histórica devido ao pioneirismo no uso de um tipo de registrador de índice em sua arquitetura, além de ter sido a plataforma na qual a Autocode, uma das primeiras linguagens de programação de \"alto nível\", foi desenvolvida. O Mark I como todos, servia para calcular operações aritméticas, dispondo ainda de sub-rotinas integradas que calculavam funções logarítmicas e trigonométricas; mesmo assim o Mark I era um calculador lento demorando 3 a 5 segundos para efetuar uma multiplicação, mas era totalmente automático e podia realizar cálculos extensos sem intervenção humana."
+}

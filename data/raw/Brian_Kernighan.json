@@ -1,0 +1,14 @@
+{
+  "titulo_solicitado": "Brian Kernighan",
+  "categoria": "Pessoa",
+  "semente": false,
+  "titulo": "Brian Kernighan",
+  "pageid": 24906,
+  "url": "https://pt.wikipedia.org/wiki/Brian_Kernighan",
+  "wikidata_id": "Q92608",
+  "desambiguacao": false,
+  "redirecionado": false,
+  "data_coleta": "2026-10-22T00:08:23+00:00",
+  "licenca": "CC BY-SA 4.0",
+  "texto": "Brian Kernighan ([ˈkɜːrnɪhæn]; (Toronto, 1942) é um cientista da computação canadense.\nEle trabalhou na Bell Labs e contribuiu com o desenvolvimento do Unix junto dos criadores Ken Thompson e Dennis Ritchie. O nome de Brian Kernighan tornou-se conhecido por ser o co-autor do primeiro livro sobre a linguagem de programação C (The C Programming Language) com Dennis Ritchie. Kernighan teria dito que não contribuiu para o desenvolvimento da linguagem C (\"O trabalho foi todo do Dennis Ritchie\").\nKernighan foi autor de muitos programas Unix, incluindo ditroff. Ele é co-autor das linguagens de programação AWK e AMPL. O \"K\" do \"C K&R\" e também o do AWK remetem para o seu nome.\nNasceu em Toronto, Canadá, e concluiu o seu bacharelato em \"Engenharia Física\" na Universidade de Toronto. Obteve o seu doutoramento em Engenharia Electrotécnica na Universidade de Princeton, onde desde de 2004 é professor no departamento de Ciência da Computação.\n\n== Carreira e pesquisa ==\n\n=== Livros e relatórios ===\nThe Elements of Programming Style, with P. J. Plauger\nSoftware Tools, a book and set of tools for Ratfor, co-created in part with P. J. Plauger\nSoftware Tools in Pascal, a book and set of tools for Pascal, with P. J. Plauger\nThe AWK Programming Language, with Alfred V. Aho, and Peter J. Weinberger\nThe C Programming Language, with C creator Dennis Ritchie, the first book on C\nThe Practice of Programming, with Rob Pike\nThe Unix Programming Environment, a tutorial book, with Rob Pike\n\"Why Pascal is Not My Favorite Programming Language\", a popular criticism of Niklaus Wirth's Pascal. Some parts of the criticism are obsolete due to ISO 7185 (Programming Languages - Pascal); the criticism was written before ISO 7185 was created. (AT&T Computing Science Technical Report #100)\nUNIX: A History and a Memoir, a historical account of the development of Unix from the perspective of his role at Bell Labs\n\n=== Programas ===\n1972: The first documented \"Hello, world!\" program, in Kernighan's \"A Tutorial Introduction to the Language B\"\n1973: ditroff, or \"device independent troff\", which allowed troff to be used with any device\n1974: The eqn typesetting language for troff, with Lorinda Cherry\n1976: Ratfor\n1977: The m4 macro processing language, with Dennis Ritchie\n1977: The AWK programming language, with Alfred Aho and Peter J. Weinberger, and its book The AWK Programming Language\n1985: The AMPL programming language\n1988: The pic typesetting language for troff\n\n== Publicações =="
+}

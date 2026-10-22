@@ -1,0 +1,148 @@
+categoria,titulo,semente
+Pessoa,Alan Turing,sim
+Pessoa,Ada Lovelace,não
+Pessoa,Charles Babbage,não
+Pessoa,Grace Hopper,sim
+Pessoa,John von Neumann,não
+Pessoa,Claude Shannon,não
+Pessoa,Dennis Ritchie,sim
+Pessoa,Ken Thompson,sim
+Pessoa,Brian Kernighan,não
+Pessoa,Linus Torvalds,sim
+Pessoa,Richard Stallman,não
+Pessoa,Tim Berners-Lee,sim
+Pessoa,Vint Cerf,sim
+Pessoa,Robert Kahn,não
+Pessoa,John McCarthy,sim
+Pessoa,Marvin Minsky,não
+Pessoa,Donald Knuth,não
+Pessoa,Edsger Dijkstra,não
+Pessoa,Niklaus Wirth,não
+Pessoa,John Backus,não
+Pessoa,Bjarne Stroustrup,não
+Pessoa,James Gosling,não
+Pessoa,Guido van Rossum,não
+Pessoa,Alan Kay,não
+Pessoa,Douglas Engelbart,não
+Pessoa,Bill Gates,sim
+Pessoa,Paul Allen,não
+Pessoa,Steve Jobs,sim
+Pessoa,Steve Wozniak,não
+Pessoa,Gordon Moore,não
+Pessoa,Robert Noyce,não
+Pessoa,William Shockley,não
+Pessoa,John Bardeen,não
+Pessoa,Walter Brattain,não
+Pessoa,Herman Hollerith,não
+Pessoa,Konrad Zuse,não
+Pessoa,John Mauchly,não
+Pessoa,J. Presper Eckert,não
+Pessoa,Tony Hoare,não
+Pessoa,Barbara Liskov,não
+Organização,IBM,sim
+Organização,Bell Labs,sim
+Organização,Xerox PARC,sim
+Organização,Microsoft,não
+Organização,Apple Inc.,não
+Organização,Intel,não
+Organização,Fairchild Semiconductor,não
+Organização,AT&T,não
+Organização,Sun Microsystems,não
+Organização,Digital Equipment Corporation,não
+Organização,Hewlett-Packard,não
+Organização,Instituto de Tecnologia de Massachusetts,não
+Organização,Universidade Stanford,não
+Organização,Universidade de Cambridge,não
+Organização,Universidade da Pensilvânia,não
+Organização,Universidade de Princeton,não
+Organização,Universidade da Califórnia em Berkeley,não
+Organização,DARPA,não
+Organização,CERN,não
+Organização,Free Software Foundation,não
+Organização,Bletchley Park,não
+Organização,Netscape Communications,não
+Organização,Google,não
+Organização,Mozilla Foundation,não
+Organização,Python Software Foundation,não
+Organização,Oracle Corporation,não
+Organização,Motorola,não
+Organização,Texas Instruments,não
+Organização,Universidade de Helsinque,não
+Linguagem,Fortran,não
+Linguagem,COBOL,não
+Linguagem,Lisp,não
+Linguagem,ALGOL,não
+Linguagem,BASIC,não
+Linguagem,Pascal (linguagem de programação),não
+Linguagem,Modula-2,não
+Linguagem,B (linguagem de programação),não
+Linguagem,BCPL,não
+Linguagem,C (linguagem de programação),sim
+Linguagem,C++,não
+Linguagem,Simula,não
+Linguagem,Smalltalk,não
+Linguagem,Objective-C,não
+Linguagem,Swift (linguagem de programação),não
+Linguagem,Java (linguagem de programação),não
+Linguagem,C Sharp,não
+Linguagem,Python,sim
+Linguagem,ABC (linguagem de programação),não
+Linguagem,JavaScript,não
+Linguagem,Perl,não
+Linguagem,Ruby (linguagem de programação),não
+Linguagem,PHP,não
+Linguagem,Haskell (linguagem de programação),não
+Linguagem,Prolog,não
+Linguagem,Ada (linguagem de programação),não
+Linguagem,Go (linguagem de programação),não
+Linguagem,Rust (linguagem de programação),não
+Linguagem,ML (linguagem de programação),não
+Hardware,Máquina analítica,não
+Hardware,Máquina diferencial,não
+Hardware,ENIAC,sim
+Hardware,EDVAC,não
+Hardware,UNIVAC I,não
+Hardware,Colossus (computador),não
+Hardware,Z3,não
+Hardware,Harvard Mark I,não
+Hardware,Manchester Baby,não
+Hardware,Manchester Mark I,não
+Hardware,IBM 701,não
+Hardware,IBM 704,não
+Hardware,IBM System/360,não
+Hardware,IBM PC,não
+Hardware,PDP-1,não
+Hardware,PDP-7,não
+Hardware,PDP-11,não
+Hardware,VAX,não
+Hardware,Altair 8800,não
+Hardware,Apple I,não
+Hardware,Apple II,não
+Hardware,Macintosh,não
+Hardware,Xerox Alto,não
+Hardware,Intel 4004,não
+Hardware,Intel 8080,não
+Hardware,Intel 8086,não
+Hardware,Cray-1,não
+Hardware,Commodore 64,não
+Hardware,NeXT Computer,não
+Hardware,Mouse,não
+Sistema/Invenção/Evento,Unix,sim
+Sistema/Invenção/Evento,Multics,não
+Sistema/Invenção/Evento,Linux (núcleo),não
+Sistema/Invenção/Evento,Projeto GNU,não
+Sistema/Invenção/Evento,MS-DOS,não
+Sistema/Invenção/Evento,Microsoft Windows,não
+Sistema/Invenção/Evento,ARPANET,sim
+Sistema/Invenção/Evento,Internet,não
+Sistema/Invenção/Evento,World Wide Web,sim
+Sistema/Invenção/Evento,TCP/IP,não
+Sistema/Invenção/Evento,Ethernet,não
+Sistema/Invenção/Evento,Transistor,sim
+Sistema/Invenção/Evento,Circuito integrado,não
+Sistema/Invenção/Evento,Microprocessador,não
+Sistema/Invenção/Evento,Máquina de Turing,não
+Sistema/Invenção/Evento,Teste de Turing,não
+Sistema/Invenção/Evento,Lei de Moore,não
+Sistema/Invenção/Evento,Arquitetura de von Neumann,não
+Sistema/Invenção/Evento,Interface gráfica do utilizador,não

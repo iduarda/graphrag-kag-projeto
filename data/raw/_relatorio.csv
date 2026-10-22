@@ -1,0 +1,148 @@
+titulo_solicitado,status,titulo_final,caracteres
+Alan Turing,ok,Alan Turing,48432
+Ada Lovelace,ok,Ada Lovelace,16857
+Charles Babbage,ok,Charles Babbage,5661
+Grace Hopper,ok,Grace Hopper,11708
+John von Neumann,ok,John von Neumann,113728
+Claude Shannon,ok,Claude Shannon,12380
+Dennis Ritchie,ok,Dennis Ritchie,10522
+Ken Thompson,texto_curto,Ken Thompson,820
+Brian Kernighan,ok,Brian Kernighan,2483
+Linus Torvalds,ok,Linus Torvalds,9900
+Richard Stallman,ok,Richard Stallman,11247
+Tim Berners-Lee,ok,Tim Berners-Lee,16683
+Vint Cerf,ok,Vint Cerf,1608
+Robert Kahn,texto_curto,Robert Kahn,387
+John McCarthy,ok,John McCarthy,2702
+Marvin Minsky,ok,Marvin Minsky,4928
+Donald Knuth,ok,Donald Knuth,19704
+Edsger Dijkstra,ok,Edsger Dijkstra,14224
+Niklaus Wirth,ok,Niklaus Wirth,3450
+John Backus,ok,John Backus,2192
+Bjarne Stroustrup,ok,Bjarne Stroustrup,4068
+James Gosling,ok,James Gosling,6134
+Guido van Rossum,ok,Guido van Rossum,3367
+Alan Kay,ok,Alan Kay,5881
+Douglas Engelbart,ok,Douglas Engelbart,6007
+Bill Gates,ok,Bill Gates,17478
+Paul Allen,ok,Paul Allen,11980
+Steve Jobs,ok,Steve Jobs,44532
+Steve Wozniak,ok,Steve Wozniak,10465
+Gordon Moore,ok,Gordon Moore,2488
+Robert Noyce,ok,Robert Noyce,9827
+William Shockley,ok,William Bradford Shockley,9879
+John Bardeen,texto_curto,John Bardeen,1441
+Walter Brattain,ok,Walter Houser Brattain,12698
+Herman Hollerith,ok,Herman Hollerith,15531
+Konrad Zuse,ok,Konrad Zuse,3165
+John Mauchly,texto_curto,John Mauchly,866
+J. Presper Eckert,ok,John Presper Eckert,1557
+Tony Hoare,ok,Charles Antony Richard Hoare,2530
+Barbara Liskov,ok,Barbara Liskov,3335
+IBM,ok,IBM,12244
+Bell Labs,ok,Bell Labs,58818
+Xerox PARC,ok,Xerox PARC,3213
+Microsoft,ok,Microsoft,18402
+Apple Inc.,ok,Apple,23449
+Intel,ok,Intel,75967
+Fairchild Semiconductor,ok,Fairchild Semiconductor,21786
+AT&T,ok,AT&T,36799
+Sun Microsystems,ok,Sun Microsystems,13013
+Digital Equipment Corporation,ok,Digital Equipment Corporation,67985
+Hewlett-Packard,ok,Hewlett-Packard,14422
+Instituto de Tecnologia de Massachusetts,ok,Instituto de Tecnologia de Massachusetts,61909
+Universidade Stanford,ok,Universidade Stanford,7151
+Universidade de Cambridge,ok,Universidade de Cambridge,29521
+Universidade da Pensilvânia,ok,Universidade da Pensilvânia,2044
+Universidade de Princeton,texto_curto,Universidade de Princeton,658
+Universidade da Califórnia em Berkeley,ok,Universidade da Califórnia em Berkeley,2238
+DARPA,ok,Agência de Projetos de Pesquisa Avançada de Defesa,50340
+CERN,ok,Organização Europeia para a Investigação Nuclear,19583
+Free Software Foundation,ok,Free Software Foundation,4947
+Bletchley Park,ok,Bletchley Park,13778
+Netscape Communications,ok,Netscape,7080
+Google,ok,Google,60853
+Mozilla Foundation,texto_curto,Mozilla Foundation,961
+Python Software Foundation,texto_curto,Python Software Foundation,1311
+Oracle Corporation,ok,Oracle Corporation,1982
+Motorola,ok,Motorola,7451
+Texas Instruments,ok,Texas Instruments,28388
+Universidade de Helsinque,texto_curto,Universidade de Helsinque,1055
+Fortran,ok,Fortran,16664
+COBOL,ok,COBOL,21481
+Lisp,ok,Lisp,18135
+ALGOL,ok,ALGOL,5588
+BASIC,ok,BASIC,15784
+Pascal (linguagem de programação),ok,Pascal (linguagem de programação),10720
+Modula-2,ok,Modula-2,9178
+B (linguagem de programação),ok,B (linguagem de programação),4366
+BCPL,texto_curto,BCPL,764
+C (linguagem de programação),ok,C (linguagem de programação),22361
+C++,ok,C++,41046
+Simula,ok,Simula,6526
+Smalltalk,ok,Smalltalk,4306
+Objective-C,ok,Objective-C,5594
+Swift (linguagem de programação),ok,Swift (linguagem de programação),6761
+Java (linguagem de programação),ok,Java (linguagem de programação),13468
+C Sharp,ok,C Sharp,35617
+Python,ok,Python,30210
+ABC (linguagem de programação),texto_curto,ABC (linguagem de programação),958
+JavaScript,ok,JavaScript,37034
+Perl,ok,Perl,12648
+Ruby (linguagem de programação),ok,Ruby (linguagem de programação),10061
+PHP,ok,PHP,11020
+Haskell (linguagem de programação),ok,Haskell (linguagem de programação),25407
+Prolog,ok,Prolog,23649
+Ada (linguagem de programação),ok,Ada (linguagem de programação),22666
+Go (linguagem de programação),ok,Go (linguagem de programação),4877
+Rust (linguagem de programação),ok,Rust (linguagem de programação),13453
+ML (linguagem de programação),ok,ML (linguagem de programação),2250
+Máquina analítica,ok,Máquina analítica,14898
+Máquina diferencial,ok,Máquina diferencial,1729
+ENIAC,ok,ENIAC,8929
+EDVAC,ok,EDVAC,2756
+UNIVAC I,ok,UNIVAC I,2196
+Colossus (computador),ok,Colossus (computador),31878
+Z3,texto_curto,Z3,812
+Harvard Mark I,ok,Harvard Mark I,3517
+Manchester Baby,ok,Manchester Baby,19653
+Manchester Mark I,texto_curto,Manchester Mark I,987
+IBM 701,ok,IBM 701,3400
+IBM 704,ok,IBM 704,2471
+IBM System/360,texto_curto,IBM System/360,709
+IBM PC,ok,IBM PC,14940
+PDP-1,ok,PDP-1,10361
+PDP-7,texto_curto,PDP-7,654
+PDP-11,ok,PDP-11,3085
+VAX,ok,VAX/VMS,13618
+Altair 8800,ok,Altair 8800,10178
+Apple I,ok,Apple I,3514
+Apple II,texto_curto,Apple II,1220
+Macintosh,ok,Macintosh,13383
+Xerox Alto,ok,Xerox Alto,5042
+Intel 4004,ok,Intel 4004,4348
+Intel 8080,texto_curto,Intel 8080,657
+Intel 8086,ok,Intel 8086,27484
+Cray-1,texto_curto,Cray-1,885
+Commodore 64,ok,Commodore 64,7479
+NeXT Computer,ok,NeXT,13899
+Mouse,ok,Rato (informática),6356
+Unix,ok,Unix,22610
+Multics,ok,Multics,19328
+Linux (núcleo),ok,Linux (núcleo),53483
+Projeto GNU,ok,Projeto GNU,4889
+MS-DOS,ok,MS-DOS,13961
+Microsoft Windows,ok,Microsoft Windows,12783
+ARPANET,ok,ARPANET,22218
+Internet,ok,Internet,65594
+World Wide Web,ok,World Wide Web,13117
+TCP/IP,ok,TCP/IP,30515
+Ethernet,ok,Ethernet,27209
+Transistor,ok,Transístor,9799
+Circuito integrado,ok,Circuito integrado,10016
+Microprocessador,ok,Microprocessador,15259
+Máquina de Turing,ok,Máquina de Turing,35148
+Teste de Turing,ok,Teste de Turing,29391
+Lei de Moore,ok,Lei de Moore,4567
+Arquitetura de von Neumann,ok,Arquitetura de von Neumann,11922
+Interface gráfica do utilizador,ok,Interface gráfica do utilizador,18818

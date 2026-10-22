@@ -1,0 +1,14 @@
+{
+  "titulo_solicitado": "Tony Hoare",
+  "categoria": "Pessoa",
+  "semente": false,
+  "titulo": "Charles Antony Richard Hoare",
+  "pageid": 113671,
+  "url": "https://pt.wikipedia.org/wiki/Charles_Antony_Richard_Hoare",
+  "wikidata_id": "Q92602",
+  "desambiguacao": false,
+  "redirecionado": true,
+  "data_coleta": "2026-10-22T00:43:19+00:00",
+  "licenca": "CC BY-SA 4.0",
+  "texto": "Charles Antony Richard Hoare, também conhecido como Tony Hoare ou C. A. R. Hoare (Colombo, 11 de janeiro de 1934 – 5 de março de 2026), foi um cientista da computação britânico.\nConhecido pelo desenvolvimento do Quicksort em 1960, o algoritmo de ordenação mais utilizado no mundo, e muito provavelmente o algoritmo mais usado dentre todos os tipos existentes. Ele também desenvolveu a Lógica de Hoare e a linguagem formal CSP, usada para especificar interações entre processos concorrentes e que serviu de inspiração para a linguagem de programação Occam.\nNascido em Colombo, Sri Lanka, de pais nascidos no Reino Unido, graduou-se Bacharel pela Universidade de Oxford em 1956. Ele permaneceu ainda um ano em Oxford estudando Estatística em nível de graduação, e em seguida estudou tradução computacional de linguagens humanas na Universidade de Moscou, na Rússia. Em 1960 começou a trabalhar na Elliot Brothers, Ltd, uma pequena firma de desenvolvimento de programas, onde implementou a ALGOL 60 e começou a trabalhar inicialmente desenvolvendo algoritmos. Tornou-se professor de Ciência da Computação na Queen's University, em Belfast (Irlanda do Norte) em 1968, e em 1977 mudou-se para Oxford, também para trabalhar como professor. Hoje ocupa o cargo de Professor lá, e também é um dos pesquisadores mais antigos do centro de pesquisas da Microsoft em Cambridge, na Inglaterra.\nRecebeu o Prêmio Turing da ACM de 1980, por \"suas contribuições fundamentais para a definição e projeto de linguagens de programação\". O prêmio lhe foi entregue na Conferência Anual da ACM em Nashville, Tennessee, em 27 de outubro de 1980, por Walter Carlson, presidente do comitê de premiação.\nEm 1985 foi eleito fellow da Royal Society. Em 2005 foi eleito também fellow da Royal Academy of Engineering.\nMorreu em 5 de março de 2026 aos seus 92 anos.\n\n== Livros ==\nO.-J. Dahl, E. W. Dijkstra e C. A. R. Hoare (1972). Structured Programming. [S.l.]: Academic Press. ISBN 0-12-200550-3 \nC. A. R. Hoare (1985). Communicating Sequential Processes. (available online at http://www.usingcsp.com/ in PDF format). [S.l.]: Prentice Hall International Series in Computer Science. ISBN 0-13-153271-5 hardback or ISBN 0-13-153289-8 paperback \nC. A. R. Hoare e M. J. C. Gordon (1992). Mechanised Reasoning and Hardware Design. [S.l.]: Prentice Hall International Series in Computer Science. ISBN 0-13-572405-8 \nC. A. R. Hoare e He Jifeng (1998). Unifying Theories of Programming. [S.l.]: Prentice Hall International Series in Computer Science. ISBN 0-13-458761-8"
+}

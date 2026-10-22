@@ -1,0 +1,14 @@
+{
+  "titulo_solicitado": "Máquina diferencial",
+  "categoria": "Hardware",
+  "semente": false,
+  "titulo": "Máquina diferencial",
+  "pageid": 306235,
+  "url": "https://pt.wikipedia.org/wiki/M%C3%A1quina_diferencial",
+  "wikidata_id": "Q628007",
+  "desambiguacao": false,
+  "redirecionado": false,
+  "data_coleta": "2026-10-22T00:45:19+00:00",
+  "licenca": "CC BY-SA 4.0",
+  "texto": "A máquina diferencial foi um invento de Charles Babbage, para cálculos com polinômios.\n\n== História ==\nEm meados do século XIX, em plena segunda fase da Revolução Industrial, estavam em progresso muitas tentativas de automação de processos, com destaque para aqueles envolvendo cálculos para a composição de tabelas trigonométricas e de logaritmos quer para o emprego na navegação, na pesquisa científica ou na engenharia.\nAlgumas pessoas tentavam conceber máquinas que executassem este tipo de cálculo, tendo sido construídos vários modelos. A máquina mais avançada, entretanto, jamais entrou em produção: a chamada máquina diferencial de Babbage.\nUm modelo foi apresentado por Babbage, na Inglaterra, em 1822, capaz de resolver equações polinômicas através de diferenças entre números, e assim, de efetuar os cálculos necessários para construir tabelas de logaritmos.\nA máquina tinha a capacidade de receber dados, processá-los, armazená-los e exibi-los. Graças a ela Babbage ficou conhecido como o pai do computador e conseguiu apoio governamental para criar um modelo mais complexo, a \"Maquina Analítica\".\nDevido a problemas de engenharia e a conflitos pessoais e políticos de Babbage, o projeto do Engenho Analítico jamais foi concluído.\n\n== Benefícios ==\nQuais os benefícios que a máquina diferencial trouxe?\n\nFoi a primeira tentativa de se construir uma máquina de computação que fosse automática e adaptável;\nDiminuíram-se os erros nas leituras dos resultados, pois ela imprimia-os em cartões perfurados;\nFoi um dos pontos de partida para a indústria de máquinas.\n\n== Science Museum ==\nEm 1991, o Science Museum em Londres construiu a máquina diferencial de Babbage n° 2 para uma exposição sobre a história da computação."
+}

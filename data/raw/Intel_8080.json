@@ -1,0 +1,14 @@
+{
+  "titulo_solicitado": "Intel 8080",
+  "categoria": "Hardware",
+  "semente": false,
+  "titulo": "Intel 8080",
+  "pageid": 170654,
+  "url": "https://pt.wikipedia.org/wiki/Intel_8080",
+  "wikidata_id": "Q324610",
+  "desambiguacao": false,
+  "redirecionado": false,
+  "data_coleta": "2026-10-22T00:46:02+00:00",
+  "licenca": "CC BY-SA 4.0",
+  "texto": "Os microprocessadores Intel 8080 e 8080a de 8 bits foram criados pela Intel, sucedendo ao microprocessador 8008.\n\n== Características Técnicas ==\nO 8080 possuía um contador de programa de 16 bits o que resultava em uma capacidade de endereçamento de memória de 64 kbytes mais 512 portas de entrada/saída, tinha 7 registradores de uso geral de 8 bits cada, instruções lógicas e aritméticas com modos de endereçamento direto, indireto e imediato, trabalhando a um clock inicial de 2 MHz. Foi lançado em abril de 1974, contando com 6000 transistores em tecnologia LSI NMOS de 6 microns, sendo disponível em encapsulamento plástico ou cerâmico de 40 pinos (DIP)."
+}

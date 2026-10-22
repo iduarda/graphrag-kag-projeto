@@ -1,0 +1,14 @@
+{
+  "titulo_solicitado": "IBM System/360",
+  "categoria": "Hardware",
+  "semente": false,
+  "titulo": "IBM System/360",
+  "pageid": 802856,
+  "url": "https://pt.wikipedia.org/wiki/IBM_System/360",
+  "wikidata_id": "Q609843",
+  "desambiguacao": false,
+  "redirecionado": false,
+  "data_coleta": "2026-10-22T00:45:40+00:00",
+  "licenca": "CC BY-SA 4.0",
+  "texto": "O IBM System/360 (S/360) constitui-se numa família de mainframe lançada pela IBM em 7 de Abril de 1964. Foi a primeira família de computadores a fazer uma distinção clara entre a arquitectura e a implementação, permitindo que a IBM lançasse um conjunto de projectos compatíveis em várias faixas de preço. Foi comercialmente muito bem-sucedido, permitindo que os consumidores comprassem um sistema menor sabendo que sempre poderiam migrar para um modelo mais avançado em caso de necessidade. O projecto é considerado por muitos como sendo um dos mais bem-sucedidos da história dos computadores, influenciando o desenho de novas máquinas por anos a fio. O responsável pela arquitectura do S/360 foi Gene Amdahl."
+}
