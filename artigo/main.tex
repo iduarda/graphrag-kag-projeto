@@ -1,0 +1,66 @@
+% =====================================================================
+% Artigo técnico — Projeto Final GraphRAG & KAG
+% Template: SBC Conferences (sbc-template.sty + sbc.bst, disponíveis no
+% template "SBC Conferences" do Overleaf).
+%
+% Cada seção fica em um arquivo próprio em secoes/, com o responsável
+% indicado no topo. Cada pessoa edita SÓ o seu arquivo, para evitar
+% conflitos no Git. Trechos ainda não escritos aparecem em vermelho no PDF.
+% =====================================================================
+
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+\usepackage{graphicx,url}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,fit,backgrounds}
+
+% Marca trechos que ainda precisam ser escritos (aparece em vermelho).
+% Antes da entrega final, nenhum \pendente pode sobrar.
+\newcommand{\pendente}[1]{\textcolor{red}{\textbf{[PENDENTE: #1]}}}
+
+% Nomes de rótulos e relações do grafo em fonte monoespaçada.
+\newcommand{\rot}[1]{\texttt{:#1}}
+\newcommand{\rel}[1]{\texttt{#1}}
+
+\sloppy
+
+\title{Recuperação Aumentada por Grafos de Conhecimento\\
+sobre a História da Computação}
+
+\author{Maria Eduarda Zumbé\inst{1}, Anna Maria Albino\inst{1},
+  Pessoa 3\inst{1}, Pessoa 4\inst{1}, Pessoa 5\inst{1}, Pessoa 6\inst{1}}
+
+\address{Curso de Bacharelado em Ciência da Computação\\
+  \pendente{nome da instituição -- cidade -- UF -- Brasil}
+  \email{\pendente{e-mails dos autores}}
+}
+
+\begin{document}
+
+\maketitle
+
+\input{secoes/00_resumo}
+
+\input{secoes/01_introducao}
+\input{secoes/02_fundamentacao}
+\input{secoes/03_dataset}
+\input{secoes/04_modelagem}
+\input{secoes/05_extracao}
+\input{secoes/06_ingestao}
+\input{secoes/07_recuperacao}
+\input{secoes/08_algoritmos_grounding}
+\input{secoes/09_interface}
+\input{secoes/10_avaliacao}
+\input{secoes/11_conclusao}
+
+\bibliographystyle{sbc}
+\bibliography{referencias}
+
+\end{document}

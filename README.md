@@ -40,12 +40,17 @@ Documentos → [1. Text-to-Graph] → [2. Neo4j LPG] → [3. Recuperação Híbr
 
 ```
 .
+├── artigo/
+│   ├── main.tex              # Artigo no template SBC (ver artigo/README.md)
+│   ├── referencias.bib       # Referências bibliográficas
+│   └── secoes/               # Uma seção por arquivo, cada uma com seu responsável
 ├── data/
 │   ├── paginas.csv           # Lista das 147 páginas (categoria, título, semente)
 │   └── raw/                  # Um JSON por página coletada + _relatorio.csv
 ├── docs/
 │   ├── modelo_lpg.md         # Modelo do grafo (nós, relações, propriedades)
 │   ├── formato_extracao.md   # Formato JSON da extração (Pessoa 2 -> Pessoa 3)
+│   ├── mentor_tecnico.md     # Como configurar o Mentor Técnico (prompt do professor)
 │   └── exemplo_extracao.json # Exemplo válido do formato
 ├── schema/
 │   ├── schema.cypher         # Cria constraints e índices no Neo4j

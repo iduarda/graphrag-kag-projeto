@@ -1,0 +1,55 @@
+% =====================================================================
+% 3. Dataset
+% Responsável: Pessoa 1 (Maria Eduarda) — ESCRITA
+%
+% Números calculados a partir de data/raw/_relatorio.csv. Se a coleta
+% for refeita, atualizar a Tabela 1 e os totais do texto.
+% =====================================================================
+
+\section{Dataset}
+\label{sec:dataset}
+
+O domínio escolhido foi a história da computação: as pessoas, organizações, linguagens de programação, máquinas e tecnologias que marcaram a área. O domínio foi escolhido por três motivos. Primeiro, os textos sobre o tema são narrativos e não estruturados, o que exige uma etapa real de extração de entidades e relações. Segundo, as mesmas entidades aparecem em muitos documentos (o Bell Labs, por exemplo, é citado nas páginas de pessoas, linguagens e sistemas operacionais), o que gera conexões entre documentos e torna necessária a resolução de entidades. Terceiro, o domínio favorece perguntas que só podem ser respondidas combinando várias relações, como ``que linguagens foram criadas por pessoas que trabalharam no Bell Labs?'', que é o tipo de consulta multi-hop que motiva o uso de grafos.
+
+\subsection{Seleção das páginas}
+
+O corpus é formado por artigos da Wikipédia em português. A escolha por um único idioma, o mesmo das perguntas dos usuários, evita que a busca textual e a resolução de entidades precisem lidar com nomes e termos em línguas diferentes.
+
+As páginas não foram escolhidas ao acaso. A seleção partiu de 20 páginas \emph{semente}, centrais na história da computação (por exemplo, Alan Turing, Bell Labs, Unix, linguagem C, ENIAC, ARPANET e transistor), e foi ampliada com páginas citadas por elas. Com isso, o corpus se organiza em grupos densamente conectados, como o do Bell Labs (Dennis Ritchie, Ken Thompson, Unix, C, PDP-11), o que vai do transistor ao microprocessador (Shockley, Fairchild, Intel, Intel 4004, Altair 8800) e o da Internet (Vint Cerf, Robert Kahn, TCP/IP, ARPANET, CERN, World Wide Web). As páginas foram distribuídas em cinco categorias, apresentadas na Tabela~\ref{tab:dataset}.
+
+\begin{table}[ht]
+\centering
+\caption{Composição do dataset por categoria.}
+\label{tab:dataset}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Categoria} & \textbf{Páginas} & \textbf{Caracteres (mil)} \\
+\midrule
+Pessoa                     & 40  & 483   \\
+Organização                & 29  & 647   \\
+Linguagem de programação   & 29  & 433   \\
+Hardware                   & 30  & 199   \\
+Sistema, invenção ou evento & 19 & 421   \\
+\midrule
+\textbf{Total}             & \textbf{147} & \textbf{$\approx$\,2.180} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+A lista inicial tinha 151 páginas. Quatro foram removidas por não existirem na Wikipédia em português (Centrum Wiskunde \& Informatica, a linguagem Logo, o navegador Mosaic e a Conferência de Dartmouth). % CONFERIR: buscar "Dartmouth" nos arquivos de McCarthy e Minsky em
+% data/raw/. Se não aparecer, apagar o trecho entre parênteses.
+Essas remoções tiveram pouco impacto nas conexões do corpus, pois os temas correspondentes também são tratados em outras páginas (por exemplo, a Conferência de Dartmouth está ligada a John McCarthy e Marvin Minsky, cujas páginas fazem parte do dataset). Uma página que apontava para uma página de desambiguação (Colossus) foi substituída pela página do computador correspondente.
+
+\subsection{Coleta e pré-processamento}
+
+Os textos foram coletados em outubro de 2026 pela API do MediaWiki, por um script em Python disponível no repositório do projeto. Para cada página, a API retorna o texto em formato simples, o título final (após seguir redirecionamentos), a URL e o identificador da página no Wikidata. Doze títulos da lista foram resolvidos por redirecionamento, como ``Transistor'' para ``Transístor'' e ``Mouse'' para ``Rato (informática)''.
+
+No pré-processamento, foram removidas as seções finais dos artigos que não descrevem a entidade (Referências, Ligações externas, Bibliografia, Ver também e Notas), e as quebras de linha repetidas foram normalizadas. Cada página foi salva em um arquivo JSON com o texto limpo e seus metadados: título, URL, identificador do Wikidata, categoria, data da coleta e licença.
+
+O corpus resultante tem cerca de 2,2 milhões de caracteres, com mediana de aproximadamente 10 mil caracteres por página. O tamanho das páginas varia muito: de 387 caracteres (Robert Kahn) a mais de 110 mil (John von Neumann). Dezessete páginas têm menos de 1.500 caracteres. % CONFERIR: buscar "Kahn" em data/raw/TCP_IP.json e data/raw/ARPANET.json
+% e ajustar o exemplo conforme o que for encontrado.
+Elas foram mantidas de propósito, pois essas entidades também são citadas em páginas maiores do corpus: Robert Kahn, por exemplo, está associado ao desenvolvimento do TCP/IP e da ARPANET, ambos presentes no dataset. Combinar informações espalhadas por várias páginas é justamente o que a travessia multi-hop no grafo deve explorar.
+
+\subsection{Licença e uso para avaliação}
+
+O conteúdo da Wikipédia é distribuído sob a licença CC~BY-SA~4.0, o que permite seu uso neste trabalho com a devida atribuição. Além do texto, cada página traz o identificador do Wikidata, base de conhecimento estruturada mantida pela mesma comunidade. Esses identificadores permitem comparar as relações extraídas automaticamente com fatos curados do Wikidata, o que é usado na avaliação descrita na Seção~\ref{sec:avaliacao}.

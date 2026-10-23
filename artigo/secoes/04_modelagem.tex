@@ -1,0 +1,143 @@
+% =====================================================================
+% 4. Modelagem do Grafo
+% Responsável: Pessoa 1 (Maria Eduarda) — ESCRITA
+%
+% Baseada em docs/modelo_lpg.md e schema/schema.cypher. Se o modelo
+% mudar, atualizar as tabelas e a figura.
+% =====================================================================
+
+\section{Modelagem do Grafo}
+\label{sec:modelagem}
+
+O conhecimento extraído é armazenado no Neo4j segundo o modelo de grafo de propriedades rotuladas (\emph{Labeled Property Graph}, LPG) \cite{angles2018pg,robinson2015graphdb}. Nesse modelo, nós e relações têm um tipo (rótulo) e podem carregar propriedades na forma chave--valor, o que permite representar tanto as entidades do domínio quanto informações sobre a origem de cada fato.
+
+\subsection{Duas camadas: conhecimento e procedência}
+
+O grafo foi dividido em duas camadas, ilustradas na Figura~\ref{fig:modelo}. A \emph{camada de conhecimento} contém as entidades do domínio e as relações entre elas; é sobre ela que ocorre a travessia multi-hop. A \emph{camada de procedência} contém os documentos da Wikipédia (\rot{Documento}) e os trechos em que foram divididos (\rot{Chunk}). As duas camadas se ligam pela relação \rel{MENCIONA}, de um trecho para cada entidade citada nele, e pela relação \rel{SOBRE}, de um documento para a entidade de que ele trata.
+
+Essa separação atende diretamente ao objetivo de reduzir alucinações: qualquer entidade ou relação usada para responder a uma pergunta pode ser rastreada até o trecho original de onde foi extraída, e esse trecho pode ser mostrado ao usuário como evidência.
+
+\begin{figure}[ht]
+\centering
+\resizebox{\linewidth}{!}{%
+\begin{tikzpicture}[
+  ent/.style={draw, rounded corners=3pt, minimum width=2.2cm, minimum height=0.7cm, font=\footnotesize},
+  prov/.style={ent, fill=gray!12},
+  lab/.style={font=\scriptsize, inner sep=1.5pt},
+  >={Stealth[length=1.6mm]}]
+  % camada de procedência (coluna da esquerda)
+  \node[prov] (doc) at (0,0)  {Documento};
+  \node[prov] (chk) at (0,-2) {Chunk};
+  % camada de conhecimento (grade 2 x 3)
+  \node[ent] (pes) at (5.0,0)  {Pessoa};
+  \node[ent] (org) at (10.3,0)  {Organizacao};
+  \node[ent] (lin) at (5.0,-2) {Linguagem};
+  \node[ent] (tec) at (10.3,-2) {Tecnologia};
+  \node[ent] (hw)  at (10.3,-4) {Hardware};
+  % relações de procedência e ligação entre camadas
+  \draw[->] (doc) -- node[lab, left] (tc) {TEM\_CHUNK} (chk);
+  \draw[->, dashed] (doc) -- node[lab, above] {SOBRE} (pes);
+  \draw[->, dashed] (chk) -- node[lab, above] {MENCIONA} (lin);
+  % relações da camada de conhecimento
+  \draw[->] (pes) -- node[lab, above] {TRABALHOU\_EM} (org);
+  \draw[->] (pes) -- node[lab, left] {CRIOU} (lin);
+  \draw[->] (org) -- node[lab, right] (dv) {DESENVOLVEU} (tec);
+  \draw[->] (tec) -- node[lab, above] {ESCRITO\_EM} (lin);
+  \draw[->] (tec) -- node[lab, right] (ex) {EXECUTA\_EM} (hw);
+  % caixas das camadas
+  \begin{scope}[on background layer]
+    \node[draw, dotted, inner sep=8pt, fit=(doc)(chk)(tc),
+          label={[font=\scriptsize]above:Procedência}] {};
+    \node[draw, dotted, inner sep=8pt, fit=(pes)(org)(hw)(dv)(ex),
+          label={[font=\scriptsize]above:Conhecimento}] {};
+  \end{scope}
+\end{tikzpicture}%
+}
+\caption{Visão simplificada do modelo. Linhas tracejadas ligam as duas camadas; \rel{MENCIONA} e \rel{SOBRE} podem apontar para qualquer entidade. Os rótulos \rot{Premio} e \rot{Local} e parte das relações foram omitidos para simplificar.}
+\label{fig:modelo}
+\end{figure}
+
+\subsection{Entidades e relações}
+
+A camada de conhecimento tem sete tipos de entidade, descritos na Tabela~\ref{tab:entidades}. Além do rótulo específico, todo nó de entidade recebe o rótulo genérico \rot{Entidade}. Isso permite manter um único índice textual e um único índice vetorial para todas as entidades, de modo que a busca não precisa saber de antemão o tipo do que procura. Todas as entidades compartilham as propriedades \texttt{id}, \texttt{nome}, \texttt{aliases} (formas alternativas do nome), \texttt{descricao}, \texttt{wikidata\_id} e \texttt{embedding}.
+
+\begin{table}[ht]
+\centering
+\caption{Tipos de entidade da camada de conhecimento.}
+\label{tab:entidades}
+\small
+\begin{tabularx}{\textwidth}{lXl}
+\toprule
+\textbf{Rótulo} & \textbf{Representa} & \textbf{Propriedades específicas} \\
+\midrule
+\rot{Pessoa}      & Pesquisadores, engenheiros e fundadores & anos de nascimento e morte \\
+\rot{Organizacao} & Empresas, universidades, laboratórios, agências e fundações & tipo, ano de fundação \\
+\rot{Linguagem}   & Linguagens de programação & ano, paradigmas \\
+\rot{Hardware}    & Computadores, processadores e periféricos & ano, tipo \\
+\rot{Tecnologia}  & Sistemas, redes, protocolos, invenções e conceitos & ano, tipo \\
+\rot{Premio}      & Prêmios e distinções & -- \\
+\rot{Local}       & Países e cidades & tipo \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Os rótulos \rot{Premio} e \rot{Local} não correspondem a páginas do corpus, mas foram incluídos porque aparecem com frequência nos textos e geram consultas multi-hop naturais, como ``quais ganhadores do Prêmio Turing trabalharam no Bell Labs?''.
+
+Foram definidos 14 tipos de relação, cada um restrito a tipos específicos de origem e destino (Tabela~\ref{tab:relacoes}). Essas restrições funcionam como um esquema semântico: uma relação \rel{CRIOU}, por exemplo, só pode ligar uma pessoa a uma linguagem, um hardware ou uma tecnologia. Extrações que violam essas regras são rejeitadas antes de chegar ao banco, o que evita que erros do modelo de linguagem se tornem fatos no grafo.
+
+\begin{table}[ht]
+\centering
+\caption{Tipos de relação e restrições de origem e destino.}
+\label{tab:relacoes}
+\small
+\begin{tabularx}{\textwidth}{llX}
+\toprule
+\textbf{Relação} & \textbf{Origem} & \textbf{Destino} \\
+\midrule
+\rel{TRABALHOU\_EM} & Pessoa & Organizacao \\
+\rel{ESTUDOU\_EM} & Pessoa & Organizacao \\
+\rel{FUNDOU} & Pessoa & Organizacao \\
+\rel{CRIOU} & Pessoa & Linguagem, Hardware, Tecnologia \\
+\rel{DESENVOLVEU} & Organizacao & Linguagem, Hardware, Tecnologia \\
+\rel{INFLUENCIADA\_POR} & Linguagem & Linguagem \\
+\rel{ESCRITO\_EM} & Tecnologia & Linguagem \\
+\rel{EXECUTA\_EM} & Tecnologia, Linguagem & Hardware \\
+\rel{UTILIZA} & Hardware & Hardware \\
+\rel{SUCESSOR\_DE} & qualquer & mesmo tipo da origem \\
+\rel{RECEBEU} & Pessoa & Premio \\
+\rel{COLABOROU\_COM} & Pessoa & Pessoa \\
+\rel{NASCEU\_EM} & Pessoa & Local \\
+\rel{SEDIADA\_EM} & Organizacao & Local \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Toda relação extraída guarda três propriedades de procedência: \texttt{chunk\_ids}, a lista de trechos em que foi encontrada; \texttt{evidencia}, a frase do texto que a comprova; e \texttt{confianca}, um valor entre 0 e 1 atribuído na extração. Quando a mesma relação é encontrada em mais de um trecho, ela não é duplicada: o novo trecho é acrescentado à lista existente.
+
+\subsection{Identificadores, restrições e índices}
+
+Cada entidade recebe um identificador canônico formado pelo tipo e pelo nome normalizado, sem acentos e em minúsculas (por exemplo, \texttt{pessoa:alan\_turing} e \texttt{linguagem:cpp} para C++). Como todos os documentos usam a mesma regra, uma entidade citada em várias páginas converge para um único nó já na ingestão. Os casos que a regra não resolve, como ``Turing'' e ``Alan Turing'', são tratados na etapa de resolução de entidades (Seção~\ref{sec:ingestao}).
+
+A integridade do grafo é garantida por 11 restrições de unicidade: sobre o \texttt{id} de cada um dos sete rótulos específicos, do rótulo \rot{Entidade}, de \rot{Documento} e de \rot{Chunk}, e sobre a URL de \rot{Documento}. Para as consultas, foram criados três tipos de índice, resumidos na Tabela~\ref{tab:indices}.
+
+\begin{table}[ht]
+\centering
+\caption{Índices criados no Neo4j.}
+\label{tab:indices}
+\small
+\begin{tabularx}{\textwidth}{lXX}
+\toprule
+\textbf{Tipo} & \textbf{Onde} & \textbf{Uso} \\
+\midrule
+Range (B-tree) & nome das entidades; categoria e título dos documentos; ano & Filtros e buscas exatas em consultas Cypher \\
+Fulltext & nome, \texttt{aliases} e descrição das entidades; texto dos trechos & Busca por palavras-chave e por formas alternativas de nomes \\
+Vetorial (cosseno) & \texttt{embedding} das entidades e dos trechos & Busca semântica a partir da pergunta do usuário \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Os índices vetoriais têm 768 dimensões, correspondentes ao modelo de \emph{embedding} \texttt{multilingual-e5-base} \cite{wang2024me5}. O modelo foi escolhido por ser gratuito, executável localmente, treinado para vários idiomas, incluindo o português, e por aceitar entradas de até 512 \emph{tokens}, o que comporta os trechos do corpus sem truncamento.
+
+\subsection{Verificação do esquema}
+
+O esquema é criado por um script Cypher idempotente, que pode ser executado várias vezes sem duplicar estruturas. Um segundo script verifica o resultado: confere a existência das 11 restrições e dos índices (17 do tipo range, incluindo os criados automaticamente pelas restrições, 2 fulltext e 2 vetoriais, todos no estado \texttt{ONLINE}), insere nós de teste, executa uma consulta em cada índice textual e vetorial e remove os nós de teste ao final. Na versão 5.26 do Neo4j utilizada no projeto, todos os testes passaram, inclusive a busca textual por uma forma alternativa do nome armazenada na lista \texttt{aliases}.
