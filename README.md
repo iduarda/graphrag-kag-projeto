@@ -45,6 +45,9 @@ Documentos → [1. Text-to-Graph] → [2. Neo4j LPG] → [3. Recuperação Híbr
 │   └── raw/                  # Um JSON por página coletada + _relatorio.csv
 ├── docs/
 │   └── modelo_lpg.md         # Modelo do grafo (nós, relações, propriedades)
+├── schema/
+│   ├── schema.cypher         # Cria constraints e índices no Neo4j
+│   └── verificar_schema.cypher  # Testa se o schema está funcionando
 ├── scripts/
 │   └── coletar_wikipedia.py  # Coleta dos textos pela API da Wikipédia
 ├── neo4j/
@@ -133,6 +136,33 @@ O script pula as páginas já baixadas; use `--forcar` para baixar tudo de novo.
    ```
    Os dois devem retornar a versão (ex.: `5.26.x`).
 
+### Criar o schema (constraints e índices)
+
+Com o banco ligado, rode na raiz do repositório (troque `SUA_SENHA` pela senha do `.env`):
+
+**Windows (PowerShell):**
+```powershell
+Get-Content schema/schema.cypher | docker exec -i neo4j-graphrag cypher-shell -u neo4j -p "SUA_SENHA"
+```
+
+**Linux/Mac:**
+```bash
+docker exec -i neo4j-graphrag cypher-shell -u neo4j -p "SUA_SENHA" < schema/schema.cypher
+```
+
+O script pode ser rodado mais de uma vez sem duplicar nada. Ele cria:
+
+| Tipo | Qtd. | Detalhe |
+|---|---|---|
+| Constraints de unicidade | 11 | `id` de cada rótulo, `Documento.url` |
+| Índices range (BTree) | 6 | nome, categoria, título, ano |
+| Índices fulltext | 2 | `entidade_fulltext`, `chunk_fulltext` |
+| Índices vetoriais | 2 | `chunk_embedding`, `entidade_embedding` (768 dim., cosseno) |
+
+Para conferir se tudo funciona, rode o `schema/verificar_schema.cypher` do mesmo jeito. Ele cria nós de teste, testa cada índice e apaga os nós no final. Resultado esperado: 11 constraints, índices RANGE 17 / FULLTEXT 2 / VECTOR 2 todos `ONLINE`, e uma linha encontrada em cada um dos 5 testes.
+
+Detalhes do modelo em [`docs/modelo_lpg.md`](docs/modelo_lpg.md).
+
 ### Comandos úteis
 
 | Ação | Comando |
@@ -170,6 +200,10 @@ _A preencher conforme o projeto avança (exigência do professor: toda bibliotec
 ## Entregáveis
 
 - [ ] Fase 1 — Proposta e modelagem LPG
+  - [x] Domínio e dataset (147 páginas da Wikipédia)
+  - [x] Modelo LPG conceitual
+  - [x] Schema no Neo4j (constraints e índices)
+  - [ ] Formato JSON de entidades e relações
 - [ ] Fase 2 — Ingestão e pipeline NLP/LLM
 - [ ] Fase 3 — Algoritmos e GraphRAG/KAG
 - [ ] Fase 4 — Código final, interface, artigo (SBC/IEEE) e defesa
