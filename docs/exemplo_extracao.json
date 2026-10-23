@@ -1,0 +1,202 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 12345,
+    "titulo": "Dennis Ritchie",
+    "url": "https://pt.wikipedia.org/wiki/Dennis_Ritchie",
+    "categoria": "Pessoa",
+    "wikidata_id": null
+  },
+  "extracao": {
+    "modelo_llm": "nome-do-modelo-usado",
+    "data": "2026-10-22T21:00:00+00:00"
+  },
+  "entidade_principal": "pessoa:dennis_ritchie",
+  "chunks": [
+    {
+      "id": "12345_0",
+      "ordem": 0,
+      "texto": "Dennis Ritchie (1941-2011) foi um cientista da computação norte-americano. Trabalhou no Bell Labs, onde criou a linguagem C no início da década de 1970, a partir da linguagem B."
+    },
+    {
+      "id": "12345_1",
+      "ordem": 1,
+      "texto": "Junto com Ken Thompson, Ritchie desenvolveu o sistema operacional Unix, que foi reescrito em C e executado no PDP-11. Em 1983, os dois receberam o Prêmio Turing."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "pessoa:dennis_ritchie",
+      "nome": "Dennis Ritchie",
+      "tipo": "Pessoa",
+      "aliases": ["Ritchie", "Dennis MacAlistair Ritchie"],
+      "descricao": "Cientista da computação norte-americano, criador da linguagem C e co-criador do Unix.",
+      "propriedades": { "ano_nascimento": 1941, "ano_morte": 2011 },
+      "chunk_ids": ["12345_0", "12345_1"]
+    },
+    {
+      "id": "organizacao:bell_labs",
+      "nome": "Bell Labs",
+      "tipo": "Organizacao",
+      "aliases": ["Laboratórios Bell"],
+      "descricao": "Laboratório de pesquisa onde foram criados o Unix e a linguagem C.",
+      "propriedades": { "tipo": "laboratorio" },
+      "chunk_ids": ["12345_0"]
+    },
+    {
+      "id": "linguagem:c",
+      "nome": "C",
+      "tipo": "Linguagem",
+      "aliases": ["linguagem C"],
+      "descricao": "Linguagem de programação criada no Bell Labs.",
+      "propriedades": {},
+      "chunk_ids": ["12345_0", "12345_1"]
+    },
+    {
+      "id": "linguagem:b",
+      "nome": "B",
+      "tipo": "Linguagem",
+      "aliases": ["linguagem B"],
+      "descricao": "Linguagem que antecedeu e influenciou a linguagem C.",
+      "propriedades": {},
+      "chunk_ids": ["12345_0"]
+    },
+    {
+      "id": "pessoa:ken_thompson",
+      "nome": "Ken Thompson",
+      "tipo": "Pessoa",
+      "aliases": ["Thompson"],
+      "descricao": "Cientista da computação, co-criador do Unix.",
+      "propriedades": {},
+      "chunk_ids": ["12345_1"]
+    },
+    {
+      "id": "tecnologia:unix",
+      "nome": "Unix",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "descricao": "Sistema operacional desenvolvido no Bell Labs.",
+      "propriedades": { "tipo": "sistema" },
+      "chunk_ids": ["12345_1"]
+    },
+    {
+      "id": "hardware:pdp_11",
+      "nome": "PDP-11",
+      "tipo": "Hardware",
+      "aliases": [],
+      "descricao": "Minicomputador em que o Unix foi executado.",
+      "propriedades": { "tipo": "computador" },
+      "chunk_ids": ["12345_1"]
+    },
+    {
+      "id": "premio:premio_turing",
+      "nome": "Prêmio Turing",
+      "tipo": "Premio",
+      "aliases": ["Turing Award", "Prémio Turing"],
+      "descricao": "Principal prêmio da ciência da computação.",
+      "propriedades": {},
+      "chunk_ids": ["12345_1"]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:dennis_ritchie",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:bell_labs",
+      "propriedades": {},
+      "chunk_id": "12345_0",
+      "evidencia": "Trabalhou no Bell Labs",
+      "confianca": 0.97
+    },
+    {
+      "origem": "pessoa:dennis_ritchie",
+      "tipo": "CRIOU",
+      "destino": "linguagem:c",
+      "propriedades": {},
+      "chunk_id": "12345_0",
+      "evidencia": "criou a linguagem C no início da década de 1970",
+      "confianca": 0.98
+    },
+    {
+      "origem": "organizacao:bell_labs",
+      "tipo": "DESENVOLVEU",
+      "destino": "linguagem:c",
+      "propriedades": {},
+      "chunk_id": "12345_0",
+      "evidencia": "Trabalhou no Bell Labs, onde criou a linguagem C",
+      "confianca": 0.85
+    },
+    {
+      "origem": "linguagem:c",
+      "tipo": "INFLUENCIADA_POR",
+      "destino": "linguagem:b",
+      "propriedades": {},
+      "chunk_id": "12345_0",
+      "evidencia": "criou a linguagem C [...] a partir da linguagem B",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:dennis_ritchie",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:ken_thompson",
+      "propriedades": { "contexto": "desenvolvimento do Unix" },
+      "chunk_id": "12345_1",
+      "evidencia": "Junto com Ken Thompson, Ritchie desenvolveu o sistema operacional Unix",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:dennis_ritchie",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:unix",
+      "propriedades": {},
+      "chunk_id": "12345_1",
+      "evidencia": "Ritchie desenvolveu o sistema operacional Unix",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:ken_thompson",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:unix",
+      "propriedades": {},
+      "chunk_id": "12345_1",
+      "evidencia": "Junto com Ken Thompson, Ritchie desenvolveu o sistema operacional Unix",
+      "confianca": 0.95
+    },
+    {
+      "origem": "tecnologia:unix",
+      "tipo": "ESCRITO_EM",
+      "destino": "linguagem:c",
+      "propriedades": {},
+      "chunk_id": "12345_1",
+      "evidencia": "o sistema operacional Unix, que foi reescrito em C",
+      "confianca": 0.96
+    },
+    {
+      "origem": "tecnologia:unix",
+      "tipo": "EXECUTA_EM",
+      "destino": "hardware:pdp_11",
+      "propriedades": {},
+      "chunk_id": "12345_1",
+      "evidencia": "reescrito em C e executado no PDP-11",
+      "confianca": 0.93
+    },
+    {
+      "origem": "pessoa:dennis_ritchie",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_turing",
+      "propriedades": { "ano": 1983 },
+      "chunk_id": "12345_1",
+      "evidencia": "Em 1983, os dois receberam o Prêmio Turing",
+      "confianca": 0.97
+    },
+    {
+      "origem": "pessoa:ken_thompson",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_turing",
+      "propriedades": { "ano": 1983 },
+      "chunk_id": "12345_1",
+      "evidencia": "Em 1983, os dois receberam o Prêmio Turing",
+      "confianca": 0.97
+    }
+  ]
+}

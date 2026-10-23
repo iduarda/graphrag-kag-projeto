@@ -44,17 +44,23 @@ Documentos → [1. Text-to-Graph] → [2. Neo4j LPG] → [3. Recuperação Híbr
 │   ├── paginas.csv           # Lista das 147 páginas (categoria, título, semente)
 │   └── raw/                  # Um JSON por página coletada + _relatorio.csv
 ├── docs/
-│   └── modelo_lpg.md         # Modelo do grafo (nós, relações, propriedades)
+│   ├── modelo_lpg.md         # Modelo do grafo (nós, relações, propriedades)
+│   ├── formato_extracao.md   # Formato JSON da extração (Pessoa 2 -> Pessoa 3)
+│   └── exemplo_extracao.json # Exemplo válido do formato
 ├── schema/
 │   ├── schema.cypher         # Cria constraints e índices no Neo4j
 │   └── verificar_schema.cypher  # Testa se o schema está funcionando
 ├── scripts/
-│   └── coletar_wikipedia.py  # Coleta dos textos pela API da Wikipédia
+│   ├── coletar_wikipedia.py  # Coleta dos textos pela API da Wikipédia
+│   └── validar_extracao.py   # Valida os JSONs de extração
+├── src/
+│   └── contrato.py           # Tipos, relações, regra de ids e validação do formato
 ├── neo4j/
 │   └── import/               # Arquivos para importação no Neo4j
 ├── docker-compose.yml        # Banco Neo4j com APOC e GDS
 ├── requirements.txt          # Dependências Python
 ├── .env.example              # Modelo das variáveis de ambiente (copiar para .env)
+├── .gitignore                # Arquivos que não vão para o GitHub (.env, banco local, .venv)
 └── README.md
 ```
 
@@ -96,6 +102,7 @@ O script pula as páginas já baixadas; use `--forcar` para baixar tudo de novo.
 ### Pré-requisitos
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) instalado e aberto
+- [Git](https://git-scm.com/)
 - [GitHub](https://github.com/)
 
 ### Passo a passo
@@ -163,6 +170,14 @@ Para conferir se tudo funciona, rode o `schema/verificar_schema.cypher` do mesmo
 
 Detalhes do modelo em [`docs/modelo_lpg.md`](docs/modelo_lpg.md).
 
+### Formato da extração
+
+As extrações de entidades e relações seguem o formato descrito em [`docs/formato_extracao.md`](docs/formato_extracao.md). Antes de carregar no banco, valide:
+
+```bash
+python scripts/validar_extracao.py
+```
+
 ### Comandos úteis
 
 | Ação | Comando |
@@ -199,11 +214,11 @@ _A preencher conforme o projeto avança (exigência do professor: toda bibliotec
 
 ## Entregáveis
 
-- [ ] Fase 1 — Proposta e modelagem LPG
+- [x] Fase 1 — Proposta e modelagem LPG
   - [x] Domínio e dataset (147 páginas da Wikipédia)
   - [x] Modelo LPG conceitual
   - [x] Schema no Neo4j (constraints e índices)
-  - [ ] Formato JSON de entidades e relações
+  - [x] Formato JSON de entidades e relações
 - [ ] Fase 2 — Ingestão e pipeline NLP/LLM
 - [ ] Fase 3 — Algoritmos e GraphRAG/KAG
 - [ ] Fase 4 — Código final, interface, artigo (SBC/IEEE) e defesa
