@@ -93,7 +93,7 @@ O script pula as páginas já baixadas; use `--forcar` para baixar tudo de novo.
 ### Pré-requisitos
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) instalado e aberto
-- [Git](https://git-scm.com/)
+- [GitHub](https://github.com/)
 
 ### Passo a passo
 
