@@ -1,0 +1,732 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:26:22+00:00",
+ "chunks": [
+  {
+   "chunk_id": "3790_0",
+   "entidades": [
+    {
+     "nome": "BASIC",
+     "tipo": "Linguagem",
+     "aliases": [
+      "Beginner's All-purpose Symbolic Instruction Code"
+     ],
+     "descricao": "Linguagem de programação criada com fins didáticos.",
+     "propriedades": {
+      "ano": 1964
+     }
+    },
+    {
+     "nome": "John George Kemeny",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Professor que criou o BASIC.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Thomas Eugene Kurtz",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Professor que criou o BASIC.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Mary Kenneth Keller",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Professora que criou o BASIC.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Dartmouth College",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John George Kemeny",
+     "tipo": "CRIOU",
+     "destino": "BASIC",
+     "propriedades": {
+      "ano": 1964
+     },
+     "evidencia": "criada com fins didáticos, pelos professores John George Kemeny, Thomas Eugene Kurtz e Mary Kenneth Keller em 1964",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Thomas Eugene Kurtz",
+     "tipo": "CRIOU",
+     "destino": "BASIC",
+     "propriedades": {
+      "ano": 1964
+     },
+     "evidencia": "criada com fins didáticos, pelos professores John George Kemeny, Thomas Eugene Kurtz e Mary Kenneth Keller em 1964",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Mary Kenneth Keller",
+     "tipo": "CRIOU",
+     "destino": "BASIC",
+     "propriedades": {
+      "ano": 1964
+     },
+     "evidencia": "criada com fins didáticos, pelos professores John George Kemeny, Thomas Eugene Kurtz e Mary Kenneth Keller em 1964",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John George Kemeny",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Dartmouth College",
+     "propriedades": {
+      "cargo": "professor"
+     },
+     "evidencia": "pelos professores John George Kemeny, Thomas Eugene Kurtz e Mary Kenneth Keller em 1964 no Dartmouth College",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Thomas Eugene Kurtz",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Dartmouth College",
+     "propriedades": {
+      "cargo": "professor"
+     },
+     "evidencia": "pelos professores John George Kemeny, Thomas Eugene Kurtz e Mary Kenneth Keller em 1964 no Dartmouth College",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Mary Kenneth Keller",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Dartmouth College",
+     "propriedades": {
+      "cargo": "professor"
+     },
+     "evidencia": "pelos professores John George Kemeny, Thomas Eugene Kurtz e Mary Kenneth Keller em 1964 no Dartmouth College",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "3790_1",
+   "entidades": [
+    {
+     "nome": "BASIC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Visual Basic",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Versão de BASIC com suporte a orientação a objetos.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3790_2",
+   "entidades": [
+    {
+     "nome": "BASIC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Visual Basic",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3790_3",
+   "entidades": [
+    {
+     "nome": "Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem fortemente estruturada e tipada.",
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Tiny BASIC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sinclair ZX80",
+     "tipo": "Hardware",
+     "aliases": [
+      "ZX80"
+     ],
+     "descricao": "Computador com 1K de RAM e 4K de ROM, cuja ROM continha um interpretador BASIC.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3790_4",
+   "entidades": [
+    {
+     "nome": "Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Visual Basic",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3790_5",
+   "entidades": [
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3790_6",
+   "entidades": [
+    {
+     "nome": "BASIC",
+     "tipo": "Linguagem",
+     "aliases": [
+      "Darthmouth BASIC"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John George Kemeny",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Thomas Eugene Kurtz",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dartmouth College",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Dartmouth",
+      "Darthmouth"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Dartmouth Time-Sharing System",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema de tempo compartilhado de Dartmouth para o qual o BASIC foi projetado.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John George Kemeny",
+     "tipo": "CRIOU",
+     "destino": "BASIC",
+     "propriedades": {
+      "ano": 1963
+     },
+     "evidencia": "A linguagem original foi projetada em 1963 por John George Kemeny e Thomas Eugene Kurtz",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Thomas Eugene Kurtz",
+     "tipo": "CRIOU",
+     "destino": "BASIC",
+     "propriedades": {
+      "ano": 1963
+     },
+     "evidencia": "A linguagem original foi projetada em 1963 por John George Kemeny e Thomas Eugene Kurtz",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "3790_7",
+   "entidades": [
+    {
+     "nome": "BASIC",
+     "tipo": "Linguagem",
+     "aliases": [
+      "Darthmouth BASIC"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3790_8",
+   "entidades": [
+    {
+     "nome": "BASIC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fortran",
+     "tipo": "Linguagem",
+     "aliases": [
+      "Fortran II"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "ALGOL",
+     "tipo": "Linguagem",
+     "aliases": [
+      "ALGOL 60"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lisp",
+     "tipo": "Linguagem",
+     "aliases": [
+      "LISP"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "GE-265",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Mainframe com suporte a múltiplos terminais, onde rodou a primeira implementação do BASIC.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "BASIC",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Fortran",
+     "propriedades": {},
+     "evidencia": "A linguagem foi criada a partir de Fortran II",
+     "confianca": 0.9
+    },
+    {
+     "origem": "BASIC",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "ALGOL",
+     "propriedades": {},
+     "evidencia": "parcialmente inspirada em ALGOL 60",
+     "confianca": 0.9
+    },
+    {
+     "origem": "BASIC",
+     "tipo": "EXECUTA_EM",
+     "destino": "GE-265",
+     "propriedades": {},
+     "evidencia": "Sua primeira implementação foi em um mainframe GE-265",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "3790_9",
+   "entidades": [
+    {
+     "nome": "BASIC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fortran",
+     "tipo": "Linguagem",
+     "aliases": [
+      "Fortran II"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "ALGOL",
+     "tipo": "Linguagem",
+     "aliases": [
+      "ALGOL 60"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "GE-265",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Data General",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Nova",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Minicomputador da Data General.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "BBC BASIC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Dialeto de BASIC lançado em 1981.",
+     "propriedades": {
+      "ano": 1981
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Data General",
+     "tipo": "DESENVOLVEU",
+     "destino": "Nova",
+     "propriedades": {},
+     "evidencia": "o Nova da Data General",
+     "confianca": 0.75
+    },
+    {
+     "origem": "BASIC",
+     "tipo": "EXECUTA_EM",
+     "destino": "Nova",
+     "propriedades": {},
+     "evidencia": "passou a ser implementada por vários fabricantes, sendo bastante popular nos minicomputadores mais novos como os PDPs da DEC e o Nova da Data General",
+     "confianca": 0.65
+    }
+   ]
+  },
+  {
+   "chunk_id": "3790_10",
+   "entidades": [
+    {
+     "nome": "BASIC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3790_11",
+   "entidades": [
+    {
+     "nome": "BASIC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3790_12",
+   "entidades": [
+    {
+     "nome": "BASIC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bill Gates",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Começou a programar por causa do BASIC e desenvolveu um interpretador da linguagem para o Altair 8800.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Altair 8800",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Um dos primeiros computadores pessoais nos EUA.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [
+      "EUA"
+     ],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "True Basic",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Empresa fundada em 1983 por professores da Universidade Dartmouth.",
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1983
+     }
+    },
+    {
+     "nome": "Dartmouth College",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade Dartmouth"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3790_13",
+   "entidades": [
+    {
+     "nome": "BASIC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Altair 8800",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "John George Kemeny",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Kemeny"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Thomas Eugene Kurtz",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Kurtz"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3790_14",
+   "entidades": [
+    {
+     "nome": "Tiny BASIC",
+     "tipo": "Linguagem",
+     "aliases": [
+      "Tiny Basic"
+     ],
+     "descricao": "Implementação simples de BASIC, um dos primeiros interpretadores para o Altair 8800.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Altair 8800",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Li-Chen Wang",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Autor original do Tiny Basic.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Dennis Allison",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Portou o Tiny Basic para o Altair.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Bob Albrecht",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "MITS",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IMSAI",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "North Star",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Apple Inc."
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Li-Chen Wang",
+     "tipo": "CRIOU",
+     "destino": "Tiny BASIC",
+     "propriedades": {},
+     "evidencia": "Tiny Basic, uma implementação simples originalmente escrita por Doutor Li-Chen Wang",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Tiny BASIC",
+     "tipo": "EXECUTA_EM",
+     "destino": "Altair 8800",
+     "propriedades": {},
+     "evidencia": "Um dos primeiros interpretadores a aparecer para o Altair 8800 foi o Tiny Basic",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "3790_15",
+   "entidades": [
+    {
+     "nome": "Edsger Dijkstra",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Edsger W. Dijkstra"
+     ],
+     "descricao": "Criticou o uso do GOTO.",
+     "propriedades": {}
+    },
+    {
+     "nome": "BASIC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ALGOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple II",
+     "tipo": "Hardware",
+     "aliases": [
+      "Apple II+",
+      "Apple IIe"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Gradiente",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "MSX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

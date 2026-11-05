@@ -1,0 +1,126 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:25:21+00:00",
+ "chunks": [
+  {
+   "chunk_id": "30513_0",
+   "entidades": [
+    {
+     "nome": "Apple II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Modelo de computador pessoal vendido a partir de junho de 1977.",
+     "propriedades": {
+      "ano": 1977,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Apple Inc"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Apple II Plus",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1979,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple III",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1980,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple IIGS",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1986,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple IIc Plus",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1988,
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "Apple II",
+     "propriedades": {
+      "ano": 1977
+     },
+     "evidencia": "O Apple II foi um modelo de computador pessoal fabricado pela empresa Apple Inc no final da década de 1970, sendo vendido a partir de Junho de 1977",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "30513_1",
+   "entidades": [
+    {
+     "nome": "Apple II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Computador com 16 kB de RAM expansível a 48k e ROM com interpretador de BASIC.",
+     "propriedades": {
+      "ano": 1977,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "MOS Technology 6502",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "BASIC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple II",
+     "tipo": "UTILIZA",
+     "destino": "MOS Technology 6502",
+     "propriedades": {},
+     "evidencia": "Este era equipado com: microprocessador MOS Technology 6502",
+     "confianca": 0.95
+    },
+    {
+     "origem": "BASIC",
+     "tipo": "EXECUTA_EM",
+     "destino": "Apple II",
+     "propriedades": {},
+     "evidencia": "uma ROM que incluía um interpretador de BASIC",
+     "confianca": 0.7
+    }
+   ]
+  }
+ ]
+}

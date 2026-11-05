@@ -1,0 +1,114 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:25:22+00:00",
+ "chunks": [
+  {
+   "chunk_id": "1048318_0",
+   "entidades": [
+    {
+     "nome": "John Mauchly",
+     "tipo": "Pessoa",
+     "aliases": [
+      "John William Mauchly"
+     ],
+     "descricao": "Físico estadunidense que ajudou a construir o ENIAC.",
+     "propriedades": {
+      "ano_nascimento": 1907,
+      "ano_morte": 1980
+     }
+    },
+    {
+     "nome": "Cincinnati",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "John Presper Eckert",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade da Pensilvânia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "ENIAC",
+     "tipo": "Hardware",
+     "aliases": [
+      "Electronic Numerical Integrator And Computer"
+     ],
+     "descricao": "Primeiro computador eletrônico, totalmente eletrônico, com 17 468 válvulas.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John Mauchly",
+     "tipo": "NASCEU_EM",
+     "destino": "Cincinnati",
+     "propriedades": {},
+     "evidencia": "John William Mauchly (Cincinnati, 30 de agosto de 1907",
+     "confianca": 0.85
+    },
+    {
+     "origem": "John Mauchly",
+     "tipo": "CRIOU",
+     "destino": "ENIAC",
+     "propriedades": {},
+     "evidencia": "construíram o primeiro computador eletrônico, conhecido como ENIAC",
+     "confianca": 0.9
+    },
+    {
+     "origem": "John Presper Eckert",
+     "tipo": "CRIOU",
+     "destino": "ENIAC",
+     "propriedades": {},
+     "evidencia": "construíram o primeiro computador eletrônico, conhecido como ENIAC",
+     "confianca": 0.9
+    },
+    {
+     "origem": "John Mauchly",
+     "tipo": "COLABOROU_COM",
+     "destino": "John Presper Eckert",
+     "propriedades": {
+      "contexto": "construção do ENIAC"
+     },
+     "evidencia": "John Presper Eckert e engenheiros da Universidade da Pensilvânia, em parceria com o Governo Federal dos Estados Unidos, construíram o primeiro computador eletrônico",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Universidade da Pensilvânia",
+     "tipo": "DESENVOLVEU",
+     "destino": "ENIAC",
+     "propriedades": {},
+     "evidencia": "engenheiros da Universidade da Pensilvânia, em parceria com o Governo Federal dos Estados Unidos, construíram o primeiro computador eletrônico, conhecido como ENIAC",
+     "confianca": 0.7
+    }
+   ]
+  }
+ ]
+}

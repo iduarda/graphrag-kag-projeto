@@ -1,0 +1,192 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 1140,
+    "titulo": "Lei de Moore",
+    "url": "https://pt.wikipedia.org/wiki/Lei_de_Moore",
+    "categoria": "Sistema/Invenção/Evento",
+    "wikidata_id": "Q178655"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:24:38+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "tecnologia:lei_de_moore",
+  "chunks": [
+    {
+      "id": "1140_0",
+      "ordem": 0,
+      "texto": "Lei de Moore é uma expressão referente a observação feita por Gordon Moore (químico estadunidense cofundador da Intel) em 1965 no artigo “Cramming More Components onto Integrated Circuits” sobre a tendência histórica da indústria de microchips e processadores. Ou seja, observação sobre o ritmo da evolução na computação eletrônica, informa que o número de transistores dos chips teria um aumento de 100%, pelo mesmo custo, a cada dois anos.\nMoore especulou que em 1975 um semicondutor de 63,5 cm² conseguiria agregar cerca de 65 mil componentes, estipulando que o número dobraria a cada ano (circuitos menores e com mais componentes integrados).\nEsta carta serve de parâmetro para uma elevada gama de dispositivos digitais, além das CPUs. Na verdade, qualquer chip está ligado a lei de Gordon E. Moore, até mesmo o CCD de câmeras fotográficas digitais (sensor que capta a imagem nas câmeras nuclear; ou CNCL, sensores que captam imagens nas câmeras fotográficas profissionais).\nEsse padrão continuou a se manter em grande parte da indústria, e não se espera que pare até, no mínimo, 2021."
+    },
+    {
+      "id": "1140_1",
+      "ordem": 1,
+      "texto": "Esse padrão continuou a se manter em grande parte da indústria, e não se espera que pare até, no mínimo, 2021.\nHistória: O primeiro a arriscar uma teoria evolucionista a respeito de hardware foi Alan Turing em 1950, prevendo que na virada do século teríamos computadores com memória na casa de 1 GB. Quinze anos depois dessa afirmação, em um artigo de cunho científico na revista Eletronic de 19 de abril de 1965, Gordon Moore fez a seguinte citação:\nA complexidade para componentes com custos mínimos tem aumentado em uma taxa de aproximadamente um fator de dois por ano ... Certamente em um curto prazo pode-se esperar que esta taxa se mantenha, se não aumentar. A longo prazo, a taxa de aumento é um pouco mais incerta, embora não haja razões para se acreditar que ela não se manterá quase constante por pelo menos 10 anos. Isso significa que em torno de 1975, o número de componentes por circuito integrado para um custo mínimo será 65 000 (65nM). Eu acredito que circuitos grandes como este poderão ser construídos em um único componente (pastilha).\nO primeiro a tratar da profecia de Moore por sua 'Lei' foi Caver Mead, então professor da Caltech e pioneiro da VLSI Technology, no ano de 1970.\nEm 1975, Moore revisou a sua previsão para, a cada dois anos, um aumento de 100% na quantidade de transistores dos chips mantendo seu custo. Porém um colega de Moore previu que esse período seria a cada 18 meses."
+    },
+    {
+      "id": "1140_2",
+      "ordem": 2,
+      "texto": "Porém um colega de Moore previu que esse período seria a cada 18 meses.\nLei de Moore x produção: Inicialmente a lei de Moore não passava de uma observação, mas acabou tornando-se um objetivo para as indústrias de semicondutores, fazendo-as despenderem muitos recursos para poder alcançar as previsões de Moore no nível de desempenho e é isso que torna a Lei de Moore realmente importante, pois sem ela, talvez não tivéssemos um desenvolvimento tão acelerado em nível de hardware e com custos cada vez mais acessíveis."
+    },
+    {
+      "id": "1140_3",
+      "ordem": 3,
+      "texto": "Custo: A indústria de semicondutores teve de investir em Pesquisa & Desenvolvimento, além de testes dos novos chips fazendo com que houvesse a formulação de uma “segunda Lei de Moore” onde era previsto um aumento no custo dos chips seguindo o aumento do desempenho, haja vista que a indústria de chips depende diretamente do custo de commodities como petróleo. Atualmente o custo final do desenvolvimento dos chips de 65 nm excede o valor de US$ 3 000 000."
+    },
+    {
+      "id": "1140_4",
+      "ordem": 4,
+      "texto": "Atualmente o custo final do desenvolvimento dos chips de 65 nm excede o valor de US$ 3 000 000.\nFim da lei: Segundo Carl Anderson, pesquisador da área de concepção de computadores da IBM, a Lei de Moore pode estar chegando ao fim. Entre os motivos para que Anderson faça tal previsão está o fato de que os engenheiros estão desenvolvendo sistemas que exigem menos recursos do processador e os custos para pesquisas de novos processadores estão cada vez mais altos. Além do fato de que, com o aumento da velocidade, aumenta também o consumo de energia e a dissipação de calor.\nNo início de 2014, o departamento de pesquisa da IBM anunciou um teste de novos chips de silício com tecnologia de 7 nm empurrando para novos limites o previsto fim da Lei de Moore.\nEm outubro de 2015, foi anunciada uma nova pesquisa da IBM iniciando a caminhada para novos limites na produção de processadores utilizando nano tubos de carbono, o que permitiria atingir escalas de 1,8 nm. Contudo, na tecnologia atual, fisicamente o tamanho dos microchips é em torno de 5 nm.\nEm fevereiro de 2017, o CEO da Intel, Brian, disse que a empresa tem investido pesado tanto na Computação Quântica como na Engenharia Neuromórfica.\nEm outubro de 2019, a Google declarou ter alcançado a supremacia quântica, o que pode multiplicar consideravelmente o poder de processamento."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "tecnologia:lei_de_moore",
+      "nome": "Lei de Moore",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "descricao": "Observação sobre a tendência de aumento do número de transistores dos chips a cada dois anos.",
+      "propriedades": {
+        "tipo": "conceito"
+      },
+      "chunk_ids": [
+        "1140_0",
+        "1140_1",
+        "1140_2",
+        "1140_3",
+        "1140_4"
+      ]
+    },
+    {
+      "id": "pessoa:gordon_moore",
+      "nome": "Gordon Moore",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Gordon Earle Moore",
+        "Moore",
+        "Gordon E. Moore"
+      ],
+      "descricao": "Químico estadunidense cofundador da Intel.",
+      "propriedades": {},
+      "chunk_ids": [
+        "1140_0",
+        "1140_1"
+      ]
+    },
+    {
+      "id": "organizacao:intel",
+      "nome": "Intel",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Intel Corporation"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1140_0",
+        "1140_4"
+      ]
+    },
+    {
+      "id": "pessoa:alan_turing",
+      "nome": "Alan Turing",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Alan Mathison Turing",
+        "Turing"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "1140_1"
+      ]
+    },
+    {
+      "id": "pessoa:caver_mead",
+      "nome": "Caver Mead",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1140_1"
+      ]
+    },
+    {
+      "id": "pessoa:carl_anderson",
+      "nome": "Carl Anderson",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Anderson"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "1140_4"
+      ]
+    },
+    {
+      "id": "organizacao:ibm",
+      "nome": "IBM",
+      "tipo": "Organizacao",
+      "aliases": [
+        "International Business Machines",
+        "International Business Machines Corporation"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1140_4"
+      ]
+    },
+    {
+      "id": "organizacao:google",
+      "nome": "Google",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Google LLC",
+        "Google Inc."
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1140_4"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:gordon_moore",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:lei_de_moore",
+      "propriedades": {
+        "ano": 1965
+      },
+      "chunk_id": "1140_0",
+      "evidencia": "observação feita por Gordon Moore (químico estadunidense cofundador da Intel) em 1965",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:gordon_moore",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:intel",
+      "propriedades": {},
+      "chunk_id": "1140_0",
+      "evidencia": "Gordon Moore (químico estadunidense cofundador da Intel)",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:carl_anderson",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:ibm",
+      "propriedades": {
+        "cargo": "pesquisador"
+      },
+      "chunk_id": "1140_4",
+      "evidencia": "Carl Anderson, pesquisador da área de concepção de computadores da IBM",
+      "confianca": 0.9
+    }
+  ]
+}

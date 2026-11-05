@@ -1,0 +1,16 @@
+{
+  "documento": {
+    "id": 159248,
+    "titulo": "ABC (linguagem de programação)",
+    "url": "https://pt.wikipedia.org/wiki/ABC_(linguagem_de_programa%C3%A7%C3%A3o)",
+    "categoria": "Linguagem",
+    "wikidata_id": "Q1057802"
+  },
+  "chunks": [
+    {
+      "id": "159248_0",
+      "ordem": 0,
+      "texto": "ABC é uma linguagem de programação da CWI, Países Baixos. Ela é interativa, estruturada, de alto nível e fácil de aprender e usar.\nCaracterísticas: A ABC é uma linguagem para propósitos gerais, que pode ser usada no lugar do Basic, Pascal ou AWK. Não trata-se de uma ferramenta adequada à implementação de sistemas sofisticados: sua principal aplicação consiste no ensino da programação.\nA ABC tem somente cinco tipos de dados que podem ser combinados com facilidade. Os programas em ABC ficam, em média, em apenas um quarto de um programa equivalente em C ou Pascal. A linguagem possui um ambiente de programação com verificação da sintaxe em tempo real.\nA seguir, um exemplo de uma função chamada words que retorna o conjunto de todas as palavras em um documento:\nHOW TO RETURN words document:\nPUT {} IN collection\nFOR line in document:\nFOR word IN split line:\nIF word not.in collection:\nINSERT word IN collection\nRETURN collection"
+    }
+  ]
+}

@@ -1,0 +1,587 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:22:15+00:00",
+ "chunks": [
+  {
+   "chunk_id": "1848_0",
+   "entidades": [
+    {
+     "nome": "TCP/IP",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "pilha de protocolos TCP/IP"
+     ],
+     "descricao": "Conjunto de protocolos de comunicação entre computadores ligados em rede.",
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_1",
+   "entidades": [
+    {
+     "nome": "TCP/IP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Protocolo desenvolvido em 1969 como recurso para a ARPANET.",
+     "propriedades": {
+      "tipo": "protocolo",
+      "ano": 1969
+     }
+    },
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "U.S. Department of Defense Advanced Research Projects Agency"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "ARPANET",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Advanced Research Project Agency Network"
+     ],
+     "descricao": "Projeto experimental de rede que cresceu e se transformou na Internet.",
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "DESENVOLVEU",
+     "destino": "TCP/IP",
+     "propriedades": {
+      "ano": 1969
+     },
+     "evidencia": "O TCP/IP foi desenvolvido em 1969 pelo U.S. Department of Defense Advanced Research Projects Agency",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "1848_2",
+   "entidades": [
+    {
+     "nome": "ARPANET",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "TCP/IP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "Fundação Nacional de Ciências",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Washington, D.C.",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "NSFNET",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Backbone para um supercomputador, que se tornou em 1990 o backbone das redes para a Internet.",
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Vint Cerf",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Cerf"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Xerox PARC",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DARPA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "BBN Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade de Stanford"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "University College London",
+     "tipo": "Organizacao",
+     "aliases": [
+      "UCL"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Fundação Nacional de Ciências",
+     "tipo": "DESENVOLVEU",
+     "destino": "NSFNET",
+     "propriedades": {},
+     "evidencia": "a Fundação Nacional de Ciências em Washington, D.C., começou a construir o NSFNET",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Fundação Nacional de Ciências",
+     "tipo": "SEDIADA_EM",
+     "destino": "Washington, D.C.",
+     "propriedades": {},
+     "evidencia": "a Fundação Nacional de Ciências em Washington, D.C., começou a construir o NSFNET",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "1848_3",
+   "entidades": [
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Stanford"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "University College London",
+     "tipo": "Organizacao",
+     "aliases": [
+      "UCL"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [
+      "EUA"
+     ],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Reino Unido",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Noruega",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "ARPANET",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "TCP/IP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_4",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_5",
+   "entidades": [
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Windows"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_6",
+   "entidades": [
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "internet"
+     ],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "ARPANET",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DARPA"
+     ],
+     "descricao": "Agência do Departamento de Defesa dos Estados Unidos que operava a ARPANET.",
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_7",
+   "entidades": [
+    {
+     "nome": "ARPANET",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DARPA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_8",
+   "entidades": [
+    {
+     "nome": "Ethernet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Arquitetura mais utilizada para comunicação entre computadores em redes locais.",
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_9",
+   "entidades": [
+    {
+     "nome": "Ethernet",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "ethernet"
+     ],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_10",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_11",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_13",
+   "entidades": [
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_14",
+   "entidades": [
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_15",
+   "entidades": [
+    {
+     "nome": "Internet Assigned Numbers Authority",
+     "tipo": "Organizacao",
+     "aliases": [
+      "IANA"
+     ],
+     "descricao": "Aloca oficialmente portas para aplicações servidoras.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_16",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_17",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_18",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_19",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_20",
+   "entidades": [
+    {
+     "nome": "ARPANET",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_21",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_22",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_23",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_24",
+   "entidades": [
+    {
+     "nome": "Ethernet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_25",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_26",
+   "entidades": [
+    {
+     "nome": "Ethernet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_27",
+   "entidades": [
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Mac OS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1848_28",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

@@ -1,0 +1,788 @@
+{
+  "documentos": 147,
+  "documentos_validos": 147,
+  "aprovados_pelo_validador_de_primeira": 140,
+  "pct_aprovados_de_primeira": 95.2,
+  "chunks": 2374,
+  "entidades_brutas": 8235,
+  "entidades_finais_por_documento_somadas": 4350,
+  "entidades_unicas_no_corpus": 2629,
+  "relacoes_brutas": 2783,
+  "relacoes_finais": 2772,
+  "relacoes_unicas_no_corpus": 1972,
+  "pct_relacoes_aproveitadas": 99.6,
+  "entidades_por_tipo": {
+    "Organizacao": 1325,
+    "Pessoa": 1183,
+    "Hardware": 590,
+    "Tecnologia": 479,
+    "Linguagem": 337,
+    "Local": 317,
+    "Premio": 119
+  },
+  "relacoes_por_tipo": {
+    "TRABALHOU_EM": 672,
+    "CRIOU": 418,
+    "DESENVOLVEU": 376,
+    "RECEBEU": 269,
+    "FUNDOU": 199,
+    "COLABOROU_COM": 135,
+    "INFLUENCIADA_POR": 122,
+    "SEDIADA_EM": 121,
+    "EXECUTA_EM": 111,
+    "ESTUDOU_EM": 104,
+    "SUCESSOR_DE": 103,
+    "UTILIZA": 75,
+    "NASCEU_EM": 51,
+    "ESCRITO_EM": 16
+  },
+  "descartes_e_correcoes": {
+    "entidade_nome_canonizado": 6,
+    "entidade_prop_conflitante": 24,
+    "entidade_tipo_canonizado": 1,
+    "relacao_duplicada": 10,
+    "relacao_evidencia_ajustada": 15,
+    "relacao_tipos_incompativeis": 1
+  },
+  "modelos_llm": {
+    "claude-sonnet-5-5": 147
+  },
+  "invalidos": [],
+  "por_documento": {
+    "ABC_linguagem_de_programacao.json": {
+      "chunks": 1,
+      "entidades": 6,
+      "relacoes": 2
+    },
+    "ALGOL.json": {
+      "chunks": 9,
+      "entidades": 19,
+      "relacoes": 13
+    },
+    "ARPANET.json": {
+      "chunks": 25,
+      "entidades": 32,
+      "relacoes": 24
+    },
+    "AT_T.json": {
+      "chunks": 42,
+      "entidades": 161,
+      "relacoes": 50
+    },
+    "Ada_Lovelace.json": {
+      "chunks": 18,
+      "entidades": 20,
+      "relacoes": 12
+    },
+    "Ada_linguagem_de_programacao.json": {
+      "chunks": 23,
+      "entidades": 29,
+      "relacoes": 17
+    },
+    "Alan_Kay.json": {
+      "chunks": 9,
+      "entidades": 26,
+      "relacoes": 21
+    },
+    "Alan_Turing.json": {
+      "chunks": 53,
+      "entidades": 88,
+      "relacoes": 45
+    },
+    "Altair_8800.json": {
+      "chunks": 10,
+      "entidades": 22,
+      "relacoes": 16
+    },
+    "Apple_I.json": {
+      "chunks": 5,
+      "entidades": 11,
+      "relacoes": 8
+    },
+    "Apple_II.json": {
+      "chunks": 2,
+      "entidades": 8,
+      "relacoes": 3
+    },
+    "Apple_Inc.json": {
+      "chunks": 25,
+      "entidades": 19,
+      "relacoes": 23
+    },
+    "Arquitetura_de_von_Neumann.json": {
+      "chunks": 12,
+      "entidades": 31,
+      "relacoes": 11
+    },
+    "BASIC.json": {
+      "chunks": 16,
+      "entidades": 35,
+      "relacoes": 15
+    },
+    "BCPL.json": {
+      "chunks": 1,
+      "entidades": 5,
+      "relacoes": 4
+    },
+    "B_linguagem_de_programacao.json": {
+      "chunks": 6,
+      "entidades": 16,
+      "relacoes": 13
+    },
+    "Barbara_Liskov.json": {
+      "chunks": 4,
+      "entidades": 17,
+      "relacoes": 13
+    },
+    "Bell_Labs.json": {
+      "chunks": 57,
+      "entidades": 148,
+      "relacoes": 191
+    },
+    "Bill_Gates.json": {
+      "chunks": 19,
+      "entidades": 36,
+      "relacoes": 35
+    },
+    "Bjarne_Stroustrup.json": {
+      "chunks": 5,
+      "entidades": 15,
+      "relacoes": 11
+    },
+    "Bletchley_Park.json": {
+      "chunks": 14,
+      "entidades": 31,
+      "relacoes": 11
+    },
+    "Brian_Kernighan.json": {
+      "chunks": 3,
+      "entidades": 16,
+      "relacoes": 13
+    },
+    "CERN.json": {
+      "chunks": 23,
+      "entidades": 30,
+      "relacoes": 17
+    },
+    "COBOL.json": {
+      "chunks": 25,
+      "entidades": 20,
+      "relacoes": 12
+    },
+    "C_Sharp.json": {
+      "chunks": 43,
+      "entidades": 20,
+      "relacoes": 10
+    },
+    "C_linguagem_de_programacao.json": {
+      "chunks": 24,
+      "entidades": 23,
+      "relacoes": 11
+    },
+    "Charles_Babbage.json": {
+      "chunks": 6,
+      "entidades": 11,
+      "relacoes": 10
+    },
+    "Circuito_integrado.json": {
+      "chunks": 10,
+      "entidades": 13,
+      "relacoes": 7
+    },
+    "Claude_Shannon.json": {
+      "chunks": 13,
+      "entidades": 31,
+      "relacoes": 20
+    },
+    "Colossus_computador.json": {
+      "chunks": 33,
+      "entidades": 46,
+      "relacoes": 16
+    },
+    "Commodore_64.json": {
+      "chunks": 11,
+      "entidades": 29,
+      "relacoes": 17
+    },
+    "Cpp.json": {
+      "chunks": 42,
+      "entidades": 26,
+      "relacoes": 31
+    },
+    "Cray_1.json": {
+      "chunks": 1,
+      "entidades": 2,
+      "relacoes": 1
+    },
+    "DARPA.json": {
+      "chunks": 47,
+      "entidades": 31,
+      "relacoes": 26
+    },
+    "Dennis_Ritchie.json": {
+      "chunks": 13,
+      "entidades": 28,
+      "relacoes": 48
+    },
+    "Digital_Equipment_Corporation.json": {
+      "chunks": 68,
+      "entidades": 225,
+      "relacoes": 158
+    },
+    "Donald_Knuth.json": {
+      "chunks": 21,
+      "entidades": 38,
+      "relacoes": 31
+    },
+    "Douglas_Engelbart.json": {
+      "chunks": 5,
+      "entidades": 23,
+      "relacoes": 17
+    },
+    "EDVAC.json": {
+      "chunks": 2,
+      "entidades": 9,
+      "relacoes": 7
+    },
+    "ENIAC.json": {
+      "chunks": 10,
+      "entidades": 9,
+      "relacoes": 8
+    },
+    "Edsger_Dijkstra.json": {
+      "chunks": 16,
+      "entidades": 18,
+      "relacoes": 17
+    },
+    "Ethernet.json": {
+      "chunks": 29,
+      "entidades": 39,
+      "relacoes": 18
+    },
+    "Fairchild_Semiconductor.json": {
+      "chunks": 20,
+      "entidades": 83,
+      "relacoes": 77
+    },
+    "Fortran.json": {
+      "chunks": 19,
+      "entidades": 14,
+      "relacoes": 5
+    },
+    "Free_Software_Foundation.json": {
+      "chunks": 5,
+      "entidades": 9,
+      "relacoes": 8
+    },
+    "Go_linguagem_de_programacao.json": {
+      "chunks": 8,
+      "entidades": 9,
+      "relacoes": 7
+    },
+    "Google.json": {
+      "chunks": 63,
+      "entidades": 40,
+      "relacoes": 48
+    },
+    "Gordon_Moore.json": {
+      "chunks": 3,
+      "entidades": 19,
+      "relacoes": 20
+    },
+    "Grace_Hopper.json": {
+      "chunks": 12,
+      "entidades": 31,
+      "relacoes": 26
+    },
+    "Guido_van_Rossum.json": {
+      "chunks": 3,
+      "entidades": 18,
+      "relacoes": 11
+    },
+    "Harvard_Mark_I.json": {
+      "chunks": 4,
+      "entidades": 10,
+      "relacoes": 5
+    },
+    "Haskell_linguagem_de_programacao.json": {
+      "chunks": 24,
+      "entidades": 32,
+      "relacoes": 13
+    },
+    "Herman_Hollerith.json": {
+      "chunks": 19,
+      "entidades": 10,
+      "relacoes": 12
+    },
+    "Hewlett_Packard.json": {
+      "chunks": 13,
+      "entidades": 42,
+      "relacoes": 23
+    },
+    "IBM.json": {
+      "chunks": 12,
+      "entidades": 21,
+      "relacoes": 4
+    },
+    "IBM_701.json": {
+      "chunks": 4,
+      "entidades": 11,
+      "relacoes": 3
+    },
+    "IBM_704.json": {
+      "chunks": 3,
+      "entidades": 5,
+      "relacoes": 1
+    },
+    "IBM_PC.json": {
+      "chunks": 17,
+      "entidades": 28,
+      "relacoes": 15
+    },
+    "IBM_System_360.json": {
+      "chunks": 1,
+      "entidades": 3,
+      "relacoes": 2
+    },
+    "Instituto_de_Tecnologia_de_Massachusetts.json": {
+      "chunks": 67,
+      "entidades": 91,
+      "relacoes": 49
+    },
+    "Intel.json": {
+      "chunks": 84,
+      "entidades": 274,
+      "relacoes": 126
+    },
+    "Intel_4004.json": {
+      "chunks": 5,
+      "entidades": 11,
+      "relacoes": 16
+    },
+    "Intel_8080.json": {
+      "chunks": 1,
+      "entidades": 3,
+      "relacoes": 2
+    },
+    "Intel_8086.json": {
+      "chunks": 31,
+      "entidades": 95,
+      "relacoes": 37
+    },
+    "Interface_grafica_do_utilizador.json": {
+      "chunks": 21,
+      "entidades": 42,
+      "relacoes": 14
+    },
+    "Internet.json": {
+      "chunks": 73,
+      "entidades": 118,
+      "relacoes": 13
+    },
+    "J_Presper_Eckert.json": {
+      "chunks": 2,
+      "entidades": 9,
+      "relacoes": 9
+    },
+    "James_Gosling.json": {
+      "chunks": 6,
+      "entidades": 26,
+      "relacoes": 16
+    },
+    "JavaScript.json": {
+      "chunks": 40,
+      "entidades": 50,
+      "relacoes": 19
+    },
+    "Java_linguagem_de_programacao.json": {
+      "chunks": 19,
+      "entidades": 12,
+      "relacoes": 7
+    },
+    "John_Backus.json": {
+      "chunks": 3,
+      "entidades": 12,
+      "relacoes": 12
+    },
+    "John_Bardeen.json": {
+      "chunks": 2,
+      "entidades": 9,
+      "relacoes": 10
+    },
+    "John_Mauchly.json": {
+      "chunks": 1,
+      "entidades": 7,
+      "relacoes": 5
+    },
+    "John_McCarthy.json": {
+      "chunks": 3,
+      "entidades": 7,
+      "relacoes": 7
+    },
+    "John_von_Neumann.json": {
+      "chunks": 105,
+      "entidades": 52,
+      "relacoes": 61
+    },
+    "Ken_Thompson.json": {
+      "chunks": 1,
+      "entidades": 11,
+      "relacoes": 11
+    },
+    "Konrad_Zuse.json": {
+      "chunks": 3,
+      "entidades": 12,
+      "relacoes": 8
+    },
+    "Lei_de_Moore.json": {
+      "chunks": 5,
+      "entidades": 8,
+      "relacoes": 3
+    },
+    "Linus_Torvalds.json": {
+      "chunks": 11,
+      "entidades": 39,
+      "relacoes": 18
+    },
+    "Linux_nucleo.json": {
+      "chunks": 56,
+      "entidades": 62,
+      "relacoes": 14
+    },
+    "Lisp.json": {
+      "chunks": 17,
+      "entidades": 29,
+      "relacoes": 20
+    },
+    "ML_linguagem_de_programacao.json": {
+      "chunks": 4,
+      "entidades": 10,
+      "relacoes": 5
+    },
+    "MS_DOS.json": {
+      "chunks": 13,
+      "entidades": 31,
+      "relacoes": 13
+    },
+    "Macintosh.json": {
+      "chunks": 15,
+      "entidades": 57,
+      "relacoes": 37
+    },
+    "Manchester_Baby.json": {
+      "chunks": 21,
+      "entidades": 41,
+      "relacoes": 37
+    },
+    "Manchester_Mark_I.json": {
+      "chunks": 1,
+      "entidades": 6,
+      "relacoes": 6
+    },
+    "Maquina_analitica.json": {
+      "chunks": 15,
+      "entidades": 22,
+      "relacoes": 8
+    },
+    "Maquina_de_Turing.json": {
+      "chunks": 32,
+      "entidades": 36,
+      "relacoes": 10
+    },
+    "Maquina_diferencial.json": {
+      "chunks": 2,
+      "entidades": 4,
+      "relacoes": 2
+    },
+    "Marvin_Minsky.json": {
+      "chunks": 5,
+      "entidades": 16,
+      "relacoes": 18
+    },
+    "Microprocessador.json": {
+      "chunks": 17,
+      "entidades": 30,
+      "relacoes": 19
+    },
+    "Microsoft.json": {
+      "chunks": 20,
+      "entidades": 47,
+      "relacoes": 32
+    },
+    "Microsoft_Windows.json": {
+      "chunks": 13,
+      "entidades": 28,
+      "relacoes": 18
+    },
+    "Modula_2.json": {
+      "chunks": 10,
+      "entidades": 5,
+      "relacoes": 4
+    },
+    "Motorola.json": {
+      "chunks": 8,
+      "entidades": 16,
+      "relacoes": 10
+    },
+    "Mouse.json": {
+      "chunks": 6,
+      "entidades": 13,
+      "relacoes": 5
+    },
+    "Mozilla_Foundation.json": {
+      "chunks": 1,
+      "entidades": 3,
+      "relacoes": 1
+    },
+    "Multics.json": {
+      "chunks": 20,
+      "entidades": 39,
+      "relacoes": 33
+    },
+    "NeXT_Computer.json": {
+      "chunks": 15,
+      "entidades": 66,
+      "relacoes": 46
+    },
+    "Netscape_Communications.json": {
+      "chunks": 9,
+      "entidades": 18,
+      "relacoes": 9
+    },
+    "Niklaus_Wirth.json": {
+      "chunks": 5,
+      "entidades": 25,
+      "relacoes": 26
+    },
+    "Objective_C.json": {
+      "chunks": 6,
+      "entidades": 15,
+      "relacoes": 9
+    },
+    "Oracle_Corporation.json": {
+      "chunks": 2,
+      "entidades": 8,
+      "relacoes": 7
+    },
+    "PDP_1.json": {
+      "chunks": 13,
+      "entidades": 16,
+      "relacoes": 4
+    },
+    "PDP_11.json": {
+      "chunks": 4,
+      "entidades": 8,
+      "relacoes": 2
+    },
+    "PDP_7.json": {
+      "chunks": 1,
+      "entidades": 5,
+      "relacoes": 3
+    },
+    "PHP.json": {
+      "chunks": 14,
+      "entidades": 17,
+      "relacoes": 4
+    },
+    "Pascal_linguagem_de_programacao.json": {
+      "chunks": 10,
+      "entidades": 17,
+      "relacoes": 13
+    },
+    "Paul_Allen.json": {
+      "chunks": 13,
+      "entidades": 37,
+      "relacoes": 37
+    },
+    "Perl.json": {
+      "chunks": 17,
+      "entidades": 11,
+      "relacoes": 10
+    },
+    "Projeto_GNU.json": {
+      "chunks": 5,
+      "entidades": 10,
+      "relacoes": 1
+    },
+    "Prolog.json": {
+      "chunks": 28,
+      "entidades": 10,
+      "relacoes": 8
+    },
+    "Python.json": {
+      "chunks": 33,
+      "entidades": 48,
+      "relacoes": 26
+    },
+    "Python_Software_Foundation.json": {
+      "chunks": 1,
+      "entidades": 2,
+      "relacoes": 0
+    },
+    "Richard_Stallman.json": {
+      "chunks": 10,
+      "entidades": 20,
+      "relacoes": 14
+    },
+    "Robert_Kahn.json": {
+      "chunks": 1,
+      "entidades": 7,
+      "relacoes": 6
+    },
+    "Robert_Noyce.json": {
+      "chunks": 11,
+      "entidades": 41,
+      "relacoes": 33
+    },
+    "Ruby_linguagem_de_programacao.json": {
+      "chunks": 13,
+      "entidades": 15,
+      "relacoes": 8
+    },
+    "Rust_linguagem_de_programacao.json": {
+      "chunks": 17,
+      "entidades": 8,
+      "relacoes": 4
+    },
+    "Simula.json": {
+      "chunks": 7,
+      "entidades": 25,
+      "relacoes": 18
+    },
+    "Smalltalk.json": {
+      "chunks": 5,
+      "entidades": 22,
+      "relacoes": 11
+    },
+    "Steve_Jobs.json": {
+      "chunks": 46,
+      "entidades": 65,
+      "relacoes": 44
+    },
+    "Steve_Wozniak.json": {
+      "chunks": 12,
+      "entidades": 23,
+      "relacoes": 20
+    },
+    "Sun_Microsystems.json": {
+      "chunks": 12,
+      "entidades": 41,
+      "relacoes": 21
+    },
+    "Swift_linguagem_de_programacao.json": {
+      "chunks": 9,
+      "entidades": 16,
+      "relacoes": 12
+    },
+    "TCP_IP.json": {
+      "chunks": 29,
+      "entidades": 22,
+      "relacoes": 3
+    },
+    "Teste_de_Turing.json": {
+      "chunks": 30,
+      "entidades": 26,
+      "relacoes": 2
+    },
+    "Texas_Instruments.json": {
+      "chunks": 33,
+      "entidades": 101,
+      "relacoes": 64
+    },
+    "Tim_Berners_Lee.json": {
+      "chunks": 18,
+      "entidades": 42,
+      "relacoes": 40
+    },
+    "Tony_Hoare.json": {
+      "chunks": 3,
+      "entidades": 15,
+      "relacoes": 11
+    },
+    "Transistor.json": {
+      "chunks": 10,
+      "entidades": 34,
+      "relacoes": 37
+    },
+    "UNIVAC_I.json": {
+      "chunks": 3,
+      "entidades": 11,
+      "relacoes": 7
+    },
+    "Universidade_Stanford.json": {
+      "chunks": 8,
+      "entidades": 9,
+      "relacoes": 4
+    },
+    "Universidade_da_California_em_Berkeley.json": {
+      "chunks": 2,
+      "entidades": 4,
+      "relacoes": 1
+    },
+    "Universidade_da_Pensilvania.json": {
+      "chunks": 2,
+      "entidades": 4,
+      "relacoes": 2
+    },
+    "Universidade_de_Cambridge.json": {
+      "chunks": 32,
+      "entidades": 23,
+      "relacoes": 15
+    },
+    "Universidade_de_Helsinque.json": {
+      "chunks": 1,
+      "entidades": 6,
+      "relacoes": 3
+    },
+    "Universidade_de_Princeton.json": {
+      "chunks": 1,
+      "entidades": 6,
+      "relacoes": 1
+    },
+    "Unix.json": {
+      "chunks": 25,
+      "entidades": 37,
+      "relacoes": 27
+    },
+    "VAX.json": {
+      "chunks": 14,
+      "entidades": 47,
+      "relacoes": 14
+    },
+    "Vint_Cerf.json": {
+      "chunks": 2,
+      "entidades": 11,
+      "relacoes": 12
+    },
+    "Walter_Brattain.json": {
+      "chunks": 15,
+      "entidades": 30,
+      "relacoes": 31
+    },
+    "William_Shockley.json": {
+      "chunks": 11,
+      "entidades": 33,
+      "relacoes": 20
+    },
+    "World_Wide_Web.json": {
+      "chunks": 16,
+      "entidades": 27,
+      "relacoes": 13
+    },
+    "Xerox_Alto.json": {
+      "chunks": 5,
+      "entidades": 16,
+      "relacoes": 9
+    },
+    "Xerox_PARC.json": {
+      "chunks": 4,
+      "entidades": 18,
+      "relacoes": 11
+    },
+    "Z3.json": {
+      "chunks": 1,
+      "entidades": 2,
+      "relacoes": 1
+    }
+  }
+}

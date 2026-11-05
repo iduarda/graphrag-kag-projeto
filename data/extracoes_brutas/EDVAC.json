@@ -1,0 +1,168 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:25:21+00:00",
+ "chunks": [
+  {
+   "chunk_id": "1029439_0",
+   "entidades": [
+    {
+     "nome": "EDVAC",
+     "tipo": "Hardware",
+     "aliases": [
+      "Electronic Discrete Variable Automatic Computer"
+     ],
+     "descricao": "Um dos primeiros computadores eletrônicos, projetado para usar códigos binários e programas armazenados na memória.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "ENIAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Predecessor do EDVAC, operava com codificação decimal.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Arquitetura de von Neumann",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Ballistic Research Laboratory",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Universidade da Pensilvânia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "John Presper Eckert",
+     "tipo": "Pessoa",
+     "aliases": [
+      "J. Echkert"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Mauchly",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "EDVAC",
+     "tipo": "SUCESSOR_DE",
+     "destino": "ENIAC",
+     "propriedades": {},
+     "evidencia": "Diferentemente de seu predecessor ENIAC, este utilizava o sistema binário",
+     "confianca": 0.9
+    },
+    {
+     "origem": "John Presper Eckert",
+     "tipo": "CRIOU",
+     "destino": "ENIAC",
+     "propriedades": {},
+     "evidencia": "Os projetistas do ENIAC, J. Echkert e John Mauchly",
+     "confianca": 0.85
+    },
+    {
+     "origem": "John Mauchly",
+     "tipo": "CRIOU",
+     "destino": "ENIAC",
+     "propriedades": {},
+     "evidencia": "Os projetistas do ENIAC, J. Echkert e John Mauchly",
+     "confianca": 0.85
+    },
+    {
+     "origem": "John Presper Eckert",
+     "tipo": "COLABOROU_COM",
+     "destino": "John Mauchly",
+     "propriedades": {
+      "contexto": "projetistas do ENIAC"
+     },
+     "evidencia": "Os projetistas do ENIAC, J. Echkert e John Mauchly",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Universidade da Pensilvânia",
+     "tipo": "DESENVOLVEU",
+     "destino": "EDVAC",
+     "propriedades": {},
+     "evidencia": "o EDVAC foi construído pela Ballistic Research Laboratory U. S. Universidade da Pensilvânia",
+     "confianca": 0.65
+    },
+    {
+     "origem": "Ballistic Research Laboratory",
+     "tipo": "DESENVOLVEU",
+     "destino": "EDVAC",
+     "propriedades": {},
+     "evidencia": "o EDVAC foi construído pela Ballistic Research Laboratory U. S. Universidade da Pensilvânia",
+     "confianca": 0.65
+    }
+   ]
+  },
+  {
+   "chunk_id": "1029439_1",
+   "entidades": [
+    {
+     "nome": "EDVAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Possuía quase 6.000 tubos de vácuo e 12.000 diodos; funcionou até 1961 e foi altamente confiável e produtivo.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "ENIAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "BRLESC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Computador que substituiu o EDVAC em 1961.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "BRLESC",
+     "tipo": "SUCESSOR_DE",
+     "destino": "EDVAC",
+     "propriedades": {},
+     "evidencia": "O EDVAC funcionou até 1961, quando foi substituído pelo BRLESC",
+     "confianca": 0.9
+    }
+   ]
+  }
+ ]
+}

@@ -46,7 +46,13 @@ Documentos → [1. Text-to-Graph] → [2. Neo4j LPG] → [3. Recuperação Híbr
 │   └── secoes/               # Uma seção por arquivo, cada uma com seu responsável
 ├── data/
 │   ├── paginas.csv           # Lista das 147 páginas (categoria, título, semente)
-│   └── raw/                  # Um JSON por página coletada + _relatorio.csv
+│   ├── raw/                  # Um JSON por página coletada + _relatorio.csv
+│   ├── entidades_canonicas.json  # Nomes canônicos (147 páginas + entidades frequentes)
+│   ├── chunks/               # Texto de cada página dividido em chunks
+│   ├── extracoes_brutas/     # Resposta do LLM para cada chunk (antes das checagens)
+│   ├── extracoes/            # JSON final validado (entrada da ingestão, Pessoa 3)
+│   ├── relatorio_extracao.json   # Números da extração (para o artigo)
+│   └── avaliacao/            # Amostra de 150 relações para avaliação da precisão
 ├── docs/
 │   ├── modelo_lpg.md         # Modelo do grafo (nós, relações, propriedades)
 │   ├── formato_extracao.md   # Formato JSON da extração (Pessoa 2 -> Pessoa 3)
@@ -55,11 +61,19 @@ Documentos → [1. Text-to-Graph] → [2. Neo4j LPG] → [3. Recuperação Híbr
 ├── schema/
 │   ├── schema.cypher         # Cria constraints e índices no Neo4j
 │   └── verificar_schema.cypher  # Testa se o schema está funcionando
+├── prompts/
+│   └── extracao.md           # Prompt de extração de entidades e relações
 ├── scripts/
 │   ├── coletar_wikipedia.py  # Coleta dos textos pela API da Wikipédia
+│   ├── gerar_chunks.py       # Divide os textos em chunks
+│   ├── extrair_llm.py        # Envia cada chunk ao LLM (Anthropic ou API compatível com OpenAI)
+│   ├── juntar_partes.py      # Junta extrações feitas em lotes
+│   ├── montar_extracao.py    # Checagens contra alucinação + JSON final + relatório
 │   └── validar_extracao.py   # Valida os JSONs de extração
 ├── src/
-│   └── contrato.py           # Tipos, relações, regra de ids e validação do formato
+│   ├── contrato.py           # Tipos, relações, regra de ids e validação do formato
+│   ├── chunking.py           # Regras de divisão em chunks
+│   └── montagem.py           # Normalização de nomes, checagem de evidência, junção de entidades
 ├── neo4j/
 │   └── import/               # Arquivos para importação no Neo4j
 ├── docker-compose.yml        # Banco Neo4j com APOC e GDS
@@ -183,6 +197,19 @@ As extrações de entidades e relações seguem o formato descrito em [`docs/for
 python scripts/validar_extracao.py
 ```
 
+### Pipeline de extração (Pessoa 2)
+
+As extrações finais já estão em `data/extracoes/`. Para refazer:
+
+```bash
+python scripts/gerar_chunks.py                       # 1. data/raw -> data/chunks
+python scripts/extrair_llm.py --provedor anthropic   # 2. chunks -> data/extracoes_brutas (precisa de ANTHROPIC_API_KEY)
+python scripts/montar_extracao.py                    # 3. checagens -> data/extracoes + relatorio_extracao.json
+python scripts/validar_extracao.py                   # 4. confere o contrato
+```
+
+O passo 2 também funciona com qualquer API compatível com OpenAI (Gemini, Groq, Ollama local); veja o topo de `scripts/extrair_llm.py`.
+
 ### Comandos úteis
 
 | Ação | Comando |
@@ -214,6 +241,8 @@ _A preencher conforme o projeto avança (exigência do professor: toda bibliotec
 | [Neo4j](https://neo4j.com/) | Banco de dados de grafos | GPLv3 (Community) |
 | [APOC](https://neo4j.com/labs/apoc/) | Procedimentos utilitários | Apache 2.0 |
 | [Neo4j Graph Data Science](https://neo4j.com/docs/graph-data-science/) | Algoritmos de grafo | GPLv3 |
+| [Claude Sonnet 5.5](https://www.anthropic.com/) (Anthropic) | LLM da extração de entidades e relações | serviço comercial |
+| [Anthropic Python SDK](https://github.com/anthropics/anthropic-sdk-python) / [OpenAI Python SDK](https://github.com/openai/openai-python) | Chamadas ao LLM em `scripts/extrair_llm.py` (opcional) | MIT / Apache 2.0 |
 
 ---
 
@@ -225,5 +254,7 @@ _A preencher conforme o projeto avança (exigência do professor: toda bibliotec
   - [x] Schema no Neo4j (constraints e índices)
   - [x] Formato JSON de entidades e relações
 - [ ] Fase 2 — Ingestão e pipeline NLP/LLM
+  - [x] Chunking e extração de entidades e relações (147 documentos, validados)
+  - [ ] Ingestão no Neo4j e resolução de entidades
 - [ ] Fase 3 — Algoritmos e GraphRAG/KAG
 - [ ] Fase 4 — Código final, interface, artigo (SBC/IEEE) e defesa

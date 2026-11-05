@@ -1,0 +1,714 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 128859,
+    "titulo": "William Bradford Shockley",
+    "url": "https://pt.wikipedia.org/wiki/William_Bradford_Shockley",
+    "categoria": "Pessoa",
+    "wikidata_id": "Q163415"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:22:15+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "pessoa:william_bradford_shockley",
+  "chunks": [
+    {
+      "id": "128859_0",
+      "ordem": 0,
+      "texto": "William Bradford Shockley (Londres, 13 de fevereiro de 1910 — Stanford, 12 de agosto de 1989) foi um físico e inventor estadunidense laureado com o prêmio Nobel de física em 1956.\nEm parte como resultado das tentativas de Shockley de comercializar um novo design de transistor nas décadas de 1950 e 1960, o Vale do Silício da Califórnia tornou-se um foco de inovação em eletrônica. Ele recrutou funcionários brilhantes, mas rapidamente os afastou com sua administração autocrática e errática; eles saíram e fundaram grandes empresas do setor.\nMais tarde, quando era professor de engenharia elétrica na Universidade de Stanford e depois disso, Shockley ficou conhecido como racista e eugenista."
+    },
+    {
+      "id": "128859_1",
+      "ordem": 1,
+      "texto": "Mais tarde, quando era professor de engenharia elétrica na Universidade de Stanford e depois disso, Shockley ficou conhecido como racista e eugenista.\nBiografia: Seus pais eram naturais dos Estados Unidos. Seu pai William sênior era um engenheiro de minas que trabalhava em minas para sobreviver, e falava oito idiomas. Já sua mãe, Mary, era graduada pela Universidade de Stanford, e se tornou a primeira mulher dos Estados Unidos a ser deputy surveyor em mineração. Enquanto ainda era estudante, Shockley casou em 1933 com Iowan Jean Bailey. E em março de 1934 Jean teve uma menina, Alison, e logo em seguida teve mais um filho, Richard, que mais tarde também se tornou um físico."
+    },
+    {
+      "id": "128859_2",
+      "ordem": 2,
+      "texto": "E em março de 1934 Jean teve uma menina, Alison, e logo em seguida teve mais um filho, Richard, que mais tarde também se tornou um físico.\nFormação: No ano de 1932, ele recebeu seu grau de Bacharel em Ciências no Instituto de Tecnologia da Califórnia, Shockley recebeu o seu PhD no Instituto de Tecnologia de Massachusetts em 1936, o título de sua tese de doutorado foi sobre bandas eletrônicas em cloreto de sódio, e foi sugerido por seu orientador de tese, John Clarke Slater. Após receber seu doutorado, ele se juntou a um grupo de pesquisa liderado por Clinton Davisson no Bell Labs, em Nova Jérsia. Os anos seguintes foram muito produtivos, ele publicou uma série de trabalhos sobre física do estado sólido na Physical Review."
+    },
+    {
+      "id": "128859_3",
+      "ordem": 3,
+      "texto": "Os anos seguintes foram muito produtivos, ele publicou uma série de trabalhos sobre física do estado sólido na Physical Review.\nCarreira acadêmica: Em 1938, recebeu sua primeira patente, que era a respeito de \"Dispositivo de Descarga de Elétron\" em multiplicadores de elétrons. Quando a Segunda Guerra Mundial estourou, ele se envolveu em radar de pesquisa nos laboratórios em Whippany, Nova Jérsia. Em maio de 1942 ele se despediu da Bell Labs para se tornar um diretor de pesquisa na  Universidade Columbia, por causa da Guerra AntiSubmarina, para elaborar métodos de combate para as táticas de submarinos com melhores encaminhamentos de técnicas e também diminuir a taxa de náufragos de. Como diretor ele contratou equipes de escrivães para fazer estatísticas sobre naufrágios de submarinos. Como diretor tinha que fazer viagens freqüentes para o Pentágono e Washington, onde conheceu muitos oficiais de alta patente e funcionários do governo."
+    },
+    {
+      "id": "128859_4",
+      "ordem": 4,
+      "texto": "Como diretor tinha que fazer viagens freqüentes para o Pentágono e Washington, onde conheceu muitos oficiais de alta patente e funcionários do governo.\nEm 1944, ele organizou um programa de treinamento para bombardeio B-29, os pilotos utilizaram novos radares de miras para bombardeio. No final de 1944, ele tomou rumo a uma turnê de três meses para bases em todo o mundo para avaliar os resultados de seu trabalho. Em julho de 1945, o Departamento de Guerra pediu Shockley para preparar um relatório sobre as baixas chances de uma invasão do continente japonês. Esta previsão dele influenciou na decisão para os bombardeios atômicos de Hiroshima e Nagasaki para forçar o Japão a se render sem uma invasão. Pelo seu excelente trabalho durante a guerra, o secretário de guerra Robert Porter Patterson concedeu a ele a Medalha Presidencial por Mérito em 17 de outubro de 1946. Ele provavelmente ajudou a fazer possível o Dia D, protegendo os comboios que mantinham a Grã-Bretanha ao lado dos Aliados. Na primavera de 1954 Shockley se separou de sua esposa Jean, e em 23 de novembro de 1955 se casou novamente, desta vez com Emmy Lanning, uma professora de enfermagem e psiquiátrica do norte de Nova York. Tiveram um casamento feliz que durou até sua morte. Shockley morreu em 12 de agosto de 1989 vitimado por câncer de próstata."
+    },
+    {
+      "id": "128859_5",
+      "ordem": 5,
+      "texto": "Shockley morreu em 12 de agosto de 1989 vitimado por câncer de próstata.\nTransístor de estado sólido: Logo após o fim da guerra, em 1945, o Bell Labs formou um grupo de Física do Estado Sólido, que foi liderado por Shockley e pelo químico Morgan Stanley, que incluía John Bardeen, Walter Brattain, o físico Gerald Pearson, o químico Robert Gibney, o eletrônico especialista Hilbert Moore, e vários técnicos. A missão deles era buscar uma alternativa de estado sólido para um frágil tubo de vácuo amplificador. Porém não deu muito certo este grupo, e eles fizeram o transistor por contato pontual, mas tiveram muitas discussões e brigas para patentear. Muitos do grupo entraram com pedidos de patente, porém Shockley não estava em nenhum desses pedidos. Isto o irritou, pois ele achava que seu nome também deveria estar sobre as patentes, porque o trabalho foi baseado em sua ideia de efeito de campo. Com tudo isto ele decidiu demonstrar quem era o verdadeiro cérebro da operação, então secretamente ele continuou seu trabalho para construir um tipo diferente de transistor baseado em junções em vez de contato pontual. Em 1948 outro membro da equipe, John N. Shive, construiu um transistor de ponto de contato, que virou a invenção Shive e desencadeou logo em seguida a invenção de Shockley do transistor de junção."
+    },
+    {
+      "id": "128859_6",
+      "ordem": 6,
+      "texto": "Shive, construiu um transistor de ponto de contato, que virou a invenção Shive e desencadeou logo em seguida a invenção de Shockley do transistor de junção.\nEntão poucos meses depois ele inventou um novo tipo de transistor com uma camada de estrutura, a invenção do transistor de junção, que foi anunciada em uma conferência de imprensa em 4 de julho de 1951 e obteve uma patente em 25 de setembro de 1951. Esta estrutura passou a ser utilizado para a grande maioria de todos os transistores na década de 1960, e evoluiu para o transistor bipolar de junção.\nEm 1951 foi eleito membro da Academia Nacional de Ciências (NAS). Dois anos depois, foi escolhido como o destinatário do prestigiado Prêmio Comstock de Física da NAS, e foi o destinatário de muitos outros prêmios e homenagens.\nPor ter um estilo de gestão abrasivo recebeu uma promoção de executivo da Bell Labs, que também sentia que ele era um bem valioso como cientista e teórico. Mas, ele resolveu tirar uma licença da Bell Labs em 1953 e mudou-se de volta para o Instituto de Tecnologia da Califórnia (Caltech), durante quatro meses como professor visitante."
+    },
+    {
+      "id": "128859_7",
+      "ordem": 7,
+      "texto": "Mas, ele resolveu tirar uma licença da Bell Labs em 1953 e mudou-se de volta para o Instituto de Tecnologia da Califórnia (Caltech), durante quatro meses como professor visitante.\nSemicondutor Shockley: Em 1955, Shockley se juntou à Beckman Instruments de Arnold Orville Beckman, onde foi nomeado diretor do recém-fundado Beckman Shockley Semicondutor Laboratory. Com seu prestígio e o capital de Beckman, ele tentou atrair alguns de seus ex-colegas da Bell Labs para seu laboratório novo, mas nenhum deles quis se juntar a ele. Como sua ideia inicial não deu certo, começou a procurar nas universidades os mais brilhantes alunos para construir uma empresa a partir do zero. Depois de receber o Prêmio Nobel em 1956, ele ficou pior de gênio, como evidenciado em seu estilo de gestão cada vez mais autocrático, errático e difícil de agradar. No final de 1957, oito dos pesquisadores, que se chamavam de \"Os Oito Traidores\", renunciaram após ele decidir não prosseguir a investigação em silício baseada nos semicondutores. Ao longo de 20 anos, oito dos ex-funcionários começaram 65 novas empresas. Shockley com o Semicondutor e mais estas empresas formaram o núcleo do que se tornou o Vale do Silício, o que revolucionou o mundo da eletrônica. A empresa de Shockley foi vendida em 1960 e tornou-se uma parte da ITT Corporation em 1968."
+    },
+    {
+      "id": "128859_8",
+      "ordem": 8,
+      "texto": "A empresa de Shockley foi vendida em 1960 e tornou-se uma parte da ITT Corporation em 1968.\nVisões racistas e eugenistas: Depois de Shockley ter deixado o seu cargo de diretor da Shockley Semiconductor, ele ingressou na Universidade de Stanford, onde foi nomeado Professor de Engenharia e Ciências Aplicadas em 1963, cargo que ocupou até se aposentar como professor emérito em 1975.\nNas duas últimas décadas da sua vida, Shockley, que não tinha formação nenhuma em genética, tornou-se amplamente conhecido pelas suas opiniões extremas sobre raça e inteligência humana, e pela sua defesa da eugenia. Tal como descrito no seu obituário no “Los Angeles Times”, “passou de um físico com credenciais acadêmicas impecáveis a geneticista amador, tornando-se um para-raios cujas opiniões provocaram manifestações no campus e uma cascata de calúnias”. Considerava que o seu trabalho era importante para o futuro da humanidade e descreveu-o também como o aspecto mais importante da sua carreira. Argumentou que uma maior taxa de reprodução entre pessoas supostamente menos inteligentes estava a ter um efeito disgênico, e argumentou que uma queda na inteligência média levaria a um declínio da civilização. Ele também afirmou que os negros eram geneticamente e intelectualmente inferiores aos brancos."
+    },
+    {
+      "id": "128859_9",
+      "ordem": 9,
+      "texto": "Ele também afirmou que os negros eram geneticamente e intelectualmente inferiores aos brancos.\nO biógrafo de Shockley, Joel Shurkin, observa que durante grande parte da vida de Shockley nos Estados Unidos da época, ele quase não teve contato com pessoas negras.  Num debate com a psiquiatra Frances Cress Welsing e no programa Firing Line com William F. Buckley Jr., Shockley argumentou: “A minha investigação leva-me inescapavelmente à opinião de que a principal causa dos défices intelectuais e sociais do negro americano é de origem hereditária e racialmente genética e, portanto, não remediável em grande medida por melhorias práticas no ambiente”.\nShockley foi um dos teóricos de raça que recebeu dinheiro do Pioneer Fund, e pelo menos uma doação para ele veio do seu fundador, o eugenista Wickliffe Draper. Shockley propôs que os indivíduos com QI inferior a 100 deveriam ser pagos para se submeterem a esterilização voluntária, 1 000 dólares por cada um dos seus pontos de QI inferior a 100. Esta proposta levou a que a Universidade de Leeds lhe retirasse a oferta de um grau honorário. O antropólogo e ativista de extrema-direita Roger Pearson defendeu Shockley num livro auto-publicado em coautoria com Shockley."
+    },
+    {
+      "id": "128859_10",
+      "ordem": 10,
+      "texto": "O antropólogo e ativista de extrema-direita Roger Pearson defendeu Shockley num livro auto-publicado em coautoria com Shockley.\nO The Southern Poverty Law Center descreve Shockley como um nacionalista branco que não conseguiu produzir provas para as suas teorias eugênicas no meio de um “reconhecimento quase universal de que o seu trabalho era o de um racista maluco”. A escritora científica Angela Saini descreve Shockley como tendo sido “um racista notório”."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "pessoa:william_bradford_shockley",
+      "nome": "William Bradford Shockley",
+      "tipo": "Pessoa",
+      "aliases": [
+        "William Shockley",
+        "Shockley"
+      ],
+      "descricao": "Físico e inventor estadunidense laureado com o Nobel de física em 1956.",
+      "propriedades": {
+        "ano_nascimento": 1910,
+        "ano_morte": 1989
+      },
+      "chunk_ids": [
+        "128859_0",
+        "128859_1",
+        "128859_2",
+        "128859_3",
+        "128859_4",
+        "128859_5",
+        "128859_6",
+        "128859_7",
+        "128859_8",
+        "128859_9",
+        "128859_10"
+      ]
+    },
+    {
+      "id": "local:londres",
+      "nome": "Londres",
+      "tipo": "Local",
+      "aliases": [
+        "London"
+      ],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "128859_0"
+      ]
+    },
+    {
+      "id": "premio:premio_nobel_de_fisica",
+      "nome": "Prêmio Nobel de Física",
+      "tipo": "Premio",
+      "aliases": [
+        "Nobel de Física",
+        "Prémio Nobel de Física"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "128859_0",
+        "128859_7"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_stanford",
+      "nome": "Universidade Stanford",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Universidade de Stanford",
+        "Stanford University",
+        "Stanford"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "128859_0",
+        "128859_1",
+        "128859_8"
+      ]
+    },
+    {
+      "id": "local:california",
+      "nome": "Califórnia",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128859_0"
+      ]
+    },
+    {
+      "id": "organizacao:instituto_de_tecnologia_da_california",
+      "nome": "Instituto de Tecnologia da Califórnia",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Caltech"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "128859_2",
+        "128859_6",
+        "128859_7"
+      ]
+    },
+    {
+      "id": "organizacao:instituto_de_tecnologia_de_massachusetts",
+      "nome": "Instituto de Tecnologia de Massachusetts",
+      "tipo": "Organizacao",
+      "aliases": [
+        "MIT",
+        "Massachusetts Institute of Technology"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "128859_2"
+      ]
+    },
+    {
+      "id": "organizacao:bell_labs",
+      "nome": "Bell Labs",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Laboratórios Bell",
+        "Bell Laboratories",
+        "Nokia Bell Labs",
+        "Bell Telephone Laboratories",
+        "AT&T Bell Laboratories"
+      ],
+      "propriedades": {
+        "tipo": "laboratorio"
+      },
+      "chunk_ids": [
+        "128859_2",
+        "128859_3",
+        "128859_5",
+        "128859_6",
+        "128859_7"
+      ]
+    },
+    {
+      "id": "pessoa:clinton_davisson",
+      "nome": "Clinton Davisson",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128859_2"
+      ]
+    },
+    {
+      "id": "pessoa:john_clarke_slater",
+      "nome": "John Clarke Slater",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128859_2"
+      ]
+    },
+    {
+      "id": "local:nova_jersia",
+      "nome": "Nova Jérsia",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128859_2"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_columbia",
+      "nome": "Universidade Columbia",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "128859_3"
+      ]
+    },
+    {
+      "id": "premio:medalha_presidencial_por_merito",
+      "nome": "Medalha Presidencial por Mérito",
+      "tipo": "Premio",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128859_4"
+      ]
+    },
+    {
+      "id": "pessoa:robert_porter_patterson",
+      "nome": "Robert Porter Patterson",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128859_4"
+      ]
+    },
+    {
+      "id": "pessoa:john_bardeen",
+      "nome": "John Bardeen",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128859_5"
+      ]
+    },
+    {
+      "id": "pessoa:walter_houser_brattain",
+      "nome": "Walter Houser Brattain",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Walter Brattain",
+        "Brattain"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "128859_5"
+      ]
+    },
+    {
+      "id": "organizacao:morgan_stanley",
+      "nome": "Morgan Stanley",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "128859_5"
+      ]
+    },
+    {
+      "id": "pessoa:gerald_pearson",
+      "nome": "Gerald Pearson",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128859_5"
+      ]
+    },
+    {
+      "id": "pessoa:robert_gibney",
+      "nome": "Robert Gibney",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128859_5"
+      ]
+    },
+    {
+      "id": "pessoa:hilbert_moore",
+      "nome": "Hilbert Moore",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128859_5"
+      ]
+    },
+    {
+      "id": "pessoa:john_n_shive",
+      "nome": "John N. Shive",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128859_5",
+        "128859_6"
+      ]
+    },
+    {
+      "id": "tecnologia:transistor_de_ponto_de_contato",
+      "nome": "Transistor de ponto de contato",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "propriedades": {
+        "ano": 1948,
+        "tipo": "invencao"
+      },
+      "chunk_ids": [
+        "128859_5",
+        "128859_6"
+      ]
+    },
+    {
+      "id": "tecnologia:transistor_de_juncao",
+      "nome": "Transistor de junção",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "invencao",
+        "ano": 1951
+      },
+      "chunk_ids": [
+        "128859_5",
+        "128859_6"
+      ]
+    },
+    {
+      "id": "organizacao:academia_nacional_de_ciencias",
+      "nome": "Academia Nacional de Ciências",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128859_6"
+      ]
+    },
+    {
+      "id": "premio:premio_comstock_de_fisica",
+      "nome": "Prêmio Comstock de Física",
+      "tipo": "Premio",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128859_6"
+      ]
+    },
+    {
+      "id": "organizacao:beckman_instruments",
+      "nome": "Beckman Instruments",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "128859_7"
+      ]
+    },
+    {
+      "id": "pessoa:arnold_orville_beckman",
+      "nome": "Arnold Orville Beckman",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128859_7"
+      ]
+    },
+    {
+      "id": "organizacao:beckman_shockley_semiconductor_laboratory",
+      "nome": "Beckman Shockley Semiconductor Laboratory",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Beckman Shockley Semicondutor Laboratory"
+      ],
+      "propriedades": {
+        "tipo": "laboratorio"
+      },
+      "chunk_ids": [
+        "128859_7"
+      ]
+    },
+    {
+      "id": "organizacao:itt_corporation",
+      "nome": "ITT Corporation",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "128859_7",
+        "128859_8"
+      ]
+    },
+    {
+      "id": "organizacao:shockley_semiconductor",
+      "nome": "Shockley Semiconductor",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "128859_8"
+      ]
+    },
+    {
+      "id": "organizacao:pioneer_fund",
+      "nome": "Pioneer Fund",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "fundacao"
+      },
+      "chunk_ids": [
+        "128859_9"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_de_leeds",
+      "nome": "Universidade de Leeds",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "128859_9"
+      ]
+    },
+    {
+      "id": "organizacao:southern_poverty_law_center",
+      "nome": "Southern Poverty Law Center",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128859_10"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "NASCEU_EM",
+      "destino": "local:londres",
+      "propriedades": {},
+      "chunk_id": "128859_0",
+      "evidencia": "William Bradford Shockley (Londres, 13 de fevereiro de 1910",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_nobel_de_fisica",
+      "propriedades": {
+        "ano": 1956
+      },
+      "chunk_id": "128859_0",
+      "evidencia": "laureado com o prêmio Nobel de física em 1956",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:universidade_stanford",
+      "propriedades": {
+        "cargo": "professor de engenharia elétrica"
+      },
+      "chunk_id": "128859_0",
+      "evidencia": "quando era professor de engenharia elétrica na Universidade de Stanford",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:instituto_de_tecnologia_da_california",
+      "propriedades": {
+        "ano": 1932
+      },
+      "chunk_id": "128859_2",
+      "evidencia": "No ano de 1932, ele recebeu seu grau de Bacharel em Ciências no Instituto de Tecnologia da Califórnia",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:instituto_de_tecnologia_de_massachusetts",
+      "propriedades": {
+        "curso": "PhD",
+        "ano": 1936
+      },
+      "chunk_id": "128859_2",
+      "evidencia": "Shockley recebeu o seu PhD no Instituto de Tecnologia de Massachusetts em 1936",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:bell_labs",
+      "propriedades": {},
+      "chunk_id": "128859_2",
+      "evidencia": "ele se juntou a um grupo de pesquisa liderado por Clinton Davisson no Bell Labs",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:bell_labs",
+      "propriedades": {
+        "ano_fim": 1942
+      },
+      "chunk_id": "128859_3",
+      "evidencia": "Em maio de 1942 ele se despediu da Bell Labs",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:universidade_columbia",
+      "propriedades": {
+        "cargo": "diretor de pesquisa",
+        "ano_inicio": 1942
+      },
+      "chunk_id": "128859_3",
+      "evidencia": "para se tornar um diretor de pesquisa na  Universidade Columbia",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "RECEBEU",
+      "destino": "premio:medalha_presidencial_por_merito",
+      "propriedades": {
+        "ano": 1946
+      },
+      "chunk_id": "128859_4",
+      "evidencia": "o secretário de guerra Robert Porter Patterson concedeu a ele a Medalha Presidencial por Mérito em 17 de outubro de 1946",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:john_bardeen",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:william_bradford_shockley",
+      "propriedades": {
+        "contexto": "grupo de Física do Estado Sólido do Bell Labs"
+      },
+      "chunk_id": "128859_5",
+      "evidencia": "que foi liderado por Shockley e pelo químico Morgan Stanley, que incluía John Bardeen, Walter Brattain",
+      "confianca": 0.75
+    },
+    {
+      "origem": "pessoa:walter_houser_brattain",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:william_bradford_shockley",
+      "propriedades": {
+        "contexto": "grupo de Física do Estado Sólido do Bell Labs"
+      },
+      "chunk_id": "128859_5",
+      "evidencia": "que foi liderado por Shockley e pelo químico Morgan Stanley, que incluía John Bardeen, Walter Brattain",
+      "confianca": 0.75
+    },
+    {
+      "origem": "pessoa:john_n_shive",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:transistor_de_ponto_de_contato",
+      "propriedades": {
+        "ano": 1948
+      },
+      "chunk_id": "128859_5",
+      "evidencia": "Em 1948 outro membro da equipe, John N. Shive, construiu um transistor de ponto de contato",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:transistor_de_juncao",
+      "propriedades": {
+        "ano": 1951
+      },
+      "chunk_id": "128859_6",
+      "evidencia": "ele inventou um novo tipo de transistor com uma camada de estrutura, a invenção do transistor de junção",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_comstock_de_fisica",
+      "propriedades": {},
+      "chunk_id": "128859_6",
+      "evidencia": "foi escolhido como o destinatário do prestigiado Prêmio Comstock de Física da NAS",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:instituto_de_tecnologia_da_california",
+      "propriedades": {
+        "cargo": "professor visitante",
+        "ano_inicio": 1953
+      },
+      "chunk_id": "128859_6",
+      "evidencia": "Mas, ele resolveu tirar uma licença da Bell Labs em 1953 e mudou-se de volta para o Instituto de Tecnologia da Califórnia (Caltech), durante quatro meses como professor visitante",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:beckman_instruments",
+      "propriedades": {
+        "ano_inicio": 1955
+      },
+      "chunk_id": "128859_7",
+      "evidencia": "Em 1955, Shockley se juntou à Beckman Instruments de Arnold Orville Beckman",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:beckman_shockley_semiconductor_laboratory",
+      "propriedades": {
+        "cargo": "diretor"
+      },
+      "chunk_id": "128859_7",
+      "evidencia": "onde foi nomeado diretor do recém-fundado Beckman Shockley Semicondutor Laboratory",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_nobel_de_fisica",
+      "propriedades": {
+        "ano": 1956
+      },
+      "chunk_id": "128859_7",
+      "evidencia": "Depois de receber o Prêmio Nobel em 1956",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:universidade_stanford",
+      "propriedades": {
+        "cargo": "Professor de Engenharia e Ciências Aplicadas",
+        "ano_inicio": 1963,
+        "ano_fim": 1975
+      },
+      "chunk_id": "128859_8",
+      "evidencia": "ele ingressou na Universidade de Stanford, onde foi nomeado Professor de Engenharia e Ciências Aplicadas em 1963, cargo que ocupou até se aposentar como professor emérito em 1975",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:shockley_semiconductor",
+      "propriedades": {
+        "cargo": "diretor"
+      },
+      "chunk_id": "128859_8",
+      "evidencia": "Depois de Shockley ter deixado o seu cargo de diretor da Shockley Semiconductor",
+      "confianca": 0.85
+    }
+  ]
+}

@@ -1,0 +1,1962 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:23:05+00:00",
+ "chunks": [
+  {
+   "chunk_id": "37942_0",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann",
+      "Neumann János"
+     ],
+     "descricao": "Físico-matemático e engenheiro químico húngaro, naturalizado estadunidense.",
+     "propriedades": {
+      "ano_nascimento": 1903,
+      "ano_morte": 1957
+     }
+    },
+    {
+     "nome": "Budapeste",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Edward Teller",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Stanisław Ulam",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "NASCEU_EM",
+     "destino": "Budapeste",
+     "propriedades": {},
+     "evidencia": "John von Neumann, nascido Margittai Neumann János Lajos (Budapeste, 28 de dezembro de 1903",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John von Neumann",
+     "tipo": "COLABOROU_COM",
+     "destino": "Edward Teller",
+     "propriedades": {
+      "contexto": "Física Nuclear e bomba de hidrogênio"
+     },
+     "evidencia": "Com Edward Teller e Stanisław Ulam, von Neumann trabalhou em desenvolvimentos chave da Física Nuclear",
+     "confianca": 0.9
+    },
+    {
+     "origem": "John von Neumann",
+     "tipo": "COLABOROU_COM",
+     "destino": "Stanisław Ulam",
+     "propriedades": {
+      "contexto": "Física Nuclear e bomba de hidrogênio"
+     },
+     "evidencia": "Com Edward Teller e Stanisław Ulam, von Neumann trabalhou em desenvolvimentos chave da Física Nuclear",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_1",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Princeton",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "ENIAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Princeton",
+     "propriedades": {
+      "cargo": "professor"
+     },
+     "evidencia": "Foi professor na Universidade de Princeton",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John von Neumann",
+     "tipo": "CRIOU",
+     "destino": "ENIAC",
+     "propriedades": {},
+     "evidencia": "um dos construtores do ENIAC",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_2",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Budapeste",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "NASCEU_EM",
+     "destino": "Budapeste",
+     "propriedades": {},
+     "evidencia": "Von Neumann nasceu em Budapeste, Reino da Hungria",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_3",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_4",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_5",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Eötvös",
+     "tipo": "Premio",
+     "aliases": [],
+     "descricao": "Prêmio nacional de matemática da Hungria.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Eötvös",
+     "propriedades": {},
+     "evidencia": "ele se candidatou e ganhou o Prêmio Eötvös, um prêmio nacional de matemática",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_6",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Eötvös",
+     "tipo": "Premio",
+     "aliases": [],
+     "descricao": "Prêmio nacional de matemática da Hungria.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Berlim",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Instituto Federal de Tecnologia de Zurique",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ETH Zurique"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Budapeste",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade Pázmány Péter"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Eötvös",
+     "propriedades": {},
+     "evidencia": "ele se candidatou e ganhou o Prêmio Eötvös, um prêmio nacional de matemática",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John von Neumann",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Berlim",
+     "propriedades": {
+      "curso": "química"
+     },
+     "evidencia": "fizesse um curso de química de dois anos, sem obtenção de diploma, na Universidade de Berlim",
+     "confianca": 0.9
+    },
+    {
+     "origem": "John von Neumann",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Instituto Federal de Tecnologia de Zurique",
+     "propriedades": {
+      "curso": "engenharia química",
+      "ano": 1926
+     },
+     "evidencia": "Em 1926, formou-se como engenheiro químico pela ETH Zurique",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John von Neumann",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Budapeste",
+     "propriedades": {
+      "curso": "Ph.D. em matemática",
+      "ano": 1926
+     },
+     "evidencia": "Em 1926, formou-se como engenheiro químico pela ETH Zurique e simultaneamente passou em seus exames finais summa cum laude para o seu Ph.D. em matemática (com especializações menores em física experimental e química) na Universidade de Budapeste",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_7",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto Federal de Tecnologia de Zurique",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ETH Zurique"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Budapeste",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Göttingen",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Instituto Federal de Tecnologia de Zurique",
+     "propriedades": {
+      "curso": "engenharia química",
+      "ano": 1926
+     },
+     "evidencia": "Em 1926, formou-se como engenheiro químico pela ETH Zurique",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John von Neumann",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Budapeste",
+     "propriedades": {
+      "curso": "Ph.D. em matemática",
+      "ano": 1926
+     },
+     "evidencia": "Em 1926, formou-se como engenheiro químico pela ETH Zurique e simultaneamente passou em seus exames finais summa cum laude para o seu Ph.D. em matemática (com especializações menores em física experimental e química) na Universidade de Budapeste",
+     "confianca": 0.9
+    },
+    {
+     "origem": "John von Neumann",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Göttingen",
+     "propriedades": {
+      "curso": "matemática"
+     },
+     "evidencia": "Ele então foi para a Universidade de Göttingen com uma bolsa da Fundação Rockefeller para estudar matemática",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_8",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Berlim",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Hamburgo",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Princeton",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Berlim",
+     "propriedades": {
+      "cargo": "Privatdozent",
+      "ano_inicio": 1928
+     },
+     "evidencia": "começou a dar aulas como Privatdozent na Universidade de Berlim em 1928",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John von Neumann",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Hamburgo",
+     "propriedades": {
+      "cargo": "Privatdozent",
+      "ano_inicio": 1929
+     },
+     "evidencia": "Em 1929, ele tornou-se brevemente um Privatdozent na Universidade de Hamburgo",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John von Neumann",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Princeton",
+     "propriedades": {
+      "cargo": "professor visitante em física matemática"
+     },
+     "evidencia": "mudou-se para a Universidade de Princeton como professor visitante em física matemática",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_9",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Estudos Avançados de Princeton",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Instituto de Estudos Avançados",
+      "IAS"
+     ],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    },
+    {
+     "nome": "Nova Jérsei",
+     "tipo": "Local",
+     "aliases": [
+      "Nova Jersey"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Estudos Avançados de Princeton",
+     "propriedades": {
+      "cargo": "professor titular",
+      "ano_inicio": 1933
+     },
+     "evidencia": "Em 1933, Von Neumann aceitou um cargo de professor titular no Instituto de Estudos Avançados de Princeton em Nova Jersey",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Instituto de Estudos Avançados de Princeton",
+     "tipo": "SEDIADA_EM",
+     "destino": "Nova Jérsei",
+     "propriedades": {},
+     "evidencia": "Instituto de Estudos Avançados de Princeton em Nova Jersey",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_10",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_11",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_13",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_15",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_16",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_17",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_18",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_19",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_20",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Paul Halmos",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Halmos"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "COLABOROU_COM",
+     "destino": "Paul Halmos",
+     "propriedades": {
+      "contexto": "artigos sobre ergodicidade"
+     },
+     "evidencia": "Os resultados neste artigo e em outro, em conjunto com Paul Halmos, têm aplicações significativas em outras áreas da matemática.",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_21",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Paul Halmos",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Halmos"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "COLABOROU_COM",
+     "destino": "Paul Halmos",
+     "propriedades": {
+      "contexto": "artigos sobre ergodicidade"
+     },
+     "evidencia": "Os resultados neste artigo e em outro, em conjunto com Paul Halmos, têm aplicações significativas em outras áreas da matemática.",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_22",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_23",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Memorial Bôcher",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Memorial Bôcher",
+     "propriedades": {
+      "ano": 1938
+     },
+     "evidencia": "Em 1938, foi laureado com o Prêmio Memorial Bôcher por seu trabalho em análise",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_24",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_25",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_26",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "I. J. Schoenberg",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Pascual Jordan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "COLABOROU_COM",
+     "destino": "I. J. Schoenberg",
+     "propriedades": {
+      "contexto": "métricas hilbertianas invariantes por translação"
+     },
+     "evidencia": "Junto com I. J. Schoenberg, ele escreveu vários artigos investigando métricas hilbertianas invariantes por translação",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John von Neumann",
+     "tipo": "COLABOROU_COM",
+     "destino": "Pascual Jordan",
+     "propriedades": {
+      "contexto": "derivação de norma a partir de produto interno"
+     },
+     "evidencia": "Com Pascual Jordan, ele escreveu um artigo curto dando a primeira derivação de uma determinada norma",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_27",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Schatten",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "COLABOROU_COM",
+     "destino": "Robert Schatten",
+     "propriedades": {
+      "contexto": "estudo de operadores nucleares em espaços de Hilbert"
+     },
+     "evidencia": "Posteriormente, junto com Robert Schatten, ele iniciou o estudo de operadores nucleares em espaços de Hilbert",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_28",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Francis Joseph Murray",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Murray"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "COLABOROU_COM",
+     "destino": "Francis Joseph Murray",
+     "propriedades": {
+      "contexto": "classificação dos fatores das álgebras de von Neumann"
+     },
+     "evidencia": "von Neumann embarcou em 1936, com a colaboração parcial de Murray, no caso não comutativo",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_29",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_30",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_31",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_32",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_33",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Garrett Birkhoff",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Birkhoff"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "COLABOROU_COM",
+     "destino": "Garrett Birkhoff",
+     "propriedades": {
+      "contexto": "seminário conjunto sobre teoria dos reticulados"
+     },
+     "evidencia": "um seminário conjunto que ele conduziu com Birkhoff no Instituto de Estudos Avançados",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_34",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_35",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_36",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Pascual Jordan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Eugene Wigner",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "COLABOROU_COM",
+     "destino": "Pascual Jordan",
+     "propriedades": {
+      "contexto": "classificação das álgebras de Jordan formalmente reais"
+     },
+     "evidencia": "junto com Pascual Jordan e Eugene Wigner, ele escreveu um artigo fundamental classificando todas as álgebras de Jordan",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John von Neumann",
+     "tipo": "COLABOROU_COM",
+     "destino": "Eugene Wigner",
+     "propriedades": {
+      "contexto": "classificação das álgebras de Jordan formalmente reais"
+     },
+     "evidencia": "junto com Pascual Jordan e Eugene Wigner, ele escreveu um artigo fundamental classificando todas as álgebras de Jordan",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_37",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_38",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_39",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_40",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_41",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_42",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_43",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_44",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Garrett Birkhoff",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Birkhoff"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "COLABOROU_COM",
+     "destino": "Garrett Birkhoff",
+     "propriedades": {
+      "contexto": "artigo de 1936 que inaugurou a lógica quântica"
+     },
+     "evidencia": "O campo da lógica quântica foi subsequentemente inaugurado num artigo de 1936 por von Neumann e Garrett Birkhoff",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_45",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_46",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_47",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert D. Richtmyer",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "COLABOROU_COM",
+     "destino": "Robert D. Richtmyer",
+     "propriedades": {
+      "contexto": "algoritmo de viscosidade artificial para ondas de choque"
+     },
+     "evidencia": "Posteriormente, com Robert D. Richtmyer, von Neumann desenvolveu um algoritmo definindo uma viscosidade artificial",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_48",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_49",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Subrahmanyan Chandrasekhar",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Chandrasekhar"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Abraham H. Taub",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Taub"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Oswald Veblen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Veblen"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "COLABOROU_COM",
+     "destino": "Subrahmanyan Chandrasekhar",
+     "propriedades": {
+      "contexto": "estatística de um campo gravitacional flutuante gerado por estrelas"
+     },
+     "evidencia": "Os seus artigos pioneiros com Subrahmanyan Chandrasekhar sobre a estatística de um campo gravitacional flutuante gerado por estrelas distribuídas aleatoriamente",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John von Neumann",
+     "tipo": "COLABOROU_COM",
+     "destino": "Abraham H. Taub",
+     "propriedades": {
+      "contexto": "extensão da equação de Dirac para a relatividade projetiva"
+     },
+     "evidencia": "escreveu um artigo com Abraham H. Taub e Veblen estendendo a equação de Dirac para a relatividade projetiva",
+     "confianca": 0.9
+    },
+    {
+     "origem": "John von Neumann",
+     "tipo": "COLABOROU_COM",
+     "destino": "Oswald Veblen",
+     "propriedades": {
+      "contexto": "extensão da equação de Dirac para a relatividade projetiva"
+     },
+     "evidencia": "escreveu um artigo com Abraham H. Taub e Veblen estendendo a equação de Dirac para a relatividade projetiva",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_50",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_51",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Oskar Morgenstern",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "COLABOROU_COM",
+     "destino": "Oskar Morgenstern",
+     "propriedades": {
+      "contexto": "livro Theory of Games and Economic Behavior (1944)"
+     },
+     "evidencia": "publicando este resultado no seu livro de 1944 Theory of Games and Economic Behavior, escrito com Oskar Morgenstern",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_52",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_53",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_54",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_55",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_56",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_57",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Laboratório de Pesquisa Balística do Exército",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "ENIAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "EDVAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Presper Eckert",
+     "tipo": "Pessoa",
+     "aliases": [
+      "J. Presper Eckert"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Mauchly",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Arquitetura de von Neumann",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Arquitetura de programa armazenado em memória única, baseada no trabalho de Eckert e Mauchly.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Universidade da Pensilvânia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Laboratório de Pesquisa Balística do Exército",
+     "propriedades": {
+      "cargo": "consultor"
+     },
+     "evidencia": "von Neumann foi consultor do Laboratório de Pesquisa Balística do Exército",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John Presper Eckert",
+     "tipo": "CRIOU",
+     "destino": "ENIAC",
+     "propriedades": {},
+     "evidencia": "J. Presper Eckert e John Mauchly, inventores do ENIAC e de seu sucessor, o EDVAC",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John Presper Eckert",
+     "tipo": "CRIOU",
+     "destino": "EDVAC",
+     "propriedades": {},
+     "evidencia": "J. Presper Eckert e John Mauchly, inventores do ENIAC e de seu sucessor, o EDVAC",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John Mauchly",
+     "tipo": "CRIOU",
+     "destino": "ENIAC",
+     "propriedades": {},
+     "evidencia": "J. Presper Eckert e John Mauchly, inventores do ENIAC e de seu sucessor, o EDVAC",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John Mauchly",
+     "tipo": "CRIOU",
+     "destino": "EDVAC",
+     "propriedades": {},
+     "evidencia": "J. Presper Eckert e John Mauchly, inventores do ENIAC e de seu sucessor, o EDVAC",
+     "confianca": 0.95
+    },
+    {
+     "origem": "EDVAC",
+     "tipo": "SUCESSOR_DE",
+     "destino": "ENIAC",
+     "propriedades": {},
+     "evidencia": "inventores do ENIAC e de seu sucessor, o EDVAC",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_58",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina IAS",
+     "tipo": "Hardware",
+     "aliases": [
+      "IAS"
+     ],
+     "descricao": "Computador projetado por von Neumann no Instituto de Estudos Avançados.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM 701",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Versão mais rápida da máquina IAS, apelidada de computador de defesa.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM 704",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "CRIOU",
+     "destino": "Máquina IAS",
+     "propriedades": {},
+     "evidencia": "von Neumann projetou a máquina IAS no Instituto de Estudos Avançados em Princeton",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_59",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Stanisław Ulam",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ulam"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "COLABOROU_COM",
+     "destino": "Stanisław Ulam",
+     "propriedades": {
+      "contexto": "simulações para cálculos hidrodinâmicos da bomba de hidrogênio"
+     },
+     "evidencia": "ele e Stanisław Ulam desenvolveram simulações para cálculos hidrodinâmicos",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_60",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_61",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Stanisław Ulam",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ulam"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "COLABOROU_COM",
+     "destino": "Stanisław Ulam",
+     "propriedades": {
+      "contexto": "criação do campo dos autômatos celulares"
+     },
+     "evidencia": "Ulam e von Neumann são também geralmente creditados com a criação do campo dos autômatos celulares",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_62",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Herman Goldstine",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Goldstine"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "COLABOROU_COM",
+     "destino": "Herman Goldstine",
+     "propriedades": {
+      "contexto": "artigo de 1947 sobre análise de erros retroativa"
+     },
+     "evidencia": "O seu artigo de 1947 com Herman Goldstine foi o primeiro a descrever a análise de erros retroativa",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_63",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_64",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Carl-Gustaf Rossby",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Rossby"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "COLABOROU_COM",
+     "destino": "Carl-Gustaf Rossby",
+     "propriedades": {
+      "contexto": "Projeto Meteorológico no Instituto de Estudos Avançados"
+     },
+     "evidencia": "Com Carl-Gustaf Rossby, considerado o principal meteorologista teórico da época, reuniu um grupo de vinte meteorologistas",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_65",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jule Gregory Charney",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Charney"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "ENIAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "COLABOROU_COM",
+     "destino": "Jule Gregory Charney",
+     "propriedades": {
+      "contexto": "primeiro software de modelagem climática e primeira previsão meteorológica numérica"
+     },
+     "evidencia": "Em 1950, von Neumann e Charney escreveram o primeiro software de modelagem climática do mundo",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_66",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_67",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_68",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_69",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_70",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_71",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_72",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_73",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Edward Teller",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Teller"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Klaus Fuchs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Fuchs"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "COLABOROU_COM",
+     "destino": "Edward Teller",
+     "propriedades": {
+      "contexto": "projeto da bomba de hidrogênio"
+     },
+     "evidencia": "tornou-se, juntamente com Edward Teller, um dos que sustentaram o projeto da bomba de hidrogênio",
+     "confianca": 0.9
+    },
+    {
+     "origem": "John von Neumann",
+     "tipo": "COLABOROU_COM",
+     "destino": "Klaus Fuchs",
+     "propriedades": {
+      "contexto": "desenvolvimento da bomba de hidrogênio e patente de 1946"
+     },
+     "evidencia": "Ele colaborou com Klaus Fuchs no desenvolvimento posterior da bomba",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_74",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Navy Distinguished Civilian Service Award",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha de Mérito",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Grupo de Avaliação de Sistemas de Armas",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Weapons Systems Evaluation Group"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Laboratório Nacional de Lawrence Livermore",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "RECEBEU",
+     "destino": "Navy Distinguished Civilian Service Award",
+     "propriedades": {
+      "ano": 1946
+     },
+     "evidencia": "von Neumann foi condecorado com o Navy Distinguished Civilian Service Award em julho de 1946",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John von Neumann",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Mérito",
+     "propriedades": {
+      "ano": 1946
+     },
+     "evidencia": "e com a Medalha de Mérito em outubro de 1946",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John von Neumann",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Grupo de Avaliação de Sistemas de Armas",
+     "propriedades": {
+      "cargo": "consultor",
+      "ano_inicio": 1950
+     },
+     "evidencia": "Em 1950, von Neumann tornou-se consultor do Grupo de Avaliação de Sistemas de Armas (Weapons Systems Evaluation Group)",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John von Neumann",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Laboratório Nacional de Lawrence Livermore",
+     "propriedades": {
+      "cargo": "consultor"
+     },
+     "evidencia": "um cargo de consultor no recém-criado Laboratório Nacional de Lawrence Livermore",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_75",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_76",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_77",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Comissão de Energia Atômica",
+     "tipo": "Organizacao",
+     "aliases": [
+      "AEC"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Comissão de Energia Atômica",
+     "propriedades": {
+      "cargo": "comissário",
+      "ano_inicio": 1955
+     },
+     "evidencia": "Em 1955, von Neumann tornou-se comissário da Comissão de Energia Atômica (AEC)",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_78",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_79",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_80",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_81",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_82",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_83",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_84",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_85",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_86",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_87",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_88",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_89",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_90",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_91",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_92",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_93",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_94",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_95",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha de Mérito",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha da Liberdade",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Enrico Fermi",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade John von Neumann",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade",
+      "ano_fundacao": 2016
+     }
+    },
+    {
+     "nome": "Kecskemét",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Mérito",
+     "propriedades": {
+      "ano": 1947
+     },
+     "evidencia": "Von Neumann recebeu prêmios incluindo a Medalha de Mérito em 1947, a Medalha da Liberdade em 1956, e o Prêmio Enrico Fermi também em 1956.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John von Neumann",
+     "tipo": "RECEBEU",
+     "destino": "Medalha da Liberdade",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "Von Neumann recebeu prêmios incluindo a Medalha de Mérito em 1947, a Medalha da Liberdade em 1956, e o Prêmio Enrico Fermi também em 1956.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John von Neumann",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Enrico Fermi",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "Von Neumann recebeu prêmios incluindo a Medalha de Mérito em 1947, a Medalha da Liberdade em 1956, e o Prêmio Enrico Fermi também em 1956.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Universidade John von Neumann",
+     "tipo": "SEDIADA_EM",
+     "destino": "Kecskemét",
+     "propriedades": {},
+     "evidencia": "A Universidade John von Neumann foi fundada em Kecskemét, Hungria em 2016",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_96",
+   "entidades": [
+    {
+     "nome": "Universidade John von Neumann",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade",
+      "ano_fundacao": 2016
+     }
+    },
+    {
+     "nome": "Kecskemét",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Marina von Neumann Whitman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Filha de von Neumann, economista acadêmica.",
+     "propriedades": {}
+    },
+    {
+     "nome": "General Motors",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Universidade de Michigan",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Universidade John von Neumann",
+     "tipo": "SEDIADA_EM",
+     "destino": "Kecskemét",
+     "propriedades": {},
+     "evidencia": "A Universidade John von Neumann foi fundada em Kecskemét, Hungria em 2016",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Marina von Neumann Whitman",
+     "tipo": "TRABALHOU_EM",
+     "destino": "General Motors",
+     "propriedades": {
+      "cargo": "Vice-Presidente de Relações Públicas",
+      "ano_inicio": 1979,
+      "ano_fim": 1992
+     },
+     "evidencia": "atuou como Vice-Presidente de Relações Públicas na General Motors (1979–1992)",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Marina von Neumann Whitman",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Michigan",
+     "propriedades": {
+      "cargo": "professora emérita"
+     },
+     "evidencia": "Ela também foi professora emérita na Universidade de Michigan.",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "37942_97",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_98",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_99",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_100",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_101",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_102",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_103",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "37942_104",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

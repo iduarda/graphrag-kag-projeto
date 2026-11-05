@@ -1,0 +1,1189 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:24:12+00:00",
+ "chunks": [
+  {
+   "chunk_id": "26315_0",
+   "entidades": [
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [
+      "Colossus (computador)"
+     ],
+     "descricao": "Conjunto de computadores desenvolvidos por decifradores britânicos para a criptoanálise da cifra de Lorenz.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Tommy Flowers",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Engenheiro de pesquisa de telefone da General Post Office que projetou o Colossus.",
+     "propriedades": {}
+    },
+    {
+     "nome": "General Post Office",
+     "tipo": "Organizacao",
+     "aliases": [
+      "GPO"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Max Newman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Matemático que apresentou o problema resolvido pelo Colossus.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tommy Flowers",
+     "tipo": "CRIOU",
+     "destino": "Colossus",
+     "propriedades": {},
+     "evidencia": "O Colossus foi projetado pelo engenheiro de pesquisa de telefone da General Post Office (GPO) Tommy Flowers",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Tommy Flowers",
+     "tipo": "TRABALHOU_EM",
+     "destino": "General Post Office",
+     "propriedades": {
+      "cargo": "engenheiro de pesquisa de telefone"
+     },
+     "evidencia": "engenheiro de pesquisa de telefone da General Post Office (GPO) Tommy Flowers",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "26315_1",
+   "entidades": [
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Colossus Mark 1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Protótipo do Colossus.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Colossus Mark 2",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Versão aprimorada do Colossus que usava registradores de deslocamento.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Colossus Mark 2",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Colossus Mark 1",
+     "propriedades": {},
+     "evidencia": "O protótipo, Colossus Mark 1, foi mostrado para funcionar em dezembro de 1943 e estava em uso em Bletchley Park no início de 1944. Já o Colossus Mark 2 aprimorado",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "26315_2",
+   "entidades": [
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Tony Sale",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Concluiu a reconstrução funcional de um Colossus Mark 2 em 2008.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26315_3",
+   "entidades": [
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Station X"
+     ],
+     "descricao": "Mansão vitoriana onde o Colossus foi construído.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Escola de Código do Governo e Cypher",
+     "tipo": "Organizacao",
+     "aliases": [
+      "GC&CS"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Tiltman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Criptoanalista do GC&CS que derivou um fluxo de chave de quase 4.000 caracteres.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Bill Tutte",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Descobriu a estrutura lógica da máquina Lorenz.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John Tiltman",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Escola de Código do Governo e Cypher",
+     "propriedades": {
+      "cargo": "criptoanalista"
+     },
+     "evidencia": "John Tiltman, um criptoanalista GC&CS",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "26315_4",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26315_5",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Inventou o método de quebra de roda conhecido como Turingery.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Turingery",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Método de quebra de roda inventado por Alan Turing.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "CRIOU",
+     "destino": "Turingery",
+     "propriedades": {},
+     "evidencia": "Alan Turing inventou um método de quebra de roda que ficou conhecido como Turingery",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "26315_6",
+   "entidades": [
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26315_7",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bill Tutte",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Tutte"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26315_8",
+   "entidades": [
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ralph Tester",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Major que liderava o Testery em Bletchley Park.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26315_9",
+   "entidades": [
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Heath Robinson",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Máquina de contagem anterior ao Colossus, inicialmente pouco confiável.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Max Newman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Matemático que chefiava o Newmanry.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Tommy Flowers",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Flowers"
+     ],
+     "descricao": "Engenheiro elétrico sênior e chefe do Grupo de Switching na Post Office Research Station.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Post Office Research Station",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Escola de Código do Governo e Cypher",
+     "tipo": "Organizacao",
+     "aliases": [
+      "GC&CS"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tommy Flowers",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Post Office Research Station",
+     "propriedades": {
+      "cargo": "engenheiro elétrico sênior e chefe do Grupo de Switching"
+     },
+     "evidencia": "Tommy Flowers MBE era um engenheiro elétrico sênior e chefe do Grupo de Switching na Post Office Research Station em Dollis Hill",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Tommy Flowers",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Escola de Código do Governo e Cypher",
+     "propriedades": {
+      "ano_inicio": 1941
+     },
+     "evidencia": "ele esteve envolvido com GC&CS em Bletchley Park desde fevereiro de 1941",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "26315_10",
+   "entidades": [
+    {
+     "nome": "Heath Robinson",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "C. E. Wynn-Williams",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Projetou a unidade de contagem da máquina Heath Robinson.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Telecommunications Research Establishment",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TRE"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "C. E. Wynn-Williams",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Telecommunications Research Establishment",
+     "propriedades": {},
+     "evidencia": "C. E. Wynn-Williams do Telecommunications Research Establishment (TRE) em Malvern",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "26315_11",
+   "entidades": [
+    {
+     "nome": "Tommy Flowers",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Flowers"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Max Newman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Heath Robinson",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "W. Gordon Radley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gordon Radley"
+     ],
+     "descricao": "Diretor da Estação de Pesquisa que apoiou Flowers.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26315_12",
+   "entidades": [
+    {
+     "nome": "Tommy Flowers",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Flowers"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Colossus Mark 1",
+     "tipo": "Hardware",
+     "aliases": [
+      "Mark 1 Colossus"
+     ],
+     "descricao": "Protótipo com 1.600 válvulas termiônicas.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Heath Robinson",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Harry Fensom",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Don Horwood",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Max Newman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26315_13",
+   "entidades": [
+    {
+     "nome": "Colossus Mark 2",
+     "tipo": "Hardware",
+     "aliases": [
+      "Mark 2 Colossus"
+     ],
+     "descricao": "Design aprimorado do Colossus; a primeira unidade continha 2.400 válvulas.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Allen Coombs",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Assumiu a liderança da produção dos Mark 2 Colossi.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26315_14",
+   "entidades": [
+    {
+     "nome": "Tommy Flowers",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "William Chandler",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sidney Broadhurst",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Allen Coombs",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Erie Speight",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Arnold Lynch",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Colossus Mark 2",
+     "tipo": "Hardware",
+     "aliases": [
+      "Mark 2 Colossi"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tommy Flowers",
+     "tipo": "COLABOROU_COM",
+     "destino": "William Chandler",
+     "propriedades": {
+      "contexto": "design da eletrônica do Colossus"
+     },
+     "evidencia": "A maior parte do design da eletrônica foi obra de Tommy Flowers, auxiliado por William Chandler, Sidney Broadhurst e Allen Coombs",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Tommy Flowers",
+     "tipo": "COLABOROU_COM",
+     "destino": "Sidney Broadhurst",
+     "propriedades": {
+      "contexto": "design da eletrônica do Colossus"
+     },
+     "evidencia": "A maior parte do design da eletrônica foi obra de Tommy Flowers, auxiliado por William Chandler, Sidney Broadhurst e Allen Coombs",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Tommy Flowers",
+     "tipo": "COLABOROU_COM",
+     "destino": "Allen Coombs",
+     "propriedades": {
+      "contexto": "design da eletrônica do Colossus"
+     },
+     "evidencia": "A maior parte do design da eletrônica foi obra de Tommy Flowers, auxiliado por William Chandler, Sidney Broadhurst e Allen Coombs",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "26315_15",
+   "entidades": [
+    {
+     "nome": "Tommy Flowers",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Flowers"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bill Tutte",
+     "tipo": "Pessoa",
+     "aliases": [
+      "W. T. Tutte"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26315_16",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26315_17",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26315_18",
+   "entidades": [
+    {
+     "nome": "Howard Campaigne",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Matemático e criptoanalista da US Navy OP-20-G que escreveu um prefácio ao artigo de Flowers.",
+     "propriedades": {}
+    },
+    {
+     "nome": "US Navy OP-20-G",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Tommy Flowers",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Flowers"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Howard Campaigne",
+     "tipo": "TRABALHOU_EM",
+     "destino": "US Navy OP-20-G",
+     "propriedades": {
+      "cargo": "matemático e criptoanalista"
+     },
+     "evidencia": "Howard Campaigne, um matemático e criptoanalista da US Navy OP-20-G",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "26315_19",
+   "entidades": [
+    {
+     "nome": "Bill Tutte",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26315_20",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26315_21",
+   "entidades": [
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Máquina de Turing",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "máquina de Turing universal"
+     ],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Benjamin Wells",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Professor que mostrou que o conjunto das dez máquinas Colossus poderia simular uma máquina de Turing universal.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de São Francisco",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Benjamin Wells",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de São Francisco",
+     "propriedades": {
+      "cargo": "professor"
+     },
+     "evidencia": "o professor Benjamin Wells da Universidade de São Francisco",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "26315_22",
+   "entidades": [
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Tommy Flowers",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Flowers"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Max Newman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Manchester",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Royal Society Computing Machine Laboratory",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26315_23",
+   "entidades": [
+    {
+     "nome": "GCHQ",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Jack Good",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Agência de Segurança Nacional dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [
+      "NSA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26315_24",
+   "entidades": [
+    {
+     "nome": "EDVAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Herman Goldstine",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Max Newman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Harry Huskey",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ACE",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Bendix G-15",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Brian Randell",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Professor que desenterrou informações sobre o Colossus na década de 1970.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "CRIOU",
+     "destino": "ACE",
+     "propriedades": {},
+     "evidencia": "projetos de pessoas como Alan Turing (ACE)",
+     "confianca": 0.65
+    },
+    {
+     "origem": "Harry Huskey",
+     "tipo": "CRIOU",
+     "destino": "Bendix G-15",
+     "propriedades": {},
+     "evidencia": "Harry Huskey (Bendix G-15)",
+     "confianca": 0.65
+    }
+   ]
+  },
+  {
+   "chunk_id": "26315_25",
+   "entidades": [
+    {
+     "nome": "Brian Randell",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "GCHQ",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26315_26",
+   "entidades": [
+    {
+     "nome": "GCHQ",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26315_27",
+   "entidades": [
+    {
+     "nome": "GCHQ",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Reino Unido",
+     "tipo": "Local",
+     "aliases": [
+      "Grã-Bretanha"
+     ],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26315_28",
+   "entidades": [
+    {
+     "nome": "GCHQ",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Agência de Segurança Nacional dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [
+      "NSA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26315_29",
+   "entidades": [
+    {
+     "nome": "Tony Sale",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Arnold Lynch",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Designer original do leitor de fita óptica do Colossus.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Milton Keynes",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bletchley Park",
+     "tipo": "SEDIADA_EM",
+     "destino": "Milton Keynes",
+     "propriedades": {},
+     "evidencia": "H Block Bletchley Park em Milton Keynes, Buckinghamshire",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "26315_30",
+   "entidades": [
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Joachim Schüth",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ada",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26315_31",
+   "entidades": [
+    {
+     "nome": "Tony Sale",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26315_32",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

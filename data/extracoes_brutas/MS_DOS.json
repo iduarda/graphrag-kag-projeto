@@ -1,0 +1,690 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:26:13+00:00",
+ "chunks": [
+  {
+   "chunk_id": "11230_0",
+   "entidades": [
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Microsoft Disk Operating System"
+     ],
+     "descricao": "Sistema operacional comprado pela Microsoft para ser usado na linha de computadores IBM PC.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "QDOS",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Quick and Dirty Operating System"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Seattle Computer Systems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "CP/M",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Intel 8086",
+     "tipo": "Hardware",
+     "aliases": [
+      "8086"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "MS-DOS",
+     "tipo": "EXECUTA_EM",
+     "destino": "IBM PC",
+     "propriedades": {},
+     "evidencia": "um sistema operacional comprado pela Microsoft para ser usado na linha de computadores IBM PC",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Seattle Computer Systems",
+     "tipo": "DESENVOLVEU",
+     "destino": "QDOS",
+     "propriedades": {},
+     "evidencia": "O dono e criador original do projeto QDOS - Quick and Dirty Operating System é a empresa Seattle Computer Systems",
+     "confianca": 0.9
+    },
+    {
+     "origem": "QDOS",
+     "tipo": "EXECUTA_EM",
+     "destino": "Intel 8086",
+     "propriedades": {},
+     "evidencia": "um concorrente do estabelecido Sistema Operacional CP/M que rodasse no recém-lançado processador 8086 da Intel",
+     "confianca": 0.65
+    }
+   ]
+  },
+  {
+   "chunk_id": "11230_1",
+   "entidades": [
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "QDOS",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Quick and Dirty Operating System"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Tim Paterson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Seattle Computer Products",
+     "tipo": "Organizacao",
+     "aliases": [
+      "SCP"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "OS/2",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows 3.11",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows NT",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "CP/M",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "CP/M-80"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Digital Research",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel 8080",
+     "tipo": "Hardware",
+     "aliases": [
+      "8080"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8086",
+     "tipo": "Hardware",
+     "aliases": [
+      "UCP 8086"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tim Paterson",
+     "tipo": "CRIOU",
+     "destino": "MS-DOS",
+     "propriedades": {},
+     "evidencia": "Foi originalmente desenvolvido por Tim Paterson da Seattle Computer Products sob o nome de QDOS",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Tim Paterson",
+     "tipo": "CRIOU",
+     "destino": "QDOS",
+     "propriedades": {},
+     "evidencia": "Foi originalmente desenvolvido por Tim Paterson da Seattle Computer Products sob o nome de QDOS",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Tim Paterson",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Seattle Computer Products",
+     "propriedades": {},
+     "evidencia": "desenvolvido por Tim Paterson da Seattle Computer Products",
+     "confianca": 0.8
+    },
+    {
+     "origem": "MS-DOS",
+     "tipo": "SUCESSOR_DE",
+     "destino": "QDOS",
+     "propriedades": {},
+     "evidencia": "e seu antecessor, QDOS",
+     "confianca": 0.85
+    },
+    {
+     "origem": "OS/2",
+     "tipo": "SUCESSOR_DE",
+     "destino": "MS-DOS",
+     "propriedades": {},
+     "evidencia": "o MS-DOS foi sucedido por duas linhas de produtos: o OS/2 e o Windows 3.11",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Windows 3.11",
+     "tipo": "SUCESSOR_DE",
+     "destino": "MS-DOS",
+     "propriedades": {},
+     "evidencia": "o MS-DOS foi sucedido por duas linhas de produtos: o OS/2 e o Windows 3.11",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "11230_2",
+   "entidades": [
+    {
+     "nome": "Digital Research",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "DR-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "DR DOS",
+      "OpenDOS"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Novell",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Caldera International",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Lineo",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Embedix"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Research",
+     "tipo": "DESENVOLVEU",
+     "destino": "DR-DOS",
+     "propriedades": {},
+     "evidencia": "A empresa Digital Research produziu um sistema compatível, conhecido como \"DR-DOS\"",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "11230_3",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11230_4",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Windows 1.0",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Interface gráfica do utilizador",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "GUI"
+     ],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "Windows 1.0",
+     "propriedades": {},
+     "evidencia": "a Microsoft anunciou sua intenção de criar uma GUI (Graphical User Interface - Interface Gráfica de usuário) para o DOS. Sua primeira versão, Windows 1.0",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "11230_5",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Windows 3.1",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Primeira versão popular do Microsoft Windows, com mais de um milhão de cópias vendidas.",
+     "propriedades": {
+      "ano": 1992,
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "Windows 3.1",
+     "propriedades": {
+      "ano": 1992
+     },
+     "evidencia": "Em março de 1992, a Microsoft lançou o Windows 3.1",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "11230_6",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Digital Research",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Stac Electronics",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "VertiSoft Systems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11230_7",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Windows 95",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11230_8",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Stac Electronics",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Digital Research",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11230_9",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Digital Research",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Caldera",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11230_10",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11230_11",
+   "entidades": [
+    {
+     "nome": "Windows 3.1",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows 3.0",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "DR-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "DR DOS 6.0"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11230_12",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM PC-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "IBM PC DOS"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Digital Research",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "FreeDOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "IBM PC-DOS",
+     "propriedades": {},
+     "evidencia": "A Microsoft criou o IBM PC DOS para a IBM",
+     "confianca": 0.9
+    }
+   ]
+  }
+ ]
+}

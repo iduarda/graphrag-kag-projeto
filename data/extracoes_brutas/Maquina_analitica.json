@@ -1,0 +1,632 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:26:22+00:00",
+ "chunks": [
+  {
+   "chunk_id": "371479_0",
+   "entidades": [
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [
+      "engenho analítico",
+      "mecanismo analítico"
+     ],
+     "descricao": "Projeto de computador mecânico de uso geral proposto por Charles Babbage.",
+     "propriedades": {
+      "ano": 1837,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Babbage"
+     ],
+     "descricao": "Professor de matemática e pioneiro da ciência da computação que propôs a máquina analítica.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina diferencial",
+     "tipo": "Hardware",
+     "aliases": [
+      "máquina diferencial"
+     ],
+     "descricao": "Design para um computador mecânico mais simples.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Charles Babbage",
+     "tipo": "CRIOU",
+     "destino": "Máquina analítica",
+     "propriedades": {
+      "ano": 1837
+     },
+     "evidencia": "mais de um século depois de Babbage ter proposto o pioneiro mecanismo analítico em 1837",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Máquina analítica",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Máquina diferencial",
+     "propriedades": {},
+     "evidencia": "como a sucessora da máquina diferencial",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "371479_1",
+   "entidades": [
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Babbage"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina diferencial",
+     "tipo": "Hardware",
+     "aliases": [
+      "Máquina de Diferenças"
+     ],
+     "descricao": "Máquina de propósito especial projetada para tabular logaritmos e funções trigonométricas.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Joseph Clement",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Engenheiro-chefe de Babbage.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Charles Babbage",
+     "tipo": "CRIOU",
+     "destino": "Máquina diferencial",
+     "propriedades": {},
+     "evidencia": "A primeira tentativa de Babbage em um dispositivo de computação mecânica, a Máquina de Diferenças, era uma máquina de propósito especial",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "371479_2",
+   "entidades": [
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "371479_3",
+   "entidades": [
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Babbage"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Luigi Federico Menabrea",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Matemático italiano que publicou em 1842 uma descrição da máquina analítica em francês.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Ada Lovelace",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Traduziu e anotou a descrição da máquina; descrita como a primeira programadora de computadores.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "371479_4",
+   "entidades": [
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Babbage"
+     ],
+     "propriedades": {
+      "ano_morte": 1871
+     }
+    },
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "British Association for the Advancement of Science",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "371479_5",
+   "entidades": [
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Babbage"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Henry Prevost Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Henry Babbage"
+     ],
+     "descricao": "Filho de Babbage, construiu parte do moinho e do aparato de impressão da máquina analítica.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Science Museum",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Museu da Ciência de Londres"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Londres",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Science Museum",
+     "tipo": "SEDIADA_EM",
+     "destino": "Londres",
+     "propriedades": {},
+     "evidencia": "está em exibição no Science Museum em Londres",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "371479_6",
+   "entidades": [
+    {
+     "nome": "Science Museum",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Museu da Ciência de Londres"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Londres",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Máquina diferencial",
+     "tipo": "Hardware",
+     "aliases": [
+      "Máquina de Diferenças No. 2"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Babbage"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Graham-Cumming",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Iniciou em 2010 a campanha \"Plano 28\" para estudar os planos de Babbage.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Ada Lovelace",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Lovelace"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Science Museum",
+     "tipo": "DESENVOLVEU",
+     "destino": "Máquina diferencial",
+     "propriedades": {
+      "ano": 1991
+     },
+     "evidencia": "Em 1991, o Museu da Ciência de Londres construiu um exemplar completo e funcional da Máquina de Diferenças No. 2 de Babbage",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "371479_7",
+   "entidades": [
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Babbage"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Allan G. Bromley",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "371479_8",
+   "entidades": [
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Babbage"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fourmilab",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "371479_9",
+   "entidades": [
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Babbage"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "371479_10",
+   "entidades": [
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Babbage"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "371479_11",
+   "entidades": [
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Babbage"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Henry Prevost Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Henry"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Percy Ludgate",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Publicou seu próprio design de motor analítico em 1909.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Leonardo Torres Quevedo",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Torres"
+     ],
+     "descricao": "Inspirado por Babbage, projetou uma máquina teórica de cálculo eletromecânica.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "371479_12",
+   "entidades": [
+    {
+     "nome": "Vannevar Bush",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Babbage"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Howard Aiken",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Harvard Mark I",
+     "tipo": "Hardware",
+     "aliases": [
+      "Mark I"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "John Presper Eckert",
+     "tipo": "Pessoa",
+     "aliases": [
+      "J. Presper Eckert"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Mauchly",
+     "tipo": "Pessoa",
+     "aliases": [
+      "John W. Mauchly"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "ENIAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Howard Aiken",
+     "tipo": "CRIOU",
+     "destino": "Harvard Mark I",
+     "propriedades": {},
+     "evidencia": "Howard Aiken, que construiu a calculadora eletromecânica rapidamente obsoleta, a Harvard Mark I, entre 1937 e 1945",
+     "confianca": 0.9
+    },
+    {
+     "origem": "John Presper Eckert",
+     "tipo": "CRIOU",
+     "destino": "ENIAC",
+     "propriedades": {},
+     "evidencia": "antes da conclusão de seu projeto para o primeiro computador eletrônico de propósito geral, o ENIAC",
+     "confianca": 0.7
+    },
+    {
+     "origem": "John Mauchly",
+     "tipo": "CRIOU",
+     "destino": "ENIAC",
+     "propriedades": {},
+     "evidencia": "antes da conclusão de seu projeto para o primeiro computador eletrônico de propósito geral, o ENIAC",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "371479_13",
+   "entidades": [
+    {
+     "nome": "John Presper Eckert",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Mauchly",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ENIAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Babbage"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "371479_14",
+   "entidades": [
+    {
+     "nome": "Ada Lovelace",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Lovelace"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Babbage"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

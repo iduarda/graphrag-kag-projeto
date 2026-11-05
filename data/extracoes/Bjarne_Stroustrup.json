@@ -1,0 +1,376 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 24836,
+    "titulo": "Bjarne Stroustrup",
+    "url": "https://pt.wikipedia.org/wiki/Bjarne_Stroustrup",
+    "categoria": "Pessoa",
+    "wikidata_id": "Q92620"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:25:36+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "pessoa:bjarne_stroustrup",
+  "chunks": [
+    {
+      "id": "24836_0",
+      "ordem": 0,
+      "texto": "Bjarne Stroustrup (Århus, 30 de dezembro de 1950) é um cientista da computação dinamarquês e professor catedrático da Universidade do Texas A&M. É conhecido como o pai da linguagem de programação C++.\nStroustrup, nas suas próprias palavras, \"inventou a C++, escreveu as suas definições iniciais e produziu a sua primeira implementação, (…) escolheu e formulou os critérios de projeção da linguagem C++, desenhou todas as suas facilidades principais e foi responsável pelo processo de propostas de extensão no comité de padrões de C++.\" Stroustrup também escreveu o que muitos consideram a obra padrão  de introdução à linguagem, \"A linguagem de programação C++\", que se encontra na quarta edição. A obra possui revista para refletir a evolução da linguagem e o trabalho do comité de padrões de C++."
+    },
+    {
+      "id": "24836_1",
+      "ordem": 1,
+      "texto": "A obra possui revista para refletir a evolução da linguagem e o trabalho do comité de padrões de C++.\nEducação: Stroustrup é cand. scient. (o equivalente dinamarquês do grau de mestre) em matemática e ciência da computação (1975) pela Universidade de Aarhus, Dinamarca, e doutor em ciência da computação (1979) pela Universidade de Cambridge, Inglaterra.\nCarreira: Ele desempenhou o cargo de diretor do Departamento de Investigação de Programação em Grande Escala dos Laboratórios Bell da AT&T, desde a sua criação até aos finais de 2002. Stroustrup foi eleito membro da Academia Nacional de Engenharia em 2004. Ele foi eleito membro da Association for Computing Machinery (ACM) em 1994 e no Instituto de Engenheiros Eletricistas e Eletrônicos (IEEE). De 2002 a 2014, Stroustrup foi o Presidente da Faculdade de Engenharia e Professor de Ciência da Computação da Texas A&M University. Desde janeiro de 2014, Stroustrup é diretor administrativo da divisão de tecnologia do Morgan Stanley na cidade de Nova York e professor visitante em ciência da computação na Columbia University."
+    },
+    {
+      "id": "24836_2",
+      "ordem": 2,
+      "texto": "Desde janeiro de 2014, Stroustrup é diretor administrativo da divisão de tecnologia do Morgan Stanley na cidade de Nova York e professor visitante em ciência da computação na Columbia University.\nPrémios e realizações: 1990 - Nomeado um dos \"American's twelve top young scientists\" pela revista Fortune.\n1993 - Prêmio Grace Murray Hopper da Association for Computing Machinery (ACM) pelo seu trabalho na linguagem C++\n1995 - A revista Byte nomeou-o uma das 20 pessoas mais influentes na indústria de informática\n1996 - Foi nomeado \"Fellow\" da AT&T \"pelas contribuições fundamentais para o desenvolvimento de linguagens de programação e programação orientada à objetos, culminando na linguagem de programação C++\"\n1998 - Foi nomeado \"Fellow\" da ACM: pelo seu trabalho inicial que formaram as fundações da linguagem de programação C++. Apoiado nas fundações e no esforço contínuo do Dr. Stroustrup, a linguagem C++ tornou-se numa das linguagens de programação mais influentes na história da computação.\n2004 - National Academy of Engineering, 2004\n2004 - IEEE Computer Society 2004 Computer Entrepreneur Award."
+    },
+    {
+      "id": "24836_3",
+      "ordem": 3,
+      "texto": "2004 - IEEE Computer Society 2004 Computer Entrepreneur Award.\nPublicações: Bjarne Stroustrup (2013). A Tour of C++ 1 ed. [S.l.]: Addison-Wesley Professional. 192 páginas. ISBN 0-321-95831-4\nBjarne Stroustrup (2008). Programming: Principles and Practice Using C++ 1 ed. [S.l.]: Addison-Wesley Professional. 1272 páginas. ISBN 0-321-54372-6\nBjarne Stroustrup (2013). The C++ Programming Language 4 ed. [S.l.]: Addison-Wesley Professional. 1368 páginas. ISBN 0-321-563840\nBjarne Stroustrup (1994). The Design and Evolution of C++ 1 ed. [S.l.]: Addison-Wesley Professional. 480 páginas. ISBN 0-201-54330-3\nMargaret A. Ellis e Bjarne Stroustrup (1990). The Annotated C++ Reference Manual. [S.l.]: Addison-Wesley Professional. 480 páginas. ISBN 0-201-51459-1\nAndrei Alexandrescu, Andrew Koenig, Stanley B. Lippman, Bjarne Stroustrup, Herb Sutter e Barbara E. Moo (2001). C++ In-Depth Box Set. [S.l.]: Addison-Wesley Professional. 1568 páginas. ISBN 0201775816  !CS1 manut: Nomes múltiplos: lista de autores (link)"
+    },
+    {
+      "id": "24836_4",
+      "ordem": 4,
+      "texto": "ISBN 0201775816  !CS1 manut: Nomes múltiplos: lista de autores (link)\nCitações: C faz com que seja muito fácil atirar nos próprios pés. C++ faz com que isso se torne mais difícil, mas quando você consegue, destrói toda a perna.\"\n\"Sempre desejei que o meu computador fosse tão fácil de usar como o meu telefone. O meu desejo realizou-se. Já não sei usar o meu telefone.\"\n\"Nós podemos sobreviver com o necessário. Mas não é proibido viver com mais que o necessário.\""
+    }
+  ],
+  "entidades": [
+    {
+      "id": "pessoa:bjarne_stroustrup",
+      "nome": "Bjarne Stroustrup",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Stroustrup"
+      ],
+      "descricao": "Cientista da computação dinamarquês, conhecido como o pai da linguagem C++.",
+      "propriedades": {
+        "ano_nascimento": 1950
+      },
+      "chunk_ids": [
+        "24836_0",
+        "24836_1",
+        "24836_2",
+        "24836_3"
+      ]
+    },
+    {
+      "id": "linguagem:cpp",
+      "nome": "C++",
+      "tipo": "Linguagem",
+      "aliases": [
+        "C plus plus"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "24836_0",
+        "24836_2"
+      ]
+    },
+    {
+      "id": "local:arhus",
+      "nome": "Århus",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "24836_0"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_do_texas_a_m",
+      "nome": "Universidade do Texas A&M",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Texas A&M University"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "24836_0",
+        "24836_1"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_de_aarhus",
+      "nome": "Universidade de Aarhus",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "24836_1"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_de_cambridge",
+      "nome": "Universidade de Cambridge",
+      "tipo": "Organizacao",
+      "aliases": [
+        "University of Cambridge",
+        "Cambridge"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "24836_1"
+      ]
+    },
+    {
+      "id": "organizacao:bell_labs",
+      "nome": "Bell Labs",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Laboratórios Bell",
+        "Bell Laboratories",
+        "Nokia Bell Labs",
+        "Bell Telephone Laboratories",
+        "AT&T Bell Laboratories"
+      ],
+      "propriedades": {
+        "tipo": "laboratorio"
+      },
+      "chunk_ids": [
+        "24836_1"
+      ]
+    },
+    {
+      "id": "organizacao:at_t",
+      "nome": "AT&T",
+      "tipo": "Organizacao",
+      "aliases": [
+        "AT&T Inc.",
+        "American Telephone and Telegraph Company",
+        "American Telephone & Telegraph"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "24836_1",
+        "24836_2"
+      ]
+    },
+    {
+      "id": "organizacao:morgan_stanley",
+      "nome": "Morgan Stanley",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "24836_1"
+      ]
+    },
+    {
+      "id": "organizacao:columbia_university",
+      "nome": "Columbia University",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "24836_1"
+      ]
+    },
+    {
+      "id": "organizacao:association_for_computing_machinery",
+      "nome": "Association for Computing Machinery",
+      "tipo": "Organizacao",
+      "aliases": [
+        "ACM"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "24836_1",
+        "24836_2"
+      ]
+    },
+    {
+      "id": "local:nova_iorque",
+      "nome": "Nova Iorque",
+      "tipo": "Local",
+      "aliases": [
+        "Nova York",
+        "New York"
+      ],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "24836_1"
+      ]
+    },
+    {
+      "id": "local:dinamarca",
+      "nome": "Dinamarca",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "pais"
+      },
+      "chunk_ids": [
+        "24836_1"
+      ]
+    },
+    {
+      "id": "premio:premio_grace_murray_hopper",
+      "nome": "Prêmio Grace Murray Hopper",
+      "tipo": "Premio",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "24836_2"
+      ]
+    },
+    {
+      "id": "premio:ieee_computer_society_computer_entrepreneur_award",
+      "nome": "IEEE Computer Society Computer Entrepreneur Award",
+      "tipo": "Premio",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "24836_2"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:bjarne_stroustrup",
+      "tipo": "CRIOU",
+      "destino": "linguagem:cpp",
+      "propriedades": {},
+      "chunk_id": "24836_0",
+      "evidencia": "É conhecido como o pai da linguagem de programação C++.",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:bjarne_stroustrup",
+      "tipo": "NASCEU_EM",
+      "destino": "local:arhus",
+      "propriedades": {},
+      "chunk_id": "24836_0",
+      "evidencia": "Bjarne Stroustrup (Århus, 30 de dezembro de 1950)",
+      "confianca": 0.75
+    },
+    {
+      "origem": "pessoa:bjarne_stroustrup",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:universidade_do_texas_a_m",
+      "propriedades": {
+        "cargo": "professor catedrático"
+      },
+      "chunk_id": "24836_0",
+      "evidencia": "professor catedrático da Universidade do Texas A&M",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:bjarne_stroustrup",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:universidade_de_aarhus",
+      "propriedades": {
+        "curso": "matemática e ciência da computação",
+        "ano": 1975
+      },
+      "chunk_id": "24836_1",
+      "evidencia": "em matemática e ciência da computação (1975) pela Universidade de Aarhus, Dinamarca",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:bjarne_stroustrup",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:universidade_de_cambridge",
+      "propriedades": {
+        "curso": "ciência da computação",
+        "ano": 1979
+      },
+      "chunk_id": "24836_1",
+      "evidencia": "doutor em ciência da computação (1979) pela Universidade de Cambridge, Inglaterra",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:bjarne_stroustrup",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:bell_labs",
+      "propriedades": {
+        "cargo": "diretor do Departamento de Investigação de Programação em Grande Escala",
+        "ano_fim": 2002
+      },
+      "chunk_id": "24836_1",
+      "evidencia": "Ele desempenhou o cargo de diretor do Departamento de Investigação de Programação em Grande Escala dos Laboratórios Bell da AT&T, desde a sua criação até aos finais de 2002.",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:bjarne_stroustrup",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:universidade_do_texas_a_m",
+      "propriedades": {
+        "cargo": "Presidente da Faculdade de Engenharia e Professor de Ciência da Computação",
+        "ano_inicio": 2002,
+        "ano_fim": 2014
+      },
+      "chunk_id": "24836_1",
+      "evidencia": "De 2002 a 2014, Stroustrup foi o Presidente da Faculdade de Engenharia e Professor de Ciência da Computação da Texas A&M University.",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:bjarne_stroustrup",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:morgan_stanley",
+      "propriedades": {
+        "cargo": "diretor administrativo da divisão de tecnologia",
+        "ano_inicio": 2014
+      },
+      "chunk_id": "24836_1",
+      "evidencia": "Desde janeiro de 2014, Stroustrup é diretor administrativo da divisão de tecnologia do Morgan Stanley na cidade de Nova York",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:bjarne_stroustrup",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:columbia_university",
+      "propriedades": {
+        "cargo": "professor visitante",
+        "ano_inicio": 2014
+      },
+      "chunk_id": "24836_1",
+      "evidencia": "professor visitante em ciência da computação na Columbia University",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:bjarne_stroustrup",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_grace_murray_hopper",
+      "propriedades": {
+        "ano": 1993
+      },
+      "chunk_id": "24836_2",
+      "evidencia": "1993 - Prêmio Grace Murray Hopper da Association for Computing Machinery (ACM) pelo seu trabalho na linguagem C++",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:bjarne_stroustrup",
+      "tipo": "RECEBEU",
+      "destino": "premio:ieee_computer_society_computer_entrepreneur_award",
+      "propriedades": {
+        "ano": 2004
+      },
+      "chunk_id": "24836_2",
+      "evidencia": "2004 - IEEE Computer Society 2004 Computer Entrepreneur Award.",
+      "confianca": 0.95
+    }
+  ]
+}

@@ -2,20 +2,111 @@
 % Extração de Entidades e Relações (Text-to-Graph)
 % Responsável: Pessoa 2 (Anna Maria Albino)
 %
-% O que cobrir:
-% - Como os textos foram divididos em chunks (tamanho, sobreposição) e por quê.
-% - Qual LLM foi usado e com quais parâmetros (temperatura etc.).
-% - O prompt de extração: como ele impõe os tipos do modelo (Tabelas 2 e 3) e as regras contra alucinação de docs/formato_extracao.md. Pode ir um trecho do prompt.
-% - Formato de saída (JSON validado por src/contrato.py) e o que acontece com extrações inválidas.
-% - Números: total de entidades e relações extraídas, % de JSONs aprovados pelo validador de primeira.
-% - Avaliação manual numa amostra: quantas relações estavam corretas.
-%
-% Dicas: use \rot{Pessoa} para rótulos e \rel{CRIOU} para relações.
-% Cite com \cite{chave} (chaves em referencias.bib). Ao terminar,
-% apague o \pendente abaixo.
+% Números tirados de data/relatorio_extracao.json e data/avaliacao/.
+% Se a extração for refeita, rode scripts/montar_extracao.py e atualize
+% as Tabelas~\ref{tab:extracao-numeros} e \ref{tab:extracao-relacoes}.
 % =====================================================================
 
 \section{Extração de Entidades e Relações (Text-to-Graph)}
 \label{sec:extracao}
 
-\pendente{extração de entidades e relações (text-to-graph)}
+A etapa de extração transforma os 147 artigos do dataset (Seção~\ref{sec:dataset}) em entidades e relações do modelo da Seção~\ref{sec:modelagem}, sempre acompanhadas do trecho de onde vieram. O processo tem quatro passos, cada um implementado em um script do repositório: (i)~divisão dos textos em \emph{chunks}; (ii)~extração com um LLM, chunk a chunk; (iii)~montagem com checagens automáticas contra alucinação; e (iv)~validação contra o contrato de dados (\texttt{src/contrato.py}).
+
+\subsection{Divisão em chunks}
+
+O chunk é a unidade de extração, de busca vetorial e de citação da fonte, por isso precisa ser pequeno o bastante para caber no modelo de embedding (\texttt{multilingual-e5-base}, limite de 512 \emph{tokens} \cite{wang2024me5}) e grande o bastante para conter frases completas com sujeito e objeto. Os textos foram quebrados em parágrafos e os parágrafos foram agrupados até 1.400 caracteres; parágrafos maiores foram divididos em frases. Cada mudança de seção da Wikipédia fecha o chunk corrente, e o título da seção é mantido como prefixo do primeiro parágrafo (ex.: ``Carreira: Em 1967, \ldots''), o que preserva o contexto. Para não perder relações que cruzam a fronteira entre dois chunks, a última frase de um chunk é repetida no início do seguinte (sobreposição de uma frase).
+
+O resultado foram \textbf{2.374 chunks}, com média de 1.041 caracteres (mínimo 97, máximo 1.694) e de 16,1 chunks por documento (de 1 a 105). Pela estimativa conservadora de 3,5 caracteres por \emph{token}, nenhum chunk passa de 488 \emph{tokens}; o script usa o tokenizador do próprio E5 quando ele está instalado e divide qualquer chunk que exceda o limite.
+
+\subsection{Extração com LLM}
+
+Cada chunk é enviado ao LLM com o mesmo prompt de sistema (\texttt{prompts/extracao.md}), que contém:
+\begin{itemize}
+  \item as tabelas de tipos de entidade, subtipos e propriedades aceitas, e as 14 relações permitidas com a direção de cada uma (as mesmas da Seção~\ref{sec:modelagem});
+  \item uma \emph{lista canônica} com 187 nomes (as 147 entidades que têm página no dataset e 40 entidades frequentes sem página, como \emph{Prêmio Turing}, \emph{Universidade Harvard} e \emph{Estados Unidos}) e seus apelidos, para que ``Laboratórios Bell'', ``MIT'' ou ``Tony Hoare'' saiam sempre com o mesmo nome;
+  \item o título da página e a sua entidade principal, para resolver pronomes (``ele'', ``a empresa'');
+  \item as regras contra alucinação: só extrair o que está escrito no trecho; copiar literalmente a frase que comprova a relação (\texttt{evidencia}); na dúvida, não extrair; não inventar tipos de relação; e atribuir uma confiança, sendo 0,9--1,0 para afirmações diretas e 0,6--0,8 para relações claras porém indiretas;
+  \item o formato de saída em JSON e um exemplo completo (\emph{one-shot}).
+\end{itemize}
+
+Abaixo, um trecho do prompt:
+
+\begin{quote}\small\ttfamily
+2. `evidencia' é um trecho COPIADO LITERALMENTE do texto (mesmas palavras, mesma grafia), contínuo, de no máximo $\sim$250 caracteres, que comprova a relação. Não resuma, não traduza, não use ``...''.\\
+3. Na dúvida, não extraia. Uma relação a menos é melhor que uma relação inventada.
+\end{quote}
+
+A extração foi feita com o modelo \textbf{Claude Sonnet 5.5} (Anthropic). Os documentos foram divididos em 24 lotes de até cerca de 105 chunks, processados em paralelo por instâncias do modelo. Cada instância aplicou o prompt a cada chunk e, ao fim de cada documento, rodou a conferência automática de cobertura e de evidência (\texttt{scripts/juntar\_partes.py}), corrigindo o que não passasse. O script \texttt{scripts/extrair\_llm.py} reproduz o mesmo processo por API, uma chamada por chunk e com temperatura~0, tanto para a Anthropic quanto para qualquer API compatível com a da OpenAI (Gemini, Groq, Ollama local). Um piloto com três documentos (Dennis Ritchie, Unix e Intel 4004) foi revisado manualmente antes da extração completa.
+
+\subsection{Montagem e checagens contra alucinação}
+
+As respostas do LLM referenciam as entidades pelo nome. O script \texttt{scripts/montar\_extracao.py} as converte no formato do contrato e aplica, de forma determinística, as seguintes checagens:
+\begin{enumerate}
+  \item \textbf{Evidência literal:} a \texttt{evidencia} precisa existir no chunk, tolerando só diferenças de espaços, maiúsculas e tipos de aspas. Se não existir, a relação é descartada; se existir com pequenas diferenças, é substituída pelo trecho original.
+  \item \textbf{Esquema:} tipos de entidade e de relação fora do modelo são descartados. Uma relação cujos tipos só estão invertidos (ex.: \rel{CRIOU} de \rot{Linguagem} para \rot{Pessoa}) tem a direção corrigida; as demais combinações incompatíveis são descartadas.
+  \item \textbf{Propriedades:} chaves fora da tabela, anos que não são inteiros e subtipos inválidos são removidos.
+  \item \textbf{Nomes canônicos:} nomes e apelidos da lista canônica são trocados pelo nome oficial; por exemplo, \emph{Laboratórios Bell} vira \emph{Bell Labs}. O apelido só vale se o tipo também coincidir. A regra de \emph{ids} (\texttt{gerar\_id}) faz o resto: o mesmo nome gera o mesmo nó em todos os documentos.
+  \item \textbf{Junção:} uma entidade citada em vários chunks vira uma só no arquivo, com todos os \texttt{chunk\_ids}. Relações repetidas no mesmo chunk são removidas e relações com confiança abaixo de 0,6 são descartadas.
+\end{enumerate}
+Cada descarte e cada correção é contado no relatório \texttt{data/relatorio\_extracao.json}. Ao final, todo arquivo passa pelo validador do contrato (\texttt{scripts/validar\_extracao.py}); um arquivo inválido não é gravado.
+
+\subsection{Resultados}
+
+A Tabela~\ref{tab:extracao-numeros} resume a extração. Para medir a qualidade do LLM antes das correções, cada documento também foi montado de forma ``ingênua'', sem nenhuma checagem, e submetido ao validador: \textbf{140 dos 147 documentos (95,2\%) foram aprovados de primeira}. Os 7 restantes tinham problemas pequenos: a mesma relação repetida no mesmo chunk (5 documentos), \rel{SUCESSOR\_DE} entre tipos diferentes, uma entidade usada numa relação sem ter sido listada e uma evidência que não era cópia literal do chunk. Depois da montagem, os 147 arquivos passaram no validador. Esse número alto reflete em parte a autoconferência de evidência que as instâncias faziam ao fim de cada documento; por isso, as checagens da montagem descartaram só 11 das 2.783 relações brutas e corrigiram 15 evidências.
+
+\begin{table}[ht]
+\centering
+\caption{Números da extração (147 documentos).}
+\label{tab:extracao-numeros}
+\begin{tabular}{lr}
+\toprule
+Chunks & 2.374 \\
+Menções de entidades devolvidas pelo LLM & 8.235 \\
+Entidades por documento, após a junção (soma) & 4.350 \\
+Entidades distintas no corpus (\emph{ids} únicos) & 2.629 \\
+Relações devolvidas pelo LLM & 2.783 \\
+Relações aprovadas nas checagens & 2.772 (99,6\%) \\
+Relações distintas no corpus (origem, tipo, destino) & 1.972 \\
+Documentos aprovados pelo validador de primeira & 140 (95,2\%) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+As 2.629 entidades distintas se dividem em 893 \rot{Pessoa}, 765 \rot{Organizacao}, 386 \rot{Hardware}, 246 \rot{Tecnologia}, 144 \rot{Local}, 120 \rot{Linguagem} e 75 \rot{Premio}. A Tabela~\ref{tab:extracao-relacoes} mostra a distribuição das relações distintas por tipo. Predominam as relações de pessoas com organizações e de autoria (\rel{CRIOU}, \rel{DESENVOLVEU}), que são justamente as que sustentam as perguntas multi-hop da Seção~\ref{sec:modelagem}. \rel{ESCRITO\_EM} é rara porque os textos quase nunca dizem explicitamente em que linguagem um sistema foi escrito.
+
+\begin{table}[ht]
+\centering
+\caption{Relações distintas no corpus, por tipo.}
+\label{tab:extracao-relacoes}
+\begin{tabular}{lr@{\hspace{2em}}lr}
+\toprule
+\rel{TRABALHOU\_EM} & 496 & \rel{ESTUDOU\_EM} & 87 \\
+\rel{DESENVOLVEU} & 273 & \rel{EXECUTA\_EM} & 85 \\
+\rel{CRIOU} & 254 & \rel{SUCESSOR\_DE} & 80 \\
+\rel{RECEBEU} & 190 & \rel{INFLUENCIADA\_POR} & 77 \\
+\rel{FUNDOU} & 126 & \rel{UTILIZA} & 66 \\
+\rel{COLABOROU\_COM} & 97 & \rel{NASCEU\_EM} & 39 \\
+\rel{SEDIADA\_EM} & 93 & \rel{ESCRITO\_EM} & 9 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+A quantidade de relações varia muito entre os documentos. Páginas de organizações com longas listas de pesquisadores e executivos geram mais relações: \emph{Bell Labs} tem 191, \emph{Digital Equipment Corporation} 158 e \emph{Intel} 126. Já páginas conceituais, como \emph{Teste de Turing} (30 chunks, 2 relações) e \emph{Internet}, tratam de ideias e quase não citam pessoas ou criações.
+
+\subsection{Avaliação da precisão}
+
+Foram sorteadas 150 das 2.772 relações finais (amostra aleatória simples, semente 42). Cada uma foi julgada contra o próprio chunk como \emph{correta} (o trecho sustenta a relação, com o tipo, a direção e as propriedades certos), \emph{parcial} (a relação é sustentada, mas há um problema menor, como um ano errado ou um tipo forçado) ou \emph{incorreta}. O julgamento foi feito por um revisor independente, uma instância do Claude Opus 5.5 que não participou da extração, seguindo apenas o texto do chunk. Ele classificou \textbf{141 relações como corretas (94,0\%)}, 8 como parciais (5,3\%) e 1 como incorreta (0,7\%). Nenhuma relação tinha direção invertida nem fato ausente do texto. A confiança informada pelo LLM se mostrou útil: das 81 relações com confiança $\geq 0{,}9$, 79 estavam corretas, e o único erro ficou na faixa de 0,6--0,79.
+\pendente{Anna: revisar manualmente a amostra em data/avaliacao/amostra\_relacoes.csv (coluna veredito\_anna) e atualizar estes números com a avaliação humana}
+
+Os problemas encontrados seguem quatro padrões: (i)~a organização não está escrita no trecho e foi deduzida do tema da página, como nas listas de ex-funcionários ou de presidentes; (ii)~um crédito coletivo foi atribuído a cada pessoa individualmente; (iii)~um vínculo foi forçado para o tipo mais próximo, como ``membro do conselho'' virar \rel{TRABALHOU\_EM}; e (iv)~uma entidade ficou genérica demais (``Transístor'' no lugar de ``primeiro transístor de silício''). Vale notar que a avaliação mede só a \emph{precisão}; a \emph{cobertura}, isto é, quantas relações do texto deixaram de ser extraídas, não foi medida.
+
+\subsection{Limitações e lacunas do modelo}
+
+Durante a extração, alguns tipos de fato apareceram com frequência, mas não cabem em nenhuma relação do modelo e foram descartados, como manda a regra 4 do prompt:
+\begin{itemize}
+  \item aquisições, fusões e subsidiárias entre organizações (``a Apple comprou a NeXT'');
+  \item financiamento e patrocínio (``a ARPA financiou a ARPANET'');
+  \item ``derivado de'' ou ``baseado em'' entre sistemas e entre hardware (Linux e Unix, Mac OS X e Unix);
+  \item produtos de software que não são sistemas nem linguagens (navegadores, compiladores, editores) e dispositivos que não são computador, processador nem periférico (calculadoras, consoles, telefones).
+\end{itemize}
+Relações como \rel{ADQUIRIU} (\rot{Organizacao} $\rightarrow$ \rot{Organizacao}) e \rel{DERIVADO\_DE} são candidatas naturais a uma próxima versão do modelo. Além disso, nomes fora da lista canônica ainda podem gerar duplicatas entre documentos (ex.: \emph{Transmission Control Protocol} e \emph{TCP/IP}); a resolução desses casos é feita na ingestão (Seção~\ref{sec:ingestao}), com os \texttt{aliases}, a busca \emph{fulltext} e os embeddings.

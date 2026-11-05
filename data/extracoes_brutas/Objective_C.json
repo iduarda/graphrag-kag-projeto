@@ -1,0 +1,310 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:25:31+00:00",
+ "chunks": [
+  {
+   "chunk_id": "612636_0",
+   "entidades": [
+    {
+     "nome": "Objective-C",
+     "tipo": "Linguagem",
+     "aliases": [
+      "ObjC",
+      "Obj-C",
+      "Objective C"
+     ],
+     "propriedades": {},
+     "descricao": "Linguagem reflexiva orientada a objeto que adiciona transmissão de mensagens no estilo Smalltalk para o C."
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Smalltalk",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Objective-C",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Smalltalk",
+     "propriedades": {},
+     "evidencia": "adiciona transmissão de mensagens no estilo Smalltalk para o C",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Objective-C",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "adiciona transmissão de mensagens no estilo Smalltalk para o C",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "612636_1",
+   "entidades": [
+    {
+     "nome": "Objective-C",
+     "tipo": "Linguagem",
+     "aliases": [
+      "ObjC",
+      "Obj-C",
+      "Objective C"
+     ],
+     "propriedades": {},
+     "descricao": "Linguagem reflexiva orientada a objeto que adiciona transmissão de mensagens no estilo Smalltalk para o C."
+    },
+    {
+     "nome": "Brad Cox",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Tom Love",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Stepstone",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Brad Cox",
+     "tipo": "CRIOU",
+     "destino": "Objective-C",
+     "propriedades": {},
+     "evidencia": "O ObjC foi criado principalmente por Brad Cox e Tom Love no início da década de 1980 na empresa deles, a Stepstone",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Tom Love",
+     "tipo": "CRIOU",
+     "destino": "Objective-C",
+     "propriedades": {},
+     "evidencia": "O ObjC foi criado principalmente por Brad Cox e Tom Love no início da década de 1980 na empresa deles, a Stepstone",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Brad Cox",
+     "tipo": "FUNDOU",
+     "destino": "Stepstone",
+     "propriedades": {},
+     "evidencia": "O ObjC foi criado principalmente por Brad Cox e Tom Love no início da década de 1980 na empresa deles, a Stepstone",
+     "confianca": 0.65
+    },
+    {
+     "origem": "Tom Love",
+     "tipo": "FUNDOU",
+     "destino": "Stepstone",
+     "propriedades": {},
+     "evidencia": "O ObjC foi criado principalmente por Brad Cox e Tom Love no início da década de 1980 na empresa deles, a Stepstone",
+     "confianca": 0.65
+    }
+   ]
+  },
+  {
+   "chunk_id": "612636_2",
+   "entidades": [
+    {
+     "nome": "Objective-C",
+     "tipo": "Linguagem",
+     "aliases": [
+      "ObjC",
+      "Obj-C",
+      "Objective C"
+     ],
+     "propriedades": {},
+     "descricao": "Linguagem reflexiva orientada a objeto que adiciona transmissão de mensagens no estilo Smalltalk para o C."
+    },
+    {
+     "nome": "NeXT",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Stepstone",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Projeto GNU",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "GNU"
+     ],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Dennis Glatting",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Richard Stallman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Kresten Krab Thorup",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Kresten Krab Thorup",
+     "tipo": "TRABALHOU_EM",
+     "destino": "NeXT",
+     "propriedades": {},
+     "evidencia": "Kresten também trabalhou para a NeXT por algum tempo",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "612636_3",
+   "entidades": [
+    {
+     "nome": "Objective-C",
+     "tipo": "Linguagem",
+     "aliases": [
+      "ObjC",
+      "Obj-C",
+      "Objective C"
+     ],
+     "propriedades": {},
+     "descricao": "Linguagem reflexiva orientada a objeto que adiciona transmissão de mensagens no estilo Smalltalk para o C."
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Smalltalk",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Objective-C",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "O Objective-C deriva sua sintaxe tanto do C quanto do Smalltalk",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Objective-C",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Smalltalk",
+     "propriedades": {},
+     "evidencia": "O Objective-C deriva sua sintaxe tanto do C quanto do Smalltalk",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "612636_4",
+   "entidades": [
+    {
+     "nome": "Objective-C",
+     "tipo": "Linguagem",
+     "aliases": [
+      "ObjC",
+      "Obj-C",
+      "Objective C"
+     ],
+     "propriedades": {},
+     "descricao": "Linguagem reflexiva orientada a objeto que adiciona transmissão de mensagens no estilo Smalltalk para o C."
+    },
+    {
+     "nome": "Smalltalk",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Simula",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "612636_5",
+   "entidades": [
+    {
+     "nome": "Objective-C",
+     "tipo": "Linguagem",
+     "aliases": [
+      "ObjC",
+      "Obj-C",
+      "Objective C"
+     ],
+     "propriedades": {},
+     "descricao": "Linguagem reflexiva orientada a objeto que adiciona transmissão de mensagens no estilo Smalltalk para o C."
+    },
+    {
+     "nome": "Smalltalk",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

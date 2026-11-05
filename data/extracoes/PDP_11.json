@@ -1,0 +1,168 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 1748690,
+    "titulo": "PDP-11",
+    "url": "https://pt.wikipedia.org/wiki/PDP-11",
+    "categoria": "Hardware",
+    "wikidata_id": "Q1327833"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:26:09+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "hardware:pdp_11",
+  "chunks": [
+    {
+      "id": "1748690_0",
+      "ordem": 0,
+      "texto": "PDP-11 foi uma série de minicomputadores de 16 bits fabricada pela empresa Digital Equipment Corp. nas décadas de 1970 e 1980. Foi pioneira na interconexão de todos os elementos do sistema — microprocessador, memória RAM e periféricos — a um único barramento de comunicação, bidirecional, assíncrono. Este dispositivo, chamado Unibus permitia aos dispositivos enviar, receber ou trocar dados sem a necessidade de uma passagem intermediária pela memória. A série PDP-11 foi uma das séries de minicomputadores mais vendidas de sua época.\nO projeto do PDP-11 inspirou a arquitetura de microprocessadores do final da década de 1970, incluindo o Intel x86 e o Motorola ​​68000. As características de projeto dos sistemas operacionais do PDP-11 (como o RT-11) e de outros sistemas operacionais da Digital Equipment influenciaram a concepção de sistemas operacionais como o CP/M e, consequentemente, o MS-DOS. A primeira versão do Unix a receber um nome oficial foi executada no PDP-11/20 em 1970. Costuma-se afirmar que a linguagem de programação C tirou proveito de vários recursos de programação de baixo nível específicos do PDP-11, embora isso não tenha ocorrido originalmente por projeto."
+    },
+    {
+      "id": "1748690_1",
+      "ordem": 1,
+      "texto": "Costuma-se afirmar que a linguagem de programação C tirou proveito de vários recursos de programação de baixo nível específicos do PDP-11, embora isso não tenha ocorrido originalmente por projeto.\nEvolução: A série evoluiu com o avanço da tecnologia, passando de uma UCP constituída de circuitos integrados TTL MSI para microprocessadores, como o LSI-11. As últimas versões, do PDP-11/75 em diante, incorporaram o J-11, com registradores duplicados, três pilhas (stacks) (Usuário, núcleo e Supervisor), memória virtual (22 bits), cache e espaços de memória separados para instruções e dados. Era um chip muito ambicioso para a época, mas que nunca chegou a cumprir as expectativas, devido a problemas de projeto e discussões entre a DEC e a Harris Semiconductor, fabricante dos chips.\nDurante a Guerra Fria, a arquitetura da série PDP-11 foi clonada na URSS sem autorização do fabricante. Desta forma, programas desenvolvidos para a série podiam ser executados sem problemas nos clones soviéticos."
+    },
+    {
+      "id": "1748690_2",
+      "ordem": 2,
+      "texto": "Desta forma, programas desenvolvidos para a série podiam ser executados sem problemas nos clones soviéticos.\nCaracterísticas: Oito registradores de 16 bits:\nOs seis primeiros (%0 a %5) de uso geral.\nO sétimo (%6) é o Stack Pointer (ponteiro da pilha).\nO oitavo (%7) é o Program Counter (contador de programa).\nTem um conjunto de instruções altamente ortogonal, com oito modos de endereçamento.\nPossui quatro flags: ZNVC\nZ=1 significa que o último valor que saiu da ULA é 0.\nN=1 significa que o último valor que saiu da ULA é negativo.\nV=1 significa que na última operação da ULA foi produzido um buffer overflow.\nC equivale ao transporte de saída da última operação da ULA."
+    },
+    {
+      "id": "1748690_3",
+      "ordem": 3,
+      "texto": "C equivale ao transporte de saída da última operação da ULA.\nEm Portugal: O PDP 11 foi o primeiro computador utilizado para investigação em Portugal, que foi para a Universidade de Coimbra em 1974 e que, no início dos anos 80 foi abandonado. O computador possui uma disquete com 246k de memória do tamanho de uma roda de automóvel.\nCustou a quantia de 650 mil dólares. A disquete usada no computador podia armazenar uma tese universitária com mil páginas, mas com poucos gráficos e fotografias. No entanto, não tinha capacidade para gravar uma fotografia de alta definição."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "hardware:pdp_11",
+      "nome": "PDP-11",
+      "tipo": "Hardware",
+      "aliases": [],
+      "descricao": "Série de minicomputadores de 16 bits, uma das mais vendidas de sua época.",
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "1748690_0",
+        "1748690_1",
+        "1748690_3"
+      ]
+    },
+    {
+      "id": "organizacao:digital_equipment_corporation",
+      "nome": "Digital Equipment Corporation",
+      "tipo": "Organizacao",
+      "aliases": [
+        "DEC",
+        "Digital Equipment Corp."
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1748690_0",
+        "1748690_1"
+      ]
+    },
+    {
+      "id": "tecnologia:unix",
+      "nome": "Unix",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "UNIX"
+      ],
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "1748690_0"
+      ]
+    },
+    {
+      "id": "linguagem:c",
+      "nome": "C",
+      "tipo": "Linguagem",
+      "aliases": [
+        "C (linguagem de programação)"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "1748690_0"
+      ]
+    },
+    {
+      "id": "tecnologia:ms_dos",
+      "nome": "MS-DOS",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "Microsoft Disk Operating System"
+      ],
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "1748690_0"
+      ]
+    },
+    {
+      "id": "hardware:motorola_68000",
+      "nome": "Motorola 68000",
+      "tipo": "Hardware",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "processador"
+      },
+      "chunk_ids": [
+        "1748690_0"
+      ]
+    },
+    {
+      "id": "organizacao:harris_semiconductor",
+      "nome": "Harris Semiconductor",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1748690_1"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_de_coimbra",
+      "nome": "Universidade de Coimbra",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "1748690_3"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "organizacao:digital_equipment_corporation",
+      "tipo": "DESENVOLVEU",
+      "destino": "hardware:pdp_11",
+      "propriedades": {},
+      "chunk_id": "1748690_0",
+      "evidencia": "PDP-11 foi uma série de minicomputadores de 16 bits fabricada pela empresa Digital Equipment Corp.",
+      "confianca": 0.95
+    },
+    {
+      "origem": "tecnologia:unix",
+      "tipo": "EXECUTA_EM",
+      "destino": "hardware:pdp_11",
+      "propriedades": {},
+      "chunk_id": "1748690_0",
+      "evidencia": "A primeira versão do Unix a receber um nome oficial foi executada no PDP-11/20 em 1970",
+      "confianca": 0.7
+    }
+  ]
+}

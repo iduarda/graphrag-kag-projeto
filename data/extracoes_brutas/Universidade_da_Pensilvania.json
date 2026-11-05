@@ -1,0 +1,91 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:29:02+00:00",
+ "chunks": [
+  {
+   "chunk_id": "234204_0",
+   "entidades": [
+    {
+     "nome": "Universidade da Pensilvânia",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade de Pensilvânia",
+      "Penn",
+      "UPenn"
+     ],
+     "descricao": "Instituição de ensino superior particular, uma das oito universidades da Ivy League.",
+     "propriedades": {
+      "tipo": "universidade",
+      "ano_fundacao": 1740
+     }
+    },
+    {
+     "nome": "Benjamin Franklin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Filadélfia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Benjamin Franklin",
+     "tipo": "FUNDOU",
+     "destino": "Universidade da Pensilvânia",
+     "propriedades": {
+      "ano": 1740
+     },
+     "evidencia": "Fundada por Benjamin Franklin em 1740",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Universidade da Pensilvânia",
+     "tipo": "SEDIADA_EM",
+     "destino": "Filadélfia",
+     "propriedades": {},
+     "evidencia": "localizada na cidade de Filadélfia, Pensilvânia, nos Estados Unidos",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "234204_1",
+   "entidades": [
+    {
+     "nome": "Universidade da Pensilvânia",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Penn"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Filadélfia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

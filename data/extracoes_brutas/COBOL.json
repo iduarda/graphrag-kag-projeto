@@ -1,0 +1,415 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:21:12+00:00",
+ "chunks": [
+  {
+   "chunk_id": "52863_0",
+   "entidades": [
+    {
+     "nome": "COBOL",
+     "tipo": "Linguagem",
+     "aliases": [
+      "COmmon Business Oriented Language"
+     ],
+     "descricao": "Linguagem de programação orientada para o processamento de banco de dados comerciais.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Departamento de Defesa dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Departamento de Defesa norte-americano"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Grace Hopper",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Grace Murray Hopper"
+     ],
+     "descricao": "Contra-almirante sob cuja direção o COBOL foi produzido.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Departamento de Defesa dos Estados Unidos",
+     "tipo": "DESENVOLVEU",
+     "destino": "COBOL",
+     "propriedades": {},
+     "evidencia": "produto do Departamento de Defesa norte-americano sob a direção da contra-almirante Grace Murray Hopper",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "52863_1",
+   "entidades": [
+    {
+     "nome": "COBOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "FLOW-MATIC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem inventada por Grace Hopper, única do grupo de estudo efetivamente utilizada em situação real.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Grace Hopper",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "COMTRAN",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem de programação da IBM inventada por Bob Bemer.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Bob Bemer",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade da Pensilvânia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Departamento de Defesa dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Charles A. Phillips",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "COBOL",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "FLOW-MATIC",
+     "propriedades": {},
+     "evidencia": "As especificações eram em grande parte inspiradas na linguagem de programação FLOW-MATIC inventada pela Grace Hopper",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Grace Hopper",
+     "tipo": "CRIOU",
+     "destino": "FLOW-MATIC",
+     "propriedades": {},
+     "evidencia": "FLOW-MATIC inventada pela Grace Hopper",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Bob Bemer",
+     "tipo": "CRIOU",
+     "destino": "COMTRAN",
+     "propriedades": {},
+     "evidencia": "A linguagem de programação da IBM COMTRAN inventada por  Bob Bemer",
+     "confianca": 0.95
+    },
+    {
+     "origem": "IBM",
+     "tipo": "DESENVOLVEU",
+     "destino": "COMTRAN",
+     "propriedades": {},
+     "evidencia": "A linguagem de programação da IBM COMTRAN",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "52863_2",
+   "entidades": [
+    {
+     "nome": "COBOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Joseph Wegstein",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "National Bureau of Standards",
+     "tipo": "Organizacao",
+     "aliases": [
+      "NBS"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "RCA",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Sylvania Electric Products",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "William Selden",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Gertrude Tierney",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Howard Bromberg",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Howard Discount",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Vernon Reeves",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jean E. Sammet",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jean Sammet"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Joseph Wegstein",
+     "tipo": "TRABALHOU_EM",
+     "destino": "National Bureau of Standards",
+     "propriedades": {},
+     "evidencia": "presidido por Joseph Wegstein do National Bureau of Standards (NBS)",
+     "confianca": 0.85
+    },
+    {
+     "origem": "William Selden",
+     "tipo": "TRABALHOU_EM",
+     "destino": "IBM",
+     "propriedades": {},
+     "evidencia": "William Selden e Gertrude Tierney da IBM",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Gertrude Tierney",
+     "tipo": "TRABALHOU_EM",
+     "destino": "IBM",
+     "propriedades": {},
+     "evidencia": "William Selden e Gertrude Tierney da IBM",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Howard Bromberg",
+     "tipo": "TRABALHOU_EM",
+     "destino": "RCA",
+     "propriedades": {},
+     "evidencia": "Howard Bromberg e Howard Discount da RCA",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Howard Discount",
+     "tipo": "TRABALHOU_EM",
+     "destino": "RCA",
+     "propriedades": {},
+     "evidencia": "Howard Bromberg e Howard Discount da RCA",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Vernon Reeves",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Sylvania Electric Products",
+     "propriedades": {},
+     "evidencia": "Vernon Reeves e Jean E. Sammet da Sylvania Electric Products",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Jean E. Sammet",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Sylvania Electric Products",
+     "propriedades": {},
+     "evidencia": "Vernon Reeves e Jean E. Sammet da Sylvania Electric Products",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "52863_3",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "52863_4",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "52863_5",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "52863_6",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "52863_7",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "52863_8",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "52863_9",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "52863_10",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "52863_11",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "52863_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "52863_13",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "52863_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "52863_15",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "52863_16",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "52863_17",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "52863_18",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "52863_19",
+   "entidades": [
+    {
+     "nome": "Edsger Dijkstra",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Cientista da computação que criticou o COBOL em carta publicada em 1975.",
+     "propriedades": {}
+    },
+    {
+     "nome": "COBOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "52863_20",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "52863_21",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "52863_22",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "52863_23",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "52863_24",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

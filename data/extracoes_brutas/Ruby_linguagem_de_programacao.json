@@ -1,0 +1,338 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:23:15+00:00",
+ "chunks": [
+  {
+   "chunk_id": "9240_0",
+   "entidades": [
+    {
+     "nome": "Ruby",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem de programação interpretada multiparadigma, de tipagem dinâmica e forte, desenvolvida no Japão em 1995.",
+     "propriedades": {
+      "ano": 1995,
+      "paradigmas": [
+       "funcional",
+       "orientada a objetos",
+       "imperativa",
+       "reflexiva"
+      ]
+     }
+    },
+    {
+     "nome": "Yukihiro Matsumoto",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Matz",
+      "Yukihiro \"Matz\" Matsumoto"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Japão",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Perl",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Smalltalk",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Eiffel",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ada",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lisp",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Yukihiro Matsumoto",
+     "tipo": "CRIOU",
+     "destino": "Ruby",
+     "propriedades": {
+      "ano": 1995
+     },
+     "evidencia": "originalmente planejada e desenvolvida no Japão em 1995, por Yukihiro \"Matz\" Matsumoto",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ruby",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Python",
+     "propriedades": {},
+     "evidencia": "Foi inspirada principalmente por Python, Perl, Smalltalk, Eiffel, Ada e Lisp",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ruby",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Perl",
+     "propriedades": {},
+     "evidencia": "Foi inspirada principalmente por Python, Perl, Smalltalk, Eiffel, Ada e Lisp",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ruby",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Smalltalk",
+     "propriedades": {},
+     "evidencia": "Foi inspirada principalmente por Python, Perl, Smalltalk, Eiffel, Ada e Lisp",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ruby",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Eiffel",
+     "propriedades": {},
+     "evidencia": "Foi inspirada principalmente por Python, Perl, Smalltalk, Eiffel, Ada e Lisp",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ruby",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Ada",
+     "propriedades": {},
+     "evidencia": "Foi inspirada principalmente por Python, Perl, Smalltalk, Eiffel, Ada e Lisp",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ruby",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Lisp",
+     "propriedades": {},
+     "evidencia": "Foi inspirada principalmente por Python, Perl, Smalltalk, Eiffel, Ada e Lisp",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "9240_1",
+   "entidades": [
+    {
+     "nome": "Ruby",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Yukihiro Matsumoto",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Perl",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Yukihiro Matsumoto",
+     "tipo": "CRIOU",
+     "destino": "Ruby",
+     "propriedades": {},
+     "evidencia": "A linguagem Ruby foi concebida em 24 de fevereiro de 1993 por Yukihiro Matsumoto",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "9240_2",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9240_3",
+   "entidades": [
+    {
+     "nome": "Yukihiro Matsumoto",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Matz"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Keiju Ishitsuka",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9240_4",
+   "entidades": [
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Solaris",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9240_5",
+   "entidades": [
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Solaris",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9240_6",
+   "entidades": [
+    {
+     "nome": "Perl",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9240_7",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9240_8",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9240_9",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9240_10",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9240_11",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9240_12",
+   "entidades": [
+    {
+     "nome": "Perl",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ruby",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

@@ -1,0 +1,1391 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:26:38+00:00",
+ "chunks": [
+  {
+   "chunk_id": "7793188_0",
+   "entidades": [
+    {
+     "nome": "Manchester Baby",
+     "tipo": "Hardware",
+     "aliases": [
+      "Small-Scale Experimental Machine",
+      "SSEM",
+      "Baby"
+     ],
+     "descricao": "Primeiro computador eletrônico com programa armazenado.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Universidade de Manchester",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade Victoria de Manchester"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Frederic Calland Williams",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Tom Kilburn",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Geoff Tootill",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Tubo de Williams",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Primeira memória de acesso aleatório verdadeiramente aleatório.",
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Manchester Mark I",
+     "tipo": "Hardware",
+     "aliases": [
+      "Mark I"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Ferranti Mark I",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro computador de uso geral comercialmente disponível no mundo.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Frederic Calland Williams",
+     "tipo": "CRIOU",
+     "destino": "Manchester Baby",
+     "propriedades": {},
+     "evidencia": "Foi construído na Universidade Victoria de Manchester [en] pelos pesquisadores Frederic Calland Williams, Tom Kilburn e Geoff Tootill [en]",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Tom Kilburn",
+     "tipo": "CRIOU",
+     "destino": "Manchester Baby",
+     "propriedades": {},
+     "evidencia": "Foi construído na Universidade Victoria de Manchester [en] pelos pesquisadores Frederic Calland Williams, Tom Kilburn e Geoff Tootill [en]",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Geoff Tootill",
+     "tipo": "CRIOU",
+     "destino": "Manchester Baby",
+     "propriedades": {},
+     "evidencia": "Foi construído na Universidade Victoria de Manchester [en] pelos pesquisadores Frederic Calland Williams, Tom Kilburn e Geoff Tootill [en]",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Universidade de Manchester",
+     "tipo": "DESENVOLVEU",
+     "destino": "Manchester Baby",
+     "propriedades": {},
+     "evidencia": "Foi construído na Universidade Victoria de Manchester [en] pelos pesquisadores",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Manchester Mark I",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Manchester Baby",
+     "propriedades": {},
+     "evidencia": "foi iniciado um projeto na universidade para desenvolvê-lo em uma máquina operacional em escala real, o Manchester Mark I",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "7793188_1",
+   "entidades": [
+    {
+     "nome": "Ferranti Mark I",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro computador de uso geral comercialmente disponível no mundo.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Manchester Mark I",
+     "tipo": "Hardware",
+     "aliases": [
+      "Mark I"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Manchester Baby",
+     "tipo": "Hardware",
+     "aliases": [
+      "Baby"
+     ],
+     "descricao": "Computador com palavra de 32 bits e memória de 32 palavras.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7793188_2",
+   "entidades": [
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [
+      "Máquina Analítica"
+     ],
+     "descricao": "Primeiro projeto de um computador controlado por programa.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ada Lovelace",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Matemática britânica que concebeu a ideia do primeiro programa teórico.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina de Turing",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Conceito teórico destinado a explorar os limites da computação mecânica.",
+     "propriedades": {
+      "ano": 1936,
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Charles Babbage",
+     "tipo": "CRIOU",
+     "destino": "Máquina analítica",
+     "propriedades": {},
+     "evidencia": "a Máquina Analítica desenvolvida pelo britânico Charles Babbage",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Alan Turing",
+     "tipo": "CRIOU",
+     "destino": "Máquina de Turing",
+     "propriedades": {
+      "ano": 1936
+     },
+     "evidencia": "em 1936, o também matemático britânico Alan Turing publicou sua descrição do que ficou conhecido como máquina de Turing",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "7793188_3",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina de Turing",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Konrad Zuse",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Zuse"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Z3",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro computador programável e totalmente automático do mundo, eletromecânico.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Computador Atanasoff–Berry",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Dispositivo eletrônico de computação sem programa armazenado.",
+     "propriedades": {
+      "ano": 1942,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1943,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "ENIAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro computador automático eletrônico e de uso geral.",
+     "propriedades": {
+      "ano": 1946,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Arquitetura de von Neumann",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Konrad Zuse",
+     "tipo": "CRIOU",
+     "destino": "Z3",
+     "propriedades": {},
+     "evidencia": "O Z3, concebido pelo pesquisador alemão Konrad Zuse",
+     "confianca": 0.9
+    },
+    {
+     "origem": "John von Neumann",
+     "tipo": "CRIOU",
+     "destino": "Arquitetura de von Neumann",
+     "propriedades": {},
+     "evidencia": "foi o matemático John von Neumann quem escreveu um artigo amplamente divulgado descrevendo essa arquitetura de computador",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "7793188_4",
+   "entidades": [
+    {
+     "nome": "Memória de linha de atraso de mercúrio",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Primeira aplicação prática da memória de linha de atraso.",
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "John Presper Eckert",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John Presper Eckert",
+     "tipo": "CRIOU",
+     "destino": "Memória de linha de atraso de mercúrio",
+     "propriedades": {},
+     "evidencia": "memória de linha de atraso]] [en] de mercúrio, desenvolvida por John Presper Eckert",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "7793188_5",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Laboratório Nacional de Física",
+     "tipo": "Organizacao",
+     "aliases": [
+      "NPL"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Automatic Computing Engine",
+     "tipo": "Hardware",
+     "aliases": [
+      "ACE"
+     ],
+     "descricao": "Projeto de Turing para um computador eletrônico com programa armazenado.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "EDVAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Universidade da Pensilvânia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Cambridge",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "EDSAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Laboratório Nacional de Física",
+     "propriedades": {
+      "ano_inicio": 1945
+     },
+     "evidencia": "Turing ingressou no Laboratório Nacional de Física (NPL) em outubro de 1945",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Alan Turing",
+     "tipo": "CRIOU",
+     "destino": "Automatic Computing Engine",
+     "propriedades": {},
+     "evidencia": "Turing apresentou um artigo descrevendo seu projeto para um computador eletrônico com programa armazenado, que ficaria conhecido como Automatic Computing Engine (ACE)",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Universidade da Pensilvânia",
+     "tipo": "DESENVOLVEU",
+     "destino": "EDVAC",
+     "propriedades": {},
+     "evidencia": "o EDVAC estava em desenvolvimento na Escola Moore de Engenharia Elétrica [en] da Universidade da Pensilvânia",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Universidade de Cambridge",
+     "tipo": "DESENVOLVEU",
+     "destino": "EDSAC",
+     "propriedades": {},
+     "evidencia": "o Departamento de Ciência da Computação e Tecnologia da Universidade de Cambridge [en] estava trabalhando no EDSAC",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "7793188_6",
+   "entidades": [
+    {
+     "nome": "Laboratório Nacional de Física",
+     "tipo": "Organizacao",
+     "aliases": [
+      "NPL"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Automatic Computing Engine",
+     "tipo": "Hardware",
+     "aliases": [
+      "ACE"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Tommy Flowers",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Flowers"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Laboratório de Correios Gerais",
+     "tipo": "Organizacao",
+     "aliases": [
+      "GPO"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro computador eletrônico programável do mundo.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Instituto de Pesquisa em Telecomunicações",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TRE"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Maurice Wilkes",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Cambridge",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tommy Flowers",
+     "tipo": "CRIOU",
+     "destino": "Colossus",
+     "propriedades": {},
+     "evidencia": "Flowers, o projetista do Colossus",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Tommy Flowers",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Laboratório de Correios Gerais",
+     "propriedades": {},
+     "evidencia": "Tommy Flowers [en], do Laboratório de Correios Gerais [en] (GPO)",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Maurice Wilkes",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Cambridge",
+     "propriedades": {},
+     "evidencia": "Maurice Wilkes, do Departamento de Ciência da Computação e Tecnologia da Universidade de Cambridge",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "7793188_7",
+   "entidades": [
+    {
+     "nome": "Instituto de Pesquisa em Telecomunicações",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TRE"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Maurice Wilkes",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Cambridge",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Laboratório Nacional de Física",
+     "tipo": "Organizacao",
+     "aliases": [
+      "NPL"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Automatic Computing Engine",
+     "tipo": "Hardware",
+     "aliases": [
+      "ACE"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Frederic Calland Williams",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Williams"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "A. M. Uttley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Uttley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Manchester",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade Victoria de Manchester"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Maurice Wilkes",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Cambridge",
+     "propriedades": {},
+     "evidencia": "Maurice Wilkes, do Departamento de Ciência da Computação e Tecnologia da Universidade de Cambridge",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Frederic Calland Williams",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Pesquisa em Telecomunicações",
+     "propriedades": {},
+     "evidencia": "Frederic Calland Williams e A. M. Uttley, também do TRE",
+     "confianca": 0.8
+    },
+    {
+     "origem": "A. M. Uttley",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Pesquisa em Telecomunicações",
+     "propriedades": {},
+     "evidencia": "Frederic Calland Williams e A. M. Uttley, também do TRE",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Frederic Calland Williams",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Manchester",
+     "propriedades": {
+      "cargo": "professor"
+     },
+     "evidencia": "já havia aceitado um cargo de professor na Universidade Victoria de Manchester [en]",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "7793188_8",
+   "entidades": [
+    {
+     "nome": "Tubo de Williams",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "tubo Williams-Kilburn"
+     ],
+     "descricao": "Primeiro dispositivo eletrônico de armazenamento digital de acesso aleatório, baseado em um CRT padrão.",
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "EDSAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "EDVAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Frederic Calland Williams",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Williams"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Tom Kilburn",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Pesquisa em Telecomunicações",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TRE"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Universidade de Manchester",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Manchester Baby",
+     "tipo": "Hardware",
+     "aliases": [
+      "Baby"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Frederic Calland Williams",
+     "tipo": "CRIOU",
+     "destino": "Tubo de Williams",
+     "propriedades": {},
+     "evidencia": "Williams e Tom Kilburn desenvolveram uma forma de memória eletrônica conhecida como tubo de Williams ou tubo Williams-Kilburn",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Tom Kilburn",
+     "tipo": "CRIOU",
+     "destino": "Tubo de Williams",
+     "propriedades": {},
+     "evidencia": "Williams e Tom Kilburn desenvolveram uma forma de memória eletrônica conhecida como tubo de Williams ou tubo Williams-Kilburn",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Frederic Calland Williams",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Pesquisa em Telecomunicações",
+     "propriedades": {},
+     "evidencia": "Enquanto trabalhava na TRE, pouco antes de ingressar na Universidade de Manchester em dezembro de 1946",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Frederic Calland Williams",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Manchester",
+     "propriedades": {
+      "ano_inicio": 1946
+     },
+     "evidencia": "pouco antes de ingressar na Universidade de Manchester em dezembro de 1946",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "7793188_9",
+   "entidades": [
+    {
+     "nome": "Tubo de Williams",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Manchester Baby",
+     "tipo": "Hardware",
+     "aliases": [
+      "Baby"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Manchester Mark I",
+     "tipo": "Hardware",
+     "aliases": [
+      "Mark I"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7793188_10",
+   "entidades": [
+    {
+     "nome": "Max Newman",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Newman"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Manchester",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Irving John Good",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jack Good"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "David Rees",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Frederic Calland Williams",
+     "tipo": "Pessoa",
+     "aliases": [
+      "F. C. Williams"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Royal Society",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Max Newman",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bletchley Park",
+     "propriedades": {},
+     "evidencia": "Adotando a abordagem que havia usado com tanta eficácia em Bletchley Park, Newman deixou sua equipe trabalhar nos detalhes",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Max Newman",
+     "tipo": "CRIOU",
+     "destino": "Colossus",
+     "propriedades": {},
+     "evidencia": "Após desenvolver o computador Colossus para decifrar códigos em Bletchley Park durante a Segunda Guerra Mundial, Max Newman",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Max Newman",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Manchester",
+     "propriedades": {
+      "cargo": "Cátedra Fielden de Matemática Pura",
+      "ano_inicio": 1945
+     },
+     "evidencia": "No ano de 1945, ele foi nomeado para a Cátedra Fielden de Matemática Pura na Universidade de Manchester",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Max Newman",
+     "tipo": "COLABOROU_COM",
+     "destino": "Irving John Good",
+     "propriedades": {
+      "contexto": "projeto Colossus"
+     },
+     "evidencia": "ele levou seus colegas do projeto Colossus, Irving John Good e David Rees, para Manchester com ele",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Max Newman",
+     "tipo": "COLABOROU_COM",
+     "destino": "David Rees",
+     "propriedades": {
+      "contexto": "projeto Colossus"
+     },
+     "evidencia": "ele levou seus colegas do projeto Colossus, Irving John Good e David Rees, para Manchester com ele",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "7793188_11",
+   "entidades": [
+    {
+     "nome": "Frederic Calland Williams",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Williams"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Manchester",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Tom Kilburn",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Kilburn"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Pesquisa em Telecomunicações",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TRE"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Tubo de Williams",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Geoff Tootill",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Max Newman",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Newman"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jack Copeland",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Irving John Good",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jack Good"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Frederic Calland Williams",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Manchester",
+     "propriedades": {
+      "cargo": "professor"
+     },
+     "evidencia": "Após sua nomeação ser professor no curso de Engenharia Elétrica na Universidade de Manchester, Williams",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Tom Kilburn",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Pesquisa em Telecomunicações",
+     "propriedades": {},
+     "evidencia": "Williams recrutou seu colega da TRE, Tom Kilburn",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Frederic Calland Williams",
+     "tipo": "COLABOROU_COM",
+     "destino": "Tom Kilburn",
+     "propriedades": {
+      "contexto": "aumentaram a capacidade de armazenamento do tubo de Williams"
+     },
+     "evidencia": "a dupla aumentou a capacidade de armazenamento do tubo de Williams de um bit para 2.048",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Geoff Tootill",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Pesquisa em Telecomunicações",
+     "propriedades": {},
+     "evidencia": "Geoff Tootill [en] juntou-se à equipe em regime de empréstimo da TRE em setembro de 1947",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "7793188_12",
+   "entidades": [
+    {
+     "nome": "Manchester Baby",
+     "tipo": "Hardware",
+     "aliases": [
+      "Baby"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Irving John Good",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jack Good"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7793188_13",
+   "entidades": [
+    {
+     "nome": "Max Newman",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Newman"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Manchester Baby",
+     "tipo": "Hardware",
+     "aliases": [
+      "Baby",
+      "Manchester Baby"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [
+      "Colossi"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Norman Stanley Hammond",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7793188_14",
+   "entidades": [
+    {
+     "nome": "Manchester Baby",
+     "tipo": "Hardware",
+     "aliases": [
+      "Baby"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Tubo de Williams",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Norman Stanley Hammond",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [
+      "Colossi"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7793188_15",
+   "entidades": [
+    {
+     "nome": "Manchester Baby",
+     "tipo": "Hardware",
+     "aliases": [
+      "Baby"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7793188_16",
+   "entidades": [
+    {
+     "nome": "Manchester Baby",
+     "tipo": "Hardware",
+     "aliases": [
+      "Baby"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7793188_17",
+   "entidades": [
+    {
+     "nome": "Manchester Baby",
+     "tipo": "Hardware",
+     "aliases": [
+      "Baby"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7793188_18",
+   "entidades": [
+    {
+     "nome": "Manchester Baby",
+     "tipo": "Hardware",
+     "aliases": [
+      "Baby"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Tom Kilburn",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Kilburn"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Geoff Tootill",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Manchester",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Manchester",
+     "propriedades": {
+      "cargo": "professor assistente",
+      "ano_inicio": 1948
+     },
+     "evidencia": "Alan Turing, que havia sido nomeado professor assistente no departamento de matemática da Universidade de Manchester em setembro de 1948",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "7793188_19",
+   "entidades": [
+    {
+     "nome": "Frederic Calland Williams",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Williams"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Tom Kilburn",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Kilburn"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Manchester Baby",
+     "tipo": "Hardware",
+     "aliases": [
+      "Baby"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Manchester Mark I",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Ferranti Mark I",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro computador de uso geral comercialmente disponível no mundo.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Manchester Mark I",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Manchester Baby",
+     "propriedades": {},
+     "evidencia": "O sucesso da demonstração da máquina levou rapidamente à construção de um computador mais prático, o Manchester Mark I",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Ferranti Mark I",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Manchester Mark I",
+     "propriedades": {},
+     "evidencia": "isso, por sua vez, levou diretamente ao desenvolvimento do Ferranti Mark I",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "7793188_20",
+   "entidades": [
+    {
+     "nome": "Ferranti Mark I",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Manchester Baby",
+     "tipo": "Hardware",
+     "aliases": [
+      "Baby"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Universidade de Manchester",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

@@ -1,0 +1,326 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 298596,
+    "titulo": "John Backus",
+    "url": "https://pt.wikipedia.org/wiki/John_Backus",
+    "categoria": "Pessoa",
+    "wikidata_id": "Q92746"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:27:47+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "pessoa:john_backus",
+  "chunks": [
+    {
+      "id": "298596_0",
+      "ordem": 0,
+      "texto": "John Warner Backus (Filadélfia, 3 de dezembro de 1924 — Ashland, 17 de março de 2007) foi um cientista da computação estadunidense.\nConhecido por criar a primeira linguagem de programação de alto nível - o Fortran - a notação BNF e o conceito de programação em nível de funções.\nRecebeu em 1977 o Prêmio Turing, por suas contribuições para o desenvolvimento de sistemas de programação de alto nível, principalmente por seu trabalho no Fortran e por publicações sobre métodos formais na especificação de linguagens de programação."
+    },
+    {
+      "id": "298596_1",
+      "ordem": 1,
+      "texto": "Recebeu em 1977 o Prêmio Turing, por suas contribuições para o desenvolvimento de sistemas de programação de alto nível, principalmente por seu trabalho no Fortran e por publicações sobre métodos formais na especificação de linguagens de programação.\nBiografia: Backus nasceu em Filadélfia, Pensilvânia, mas cresceu em Wilmington, Delaware. Estudou na Hill School em Pottstown. Após entrar na Universidade da Virginia para estudar química e falhar nos estudos, entrou para as forças armadas dos Estados Unidos e iniciou treinamento médico. Durante seu estágio em um hospital, foi diagnosticado com um tumor no cérebro, que foi removido com sucesso; uma placa foi instalada em sua cabeça, e ele largou o treinamento médico após nove meses e uma nova operação para substituir a placa.\nApós mudar-se para Nova Iorque iniciou treinamento em técnica de rádio, e descobriu interesse pela matemática. Graduou-se na Universidade de Columbia em matemática em 1949, e entrou na IBM no ano seguinte. Durante seus três primeiros anos, John trabalhou no computador SSEC; seu primeiro grande projeto foi escrever um programa de computador para calcular as posições da lua. Em 1953 Backus desenvolveu a linguagem Speedcoding, a primeira linguagem de alto nível criada para um computador IBM."
+    },
+    {
+      "id": "298596_2",
+      "ordem": 2,
+      "texto": "Em 1953 Backus desenvolveu a linguagem Speedcoding, a primeira linguagem de alto nível criada para um computador IBM.\nAs dificuldades contemporâneas em programação eram grandes, e em 1954 Backus montou uma equipe para definir e desenvolver o Fortran para o IBM 704. Apesar de não ser historicamente a primeira linguagem de programação de alto nível, o Fortran foi a primeira a ter grande uso. Durante a segunda metade da década de 1950, John serviu comitês internacionais para desenvolver o ALGOL 58 e o ALGOL 60, que tornou-se rapidamente o padrão para a publicação de algoritmos.\nPosteriormente trabalhou em programação funcional.\nBackus aposentou-se em 1991, e morreu em sua residência em Ashland, Oregon, em março de 2007, aos 82 anos de idade."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "pessoa:john_backus",
+      "nome": "John Backus",
+      "tipo": "Pessoa",
+      "aliases": [
+        "John Warner Backus",
+        "Backus"
+      ],
+      "descricao": "Cientista da computação estadunidense, conhecido por criar o Fortran e a notação BNF.",
+      "propriedades": {
+        "ano_nascimento": 1924,
+        "ano_morte": 2007
+      },
+      "chunk_ids": [
+        "298596_0",
+        "298596_1",
+        "298596_2"
+      ]
+    },
+    {
+      "id": "linguagem:fortran",
+      "nome": "Fortran",
+      "tipo": "Linguagem",
+      "aliases": [
+        "FORTRAN"
+      ],
+      "descricao": "Primeira linguagem de programação de alto nível, segundo o texto.",
+      "propriedades": {},
+      "chunk_ids": [
+        "298596_0",
+        "298596_2"
+      ]
+    },
+    {
+      "id": "tecnologia:bnf",
+      "nome": "BNF",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "notação BNF"
+      ],
+      "propriedades": {
+        "tipo": "conceito"
+      },
+      "chunk_ids": [
+        "298596_0"
+      ]
+    },
+    {
+      "id": "premio:premio_turing",
+      "nome": "Prêmio Turing",
+      "tipo": "Premio",
+      "aliases": [
+        "Turing Award",
+        "Prémio Turing",
+        "A. M. Turing Award",
+        "Prêmio Alan Turing"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "298596_0",
+        "298596_1"
+      ]
+    },
+    {
+      "id": "local:filadelfia",
+      "nome": "Filadélfia",
+      "tipo": "Local",
+      "aliases": [
+        "Philadelphia"
+      ],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "298596_1"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_da_virginia",
+      "nome": "Universidade da Virginia",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "298596_1"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_de_columbia",
+      "nome": "Universidade de Columbia",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "298596_1"
+      ]
+    },
+    {
+      "id": "organizacao:ibm",
+      "nome": "IBM",
+      "tipo": "Organizacao",
+      "aliases": [
+        "International Business Machines",
+        "International Business Machines Corporation"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "298596_1"
+      ]
+    },
+    {
+      "id": "hardware:ssec",
+      "nome": "SSEC",
+      "tipo": "Hardware",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "298596_1"
+      ]
+    },
+    {
+      "id": "linguagem:speedcoding",
+      "nome": "Speedcoding",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "descricao": "Primeira linguagem de alto nível criada para um computador IBM.",
+      "propriedades": {
+        "ano": 1953
+      },
+      "chunk_ids": [
+        "298596_1",
+        "298596_2"
+      ]
+    },
+    {
+      "id": "hardware:ibm_704",
+      "nome": "IBM 704",
+      "tipo": "Hardware",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "298596_2"
+      ]
+    },
+    {
+      "id": "linguagem:algol",
+      "nome": "ALGOL",
+      "tipo": "Linguagem",
+      "aliases": [
+        "ALGOL 58",
+        "ALGOL 60"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "298596_2"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:john_backus",
+      "tipo": "CRIOU",
+      "destino": "linguagem:fortran",
+      "propriedades": {},
+      "chunk_id": "298596_0",
+      "evidencia": "Conhecido por criar a primeira linguagem de programação de alto nível - o Fortran",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:john_backus",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:bnf",
+      "propriedades": {},
+      "chunk_id": "298596_0",
+      "evidencia": "a notação BNF e o conceito de programação em nível de funções",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:john_backus",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_turing",
+      "propriedades": {
+        "ano": 1977
+      },
+      "chunk_id": "298596_0",
+      "evidencia": "Recebeu em 1977 o Prêmio Turing",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:john_backus",
+      "tipo": "NASCEU_EM",
+      "destino": "local:filadelfia",
+      "propriedades": {},
+      "chunk_id": "298596_1",
+      "evidencia": "Backus nasceu em Filadélfia, Pensilvânia",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:john_backus",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:universidade_da_virginia",
+      "propriedades": {
+        "curso": "química"
+      },
+      "chunk_id": "298596_1",
+      "evidencia": "entrar na Universidade da Virginia para estudar química",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:john_backus",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:universidade_de_columbia",
+      "propriedades": {
+        "curso": "matemática",
+        "ano": 1949
+      },
+      "chunk_id": "298596_1",
+      "evidencia": "Graduou-se na Universidade de Columbia em matemática em 1949",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:john_backus",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:ibm",
+      "propriedades": {},
+      "chunk_id": "298596_1",
+      "evidencia": "Graduou-se na Universidade de Columbia em matemática em 1949, e entrou na IBM no ano seguinte.",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:john_backus",
+      "tipo": "CRIOU",
+      "destino": "linguagem:speedcoding",
+      "propriedades": {
+        "ano": 1953
+      },
+      "chunk_id": "298596_1",
+      "evidencia": "Em 1953 Backus desenvolveu a linguagem Speedcoding",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:john_backus",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_turing",
+      "propriedades": {
+        "ano": 1977
+      },
+      "chunk_id": "298596_1",
+      "evidencia": "Recebeu em 1977 o Prêmio Turing",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:john_backus",
+      "tipo": "CRIOU",
+      "destino": "linguagem:speedcoding",
+      "propriedades": {
+        "ano": 1953
+      },
+      "chunk_id": "298596_2",
+      "evidencia": "Em 1953 Backus desenvolveu a linguagem Speedcoding",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:john_backus",
+      "tipo": "CRIOU",
+      "destino": "linguagem:fortran",
+      "propriedades": {},
+      "chunk_id": "298596_2",
+      "evidencia": "em 1954 Backus montou uma equipe para definir e desenvolver o Fortran para o IBM 704",
+      "confianca": 0.9
+    },
+    {
+      "origem": "linguagem:fortran",
+      "tipo": "EXECUTA_EM",
+      "destino": "hardware:ibm_704",
+      "propriedades": {},
+      "chunk_id": "298596_2",
+      "evidencia": "desenvolver o Fortran para o IBM 704",
+      "confianca": 0.9
+    }
+  ]
+}

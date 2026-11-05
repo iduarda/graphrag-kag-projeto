@@ -1,0 +1,288 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:23:52+00:00",
+ "chunks": [
+  {
+   "chunk_id": "612_0",
+   "entidades": [
+    {
+     "nome": "Circuito integrado",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "CI",
+      "chip"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     },
+     "descricao": "Circuito eletrônico miniaturizado sobre um substrato fino de material semicondutor."
+    },
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "612_1",
+   "entidades": [
+    {
+     "nome": "Circuito integrado",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "CI",
+      "chip"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     },
+     "descricao": "Circuito eletrônico miniaturizado sobre um substrato fino de material semicondutor."
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "612_2",
+   "entidades": [
+    {
+     "nome": "Circuito integrado",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "CI",
+      "chip"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     },
+     "descricao": "Circuito eletrônico miniaturizado sobre um substrato fino de material semicondutor."
+    },
+    {
+     "nome": "Geoffrey Dummer",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {
+      "ano_nascimento": 1909,
+      "ano_morte": 2002
+     },
+     "descricao": "Cientista que levantou a ideia de um circuito integrado."
+    },
+    {
+     "nome": "Royal Radar Establishment",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {},
+     "descricao": "Estabelecimento do Ministério da Defesa britânico."
+    },
+    {
+     "nome": "Jack Kilby",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Noyce",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Fairchild Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Geoffrey Dummer",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Royal Radar Establishment",
+     "propriedades": {},
+     "evidencia": "um cientista que trabalhava para o Royal Radar Establishment",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Jack Kilby",
+     "tipo": "CRIOU",
+     "destino": "Circuito integrado",
+     "propriedades": {},
+     "evidencia": "pode ser considerado como sendo inventado por Jack Kilby de Texas Instruments e Robert Noyce, da Fairchild Semiconductor",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Robert Noyce",
+     "tipo": "CRIOU",
+     "destino": "Circuito integrado",
+     "propriedades": {},
+     "evidencia": "pode ser considerado como sendo inventado por Jack Kilby de Texas Instruments e Robert Noyce, da Fairchild Semiconductor",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Jack Kilby",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {},
+     "evidencia": "pode ser considerado como sendo inventado por Jack Kilby de Texas Instruments e Robert Noyce, da Fairchild Semiconductor",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Robert Noyce",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Fairchild Semiconductor",
+     "propriedades": {},
+     "evidencia": "pode ser considerado como sendo inventado por Jack Kilby de Texas Instruments e Robert Noyce, da Fairchild Semiconductor",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Jack Kilby",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 2000
+     },
+     "evidencia": "Kilby ganhou em 2000 o Prêmio Nobel de Física por sua parte na invenção do circuito integrado",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "612_3",
+   "entidades": [
+    {
+     "nome": "Circuito integrado",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "CI",
+      "chip"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     },
+     "descricao": "Circuito eletrônico miniaturizado sobre um substrato fino de material semicondutor."
+    },
+    {
+     "nome": "Jack Kilby",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Noyce",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fairchild Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Werner Jacobi",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {},
+     "descricao": "Engenheiro alemão que entregou em 1949 uma patente com o arranjo de cinco transístores em um semicondutor."
+    },
+    {
+     "nome": "Siemens AG",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Werner Jacobi",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Siemens AG",
+     "propriedades": {},
+     "evidencia": "o engenheiro alemão Werner Jacobi (Siemens AG)",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "612_4",
+   "entidades": [
+    {
+     "nome": "Microprocessador",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "612_5",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "612_6",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "612_7",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "612_8",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "612_9",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

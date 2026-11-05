@@ -1,0 +1,1522 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:26:22+00:00",
+ "chunks": [
+  {
+   "chunk_id": "50764_0",
+   "entidades": [
+    {
+     "nome": "NeXT",
+     "tipo": "Organizacao",
+     "aliases": [
+      "NeXT, Inc.",
+      "NeXT Computer, Inc.",
+      "NeXT Software, Inc."
+     ],
+     "descricao": "Empresa de tecnologia especializada em workstations, fundada por Steve Jobs.",
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1985
+     }
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "CEO e fundador da NeXT, cofundador da Apple.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Apple Computer"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Redwood City",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Califórnia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "NeXT Computer (computador)",
+     "tipo": "Hardware",
+     "aliases": [
+      "NeXT Computer"
+     ],
+     "descricao": "Workstation lançada pela NeXT em 1988.",
+     "propriedades": {
+      "ano": 1988,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "NeXTcube",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1990,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "NeXTstation",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1990,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "OpenStep",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Ambiente de programação que separou a camada de aplicação do NeXTSTEP.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "NeXTSTEP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema operacional da NeXT.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Jobs",
+     "tipo": "FUNDOU",
+     "destino": "NeXT",
+     "propriedades": {
+      "ano": 1985
+     },
+     "evidencia": "Foi fundada em 1985 pelo CEO Steve Jobs",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Steve Jobs",
+     "tipo": "FUNDOU",
+     "destino": "Apple",
+     "propriedades": {},
+     "evidencia": "o cofundador da Apple Computer",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Steve Jobs",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Apple",
+     "propriedades": {
+      "ano_fim": 1985
+     },
+     "evidencia": "que havia sido forçado a deixar a Apple naquele ano",
+     "confianca": 0.85
+    },
+    {
+     "origem": "NeXT",
+     "tipo": "SEDIADA_EM",
+     "destino": "Redwood City",
+     "propriedades": {},
+     "evidencia": "sediada em Redwood City, Califórnia",
+     "confianca": 0.95
+    },
+    {
+     "origem": "NeXT",
+     "tipo": "DESENVOLVEU",
+     "destino": "NeXT Computer (computador)",
+     "propriedades": {
+      "ano": 1988
+     },
+     "evidencia": "A NeXT estreou com o NeXT Computer em 1988",
+     "confianca": 0.95
+    },
+    {
+     "origem": "NeXT",
+     "tipo": "DESENVOLVEU",
+     "destino": "NeXTcube",
+     "propriedades": {
+      "ano": 1990
+     },
+     "evidencia": "lançou o NeXTcube e o NeXTstation em 1990",
+     "confianca": 0.95
+    },
+    {
+     "origem": "NeXT",
+     "tipo": "DESENVOLVEU",
+     "destino": "NeXTstation",
+     "propriedades": {
+      "ano": 1990
+     },
+     "evidencia": "lançou o NeXTcube e o NeXTstation em 1990",
+     "confianca": 0.95
+    },
+    {
+     "origem": "NeXT",
+     "tipo": "DESENVOLVEU",
+     "destino": "OpenStep",
+     "propriedades": {},
+     "evidencia": "A NeXT firmou parceria com a Sun Microsystems para criar o ambiente de programação OpenStep",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Sun Microsystems",
+     "tipo": "DESENVOLVEU",
+     "destino": "OpenStep",
+     "propriedades": {},
+     "evidencia": "A NeXT firmou parceria com a Sun Microsystems para criar o ambiente de programação OpenStep",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "50764_1",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "NeXT",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Mac OS X",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Rhapsody",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Jobs",
+     "tipo": "TRABALHOU_EM",
+     "destino": "NeXT",
+     "propriedades": {
+      "cargo": "chairman e CEO"
+     },
+     "evidencia": "Steve Jobs (até então chairman e CEO da NeXT)",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "50764_2",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Paul Berg",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Nobel de Química",
+     "tipo": "Premio",
+     "aliases": [
+      "Nobel de Química"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Jobs",
+     "tipo": "FUNDOU",
+     "destino": "Apple",
+     "propriedades": {},
+     "evidencia": "o cofundador e CEO da Apple, Steve Jobs",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Steve Jobs",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Apple",
+     "propriedades": {
+      "cargo": "CEO"
+     },
+     "evidencia": "o cofundador e CEO da Apple, Steve Jobs",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Paul Berg",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Química",
+     "propriedades": {},
+     "evidencia": "Paul Berg (laureado com o Nobel de Química)",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "50764_3",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "John Sculley",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jean-Louis Gassée",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Paul Berg",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Berg"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "50764_4",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "NeXT",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Joanna Hoffman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bud Tribble",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "George Crow",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Rich Page",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Susan Barnes",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Susan Kare",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dan'l Lewin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Paul Berg",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Jobs",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Apple",
+     "propriedades": {
+      "ano_fim": 1985
+     },
+     "evidencia": "Em setembro de 1985, após meses sendo deixado de lado, Jobs se demitiu da Apple.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Joanna Hoffman",
+     "tipo": "TRABALHOU_EM",
+     "destino": "NeXT",
+     "propriedades": {},
+     "evidencia": "Vários ex-funcionários da Apple o acompanharam na NeXT, como Joanna Hoffman, Bud Tribble, George Crow, Rich Page, Susan Barnes, Susan Kare e Dan'l Lewin.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Bud Tribble",
+     "tipo": "TRABALHOU_EM",
+     "destino": "NeXT",
+     "propriedades": {},
+     "evidencia": "Vários ex-funcionários da Apple o acompanharam na NeXT, como Joanna Hoffman, Bud Tribble, George Crow, Rich Page, Susan Barnes, Susan Kare e Dan'l Lewin.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "George Crow",
+     "tipo": "TRABALHOU_EM",
+     "destino": "NeXT",
+     "propriedades": {},
+     "evidencia": "Vários ex-funcionários da Apple o acompanharam na NeXT, como Joanna Hoffman, Bud Tribble, George Crow, Rich Page, Susan Barnes, Susan Kare e Dan'l Lewin.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Rich Page",
+     "tipo": "TRABALHOU_EM",
+     "destino": "NeXT",
+     "propriedades": {},
+     "evidencia": "Vários ex-funcionários da Apple o acompanharam na NeXT, como Joanna Hoffman, Bud Tribble, George Crow, Rich Page, Susan Barnes, Susan Kare e Dan'l Lewin.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Susan Barnes",
+     "tipo": "TRABALHOU_EM",
+     "destino": "NeXT",
+     "propriedades": {},
+     "evidencia": "Vários ex-funcionários da Apple o acompanharam na NeXT, como Joanna Hoffman, Bud Tribble, George Crow, Rich Page, Susan Barnes, Susan Kare e Dan'l Lewin.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Susan Kare",
+     "tipo": "TRABALHOU_EM",
+     "destino": "NeXT",
+     "propriedades": {},
+     "evidencia": "Vários ex-funcionários da Apple o acompanharam na NeXT, como Joanna Hoffman, Bud Tribble, George Crow, Rich Page, Susan Barnes, Susan Kare e Dan'l Lewin.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Dan'l Lewin",
+     "tipo": "TRABALHOU_EM",
+     "destino": "NeXT",
+     "propriedades": {},
+     "evidencia": "Vários ex-funcionários da Apple o acompanharam na NeXT, como Joanna Hoffman, Bud Tribble, George Crow, Rich Page, Susan Barnes, Susan Kare e Dan'l Lewin.",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "50764_5",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "NeXT",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Paul Rand",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Rand"
+     ],
+     "descricao": "Designer gráfico contratado para desenvolver a identidade visual da NeXT.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "50764_6",
+   "entidades": [
+    {
+     "nome": "NeXT",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Rich Page",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Liderou o projeto de hardware da NeXT.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Avie Tevanian",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Cuidava do sistema operacional NeXTSTEP.",
+     "propriedades": {}
+    },
+    {
+     "nome": "NeXTSTEP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Mach",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "NeXT Computer (computador)",
+     "tipo": "Hardware",
+     "aliases": [
+      "NeXT Computer",
+      "the cube"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Hartmut Esslinger",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Frog Design",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Ross Perot",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Perot"
+     ],
+     "descricao": "Primeiro grande investidor externo da NeXT.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Adobe",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Display PostScript",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "DPS"
+     ],
+     "descricao": "Motor de gráficos 2D lançado em 1987.",
+     "propriedades": {
+      "ano": 1987,
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Rich Page",
+     "tipo": "TRABALHOU_EM",
+     "destino": "NeXT",
+     "propriedades": {},
+     "evidencia": "Rich Page liderou o projeto de hardware",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Avie Tevanian",
+     "tipo": "TRABALHOU_EM",
+     "destino": "NeXT",
+     "propriedades": {},
+     "evidencia": "Avie Tevanian cuidava do sistema operacional NeXTSTEP baseado em Mach",
+     "confianca": 0.75
+    },
+    {
+     "origem": "NeXT",
+     "tipo": "DESENVOLVEU",
+     "destino": "NeXT Computer (computador)",
+     "propriedades": {},
+     "evidencia": "O primeiro produto foi o NeXT Computer, apelidado “the cube” (o cubo)",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Hartmut Esslinger",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Frog Design",
+     "propriedades": {},
+     "evidencia": "desenhado pela equipe de Hartmut Esslinger na Frog Design",
+     "confianca": 0.8
+    },
+    {
+     "origem": "NeXT",
+     "tipo": "DESENVOLVEU",
+     "destino": "Display PostScript",
+     "propriedades": {
+      "ano": 1987
+     },
+     "evidencia": "NeXT e Adobe colaboraram no Display PostScript (DPS), motor de gráficos 2D lançado em 1987",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Adobe",
+     "tipo": "DESENVOLVEU",
+     "destino": "Display PostScript",
+     "propriedades": {
+      "ano": 1987
+     },
+     "evidencia": "NeXT e Adobe colaboraram no Display PostScript (DPS), motor de gráficos 2D lançado em 1987",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "50764_7",
+   "entidades": [
+    {
+     "nome": "NeXT",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "NeXT Computer (computador)",
+     "tipo": "Hardware",
+     "aliases": [
+      "NeXT Computer"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "NeXTSTEP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Display PostScript",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "DPS"
+     ],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "São Francisco",
+     "tipo": "Local",
+     "aliases": [
+      "San Francisco"
+     ],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [
+      "EUA"
+     ],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "50764_8",
+   "entidades": [
+    {
+     "nome": "NeXT Computer (computador)",
+     "tipo": "Hardware",
+     "aliases": [
+      "NeXT Computer",
+      "NeXT"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Motorola 68030",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Motorola 88000",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Motorola 56001",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "DSP presente na placa do NeXT Computer.",
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Canon Inc.",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Canon"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "NeXTSTEP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "NeXT Computer (computador)",
+     "tipo": "UTILIZA",
+     "destino": "Motorola 68030",
+     "propriedades": {},
+     "evidencia": "O NeXT Computer usava um Motorola 68030 (25 MHz).",
+     "confianca": 0.95
+    },
+    {
+     "origem": "NeXT Computer (computador)",
+     "tipo": "UTILIZA",
+     "destino": "Motorola 56001",
+     "propriedades": {},
+     "evidencia": "O NeXT foi o primeiro a ter um DSP (Motorola 56001) na placa",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "50764_9",
+   "entidades": [
+    {
+     "nome": "NeXT",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "NeXT Computer (computador)",
+     "tipo": "Hardware",
+     "aliases": [
+      "NeXT Computer"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Businessland",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "David Norman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Compaq",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Canon Inc.",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Canon"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "NeXTSTEP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "object.station",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Linha de estações de trabalho da Canon otimizadas para rodar NeXTSTEP em Intel.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Ross Perot",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Perot"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Perot Systems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "David Norman",
+     "tipo": "FUNDOU",
+     "destino": "Businessland",
+     "propriedades": {},
+     "evidencia": "O fundador da Businessland, David Norman",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Canon Inc.",
+     "tipo": "DESENVOLVEU",
+     "destino": "object.station",
+     "propriedades": {},
+     "evidencia": "a Canon produziu sua linha “object.station” (modelos 31, 41, 50 e 52)",
+     "confianca": 0.85
+    },
+    {
+     "origem": "NeXTSTEP",
+     "tipo": "EXECUTA_EM",
+     "destino": "object.station",
+     "propriedades": {},
+     "evidencia": "otimizados para rodar NeXTSTEP em Intel",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "50764_10",
+   "entidades": [
+    {
+     "nome": "NeXTcube",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1990,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "NeXT Computer (computador)",
+     "tipo": "Hardware",
+     "aliases": [
+      "NeXT Computer"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "NeXTstation",
+     "tipo": "Hardware",
+     "aliases": [
+      "the slab"
+     ],
+     "propriedades": {
+      "ano": 1990,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "NeXTstation Color",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "NeXTdimension",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Aceleradora gráfica para o NeXTcube.",
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Motorola 68040",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Motorola 88110",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "PowerPC 601",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "NeXT RISC Workstation",
+     "tipo": "Hardware",
+     "aliases": [
+      "NRW"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Canon Inc.",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Canon"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "National Reconnaissance Office",
+     "tipo": "Organizacao",
+     "aliases": [
+      "NRO"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "NeXT",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "NeXTcube",
+     "tipo": "SUCESSOR_DE",
+     "destino": "NeXT Computer (computador)",
+     "propriedades": {},
+     "evidencia": "NeXTcube (uma versão aprimorada do NeXT Computer)",
+     "confianca": 0.8
+    },
+    {
+     "origem": "NeXTcube",
+     "tipo": "UTILIZA",
+     "destino": "NeXTdimension",
+     "propriedades": {},
+     "evidencia": "via aceleradora NeXTdimension no NeXTcube",
+     "confianca": 0.75
+    },
+    {
+     "origem": "NeXTcube",
+     "tipo": "UTILIZA",
+     "destino": "Motorola 68040",
+     "propriedades": {},
+     "evidencia": "Com o processador Motorola 68040, os modelos eram mais baratos e velozes que a primeira geração.",
+     "confianca": 0.7
+    },
+    {
+     "origem": "NeXTstation",
+     "tipo": "UTILIZA",
+     "destino": "Motorola 68040",
+     "propriedades": {},
+     "evidencia": "Com o processador Motorola 68040, os modelos eram mais baratos e velozes que a primeira geração.",
+     "confianca": 0.7
+    },
+    {
+     "origem": "NeXT RISC Workstation",
+     "tipo": "UTILIZA",
+     "destino": "Motorola 88110",
+     "propriedades": {},
+     "evidencia": "Inicialmente, seria adotado o Motorola 88110",
+     "confianca": 0.7
+    },
+    {
+     "origem": "NeXT RISC Workstation",
+     "tipo": "UTILIZA",
+     "destino": "PowerPC 601",
+     "propriedades": {},
+     "evidencia": "redesenhou-se em torno de dois PowerPC 601",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "50764_11",
+   "entidades": [
+    {
+     "nome": "NeXTSTEP",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "NeXTSTEP 3.1",
+      "NeXTSTEP 486"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Intel 80486",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "PA-RISC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "SPARC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ARPA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "National Security Agency",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "CIA",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "National Reconnaissance Office",
+     "tipo": "Organizacao",
+     "aliases": [
+      "NRO"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "NeXT",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "NeXTSTEP",
+     "tipo": "EXECUTA_EM",
+     "destino": "Intel 80486",
+     "propriedades": {},
+     "evidencia": "a NeXT começou a portar o sistema operacional NeXTSTEP para PCs com Intel 80486",
+     "confianca": 0.85
+    },
+    {
+     "origem": "NeXTSTEP",
+     "tipo": "EXECUTA_EM",
+     "destino": "PA-RISC",
+     "propriedades": {},
+     "evidencia": "O NeXTSTEP 3.x foi portado depois para plataformas PA-RISC e SPARC",
+     "confianca": 0.7
+    },
+    {
+     "origem": "NeXTSTEP",
+     "tipo": "EXECUTA_EM",
+     "destino": "SPARC",
+     "propriedades": {},
+     "evidencia": "O NeXTSTEP 3.x foi portado depois para plataformas PA-RISC e SPARC",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "50764_12",
+   "entidades": [
+    {
+     "nome": "NeXT",
+     "tipo": "Organizacao",
+     "aliases": [
+      "NeXT Software, Inc."
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Canon Inc.",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Canon"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Sun"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Scott McNealy",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "OpenStep",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "NeXTSTEP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Dell",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Disney",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Deutsche Bank",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "BBC",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Scott McNealy",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Sun Microsystems",
+     "propriedades": {
+      "cargo": "CEO"
+     },
+     "evidencia": "O CEO da Sun, Scott McNealy",
+     "confianca": 0.9
+    },
+    {
+     "origem": "NeXT",
+     "tipo": "DESENVOLVEU",
+     "destino": "OpenStep",
+     "propriedades": {},
+     "evidencia": "A NeXT aliou-se à Sun para criar o OpenStep",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Sun Microsystems",
+     "tipo": "DESENVOLVEU",
+     "destino": "OpenStep",
+     "propriedades": {},
+     "evidencia": "A NeXT aliou-se à Sun para criar o OpenStep",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "50764_13",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "NeXT",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "NeXTSTEP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Rhapsody",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Mac OS X",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Mac OS X 10.0",
+      "Mac OS X Server 1.0"
+     ],
+     "propriedades": {
+      "ano": 2001,
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Jobs",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Apple",
+     "propriedades": {
+      "cargo": "CEO",
+      "ano_inicio": 2000,
+      "ano_fim": 2011
+     },
+     "evidencia": "Em 2000, Jobs se tornou CEO da Apple de forma definitiva, mantendo o posto até renunciar em 24 agosto 2011",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Mac OS X",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Rhapsody",
+     "propriedades": {},
+     "evidencia": "Esse sistema, codinomeado Rhapsody, viria a se tornar o Mac OS X Server 1.0 (1999) e depois o Mac OS X 10.0 (2001).",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "50764_14",
+   "entidades": [
+    {
+     "nome": "Tim Berners-Lee",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "NeXT Computer (computador)",
+     "tipo": "Hardware",
+     "aliases": [
+      "NeXT Computer"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "id Software",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "NeXT",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

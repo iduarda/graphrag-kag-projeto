@@ -1,0 +1,996 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:21:11+00:00",
+ "chunks": [
+  {
+   "chunk_id": "18451_0",
+   "entidades": [
+    {
+     "nome": "Donald Knuth",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Donald Ervin Knuth",
+      "Knuth"
+     ],
+     "descricao": "Cientista da computação e matemático americano, professor emérito na Universidade de Stanford.",
+     "propriedades": {
+      "ano_nascimento": 1938
+     }
+    },
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade de Stanford"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [
+      "Prêmio Turing da ACM"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Association for Computing Machinery",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ACM"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "TeX",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema de diagramação computadorizada criado por Knuth.",
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "METAFONT",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema de definição e renderização de fontes relacionado ao TeX.",
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "WEB",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema de programação criado para incentivar a programação literata.",
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "CWEB",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema de programação criado para incentivar a programação literata.",
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Donald Knuth",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade Stanford",
+     "propriedades": {
+      "cargo": "professor emérito"
+     },
+     "evidencia": "Ele é professor emérito na Universidade de Stanford.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Donald Knuth",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 1974
+     },
+     "evidencia": "É o recipiente de 1974 do Prêmio Turing da ACM",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Donald Knuth",
+     "tipo": "CRIOU",
+     "destino": "TeX",
+     "propriedades": {},
+     "evidencia": "Knuth é o criador do sistema de diagramação computadorizada TeX",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Donald Knuth",
+     "tipo": "CRIOU",
+     "destino": "METAFONT",
+     "propriedades": {},
+     "evidencia": "do sistema de definição e renderização de fontes relacionado METAFONT",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Donald Knuth",
+     "tipo": "CRIOU",
+     "destino": "WEB",
+     "propriedades": {},
+     "evidencia": "Knuth criou os sistemas de programação de computadores WEB e CWEB",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Donald Knuth",
+     "tipo": "CRIOU",
+     "destino": "CWEB",
+     "propriedades": {},
+     "evidencia": "Knuth criou os sistemas de programação de computadores WEB e CWEB",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "18451_1",
+   "entidades": [
+    {
+     "nome": "Donald Knuth",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Knuth"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Milwaukee",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Wisconsin",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Donald Knuth",
+     "tipo": "NASCEU_EM",
+     "destino": "Milwaukee",
+     "propriedades": {},
+     "evidencia": "Donald Knuth nasceu em Milwaukee, Wisconsin",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "18451_2",
+   "entidades": [
+    {
+     "nome": "Donald Knuth",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Knuth"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Case Institute of Technology",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Case"
+     ],
+     "descricao": "Instituto onde Knuth estudou física e depois matemática.",
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "IBM 650",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Computador comercial antigo apresentado a Knuth no Case.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Donald Knuth",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Case Institute of Technology",
+     "propriedades": {
+      "curso": "física",
+      "ano": 1956
+     },
+     "evidencia": "Knuth recebeu uma bolsa de estudos em física no Case Institute of Technology (agora parte da Case Western Reserve University) em Cleveland, Ohio, matriculando-se em 1956",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "18451_3",
+   "entidades": [
+    {
+     "nome": "Donald Knuth",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Knuth"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Case Institute of Technology",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Case"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia da Califórnia",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Caltech"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Burroughs Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "ALGOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Donald Knuth",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Instituto de Tecnologia da Califórnia",
+     "propriedades": {
+      "curso": "matemática",
+      "ano": 1963
+     },
+     "evidencia": "Em 1963, com o matemático Marshall Hall como seu orientador, ele obteve um doutorado em matemática pelo Instituto de Tecnologia da Califórnia",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Donald Knuth",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Case Institute of Technology",
+     "propriedades": {
+      "ano": 1960
+     },
+     "evidencia": "recebeu dois diplomas do Case em 1960",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "18451_4",
+   "entidades": [
+    {
+     "nome": "Donald Knuth",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Knuth"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Tecnologia da Califórnia",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Caltech"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Burroughs Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "ALGOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fortran",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Donald Knuth",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia da Califórnia",
+     "propriedades": {
+      "cargo": "professor assistente",
+      "ano_inicio": 1963
+     },
+     "evidencia": "Em 1963, após receber seu doutorado, Knuth ingressou no corpo docente do Caltech como professor assistente.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Donald Knuth",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Burroughs Corporation",
+     "propriedades": {
+      "cargo": "consultor"
+     },
+     "evidencia": "ele se tornou consultor da Burroughs Corporation, juntando-se ao Departamento de Planejamento de Produtos",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "18451_5",
+   "entidades": [
+    {
+     "nome": "Donald Knuth",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Knuth"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Burroughs Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Burroughs"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Edsger Dijkstra",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ALGOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fortran",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Simula",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "SOL",
+     "tipo": "Linguagem",
+     "aliases": [
+      "Simulation Oriented Language"
+     ],
+     "descricao": "Linguagem orientada a simulação produzida por Knuth na Burroughs.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Donald Knuth",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Burroughs Corporation",
+     "propriedades": {
+      "cargo": "consultor",
+      "ano_inicio": 1960,
+      "ano_fim": 1968
+     },
+     "evidencia": "Knuth teve uma longa associação com a Burroughs como consultor de 1960 a 1968",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Donald Knuth",
+     "tipo": "CRIOU",
+     "destino": "SOL",
+     "propriedades": {},
+     "evidencia": "Knuth trabalhou em linguagens de simulação na Burroughs, produzindo SOL",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "18451_6",
+   "entidades": [
+    {
+     "nome": "Donald Knuth",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Knuth"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Burroughs Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Burroughs"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia da Califórnia",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Caltech"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Stanford"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Addison-Wesley",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Institute for Defense Analyses",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Donald Knuth",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Burroughs Corporation",
+     "propriedades": {
+      "cargo": "consultor",
+      "ano_inicio": 1960,
+      "ano_fim": 1968
+     },
+     "evidencia": "Knuth teve uma longa associação com a Burroughs como consultor de 1960 a 1968",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Donald Knuth",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Institute for Defense Analyses",
+     "propriedades": {},
+     "evidencia": "Knuth deixou o Caltech para aceitar um emprego na Divisão de Pesquisa em Comunicações do Institute for Defense Analyses",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "18451_7",
+   "entidades": [
+    {
+     "nome": "Donald Knuth",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Knuth"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade de Stanford"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Donald Knuth",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade Stanford",
+     "propriedades": {
+      "cargo": "Professor de Ciência da Computação Fletcher Jones",
+      "ano_inicio": 1969
+     },
+     "evidencia": "Em 1969, Knuth deixou sua posição em Princeton para se juntar ao corpo docente da Universidade de Stanford",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "18451_8",
+   "entidades": [
+    {
+     "nome": "Donald Knuth",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Knuth"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Oslo",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Ole-Johan Dahl",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Donald Knuth",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Oslo",
+     "propriedades": {
+      "ano_inicio": 1972,
+      "ano_fim": 1973
+     },
+     "evidencia": "De 1972 a 1973, Knuth passou um ano na Universidade de Oslo",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "18451_9",
+   "entidades": [
+    {
+     "nome": "Donald Knuth",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Knuth"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ronald Graham",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Oren Patashnik",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Patashnik"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Donald Knuth",
+     "tipo": "COLABOROU_COM",
+     "destino": "Ronald Graham",
+     "propriedades": {
+      "contexto": "coautoria de Concrete Mathematics"
+     },
+     "evidencia": "evoluíram para o texto de 1988, com os autores Ronald Graham, Knuth e Patashnik",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Donald Knuth",
+     "tipo": "COLABOROU_COM",
+     "destino": "Oren Patashnik",
+     "propriedades": {
+      "contexto": "coautoria de Concrete Mathematics"
+     },
+     "evidencia": "evoluíram para o texto de 1988, com os autores Ronald Graham, Knuth e Patashnik",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "18451_10",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18451_11",
+   "entidades": [
+    {
+     "nome": "Hermann Zapf",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18451_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18451_13",
+   "entidades": [
+    {
+     "nome": "Donald Knuth",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Knuth"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "TeX",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "METAFONT",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Metafont"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Donald Knuth",
+     "tipo": "CRIOU",
+     "destino": "TeX",
+     "propriedades": {},
+     "evidencia": "ele reservou um tempo para trabalhar em diagramação digital e criou o TeX e o Metafont",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Donald Knuth",
+     "tipo": "CRIOU",
+     "destino": "METAFONT",
+     "propriedades": {},
+     "evidencia": "ele reservou um tempo para trabalhar em diagramação digital e criou o TeX e o Metafont",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "18451_14",
+   "entidades": [
+    {
+     "nome": "Donald Knuth",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Knuth"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "TeX",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "METAFONT",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "WEB",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema de programação literata de Knuth que gera um arquivo TeX e um arquivo fonte Pascal.",
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "CWEB",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Iteração posterior do WEB que substitui Pascal por C, C++ e Java.",
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "LaTeX",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Pacote de macros baseado no TeX.",
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Leslie Lamport",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Donald Knuth",
+     "tipo": "CRIOU",
+     "destino": "WEB",
+     "propriedades": {},
+     "evidencia": "Knuth incorporou a ideia de programação literata no sistema WEB",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Leslie Lamport",
+     "tipo": "CRIOU",
+     "destino": "LaTeX",
+     "propriedades": {},
+     "evidencia": "o LaTeX, o pacote de macros agora amplamente adotado baseado no TeX, foi desenvolvido pela primeira vez por Leslie Lamport",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "18451_15",
+   "entidades": [
+    {
+     "nome": "Donald Knuth",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Knuth"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "LaTeX",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Leslie Lamport",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Oxford",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Leslie Lamport",
+     "tipo": "CRIOU",
+     "destino": "LaTeX",
+     "propriedades": {},
+     "evidencia": "o LaTeX, o pacote de macros agora amplamente adotado baseado no TeX, foi desenvolvido pela primeira vez por Leslie Lamport",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Donald Knuth",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Oxford",
+     "propriedades": {
+      "cargo": "professor visitante",
+      "ano_fim": 2017
+     },
+     "evidencia": "Ele foi professor visitante no Departamento de Ciência da Computação da Universidade de Oxford no Reino Unido até 2017",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "18451_16",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18451_17",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18451_18",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18451_19",
+   "entidades": [
+    {
+     "nome": "Donald Knuth",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Knuth"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Grace Murray Hopper",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "National Medal of Science",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha John von Neumann",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Kyoto",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Donald Knuth",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Grace Murray Hopper",
+     "propriedades": {
+      "ano": 1971
+     },
+     "evidencia": "Em 1971, Knuth recebeu o primeiro Prêmio Grace Murray Hopper da ACM.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Donald Knuth",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {},
+     "evidencia": "Ele recebeu vários outros prêmios, incluindo o Prêmio Turing, a National Medal of Science, a Medalha John von Neumann e o Prêmio Kyoto.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Donald Knuth",
+     "tipo": "RECEBEU",
+     "destino": "National Medal of Science",
+     "propriedades": {},
+     "evidencia": "Ele recebeu vários outros prêmios, incluindo o Prêmio Turing, a National Medal of Science, a Medalha John von Neumann e o Prêmio Kyoto.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Donald Knuth",
+     "tipo": "RECEBEU",
+     "destino": "Medalha John von Neumann",
+     "propriedades": {},
+     "evidencia": "Ele recebeu vários outros prêmios, incluindo o Prêmio Turing, a National Medal of Science, a Medalha John von Neumann e o Prêmio Kyoto.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Donald Knuth",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Kyoto",
+     "propriedades": {},
+     "evidencia": "Ele recebeu vários outros prêmios, incluindo o Prêmio Turing, a National Medal of Science, a Medalha John von Neumann e o Prêmio Kyoto.",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "18451_20",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

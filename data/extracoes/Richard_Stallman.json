@@ -1,0 +1,505 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 1644,
+    "titulo": "Richard Stallman",
+    "url": "https://pt.wikipedia.org/wiki/Richard_Stallman",
+    "categoria": "Pessoa",
+    "wikidata_id": "Q7439"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:24:59+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "pessoa:richard_stallman",
+  "chunks": [
+    {
+      "id": "1644_0",
+      "ordem": 0,
+      "texto": "Richard Matthew Stallman, ou simplesmente \"rms\" (Manhattan, 16 de março de 1953) é um ativista, fundador do movimento software livre, do projeto GNU, e da FSF. Um aclamado programador e hacker, seus maiores feitos incluem Emacs (e o GNU Emacs, mais tarde), o GNU Compiler Collection e o GNU Debugger. É também autor da GNU General Public License (GNU GPL ou GPL), a licença livre mais usada no mundo, que consolidou o conceito de copyleft.\nDesde a metade dos anos 1990, Stallman tem dedicado a maior parte de seu tempo ao ativismo político, defendendo software livre e lutando contra a patente de softwares e a expansão da lei de copyright. O tempo que ainda devota à programação é gasto no GNU Emacs. Ele se sustenta com aproximadamente a metade do que recebe por suas palestras.\nEm 1971, ainda calouro na Universidade Harvard - onde se graduou em física em 1974 - Stallman era programador do laboratório de IA do Instituto de Tecnologia de Massachusetts (MIT) e tornou-se um líder na comunidade hacker."
+    },
+    {
+      "id": "1644_1",
+      "ordem": 1,
+      "texto": "Em 1971, ainda calouro na Universidade Harvard - onde se graduou em física em 1974 - Stallman era programador do laboratório de IA do Instituto de Tecnologia de Massachusetts (MIT) e tornou-se um líder na comunidade hacker.\nBiografia: Richard Matthew Stallman nasceu em Nova Iorque, filho de Alice Lippman e Daniel Stallman. Seu primeiro acesso a um computador aconteceu em 1969, no seu primeiro ano do curso médio.\nEmpregado pelo Centro Científico da IBM em Nova Iorque, após concluir seu curso médio (High School) Stallman passou o verão escrevendo seu primeiro programa - um pré-processador para a linguagem de programação PL/I no IBM 360. \"Eu o escrevi primeiro em PL/I, passando então para a linguagem de montagem quando o programa de PL/I se tornou grande demais para caber no computador\", contou Stallman, anos depois (Williams 2002, capítulo 3).\nStallman era simultaneamente assistente voluntário do laboratório do departamento de Biologia na Rockefeller University. Embora já estivesse se encaminhando para as áreas de matemática e física, sua mente analítica impressionou de tal modo o diretor do laboratório que, alguns anos depois de Stallman ter ido para a faculdade, sua mãe recebeu uma chamada de telefone: \"Era o professor da Rockefeller\", ela recordou, \"quis saber o que Richard estava fazendo\". Foi surpreendido ao saber que estava trabalhando em computadores. O professor imaginava que Richard teria tido um grande futuro como biólogo (Williams 2002, capítulo 3)."
+    },
+    {
+      "id": "1644_2",
+      "ordem": 2,
+      "texto": "O professor imaginava que Richard teria tido um grande futuro como biólogo (Williams 2002, capítulo 3).\nDurante estes anos tornou-se mais conhecido pelas iniciais de seu nome, rms. Na primeira edição do dicionário do hacker, ele escreveu, \"Richard Stallman' é apenas meu nome mundano; você pode me chamar de 'rms'.\"\nO declínio da cultura hacker: Nos anos 1980, a comunidade hacker, que até então dominara a vida de Stallman, começou a se dissolver. A emergência do \"software portável\" (software que poderia ser feito para funcionar em tipos diferentes de computadores) era então um problema para o modelo de negócio dos fabricantes de computador. Para impedir que seu software pudesse ser usado em computadores dos seus concorrentes, os fabricantes pararam de distribuir o código fonte e começaram a restringir a cópia e a redistribuição de seu software. O software restrito tinha existido antes, mas agora não havia nenhuma escapatória dele.\nEm 1980, Richard Greenblatt, um companheiro hacker do laboratório, fundou a Lisp Machines Incorporated para vender Máquinas Lisp, que ele e Tom Knight criaram no laboratório.\nMas Greenblatt rejeitou o investimento externo, acreditando que os rendimentos da construção e da venda de algumas máquinas poderiam ser reinvestidos no crescimento da companhia. Em contraste, Russ Noftsker e outros hackers sentiram que o capital providenciado por investidores externos era melhor. Sem um acordo, a maioria dos hackers restantes do laboratório fundaram a Symbolics."
+    },
+    {
+      "id": "1644_3",
+      "ordem": 3,
+      "texto": "Sem um acordo, a maioria dos hackers restantes do laboratório fundaram a Symbolics.\nA Symbolics recrutou a maioria dos hackers restantes e começou a fazer oposição ao laboratório de AI. Symbolics forçou Greenblatt a renunciar, citando políticas do Instituto de Tecnologia de Massachusetts (MIT).\nQuando ambas as companhias entregaram o software proprietário, Richard Stallman sentiu que a Lisp Machines Incorporated, ao contrário da Symbolics, tinha tentado evitar ferir os interesses do laboratório. Por dois anos, de 1982 ao fim de 1983, Stallman duplicou os esforços dos programadores da Symbolics para impedir que ganhassem um monopólio nos computadores do laboratório. Nesse período, entretanto, era o último de sua geração dos hackers no laboratório.\nEle rejeitou um futuro onde tivesse que assinar acordos de não-divulgação, onde tivesse de concordar com não compartilhar o código fonte ou informações técnicas com outros desenvolvedores de software, e executar outras ações que considerou contrárias aos seus princípios. Ele escolheu, ao contrário, compartilhar seu trabalho com os outros, o que considerou como um espírito clássico da colaboração científica."
+    },
+    {
+      "id": "1644_4",
+      "ordem": 4,
+      "texto": "Ele escolheu, ao contrário, compartilhar seu trabalho com os outros, o que considerou como um espírito clássico da colaboração científica.\nStallman pregava que os usuários de software deveriam ter a liberdade de \"compartilhar com seu vizinho\" e poder estudar o código e fazer mudanças nos softwares que usam. Disse repetidamente que as tentativas de vendedores de software proprietário de proibir estes atos de compartilhamento são \"antissociais\" e \"antiéticas\". A frase \"software deve ser livre\" é algumas vezes incorretamente atribuída a ele, mas Stallman diz que esta frase é a mola mestre da sua filosofia. Para Stallman a liberdade (de alterar e redistribuir software) é importante por causa dos usuários e da sociedade, não por quaisquer melhorias que traga ao software.\nConsequentemente, em janeiro 1984, parou seu trabalho no MIT para trabalhar em tempo integral no projeto do GNU, anunciado em setembro 1983.\nStallman jamais obteve o grau de Ph.D., embora tenha recebido vários títulos honoríficos de diferentes universidades do mundo, sendo Doutor Honoris Causa por pelo menos seis delas."
+    },
+    {
+      "id": "1644_5",
+      "ordem": 5,
+      "texto": "Stallman jamais obteve o grau de Ph.D., embora tenha recebido vários títulos honoríficos de diferentes universidades do mundo, sendo Doutor Honoris Causa por pelo menos seis delas.\nFundação do projeto GNU: Em 1985, Stallman publicou o manifesto GNU, que estabeleceu sua motivação para criar um sistema livre chamado GNU (GNU is not Unix), que seria semelhante ao Unix. Logo após, criou a Free Software Foundation FSF (Fundação Software Livre) para unir programadores de software livre e para fornecer um infra-estrutura legal para a comunidade livre.\nEm 1985, Stallman popularizou o conceito de copyleft, um mecanismo legal para proteger a modificação e constituir diretrizes de redistribuição de software livre. Foi adotado primeiramente na licença do GNU Emacs, e em 1989 a primeira licença \"program-independent\" (independente de programas) do GPL (Licença Pública Geral) do GNU foi liberada.\nNeste momento, muito do sistema GNU estava completo com a notável exceção do núcleo. Os membros do projeto GNU começaram o desenvolvimento de um núcleo chamado GNU Hurd, em 1990, mas uma decisão arriscada de design foi escolhida, o que tornou o Hurd extremamente difícil.\nProduzindo as ferramentas de software necessárias para escrever software, e publicando uma licença geral que poderia ser aplicada a todo o projeto do software (GPL), Stallman permitiu que outras pessoas escrevessem software livre, independentemente do projeto GNU."
+    },
+    {
+      "id": "1644_6",
+      "ordem": 6,
+      "texto": "Produzindo as ferramentas de software necessárias para escrever software, e publicando uma licença geral que poderia ser aplicada a todo o projeto do software (GPL), Stallman permitiu que outras pessoas escrevessem software livre, independentemente do projeto GNU.\nEm 1991, um projeto independente iniciado pelo estudante finlandês Linus Torvalds produziu o Linux. Por acaso, felizmente, o projeto podia ser combinado com os softwares GNU existentes para fazer um sistema operacional completo.\nVida pessoal: Stallman tem dedicado sua vida ao ativismo político e ideológico do software. Demonstrando pouca preocupação com bens materiais, ele explica: \"sempre vivi com pouco dinheiro... como um estudante, basicamente. E eu gosto disso, porque significa que o dinheiro não está me dizendo o que fazer\".\nDurante muitos anos, Stallman não teve residência permanente além de seu escritório no CSAIL (Laboratório de Ciência da Computação e Inteligência Artificial) no MIT, algumas vezes se descrevendo como um okupa do Campus. Sua posição de pesquisador no MIT não é remunerada, pois ele não tem mais vínculo oficial com a instituição.\nEm uma nota de rodapé de um artigo que ele escreveu em 1999, ele diz que \"como um ateu, não segue nenhum líder religioso, mas algumas vezes admira algumas coisas que eles dizem.\" Stallman escolheu não celebrar o Natal. Em vez disso, celebra um feriado inventado por ele próprio em 25 de dezembro, o \"Grav-mass\" (em Português, Newtal). O nome e a data são referências a Isaac Newton, cujo aniversário cai neste dia no calendário antigo."
+    },
+    {
+      "id": "1644_7",
+      "ordem": 7,
+      "texto": "O nome e a data são referências a Isaac Newton, cujo aniversário cai neste dia no calendário antigo.\nQuando perguntado sobre suas influências, ele disse admirar Mahatma Gandhi, Martin Luther King, Jr., Nelson Mandela, Aung San Suu Kyi, Ralph Nader e Dennis Kucinich, e comentou: \"eu admiro Franklin Roosevelt e Winston Churchill também, mesmo criticando algumas coisas que eles fizeram.\" Ele apoia o Partido Verde dos EUA.\nStallman recomenda não ter um telefone celular, porque acredita que a geolocalização dos telefones é uma ameaça à privacidade. Ainda, Stallman evita o uso de um cartão de identificação para entrar no prédio onde trabalha, pois tal sistema poderia gravar sua movimentação de entrada e saída através das portas. Richard Stallman não navega na internet utilizando um browser em seu computador; ao invés disso, ele usa o wget para baixar as páginas para sua caixa de e-mail, de onde as lê. Em 2016, ele revelou está sempre muito desconfiado de atuais inovações em tecnologia.\nDurante a 13ª edição do Fórum Internacional de Software Livre, em Porto Alegre, Stallman falou sobre as crescentes ameaças à liberdade na sociedade digital. Segundo ele, \"o que vemos hoje é que a liberdade está sendo atacada de várias maneiras. Talvez tenhamos que diminuir nossa inclusão (digital) para preservar nossas liberdades\"."
+    },
+    {
+      "id": "1644_8",
+      "ordem": 8,
+      "texto": "Talvez tenhamos que diminuir nossa inclusão (digital) para preservar nossas liberdades\".\nComentários sobre Jeffrey Epstein: No dia 12 de setembro de 2019, Selam Jie Gano - aluna do MIT - onde Stallman é um influente pesquisador, publicou um email criticizando a postura do ativista, em particular centrando-se em um email enviado para a lista do Laboratório de Ciência Computacional e Inteligência Artificial do MIT (CSAIL, na sigla original em inglês), no qual Stallman critica o uso do termo agressão ao referir-se ao caso de Marvin Minsky, acusado de ter tido sexo com uma das garotas traficadas por Jeffrey Epstein. Nesse email, é arguido que o termo \"agressão sexual\" é demasiadamente \"vago\", \"absolutamente errado\" e tende a \"facilitar a inflamação da acusação\", tendo sido considerada por ele a possibilidade de que Minsky não tivesse, naquele momento, conhecimento do caráter coercitivo da situação. Nesse mesmo texto, publicado originalmente no Medium e também referenciado pela revista Vice em uma notícia sobre o assunto, foram, a posteriori, divulgados diversos emails e ocasiões onde o proeminente fundador do GNU se manifestou de maneira ordeiramente misógina. Em meio ao post, é destacada uma nota de Stallman que data de 2006, onde diz: \"Sou cético quanto à afirmação de que pedofilia voluntária agride as crianças."
+    },
+    {
+      "id": "1644_9",
+      "ordem": 9,
+      "texto": "Em meio ao post, é destacada uma nota de Stallman que data de 2006, onde diz: \"Sou cético quanto à afirmação de que pedofilia voluntária agride as crianças.\nOs argumentos que afirmam que isso causa algum prejuízo parecem estar baseados nos casos onde isso não é voluntário, sendo levados a cabo por pais horrificados pela ideia de que seu pequeno bebê está crescendo\".\nA carta aberta de Gano, assim como alguns outros veículos de comunicação da internet, clamam pela demissão de Stallman do MIT.\nO movimento Free Software Force promove uma campanha em defesa da permanência de Richard Stallman como representante do movimento do software livre."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "pessoa:richard_stallman",
+      "nome": "Richard Stallman",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Richard Matthew Stallman",
+        "rms",
+        "Stallman"
+      ],
+      "descricao": "Ativista, programador e fundador do movimento software livre, do projeto GNU e da FSF.",
+      "propriedades": {
+        "ano_nascimento": 1953
+      },
+      "chunk_ids": [
+        "1644_0",
+        "1644_1",
+        "1644_2",
+        "1644_3",
+        "1644_4",
+        "1644_5",
+        "1644_6",
+        "1644_7",
+        "1644_8",
+        "1644_9"
+      ]
+    },
+    {
+      "id": "organizacao:free_software_foundation",
+      "nome": "Free Software Foundation",
+      "tipo": "Organizacao",
+      "aliases": [
+        "FSF",
+        "Fundação Software Livre"
+      ],
+      "propriedades": {
+        "tipo": "fundacao"
+      },
+      "chunk_ids": [
+        "1644_0",
+        "1644_5"
+      ]
+    },
+    {
+      "id": "tecnologia:projeto_gnu",
+      "nome": "Projeto GNU",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "GNU"
+      ],
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "1644_0",
+        "1644_4",
+        "1644_5",
+        "1644_6"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_harvard",
+      "nome": "Universidade Harvard",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Universidade de Harvard",
+        "Harvard University",
+        "Harvard"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "1644_0",
+        "1644_1"
+      ]
+    },
+    {
+      "id": "organizacao:instituto_de_tecnologia_de_massachusetts",
+      "nome": "Instituto de Tecnologia de Massachusetts",
+      "tipo": "Organizacao",
+      "aliases": [
+        "MIT",
+        "Massachusetts Institute of Technology"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "1644_0",
+        "1644_1",
+        "1644_3",
+        "1644_4",
+        "1644_6",
+        "1644_8",
+        "1644_9"
+      ]
+    },
+    {
+      "id": "local:nova_iorque",
+      "nome": "Nova Iorque",
+      "tipo": "Local",
+      "aliases": [
+        "Nova York",
+        "New York"
+      ],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "1644_1"
+      ]
+    },
+    {
+      "id": "organizacao:ibm",
+      "nome": "IBM",
+      "tipo": "Organizacao",
+      "aliases": [
+        "International Business Machines",
+        "International Business Machines Corporation"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1644_1"
+      ]
+    },
+    {
+      "id": "organizacao:rockefeller_university",
+      "nome": "Rockefeller University",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "1644_1"
+      ]
+    },
+    {
+      "id": "pessoa:richard_greenblatt",
+      "nome": "Richard Greenblatt",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1644_2",
+        "1644_3"
+      ]
+    },
+    {
+      "id": "organizacao:lisp_machines_incorporated",
+      "nome": "Lisp Machines Incorporated",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa",
+        "ano_fundacao": 1980
+      },
+      "chunk_ids": [
+        "1644_2",
+        "1644_3"
+      ]
+    },
+    {
+      "id": "pessoa:tom_knight",
+      "nome": "Tom Knight",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1644_2"
+      ]
+    },
+    {
+      "id": "pessoa:russ_noftsker",
+      "nome": "Russ Noftsker",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1644_2"
+      ]
+    },
+    {
+      "id": "organizacao:symbolics",
+      "nome": "Symbolics",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1644_2",
+        "1644_3"
+      ]
+    },
+    {
+      "id": "tecnologia:unix",
+      "nome": "Unix",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "UNIX"
+      ],
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "1644_5"
+      ]
+    },
+    {
+      "id": "tecnologia:gnu_hurd",
+      "nome": "GNU Hurd",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "descricao": "Núcleo do sistema GNU iniciado em 1990.",
+      "propriedades": {
+        "ano": 1990,
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "1644_5"
+      ]
+    },
+    {
+      "id": "pessoa:linus_torvalds",
+      "nome": "Linus Torvalds",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Linus Benedict Torvalds",
+        "Torvalds"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "1644_6"
+      ]
+    },
+    {
+      "id": "tecnologia:linux",
+      "nome": "Linux",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "núcleo Linux",
+        "kernel Linux",
+        "Linux kernel",
+        "Linux (núcleo)"
+      ],
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "1644_6"
+      ]
+    },
+    {
+      "id": "local:finlandia",
+      "nome": "Finlândia",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "pais"
+      },
+      "chunk_ids": [
+        "1644_6"
+      ]
+    },
+    {
+      "id": "pessoa:marvin_minsky",
+      "nome": "Marvin Minsky",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1644_8"
+      ]
+    },
+    {
+      "id": "pessoa:jeffrey_epstein",
+      "nome": "Jeffrey Epstein",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1644_8"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:richard_stallman",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:free_software_foundation",
+      "propriedades": {},
+      "chunk_id": "1644_0",
+      "evidencia": "fundador do movimento software livre, do projeto GNU, e da FSF",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:richard_stallman",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:projeto_gnu",
+      "propriedades": {},
+      "chunk_id": "1644_0",
+      "evidencia": "fundador do movimento software livre, do projeto GNU, e da FSF",
+      "confianca": 0.75
+    },
+    {
+      "origem": "pessoa:richard_stallman",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:universidade_harvard",
+      "propriedades": {
+        "curso": "física",
+        "ano": 1974
+      },
+      "chunk_id": "1644_0",
+      "evidencia": "Em 1971, ainda calouro na Universidade Harvard - onde se graduou em física em 1974",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:richard_stallman",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:instituto_de_tecnologia_de_massachusetts",
+      "propriedades": {
+        "cargo": "programador",
+        "ano_inicio": 1971
+      },
+      "chunk_id": "1644_0",
+      "evidencia": "Stallman era programador do laboratório de IA do Instituto de Tecnologia de Massachusetts (MIT)",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:richard_stallman",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:instituto_de_tecnologia_de_massachusetts",
+      "propriedades": {
+        "cargo": "programador",
+        "ano_inicio": 1971
+      },
+      "chunk_id": "1644_1",
+      "evidencia": "Stallman era programador do laboratório de IA do Instituto de Tecnologia de Massachusetts (MIT)",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:richard_stallman",
+      "tipo": "NASCEU_EM",
+      "destino": "local:nova_iorque",
+      "propriedades": {},
+      "chunk_id": "1644_1",
+      "evidencia": "Richard Matthew Stallman nasceu em Nova Iorque",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:richard_stallman",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:ibm",
+      "propriedades": {},
+      "chunk_id": "1644_1",
+      "evidencia": "Empregado pelo Centro Científico da IBM em Nova Iorque",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:richard_stallman",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:rockefeller_university",
+      "propriedades": {
+        "cargo": "assistente voluntário"
+      },
+      "chunk_id": "1644_1",
+      "evidencia": "Stallman era simultaneamente assistente voluntário do laboratório do departamento de Biologia na Rockefeller University",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:richard_greenblatt",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:lisp_machines_incorporated",
+      "propriedades": {
+        "ano": 1980
+      },
+      "chunk_id": "1644_2",
+      "evidencia": "Em 1980, Richard Greenblatt, um companheiro hacker do laboratório, fundou a Lisp Machines Incorporated",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:richard_stallman",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:instituto_de_tecnologia_de_massachusetts",
+      "propriedades": {
+        "ano_fim": 1984
+      },
+      "chunk_id": "1644_4",
+      "evidencia": "em janeiro 1984, parou seu trabalho no MIT para trabalhar em tempo integral no projeto do GNU",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:richard_stallman",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:projeto_gnu",
+      "propriedades": {},
+      "chunk_id": "1644_5",
+      "evidencia": "Stallman publicou o manifesto GNU, que estabeleceu sua motivação para criar um sistema livre chamado GNU (GNU is not Unix)",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:richard_stallman",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:free_software_foundation",
+      "propriedades": {},
+      "chunk_id": "1644_5",
+      "evidencia": "Logo após, criou a Free Software Foundation FSF (Fundação Software Livre)",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:linus_torvalds",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:linux",
+      "propriedades": {
+        "ano": 1991
+      },
+      "chunk_id": "1644_6",
+      "evidencia": "um projeto independente iniciado pelo estudante finlandês Linus Torvalds produziu o Linux",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:richard_stallman",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:instituto_de_tecnologia_de_massachusetts",
+      "propriedades": {
+        "cargo": "pesquisador"
+      },
+      "chunk_id": "1644_6",
+      "evidencia": "Sua posição de pesquisador no MIT não é remunerada",
+      "confianca": 0.75
+    }
+  ]
+}

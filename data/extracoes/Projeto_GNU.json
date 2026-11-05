@@ -1,0 +1,198 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 910,
+    "titulo": "Projeto GNU",
+    "url": "https://pt.wikipedia.org/wiki/Projeto_GNU",
+    "categoria": "Sistema/Invenção/Evento",
+    "wikidata_id": "Q7598"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:23:47+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "tecnologia:projeto_gnu",
+  "chunks": [
+    {
+      "id": "910_0",
+      "ordem": 0,
+      "texto": "Projeto GNU, em computação, é um projeto lançado em 27 de setembro de 1983 pelo ativista, programador e hacker Richard Stallman. Atualmente, a Free Software Foundation (FSF) é a principal organização que patrocina o projeto. Já na década de 1980, quase todo software era proprietário, o que significa que ele possuía donos que proibiam e evitavam a cooperação dos usuários. Isso tornou o Projeto GNU necessário.  O objetivo do projeto era criar um sistema operacional, chamado GNU, baseado em software livre."
+    },
+    {
+      "id": "910_1",
+      "ordem": 1,
+      "texto": "O objetivo do projeto era criar um sistema operacional, chamado GNU, baseado em software livre.\nEtimologia: O nome “GNU” foi escolhido porque atende a alguns requisitos; em primeiro lugar, é um acrônimo recursivo para “GNU is Not Unix”, depois, porque é uma palavra real e, finalmente, é divertido de falar (ou Cantar).\nA palavra “livre” em “software livre” se refere à liberdade, não ao preço. Você pode ou não pagar para obter software do projeto GNU. De qualquer forma, uma vez que você tenha o software, você tem quatro liberdades específicas ao usá-lo: a liberdade de executar o programa como você desejar; a liberdade de copiá-lo e dá-lo a seus amigos e colegas; a liberdade de modificar o programa como você desejar, por ter acesso total ao código-fonte; a liberdade de distribuir versões melhoradas e, portanto, ajudar a construir a comunidade. (Se você redistribuir software do projeto GNU, você pode cobrar uma taxa pelo ato físico de transferir uma cópia, ou você pode simplesmente dar cópias de graça.)"
+    },
+    {
+      "id": "910_2",
+      "ordem": 2,
+      "texto": "(Se você redistribuir software do projeto GNU, você pode cobrar uma taxa pelo ato físico de transferir uma cópia, ou você pode simplesmente dar cópias de graça.)\nManifesto GNU: O Manifesto GNU foi escrito por Richard Stallman e publicado em Março de 1985 no Dr. Dobb's Journal of Software Tools. O manifesto teve o objetivo de explicar e definir os objetivos do projeto GNU e convidar pessoas para participar e ajudar no desenvolvimento do GNU. Grande parte do texto explica como a filosofia do software livre funciona e porque seria uma boa escolha para a indústria tecnológica seguí-la. O texto é tido com elevada consideração pelo movimento do software livre como uma fonte de filosofia fundamental.\nNo Manifesto, Stallman listou quatro liberdades essenciais para os usuários de software: 1- Liberdade para usar o programa para qualquer propósito, 2 - Liberdade para estudar a mecânica do programa e modificá-la, 3 - Liberdade para redistribuir cópias e 4 - Liberdade para modificar e melhorar versões para o uso público. Para implementar essas liberdades os usuários precisam ter acesso completo ao código do programa. Para assegurar que o código se mantenha aberto e de livre acesso, Stallman criou a GNU General Public License (Licença de Uso Público Geral), que permite que o software e suas futuras gerações derivadas se mantenham livres para o uso público."
+    },
+    {
+      "id": "910_3",
+      "ordem": 3,
+      "texto": "Para assegurar que o código se mantenha aberto e de livre acesso, Stallman criou a GNU General Public License (Licença de Uso Público Geral), que permite que o software e suas futuras gerações derivadas se mantenham livres para o uso público.\nProjetos de software GNU: Lista de alguns programas desenvolvidos pelo projeto GNU:\nAutotools - Autoconf, Automake e Libtool.\nBash - interpretador de comandos.\nClisp - Ferramentas de compilaçãom para lisp.\nBazaar - Um sistema interativo de manutenção de versões de software.\ncoreutils - Caixa de ferramentas básica GNU.\nBinutils - montador, linker e ferramentas relacionadas.\nBison - gerador de parser desenhado para substituir o yacc.\nClasspath - bibliotecas para Java.\nCOBOL for gcc - Projeto para produzir um compilador de Cobol.\nDotGNU - substituto livre para o Microsoft .NET.\nEd - Um mini editor de texto.\nEmacs - editor de texto extensível e auto-documentado.\nG++ - compilador de C++\nGCC - compilador otimizado para várias linguagens de programação, particularmente linguagem C.\nGDB - depurador de aplicações.\nGFortran - Compilador Fortran\nglibc - biblioteca para linguagem C.\nGNU fcrypt - Criptografia automática e transparente.\nGnash - Reprodutor Média Flash.\nGMP - sistema de Cálculo com precisão multiplo.\nGNAT - O sistema completo para compilação de ADA 95.\nGNU Health - Software para a saúde.\nGNU Hurd - um micronúcleo e um conjunto de servidores que funcionam do mesmo modo que o núcleo Unix.\nGNU MDK - um conjunto de ferramentas para a programação em MIX.\nGNU Octave - programa voltado para computação numérica, similar ao MATLAB\nGnumeric - Programa de edição de folhas de cálculo."
+    },
+    {
+      "id": "910_4",
+      "ordem": 4,
+      "texto": "Gnumeric - Programa de edição de folhas de cálculo.\nGNUnet - rede descentralizada de comunicações pessoais, desenhada para resistir à censura.\nGNUstep - implementação de conjunto de bibliotecas OpenStep, assim como ferramentas para programar aplicações gráficas.\nGpaint - Programa de edição de gráficos (pintar).\nGSL - biblioteca científica para GNU\nGTK+ - Caixa de ferramentas GNU para o sistema X Window.\nGv - Programa para ver  ghostscript  (pdf).\nGzip - aplicações e bibliotecas para compressão de dados.\nLilyPond - editor de partituras musicais.\nMaxima - um sistema para cálculos algébricos.\nTexinfo - sistema de documentação, manuais em texto ASCII, e on-line.\nZile - Um clone leve do Emacs.\nO projecto GNU também ajuda com o desenvolvimento de outros pacotes, como:\nCVS - Sistema de controle de versões para código fonte.\nDDD - Ferramentas gráficas para detecção e depuração de erros."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "tecnologia:projeto_gnu",
+      "nome": "Projeto GNU",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "GNU"
+      ],
+      "descricao": "Projeto lançado em 1983 com o objetivo de criar um sistema operacional baseado em software livre.",
+      "propriedades": {
+        "ano": 1983,
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "910_0",
+        "910_1",
+        "910_2",
+        "910_3",
+        "910_4"
+      ]
+    },
+    {
+      "id": "pessoa:richard_stallman",
+      "nome": "Richard Stallman",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Richard Matthew Stallman",
+        "rms",
+        "Stallman"
+      ],
+      "descricao": "Ativista, programador e hacker que lançou o Projeto GNU.",
+      "propriedades": {},
+      "chunk_ids": [
+        "910_0",
+        "910_2"
+      ]
+    },
+    {
+      "id": "organizacao:free_software_foundation",
+      "nome": "Free Software Foundation",
+      "tipo": "Organizacao",
+      "aliases": [
+        "FSF",
+        "Fundação Software Livre"
+      ],
+      "descricao": "Principal organização que patrocina o Projeto GNU.",
+      "propriedades": {
+        "tipo": "fundacao"
+      },
+      "chunk_ids": [
+        "910_0"
+      ]
+    },
+    {
+      "id": "tecnologia:unix",
+      "nome": "Unix",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "UNIX"
+      ],
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "910_1",
+        "910_3"
+      ]
+    },
+    {
+      "id": "tecnologia:gnu_hurd",
+      "nome": "GNU Hurd",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "descricao": "Micronúcleo e conjunto de servidores que funcionam do mesmo modo que o núcleo Unix.",
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "910_3"
+      ]
+    },
+    {
+      "id": "linguagem:c",
+      "nome": "C",
+      "tipo": "Linguagem",
+      "aliases": [
+        "C (linguagem de programação)"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "910_3"
+      ]
+    },
+    {
+      "id": "linguagem:cpp",
+      "nome": "C++",
+      "tipo": "Linguagem",
+      "aliases": [
+        "C plus plus"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "910_3"
+      ]
+    },
+    {
+      "id": "linguagem:fortran",
+      "nome": "Fortran",
+      "tipo": "Linguagem",
+      "aliases": [
+        "FORTRAN"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "910_3"
+      ]
+    },
+    {
+      "id": "linguagem:cobol",
+      "nome": "COBOL",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "910_3"
+      ]
+    },
+    {
+      "id": "linguagem:java",
+      "nome": "Java",
+      "tipo": "Linguagem",
+      "aliases": [
+        "linguagem Java",
+        "Java (linguagem de programação)"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "910_3"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:richard_stallman",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:projeto_gnu",
+      "propriedades": {
+        "ano": 1983
+      },
+      "chunk_id": "910_0",
+      "evidencia": "Projeto GNU, em computação, é um projeto lançado em 27 de setembro de 1983 pelo ativista, programador e hacker Richard Stallman",
+      "confianca": 0.95
+    }
+  ]
+}

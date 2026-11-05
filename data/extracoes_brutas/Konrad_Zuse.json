@@ -1,0 +1,216 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:27:28+00:00",
+ "chunks": [
+  {
+   "chunk_id": "72341_0",
+   "entidades": [
+    {
+     "nome": "Konrad Zuse",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Konrad Ernst Otto Zuse",
+      "Zuse"
+     ],
+     "descricao": "Engenheiro, inventor e empresário alemão, pioneiro dos computadores.",
+     "propriedades": {
+      "ano_nascimento": 1910,
+      "ano_morte": 1995
+     }
+    },
+    {
+     "nome": "Z3",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro computador elétrico e programável do mundo, operacional em maio de 1941.",
+     "propriedades": {
+      "ano": 1941,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Z4",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Considerado o primeiro computador comercial do mundo.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Plankalkül",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "A primeira linguagem de programação de alto nível.",
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Alemanha",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Konrad Zuse",
+     "tipo": "CRIOU",
+     "destino": "Z3",
+     "propriedades": {},
+     "evidencia": "Sua maior conquista foi o primeiro computador elétrico e programável do mundo; o Z3 controlado por programa funcional tornou-se operacional em maio de 1941.",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Konrad Zuse",
+     "tipo": "CRIOU",
+     "destino": "Z4",
+     "propriedades": {},
+     "evidencia": "Em 1941, ele fundou uma das primeiras empresas de computadores, produzindo o Z4, que se tornou o primeiro computador comercial do mundo.",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Konrad Zuse",
+     "tipo": "CRIOU",
+     "destino": "Plankalkül",
+     "propriedades": {},
+     "evidencia": "De 1943 a 1945 ele projetou o Plankalkül, a primeira linguagem de programação de alto nível.",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "72341_1",
+   "entidades": [
+    {
+     "nome": "Konrad Zuse",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Zuse"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Berlim",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Universidade Técnica de Berlim",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Konrad Zuse",
+     "tipo": "NASCEU_EM",
+     "destino": "Berlim",
+     "propriedades": {},
+     "evidencia": "Konrad Zuse nasceu em Berlim em 1910.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Konrad Zuse",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade Técnica de Berlim",
+     "propriedades": {
+      "curso": "engenharia civil"
+     },
+     "evidencia": "Zuse ingressou na Universidade Técnica de Berlim, onde chegou a estudar tanto engenharia quanto arquitetura",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "72341_2",
+   "entidades": [
+    {
+     "nome": "Konrad Zuse",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Zuse"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ford Motor Company",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Henschel & Sohn",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Z1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Unidade aritmética mecânica que lia instruções de um filme perfurado de 35 mm.",
+     "propriedades": {
+      "ano": 1938,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Arquitetura de von Neumann",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Konrad Zuse",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Ford Motor Company",
+     "propriedades": {},
+     "evidencia": "Depois de se formar, Zuse trabalhou na Ford Motor Company",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Konrad Zuse",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Henschel & Sohn",
+     "propriedades": {},
+     "evidencia": "começou a trabalhar na fábrica de aeronaves da Henschel & Sohn",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Konrad Zuse",
+     "tipo": "CRIOU",
+     "destino": "Z1",
+     "propriedades": {
+      "ano": 1938
+     },
+     "evidencia": "Em 1938, Zuse terminou o Z1",
+     "confianca": 0.95
+    }
+   ]
+  }
+ ]
+}

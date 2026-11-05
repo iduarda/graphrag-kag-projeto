@@ -1,0 +1,5965 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:29:05+00:00",
+ "chunks": [
+  {
+   "chunk_id": "522250_0",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC",
+      "Digital"
+     ],
+     "descricao": "Importante empresa americana do setor de computadores entre as décadas de 1960 e 1990, co-fundada em 1957.",
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1957
+     }
+    },
+    {
+     "nome": "Ken Olsen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Olsen"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Harlan Anderson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "PDP-8",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Um dos minicomputadores de maior sucesso da história.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Um dos minicomputadores de maior sucesso da história.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Sistemas supermini do final da década de 1970, projetados para substituir o PDP-11.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Ken Olsen",
+     "tipo": "FUNDOU",
+     "destino": "Digital Equipment Corporation",
+     "propriedades": {
+      "ano": 1957
+     },
+     "evidencia": "A empresa foi co-fundada por Ken Olsen e Harlan Anderson em 1957",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Harlan Anderson",
+     "tipo": "FUNDOU",
+     "destino": "Digital Equipment Corporation",
+     "propriedades": {
+      "ano": 1957
+     },
+     "evidencia": "A empresa foi co-fundada por Ken Olsen e Harlan Anderson em 1957",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ken Olsen",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Digital Equipment Corporation",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_fim": 1992
+     },
+     "evidencia": "Olsen foi presidente até ser forçado a se demitir em 1992",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "PDP-8",
+     "propriedades": {},
+     "evidencia": "A empresa produziu uma série de máquinas conhecidas como a linha PDP, sendo que o PDP-8 e o PDP-11 estão entre os minicomputadores de maior sucesso da história",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "PDP-11",
+     "propriedades": {},
+     "evidencia": "A empresa produziu uma série de máquinas conhecidas como a linha PDP, sendo que o PDP-8 e o PDP-11 estão entre os minicomputadores de maior sucesso da história",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "VAX",
+     "propriedades": {},
+     "evidencia": "Seu sucesso só foi superado por outro produto da DEC, os sistemas VAX",
+     "confianca": 0.9
+    },
+    {
+     "origem": "VAX",
+     "tipo": "SUCESSOR_DE",
+     "destino": "PDP-11",
+     "propriedades": {},
+     "evidencia": "que foram projetados para substituir o PDP-11",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_1",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC",
+      "Digital"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAX 9000",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Máquina de alto padrão que foi um fracasso de mercado.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "DEC Alpha",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Linha de produtos da DEC que fez incursões bem-sucedidas em meados da década de 1990.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Compaq",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "HP"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "DEC Alpha",
+     "propriedades": {},
+     "evidencia": "a linha de produtos DEC Alpha começou a fazer incursões bem-sucedidas em meados da década de 1990",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "VAX 9000",
+     "propriedades": {},
+     "evidencia": "entrando no mercado de alto padrão com máquinas como o VAX 9000",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_2",
+   "entidades": [
+    {
+     "nome": "Ken Olsen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Harlan Anderson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "MIT Lincoln Laboratory",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Laboratório conhecido por seu trabalho em interatividade.",
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Whirlwind",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Computador originalmente desenvolvido para criar um simulador de voo para a Marinha dos EUA.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "SAGE",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema para a Força Aérea dos EUA que usava telas grandes e canhões de luz.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Compaq",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "HP"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Ken Olsen",
+     "tipo": "TRABALHOU_EM",
+     "destino": "MIT Lincoln Laboratory",
+     "propriedades": {},
+     "evidencia": "Ken Olsen e Harlan Anderson eram dois engenheiros que trabalhavam no MIT Lincoln Laboratory",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Harlan Anderson",
+     "tipo": "TRABALHOU_EM",
+     "destino": "MIT Lincoln Laboratory",
+     "propriedades": {},
+     "evidencia": "Ken Olsen e Harlan Anderson eram dois engenheiros que trabalhavam no MIT Lincoln Laboratory",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_3",
+   "entidades": [
+    {
+     "nome": "MIT Lincoln Laboratory",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Laboratório"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Whirlwind",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "TX-0",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Pequena máquina de 18 bits que funcionou pela primeira vez em 1956.",
+     "propriedades": {
+      "ano": 1956,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "TX-2",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Sistema de 36 bits com núcleo de memória de 64 kWords.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "MIT Lincoln Laboratory",
+     "tipo": "DESENVOLVEU",
+     "destino": "TX-0",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "Para testar seus novos circuitos, eles construíram primeiro uma pequena máquina de 18 bits conhecida como TX-0, que funcionou pela primeira vez em 1956",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_4",
+   "entidades": [
+    {
+     "nome": "Ken Olsen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Harlan Anderson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "TX-0",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "TX-2",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "522250_5",
+   "entidades": [
+    {
+     "nome": "Ken Olsen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Stan Olsen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Stan"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Georges Doriot",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Doriot"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "American Research and Development Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "AR&D"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "RCA",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "General Electric",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "522250_6",
+   "entidades": [
+    {
+     "nome": "Georges Doriot",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Doriot"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "American Research and Development Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "AR&D"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC",
+      "Digital Computer Corporation"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Maynard",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "SEDIADA_EM",
+     "destino": "Maynard",
+     "propriedades": {},
+     "evidencia": "iniciou suas operações em uma fábrica têxtil da época da Guerra Civil em Maynard, Massachusetts",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_7",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "American Research and Development Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "AR&D"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Maynard",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "TX-2",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "SEDIADA_EM",
+     "destino": "Maynard",
+     "propriedades": {},
+     "evidencia": "iniciou suas operações em uma fábrica têxtil da época da Guerra Civil em Maynard, Massachusetts",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_8",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PDP-1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "LINC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "522250_9",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PDP-1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "LINC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "522250_10",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PDP-1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro computador da DEC; sigla de Programmable Data Processor.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Ben Gurley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gurley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Georges Doriot",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Doriot"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bolt, Beranek e Newman",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "PDP-1",
+     "propriedades": {},
+     "evidencia": "Ben Gurley iniciou o projeto do primeiro computador da empresa, o PDP-1",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_11",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PDP-1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "522250_12",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PDP-1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-2",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Máquina de 24 bits que nunca foi além do projeto inicial.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-3",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Máquina de 36 bits totalmente projetada; apenas um parece ter sido construído.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-4",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Apresentado em novembro de 1962, semelhante ao PDP-1.",
+     "propriedades": {
+      "ano": 1962,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Scientific Engineering Institute",
+     "tipo": "Organizacao",
+     "aliases": [
+      "SEI"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Waltham",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Gordon Bell",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "PDP-4",
+     "propriedades": {
+      "ano": 1962
+     },
+     "evidencia": "Em novembro de 1962, a DEC apresentou o PDP-4 de US$ 65.000",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Scientific Engineering Institute",
+     "tipo": "SEDIADA_EM",
+     "destino": "Waltham",
+     "propriedades": {},
+     "evidencia": "Scientific Engineering Institute (SEI) da CIA em Waltham, Massachusetts",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_13",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PDP-4",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-7",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Lançado em dezembro de 1964; máquina para a qual o Unix foi originalmente escrito.",
+     "propriedades": {
+      "ano": 1964,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-9",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Introduzido em agosto de 1966; vendeu 445 máquinas.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Interdata 8/32",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "PDP-7",
+     "tipo": "SUCESSOR_DE",
+     "destino": "PDP-4",
+     "propriedades": {},
+     "evidencia": "o utilizou para reimplementar o PDP-4 como o PDP-7",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "PDP-7",
+     "propriedades": {
+      "ano": 1964
+     },
+     "evidencia": "Em 1964, a DEC apresentou seu novo projeto de módulo Flip Chip e o utilizou para reimplementar o PDP-4 como o PDP-7",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Unix",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-7",
+     "propriedades": {},
+     "evidencia": "O PDP-7 é mais famoso por ser a máquina para a qual o sistema operacional Unix foi originalmente escrito",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_14",
+   "entidades": [
+    {
+     "nome": "PDP-9",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-15",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Apresentado em 1969; reimplementou o PDP-9 com circuitos integrados; último da série de 18 bits.",
+     "propriedades": {
+      "ano": 1969,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Circuito integrado",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "circuitos integrados"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "PDP-15",
+     "tipo": "SUCESSOR_DE",
+     "destino": "PDP-9",
+     "propriedades": {},
+     "evidencia": "seu substituto estava sendo projetado e foi apresentado como o PDP-15 de 1969, que reimplementou o PDP-9 usando circuitos integrados",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_15",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "MIT Lincoln Laboratory",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Lincoln Laboratory"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "LINC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Pequena máquina de 12 bits, chamada de primeiro minicomputador de verdade.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-5",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeira máquina da DEC fora dos moldes do PDP-1, apresentada em 11 de agosto de 1963.",
+     "propriedades": {
+      "ano": 1963,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "PDP-5",
+     "propriedades": {
+      "ano": 1963
+     },
+     "evidencia": "em 1963 a DEC adotou o projeto lógico básico, mas retirou os extensos sistemas de A a D para produzir o PDP-5",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_16",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PDP-5",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-8",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Apresentado em 22 de março de 1965; primeiro minicomputador de verdade por custar menos de US$ 25.000.",
+     "propriedades": {
+      "ano": 1965,
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "PDP-8",
+     "propriedades": {
+      "ano": 1965
+     },
+     "evidencia": "Em 22 de março de 1965, a DEC apresentou o PDP-8",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_17",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PDP-8",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-8/S",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Versão do PDP-8 com unidade aritmética serial.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "LINC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "LINC-8",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Novo LINC de dois processadores, com uma CPU PDP-8 e uma CPU LINC.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-12",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Versão de processador único derivada do LINC-8.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-8/I",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1968,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-8/L",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1968,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Intersil",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intersil 6100",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Chip lançado em 1975, efetivamente um PDP-8 em um chip.",
+     "propriedades": {
+      "ano": 1975,
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "LINC-8",
+     "tipo": "UTILIZA",
+     "destino": "PDP-8",
+     "propriedades": {},
+     "evidencia": "O LINC-8 usava uma CPU PDP-8 e uma CPU LINC separada",
+     "confianca": 0.8
+    },
+    {
+     "origem": "LINC-8",
+     "tipo": "UTILIZA",
+     "destino": "LINC",
+     "propriedades": {},
+     "evidencia": "O LINC-8 usava uma CPU PDP-8 e uma CPU LINC separada",
+     "confianca": 0.8
+    },
+    {
+     "origem": "PDP-12",
+     "tipo": "SUCESSOR_DE",
+     "destino": "LINC-8",
+     "propriedades": {},
+     "evidencia": "o LINC-8 foi modificado para o PDP-12 de processador único",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Intersil",
+     "tipo": "DESENVOLVEU",
+     "destino": "Intersil 6100",
+     "propriedades": {
+      "ano": 1975
+     },
+     "evidencia": "Em 1975, um ano após um acordo entre a DEC e a Intersil, foi lançado o chip Intersil 6100",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_18",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PDP-5",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-6",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Mainframe de 36 bits de 1963, difícil de vender; apenas 23 ou 26 vendidos.",
+     "propriedades": {
+      "ano": 1963,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Honeywell",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Monitor",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema operacional inicial de tempo compartilhado introduzido no PDP-6.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "TOPS-10",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "PDP-6",
+     "propriedades": {
+      "ano": 1963
+     },
+     "evidencia": "o PDP-6 de 1963 tinha o objetivo de levar a DEC ao mercado de mainframe com uma máquina de 36 bits",
+     "confianca": 0.8
+    },
+    {
+     "origem": "TOPS-10",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Monitor",
+     "propriedades": {},
+     "evidencia": "como a plataforma que introduziu o \"Monitor\", um sistema operacional inicial de tempo compartilhado que evoluiria para o amplamente utilizado TOPS-10",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_19",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PDP-6",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-10",
+     "tipo": "Hardware",
+     "aliases": [
+      "DECsystem-10"
+     ],
+     "descricao": "Mainframe de 36 bits lançado em 1968; cerca de 700 vendidos até 1984.",
+     "propriedades": {
+      "ano": 1968,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "DECSYSTEM-20",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "TOPS-20",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema operacional com suporte à memória virtual.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Monitor",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "TOPS-10",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "PDP-10",
+     "propriedades": {
+      "ano": 1968
+     },
+     "evidencia": "a DEC aproveitou a oportunidade para refinar seu projeto de 36 bits, lançando o PDP-10 em 1968",
+     "confianca": 0.9
+    },
+    {
+     "origem": "PDP-10",
+     "tipo": "SUCESSOR_DE",
+     "destino": "PDP-6",
+     "propriedades": {},
+     "evidencia": "Quando o novo empacotamento do Flip Chip permitiu que o PDP-6 fosse reimplementado a um custo muito menor, a DEC aproveitou a oportunidade para refinar seu projeto de 36 bits, lançando o PDP-10 em 1968",
+     "confianca": 0.7
+    },
+    {
+     "origem": "TOPS-10",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Monitor",
+     "propriedades": {},
+     "evidencia": "o \"Monitor\", um sistema operacional inicial de tempo compartilhado que evoluiria para o amplamente utilizado TOPS-10",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_20",
+   "entidades": [
+    {
+     "nome": "DECSYSTEM-20",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "TOPS-20",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema operacional que incluía suporte à memória virtual.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "COBOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "VAX8600",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Máquina de ponta lançada em 1985.",
+     "propriedades": {
+      "ano": 1985,
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "522250_21",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "VAX8600",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1985,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Ken Olsen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Data General",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Empresa fundada por líderes do projeto PDP-X que deixaram a DEC.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Data General Nova",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Máquina de 16 bits lançada em 1969, grande sucesso.",
+     "propriedades": {
+      "ano": 1969,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Harold McFarland",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Gordon Bell",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Roger Cady",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Carnegie Mellon",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Carnegie Mellon University"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Data General",
+     "tipo": "DESENVOLVEU",
+     "destino": "Data General Nova",
+     "propriedades": {
+      "ano": 1969
+     },
+     "evidencia": "fundar a Data General, cujo Data General Nova de 16 bits foi lançado em 1969",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Harold McFarland",
+     "tipo": "CRIOU",
+     "destino": "PDP-11",
+     "propriedades": {},
+     "evidencia": "O novo sistema foi projetado principalmente por Harold McFarland, Gordon Bell, Roger Cady e outros",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Gordon Bell",
+     "tipo": "CRIOU",
+     "destino": "PDP-11",
+     "propriedades": {},
+     "evidencia": "O novo sistema foi projetado principalmente por Harold McFarland, Gordon Bell, Roger Cady e outros",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Roger Cady",
+     "tipo": "CRIOU",
+     "destino": "PDP-11",
+     "propriedades": {},
+     "evidencia": "O novo sistema foi projetado principalmente por Harold McFarland, Gordon Bell, Roger Cady e outros",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Harold McFarland",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade Carnegie Mellon",
+     "propriedades": {},
+     "evidencia": "Harold McFarland, que estava pesquisando designs de 16 bits na Carnegie Mellon University",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_22",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Lançado em 1970, com Unibus e vários registros de uso geral.",
+     "propriedades": {
+      "ano": 1970,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Unibus",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Barramento da DEC que suportava todos os periféricos por meio de mapeamento de memória.",
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "PDP-11",
+     "propriedades": {
+      "ano": 1970
+     },
+     "evidencia": "O resultado foi o PDP-11, lançado em 1970",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "Unibus",
+     "propriedades": {},
+     "evidencia": "Um grande avanço no projeto do PDP-11 foi o Unibus da DEC",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_23",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "522250_24",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "DOS-11",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Primeiro sistema operacional em disco do PDP-11.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "RSX-11",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "RSX"
+     ],
+     "descricao": "Ambiente multitarefa de uso geral.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "IAS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "RT-11",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "DSM-11",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "RSTS/E",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "RSTS"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [
+      "AT&T Corporation"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Unix",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-11",
+     "propriedades": {},
+     "evidencia": "O PDP-11 suportava vários sistemas operacionais, inclusive o novo sistema operacional Unix da Bell Labs",
+     "confianca": 0.9
+    },
+    {
+     "origem": "DOS-11",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-11",
+     "propriedades": {},
+     "evidencia": "O PDP-11 suportava vários sistemas operacionais, inclusive o novo sistema operacional Unix da Bell Labs, bem como o DOS-11, RSX-11, IAS, RT-11, DSM-11 e RSTS/E da DEC",
+     "confianca": 0.9
+    },
+    {
+     "origem": "RSX-11",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-11",
+     "propriedades": {},
+     "evidencia": "O PDP-11 suportava vários sistemas operacionais, inclusive o novo sistema operacional Unix da Bell Labs, bem como o DOS-11, RSX-11, IAS, RT-11, DSM-11 e RSTS/E da DEC",
+     "confianca": 0.9
+    },
+    {
+     "origem": "IAS",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-11",
+     "propriedades": {},
+     "evidencia": "O PDP-11 suportava vários sistemas operacionais, inclusive o novo sistema operacional Unix da Bell Labs, bem como o DOS-11, RSX-11, IAS, RT-11, DSM-11 e RSTS/E da DEC",
+     "confianca": 0.9
+    },
+    {
+     "origem": "RT-11",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-11",
+     "propriedades": {},
+     "evidencia": "O PDP-11 suportava vários sistemas operacionais, inclusive o novo sistema operacional Unix da Bell Labs, bem como o DOS-11, RSX-11, IAS, RT-11, DSM-11 e RSTS/E da DEC",
+     "confianca": 0.9
+    },
+    {
+     "origem": "DSM-11",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-11",
+     "propriedades": {},
+     "evidencia": "O PDP-11 suportava vários sistemas operacionais, inclusive o novo sistema operacional Unix da Bell Labs, bem como o DOS-11, RSX-11, IAS, RT-11, DSM-11 e RSTS/E da DEC",
+     "confianca": 0.9
+    },
+    {
+     "origem": "RSTS/E",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-11",
+     "propriedades": {},
+     "evidencia": "O PDP-11 suportava vários sistemas operacionais, inclusive o novo sistema operacional Unix da Bell Labs, bem como o DOS-11, RSX-11, IAS, RT-11, DSM-11 e RSTS/E da DEC",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Bell Labs",
+     "tipo": "DESENVOLVEU",
+     "destino": "Unix",
+     "propriedades": {},
+     "evidencia": "o novo sistema operacional Unix da Bell Labs",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_25",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [
+      "AT&T Corporation"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "RT-11",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "CP/M",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "MicroPDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Computador pessoal de mesa para um único usuário na evolução do PDP-11.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Heathkit H11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "PDP-11 vendido em forma de kit.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Heathkit",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "522250_26",
+   "entidades": [
+    {
+     "nome": "Heathkit H11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Heathkit",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Lei de Moore",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "PDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "522250_27",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Arquitetura cujo nome significa Virtual Address eXtension (de 16 a 32 bits).",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAX-11/780",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro computador com CPU VAX, anunciado em outubro de 1977.",
+     "propriedades": {
+      "ano": 1977,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-10",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "VAX-11/780",
+     "tipo": "UTILIZA",
+     "destino": "VAX",
+     "propriedades": {},
+     "evidencia": "O primeiro computador a usar uma CPU VAX foi o VAX-11/780",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "VAX-11/780",
+     "propriedades": {
+      "ano": 1977
+     },
+     "evidencia": "o VAX-11/780, anunciado em outubro de 1977, ao qual a DEC se referiu como um superminicomputador",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_28",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-10",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VT52",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Um dos terminais inteligentes de maior sucesso.",
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "VT100",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Terminal ainda mais bem-sucedido que seguiu o VT52.",
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "VT05",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "VT50",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "DECwriter",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Linha de impressoras de computador de baixo custo.",
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "NVAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "VT100",
+     "tipo": "SUCESSOR_DE",
+     "destino": "VT52",
+     "propriedades": {},
+     "evidencia": "O VT52 foi seguido pelo ainda mais bem-sucedido VT100",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_29",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "NVAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Ken Olsen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Olsen"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Altair 8800",
+     "tipo": "Hardware",
+     "aliases": [
+      "Altair"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "MITS",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Heathkit H11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1977,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VT180",
+     "tipo": "Hardware",
+     "aliases": [
+      "Robin"
+     ],
+     "descricao": "Terminal VT100 com microcomputador baseado em Z80 rodando CP/M.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VT100",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Zilog Z80",
+     "tipo": "Hardware",
+     "aliases": [
+      "Z80"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "CP/M",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "VT180",
+     "propriedades": {},
+     "evidencia": "a DEC construiu o VT180 (codinome \"Robin\")",
+     "confianca": 0.9
+    },
+    {
+     "origem": "VT180",
+     "tipo": "UTILIZA",
+     "destino": "Zilog Z80",
+     "propriedades": {},
+     "evidencia": "que era um terminal VT100 com um microcomputador baseado em Z80 rodando CP/M",
+     "confianca": 0.85
+    },
+    {
+     "origem": "VT180",
+     "tipo": "UTILIZA",
+     "destino": "VT100",
+     "propriedades": {},
+     "evidencia": "que era um terminal VT100 com um microcomputador baseado em Z80 rodando CP/M",
+     "confianca": 0.7
+    },
+    {
+     "origem": "CP/M",
+     "tipo": "EXECUTA_EM",
+     "destino": "VT180",
+     "propriedades": {},
+     "evidencia": "que era um terminal VT100 com um microcomputador baseado em Z80 rodando CP/M",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_30",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "VT180",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Zilog Z80",
+     "tipo": "Hardware",
+     "aliases": [
+      "Z80"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "CP/M",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1981,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "DEC Professional",
+     "tipo": "Hardware",
+     "aliases": [
+      "Professional"
+     ],
+     "descricao": "Primeira das três máquinas incompatíveis lançadas pela DEC em 1982, baseada no PDP-11/23.",
+     "propriedades": {
+      "ano": 1982,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-11/23",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "P/OS",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Professional Operating System"
+     ],
+     "descricao": "Sistema derivado do RSX-11M+, orientado por menus.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "IBM",
+     "tipo": "DESENVOLVEU",
+     "destino": "IBM PC",
+     "propriedades": {
+      "ano": 1981
+     },
+     "evidencia": "Foi somente depois que a IBM lançou com sucesso o IBM PC em 1981",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "DEC Professional",
+     "propriedades": {
+      "ano": 1982
+     },
+     "evidencia": "Em 1982, a DEC lançou não uma, mas três máquinas incompatíveis, cada uma ligada a diferentes arquiteturas proprietárias. A primeira, a DEC Professional",
+     "confianca": 0.8
+    },
+    {
+     "origem": "DEC Professional",
+     "tipo": "UTILIZA",
+     "destino": "PDP-11/23",
+     "propriedades": {},
+     "evidencia": "A primeira, a DEC Professional, era baseada no PDP-11/23",
+     "confianca": 0.8
+    },
+    {
+     "origem": "P/OS",
+     "tipo": "EXECUTA_EM",
+     "destino": "DEC Professional",
+     "propriedades": {},
+     "evidencia": "A primeira, a DEC Professional, era baseada no PDP-11/23 (e, posteriormente, no 11/73) que executava o P/OS",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_31",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "DEC Professional",
+     "tipo": "Hardware",
+     "aliases": [
+      "Professional"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "CP/M",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Intel 8080",
+     "tipo": "Hardware",
+     "aliases": [
+      "8080"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8088",
+     "tipo": "Hardware",
+     "aliases": [
+      "8088"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "PDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-8",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "DECmate II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Versão mais recente dos processadores de texto baseados no PDP-8.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Wang Laboratories",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "DECmate II",
+     "propriedades": {},
+     "evidencia": "Uma segunda oferta, o DECmate II, era a versão mais recente dos processadores de texto baseados no PDP-8",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_32",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "DECmate II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Wang Laboratories",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Rainbow 100",
+     "tipo": "Hardware",
+     "aliases": [
+      "Rainbow"
+     ],
+     "descricao": "Primeiro microcomputador DEC mais popular, com dois processadores (Z80 e 8088).",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Zilog Z80",
+     "tipo": "Hardware",
+     "aliases": [
+      "Z80"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8088",
+     "tipo": "Hardware",
+     "aliases": [
+      "8088"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "CP/M",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "CP/M-86",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "VENIX",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Implementação do UNIX System III.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "MS-DOS 2.0"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "VAXmate",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Sistema lançado em 1986 que substituiu o Rainbow; primeira estação de trabalho sem disco amplamente comercializada.",
+     "propriedades": {
+      "ano": 1986,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Microsoft Windows 1.0"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "DECnet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "Rainbow 100",
+     "propriedades": {},
+     "evidencia": "O primeiro microcomputador DEC mais popular foi o Rainbow 100",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Rainbow 100",
+     "tipo": "UTILIZA",
+     "destino": "Zilog Z80",
+     "propriedades": {},
+     "evidencia": "o Rainbow 100 com dois processadores (Z80 e 8088)",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Rainbow 100",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8088",
+     "propriedades": {},
+     "evidencia": "o Rainbow 100 com dois processadores (Z80 e 8088)",
+     "confianca": 0.9
+    },
+    {
+     "origem": "CP/M",
+     "tipo": "EXECUTA_EM",
+     "destino": "Rainbow 100",
+     "propriedades": {},
+     "evidencia": "o Rainbow 100 com dois processadores (Z80 e 8088), que executava o sistema operacional CP/M de 8 bits no Z80",
+     "confianca": 0.85
+    },
+    {
+     "origem": "CP/M-86",
+     "tipo": "EXECUTA_EM",
+     "destino": "Rainbow 100",
+     "propriedades": {},
+     "evidencia": "e o sistema operacional CP/M-86 de 16 bits no processador Intel 8088",
+     "confianca": 0.8
+    },
+    {
+     "origem": "VENIX",
+     "tipo": "EXECUTA_EM",
+     "destino": "Rainbow 100",
+     "propriedades": {},
+     "evidencia": "Ele também podia executar uma implementação do UNIX System III chamada VENIX",
+     "confianca": 0.8
+    },
+    {
+     "origem": "VAXmate",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Rainbow 100",
+     "propriedades": {},
+     "evidencia": "O VAXmate substituiu o Rainbow",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Microsoft Windows",
+     "tipo": "EXECUTA_EM",
+     "destino": "VAXmate",
+     "propriedades": {},
+     "evidencia": "o VAXmate, que incluía o Microsoft Windows 1.0",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "VAXmate",
+     "propriedades": {
+      "ano": 1986
+     },
+     "evidencia": "Um outro sistema foi lançado em 1986, o VAXmate",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_33",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "VAXmate",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Rainbow 100",
+     "tipo": "Hardware",
+     "aliases": [
+      "Rainbow"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Ethernet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Token Ring",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "DECnet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "VAXcluster",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "VAXclusters"
+     ],
+     "descricao": "Conceito que permitia unir várias máquinas VAX em um único sistema de armazenamento maior.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "Ethernet",
+     "propriedades": {
+      "ano": 1984
+     },
+     "evidencia": "Em 1984, a DEC lançou sua primeira Ethernet de 10 Mbit/s",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "VAXcluster",
+     "propriedades": {},
+     "evidencia": "a DEC também introduziu o conceito de VAXcluster",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Ethernet",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Token Ring",
+     "propriedades": {},
+     "evidencia": "A Ethernet substituiu o Token Ring",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_34",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "522250_35",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Oracle Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Oracle"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "522250_36",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Oracle Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Oracle"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Ken Olsen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Olsen"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "522250_37",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VMS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "PDP-8",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "522250_38",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAX 9000",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Série lançada em outubro de 1989 com dois anos de atraso e repleta de problemas.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "522250_39",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "VMS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "ULTRIX",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "522250_40",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Silicon Graphics",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Palo Alto",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "DECstation",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Série de estações de trabalho lançada com o modelo 3100 em 11 de janeiro de 1989.",
+     "propriedades": {
+      "ano": 1989,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VMS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "ULTRIX",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "DECstation",
+     "propriedades": {
+      "ano": 1989
+     },
+     "evidencia": "lançaram a nova série DECstation com o modelo 3100 em 11 de janeiro de 1989",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_41",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "DECchip 21064",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Processador lançado em 1992, primeira implementação da arquitetura Alpha.",
+     "propriedades": {
+      "ano": 1992,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "DEC Alpha",
+     "tipo": "Hardware",
+     "aliases": [
+      "Alpha",
+      "Alpha AXP"
+     ],
+     "descricao": "Arquitetura RISC de 64 bits, uma das primeiras puras de microprocessadores de 64 bits.",
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Cray T3D",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "AlphaServer SC45",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "OpenVMS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "DEC OSF/1 AXP",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Digital Unix",
+      "Tru64 UNIX"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows NT",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "DECchip 21064",
+     "propriedades": {
+      "ano": 1992
+     },
+     "evidencia": "em 1992, a DEC lançou o processador DECchip 21064, a primeira implementação da arquitetura de conjunto de instruções Alpha",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Cray T3D",
+     "tipo": "UTILIZA",
+     "destino": "DEC Alpha",
+     "propriedades": {},
+     "evidencia": "O Alpha ofereceu um desempenho líder em sua classe em seu lançamento e foi usado no Cray T3D massivamente paralelo",
+     "confianca": 0.8
+    },
+    {
+     "origem": "DEC Alpha",
+     "tipo": "SUCESSOR_DE",
+     "destino": "VAX",
+     "propriedades": {},
+     "evidencia": "substituíram respectivamente as arquiteturas VAX e MIPS nas linhas de produtos da DEC",
+     "confianca": 0.7
+    },
+    {
+     "origem": "OpenVMS",
+     "tipo": "EXECUTA_EM",
+     "destino": "DEC Alpha",
+     "propriedades": {},
+     "evidencia": "Eles suportavam o OpenVMS, o DEC OSF/1 AXP (mais tarde conhecido como Digital Unix ou Tru64 UNIX) e o então novo sistema operacional da Microsoft, o Windows NT",
+     "confianca": 0.75
+    },
+    {
+     "origem": "DEC OSF/1 AXP",
+     "tipo": "EXECUTA_EM",
+     "destino": "DEC Alpha",
+     "propriedades": {},
+     "evidencia": "Eles suportavam o OpenVMS, o DEC OSF/1 AXP (mais tarde conhecido como Digital Unix ou Tru64 UNIX) e o então novo sistema operacional da Microsoft, o Windows NT",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Windows NT",
+     "tipo": "EXECUTA_EM",
+     "destino": "DEC Alpha",
+     "propriedades": {},
+     "evidencia": "Eles suportavam o OpenVMS, o DEC OSF/1 AXP (mais tarde conhecido como Digital Unix ou Tru64 UNIX) e o então novo sistema operacional da Microsoft, o Windows NT",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "Windows NT",
+     "propriedades": {},
+     "evidencia": "o então novo sistema operacional da Microsoft, o Windows NT",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_42",
+   "entidades": [
+    {
+     "nome": "Windows NT",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Compaq",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Compaq Computer Corporation"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Digital Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "ARM Limited",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "StrongARM",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Microprocessador voltado para sistemas incorporados e dispositivos portáteis.",
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "ARM7",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "DEC Alpha",
+     "tipo": "Hardware",
+     "aliases": [
+      "Alpha"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "XScale",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Marvell Technology Group",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Semiconductor",
+     "tipo": "DESENVOLVEU",
+     "destino": "StrongARM",
+     "propriedades": {},
+     "evidencia": "a Digital Semiconductor colaborou com a ARM Limited para produzir o microprocessador StrongARM",
+     "confianca": 0.9
+    },
+    {
+     "origem": "ARM Limited",
+     "tipo": "DESENVOLVEU",
+     "destino": "StrongARM",
+     "propriedades": {},
+     "evidencia": "a Digital Semiconductor colaborou com a ARM Limited para produzir o microprocessador StrongARM",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "XScale",
+     "propriedades": {},
+     "evidencia": "A empresa continuou a produzir a StrongARM, além de desenvolvê-la na arquitetura XScale",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_43",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Ken Olsen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Olsen"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Palmer",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Palmer"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Marvell Technology Group",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Ken Olsen",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Digital Equipment Corporation",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_fim": 1992
+     },
+     "evidencia": "A diretoria forçou Olsen a renunciar ao cargo de presidente em julho de 1992",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Robert Palmer",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Digital Equipment Corporation",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_inicio": 1992
+     },
+     "evidencia": "A diretoria forçou Olsen a renunciar ao cargo de presidente em julho de 1992 após dois anos de perdas na receita operacional. Ele foi substituído por Robert Palmer como presidente da empresa.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Robert Palmer",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Digital Equipment Corporation",
+     "propriedades": {
+      "ano_inicio": 1985
+     },
+     "evidencia": "Palmer havia ingressado na DEC em 1985 para dirigir a Semiconductor Engineering and Manufacturing",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_44",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Robert Palmer",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Palmer"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ken Olsen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Olsen"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John F. Smith",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Smith"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Bell Laboratories"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John F. Smith",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Digital Equipment Corporation",
+     "propriedades": {
+      "cargo": "vice-presidente sênior de operações",
+      "ano_inicio": 1958
+     },
+     "evidencia": "Veterano de 35 anos na empresa, ele ingressou na DEC em 1958 como o 12º funcionário da empresa",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_45",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Robert Palmer",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Palmer"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ken Olsen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Olsen"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John F. Smith",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Smith"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "522250_46",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "DEC Alpha",
+     "tipo": "Hardware",
+     "aliases": [
+      "Alpha"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "VMS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Hewlett Packard"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "522250_47",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Robert Palmer",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Palmer"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Global Knowledge Network",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Oracle Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Oracle"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Mentec",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Quantum Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "VT100",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Boundless Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "BEA Systems",
+     "tipo": "Organizacao",
+     "aliases": [
+      "BEA Systems, Inc"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "GENICOM",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TallyGenicom"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "522250_48",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "GENICOM",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TallyGenicom"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Cabletron Systems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Fonix Speech Group",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Compaq",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Motorola",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "South Queensferry",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "DEC Alpha",
+     "tipo": "Hardware",
+     "aliases": [
+      "Alpha"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Am486",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "522250_49",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Motorola",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Am486",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Compaq",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "StrongARM",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "XScale",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Digital Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "DEC Alpha",
+     "tipo": "Hardware",
+     "aliases": [
+      "Alpha"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "522250_50",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Compaq",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Digital Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "HP"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "522250_51",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "HP"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Compaq",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Digital GlobalSoft",
+     "tipo": "Organizacao",
+     "aliases": [
+      "HP GlobalSoft"
+     ],
+     "descricao": "Empresa de serviços de TI na Índia, subsidiária de 51% da Compaq.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Índia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital GlobalSoft",
+     "tipo": "SEDIADA_EM",
+     "destino": "Índia",
+     "propriedades": {},
+     "evidencia": "Digital GlobalSoft, uma empresa de serviços de TI na Índia",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_52",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "HP"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Compaq",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Cambridge Research Laboratory",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CRL"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "MetroWest Technology Campus",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MTC"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Network Systems Laboratory",
+     "tipo": "Organizacao",
+     "aliases": [
+      "NSL"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Centro de Pesquisa de Sistemas",
+     "tipo": "Organizacao",
+     "aliases": [
+      "SRC",
+      "DEC Systems Research Center"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Laboratório de Pesquisa de Paris",
+     "tipo": "Organizacao",
+     "aliases": [
+      "PRL"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Western Research Laboratory",
+     "tipo": "Organizacao",
+     "aliases": [
+      "WRL",
+      "Western Research Lab"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Western Software Laboratory",
+     "tipo": "Organizacao",
+     "aliases": [
+      "WSL"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Cambridge (Massachusetts)",
+     "tipo": "Local",
+     "aliases": [
+      "Cambridge, Massachusetts"
+     ],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Maynard",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Palo Alto",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Paris",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Gordon Bell",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Visionário técnico, vice-presidente de engenharia da DEC em 1972-1983.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft Research",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Leonard Bosack",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Cisco Systems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Mike Burrows",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Luca Cardelli",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Modula-3",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dave Cutler",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "RSX-11M",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows NT",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Ed deCastro",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Data General",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Data General Corporation"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Cambridge Research Laboratory",
+     "tipo": "SEDIADA_EM",
+     "destino": "Cambridge (Massachusetts)",
+     "propriedades": {},
+     "evidencia": "Cambridge Research Laboratory (CRL) em Cambridge, Massachusetts, EUA",
+     "confianca": 0.9
+    },
+    {
+     "origem": "MetroWest Technology Campus",
+     "tipo": "SEDIADA_EM",
+     "destino": "Maynard",
+     "propriedades": {},
+     "evidencia": "MetroWest Technology Campus (MTC) em Maynard, Massachusetts, EUA",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Network Systems Laboratory",
+     "tipo": "SEDIADA_EM",
+     "destino": "Palo Alto",
+     "propriedades": {},
+     "evidencia": "Network Systems Laboratory (NSL) em Palo Alto, Califórnia, EUA",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Centro de Pesquisa de Sistemas",
+     "tipo": "SEDIADA_EM",
+     "destino": "Palo Alto",
+     "propriedades": {},
+     "evidencia": "Centro de Pesquisa de Sistemas (SRC) em Palo Alto, Califórnia, EUA",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Laboratório de Pesquisa de Paris",
+     "tipo": "SEDIADA_EM",
+     "destino": "Paris",
+     "propriedades": {},
+     "evidencia": "Laboratório de Pesquisa de Paris (PRL) em Paris, França",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Western Research Laboratory",
+     "tipo": "SEDIADA_EM",
+     "destino": "Palo Alto",
+     "propriedades": {},
+     "evidencia": "Western Research Laboratory (WRL) em Palo Alto, Califórnia, EUA",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Western Software Laboratory",
+     "tipo": "SEDIADA_EM",
+     "destino": "Palo Alto",
+     "propriedades": {},
+     "evidencia": "Western Software Laboratory (WSL) em Palo Alto, Califórnia, EUA",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Gordon Bell",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Digital Equipment Corporation",
+     "propriedades": {
+      "cargo": "vice-presidente de engenharia",
+      "ano_inicio": 1972,
+      "ano_fim": 1983
+     },
+     "evidencia": "Alguns dos ex-funcionários dos Laboratórios de Pesquisa da DEC ou da P&D da DEC em geral incluem:\nGordon Bell: visionário técnico, vice-presidente de engenharia em 1972-1983",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Gordon Bell",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Microsoft Research",
+     "propriedades": {},
+     "evidencia": "mais tarde foi transferido para a Microsoft Research",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Leonard Bosack",
+     "tipo": "FUNDOU",
+     "destino": "Cisco Systems",
+     "propriedades": {},
+     "evidencia": "Leonard Bosack: cofundador da Cisco Systems",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Leonard Bosack",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Digital Equipment Corporation",
+     "propriedades": {},
+     "evidencia": "Leonard Bosack: cofundador da Cisco Systems",
+     "confianca": 0.6
+    },
+    {
+     "origem": "Mike Burrows",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Digital Equipment Corporation",
+     "propriedades": {},
+     "evidencia": "Mike Burrows: autor do método de Burrows-Wheeler",
+     "confianca": 0.6
+    },
+    {
+     "origem": "Luca Cardelli",
+     "tipo": "CRIOU",
+     "destino": "Modula-3",
+     "propriedades": {},
+     "evidencia": "Luca Cardelli: co-designer da linguagem Modula-3",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Luca Cardelli",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Digital Equipment Corporation",
+     "propriedades": {},
+     "evidencia": "Luca Cardelli: co-designer da linguagem Modula-3",
+     "confianca": 0.6
+    },
+    {
+     "origem": "Dave Cutler",
+     "tipo": "CRIOU",
+     "destino": "RSX-11M",
+     "propriedades": {},
+     "evidencia": "Dave Cutler: liderou o desenvolvimento dos sistemas operacionais RSX-11M, VAX/VMS, VAXELN e MICA",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Dave Cutler",
+     "tipo": "CRIOU",
+     "destino": "Windows NT",
+     "propriedades": {},
+     "evidencia": "depois liderou o desenvolvimento do Windows NT na Microsoft",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Dave Cutler",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Microsoft",
+     "propriedades": {},
+     "evidencia": "depois liderou o desenvolvimento do Windows NT na Microsoft",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Dave Cutler",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Digital Equipment Corporation",
+     "propriedades": {},
+     "evidencia": "Dave Cutler: liderou o desenvolvimento dos sistemas operacionais RSX-11M, VAX/VMS, VAXELN e MICA",
+     "confianca": 0.6
+    },
+    {
+     "origem": "Ed deCastro",
+     "tipo": "FUNDOU",
+     "destino": "Data General",
+     "propriedades": {},
+     "evidencia": "Ed deCastro: tornou-se cofundador da Data General Corporation",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_53",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Ed deCastro",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Data General",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Data General Corporation"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Alan Eustace",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Jim Gettys",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "X Window System",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Henri Gouraud",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jim Gray",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Kotok",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "PDP-10",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Leslie Lamport",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Butler Lampson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Scott A. McGregor",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Louis Monier",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Isaac Nassi",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Radia Perlman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Spanning Tree Protocol",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "Marcus Ranum",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Brian Reid",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Paul Vixie",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sanjay Ghemawat",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jeff Dean",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Patrick O'Neil",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Ed deCastro",
+     "tipo": "FUNDOU",
+     "destino": "Data General",
+     "propriedades": {},
+     "evidencia": "Ed deCastro: tornou-se cofundador da Data General Corporation",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Alan Eustace",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Google",
+     "propriedades": {
+      "cargo": "vice-presidente sênior de engenharia"
+     },
+     "evidencia": "vice-presidente sênior de engenharia do Google",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Jim Gettys",
+     "tipo": "CRIOU",
+     "destino": "X Window System",
+     "propriedades": {},
+     "evidencia": "Jim Gettys: desenvolvedor inicial do X Window System",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Scott A. McGregor",
+     "tipo": "CRIOU",
+     "destino": "X Window System",
+     "propriedades": {},
+     "evidencia": "Scott A. McGregor: coautor do X Window System, versão 11",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Jim Gray",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {},
+     "evidencia": "Jim Gray: vencedor do Prêmio Turing pela pesquisa de banco de dados",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Leslie Lamport",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {},
+     "evidencia": "Leslie Lamport: ganhador do Prêmio Turing",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Alan Kotok",
+     "tipo": "CRIOU",
+     "destino": "PDP-10",
+     "propriedades": {},
+     "evidencia": "Alan Kotok: arquiteto-chefe da série PDP-10",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Radia Perlman",
+     "tipo": "CRIOU",
+     "destino": "Spanning Tree Protocol",
+     "propriedades": {},
+     "evidencia": "autor do Spanning Tree Protocol",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Alan Eustace",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Digital Equipment Corporation",
+     "propriedades": {},
+     "evidencia": "Alan Eustace: coautor das primeiras ferramentas de criação de perfil",
+     "confianca": 0.6
+    },
+    {
+     "origem": "Jim Gettys",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Digital Equipment Corporation",
+     "propriedades": {},
+     "evidencia": "Jim Gettys: desenvolvedor inicial do X Window System",
+     "confianca": 0.6
+    },
+    {
+     "origem": "Jim Gray",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Digital Equipment Corporation",
+     "propriedades": {},
+     "evidencia": "Jim Gray: vencedor do Prêmio Turing pela pesquisa de banco de dados",
+     "confianca": 0.6
+    },
+    {
+     "origem": "Alan Kotok",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Digital Equipment Corporation",
+     "propriedades": {},
+     "evidencia": "Alan Kotok: arquiteto-chefe da série PDP-10",
+     "confianca": 0.6
+    },
+    {
+     "origem": "Leslie Lamport",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Digital Equipment Corporation",
+     "propriedades": {},
+     "evidencia": "Leslie Lamport: ganhador do Prêmio Turing",
+     "confianca": 0.6
+    },
+    {
+     "origem": "Radia Perlman",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Digital Equipment Corporation",
+     "propriedades": {},
+     "evidencia": "Radia Perlman: pioneiro na padronização de redes de computadores",
+     "confianca": 0.6
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_54",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC",
+      "Digital Equipment Corp"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Patrick O'Neil",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "DEC Alpha",
+     "tipo": "Hardware",
+     "aliases": [
+      "Alpha"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "StrongARM",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Daniel W. Dobberpuhl",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jim Keller",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Rich Witek",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Grace Hopper",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Daniel W. Dobberpuhl",
+     "tipo": "CRIOU",
+     "destino": "DEC Alpha",
+     "propriedades": {},
+     "evidencia": "Alguns dos ex-funcionários da Digital Equipment Corp foram responsáveis pelo desenvolvimento do DEC Alpha e do StrongARM:\nDaniel W. Dobberpuhl\nJim Keller\nRich Witek",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Daniel W. Dobberpuhl",
+     "tipo": "CRIOU",
+     "destino": "StrongARM",
+     "propriedades": {},
+     "evidencia": "Alguns dos ex-funcionários da Digital Equipment Corp foram responsáveis pelo desenvolvimento do DEC Alpha e do StrongARM:\nDaniel W. Dobberpuhl\nJim Keller\nRich Witek",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Jim Keller",
+     "tipo": "CRIOU",
+     "destino": "DEC Alpha",
+     "propriedades": {},
+     "evidencia": "Alguns dos ex-funcionários da Digital Equipment Corp foram responsáveis pelo desenvolvimento do DEC Alpha e do StrongARM:\nDaniel W. Dobberpuhl\nJim Keller\nRich Witek",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Jim Keller",
+     "tipo": "CRIOU",
+     "destino": "StrongARM",
+     "propriedades": {},
+     "evidencia": "Alguns dos ex-funcionários da Digital Equipment Corp foram responsáveis pelo desenvolvimento do DEC Alpha e do StrongARM:\nDaniel W. Dobberpuhl\nJim Keller\nRich Witek",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Rich Witek",
+     "tipo": "CRIOU",
+     "destino": "DEC Alpha",
+     "propriedades": {},
+     "evidencia": "Alguns dos ex-funcionários da Digital Equipment Corp foram responsáveis pelo desenvolvimento do DEC Alpha e do StrongARM:\nDaniel W. Dobberpuhl\nJim Keller\nRich Witek",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Rich Witek",
+     "tipo": "CRIOU",
+     "destino": "StrongARM",
+     "propriedades": {},
+     "evidencia": "Alguns dos ex-funcionários da Digital Equipment Corp foram responsáveis pelo desenvolvimento do DEC Alpha e do StrongARM:\nDaniel W. Dobberpuhl\nJim Keller\nRich Witek",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Grace Hopper",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Digital Equipment Corporation",
+     "propriedades": {
+      "cargo": "consultora"
+     },
+     "evidencia": "Grace Hopper trabalhou para a Digital Equipment Corporation como consultora após sua aposentadoria da Marinha dos Estados Unidos",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_55",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "AlphaServer",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Ethernet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "DECnet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "VT100",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "DECserver",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "Ethernet",
+     "propriedades": {},
+     "evidencia": "a DEC era conhecida por seu trabalho em projetos de subsistemas de comunicação, como Ethernet",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "DECnet",
+     "propriedades": {},
+     "evidencia": "DNA(DIGITAL Network Architecture: predominantemente produtos DECnet)",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "VT100",
+     "propriedades": {},
+     "evidencia": "seus subsistemas de \"terminal burro\", incluindo produtos VT100 e DECserver",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "DECserver",
+     "propriedades": {},
+     "evidencia": "seus subsistemas de \"terminal burro\", incluindo produtos VT100 e DECserver",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_56",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "PDP-7",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "OS-8",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "TOPS-10",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "TOPS-20",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "RSTS/E",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "RSX-11",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "RT-11",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "OpenVMS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "C",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-7",
+     "propriedades": {},
+     "evidencia": "As primeiras versões da linguagem C e do sistema operacional Unix foram executadas na série de computadores PDP da DEC (primeiro em um PDP-7 e depois no PDP-11)",
+     "confianca": 0.85
+    },
+    {
+     "origem": "C",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-11",
+     "propriedades": {},
+     "evidencia": "As primeiras versões da linguagem C e do sistema operacional Unix foram executadas na série de computadores PDP da DEC (primeiro em um PDP-7 e depois no PDP-11)",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Unix",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-7",
+     "propriedades": {},
+     "evidencia": "As primeiras versões da linguagem C e do sistema operacional Unix foram executadas na série de computadores PDP da DEC (primeiro em um PDP-7 e depois no PDP-11)",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Unix",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-11",
+     "propriedades": {},
+     "evidencia": "As primeiras versões da linguagem C e do sistema operacional Unix foram executadas na série de computadores PDP da DEC (primeiro em um PDP-7 e depois no PDP-11)",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "OS-8",
+     "propriedades": {},
+     "evidencia": "A DEC produziu sistemas operacionais interativos influentes e amplamente utilizados, incluindo OS-8, TOPS-10, TOPS-20, RSTS/E, RSX-11, RT-11 e OpenVMS",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "TOPS-10",
+     "propriedades": {},
+     "evidencia": "A DEC produziu sistemas operacionais interativos influentes e amplamente utilizados, incluindo OS-8, TOPS-10, TOPS-20, RSTS/E, RSX-11, RT-11 e OpenVMS",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "TOPS-20",
+     "propriedades": {},
+     "evidencia": "A DEC produziu sistemas operacionais interativos influentes e amplamente utilizados, incluindo OS-8, TOPS-10, TOPS-20, RSTS/E, RSX-11, RT-11 e OpenVMS",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "RSTS/E",
+     "propriedades": {},
+     "evidencia": "A DEC produziu sistemas operacionais interativos influentes e amplamente utilizados, incluindo OS-8, TOPS-10, TOPS-20, RSTS/E, RSX-11, RT-11 e OpenVMS",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "RSX-11",
+     "propriedades": {},
+     "evidencia": "A DEC produziu sistemas operacionais interativos influentes e amplamente utilizados, incluindo OS-8, TOPS-10, TOPS-20, RSTS/E, RSX-11, RT-11 e OpenVMS",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "RT-11",
+     "propriedades": {},
+     "evidencia": "A DEC produziu sistemas operacionais interativos influentes e amplamente utilizados, incluindo OS-8, TOPS-10, TOPS-20, RSTS/E, RSX-11, RT-11 e OpenVMS",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "OpenVMS",
+     "propriedades": {},
+     "evidencia": "A DEC produziu sistemas operacionais interativos influentes e amplamente utilizados, incluindo OS-8, TOPS-10, TOPS-20, RSTS/E, RSX-11, RT-11 e OpenVMS",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_57",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "CP/M",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "CTSS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Univac",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Len Kawell",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lotus Development Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "MUMPS",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "PDP-7",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-9",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-15",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Len Kawell",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Lotus Development Corporation",
+     "propriedades": {},
+     "evidencia": "Len Kawell, um dos desenvolvedores originais do Notes-11, juntou-se posteriormente à Lotus Development Corporation",
+     "confianca": 0.9
+    },
+    {
+     "origem": "MUMPS",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-7",
+     "propriedades": {},
+     "evidencia": "A linguagem de programação MUMPS, com seu banco de dados integrado, foi desenvolvida nas máquinas das séries PDP-7, 9 e 15",
+     "confianca": 0.7
+    },
+    {
+     "origem": "MUMPS",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-9",
+     "propriedades": {},
+     "evidencia": "A linguagem de programação MUMPS, com seu banco de dados integrado, foi desenvolvida nas máquinas das séries PDP-7, 9 e 15",
+     "confianca": 0.7
+    },
+    {
+     "origem": "MUMPS",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-15",
+     "propriedades": {},
+     "evidencia": "A linguagem de programação MUMPS, com seu banco de dados integrado, foi desenvolvida nas máquinas das séries PDP-7, 9 e 15",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_58",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Skip Walter",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Gordon Bell",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "522250_59",
+   "entidades": [
+    {
+     "nome": "PDP-10",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "DECtape",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Periférico de fita magnética de 3/4 de polegada produzido para o PDP-10.",
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "522250_60",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Diablo",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Control Data Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Information Storage Systems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Memorex",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "RS08",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro HDD desenvolvido internamente pela DEC, drive de 256 kWord lançado em 1969.",
+     "propriedades": {
+      "ano": 1969,
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "RL01",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1977,
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "RA92",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1992,
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Colorado Springs",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "RS08",
+     "propriedades": {
+      "ano": 1969
+     },
+     "evidencia": "O primeiro HDD desenvolvido internamente pela DEC foi o RS08, um drive de 256 kWord de cabeça fixa com contato-start-stop que usava mídia revestida; foi lançado em 1969.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "RL01",
+     "propriedades": {
+      "ano": 1977
+     },
+     "evidencia": "A DEC foi pioneira em várias tecnologias de HDD, incluindo servos de amostragem de dados (RL01, 1977)",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_61",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Shugart Associates",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Toshiba",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Sony",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "RX50",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Unidade de disquete de 400 KB padrão DEC com formato de disco proprietário.",
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "RX50",
+     "propriedades": {},
+     "evidencia": "unidade de disquete de 400 KB padrão DEC RX50",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_62",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Ken Olsen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Palmer",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Palmer"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [
+      "VAXes"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "DEC Alpha",
+     "tipo": "Hardware",
+     "aliases": [
+      "Alphas"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Adlink",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "522250_63",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Adlink",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "MicroVAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "DECnet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Uma das redes proprietárias mais importantes, que interligava instalações comerciais e de pesquisa.",
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "LA36",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "LA120",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Teletype Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "VT100",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "VT220",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Digital Linear Tape",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "DLT",
+      "CompacTape"
+     ],
+     "descricao": "Mídia de backup compacta para os sistemas MicroVAX.",
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Personal Jukebox",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro MP3 player baseado em disco rígido.",
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Centro de Pesquisa de Sistemas",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC Systems Research Center"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Compaq",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "VT220",
+     "tipo": "SUCESSOR_DE",
+     "destino": "VT100",
+     "propriedades": {},
+     "evidencia": "VT100 (ou seu sucessor mais capaz, o VT220)",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "Digital Linear Tape",
+     "propriedades": {},
+     "evidencia": "A DEC inventou a Digital Linear Tape (DLT)",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Centro de Pesquisa de Sistemas",
+     "tipo": "DESENVOLVEU",
+     "destino": "Personal Jukebox",
+     "propriedades": {},
+     "evidencia": "O trabalho no primeiro MP3 player baseado em disco rígido, o Personal Jukebox, começou no DEC Systems Research Center",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_64",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Compaq",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Western Research Laboratory",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Western Research Lab"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Itsy Pocket Computer",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Compaq iPaq",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Compaq Aero",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Rainbow 100",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "CP/M",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Western Research Laboratory",
+     "tipo": "DESENVOLVEU",
+     "destino": "Itsy Pocket Computer",
+     "propriedades": {},
+     "evidencia": "O Western Research Lab da DEC criou o Itsy Pocket Computer",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Compaq iPaq",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Compaq Aero",
+     "propriedades": {},
+     "evidencia": "linha de PDAs Compaq iPaq, que substituiu o Compaq Aero",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "Rainbow 100",
+     "propriedades": {},
+     "evidencia": "A DEC também produziu um computador pessoal proprietário conhecido como Rainbow 100",
+     "confianca": 0.95
+    },
+    {
+     "origem": "MS-DOS",
+     "tipo": "EXECUTA_EM",
+     "destino": "Rainbow 100",
+     "propriedades": {},
+     "evidencia": "conhecido como Rainbow 100. Ele podia executar o MS-DOS ou o CP/M",
+     "confianca": 0.85
+    },
+    {
+     "origem": "CP/M",
+     "tipo": "EXECUTA_EM",
+     "destino": "Rainbow 100",
+     "propriedades": {},
+     "evidencia": "conhecido como Rainbow 100. Ele podia executar o MS-DOS ou o CP/M",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_65",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Xerox",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Ethernet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "DECnet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "LAT",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [
+      "VAXes"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "DECserver",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Clustering",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Tecnologia de sistema operacional que tratava várias máquinas como uma entidade lógica.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "Clustering",
+     "propriedades": {},
+     "evidencia": "A DEC também inventou o clustering, uma tecnologia de sistema operacional que tratava várias máquinas como uma entidade lógica",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_66",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "X Window System",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema de janelas transparente de rede usado no Unix e no Linux.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Projeto GNU",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Compaq",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AlphaServer",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "DESENVOLVEU",
+     "destino": "X Window System",
+     "propriedades": {},
+     "evidencia": "Ele foi desenvolvido no MIT em conjunto com o Projeto Athena e o Laboratório de Ciência da Computação",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "522250_67",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Digital Federal Credit Union",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DCU"
+     ],
+     "descricao": "Cooperativa de crédito fundada em 1979 para os funcionários da DEC.",
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1979
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

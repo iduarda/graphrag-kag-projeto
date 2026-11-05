@@ -1,0 +1,205 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:22:14+00:00",
+ "chunks": [
+  {
+   "chunk_id": "4176057_0",
+   "entidades": [
+    {
+     "nome": "Rust",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem de programação multiparadigma compilada desenvolvida pela Mozilla.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Mozilla",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Graydon Hoare",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Empregado da Mozilla cujo projeto pessoal deu origem à linguagem Rust.",
+     "propriedades": {}
+    },
+    {
+     "nome": "OCaml",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Mozilla",
+     "tipo": "DESENVOLVEU",
+     "destino": "Rust",
+     "propriedades": {},
+     "evidencia": "Rust é uma linguagem de programação multiparadigma compilada desenvolvida pela Mozilla",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Graydon Hoare",
+     "tipo": "CRIOU",
+     "destino": "Rust",
+     "propriedades": {},
+     "evidencia": "A linguagem apareceu como um projeto pessoal de Graydon Hoare, empregado da Mozilla",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Graydon Hoare",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Mozilla",
+     "propriedades": {},
+     "evidencia": "A linguagem apareceu como um projeto pessoal de Graydon Hoare, empregado da Mozilla",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "4176057_1",
+   "entidades": [
+    {
+     "nome": "Rust",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bjarne Stroustrup",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Rust",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C++",
+     "propriedades": {},
+     "evidencia": "O princípio de abstração sem overhead vem do C++",
+     "confianca": 0.65
+    }
+   ]
+  },
+  {
+   "chunk_id": "4176057_2",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "4176057_3",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "4176057_4",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "4176057_5",
+   "entidades": [
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "4176057_6",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "4176057_7",
+   "entidades": [
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [
+      "linguagem C"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "4176057_8",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "4176057_9",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "4176057_10",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "4176057_11",
+   "entidades": [
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [
+      "linguagem C"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "4176057_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "4176057_13",
+   "entidades": [
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "4176057_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "4176057_15",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "4176057_16",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

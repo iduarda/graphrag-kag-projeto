@@ -1,0 +1,96 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:25:21+00:00",
+ "chunks": [
+  {
+   "chunk_id": "306235_0",
+   "entidades": [
+    {
+     "nome": "Máquina diferencial",
+     "tipo": "Hardware",
+     "aliases": [
+      "máquina diferencial de Babbage"
+     ],
+     "descricao": "Invento de Charles Babbage para cálculos com polinômios.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Babbage"
+     ],
+     "descricao": "Inventor da máquina diferencial, conhecido como o pai do computador.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [
+      "Maquina Analítica",
+      "Engenho Analítico"
+     ],
+     "descricao": "Modelo mais complexo que Babbage buscou criar, jamais concluído.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Charles Babbage",
+     "tipo": "CRIOU",
+     "destino": "Máquina diferencial",
+     "propriedades": {},
+     "evidencia": "A máquina diferencial foi um invento de Charles Babbage",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Charles Babbage",
+     "tipo": "CRIOU",
+     "destino": "Máquina analítica",
+     "propriedades": {},
+     "evidencia": "conseguiu apoio governamental para criar um modelo mais complexo, a \"Maquina Analítica\"",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "306235_1",
+   "entidades": [
+    {
+     "nome": "Máquina diferencial",
+     "tipo": "Hardware",
+     "aliases": [
+      "máquina diferencial de Babbage n° 2"
+     ],
+     "descricao": "Primeira tentativa de máquina de computação automática e adaptável; uma réplica foi construída em 1991 pelo Science Museum.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [
+      "Engenho Analítico"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Babbage"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Londres",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

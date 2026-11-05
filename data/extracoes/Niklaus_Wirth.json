@@ -1,0 +1,631 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 109049,
+    "titulo": "Niklaus Wirth",
+    "url": "https://pt.wikipedia.org/wiki/Niklaus_Wirth",
+    "categoria": "Pessoa",
+    "wikidata_id": "Q92604"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:25:22+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "pessoa:niklaus_wirth",
+  "chunks": [
+    {
+      "id": "109049_0",
+      "ordem": 0,
+      "texto": "Niklaus Emil Wirth (Winterthur, 15 de fevereiro de 1934 – 1 de janeiro de 2024) foi um professor e cientista da computação suíço. Ele projetou várias linguagens de programação, incluindo Pascal, e foi pioneiro em vários outros tópicos clássicos em engenharia de software. Em 1984, ele ganhou o Prêmio Turing, geralmente reconhecido como a maior distinção em ciência da computação, por desenvolver uma sequência de linguagens de computador inovadoras.\nCriador das linguagens de programação Pascal, Modula-2 e Oberon."
+    },
+    {
+      "id": "109049_1",
+      "ordem": 1,
+      "texto": "Criador das linguagens de programação Pascal, Modula-2 e Oberon.\nBiografia: Wirth nasceu em Winterthur, Suíça, em 1934. Em 1959, formou-se em Engenharia Eletrônica pelo Instituto Federal Suiço  de Tecnologico de Zurique. Em 1960, ele ganhou um mestrado da Universidade Laval, Canadá. Em 1963, ele recebeu Ph.D. Em Engenharia Elétrica e Ciência da Computação (EECS), da Universidade da California, Berkeley, supervisionado pelo pioneiro em design de computadores Harry Huskey.\nDe 1963 a 1967, ele atuou como professor assistente de Ciência da Computação na Universidade de Stanford. Em 1968 tornou-se professor de informática na ETH Zurique, fazendo dois anos sabáticos de um ano na Xerox PARC, Califórnia (1976-1977 e 1984-1985). Wirth se aposentou em 1999.\nEm 2004, ele foi nomeado membro do Museu de História da Computação \"por trabalhos seminais em linguagens de programação e algoritmos, incluindo Euler, Algol-W, Pascal, Modula e Oberon\".\nWirth morreu em 1 de janeiro de 2024."
+    },
+    {
+      "id": "109049_2",
+      "ordem": 2,
+      "texto": "Wirth morreu em 1 de janeiro de 2024.\nLinguagens de Programação: Wirth foi designer-chefe das linguagens de programação Euler, Algol W, Pascal, Modula, Modula-2, Oberon, Oberon-2 e Oberon-07. Ele também teve um papel importante da equipe de design e implementação dos sistemas operacionais Lilith e Oberon e do sistema de design e simulação de hardware digital Lola.\nEle recebeu o Prêmio Turing da Association for Computing Machinery (ACM) pelo desenvolvimento dessas linguagens em 1984, e em 1994 foi indicado como membro do ACM."
+    },
+    {
+      "id": "109049_3",
+      "ordem": 3,
+      "texto": "Ele recebeu o Prêmio Turing da Association for Computing Machinery (ACM) pelo desenvolvimento dessas linguagens em 1984, e em 1994 foi indicado como membro do ACM.\nPublicações: O livro \"The Pascal User Manual and Report\", escrito em conjunto com Kathleen Jensen, serviu de base para muitos esforços de implementação de linguagens nas décadas de 1970 e 1980 nos Estados Unidos e em toda a Europa.\nSeu artigo \"Program Development by Stepwise Refinement\" sobre o ensino da programação, é considerado um texto clássico em engenharia de software. Em 1975, ele escreveu o livro \"Algorithms + Data Structures = Programs\", que ganhou amplo reconhecimento. As principais revisões deste livro com o novo título \"Algoritmos + Estruturas de Dados\" foram publicadas em 1985 e 2004. Os exemplos da primeira edição foram escritos em Pascal. Estes foram substituídos nas edições posteriores por exemplos escritos em Modula-2 e Oberon, respectivamente.\nSeu livro \"Programação Sistemática: Uma Introdução\", foi considerado uma boa fonte para os estudantes que queriam fazer mais do que apenas codificar. Como um texto desafiador para se trabalhar, foi procurado como leitura imperativa para os interessados ​​em matemática numérica.\nEm 1992, ele publicou (juntamente com Jürg Gutknecht) a documentação completa do sistema operacional Oberon. Um segundo livro (junto com Martin Reiser) foi planejado como um guia do programador."
+    },
+    {
+      "id": "109049_4",
+      "ordem": 4,
+      "texto": "Um segundo livro (junto com Martin Reiser) foi planejado como um guia do programador.\nLei de Wirth: Em 1995, ele popularizou o ditado, agora conhecido como lei de Wirth, que afirma que o software está ficando mais lento mais rapidamente do que o hardware. Em seu artigo de 1995, A Plea for Lean Software, ele o atribui a Martin Reiser."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "pessoa:niklaus_wirth",
+      "nome": "Niklaus Wirth",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Niklaus Emil Wirth",
+        "Wirth"
+      ],
+      "descricao": "Professor e cientista da computação suíço, criador de Pascal, Modula-2 e Oberon.",
+      "propriedades": {
+        "ano_nascimento": 1934,
+        "ano_morte": 2024
+      },
+      "chunk_ids": [
+        "109049_0",
+        "109049_1",
+        "109049_2",
+        "109049_3",
+        "109049_4"
+      ]
+    },
+    {
+      "id": "local:winterthur",
+      "nome": "Winterthur",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "109049_0",
+        "109049_1"
+      ]
+    },
+    {
+      "id": "linguagem:pascal",
+      "nome": "Pascal",
+      "tipo": "Linguagem",
+      "aliases": [
+        "Pascal (linguagem de programação)"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "109049_0",
+        "109049_2",
+        "109049_3"
+      ]
+    },
+    {
+      "id": "linguagem:modula_2",
+      "nome": "Modula-2",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "109049_0",
+        "109049_2",
+        "109049_3"
+      ]
+    },
+    {
+      "id": "linguagem:oberon",
+      "nome": "Oberon",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "109049_0",
+        "109049_2",
+        "109049_3"
+      ]
+    },
+    {
+      "id": "premio:premio_turing",
+      "nome": "Prêmio Turing",
+      "tipo": "Premio",
+      "aliases": [
+        "Turing Award",
+        "Prémio Turing",
+        "A. M. Turing Award",
+        "Prêmio Alan Turing"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "109049_0",
+        "109049_2",
+        "109049_3"
+      ]
+    },
+    {
+      "id": "organizacao:instituto_federal_de_tecnologia_de_zurique",
+      "nome": "Instituto Federal de Tecnologia de Zurique",
+      "tipo": "Organizacao",
+      "aliases": [
+        "ETH Zurique",
+        "ETH Zurich",
+        "ETH"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "109049_1"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_laval",
+      "nome": "Universidade Laval",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "109049_1"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_da_california_em_berkeley",
+      "nome": "Universidade da Califórnia em Berkeley",
+      "tipo": "Organizacao",
+      "aliases": [
+        "UC Berkeley",
+        "Berkeley",
+        "University of California, Berkeley"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "109049_1"
+      ]
+    },
+    {
+      "id": "pessoa:harry_huskey",
+      "nome": "Harry Huskey",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "109049_1"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_stanford",
+      "nome": "Universidade Stanford",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Universidade de Stanford",
+        "Stanford University",
+        "Stanford"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "109049_1"
+      ]
+    },
+    {
+      "id": "organizacao:xerox_parc",
+      "nome": "Xerox PARC",
+      "tipo": "Organizacao",
+      "aliases": [
+        "PARC",
+        "Xerox Palo Alto Research Center",
+        "Palo Alto Research Center"
+      ],
+      "propriedades": {
+        "tipo": "laboratorio"
+      },
+      "chunk_ids": [
+        "109049_1"
+      ]
+    },
+    {
+      "id": "local:suica",
+      "nome": "Suíça",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "pais"
+      },
+      "chunk_ids": [
+        "109049_1"
+      ]
+    },
+    {
+      "id": "local:canada",
+      "nome": "Canadá",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "pais"
+      },
+      "chunk_ids": [
+        "109049_1"
+      ]
+    },
+    {
+      "id": "linguagem:euler",
+      "nome": "Euler",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "109049_2"
+      ]
+    },
+    {
+      "id": "linguagem:algol_w",
+      "nome": "Algol W",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "109049_2"
+      ]
+    },
+    {
+      "id": "linguagem:modula",
+      "nome": "Modula",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "109049_2"
+      ]
+    },
+    {
+      "id": "linguagem:oberon_2",
+      "nome": "Oberon-2",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "109049_2"
+      ]
+    },
+    {
+      "id": "linguagem:oberon_07",
+      "nome": "Oberon-07",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "109049_2"
+      ]
+    },
+    {
+      "id": "tecnologia:lilith",
+      "nome": "Lilith",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "109049_2"
+      ]
+    },
+    {
+      "id": "tecnologia:oberon_sistema_operacional",
+      "nome": "Oberon (sistema operacional)",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "Oberon"
+      ],
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "109049_2",
+        "109049_3"
+      ]
+    },
+    {
+      "id": "organizacao:association_for_computing_machinery",
+      "nome": "Association for Computing Machinery",
+      "tipo": "Organizacao",
+      "aliases": [
+        "ACM"
+      ],
+      "propriedades": {
+        "tipo": "fundacao"
+      },
+      "chunk_ids": [
+        "109049_2",
+        "109049_3"
+      ]
+    },
+    {
+      "id": "pessoa:kathleen_jensen",
+      "nome": "Kathleen Jensen",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "109049_3"
+      ]
+    },
+    {
+      "id": "pessoa:jurg_gutknecht",
+      "nome": "Jürg Gutknecht",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "109049_3"
+      ]
+    },
+    {
+      "id": "pessoa:martin_reiser",
+      "nome": "Martin Reiser",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "109049_3",
+        "109049_4"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "NASCEU_EM",
+      "destino": "local:winterthur",
+      "propriedades": {},
+      "chunk_id": "109049_0",
+      "evidencia": "Niklaus Emil Wirth (Winterthur, 15 de fevereiro de 1934",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_turing",
+      "propriedades": {
+        "ano": 1984
+      },
+      "chunk_id": "109049_0",
+      "evidencia": "Em 1984, ele ganhou o Prêmio Turing",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "CRIOU",
+      "destino": "linguagem:pascal",
+      "propriedades": {},
+      "chunk_id": "109049_0",
+      "evidencia": "Criador das linguagens de programação Pascal, Modula-2 e Oberon.",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "CRIOU",
+      "destino": "linguagem:modula_2",
+      "propriedades": {},
+      "chunk_id": "109049_0",
+      "evidencia": "Criador das linguagens de programação Pascal, Modula-2 e Oberon.",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "CRIOU",
+      "destino": "linguagem:oberon",
+      "propriedades": {},
+      "chunk_id": "109049_0",
+      "evidencia": "Criador das linguagens de programação Pascal, Modula-2 e Oberon.",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "NASCEU_EM",
+      "destino": "local:winterthur",
+      "propriedades": {},
+      "chunk_id": "109049_1",
+      "evidencia": "Wirth nasceu em Winterthur, Suíça, em 1934",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:instituto_federal_de_tecnologia_de_zurique",
+      "propriedades": {
+        "curso": "Engenharia Eletrônica",
+        "ano": 1959
+      },
+      "chunk_id": "109049_1",
+      "evidencia": "Em 1959, formou-se em Engenharia Eletrônica pelo Instituto Federal Suiço  de Tecnologico de Zurique",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:universidade_laval",
+      "propriedades": {
+        "ano": 1960
+      },
+      "chunk_id": "109049_1",
+      "evidencia": "Em 1960, ele ganhou um mestrado da Universidade Laval",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:universidade_da_california_em_berkeley",
+      "propriedades": {
+        "curso": "Engenharia Elétrica e Ciência da Computação",
+        "ano": 1963
+      },
+      "chunk_id": "109049_1",
+      "evidencia": "Em 1963, ele recebeu Ph.D. Em Engenharia Elétrica e Ciência da Computação (EECS), da Universidade da California, Berkeley",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:universidade_stanford",
+      "propriedades": {
+        "cargo": "professor assistente de Ciência da Computação",
+        "ano_inicio": 1963,
+        "ano_fim": 1967
+      },
+      "chunk_id": "109049_1",
+      "evidencia": "De 1963 a 1967, ele atuou como professor assistente de Ciência da Computação na Universidade de Stanford",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:instituto_federal_de_tecnologia_de_zurique",
+      "propriedades": {
+        "cargo": "professor de informática",
+        "ano_inicio": 1968
+      },
+      "chunk_id": "109049_1",
+      "evidencia": "Em 1968 tornou-se professor de informática na ETH Zurique",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:xerox_parc",
+      "propriedades": {},
+      "chunk_id": "109049_1",
+      "evidencia": "fazendo dois anos sabáticos de um ano na Xerox PARC, Califórnia (1976-1977 e 1984-1985)",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "CRIOU",
+      "destino": "linguagem:euler",
+      "propriedades": {},
+      "chunk_id": "109049_2",
+      "evidencia": "Wirth foi designer-chefe das linguagens de programação Euler, Algol W, Pascal, Modula, Modula-2, Oberon, Oberon-2 e Oberon-07",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "CRIOU",
+      "destino": "linguagem:algol_w",
+      "propriedades": {},
+      "chunk_id": "109049_2",
+      "evidencia": "Wirth foi designer-chefe das linguagens de programação Euler, Algol W, Pascal, Modula, Modula-2, Oberon, Oberon-2 e Oberon-07",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "CRIOU",
+      "destino": "linguagem:pascal",
+      "propriedades": {},
+      "chunk_id": "109049_2",
+      "evidencia": "Wirth foi designer-chefe das linguagens de programação Euler, Algol W, Pascal, Modula, Modula-2, Oberon, Oberon-2 e Oberon-07",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "CRIOU",
+      "destino": "linguagem:modula",
+      "propriedades": {},
+      "chunk_id": "109049_2",
+      "evidencia": "Wirth foi designer-chefe das linguagens de programação Euler, Algol W, Pascal, Modula, Modula-2, Oberon, Oberon-2 e Oberon-07",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "CRIOU",
+      "destino": "linguagem:modula_2",
+      "propriedades": {},
+      "chunk_id": "109049_2",
+      "evidencia": "Wirth foi designer-chefe das linguagens de programação Euler, Algol W, Pascal, Modula, Modula-2, Oberon, Oberon-2 e Oberon-07",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:oberon_sistema_operacional",
+      "propriedades": {},
+      "chunk_id": "109049_2",
+      "evidencia": "Wirth foi designer-chefe das linguagens de programação Euler, Algol W, Pascal, Modula, Modula-2, Oberon, Oberon-2 e Oberon-07",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "CRIOU",
+      "destino": "linguagem:oberon_2",
+      "propriedades": {},
+      "chunk_id": "109049_2",
+      "evidencia": "Wirth foi designer-chefe das linguagens de programação Euler, Algol W, Pascal, Modula, Modula-2, Oberon, Oberon-2 e Oberon-07",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "CRIOU",
+      "destino": "linguagem:oberon_07",
+      "propriedades": {},
+      "chunk_id": "109049_2",
+      "evidencia": "Wirth foi designer-chefe das linguagens de programação Euler, Algol W, Pascal, Modula, Modula-2, Oberon, Oberon-2 e Oberon-07",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:lilith",
+      "propriedades": {},
+      "chunk_id": "109049_2",
+      "evidencia": "Ele também teve um papel importante da equipe de design e implementação dos sistemas operacionais Lilith e Oberon",
+      "confianca": 0.75
+    },
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_turing",
+      "propriedades": {
+        "ano": 1984
+      },
+      "chunk_id": "109049_2",
+      "evidencia": "Ele recebeu o Prêmio Turing da Association for Computing Machinery (ACM) pelo desenvolvimento dessas linguagens em 1984",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_turing",
+      "propriedades": {
+        "ano": 1984
+      },
+      "chunk_id": "109049_3",
+      "evidencia": "Ele recebeu o Prêmio Turing da Association for Computing Machinery (ACM) pelo desenvolvimento dessas linguagens em 1984",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:kathleen_jensen",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:niklaus_wirth",
+      "propriedades": {
+        "contexto": "livro The Pascal User Manual and Report"
+      },
+      "chunk_id": "109049_3",
+      "evidencia": "O livro \"The Pascal User Manual and Report\", escrito em conjunto com Kathleen Jensen",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:jurg_gutknecht",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:niklaus_wirth",
+      "propriedades": {
+        "contexto": "documentação do sistema operacional Oberon"
+      },
+      "chunk_id": "109049_3",
+      "evidencia": "Em 1992, ele publicou (juntamente com Jürg Gutknecht) a documentação completa do sistema operacional Oberon",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:martin_reiser",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:niklaus_wirth",
+      "propriedades": {
+        "contexto": "guia do programador do Oberon"
+      },
+      "chunk_id": "109049_3",
+      "evidencia": "Um segundo livro (junto com Martin Reiser) foi planejado como um guia do programador",
+      "confianca": 0.85
+    }
+  ]
+}

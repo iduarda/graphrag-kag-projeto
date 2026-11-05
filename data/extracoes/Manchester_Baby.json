@@ -1,0 +1,1100 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 7793188,
+    "titulo": "Manchester Baby",
+    "url": "https://pt.wikipedia.org/wiki/Manchester_Baby",
+    "categoria": "Hardware",
+    "wikidata_id": "Q514818"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:26:38+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "hardware:manchester_baby",
+  "chunks": [
+    {
+      "id": "7793188_0",
+      "ordem": 0,
+      "texto": "O Manchester Baby, também chamado de Small-Scale Experimental Machine (SSEM), foi o primeiro computador eletrônico com programa armazenado. Foi construído na Universidade Victoria de Manchester [en] pelos pesquisadores Frederic Calland Williams, Tom Kilburn e Geoff Tootill [en], e executou seu primeiro programa em 21 de junho de 1948.\nO Baby não foi concebido para ser um motor de computação prático, mas sim como um banco de ensaio para o tubo de Williams, a primeira memória de acesso aleatório verdadeiramente aleatório. Descrito como “pequeno e primitivo”, cinquenta anos após a sua criação, foi a primeira máquina funcional a conter todos os elementos essenciais a um computador digital eletrônico moderno. Assim que o Baby demonstrou a viabilidade de seu projeto, foi iniciado um projeto na universidade para desenvolvê-lo em uma máquina operacional em escala real, o Manchester Mark I. O Mark I, por sua vez, rapidamente se tornou o protótipo do Ferranti Mark I [en], o primeiro computador de uso geral comercialmente disponível no mundo."
+    },
+    {
+      "id": "7793188_1",
+      "ordem": 1,
+      "texto": "O Mark I, por sua vez, rapidamente se tornou o protótipo do Ferranti Mark I [en], o primeiro computador de uso geral comercialmente disponível no mundo.\nO Baby tinha um comprimento de palavra de 32 bits e uma memória de 32 palavras (1 kibibit, 1.024 bits). Como foi projetado para ser o computador com programa armazenado mais simples possível, as únicas operações aritméticas implementadas no hardware eram subtração e inverso aditivo; outras operações aritméticas eram implementadas no software. O primeiro dos três programas escritos para a máquina calculava o maior divisor próprio de 218 (262.144), testando todos os números inteiros de 218 para baixo. Esse algoritmo levaria muito tempo para ser executado, e assim provaria a confiabilidade do computador, já que a divisão era implementada pela subtração repetida do divisor. O programa consistia em 17 instruções e foi executado por cerca de 52 minutos antes de chegar à resposta correta de 131.072, depois que o Baby realizou cerca de 3,5 milhões de operações (para uma velocidade efetiva da CPU de cerca de 1.100  instruções por segundo)."
+    },
+    {
+      "id": "7793188_2",
+      "ordem": 2,
+      "texto": "O programa consistia em 17 instruções e foi executado por cerca de 52 minutos antes de chegar à resposta correta de 131.072, depois que o Baby realizou cerca de 3,5 milhões de operações (para uma velocidade efetiva da CPU de cerca de 1.100  instruções por segundo).\nContexto: O primeiro projeto de um computador controlado por programa foi a Máquina Analítica desenvolvida pelo britânico Charles Babbage, na década de 1830, com a matemática britânica Ada Lovelace concebendo a ideia do primeiro programa teórico para calcular os números de Bernoulli. Após um século, em 1936, o também matemático britânico Alan Turing publicou sua descrição do que ficou conhecido como máquina de Turing, um conceito teórico destinado a explorar os limites da computação mecânica. Turing não estava imaginando uma máquina física, mas uma pessoa que ele chamou de “computador”, que agia de acordo com as instruções fornecidas por uma fita na qual símbolos podiam ser lidos e escritos sequencialmente à medida que a fita se movia sob um cabeçote. Turing provou que, se um algoritmo pode ser escrito para resolver um problema matemático, então uma máquina de Turing pode executar esse algoritmo."
+    },
+    {
+      "id": "7793188_3",
+      "ordem": 3,
+      "texto": "Turing provou que, se um algoritmo pode ser escrito para resolver um problema matemático, então uma máquina de Turing pode executar esse algoritmo.\nO Z3, concebido pelo pesquisador alemão Konrad Zuse foi o primeiro computador programável e totalmente automático do mundo, com lógica aritmética digital binária, mas não possuía o ramal condicional de uma máquina de Turing. Em 12 de maio de 1941, o Z3 foi apresentado com sucesso a uma plateia de cientistas do Deutsche Versuchsanstalt für Luftfahrt em Berlim. O Z3 armazenava seu programa em uma fita externa, mas era eletromecânico, e não eletrônico. Os primeiros dispositivos eletrônicos de computação foram o computador Atanasoff–Berry, testado com sucesso em 1942, e o Colossus, de 1943, mas nenhum deles era uma máquina com programa armazenado.\nO ENIAC, de 1946, foi o primeiro computador automático que era eletrônico e de uso geral. Era Turing completo, com ramificação condicional e programável para resolver uma ampla gama de problemas, mas seu programa era mantido no estado de interruptores em cabos de conexão, em vez de memória alterável pela máquina, e podia levar vários dias para ser reprogramado. Pesquisadores como Turing e Zuse investigaram a ideia de usar a memória do computador para armazenar o programa, bem como os dados em que estava trabalhando, e foi o matemático John von Neumann quem escreveu um artigo amplamente divulgado descrevendo essa arquitetura de computador, ainda usada em quase todos os computadores."
+    },
+    {
+      "id": "7793188_4",
+      "ordem": 4,
+      "texto": "A construção de um computador von Neumann dependia da disponibilidade de um dispositivo de memória adequado para armazenar o programa. Durante a Segunda Guerra Mundial, pesquisadores que trabalhavam no problema de remover o ruído dos sinais de radar desenvolveram uma forma de memória de linha de atraso, cuja primeira aplicação prática foi a [[Memória de linha de atraso\n|memória de linha de atraso]] [en] de mercúrio, desenvolvida por John Presper Eckert. Os transmissores de radar enviam pulsos regulares e breves de energia de rádio, cujos reflexos são exibidos em uma tela CRT. Como os operadores geralmente estão interessados apenas em alvos móveis, era desejável filtrar quaisquer reflexos perturbadores de objetos estacionários. A filtragem era obtida comparando cada pulso recebido com o pulso anterior e rejeitando ambos se fossem idênticos, deixando um sinal contendo apenas as imagens de quaisquer objetos em movimento. Para armazenar cada pulso recebido para comparação posterior, ele era passado por uma linha de transmissão, atrasando-o exatamente pelo tempo entre os pulsos transmitidos."
+    },
+    {
+      "id": "7793188_5",
+      "ordem": 5,
+      "texto": "Para armazenar cada pulso recebido para comparação posterior, ele era passado por uma linha de transmissão, atrasando-o exatamente pelo tempo entre os pulsos transmitidos.\nTuring ingressou no Laboratório Nacional de Física (NPL) em outubro de 1945, época em que os cientistas do Ministério do Abastecimento concluíram que a Grã-Bretanha precisava de um Laboratório Nacional de Matemática para coordenar os cálculos auxiliados por máquinas. Foi criada uma Divisão de Matemática no NPL e, em 19 de fevereiro de 1946, Turing apresentou um artigo descrevendo seu projeto para um computador eletrônico com programa armazenado, que ficaria conhecido como Automatic Computing Engine (ACE). Esse foi um dos vários projetos criados nos anos após o término da Segunda Guerra Mundial com o objetivo de construir um computador com programa armazenado. Na mesma época, o EDVAC estava em desenvolvimento na Escola Moore de Engenharia Elétrica [en] da Universidade da Pensilvânia, e o Departamento de Ciência da Computação e Tecnologia da Universidade de Cambridge [en] estava trabalhando no EDSAC."
+    },
+    {
+      "id": "7793188_6",
+      "ordem": 6,
+      "texto": "Na mesma época, o EDVAC estava em desenvolvimento na Escola Moore de Engenharia Elétrica [en] da Universidade da Pensilvânia, e o Departamento de Ciência da Computação e Tecnologia da Universidade de Cambridge [en] estava trabalhando no EDSAC.\nO NPL não tinha o conhecimento necessário para construir uma máquina como a ACE, então entraram em contato com Tommy Flowers [en], do Laboratório de Correios Gerais [en] (GPO). Flowers, o projetista do Colossus, o primeiro computador eletrônico programável do mundo, estava comprometido com outro projeto e não pôde participar do projeto, embora sua equipe tenha construído algumas linhas de atraso de mercúrio para o ACE. O Instituto de Pesquisa em Telecomunicações [en] (TRE) também foi procurado para ajudar, assim como Maurice Wilkes, do Departamento de Ciência da Computação e Tecnologia da Universidade de Cambridge [en]."
+    },
+    {
+      "id": "7793188_7",
+      "ordem": 7,
+      "texto": "O Instituto de Pesquisa em Telecomunicações [en] (TRE) também foi procurado para ajudar, assim como Maurice Wilkes, do Departamento de Ciência da Computação e Tecnologia da Universidade de Cambridge [en].\nO departamento governamental responsável pelo NPL decidiu que, de todo o trabalho realizado pelo TRE em seu nome, o ACE deveria receber a máxima prioridade. A decisão do NPL levou a uma visita do superintendente da Divisão de Física do TRE em 22 de novembro de 1946, acompanhado por Frederic Calland Williams e A. M. Uttley, também do TRE. Williams liderava um grupo de desenvolvimento do TRE que trabalhava em armazenamentos CRT para aplicações de radar, como alternativa às linhas de atraso. Williams não estava disponível para trabalhar no ACE porque já havia aceitado um cargo de professor na Universidade Victoria de Manchester [en], e a maioria de seus técnicos de circuitos estava em processo de transferência para o Departamento de Energia Atômica. O TRE concordou em destacar um pequeno número de técnicos para trabalhar sob a direção de Williams na universidade e apoiar outro pequeno grupo que trabalhava com Uttley no TRE."
+    },
+    {
+      "id": "7793188_8",
+      "ordem": 8,
+      "texto": "O TRE concordou em destacar um pequeno número de técnicos para trabalhar sob a direção de Williams na universidade e apoiar outro pequeno grupo que trabalhava com Uttley no TRE.\nTubo de Williams: Embora alguns dos primeiros computadores, como o EDSAC, inspirado no design do EDVAC, tenham posteriormente utilizado com sucesso a memória de linha de atraso de mercúrio, a tecnologia apresentava várias desvantagens: era pesada, de alto custo e não permitia o acesso aleatório aos dados. Além disso, como os dados eram armazenados como uma sequência de ondas acústicas propagadas através de uma coluna de mercúrio, a temperatura do dispositivo tinha que ser controlada com muito cuidado, pois a velocidade do som através de um meio varia com a temperatura. Williams tinha visto um experimento na Bell Labs que demonstrava a eficácia dos tubos de raios catódicos (CRT) como alternativa à linha de atraso para remover ecos terrestres dos sinais de radar. Enquanto trabalhava na TRE, pouco antes de ingressar na Universidade de Manchester em dezembro de 1946, Williams e Tom Kilburn desenvolveram uma forma de memória eletrônica conhecida como tubo de Williams ou tubo Williams-Kilburn, baseada em um CRT padrão: o primeiro dispositivo eletrônico de armazenamento digital de acesso aleatório. O Baby foi projetado para mostrar que era um dispositivo de armazenamento prático, demonstrando que os dados armazenados nele podiam ser lidos e gravados de forma confiável a uma velocidade adequada para uso em um computador."
+    },
+    {
+      "id": "7793188_9",
+      "ordem": 9,
+      "texto": "O Baby foi projetado para mostrar que era um dispositivo de armazenamento prático, demonstrando que os dados armazenados nele podiam ser lidos e gravados de forma confiável a uma velocidade adequada para uso em um computador.\nPara ser usado em um computador digital binário, o tubo precisava ser capaz de armazenar um dos dois estados em cada um dos seus locais de memória, correspondendo aos dígitos binários (bits) 0 e 1. Ele explorava a carga elétrica positiva ou negativa gerada pela exibição de um traço ou um ponto em qualquer posição na tela do CRT, um fenômeno conhecido como emissão secundária [en]. Um traço gerava uma carga positiva e um ponto uma carga negativa, qualquer uma das quais podia ser captada por uma placa detectora na frente da tela; uma carga negativa representava 0 e uma carga positiva 1. A carga se dissipava em cerca de 0,2 segundos, mas podia ser atualizada automaticamente a partir dos dados captados pelo detector.\nO tubo de Williams utilizado no Baby baseava-se no CV1131, um CRT comercialmente disponível com 12 polegadas (300 mm) de diâmetro, mas no Mark I foi utilizado um tubo mais pequeno, com 6 polegadas (150 mm), o CV1097."
+    },
+    {
+      "id": "7793188_10",
+      "ordem": 10,
+      "texto": "O tubo de Williams utilizado no Baby baseava-se no CV1131, um CRT comercialmente disponível com 12 polegadas (300 mm) de diâmetro, mas no Mark I foi utilizado um tubo mais pequeno, com 6 polegadas (150 mm), o CV1097.\nGênese do projeto: Após desenvolver o computador Colossus para decifrar códigos em Bletchley Park durante a Segunda Guerra Mundial, Max Newman dedicou-se ao desenvolvimento de um computador que incorporasse tanto os conceitos matemáticos de Alan Turing quanto o conceito de programa armazenado descrito por John von Neumann. No ano de 1945, ele foi nomeado para a Cátedra Fielden de Matemática Pura na Universidade de Manchester; ele levou seus colegas do projeto Colossus, Irving John Good e David Rees, para Manchester com ele, e lá eles recrutaram F. C. Williams para ser o “especialista em circuitos” de um novo projeto de computador para o qual ele havia garantido financiamento da Royal Society.\nTendo garantido o apoio da universidade, obtido financiamento da Royal Society e reunido uma equipe de matemáticos e engenheiros de primeira linha, Newman agora tinha todos os elementos de seu plano de construção de computadores em ordem. Adotando a abordagem que havia usado com tanta eficácia em Bletchley Park, Newman deixou sua equipe trabalhar nos detalhes, enquanto ele se concentrava em orquestrar o empreendimento."
+    },
+    {
+      "id": "7793188_11",
+      "ordem": 11,
+      "texto": "Adotando a abordagem que havia usado com tanta eficácia em Bletchley Park, Newman deixou sua equipe trabalhar nos detalhes, enquanto ele se concentrava em orquestrar o empreendimento.\nApós sua nomeação ser professor no curso de Engenharia Elétrica na Universidade de Manchester, Williams recrutou seu colega da TRE, Tom Kilburn, em regime de destacamento. No outono de 1947, a dupla aumentou a capacidade de armazenamento do tubo de Williams de um bit para 2.048, dispostos em uma matriz de 64 por 32 bits, e demonstrou que ele era capaz de armazenar esses bits por quatro horas. O engenheiro Geoff Tootill [en] juntou-se à equipe em regime de empréstimo da TRE em setembro de 1947 e permaneceu destacado até abril de 1949.\nAntes de prosseguirmos, é importante esclarecer que nem Tom Kilburn nem eu sabíamos nada sobre computadores quando chegamos à Universidade de Manchester... Newman nos explicou todo o funcionamento de um computador.\nKilburn teve dificuldade em lembrar as influências no design de sua máquina:\nNaquela época, de alguma forma eu sabia o que era um computador digital... Não faço ideia de onde tirei esse conhecimento.\nJack Copeland [en] explica que o primeiro projeto de Kilburn (antes do Baby) sem acumulador (descentralizado, na nomenclatura de Jack Good) foi baseado em contribuições de Turing, mas que ele mais tarde mudou para uma máquina baseada em acumulador (centralizada) do tipo defendido por von Neumann, conforme escrito e ensinado a ele por Jack Good e Max Newman."
+    },
+    {
+      "id": "7793188_12",
+      "ordem": 12,
+      "texto": "O conjunto de sete instruções operacionais [en] do Baby era aproximadamente um subconjunto do conjunto de doze instruções operacionais proposto em 1947 por Jack Good, no primeiro documento conhecido a usar o termo “Baby” para esta máquina. Good não incluiu uma instrução “halt” (parar), e sua instrução de salto condicional proposta era mais complicada do que a implementada pelo Baby."
+    },
+    {
+      "id": "7793188_13",
+      "ordem": 13,
+      "texto": "Good não incluiu uma instrução “halt” (parar), e sua instrução de salto condicional proposta era mais complicada do que a implementada pelo Baby.\nDesenvolvimento e design: Embora Newman não tenha desempenhado nenhum papel de engenheiro no desenvolvimento do Baby, nem de qualquer outro computador subsequente de Manchester [en], ele apoiou e demonstrou entusiasmo pelo projeto, e providenciou a aquisição de suprimentos excedentes da guerra para sua construção, incluindo racks de metal GPO [en] e “...o material de dois Colossi completos” de Bletchley. A construção do Manchester Baby começou em dezembro de 1947, quando a memória CRT produziu imagens estáticas. O grupo precisava verificar se elas podiam ser alteradas e gravadas corretamente em velocidades eletrônicas. As prateleiras e as peças do Colossi foram modificadas e montadas em chassis por Norman Stanley Hammond e outros."
+    },
+    {
+      "id": "7793188_14",
+      "ordem": 14,
+      "texto": "As prateleiras e as peças do Colossi foram modificadas e montadas em chassis por Norman Stanley Hammond e outros.\nEm junho de 1948, o Baby já estava construído e funcionando. Tinha 5,2 m de comprimento, 2,24 m de altura e pesava quase 1 tonelada longa (1,0 t). A máquina continha 550 válvulas (tubos a vácuo) — 300 diodos e 250 pentodos [en] — e tinha um consumo de energia de 3.500 watts. A unidade aritmética foi construída usando válvulas pentodas EF50 [en], que haviam sido amplamente utilizadas durante a guerra. O Baby usava um tubo de Williams para fornecer palavras de 32 por 32 bits de memória de acesso aleatório (RAM), um segundo para armazenar um acumulador de 32 bits no qual os resultados intermediários de um cálculo podiam ser armazenados temporariamente e um terceiro para armazenar a instrução do programa atual junto com seu endereço na memória. Um quarto CRT, sem os componentes eletrônicos de armazenamento dos outros três, era usado como dispositivo de saída, capaz de exibir o padrão de bits de qualquer tubo de armazenamento selecionado."
+    },
+    {
+      "id": "7793188_15",
+      "ordem": 15,
+      "texto": "Um quarto CRT, sem os componentes eletrônicos de armazenamento dos outros três, era usado como dispositivo de saída, capaz de exibir o padrão de bits de qualquer tubo de armazenamento selecionado.\nCada palavra de 32 bits da RAM podia conter uma instrução de programa ou dados. Em uma instrução de programa, os bits 0–12 representavam o endereço de memória do operando a ser usado, e os bits 13–15 especificavam a operação a ser executada, como armazenar um número na memória; os 16 bits restantes não eram utilizados. A arquitetura de operando único do Baby significava que o segundo operando de qualquer operação era implícito: o acumulador ou o contador de programa (endereço da instrução); as instruções do programa especificavam apenas o endereço dos dados na memória.\nUma palavra na memória do computador podia ser lida, escrita ou atualizada em 360 microssegundos. Uma instrução levava quatro vezes mais tempo para ser executada do que acessar uma palavra da memória, resultando em uma taxa de execução de instruções de cerca de 700 por segundo. O armazenamento principal era atualizado continuamente, um processo que levava 20 milissegundos para ser concluído, pois cada uma das 32 palavras do Baby precisava ser lida e atualizada em sequência."
+    },
+    {
+      "id": "7793188_16",
+      "ordem": 16,
+      "texto": "O armazenamento principal era atualizado continuamente, um processo que levava 20 milissegundos para ser concluído, pois cada uma das 32 palavras do Baby precisava ser lida e atualizada em sequência.\nO Baby representava números negativos usando o complemento de dois, como a maioria dos computadores ainda faz. Nessa representação, o valor do bit mais significativo denota o sinal de um número [en]; números positivos têm um zero nessa posição e números negativos um um. Assim, o intervalo de números que podia ser armazenado em cada palavra de 32 bits era de −231 a +231 − 1 (decimal: −2.147.483.648 a +2.147.483.647)."
+    },
+    {
+      "id": "7793188_17",
+      "ordem": 17,
+      "texto": "Assim, o intervalo de números que podia ser armazenado em cada palavra de 32 bits era de −231 a +231 − 1 (decimal: −2.147.483.648 a +2.147.483.647).\nProgramação: O formato de instrução do Baby tinha um campo de código de operação de três bits, que permitia um máximo de oito (23) instruções diferentes. Em contraste com a convenção moderna, o armazenamento da máquina era descrito com os dígitos menos significativos à esquerda; assim, um era representado em três bits como “100”, em vez do mais convencional “001”.\nAs operações negativas pouco intuitivas eram uma consequência da ausência, no Baby, de hardware capaz de realizar operações aritméticas além de subtração e negação. Considerou-se desnecessário construir um somador antes do início dos testes, já que a adição pode ser facilmente implementada por meio da subtração, isto é, x + y pode ser calculado como −(−x − y).\nDessa forma, somar dois números, X e Y, exigia quatro instruções:\nLDN X // carrega −X no acumulador\nSUB Y // subtrai Y do valor no acumulador\nSTO S // armazena o resultado em S\nLDN S // carrega o valor negativo armazenado em S no acumulador\nOs programas eram inseridos em formato binário, percorrendo cada palavra da memória, uma a uma, e usando um conjunto de 32 botões e interruptores, conhecido como dispositivo de entrada, para definir o valor de cada bit de cada palavra como 0 ou 1. O Baby não tinha leitor de fita de papel nem perfurador."
+    },
+    {
+      "id": "7793188_18",
+      "ordem": 18,
+      "texto": "O Baby não tinha leitor de fita de papel nem perfurador.\nPrimeiros programas: Três programas foram escritos para o computador. O primeiro, composto por 17 instruções, foi escrito por Kilburn e, tanto quanto se pode verificar, foi executado pela primeira vez em 21 de junho de 1948. Ele foi projetado para encontrar o maior fator próprio de 218 (262.144), tentando todos os números inteiros de 218 − 1 para baixo. As divisões foram implementadas por meio de subtrações repetidas do divisor. O Baby levou 3,5 milhões de operações e 52 minutos para produzir a resposta (131.072). O programa usou oito palavras de memória de trabalho, além de suas 17 palavras de instruções, resultando em um tamanho de programa de 25 palavras.\nGeoff Tootill escreveu uma versão alterada do programa no mês seguinte e, em meados de julho, Alan Turing, que havia sido nomeado professor assistente no departamento de matemática da Universidade de Manchester em setembro de 1948, apresentou o terceiro programa, para realizar divisões longas [en]. Turing havia sido nomeado para o cargo nominal de vice-diretor do Laboratório de Máquinas Computacionais da universidade, embora o laboratório só tenha se tornado uma realidade física em 1951."
+    },
+    {
+      "id": "7793188_19",
+      "ordem": 19,
+      "texto": "Turing havia sido nomeado para o cargo nominal de vice-diretor do Laboratório de Máquinas Computacionais da universidade, embora o laboratório só tenha se tornado uma realidade física em 1951.\nDesenvolvimentos posteriores: Williams e Kilburn relataram sobre o Baby em uma carta ao jornal científico Nature, publicada em setembro de 1948. O sucesso da demonstração da máquina levou rapidamente à construção de um computador mais prático, o Manchester Mark I, cujo trabalho começou em agosto de 1948. A primeira versão estava operacional em abril de 1949, e isso, por sua vez, levou diretamente ao desenvolvimento do Ferranti Mark I [en], o primeiro computador de uso geral comercialmente disponível no mundo."
+    },
+    {
+      "id": "7793188_20",
+      "ordem": 20,
+      "texto": "A primeira versão estava operacional em abril de 1949, e isso, por sua vez, levou diretamente ao desenvolvimento do Ferranti Mark I [en], o primeiro computador de uso geral comercialmente disponível no mundo.\nLegado: No ano de 1998, uma réplica funcional do Baby, agora em exposição no Museu da Ciência e Indústria de Manchester, foi construída para comemorar o 50º aniversário da execução de seu primeiro programa. Demonstrações da máquina em funcionamento são realizadas regularmente no museu.\nEm 2008, uma fotografia panorâmica original de toda a máquina foi descoberta na Universidade de Manchester. A fotografia, tirada em 15 de dezembro de 1948 por um estudante de pesquisa, Alec Robinson, foi reproduzida no The Illustrated London News em junho de 1949."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "hardware:manchester_baby",
+      "nome": "Manchester Baby",
+      "tipo": "Hardware",
+      "aliases": [
+        "Small-Scale Experimental Machine",
+        "SSEM",
+        "Baby"
+      ],
+      "descricao": "Primeiro computador eletrônico com programa armazenado.",
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "7793188_0",
+        "7793188_1",
+        "7793188_8",
+        "7793188_9",
+        "7793188_12",
+        "7793188_13",
+        "7793188_14",
+        "7793188_15",
+        "7793188_16",
+        "7793188_17",
+        "7793188_18",
+        "7793188_19",
+        "7793188_20"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_de_manchester",
+      "nome": "Universidade de Manchester",
+      "tipo": "Organizacao",
+      "aliases": [
+        "University of Manchester",
+        "Victoria University of Manchester",
+        "Universidade Victoria de Manchester"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "7793188_0",
+        "7793188_7",
+        "7793188_8",
+        "7793188_10",
+        "7793188_11",
+        "7793188_18",
+        "7793188_20"
+      ]
+    },
+    {
+      "id": "pessoa:frederic_calland_williams",
+      "nome": "Frederic Calland Williams",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Williams",
+        "F. C. Williams"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "7793188_0",
+        "7793188_7",
+        "7793188_8",
+        "7793188_10",
+        "7793188_11",
+        "7793188_19"
+      ]
+    },
+    {
+      "id": "pessoa:tom_kilburn",
+      "nome": "Tom Kilburn",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Kilburn"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "7793188_0",
+        "7793188_8",
+        "7793188_11",
+        "7793188_18",
+        "7793188_19"
+      ]
+    },
+    {
+      "id": "pessoa:geoff_tootill",
+      "nome": "Geoff Tootill",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "7793188_0",
+        "7793188_11",
+        "7793188_18"
+      ]
+    },
+    {
+      "id": "tecnologia:tubo_de_williams",
+      "nome": "Tubo de Williams",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "tubo Williams-Kilburn"
+      ],
+      "descricao": "Primeira memória de acesso aleatório verdadeiramente aleatório.",
+      "propriedades": {
+        "tipo": "invencao"
+      },
+      "chunk_ids": [
+        "7793188_0",
+        "7793188_8",
+        "7793188_9",
+        "7793188_11",
+        "7793188_14"
+      ]
+    },
+    {
+      "id": "hardware:manchester_mark_i",
+      "nome": "Manchester Mark I",
+      "tipo": "Hardware",
+      "aliases": [
+        "Mark I"
+      ],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "7793188_0",
+        "7793188_1",
+        "7793188_9",
+        "7793188_19"
+      ]
+    },
+    {
+      "id": "hardware:ferranti_mark_i",
+      "nome": "Ferranti Mark I",
+      "tipo": "Hardware",
+      "aliases": [],
+      "descricao": "Primeiro computador de uso geral comercialmente disponível no mundo.",
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "7793188_0",
+        "7793188_1",
+        "7793188_19",
+        "7793188_20"
+      ]
+    },
+    {
+      "id": "hardware:maquina_analitica",
+      "nome": "Máquina analítica",
+      "tipo": "Hardware",
+      "aliases": [
+        "engenho analítico"
+      ],
+      "descricao": "Primeiro projeto de um computador controlado por programa.",
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "7793188_2"
+      ]
+    },
+    {
+      "id": "pessoa:charles_babbage",
+      "nome": "Charles Babbage",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Babbage"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "7793188_2"
+      ]
+    },
+    {
+      "id": "pessoa:ada_lovelace",
+      "nome": "Ada Lovelace",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Augusta Ada Byron King",
+        "Condessa de Lovelace",
+        "Lovelace"
+      ],
+      "descricao": "Matemática britânica que concebeu a ideia do primeiro programa teórico.",
+      "propriedades": {},
+      "chunk_ids": [
+        "7793188_2"
+      ]
+    },
+    {
+      "id": "pessoa:alan_turing",
+      "nome": "Alan Turing",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Alan Mathison Turing",
+        "Turing"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "7793188_2",
+        "7793188_3",
+        "7793188_5",
+        "7793188_10",
+        "7793188_11",
+        "7793188_18"
+      ]
+    },
+    {
+      "id": "tecnologia:maquina_de_turing",
+      "nome": "Máquina de Turing",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "máquina universal de Turing"
+      ],
+      "descricao": "Conceito teórico destinado a explorar os limites da computação mecânica.",
+      "propriedades": {
+        "ano": 1936,
+        "tipo": "conceito"
+      },
+      "chunk_ids": [
+        "7793188_2",
+        "7793188_3"
+      ]
+    },
+    {
+      "id": "pessoa:konrad_zuse",
+      "nome": "Konrad Zuse",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Konrad Ernst Otto Zuse",
+        "Zuse"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "7793188_3"
+      ]
+    },
+    {
+      "id": "hardware:z3",
+      "nome": "Z3",
+      "tipo": "Hardware",
+      "aliases": [],
+      "descricao": "Primeiro computador programável e totalmente automático do mundo, eletromecânico.",
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "7793188_3"
+      ]
+    },
+    {
+      "id": "hardware:computador_atanasoffberry",
+      "nome": "Computador Atanasoff–Berry",
+      "tipo": "Hardware",
+      "aliases": [],
+      "descricao": "Dispositivo eletrônico de computação sem programa armazenado.",
+      "propriedades": {
+        "ano": 1942,
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "7793188_3"
+      ]
+    },
+    {
+      "id": "hardware:colossus",
+      "nome": "Colossus",
+      "tipo": "Hardware",
+      "aliases": [
+        "computador Colossus",
+        "Colossus (computador)",
+        "Colossi"
+      ],
+      "descricao": "Primeiro computador eletrônico programável do mundo.",
+      "propriedades": {
+        "ano": 1943,
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "7793188_3",
+        "7793188_6",
+        "7793188_10",
+        "7793188_13",
+        "7793188_14"
+      ]
+    },
+    {
+      "id": "hardware:eniac",
+      "nome": "ENIAC",
+      "tipo": "Hardware",
+      "aliases": [],
+      "descricao": "Primeiro computador automático eletrônico e de uso geral.",
+      "propriedades": {
+        "ano": 1946,
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "7793188_3"
+      ]
+    },
+    {
+      "id": "pessoa:john_von_neumann",
+      "nome": "John von Neumann",
+      "tipo": "Pessoa",
+      "aliases": [
+        "von Neumann",
+        "Neumann János"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "7793188_3",
+        "7793188_10",
+        "7793188_11"
+      ]
+    },
+    {
+      "id": "tecnologia:arquitetura_de_von_neumann",
+      "nome": "Arquitetura de von Neumann",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "modelo de von Neumann"
+      ],
+      "propriedades": {
+        "tipo": "conceito"
+      },
+      "chunk_ids": [
+        "7793188_3"
+      ]
+    },
+    {
+      "id": "tecnologia:memoria_de_linha_de_atraso_de_mercurio",
+      "nome": "Memória de linha de atraso de mercúrio",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "descricao": "Primeira aplicação prática da memória de linha de atraso.",
+      "propriedades": {
+        "tipo": "invencao"
+      },
+      "chunk_ids": [
+        "7793188_4"
+      ]
+    },
+    {
+      "id": "pessoa:john_presper_eckert",
+      "nome": "John Presper Eckert",
+      "tipo": "Pessoa",
+      "aliases": [
+        "J. Presper Eckert",
+        "Presper Eckert",
+        "Eckert"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "7793188_4"
+      ]
+    },
+    {
+      "id": "organizacao:laboratorio_nacional_de_fisica",
+      "nome": "Laboratório Nacional de Física",
+      "tipo": "Organizacao",
+      "aliases": [
+        "NPL"
+      ],
+      "propriedades": {
+        "tipo": "laboratorio"
+      },
+      "chunk_ids": [
+        "7793188_5",
+        "7793188_6",
+        "7793188_7"
+      ]
+    },
+    {
+      "id": "hardware:automatic_computing_engine",
+      "nome": "Automatic Computing Engine",
+      "tipo": "Hardware",
+      "aliases": [
+        "ACE"
+      ],
+      "descricao": "Projeto de Turing para um computador eletrônico com programa armazenado.",
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "7793188_5",
+        "7793188_6",
+        "7793188_7"
+      ]
+    },
+    {
+      "id": "hardware:edvac",
+      "nome": "EDVAC",
+      "tipo": "Hardware",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "7793188_5",
+        "7793188_8"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_da_pensilvania",
+      "nome": "Universidade da Pensilvânia",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Universidade de Pensilvânia",
+        "Penn",
+        "UPenn",
+        "University of Pennsylvania"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "7793188_5"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_de_cambridge",
+      "nome": "Universidade de Cambridge",
+      "tipo": "Organizacao",
+      "aliases": [
+        "University of Cambridge",
+        "Cambridge"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "7793188_5",
+        "7793188_6",
+        "7793188_7"
+      ]
+    },
+    {
+      "id": "hardware:edsac",
+      "nome": "EDSAC",
+      "tipo": "Hardware",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "7793188_5",
+        "7793188_8"
+      ]
+    },
+    {
+      "id": "pessoa:tommy_flowers",
+      "nome": "Tommy Flowers",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Flowers"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "7793188_6"
+      ]
+    },
+    {
+      "id": "organizacao:laboratorio_de_correios_gerais",
+      "nome": "Laboratório de Correios Gerais",
+      "tipo": "Organizacao",
+      "aliases": [
+        "GPO"
+      ],
+      "propriedades": {
+        "tipo": "laboratorio"
+      },
+      "chunk_ids": [
+        "7793188_6"
+      ]
+    },
+    {
+      "id": "organizacao:instituto_de_pesquisa_em_telecomunicacoes",
+      "nome": "Instituto de Pesquisa em Telecomunicações",
+      "tipo": "Organizacao",
+      "aliases": [
+        "TRE"
+      ],
+      "propriedades": {
+        "tipo": "laboratorio"
+      },
+      "chunk_ids": [
+        "7793188_6",
+        "7793188_7",
+        "7793188_8",
+        "7793188_11"
+      ]
+    },
+    {
+      "id": "pessoa:maurice_wilkes",
+      "nome": "Maurice Wilkes",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "7793188_6",
+        "7793188_7"
+      ]
+    },
+    {
+      "id": "pessoa:a_m_uttley",
+      "nome": "A. M. Uttley",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Uttley"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "7793188_7"
+      ]
+    },
+    {
+      "id": "organizacao:bell_labs",
+      "nome": "Bell Labs",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Laboratórios Bell",
+        "Bell Laboratories",
+        "Nokia Bell Labs",
+        "Bell Telephone Laboratories",
+        "AT&T Bell Laboratories"
+      ],
+      "propriedades": {
+        "tipo": "laboratorio"
+      },
+      "chunk_ids": [
+        "7793188_8"
+      ]
+    },
+    {
+      "id": "pessoa:max_newman",
+      "nome": "Max Newman",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Newman"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "7793188_10",
+        "7793188_11",
+        "7793188_13"
+      ]
+    },
+    {
+      "id": "organizacao:bletchley_park",
+      "nome": "Bletchley Park",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Station X"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "7793188_10",
+        "7793188_13"
+      ]
+    },
+    {
+      "id": "pessoa:irving_john_good",
+      "nome": "Irving John Good",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Jack Good"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "7793188_10",
+        "7793188_11",
+        "7793188_12"
+      ]
+    },
+    {
+      "id": "pessoa:david_rees",
+      "nome": "David Rees",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "7793188_10"
+      ]
+    },
+    {
+      "id": "organizacao:royal_society",
+      "nome": "Royal Society",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "7793188_10"
+      ]
+    },
+    {
+      "id": "pessoa:jack_copeland",
+      "nome": "Jack Copeland",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "7793188_11"
+      ]
+    },
+    {
+      "id": "pessoa:norman_stanley_hammond",
+      "nome": "Norman Stanley Hammond",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "7793188_13",
+        "7793188_14"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:frederic_calland_williams",
+      "tipo": "CRIOU",
+      "destino": "hardware:manchester_baby",
+      "propriedades": {},
+      "chunk_id": "7793188_0",
+      "evidencia": "Foi construído na Universidade Victoria de Manchester [en] pelos pesquisadores Frederic Calland Williams, Tom Kilburn e Geoff Tootill [en]",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:tom_kilburn",
+      "tipo": "CRIOU",
+      "destino": "hardware:manchester_baby",
+      "propriedades": {},
+      "chunk_id": "7793188_0",
+      "evidencia": "Foi construído na Universidade Victoria de Manchester [en] pelos pesquisadores Frederic Calland Williams, Tom Kilburn e Geoff Tootill [en]",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:geoff_tootill",
+      "tipo": "CRIOU",
+      "destino": "hardware:manchester_baby",
+      "propriedades": {},
+      "chunk_id": "7793188_0",
+      "evidencia": "Foi construído na Universidade Victoria de Manchester [en] pelos pesquisadores Frederic Calland Williams, Tom Kilburn e Geoff Tootill [en]",
+      "confianca": 0.85
+    },
+    {
+      "origem": "organizacao:universidade_de_manchester",
+      "tipo": "DESENVOLVEU",
+      "destino": "hardware:manchester_baby",
+      "propriedades": {},
+      "chunk_id": "7793188_0",
+      "evidencia": "Foi construído na Universidade Victoria de Manchester [en] pelos pesquisadores",
+      "confianca": 0.7
+    },
+    {
+      "origem": "hardware:manchester_mark_i",
+      "tipo": "SUCESSOR_DE",
+      "destino": "hardware:manchester_baby",
+      "propriedades": {},
+      "chunk_id": "7793188_0",
+      "evidencia": "foi iniciado um projeto na universidade para desenvolvê-lo em uma máquina operacional em escala real, o Manchester Mark I",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:charles_babbage",
+      "tipo": "CRIOU",
+      "destino": "hardware:maquina_analitica",
+      "propriedades": {},
+      "chunk_id": "7793188_2",
+      "evidencia": "a Máquina Analítica desenvolvida pelo britânico Charles Babbage",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:alan_turing",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:maquina_de_turing",
+      "propriedades": {
+        "ano": 1936
+      },
+      "chunk_id": "7793188_2",
+      "evidencia": "em 1936, o também matemático britânico Alan Turing publicou sua descrição do que ficou conhecido como máquina de Turing",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:konrad_zuse",
+      "tipo": "CRIOU",
+      "destino": "hardware:z3",
+      "propriedades": {},
+      "chunk_id": "7793188_3",
+      "evidencia": "O Z3, concebido pelo pesquisador alemão Konrad Zuse",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:john_von_neumann",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:arquitetura_de_von_neumann",
+      "propriedades": {},
+      "chunk_id": "7793188_3",
+      "evidencia": "foi o matemático John von Neumann quem escreveu um artigo amplamente divulgado descrevendo essa arquitetura de computador",
+      "confianca": 0.75
+    },
+    {
+      "origem": "pessoa:john_presper_eckert",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:memoria_de_linha_de_atraso_de_mercurio",
+      "propriedades": {},
+      "chunk_id": "7793188_4",
+      "evidencia": "memória de linha de atraso]] [en] de mercúrio, desenvolvida por John Presper Eckert",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:alan_turing",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:laboratorio_nacional_de_fisica",
+      "propriedades": {
+        "ano_inicio": 1945
+      },
+      "chunk_id": "7793188_5",
+      "evidencia": "Turing ingressou no Laboratório Nacional de Física (NPL) em outubro de 1945",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:alan_turing",
+      "tipo": "CRIOU",
+      "destino": "hardware:automatic_computing_engine",
+      "propriedades": {},
+      "chunk_id": "7793188_5",
+      "evidencia": "Turing apresentou um artigo descrevendo seu projeto para um computador eletrônico com programa armazenado, que ficaria conhecido como Automatic Computing Engine (ACE)",
+      "confianca": 0.8
+    },
+    {
+      "origem": "organizacao:universidade_da_pensilvania",
+      "tipo": "DESENVOLVEU",
+      "destino": "hardware:edvac",
+      "propriedades": {},
+      "chunk_id": "7793188_5",
+      "evidencia": "o EDVAC estava em desenvolvimento na Escola Moore de Engenharia Elétrica [en] da Universidade da Pensilvânia",
+      "confianca": 0.7
+    },
+    {
+      "origem": "organizacao:universidade_de_cambridge",
+      "tipo": "DESENVOLVEU",
+      "destino": "hardware:edsac",
+      "propriedades": {},
+      "chunk_id": "7793188_5",
+      "evidencia": "o Departamento de Ciência da Computação e Tecnologia da Universidade de Cambridge [en] estava trabalhando no EDSAC",
+      "confianca": 0.7
+    },
+    {
+      "origem": "pessoa:tommy_flowers",
+      "tipo": "CRIOU",
+      "destino": "hardware:colossus",
+      "propriedades": {},
+      "chunk_id": "7793188_6",
+      "evidencia": "Flowers, o projetista do Colossus",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:tommy_flowers",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:laboratorio_de_correios_gerais",
+      "propriedades": {},
+      "chunk_id": "7793188_6",
+      "evidencia": "Tommy Flowers [en], do Laboratório de Correios Gerais [en] (GPO)",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:maurice_wilkes",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:universidade_de_cambridge",
+      "propriedades": {},
+      "chunk_id": "7793188_6",
+      "evidencia": "Maurice Wilkes, do Departamento de Ciência da Computação e Tecnologia da Universidade de Cambridge",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:maurice_wilkes",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:universidade_de_cambridge",
+      "propriedades": {},
+      "chunk_id": "7793188_7",
+      "evidencia": "Maurice Wilkes, do Departamento de Ciência da Computação e Tecnologia da Universidade de Cambridge",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:frederic_calland_williams",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:instituto_de_pesquisa_em_telecomunicacoes",
+      "propriedades": {},
+      "chunk_id": "7793188_7",
+      "evidencia": "Frederic Calland Williams e A. M. Uttley, também do TRE",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:a_m_uttley",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:instituto_de_pesquisa_em_telecomunicacoes",
+      "propriedades": {},
+      "chunk_id": "7793188_7",
+      "evidencia": "Frederic Calland Williams e A. M. Uttley, também do TRE",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:frederic_calland_williams",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:universidade_de_manchester",
+      "propriedades": {
+        "cargo": "professor"
+      },
+      "chunk_id": "7793188_7",
+      "evidencia": "já havia aceitado um cargo de professor na Universidade Victoria de Manchester [en]",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:frederic_calland_williams",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:tubo_de_williams",
+      "propriedades": {},
+      "chunk_id": "7793188_8",
+      "evidencia": "Williams e Tom Kilburn desenvolveram uma forma de memória eletrônica conhecida como tubo de Williams ou tubo Williams-Kilburn",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:tom_kilburn",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:tubo_de_williams",
+      "propriedades": {},
+      "chunk_id": "7793188_8",
+      "evidencia": "Williams e Tom Kilburn desenvolveram uma forma de memória eletrônica conhecida como tubo de Williams ou tubo Williams-Kilburn",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:frederic_calland_williams",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:instituto_de_pesquisa_em_telecomunicacoes",
+      "propriedades": {},
+      "chunk_id": "7793188_8",
+      "evidencia": "Enquanto trabalhava na TRE, pouco antes de ingressar na Universidade de Manchester em dezembro de 1946",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:frederic_calland_williams",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:universidade_de_manchester",
+      "propriedades": {
+        "ano_inicio": 1946
+      },
+      "chunk_id": "7793188_8",
+      "evidencia": "pouco antes de ingressar na Universidade de Manchester em dezembro de 1946",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:max_newman",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:bletchley_park",
+      "propriedades": {},
+      "chunk_id": "7793188_10",
+      "evidencia": "Adotando a abordagem que havia usado com tanta eficácia em Bletchley Park, Newman deixou sua equipe trabalhar nos detalhes",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:max_newman",
+      "tipo": "CRIOU",
+      "destino": "hardware:colossus",
+      "propriedades": {},
+      "chunk_id": "7793188_10",
+      "evidencia": "Após desenvolver o computador Colossus para decifrar códigos em Bletchley Park durante a Segunda Guerra Mundial, Max Newman",
+      "confianca": 0.7
+    },
+    {
+      "origem": "pessoa:max_newman",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:universidade_de_manchester",
+      "propriedades": {
+        "cargo": "Cátedra Fielden de Matemática Pura",
+        "ano_inicio": 1945
+      },
+      "chunk_id": "7793188_10",
+      "evidencia": "No ano de 1945, ele foi nomeado para a Cátedra Fielden de Matemática Pura na Universidade de Manchester",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:irving_john_good",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:max_newman",
+      "propriedades": {
+        "contexto": "projeto Colossus"
+      },
+      "chunk_id": "7793188_10",
+      "evidencia": "ele levou seus colegas do projeto Colossus, Irving John Good e David Rees, para Manchester com ele",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:david_rees",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:max_newman",
+      "propriedades": {
+        "contexto": "projeto Colossus"
+      },
+      "chunk_id": "7793188_10",
+      "evidencia": "ele levou seus colegas do projeto Colossus, Irving John Good e David Rees, para Manchester com ele",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:frederic_calland_williams",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:universidade_de_manchester",
+      "propriedades": {
+        "cargo": "professor"
+      },
+      "chunk_id": "7793188_11",
+      "evidencia": "Após sua nomeação ser professor no curso de Engenharia Elétrica na Universidade de Manchester, Williams",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:tom_kilburn",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:instituto_de_pesquisa_em_telecomunicacoes",
+      "propriedades": {},
+      "chunk_id": "7793188_11",
+      "evidencia": "Williams recrutou seu colega da TRE, Tom Kilburn",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:frederic_calland_williams",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:tom_kilburn",
+      "propriedades": {
+        "contexto": "aumentaram a capacidade de armazenamento do tubo de Williams"
+      },
+      "chunk_id": "7793188_11",
+      "evidencia": "a dupla aumentou a capacidade de armazenamento do tubo de Williams de um bit para 2.048",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:geoff_tootill",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:instituto_de_pesquisa_em_telecomunicacoes",
+      "propriedades": {},
+      "chunk_id": "7793188_11",
+      "evidencia": "Geoff Tootill [en] juntou-se à equipe em regime de empréstimo da TRE em setembro de 1947",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:alan_turing",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:universidade_de_manchester",
+      "propriedades": {
+        "cargo": "professor assistente",
+        "ano_inicio": 1948
+      },
+      "chunk_id": "7793188_18",
+      "evidencia": "Alan Turing, que havia sido nomeado professor assistente no departamento de matemática da Universidade de Manchester em setembro de 1948",
+      "confianca": 0.9
+    },
+    {
+      "origem": "hardware:manchester_mark_i",
+      "tipo": "SUCESSOR_DE",
+      "destino": "hardware:manchester_baby",
+      "propriedades": {},
+      "chunk_id": "7793188_19",
+      "evidencia": "O sucesso da demonstração da máquina levou rapidamente à construção de um computador mais prático, o Manchester Mark I",
+      "confianca": 0.8
+    },
+    {
+      "origem": "hardware:ferranti_mark_i",
+      "tipo": "SUCESSOR_DE",
+      "destino": "hardware:manchester_mark_i",
+      "propriedades": {},
+      "chunk_id": "7793188_19",
+      "evidencia": "isso, por sua vez, levou diretamente ao desenvolvimento do Ferranti Mark I",
+      "confianca": 0.75
+    }
+  ]
+}

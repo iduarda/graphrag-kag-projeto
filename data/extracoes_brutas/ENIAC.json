@@ -1,0 +1,295 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:23:22+00:00",
+ "chunks": [
+  {
+   "chunk_id": "135883_0",
+   "entidades": [
+    {
+     "nome": "ENIAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador",
+      "ano": 1946
+     },
+     "descricao": "Primeiro dispositivo computacional eletroeletrônico e digital de grande escala."
+    },
+    {
+     "nome": "John Presper Eckert",
+     "tipo": "Pessoa",
+     "aliases": [
+      "John Eckert",
+      "Eckert"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Mauchly",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Mauchly"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Electronic Control Company",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John Presper Eckert",
+     "tipo": "CRIOU",
+     "destino": "ENIAC",
+     "propriedades": {},
+     "evidencia": "pelos cientistas norte-americanos John Eckert e John Mauchly (da Electronic Control Company)",
+     "confianca": 0.85
+    },
+    {
+     "origem": "John Mauchly",
+     "tipo": "CRIOU",
+     "destino": "ENIAC",
+     "propriedades": {},
+     "evidencia": "pelos cientistas norte-americanos John Eckert e John Mauchly (da Electronic Control Company)",
+     "confianca": 0.85
+    },
+    {
+     "origem": "John Presper Eckert",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Electronic Control Company",
+     "propriedades": {},
+     "evidencia": "pelos cientistas norte-americanos John Eckert e John Mauchly (da Electronic Control Company)",
+     "confianca": 0.8
+    },
+    {
+     "origem": "John Mauchly",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Electronic Control Company",
+     "propriedades": {},
+     "evidencia": "pelos cientistas norte-americanos John Eckert e John Mauchly (da Electronic Control Company)",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "135883_1",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "135883_2",
+   "entidades": [
+    {
+     "nome": "ENIAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador",
+      "ano": 1946
+     },
+     "descricao": "Primeiro dispositivo computacional eletroeletrônico e digital de grande escala."
+    },
+    {
+     "nome": "John Presper Eckert",
+     "tipo": "Pessoa",
+     "aliases": [
+      "John Eckert",
+      "Eckert"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Mauchly",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Mauchly"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade da Pensilvânia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John Presper Eckert",
+     "tipo": "CRIOU",
+     "destino": "ENIAC",
+     "propriedades": {},
+     "evidencia": "Criado pelos engenheiros John Eckert e John Mauchly na Universidade da Pensilvânia",
+     "confianca": 0.9
+    },
+    {
+     "origem": "John Mauchly",
+     "tipo": "CRIOU",
+     "destino": "ENIAC",
+     "propriedades": {},
+     "evidencia": "Criado pelos engenheiros John Eckert e John Mauchly na Universidade da Pensilvânia",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "135883_3",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "135883_4",
+   "entidades": [
+    {
+     "nome": "Universidade da Pensilvânia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "135883_5",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "135883_6",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ENIAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador",
+      "ano": 1946
+     },
+     "descricao": "Primeiro dispositivo computacional eletroeletrônico e digital de grande escala."
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "135883_7",
+   "entidades": [
+    {
+     "nome": "ENIAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador",
+      "ano": 1946
+     },
+     "descricao": "Primeiro dispositivo computacional eletroeletrônico e digital de grande escala."
+    },
+    {
+     "nome": "Universidade da Pensilvânia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "135883_8",
+   "entidades": [
+    {
+     "nome": "ENIAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador",
+      "ano": 1946
+     },
+     "descricao": "Primeiro dispositivo computacional eletroeletrônico e digital de grande escala."
+    },
+    {
+     "nome": "EDVAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "UNIVAC I",
+     "tipo": "Hardware",
+     "aliases": [
+      "UNIVAC"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "John Presper Eckert",
+     "tipo": "Pessoa",
+     "aliases": [
+      "John Eckert",
+      "Eckert"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Mauchly",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Mauchly"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John Presper Eckert",
+     "tipo": "CRIOU",
+     "destino": "UNIVAC I",
+     "propriedades": {},
+     "evidencia": "o UNIVAC, este último também construído por Eckert e Mauchly",
+     "confianca": 0.8
+    },
+    {
+     "origem": "John Mauchly",
+     "tipo": "CRIOU",
+     "destino": "UNIVAC I",
+     "propriedades": {},
+     "evidencia": "o UNIVAC, este último também construído por Eckert e Mauchly",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "135883_9",
+   "entidades": [
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

@@ -1,0 +1,867 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:26:13+00:00",
+ "chunks": [
+  {
+   "chunk_id": "6918_0",
+   "entidades": [
+    {
+     "nome": "Paul Allen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Paul Gardner Allen",
+      "Allen"
+     ],
+     "descricao": "Empresário e filantropo americano, cofundador da Microsoft.",
+     "propriedades": {
+      "ano_nascimento": 1953,
+      "ano_morte": 2018
+     }
+    },
+    {
+     "nome": "Bill Gates",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "A maior e mais conhecida empresa de software do mundo, segundo o texto.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Seattle",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Vulcan Inc.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Empresa que administra os negócios e projetos filantrópicos de Allen.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Allen Institute for Brain Science",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Allen Institute for Artificial Intelligence",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Allen Institute for Cell Science",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Stratolaunch Systems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Paul Allen",
+     "tipo": "NASCEU_EM",
+     "destino": "Seattle",
+     "propriedades": {},
+     "evidencia": "Paul Gardner Allen (Seattle, 21 de janeiro de 1953",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "FUNDOU",
+     "destino": "Microsoft",
+     "propriedades": {},
+     "evidencia": "Em parceria com Bill Gates, foi fundador da Microsoft",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Bill Gates",
+     "tipo": "FUNDOU",
+     "destino": "Microsoft",
+     "propriedades": {},
+     "evidencia": "Em parceria com Bill Gates, foi fundador da Microsoft",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "COLABOROU_COM",
+     "destino": "Bill Gates",
+     "propriedades": {
+      "contexto": "fundação da Microsoft"
+     },
+     "evidencia": "Em parceria com Bill Gates, foi fundador da Microsoft",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "FUNDOU",
+     "destino": "Vulcan Inc.",
+     "propriedades": {},
+     "evidencia": "Allen foi fundador e presidente da Vulcan Inc.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "FUNDOU",
+     "destino": "Allen Institute for Brain Science",
+     "propriedades": {},
+     "evidencia": "Ele também foi fundador do Allen Institute for Brain Science, do Allen Institute for Artificial Intelligence, do Allen Institute for Cell Science e do Stratolaunch Systems.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "FUNDOU",
+     "destino": "Allen Institute for Artificial Intelligence",
+     "propriedades": {},
+     "evidencia": "Ele também foi fundador do Allen Institute for Brain Science, do Allen Institute for Artificial Intelligence, do Allen Institute for Cell Science e do Stratolaunch Systems.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "FUNDOU",
+     "destino": "Allen Institute for Cell Science",
+     "propriedades": {},
+     "evidencia": "Ele também foi fundador do Allen Institute for Brain Science, do Allen Institute for Artificial Intelligence, do Allen Institute for Cell Science e do Stratolaunch Systems.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "FUNDOU",
+     "destino": "Stratolaunch Systems",
+     "propriedades": {},
+     "evidencia": "Ele também foi fundador do Allen Institute for Brain Science, do Allen Institute for Artificial Intelligence, do Allen Institute for Cell Science e do Stratolaunch Systems.",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "6918_1",
+   "entidades": [
+    {
+     "nome": "Paul Allen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Allen"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bill Gates",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gates"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Seattle",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Kenneth Sam Allen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Pai de Paul Allen, diretor das bibliotecas da Universidade de Washington.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Washington",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Lakeside School",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Escola particular em Seattle.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade do Estado de Washington",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Honeywell",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Boston",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Universidade Harvard",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Paul Allen",
+     "tipo": "NASCEU_EM",
+     "destino": "Seattle",
+     "propriedades": {},
+     "evidencia": "Paul Allen nasceu em Seattle, Washington",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Kenneth Sam Allen",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Washington",
+     "propriedades": {
+      "cargo": "diretor das bibliotecas"
+     },
+     "evidencia": "Kenneth Sam Allen, diretor das bibliotecas da Universidade de Washington",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Lakeside School",
+     "propriedades": {},
+     "evidencia": "Allen estudou na Lakeside School",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "COLABOROU_COM",
+     "destino": "Bill Gates",
+     "propriedades": {
+      "contexto": "amigos na Lakeside School, usaram os sistemas de computadores da escola para aprimorar a programação"
+     },
+     "evidencia": "ficou amigo de Bill Gates, que era quase três anos mais jovem que ele e compartilhava de seu entusiasmo por computadores",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade do Estado de Washington",
+     "propriedades": {},
+     "evidencia": "Allen foi para a Universidade do Estado de Washington",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Honeywell",
+     "propriedades": {
+      "cargo": "programador"
+     },
+     "evidencia": "abandonou dois anos depois para trabalhar como programador para a Honeywell em Boston",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "6918_2",
+   "entidades": [
+    {
+     "nome": "Paul Allen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Allen"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bill Gates",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gates"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Albuquerque",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "BASIC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "QDOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema operacional desenvolvido por Tim Paterson.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Tim Paterson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Seattle Computer Products",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Paul Allen",
+     "tipo": "FUNDOU",
+     "destino": "Microsoft",
+     "propriedades": {
+      "ano": 1975
+     },
+     "evidencia": "Allen fundou a Microsoft junto com Bill Gates em Albuquerque, Novo México, em 1975",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Bill Gates",
+     "tipo": "FUNDOU",
+     "destino": "Microsoft",
+     "propriedades": {
+      "ano": 1975
+     },
+     "evidencia": "Allen fundou a Microsoft junto com Bill Gates em Albuquerque, Novo México, em 1975",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Tim Paterson",
+     "tipo": "CRIOU",
+     "destino": "QDOS",
+     "propriedades": {},
+     "evidencia": "QDOS, que foi desenvolvido pelo programador Tim Paterson",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Tim Paterson",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Seattle Computer Products",
+     "propriedades": {
+      "cargo": "programador"
+     },
+     "evidencia": "no tempo em que este trabalhava na Seattle Computer Products",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Microsoft",
+     "propriedades": {
+      "cargo": "membro do conselho de administração",
+      "ano_fim": 2000
+     },
+     "evidencia": "Allen renunciou oficialmente ao seu lugar no conselho de administração da Microsoft em Novembro de 2000",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "6918_3",
+   "entidades": [
+    {
+     "nome": "Paul Allen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Allen"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Burt Rutan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "National Air and Space Museum Trophy",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Vanguard Award",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Oregon Sports Award",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "W.J.S. Krief Lifetime Achievement Award",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Paul Allen",
+     "tipo": "RECEBEU",
+     "destino": "National Air and Space Museum Trophy",
+     "propriedades": {
+      "ano": 2005
+     },
+     "evidencia": "Em 9 de Março de 2005, Paul Allen, Burt Rutan e a equipe da SpaceShipOne venceram o National Air and Space Museum Trophy 2005",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Burt Rutan",
+     "tipo": "RECEBEU",
+     "destino": "National Air and Space Museum Trophy",
+     "propriedades": {
+      "ano": 2005
+     },
+     "evidencia": "Em 9 de Março de 2005, Paul Allen, Burt Rutan e a equipe da SpaceShipOne venceram o National Air and Space Museum Trophy 2005",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "RECEBEU",
+     "destino": "Vanguard Award",
+     "propriedades": {
+      "ano": 2008
+     },
+     "evidencia": "Ele recebeu o Vanguard Award da National Cable & Telecommunications Association em 20 de maio de 2008",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "RECEBEU",
+     "destino": "Oregon Sports Award",
+     "propriedades": {
+      "ano": 2009
+     },
+     "evidencia": "Em 2009, a filantropia de Allen como proprietário de longa data dos Trail Blazers foi reconhecida com um Oregon Sports Award",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "RECEBEU",
+     "destino": "W.J.S. Krief Lifetime Achievement Award",
+     "propriedades": {
+      "ano": 2010
+     },
+     "evidencia": "Em 26 de outubro de 2010, Paul Allen recebeu o prêmio W.J.S. Krief Lifetime Achievement Award",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "6918_4",
+   "entidades": [
+    {
+     "nome": "Paul Allen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Allen"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6918_5",
+   "entidades": [
+    {
+     "nome": "Paul G. Allen Family Foundation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Fundação estabelecida para administrar os projetos filantrópicos de Allen.",
+     "propriedades": {
+      "tipo": "fundacao",
+      "ano_fundacao": 1988
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6918_6",
+   "entidades": [
+    {
+     "nome": "Paul Allen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Allen"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Allen Institute for Brain Science",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Organização sem fins lucrativos que tem como objetivo entender como o cérebro humano funciona.",
+     "propriedades": {
+      "ano_fundacao": 2003
+     }
+    },
+    {
+     "nome": "Allen Institute for Cell Science",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Instituto de pesquisa celular em Seattle.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Allen Institute for Artificial Intelligence",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Seattle",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Paul Allen",
+     "tipo": "FUNDOU",
+     "destino": "Allen Institute for Brain Science",
+     "propriedades": {
+      "ano": 2003
+     },
+     "evidencia": "Allen fundou o instituto em 2003 com uma doação de US$ 100 milhões",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Allen Institute for Brain Science",
+     "tipo": "SEDIADA_EM",
+     "destino": "Seattle",
+     "propriedades": {},
+     "evidencia": "O Allen Institute for Brain Science é uma organização sem fins lucrativos sediada em Seattle",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "FUNDOU",
+     "destino": "Allen Institute for Cell Science",
+     "propriedades": {},
+     "evidencia": "Em dezembro de 2014, Paul Allen destinou US$ 100 milhões para criar o instituto de pesquisa celular em Seattle",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Allen Institute for Cell Science",
+     "tipo": "SEDIADA_EM",
+     "destino": "Seattle",
+     "propriedades": {},
+     "evidencia": "Em dezembro de 2014, Paul Allen destinou US$ 100 milhões para criar o instituto de pesquisa celular em Seattle",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "6918_7",
+   "entidades": [
+    {
+     "nome": "Paul Allen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Allen"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "International SeaKeepers Society",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Organização fundada por um grupo de donos de iates para desenvolver tecnologias em iates que monitorem as condições marítimas.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto SETI",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Paul Allen",
+     "tipo": "FUNDOU",
+     "destino": "International SeaKeepers Society",
+     "propriedades": {},
+     "evidencia": "Paul Allen é membro fundador do International SeaKeepers Society",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "6918_8",
+   "entidades": [
+    {
+     "nome": "UNICEF",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Médicos sem Fronteiras",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6918_9",
+   "entidades": [
+    {
+     "nome": "Paul Allen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Allen"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "EMP Museum",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Museu de cultura pop e rock and roll em Seattle.",
+     "propriedades": {
+      "ano_fundacao": 2000
+     }
+    },
+    {
+     "nome": "Flying Heritage Collection",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Exibição de aviões militares e armamentos restaurados.",
+     "propriedades": {
+      "ano_fundacao": 2004
+     }
+    },
+    {
+     "nome": "Living Computer Museum",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Coleção de computadores antigos em ordem e disponíveis para sessões interativas.",
+     "propriedades": {
+      "ano_fundacao": 2006
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Paul Allen",
+     "tipo": "FUNDOU",
+     "destino": "EMP Museum",
+     "propriedades": {
+      "ano": 2000
+     },
+     "evidencia": "Paul Allen fundou várias instituições que exibem suas coleções particulares de artefatos históricos",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "FUNDOU",
+     "destino": "Flying Heritage Collection",
+     "propriedades": {
+      "ano": 2004
+     },
+     "evidencia": "Paul Allen fundou várias instituições que exibem suas coleções particulares de artefatos históricos",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "FUNDOU",
+     "destino": "Living Computer Museum",
+     "propriedades": {
+      "ano": 2006
+     },
+     "evidencia": "Paul Allen fundou várias instituições que exibem suas coleções particulares de artefatos históricos",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "6918_10",
+   "entidades": [
+    {
+     "nome": "Paul Allen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Allen"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Eli and Edythe Broad Award for Philanthrophy in the Arts",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Living Computer Museum",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "ano_fundacao": 2006
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Paul Allen",
+     "tipo": "RECEBEU",
+     "destino": "Eli and Edythe Broad Award for Philanthrophy in the Arts",
+     "propriedades": {
+      "ano": 2012
+     },
+     "evidencia": "Em 15 de outubro de 2012, o Americans for the Arts premiou Allen com o Eli and Edythe Broad Award for Philanthrophy in the Arts",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "6918_11",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6918_12",
+   "entidades": [
+    {
+     "nome": "Paul Allen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Allen"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Kenneth Sam Allen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Washington",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Seattle",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Kenneth Sam Allen",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Washington",
+     "propriedades": {
+      "cargo": "diretor das bibliotecas"
+     },
+     "evidencia": "Kenneth Sam Allen, que foi diretor das bibliotecas da Universidade de Washington",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Washington",
+     "propriedades": {},
+     "evidencia": "na Universidade de Washington, sua alma mater",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "NASCEU_EM",
+     "destino": "Seattle",
+     "propriedades": {},
+     "evidencia": "Allen morreu em sua cidade natal, Seattle",
+     "confianca": 0.85
+    }
+   ]
+  }
+ ]
+}

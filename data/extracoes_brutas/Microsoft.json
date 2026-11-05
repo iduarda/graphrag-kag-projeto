@@ -1,0 +1,1264 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:23:22+00:00",
+ "chunks": [
+  {
+   "chunk_id": "6530_0",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Microsoft Corporation"
+     ],
+     "descricao": "Empresa transnacional de tecnologia dos Estados Unidos que desenvolve, licencia e vende softwares, computadores e serviços.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Redmond",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Washington",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Windows"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Xbox",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Console de jogos eletrônicos da Microsoft.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Surface",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Série de tablets da Microsoft.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Nokia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Microsoft",
+     "tipo": "SEDIADA_EM",
+     "destino": "Redmond",
+     "propriedades": {},
+     "evidencia": "empresa transnacional de tecnologia dos Estados Unidos com sede em Redmond, Washington",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "Microsoft Windows",
+     "propriedades": {},
+     "evidencia": "Entre seus produtos de software mais conhecidos estão as linhas de sistemas operacionais Windows",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "Xbox",
+     "propriedades": {},
+     "evidencia": "Entre seus principais produtos de hardware estão os consoles de jogos eletrônicos Xbox, a série de tablets Surface",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "Surface",
+     "propriedades": {},
+     "evidencia": "Entre seus principais produtos de hardware estão os consoles de jogos eletrônicos Xbox, a série de tablets Surface",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "6530_1",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1975
+     }
+    },
+    {
+     "nome": "Bill Gates",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Paul Allen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "BASIC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Altair 8800",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bill Gates",
+     "tipo": "FUNDOU",
+     "destino": "Microsoft",
+     "propriedades": {
+      "ano": 1975
+     },
+     "evidencia": "A Microsoft foi fundada por Bill Gates e Paul Allen em 4 de abril de 1975",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "FUNDOU",
+     "destino": "Microsoft",
+     "propriedades": {
+      "ano": 1975
+     },
+     "evidencia": "A Microsoft foi fundada por Bill Gates e Paul Allen em 4 de abril de 1975",
+     "confianca": 0.95
+    },
+    {
+     "origem": "BASIC",
+     "tipo": "EXECUTA_EM",
+     "destino": "Altair 8800",
+     "propriedades": {},
+     "evidencia": "para desenvolver e vender interpretadores BASIC para o Altair 8800",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "MS-DOS",
+     "propriedades": {},
+     "evidencia": "iria dominar o mercado de sistemas operacionais de computadores pessoais com o MS-DOS",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "6530_2",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Skype Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Nokia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Mojang Studios",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "ZeniMax Media",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Nuance Communications",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Activision Blizzard",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6530_3",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Surface",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Linha de computadores e tablets lançada pela Microsoft em 2012.",
+     "propriedades": {
+      "tipo": "computador",
+      "ano": 2012
+     }
+    },
+    {
+     "nome": "Nokia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Nuance Communications",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "Surface",
+     "propriedades": {
+      "ano": 2012
+     },
+     "evidencia": "Em junho de 2012, a Microsoft entrou pela primeira vez no mercado de produção de computadores pessoais, com o lançamento do Surface, uma linha de computadores e tablets.",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "6530_4",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1975
+     }
+    },
+    {
+     "nome": "Bill Gates",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Paul Allen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "BASIC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Altair 8800",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "MITS",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "CP/M",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Digital Research",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Seattle Computers",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Q-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "COBOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fortran",
+     "tipo": "Linguagem",
+     "aliases": [
+      "FORTRAN"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bill Gates",
+     "tipo": "FUNDOU",
+     "destino": "Microsoft",
+     "propriedades": {
+      "ano": 1975
+     },
+     "evidencia": "A Microsoft foi fundada em 1975 por Bill Gates e Paul Allen.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "FUNDOU",
+     "destino": "Microsoft",
+     "propriedades": {
+      "ano": 1975
+     },
+     "evidencia": "A Microsoft foi fundada em 1975 por Bill Gates e Paul Allen.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "BASIC",
+     "propriedades": {},
+     "evidencia": "O primeiro produto desenvolvido pela empresa foi uma versão do interpretador BASIC, para o computador Altair 8800 da MITS.",
+     "confianca": 0.75
+    },
+    {
+     "origem": "BASIC",
+     "tipo": "EXECUTA_EM",
+     "destino": "Altair 8800",
+     "propriedades": {},
+     "evidencia": "uma versão do interpretador BASIC, para o computador Altair 8800 da MITS",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "6530_5",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Xerox Alto",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Windows"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "OS/2",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "OS/2",
+     "propriedades": {},
+     "evidencia": "o OS/2, desenvolvido com a IBM, para estações de trabalho",
+     "confianca": 0.8
+    },
+    {
+     "origem": "IBM",
+     "tipo": "DESENVOLVEU",
+     "destino": "OS/2",
+     "propriedades": {},
+     "evidencia": "o OS/2, desenvolvido com a IBM, para estações de trabalho",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "Microsoft Windows",
+     "propriedades": {},
+     "evidencia": "Em 1990 a Microsoft apresenta o Windows 3.0 para computadores pessoais",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "6530_6",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6530_7",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "GNU/Linux"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Apple Inc."
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6530_8",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Xbox",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "Xbox",
+     "propriedades": {},
+     "evidencia": "No mesmo ano lança a Xbox, a seu primeiro console de videogame",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "6530_9",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Xbox",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "Xbox",
+     "propriedades": {},
+     "evidencia": "No mesmo ano lança a Xbox, a seu primeiro console de videogame",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "6530_10",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Yahoo!",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Jerry Yang",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Ballmer",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Jerry Yang",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Yahoo!",
+     "propriedades": {
+      "cargo": "CEO"
+     },
+     "evidencia": "Jerry Yang, então CEO da Yahoo!",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Steve Ballmer",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Microsoft",
+     "propriedades": {
+      "cargo": "CEO"
+     },
+     "evidencia": "Steve Ballmer, ex-CEO da Microsoft",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "6530_11",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Steve Ballmer",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "nVidia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Ballmer",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Microsoft",
+     "propriedades": {
+      "cargo": "CEO"
+     },
+     "evidencia": "Steve Ballmer, ex-CEO da Microsoft",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "6530_12",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Nokia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Satya Nadella",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Ballmer",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Satya Nadella",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Microsoft",
+     "propriedades": {
+      "cargo": "CEO",
+      "ano_inicio": 2014
+     },
+     "evidencia": "Em 4 de fevereiro de 2014, a Microsoft nomeou o indiano Satya Nadella como seu novo CEO, sucedendo Steve Ballmer.",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "6530_13",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Satya Nadella",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Ballmer",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "OpenAI",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Activision Blizzard",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Satya Nadella",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Microsoft",
+     "propriedades": {
+      "cargo": "CEO",
+      "ano_inicio": 2014
+     },
+     "evidencia": "Em 4 de fevereiro de 2014, a Microsoft nomeou o indiano Satya Nadella como seu novo CEO, sucedendo Steve Ballmer.",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "6530_14",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "OpenAI",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Bill Gates",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Paul Allen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Altair 8800",
+     "tipo": "Hardware",
+     "aliases": [
+      "computador Altair"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bill Gates",
+     "tipo": "COLABOROU_COM",
+     "destino": "Paul Allen",
+     "propriedades": {
+      "contexto": "sistema operacional para o computador Altair"
+     },
+     "evidencia": "Desenvolveu um sistema operacional juntamente com seu amigo Paul Allen para o computador Altair",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "6530_15",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Steve"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Apple Inc."
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Bill Gates",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Bill"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Windows"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Jobs",
+     "tipo": "FUNDOU",
+     "destino": "Apple",
+     "propriedades": {},
+     "evidencia": "finalmente Steve ganha o reconhecimento de sua ideia, então surge a Apple Inc.",
+     "confianca": 0.65
+    },
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "Macintosh",
+     "propriedades": {},
+     "evidencia": "então surge a Apple Inc.. Com o passar do tempo, novos projetos são criados e comprados; com estas uniões surge o Macintosh",
+     "confianca": 0.65
+    }
+   ]
+  },
+  {
+   "chunk_id": "6530_16",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Windows"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "Microsoft Windows",
+     "propriedades": {},
+     "evidencia": "A Microsoft produz hoje uma grande variedade de programas de computador, incluindo sistemas operacionais — Microsoft Windows",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "6530_17",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Xbox",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Xbox 360",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Zune",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Kinect",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Microsoft .NET",
+     "tipo": "Tecnologia",
+     "aliases": [
+      ".NET"
+     ],
+     "descricao": "Framework para isolar os programas dos sistemas operacionais.",
+     "propriedades": {
+      "tipo": "conceito",
+      "ano": 2001
+     }
+    },
+    {
+     "nome": "Skype Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "Xbox",
+     "propriedades": {},
+     "evidencia": "o console de jogos eletrônicos Xbox, logo depois sendo substituído pelo Xbox 360",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "Kinect",
+     "propriedades": {},
+     "evidencia": "o player de mídia Zune e o revolucionário Kinect",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "Zune",
+     "propriedades": {},
+     "evidencia": "o player de mídia Zune e o revolucionário Kinect",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Xbox 360",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Xbox",
+     "propriedades": {},
+     "evidencia": "o console de jogos eletrônicos Xbox, logo depois sendo substituído pelo Xbox 360",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "Microsoft .NET",
+     "propriedades": {
+      "ano": 2001
+     },
+     "evidencia": "A empresa criou a partir de 2001, uma nova tecnologia chamada Microsoft .NET.",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "6530_18",
+   "entidades": [
+    {
+     "nome": "Skype Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6530_19",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Nokia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Portugal",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "São Paulo",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

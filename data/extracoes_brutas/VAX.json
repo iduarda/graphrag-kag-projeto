@@ -1,0 +1,811 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:26:22+00:00",
+ "chunks": [
+  {
+   "chunk_id": "859617_0",
+   "entidades": [
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Arquitectura de computadores de 32 bits com conjunto de instruções ortogonais e endereçamento virtual, exemplo de arquitectura CISC.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Compaq",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "VAX",
+     "propriedades": {},
+     "evidencia": "Foi desenvolvido em meados dos anos 1970 pela Digital Equipment Corporation (DEC).",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "859617_1",
+   "entidades": [
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "OpenVMS",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "VMS"
+     ],
+     "descricao": "Sistema operativo nativo do VAX, desenvolvido em paralelo com a arquitectura.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "4.3BSD",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Ultrix-32",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "VAXeln",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "NetBSD",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "OpenBSD",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "UNIX"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "OpenVMS",
+     "tipo": "EXECUTA_EM",
+     "destino": "VAX",
+     "propriedades": {},
+     "evidencia": "O sistema operativo “nativo” do VAX é o VAX/VMS da DEC",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "OpenVMS",
+     "propriedades": {},
+     "evidencia": "O sistema operativo “nativo” do VAX é o VAX/VMS da DEC (posteriormente renomeado OpenVMS)",
+     "confianca": 0.85
+    },
+    {
+     "origem": "4.3BSD",
+     "tipo": "EXECUTA_EM",
+     "destino": "VAX",
+     "propriedades": {},
+     "evidencia": "Outros sistemas operativos VAX incluíram várias versões da BSD UNIX, nomeadamente 4.3BSD, Ultrix-32 e VAXeln.",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Ultrix-32",
+     "tipo": "EXECUTA_EM",
+     "destino": "VAX",
+     "propriedades": {},
+     "evidencia": "Outros sistemas operativos VAX incluíram várias versões da BSD UNIX, nomeadamente 4.3BSD, Ultrix-32 e VAXeln.",
+     "confianca": 0.8
+    },
+    {
+     "origem": "VAXeln",
+     "tipo": "EXECUTA_EM",
+     "destino": "VAX",
+     "propriedades": {},
+     "evidencia": "Outros sistemas operativos VAX incluíram várias versões da BSD UNIX, nomeadamente 4.3BSD, Ultrix-32 e VAXeln.",
+     "confianca": 0.8
+    },
+    {
+     "origem": "NetBSD",
+     "tipo": "EXECUTA_EM",
+     "destino": "VAX",
+     "propriedades": {},
+     "evidencia": "o NetBSD e o OpenBSD suportam vários modelos VAX",
+     "confianca": 0.85
+    },
+    {
+     "origem": "OpenBSD",
+     "tipo": "EXECUTA_EM",
+     "destino": "VAX",
+     "propriedades": {},
+     "evidencia": "o NetBSD e o OpenBSD suportam vários modelos VAX",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "859617_2",
+   "entidades": [
+    {
+     "nome": "VAX-11/780",
+     "tipo": "Hardware",
+     "aliases": [
+      "VAX 11/780"
+     ],
+     "descricao": "Primeiro modelo VAX lançado no mercado, apresentado em 25 de Outubro de 1977.",
+     "propriedades": {
+      "ano": 1977,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Bill Strecker",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Arquitecto do VAX-11/780.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bill Strecker",
+     "tipo": "CRIOU",
+     "destino": "VAX-11/780",
+     "propriedades": {},
+     "evidencia": "O arquitecto deste modelo foi Bill Strecker.",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "VAX-11/780",
+     "propriedades": {
+      "ano": 1977
+     },
+     "evidencia": "foi apresentado a 25 de Outubro de 1977 na Assembleia Geral Anual de Accionistas da Digital Equipment Corporation",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "859617_3",
+   "entidades": [
+    {
+     "nome": "VAX-11/780",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "859617_4",
+   "entidades": [
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAX-11/780",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "MicroVAX-I",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeira implementação do VAX que moveu parte da complexidade do conjunto de instruções para software de emulação.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "859617_5",
+   "entidades": [
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "MicroVAX-I",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "MicroVAX-II 78032",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "CVAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "NVAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "MIPS Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Alpha",
+     "tipo": "Hardware",
+     "aliases": [
+      "Alpha AXP"
+     ],
+     "descricao": "Processador RISC de 64 bits da DEC, capaz de correr OpenVMS.",
+     "propriedades": {
+      "ano": 1992,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "OpenVMS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Ultrix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Compaq",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "Alpha",
+     "propriedades": {
+      "ano": 1992
+     },
+     "evidencia": "Em 1992 a DEC lançou o seu próprio processador RISC, o Alpha",
+     "confianca": 0.95
+    },
+    {
+     "origem": "OpenVMS",
+     "tipo": "EXECUTA_EM",
+     "destino": "Alpha",
+     "propriedades": {},
+     "evidencia": "uma arquitectura RISC de 64 bits de alto desempenho capaz de correr OpenVMS",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "859617_6",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Digital",
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "CVAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "MicroVAX 3000",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "MicroVAX 6200",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "MicroVAX 3000",
+     "tipo": "UTILIZA",
+     "destino": "CVAX",
+     "propriedades": {},
+     "evidencia": "microprocessadores CVAX da Digital que foram usados nos MicroVAX 3000 e 6200",
+     "confianca": 0.9
+    },
+    {
+     "origem": "MicroVAX 6200",
+     "tipo": "UTILIZA",
+     "destino": "CVAX",
+     "propriedades": {},
+     "evidencia": "microprocessadores CVAX da Digital que foram usados nos MicroVAX 3000 e 6200",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "859617_7",
+   "entidades": [
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "MicroVAX-I",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "859617_8",
+   "entidades": [
+    {
+     "nome": "VAX-11/780",
+     "tipo": "Hardware",
+     "aliases": [
+      "VAX 11/780"
+     ],
+     "propriedades": {
+      "ano": 1977,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAX 11/750",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1980,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAX 11/730",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1982,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAX 11/785",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1984,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAX 8600",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1984,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAX 8650",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "859617_9",
+   "entidades": [
+    {
+     "nome": "VAX 8800",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1986,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAX 9000",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1989,
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "859617_10",
+   "entidades": [
+    {
+     "nome": "MicroVAX II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1985,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "MicroVAX 2000",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1987,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "MicroVAX 3100",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "CVAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "NVAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "859617_11",
+   "entidades": [
+    {
+     "nome": "VAXstation II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAXstation 2000",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAXstation 3100",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAXstation 4000",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "859617_12",
+   "entidades": [
+    {
+     "nome": "VAXstation 8000",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAX 4000",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAX 8200",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1986,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAX 8300",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1986,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAX 6000",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "859617_13",
+   "entidades": [
+    {
+     "nome": "VAX 6000",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAX 7000",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAX 10000",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAXft",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Alpha",
+     "tipo": "Hardware",
+     "aliases": [
+      "Alpha AXP"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

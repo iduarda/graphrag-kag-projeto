@@ -1,0 +1,2241 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:29:05+00:00",
+ "chunks": [
+  {
+   "chunk_id": "255728_0",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI",
+      "Texas Instruments Incorporated"
+     ],
+     "descricao": "Empresa multinacional estadunidense de semicondutores, com sede em Dallas, no Texas.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Dallas",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Texas",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Geophysical Service Incorporated",
+     "tipo": "Organizacao",
+     "aliases": [
+      "GSI"
+     ],
+     "descricao": "Empresa fundada em 1930 que fabricava equipamentos para prospecção sísmica e eletrónica militar.",
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1930
+     }
+    },
+    {
+     "nome": "Jack Kilby",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Inventou o circuito integrado em 1958 quando trabalhava na TI.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Circuito integrado",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Texas Instruments",
+     "tipo": "SEDIADA_EM",
+     "destino": "Dallas",
+     "propriedades": {},
+     "evidencia": "com sede em Dallas, no Texas",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Jack Kilby",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {},
+     "evidencia": "Jack Kilby inventou o circuito integrado em 1958, quando trabalhava nos laboratórios centrais de pesquisa da TI",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Jack Kilby",
+     "tipo": "CRIOU",
+     "destino": "Circuito integrado",
+     "propriedades": {
+      "ano": 1958
+     },
+     "evidencia": "Jack Kilby inventou o circuito integrado em 1958",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Texas Instruments",
+     "tipo": "DESENVOLVEU",
+     "destino": "Transístor",
+     "propriedades": {
+      "ano": 1954
+     },
+     "evidencia": "Em 1954, a TI produziu o primeiro transistor de silício comercial do mundo",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "255728_1",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Raytheon",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "National Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "255728_2",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "descricao": "Fundada em 1951 e inicialmente chamada General Instruments Inc.",
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1951
+     }
+    },
+    {
+     "nome": "Geophysical Service Incorporated",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Geophysical Service Inc.",
+      "GSI"
+     ],
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1930
+     }
+    },
+    {
+     "nome": "Cecil H. Green",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "J. Erik Jonsson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Eugene McDermott",
+     "tipo": "Pessoa",
+     "aliases": [
+      "McDermott"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Patrick Haggerty",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Patrick E. Haggerty"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fred Agnich",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Halliburton",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Cecil H. Green",
+     "tipo": "FUNDOU",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "ano": 1951
+     },
+     "evidencia": "A Texas Instruments foi fundada em 1951 por Cecil H. Green, J. Erik Jonsson, Eugene McDermott e Patrick E. Haggerty",
+     "confianca": 0.95
+    },
+    {
+     "origem": "J. Erik Jonsson",
+     "tipo": "FUNDOU",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "ano": 1951
+     },
+     "evidencia": "A Texas Instruments foi fundada em 1951 por Cecil H. Green, J. Erik Jonsson, Eugene McDermott e Patrick E. Haggerty",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Eugene McDermott",
+     "tipo": "FUNDOU",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "ano": 1951
+     },
+     "evidencia": "A Texas Instruments foi fundada em 1951 por Cecil H. Green, J. Erik Jonsson, Eugene McDermott e Patrick E. Haggerty",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Patrick Haggerty",
+     "tipo": "FUNDOU",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "ano": 1951
+     },
+     "evidencia": "A Texas Instruments foi fundada em 1951 por Cecil H. Green, J. Erik Jonsson, Eugene McDermott e Patrick E. Haggerty",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Eugene McDermott",
+     "tipo": "FUNDOU",
+     "destino": "Geophysical Service Incorporated",
+     "propriedades": {
+      "ano": 1930
+     },
+     "evidencia": "McDermott havia participado da fundação da Geophysical Service Inc., a GSI, em 1930",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Fred Agnich",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "cargo": "dirigente e membro do conselho",
+      "ano_inicio": 1953,
+      "ano_fim": 1961
+     },
+     "evidencia": "foi dirigente e membro do conselho da Texas Instruments de 1953 a 1961",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "255728_3",
+   "entidades": [
+    {
+     "nome": "Patrick Haggerty",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Geophysical Service Incorporated",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Geophysical Service",
+      "GSI"
+     ],
+     "descricao": "Uma das primeiras empresas a prestar serviços de prospecção sísmica à indústria petrolífera.",
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1930
+     }
+    },
+    {
+     "nome": "J. Clarence Karcher",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Eugene McDermott",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "J. Erik Jonsson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Cecil H. Green",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "H. B. Peacock",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Coronado Corp.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Companhia de petróleo que tinha a GSI como subsidiária.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "J. Clarence Karcher",
+     "tipo": "FUNDOU",
+     "destino": "Geophysical Service Incorporated",
+     "propriedades": {
+      "ano": 1930
+     },
+     "evidencia": "Em 1930, J. Clarence Karcher e Eugene McDermott fundaram a Geophysical Service",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Eugene McDermott",
+     "tipo": "FUNDOU",
+     "destino": "Geophysical Service Incorporated",
+     "propriedades": {
+      "ano": 1930
+     },
+     "evidencia": "Em 1930, J. Clarence Karcher e Eugene McDermott fundaram a Geophysical Service",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "255728_4",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Geophysical Service Incorporated",
+     "tipo": "Organizacao",
+     "aliases": [
+      "GSI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Halliburton",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Western Electric",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Laboratórios Bell"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Patrick Haggerty",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Haggerty"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Gordon Teal",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Willis Adcock",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Adcock"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Gordon Teal",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "Haggerty contratou Gordon Teal por sua experiência no crescimento de cristais semicondutores nos Laboratórios Bell",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Gordon Teal",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {},
+     "evidencia": "Haggerty contratou Gordon Teal por sua experiência no crescimento de cristais semicondutores nos Laboratórios Bell. Sua primeira tarefa foi dirigir o laboratório de pesquisa da TI",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Willis Adcock",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "ano_inicio": 1953
+     },
+     "evidencia": "Entre os novos contratados estava Willis Adcock, que ingressou na TI no início de 1953",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "255728_5",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Willis Adcock",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Adcock"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Morris Tanenbaum",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Gordon Teal",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Laboratórios Bell"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Patrick Haggerty",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Haggerty"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Morris Tanenbaum",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "Morris Tanenbaum, dos Laboratórios Bell, criou o primeiro transistor de silício funcional",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Morris Tanenbaum",
+     "tipo": "CRIOU",
+     "destino": "Transístor",
+     "propriedades": {
+      "ano": 1954
+     },
+     "evidencia": "Em janeiro de 1954, Morris Tanenbaum, dos Laboratórios Bell, criou o primeiro transistor de silício funcional",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Gordon Teal",
+     "tipo": "CRIOU",
+     "destino": "Transístor",
+     "propriedades": {
+      "ano": 1954
+     },
+     "evidencia": "Em abril de 1954, Gordon Teal desenvolveu de forma independente, na TI, o primeiro transistor de silício comercial",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Gordon Teal",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {},
+     "evidencia": "Gordon Teal desenvolveu de forma independente, na TI, o primeiro transistor de silício comercial",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "255728_6",
+   "entidades": [
+    {
+     "nome": "Jack Kilby",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Noyce",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Noyce"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fairchild Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Circuito integrado",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Medalha Nacional de Ciências",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Jack Kilby",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {},
+     "evidencia": "Jack Kilby, funcionário da TI, inventou o circuito integrado em 1958",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Jack Kilby",
+     "tipo": "CRIOU",
+     "destino": "Circuito integrado",
+     "propriedades": {
+      "ano": 1958
+     },
+     "evidencia": "Jack Kilby, funcionário da TI, inventou o circuito integrado em 1958",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Robert Noyce",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Fairchild Semiconductor",
+     "propriedades": {},
+     "evidencia": "Robert Noyce, da Fairchild Semiconductor, desenvolveu de forma independente um circuito integrado",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Robert Noyce",
+     "tipo": "CRIOU",
+     "destino": "Circuito integrado",
+     "propriedades": {},
+     "evidencia": "Robert Noyce, da Fairchild Semiconductor, desenvolveu de forma independente um circuito integrado com as interconexões incorporadas ao chip",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Robert Noyce",
+     "tipo": "FUNDOU",
+     "destino": "Intel",
+     "propriedades": {},
+     "evidencia": "Noyce, que depois seria um dos fundadores da Intel",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Jack Kilby",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Nacional de Ciências",
+     "propriedades": {
+      "ano": 1969
+     },
+     "evidencia": "Kilby recebeu a Medalha Nacional de Ciências em 1969",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Jack Kilby",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 2000
+     },
+     "evidencia": "Em 2000, recebeu o Prêmio Nobel de Física por sua participação na invenção do circuito integrado",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "255728_7",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jack Kilby",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Kilby Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Novo laboratório de desenvolvimento da TI, nomeado em 2008 em homenagem a Jack Kilby.",
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Gary Boone",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Gilbert Hyatt",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Micro Computer Company",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microprocessador",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Gary Boone",
+     "tipo": "CRIOU",
+     "destino": "Microprocessador",
+     "propriedades": {},
+     "evidencia": "recebeu a primeira patente de um microprocessador de um único chip, inventado por Gary Boone",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Gilbert Hyatt",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Micro Computer Company",
+     "propriedades": {},
+     "evidencia": "Gilbert Hyatt, ex-integrante da Micro Computer Company",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Texas Instruments",
+     "tipo": "DESENVOLVEU",
+     "destino": "Microprocessador",
+     "propriedades": {},
+     "evidencia": "A invenção quase simultânea do microprocessador costuma ser creditada à Intel e à Texas Instruments.",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Microprocessador",
+     "propriedades": {},
+     "evidencia": "A invenção quase simultânea do microprocessador costuma ser creditada à Intel e à Texas Instruments.",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "255728_8",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microprocessador",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "TMC0280",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Sintetizador de voz de um único chip baseado em codificação preditiva linear.",
+     "propriedades": {
+      "ano": 1978,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Sensory Inc.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Santa Clara",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Texas Instruments",
+     "tipo": "DESENVOLVEU",
+     "destino": "Microprocessador",
+     "propriedades": {},
+     "evidencia": "A invenção quase simultânea do microprocessador costuma ser creditada à Intel e à Texas Instruments.",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Microprocessador",
+     "propriedades": {},
+     "evidencia": "A invenção quase simultânea do microprocessador costuma ser creditada à Intel e à Texas Instruments.",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Texas Instruments",
+     "tipo": "DESENVOLVEU",
+     "destino": "TMC0280",
+     "propriedades": {
+      "ano": 1978
+     },
+     "evidencia": "Em 1978, a Texas Instruments apresentou o primeiro sintetizador de voz de um único chip baseado em codificação preditiva linear.",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Sensory Inc.",
+     "tipo": "SEDIADA_EM",
+     "destino": "Santa Clara",
+     "propriedades": {},
+     "evidencia": "Sensory Inc., de Santa Clara, na Califórnia",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "255728_9",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sensory Inc.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Santa Clara",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Industrial Development Engineering Associates",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Indianápolis",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Patrick Haggerty",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Pat Haggerty"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jack Kilby",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Sensory Inc.",
+     "tipo": "SEDIADA_EM",
+     "destino": "Santa Clara",
+     "propriedades": {},
+     "evidencia": "Sensory Inc., de Santa Clara, na Califórnia",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Industrial Development Engineering Associates",
+     "tipo": "SEDIADA_EM",
+     "destino": "Indianápolis",
+     "propriedades": {},
+     "evidencia": "Industrial Development Engineering Associates, de Indianápolis, Indiana",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Patrick Haggerty",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "cargo": "presidente"
+     },
+     "evidencia": "Na década de 1960, o presidente Pat Haggerty reuniu uma equipa que contava com Jack Kilby",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "255728_10",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "255728_11",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "TI-99/4",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Computador doméstico lançado pela TI em 1979.",
+     "propriedades": {
+      "ano": 1979,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "TI-99/4A",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Lançado em 1981 como sucessor do 99/4.",
+     "propriedades": {
+      "ano": 1981,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "TI Professional",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Computador de 1983 com MS-DOS e processador X86 que fracassou ao concorrer com o IBM PC.",
+     "propriedades": {
+      "ano": 1983,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Compaq",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Acer",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Texas Instruments",
+     "tipo": "DESENVOLVEU",
+     "destino": "TI-99/4",
+     "propriedades": {
+      "ano": 1979
+     },
+     "evidencia": "Em 1979, a TI entrou no mercado de computadores domésticos com o TI-99/4",
+     "confianca": 0.9
+    },
+    {
+     "origem": "TI-99/4A",
+     "tipo": "SUCESSOR_DE",
+     "destino": "TI-99/4",
+     "propriedades": {},
+     "evidencia": "O TI-99/4A, lançado em 1981 como sucessor do 99/4",
+     "confianca": 0.95
+    },
+    {
+     "origem": "MS-DOS",
+     "tipo": "EXECUTA_EM",
+     "destino": "TI Professional",
+     "propriedades": {},
+     "evidencia": "O TI Professional, de 1983, foi um dos computadores com MS-DOS e processador X86",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "255728_12",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Acer",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Motorola",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Desenvolveu a metodologia Seis Sigma a partir de 1982.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "255728_13",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "255728_14",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Raytheon",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "255728_15",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Raytheon",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Martin Marietta",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "255728_16",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Molecular Electronic Computer",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro computador com circuitos integrados para a Força Aérea dos Estados Unidos.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "255728_17",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Raytheon",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "TriQuint Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TriQuint Semiconductor Inc."
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Hughes Aircraft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "General Motors",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "255728_18",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Explorer",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Família de máquinas Lisp criada e vendida pela TI.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Explorer II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "TI MicroExplorer",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Máquina Lisp em uma placa NuBus para o Macintosh.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Lisp",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Scheme",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem semelhante ao Lisp criada no MIT.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Texas Instruments",
+     "tipo": "DESENVOLVEU",
+     "destino": "Explorer",
+     "propriedades": {},
+     "evidencia": "criou e vendeu a família Explorer de máquinas Lisp",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "255728_19",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Siemens",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Bain Capital",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Sensata Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Empresa independente surgida da divisão Sensors & Controls da TI.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Attleboro",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Sensata Technologies",
+     "tipo": "SEDIADA_EM",
+     "destino": "Attleboro",
+     "propriedades": {},
+     "evidencia": "A nova empresa independente, sediada em Attleboro, recebeu o nome Sensata Technologies",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "255728_20",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sensata Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Attleboro",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Sterling Software",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Computer Associates",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Sensata Technologies",
+     "tipo": "SEDIADA_EM",
+     "destino": "Attleboro",
+     "propriedades": {},
+     "evidencia": "A nova empresa independente, sediada em Attleboro, recebeu o nome Sensata Technologies",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "255728_21",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Campinas",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Portugal",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "255728_22",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "255728_23",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "255728_24",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "255728_25",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "255728_26",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "National Council of Teachers of Mathematics",
+     "tipo": "Organizacao",
+     "aliases": [
+      "NCTM"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "College Board",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "255728_27",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "College Board",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "BASIC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "255728_28",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Zilog Z80",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Motorola 68000",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Motorola",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "255728_29",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Tartan Inc.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Amati Communications",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "GO DSP",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Harris Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Libit Signal Processing Ltd.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Herzliya",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Butterfly VLSI Ltd.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Telogy Networks",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Unitrode Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Burr-Brown Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Graychip",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Radia Communications Inc.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Sunnyvale",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Chipcon",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "CICLON",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Luminary Micro",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "National Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Micron",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Libit Signal Processing Ltd.",
+     "tipo": "SEDIADA_EM",
+     "destino": "Herzliya",
+     "propriedades": {},
+     "evidencia": "Libit Signal Processing Ltd., de Herzliya, Israel",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Radia Communications Inc.",
+     "tipo": "SEDIADA_EM",
+     "destino": "Sunnyvale",
+     "propriedades": {},
+     "evidencia": "Radia Communications Inc., de Sunnyvale, na Califórnia",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "255728_30",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Micron",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Silicon Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "National Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "255728_31",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "J. Erik Jonsson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "John Erik Jonsson"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Patrick Haggerty",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Patrick Eugene Haggerty"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Mark Shepherd Jr.",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "James Fred Bucy Jr.",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jerry Ray Junkins",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Thomas James Engibous",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Richard Kevin Templeton",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Brian Crutcher",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Haviv Ilan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "J. Erik Jonsson",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_inicio": 1951,
+      "ano_fim": 1958
+     },
+     "evidencia": "Presidentes: John Erik Jonsson, de 1951 a 1958",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Patrick Haggerty",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_inicio": 1958,
+      "ano_fim": 1967
+     },
+     "evidencia": "Patrick Eugene Haggerty, de 1958 a 1967",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Mark Shepherd Jr.",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_inicio": 1967,
+      "ano_fim": 1976
+     },
+     "evidencia": "Mark Shepherd Jr., de 1967 a 1976",
+     "confianca": 0.9
+    },
+    {
+     "origem": "James Fred Bucy Jr.",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_inicio": 1976,
+      "ano_fim": 1985
+     },
+     "evidencia": "James Fred Bucy Jr., de 1976 a 1985",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Jerry Ray Junkins",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_inicio": 1986,
+      "ano_fim": 1996
+     },
+     "evidencia": "Jerry Ray Junkins, de 1986 a 1996",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Thomas James Engibous",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_inicio": 1996,
+      "ano_fim": 2004
+     },
+     "evidencia": "Thomas James Engibous, de 1996 a 2004",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Richard Kevin Templeton",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_inicio": 2004,
+      "ano_fim": 2018
+     },
+     "evidencia": "Richard Kevin Templeton, de 2004 a 2018",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Brian Crutcher",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_inicio": 2018,
+      "ano_fim": 2018
+     },
+     "evidencia": "Brian Crutcher, em 2018",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Richard Kevin Templeton",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_inicio": 2018,
+      "ano_fim": 2023
+     },
+     "evidencia": "Richard Kevin Templeton, de 2018 a 2023",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Haviv Ilan",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_inicio": 2023
+     },
+     "evidencia": "Haviv Ilan, desde 2023",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "255728_32",
+   "entidades": [
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Haviv Ilan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Eugene McDermott",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Cecil H. Green",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Cecil Howard Green"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "J. Erik Jonsson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "John Erik Jonsson"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Patrick Haggerty",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Patrick Eugene Haggerty"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Mark Shepherd Jr.",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jerry Ray Junkins",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "James R. Adams",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Thomas James Engibous",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Richard Kevin Templeton",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Haviv Ilan",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_inicio": 2023
+     },
+     "evidencia": "Haviv Ilan, desde 2023",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Eugene McDermott",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "cargo": "presidente do conselho de administração",
+      "ano_inicio": 1953,
+      "ano_fim": 1955
+     },
+     "evidencia": "Presidentes do conselho de administração: Eugene McDermott, de 1953 a 1955",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Cecil H. Green",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "cargo": "presidente do conselho de administração",
+      "ano_inicio": 1955,
+      "ano_fim": 1958
+     },
+     "evidencia": "Cecil Howard Green, de 1955 a 1958",
+     "confianca": 0.9
+    },
+    {
+     "origem": "J. Erik Jonsson",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "cargo": "presidente do conselho de administração",
+      "ano_inicio": 1958,
+      "ano_fim": 1969
+     },
+     "evidencia": "John Erik Jonsson, de 1958 a 1969",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Patrick Haggerty",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "cargo": "presidente do conselho de administração",
+      "ano_inicio": 1969,
+      "ano_fim": 1976
+     },
+     "evidencia": "Patrick Eugene Haggerty, de 1969 a 1976",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Mark Shepherd Jr.",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "cargo": "presidente do conselho de administração",
+      "ano_inicio": 1976,
+      "ano_fim": 1988
+     },
+     "evidencia": "Mark Shepherd Jr., de 1976 a 1988",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Jerry Ray Junkins",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "cargo": "presidente do conselho de administração",
+      "ano_inicio": 1988,
+      "ano_fim": 1996
+     },
+     "evidencia": "Jerry Ray Junkins, de 1988 a 1996",
+     "confianca": 0.9
+    },
+    {
+     "origem": "James R. Adams",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "cargo": "presidente do conselho de administração",
+      "ano_inicio": 1996,
+      "ano_fim": 1998
+     },
+     "evidencia": "James R. Adams, de 1996 a 1998",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Thomas James Engibous",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "cargo": "presidente do conselho de administração",
+      "ano_inicio": 1998,
+      "ano_fim": 2008
+     },
+     "evidencia": "Thomas James Engibous, de 1998 a 2008",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Richard Kevin Templeton",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "cargo": "presidente do conselho de administração",
+      "ano_inicio": 2008,
+      "ano_fim": 2025
+     },
+     "evidencia": "Richard Kevin Templeton, de 2008 a 2025",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Haviv Ilan",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Texas Instruments",
+     "propriedades": {
+      "cargo": "presidente do conselho de administração",
+      "ano_inicio": 2026
+     },
+     "evidencia": "Haviv Ilan, desde 2026",
+     "confianca": 0.9
+    }
+   ]
+  }
+ ]
+}

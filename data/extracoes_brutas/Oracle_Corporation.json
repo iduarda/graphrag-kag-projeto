@@ -1,0 +1,173 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:29:03+00:00",
+ "chunks": [
+  {
+   "chunk_id": "43408_0",
+   "entidades": [
+    {
+     "nome": "Oracle Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Oracle"
+     ],
+     "descricao": "Multinacional norte-americana de tecnologia, uma das maiores empresas de software do mundo.",
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1977
+     }
+    },
+    {
+     "nome": "Larry Ellison",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Austin",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Santa Clara",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Oracle Corporation",
+     "tipo": "SEDIADA_EM",
+     "destino": "Austin",
+     "propriedades": {},
+     "evidencia": "multinacional norte-americana de tecnologia com sede em Austin, Texas",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Larry Ellison",
+     "tipo": "FUNDOU",
+     "destino": "Oracle Corporation",
+     "propriedades": {
+      "ano": 1977
+     },
+     "evidencia": "Cofundada em 1977 em Santa Clara, Califórnia, por Larry Ellison",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Larry Ellison",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Oracle Corporation",
+     "propriedades": {
+      "cargo": "presidente executivo"
+     },
+     "evidencia": "Larry Ellison (que ainda atua como presidente executivo)",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "43408_1",
+   "entidades": [
+    {
+     "nome": "Oracle Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Oracle"
+     ],
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1977
+     }
+    },
+    {
+     "nome": "Larry Ellison",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bob Miner",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ed Oates",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Austin",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Larry Ellison",
+     "tipo": "FUNDOU",
+     "destino": "Oracle Corporation",
+     "propriedades": {
+      "ano": 1977
+     },
+     "evidencia": "A companhia foi fundada em 1977 por Larry Ellison, Bob Miner e Ed Oates",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Bob Miner",
+     "tipo": "FUNDOU",
+     "destino": "Oracle Corporation",
+     "propriedades": {
+      "ano": 1977
+     },
+     "evidencia": "A companhia foi fundada em 1977 por Larry Ellison, Bob Miner e Ed Oates",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ed Oates",
+     "tipo": "FUNDOU",
+     "destino": "Oracle Corporation",
+     "propriedades": {
+      "ano": 1977
+     },
+     "evidencia": "A companhia foi fundada em 1977 por Larry Ellison, Bob Miner e Ed Oates",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Oracle Corporation",
+     "tipo": "SEDIADA_EM",
+     "destino": "Austin",
+     "propriedades": {},
+     "evidencia": "a Oracle anunciou que estava transferindo a sua sede para Austin, no estado do Texas",
+     "confianca": 0.9
+    }
+   ]
+  }
+ ]
+}

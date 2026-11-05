@@ -1,0 +1,316 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:29:02+00:00",
+ "chunks": [
+  {
+   "chunk_id": "24906_0",
+   "entidades": [
+    {
+     "nome": "Brian Kernighan",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Kernighan"
+     ],
+     "descricao": "Cientista da computação canadense, co-autor do primeiro livro sobre a linguagem C e das linguagens AWK e AMPL.",
+     "propriedades": {
+      "ano_nascimento": 1942
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "AWK",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "AMPL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Toronto",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Canadá",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Universidade de Toronto",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Princeton",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Princeton"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Brian Kernighan",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "Ele trabalhou na Bell Labs",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Brian Kernighan",
+     "tipo": "COLABOROU_COM",
+     "destino": "Ken Thompson",
+     "propriedades": {
+      "contexto": "desenvolvimento do Unix"
+     },
+     "evidencia": "contribuiu com o desenvolvimento do Unix junto dos criadores Ken Thompson e Dennis Ritchie",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Brian Kernighan",
+     "tipo": "COLABOROU_COM",
+     "destino": "Dennis Ritchie",
+     "propriedades": {
+      "contexto": "desenvolvimento do Unix e livro sobre a linguagem C"
+     },
+     "evidencia": "contribuiu com o desenvolvimento do Unix junto dos criadores Ken Thompson e Dennis Ritchie",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Brian Kernighan",
+     "tipo": "CRIOU",
+     "destino": "AWK",
+     "propriedades": {},
+     "evidencia": "Ele é co-autor das linguagens de programação AWK e AMPL",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Brian Kernighan",
+     "tipo": "CRIOU",
+     "destino": "AMPL",
+     "propriedades": {},
+     "evidencia": "Ele é co-autor das linguagens de programação AWK e AMPL",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Brian Kernighan",
+     "tipo": "NASCEU_EM",
+     "destino": "Toronto",
+     "propriedades": {},
+     "evidencia": "Nasceu em Toronto, Canadá",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Brian Kernighan",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Toronto",
+     "propriedades": {
+      "curso": "Engenharia Física"
+     },
+     "evidencia": "concluiu o seu bacharelato em \"Engenharia Física\" na Universidade de Toronto",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Brian Kernighan",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Princeton",
+     "propriedades": {
+      "curso": "Engenharia Electrotécnica"
+     },
+     "evidencia": "Obteve o seu doutoramento em Engenharia Electrotécnica na Universidade de Princeton",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Brian Kernighan",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Princeton",
+     "propriedades": {
+      "cargo": "professor",
+      "ano_inicio": 2004
+     },
+     "evidencia": "onde desde de 2004 é professor no departamento de Ciência da Computação",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "24906_1",
+   "entidades": [
+    {
+     "nome": "Brian Kernighan",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Kernighan"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Princeton",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Princeton"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Brian Kernighan",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Princeton",
+     "propriedades": {
+      "cargo": "professor",
+      "ano_inicio": 2004
+     },
+     "evidencia": "onde desde de 2004 é professor no departamento de Ciência da Computação",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "24906_2",
+   "entidades": [
+    {
+     "nome": "Brian Kernighan",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Kernighan"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "AWK",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1977
+     }
+    },
+    {
+     "nome": "AMPL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1985
+     }
+    },
+    {
+     "nome": "Alfred Aho",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Alfred V. Aho"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Peter J. Weinberger",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lorinda Cherry",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "B",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Brian Kernighan",
+     "tipo": "COLABOROU_COM",
+     "destino": "Alfred Aho",
+     "propriedades": {
+      "contexto": "linguagem AWK"
+     },
+     "evidencia": "1977: The AWK programming language, with Alfred Aho and Peter J. Weinberger",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Brian Kernighan",
+     "tipo": "COLABOROU_COM",
+     "destino": "Peter J. Weinberger",
+     "propriedades": {
+      "contexto": "linguagem AWK"
+     },
+     "evidencia": "1977: The AWK programming language, with Alfred Aho and Peter J. Weinberger",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Brian Kernighan",
+     "tipo": "COLABOROU_COM",
+     "destino": "Lorinda Cherry",
+     "propriedades": {
+      "contexto": "linguagem de tipografia eqn"
+     },
+     "evidencia": "1974: The eqn typesetting language for troff, with Lorinda Cherry",
+     "confianca": 0.85
+    }
+   ]
+  }
+ ]
+}

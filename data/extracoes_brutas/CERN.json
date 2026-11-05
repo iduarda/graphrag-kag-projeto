@@ -1,0 +1,667 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:24:28+00:00",
+ "chunks": [
+  {
+   "chunk_id": "42388_0",
+   "entidades": [
+    {
+     "nome": "Organização Europeia para a Investigação Nuclear",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CERN"
+     ],
+     "descricao": "Maior laboratório de física de partículas do mundo, criado em 1954.",
+     "propriedades": {
+      "tipo": "laboratorio",
+      "ano_fundacao": 1954
+     }
+    },
+    {
+     "nome": "Meyrin",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Genebra",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Portugal",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Organização Europeia para a Investigação Nuclear",
+     "tipo": "SEDIADA_EM",
+     "destino": "Meyrin",
+     "propriedades": {},
+     "evidencia": "é o maior laboratório de física de partículas do mundo, localizado em Meyrin, no cantão de Genebra",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Organização Europeia para a Investigação Nuclear",
+     "tipo": "SEDIADA_EM",
+     "destino": "Genebra",
+     "propriedades": {},
+     "evidencia": "localizado em Meyrin, no cantão de Genebra",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "42388_1",
+   "entidades": [
+    {
+     "nome": "Organização Europeia para a Investigação Nuclear",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CERN"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Meyrin",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "LHC Computing Grid",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "LCG",
+      "Grelha de cálculo LHC"
+     ],
+     "descricao": "Grelha de cálculo cujo Tier 0 fica no centro de informática de Meyrin.",
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Suíça",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "França",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "42388_2",
+   "entidades": [
+    {
+     "nome": "François de Rose",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Oppenheimer",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Cientista americano que expôs a François de Rose a ideia de uma organização europeia de pesquisa.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "42388_3",
+   "entidades": [
+    {
+     "nome": "Organização Europeia para a Investigação Nuclear",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CERN"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sociedade Americana de Física",
+     "tipo": "Organizacao",
+     "aliases": [
+      "APS"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "42388_4",
+   "entidades": [
+    {
+     "nome": "Organização Europeia para a Investigação Nuclear",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CERN"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Pierre Auger",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Um dos pais fundadores do CERN, pela França.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Raoul Dautry",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Um dos pais fundadores do CERN, pela França.",
+     "propriedades": {}
+    },
+    {
+     "nome": "François de Rose",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Diplomata francês, um dos pais fundadores do CERN.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Lew Kowarski",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Um dos pais fundadores do CERN, pela França.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Edoardo Amaldi",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Um dos pais fundadores do CERN, pela Itália.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Niels Bohr",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Um dos pais fundadores do CERN, pela Dinamarca.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Francis Perrin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Físico francês que viajou a capitais europeias em favor do laboratório.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Frédéric Joliot-Curie",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Louis de Broglie",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Nobel francês que fez a primeira proposta oficial de um laboratório europeu.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Isidor Rabi",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Nobel de física norte-americano que fez inscrever uma resolução na Conferência da UNESCO.",
+     "propriedades": {}
+    },
+    {
+     "nome": "UNESCO",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [
+      "Nobel de física"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Pierre Auger",
+     "tipo": "FUNDOU",
+     "destino": "Organização Europeia para a Investigação Nuclear",
+     "propriedades": {},
+     "evidencia": "Pierre Auger, Raoul Dautry, François de Rose e Lew Kowarski pela França, Edoardo Amaldi pela Itália e Niels Bohr pela Dinamarca, são os precursores e grandes obreiros na criação de um laboratório deste género",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Raoul Dautry",
+     "tipo": "FUNDOU",
+     "destino": "Organização Europeia para a Investigação Nuclear",
+     "propriedades": {},
+     "evidencia": "Pierre Auger, Raoul Dautry, François de Rose e Lew Kowarski pela França, Edoardo Amaldi pela Itália e Niels Bohr pela Dinamarca, são os precursores e grandes obreiros na criação de um laboratório deste género",
+     "confianca": 0.75
+    },
+    {
+     "origem": "François de Rose",
+     "tipo": "FUNDOU",
+     "destino": "Organização Europeia para a Investigação Nuclear",
+     "propriedades": {},
+     "evidencia": "Pierre Auger, Raoul Dautry, François de Rose e Lew Kowarski pela França, Edoardo Amaldi pela Itália e Niels Bohr pela Dinamarca, são os precursores e grandes obreiros na criação de um laboratório deste género",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Lew Kowarski",
+     "tipo": "FUNDOU",
+     "destino": "Organização Europeia para a Investigação Nuclear",
+     "propriedades": {},
+     "evidencia": "Pierre Auger, Raoul Dautry, François de Rose e Lew Kowarski pela França, Edoardo Amaldi pela Itália e Niels Bohr pela Dinamarca, são os precursores e grandes obreiros na criação de um laboratório deste género",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Edoardo Amaldi",
+     "tipo": "FUNDOU",
+     "destino": "Organização Europeia para a Investigação Nuclear",
+     "propriedades": {},
+     "evidencia": "Pierre Auger, Raoul Dautry, François de Rose e Lew Kowarski pela França, Edoardo Amaldi pela Itália e Niels Bohr pela Dinamarca, são os precursores e grandes obreiros na criação de um laboratório deste género",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Niels Bohr",
+     "tipo": "FUNDOU",
+     "destino": "Organização Europeia para a Investigação Nuclear",
+     "propriedades": {},
+     "evidencia": "Pierre Auger, Raoul Dautry, François de Rose e Lew Kowarski pela França, Edoardo Amaldi pela Itália e Niels Bohr pela Dinamarca, são os precursores e grandes obreiros na criação de um laboratório deste género",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Isidor Rabi",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {},
+     "evidencia": "o Nobel de física norte-americano, Isidor Rabi",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "42388_5",
+   "entidades": [
+    {
+     "nome": "Isidor Rabi",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [
+      "Nobel de física"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "UNESCO",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Organização Europeia para a Investigação Nuclear",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CERN"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Isidor Rabi",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {},
+     "evidencia": "o Nobel de física norte-americano, Isidor Rabi",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "42388_6",
+   "entidades": [
+    {
+     "nome": "Organização Europeia para a Investigação Nuclear",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CERN",
+      "Conselho Europeu para a Investigação Nuclear"
+     ],
+     "descricao": "Organização criada em 1954 a partir do conselho provisório, depois de dissolvido o CERN provisório.",
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Genebra",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "42388_7",
+   "entidades": [
+    {
+     "nome": "Organização Europeia para a Investigação Nuclear",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CERN"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Hospital de Genebra",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Organização Europeia para a Investigação Nuclear",
+     "tipo": "DESENVOLVEU",
+     "destino": "World Wide Web",
+     "propriedades": {},
+     "evidencia": "como foi o caso da invenção da World Wide Web",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "42388_8",
+   "entidades": [
+    {
+     "nome": "Organização Europeia para a Investigação Nuclear",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CERN"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "WWW",
+      "Web"
+     ],
+     "descricao": "Projeto de hipertexto proposto por Tim Berners-Lee no CERN, disponibilizado mundialmente no verão de 1991.",
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Tim Berners-Lee",
+     "tipo": "Pessoa",
+     "aliases": [
+      "T. Berners-Lee",
+      "Berners-Lee"
+     ],
+     "descricao": "Consultor de engenharia de software no CERN, criador da World Wide Web.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Oxford",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Robert Cailliau",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Ajudou Berners-Lee na especificação do HTML, do navegador e na criação do servidor web.",
+     "propriedades": {}
+    },
+    {
+     "nome": "World Wide Web Consortium",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Internet Society",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Oxford",
+     "propriedades": {
+      "ano": 1976
+     },
+     "evidencia": "na Universidade de Oxford, onde se formou em 1976",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Organização Europeia para a Investigação Nuclear",
+     "propriedades": {
+      "cargo": "consultor de engenharia de software",
+      "ano_inicio": 1990
+     },
+     "evidencia": "quatro anos mais tarde, consultor de engenharia de software no CERN",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "CRIOU",
+     "destino": "World Wide Web",
+     "propriedades": {},
+     "evidencia": "Foi esse projecto que ficou conhecido como a World Wide Web",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "FUNDOU",
+     "destino": "World Wide Web Consortium",
+     "propriedades": {
+      "ano": 1994
+     },
+     "evidencia": "Em 1994 Berners-Lee criou o World Wide Web Consortium",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Robert Cailliau",
+     "tipo": "COLABOROU_COM",
+     "destino": "Tim Berners-Lee",
+     "propriedades": {
+      "contexto": "especificação do HTML, do navegador e criação do servidor web da World Wide Web"
+     },
+     "evidencia": "T. Berners-Lee foi ajudado tanto na especificação da linguagem HTML, do navegador, assim como na criação do servidor web por Robert Cailliau",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Organização Europeia para a Investigação Nuclear",
+     "tipo": "DESENVOLVEU",
+     "destino": "World Wide Web",
+     "propriedades": {},
+     "evidencia": "o CERN é principalmente conhecido por ter sido o berço da invenção da World Wide Web",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "42388_9",
+   "entidades": [
+    {
+     "nome": "Organização Europeia para a Investigação Nuclear",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CERN"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Internet Society",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Rato",
+     "tipo": "Hardware",
+     "aliases": [
+      "rato"
+     ],
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "42388_10",
+   "entidades": [
+    {
+     "nome": "Rato",
+     "tipo": "Hardware",
+     "aliases": [
+      "mouse"
+     ],
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "42388_11",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "42388_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "42388_13",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "42388_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "42388_15",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "42388_16",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "42388_17",
+   "entidades": [
+    {
+     "nome": "LHC Computing Grid",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "LCG",
+      "Grelha de cálculo LHC"
+     ],
+     "descricao": "Grelha de cálculo preparada para a imensidade de dados das experiências do LHC.",
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "42388_18",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "42388_19",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "42388_20",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "42388_21",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "42388_22",
+   "entidades": [
+    {
+     "nome": "UNESCO",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

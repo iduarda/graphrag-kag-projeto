@@ -1,0 +1,70 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:25:22+00:00",
+ "chunks": [
+  {
+   "chunk_id": "159248_0",
+   "entidades": [
+    {
+     "nome": "ABC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem interativa, estruturada e de alto nível, voltada principalmente ao ensino da programação.",
+     "propriedades": {}
+    },
+    {
+     "nome": "CWI",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Países Baixos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "BASIC",
+     "tipo": "Linguagem",
+     "aliases": [
+      "Basic"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "CWI",
+     "tipo": "DESENVOLVEU",
+     "destino": "ABC",
+     "propriedades": {},
+     "evidencia": "ABC é uma linguagem de programação da CWI, Países Baixos",
+     "confianca": 0.8
+    },
+    {
+     "origem": "CWI",
+     "tipo": "SEDIADA_EM",
+     "destino": "Países Baixos",
+     "propriedades": {},
+     "evidencia": "ABC é uma linguagem de programação da CWI, Países Baixos",
+     "confianca": 0.7
+    }
+   ]
+  }
+ ]
+}

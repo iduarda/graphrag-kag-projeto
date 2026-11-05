@@ -1,0 +1,1999 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 1307511,
+    "titulo": "Fairchild Semiconductor",
+    "url": "https://pt.wikipedia.org/wiki/Fairchild_Semiconductor",
+    "categoria": "Organização",
+    "wikidata_id": "Q1096013"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:25:28+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "organizacao:fairchild_semiconductor",
+  "chunks": [
+    {
+      "id": "1307511_0",
+      "ordem": 0,
+      "texto": "Fairchild Semiconductor International, Inc. foi uma empresa americana de semicondutores sediada em San José, na Califórnia. Foi fundada em 1957 como uma divisão da Fairchild Camera and Instrument pelos \"oito traidores\", que haviam deixado o Shockley Semiconductor Laboratory. Foi uma das primeiras empresas a fabricar transistores e circuitos integrados. A Schlumberger comprou a empresa em 1979 e a vendeu à National Semiconductor em 1987. A Fairchild voltou a ser independente em 1997. Em setembro de 2016, foi adquirida pela ON Semiconductor.\nNos Estados Unidos, a empresa tinha instalações em San José, São Rafael, South Portland, West Jordan, Puyallup e Mountain Top. Fora do país, mantinha unidades na Austrália, em Singapura, em Bucheon, na Coreia do Sul, em Penão, na Malásia, em Sucheu, na China, e em Cebu, nas Filipinas, entre outros lugares."
+    },
+    {
+      "id": "1307511_1",
+      "ordem": 1,
+      "texto": "Fora do país, mantinha unidades na Austrália, em Singapura, em Bucheon, na Coreia do Sul, em Penão, na Malásia, em Sucheu, na China, e em Cebu, nas Filipinas, entre outros lugares.\nDécada de 1950: Em 1955, William Shockley fundou o Shockley Semiconductor Laboratory em Mountain View, na Califórnia, com financiamento da Beckman Instruments. Seu plano era desenvolver um novo tipo de \"diodo de quatro camadas\", mais rápido e com mais aplicações que os transistores existentes. Primeiro, tentou contratar antigos colegas do Bell Labs, mas nenhum quis se mudar para a costa oeste ou voltar a trabalhar com ele. Shockley então formou a equipe inicial com recém-formados que julgava estar entre os melhores alunos das escolas de engenharia dos Estados Unidos.\nShockley tinha facilidade para recrutar profissionais, mas enfrentava dificuldades para administrar a empresa. Oito funcionários, que passaram a ser chamados de \"oito traidores\", ficaram insatisfeitos com sua gestão. Eram Julius Blank, Victor Grinich, Jean Hoerni, Eugene Kleiner, Jay Last, Gordon Moore, Robert Noyce e Sheldon Roberts. Em busca de financiamento para um projeto próprio, procuraram a Fairchild Camera and Instrument, de Sherman Fairchild, uma empresa do leste dos Estados Unidos que tinha contratos militares de grande valor. A divisão Fairchild Semiconductor foi criada em 1957 para fabricar transistores de silício, quando o germânio ainda era o material mais usado na fabricação de semicondutores."
+    },
+    {
+      "id": "1307511_2",
+      "ordem": 2,
+      "texto": "A divisão Fairchild Semiconductor foi criada em 1957 para fabricar transistores de silício, quando o germânio ainda era o material mais usado na fabricação de semicondutores.\nSherman Fairchild atribuiu sua decisão de criar a divisão para os oito engenheiros ao entusiasmo com que Noyce apresentou suas ideias. Noyce defendia o uso do silício como substrato. Como os materiais necessários se resumiriam a areia e alguns fios finos, a maior parcela do custo estaria no processo de fabricação. Também acreditava que os semicondutores de silício abririam caminho para aparelhos descartáveis, cujos componentes eletrônicos seriam tão baratos que, ao se desgastarem, os aparelhos seriam jogados fora, sem passar por conserto.\nOs primeiros transistores da empresa eram de silício do tipo mesa. Embora fossem uma novidade, sua confiabilidade era relativamente baixa.\nO primeiro transistor comercializado pela Fairchild foi o 2N697, lançado em 1958. Desenvolvido por Moore, esse transistor mesa teve boas vendas. O primeiro lote, de cem unidades, foi vendido à IBM por US$ 150 cada, para a construção do computador do bombardeiro B-70. A Autonetics comprou outras unidades para o sistema de orientação do míssil balístico Minuteman.\nJean Hoerni desenvolveu o processo planar, que permitia fabricar transistores com mais facilidade, menor custo, melhor desempenho e maior confiabilidade."
+    },
+    {
+      "id": "1307511_3",
+      "ordem": 3,
+      "texto": "Jean Hoerni desenvolveu o processo planar, que permitia fabricar transistores com mais facilidade, menor custo, melhor desempenho e maior confiabilidade.\nO processo planar tornou obsoleta a maior parte dos outros métodos de fabricação de transistores. A divisão de transistores da Philco foi uma das afetadas. Sua fábrica recém-construída, que havia custado US$ 40 milhões e produzia transistores de germânio pelo processo de difusão pós-liga, tornou-se inviável. Em poucos anos, os demais fabricantes passaram a usar métodos semelhantes ou a licenciar o processo planar da Fairchild. O 2N1613 de Hoerni teve ampla aceitação, e a Fairchild licenciou seu projeto para outras empresas do setor.\nEm 1960, a Fairchild construiu um circuito com quatro transistores em um único wafer de silício, criando o primeiro circuito integrado desse material. Jack Kilby, da Texas Instruments, havia desenvolvido um circuito integrado de germânio em 12 de setembro de 1958 e obtido uma patente nos Estados Unidos. O método de Kilby, porém, não permitia ampliar a produção, e a indústria de semicondutores adotou o processo da Fairchild para fabricar circuitos integrados. A empresa passou de doze para 12 mil funcionários e chegou a vendas anuais de US$ 130 milhões."
+    },
+    {
+      "id": "1307511_4",
+      "ordem": 4,
+      "texto": "A empresa passou de doze para 12 mil funcionários e chegou a vendas anuais de US$ 130 milhões.\nDécada de 1960: Noyce, da Fairchild, e Kilby, da Texas Instruments, inventaram de forma independente o circuito integrado baseado em tecnologia bipolar. Em 1959, Noyce concebeu o circuito integrado planar. A indústria preferiu a solução da Fairchild porque os transistores eram interligados por uma película fina depositada sobre o circuito. A invenção da Texas Instruments precisava de fios finos para interligar os componentes. O projeto de Noyce tornou-se possível com o processo planar de Jean Hoerni. Hoerni, por sua vez, havia se inspirado no método de passivação da superfície desenvolvido por Mohamed Atalla no Bell Labs em 1957.\nNo início da década de 1960, o departamento de pesquisa e desenvolvimento da Fairchild começou a fazer experiências com o MOSFET, transistor de efeito de campo de metal-óxido-semicondutor, também chamado de transistor MOS. Mohamed Atalla e Dawon Kahng haviam inventado o primeiro MOSFET no Bell Labs em 1959 e o apresentado no início de 1960, mas o laboratório deu pouca atenção inicial ao dispositivo. Na Fairchild, ele despertou interesse. Ainda em 1960, Chih-Tang Sah construiu um tetrodo controlado por MOS a partir dessa invenção. A Fairchild começou a comercializar dispositivos MOS em 1964, com modelos de canal p para aplicações de lógica e comutação. Essas experiências levaram ao desenvolvimento de circuitos integrados MOS pela empresa."
+    },
+    {
+      "id": "1307511_5",
+      "ordem": 5,
+      "texto": "Essas experiências levaram ao desenvolvimento de circuitos integrados MOS pela empresa.\nEm 1963, a Fairchild contratou Robert Widlar para projetar amplificadores operacionais analógicos com seu processo de fabricação. Como o processo havia sido aperfeiçoado para circuitos digitais, Widlar trabalhou com o engenheiro de processos Dave Talbert. Dessa colaboração nasceram o μA702 e o μA709. A Fairchild passou a dominar o mercado de circuitos integrados analógicos com os primeiros amplificadores operacionais integrados, também chamados de op-amps, o μA702, lançado em 1964, e o μA709, projetados por Widlar. Em 1968, lançou o μA741, de David Fullagar, que se tornou o amplificador operacional integrado mais popular."
+    },
+    {
+      "id": "1307511_6",
+      "ordem": 6,
+      "texto": "Em 1968, lançou o μA741, de David Fullagar, que se tornou o amplificador operacional integrado mais popular.\nEm 1965, os aperfeiçoamentos nos processos da Fairchild haviam reduzido os custos de fabricação de semicondutores. A empresa estava entre as poucas fabricantes do setor nos Estados Unidos que obtinham lucro e dominava os mercados de lógica diodo-transistor, amplificadores operacionais e circuitos sob encomenda para computadores de grande porte. Naquele ano, abriu uma fábrica de montagem de semicondutores em Shiprock, no Novo México, no território da Nação Navajo. A unidade chegou a empregar mais de mil navajos, em sua maioria mulheres. O folheto comemorativo de inauguração, The Shiprock Dedication Commemorative Brochure, apresentava as montadoras diné, ou navajas, como mulheres que expressavam sua cultura ao produzir circuitos, sem se limitar ao trabalho por um salário. A comparação se apoiava na semelhança entre os desenhos dos circuitos e os padrões geométricos dos tapetes navajos. Paul Driscoll, gerente da fábrica, falava da \"riqueza inexplorada das características naturais dos navajos\", da \"flexibilidade inerente\" e da destreza dos indígenas. Apesar do êxito de suas operações, a fábrica fechou em 1975. A Fairchild justificava a contratação das mulheres diné pela destreza de seus dedos. A disponibilidade de mão de obra abundante e barata, os benefícios fiscais e a dificuldade dessas trabalhadoras para reivindicar direitos trabalhistas também explicam a escolha de Shiprock."
+    },
+    {
+      "id": "1307511_7",
+      "ordem": 7,
+      "texto": "A disponibilidade de mão de obra abundante e barata, os benefícios fiscais e a dificuldade dessas trabalhadoras para reivindicar direitos trabalhistas também explicam a escolha de Shiprock.\nA Fairchild enfrentou dificuldades no mercado de circuitos integrados digitais. Sua primeira linha, a Micrologic, usava lógica resistor-transistor, ou RTL, e foi empregada no computador de orientação Apollo. Os circuitos eram simples, com apenas um transistor e dois resistores por inversor. Sua baixa tolerância a ruído limitava o uso comercial e militar. A empresa passou depois a produzir circuitos de lógica diodo-transistor, ou DTL, que toleravam níveis mais altos de ruído.\nAs vendas da divisão de semicondutores dobravam a cada ano e, em meados da década de 1960, correspondiam a dois terços das vendas da empresa controladora. Em 1966, a Fairchild ocupava o segundo lugar em vendas no setor, atrás da Texas Instruments e à frente da Motorola. Noyce foi promovido a vice-presidente da controladora, o que ampliou sua autoridade sobre a divisão de semicondutores.\nA queda dos lucros em 1967 agravou os problemas internos. A concorrência de empresas recém-criadas aumentava. A divisão de semicondutores, instalada em Mountain View e Palo Alto, era administrada por executivos de Syosset, no estado de Nova Iorque, que visitavam as instalações da Califórnia uma vez por ano, embora a divisão gerasse a maior parte dos lucros da empresa. John Carter, presidente da Fairchild, empregava esses recursos na compra de negócios que não davam lucro."
+    },
+    {
+      "id": "1307511_8",
+      "ordem": 8,
+      "texto": "John Carter, presidente da Fairchild, empregava esses recursos na compra de negócios que não davam lucro.\nA posição de Noyce na direção da Fairchild era enfraquecida pelo grupo de Sherman Fairchild. Charles E. Sporck, responsável pelas operações sob Noyce, tinha reputação de administrar a produção com extremo rigor. Sporck, Pierre Lamond e boa parte dos gerentes estavam descontentes com a prioridade dada a negócios deficitários em prejuízo da divisão de semicondutores. Os executivos dessa divisão recebiam muito menos opções de compra de ações que os de outras divisões. Em março de 1967, Peter J. Sprague contratou Sporck para a National Semiconductor. Sporck levou consigo outros quatro funcionários da Fairchild. Lamond já havia reunido um grupo de gerentes para sair da empresa e ingressar na britânica Plessey. Ele havia convidado Sporck para chefiar o grupo. As negociações com a Plessey fracassaram por divergências sobre as opções de compra de ações. Lamond e Sporck aceitaram então a sugestão de Widlar e Talbert, que já trabalhavam na National Semiconductor, de procurar essa empresa. Widlar e Talbert haviam deixado a Fairchild para trabalhar na Molectro, depois adquirida pela National Semiconductor."
+    },
+    {
+      "id": "1307511_9",
+      "ordem": 9,
+      "texto": "Widlar e Talbert haviam deixado a Fairchild para trabalhar na Molectro, depois adquirida pela National Semiconductor.\nNo segundo semestre de 1967, a Fairchild apresentou seu primeiro prejuízo desde 1958. As baixas contábeis de US$ 4 milhões por excesso de capacidade produtiva elevaram o prejuízo anual a US$ 7,7 milhões. No terceiro trimestre, o lucro havia caído para US$ 137 mil, ante US$ 3 milhões no mesmo trimestre do ano anterior. A cotação das ações caiu de US$ 92,375 para US$ 52. Em outubro, o conselho de administração exigiu que Carter vendesse os negócios deficitários. Ele respondeu com sua renúncia.\nA tecnologia DTL da Fairchild também perdia espaço para a lógica transistor-transistor, ou TTL, da Texas Instruments, que era mais rápida."
+    },
+    {
+      "id": "1307511_10",
+      "ordem": 10,
+      "texto": "A tecnologia DTL da Fairchild também perdia espaço para a lógica transistor-transistor, ou TTL, da Texas Instruments, que era mais rápida.\nEmbora Noyce fosse visto como o sucessor natural de Carter, o conselho não o promoveu. Por iniciativa de Sherman Fairchild, escolheu Richard Hodgson. Poucos meses depois, Hodgson foi substituído por uma comissão administrativa da qual Noyce participava, enquanto Sherman procurava outro diretor executivo. Noyce começou então a planejar discretamente uma nova empresa com Gordon Moore, diretor de pesquisa e desenvolvimento. Os dois deixaram a Fairchild e fundaram a Intel em 1968. Andrew Grove e Leslie L. Vadász logo se juntaram a eles. A Intel adotou a tecnologia MOS de porta de silício, chamada SGT pela sigla em inglês, que Federico Faggin havia acabado de desenvolver no laboratório de pesquisa da Fairchild. Faggin também projetou o Fairchild 3708, primeiro circuito integrado MOS comercial a usar essa tecnologia. A divisão MOS da Fairchild demorou a perceber o potencial da SGT para fabricar circuitos mais rápidos, confiáveis e densos, além de novos dispositivos, como sensores de imagem CCD, memórias RAM dinâmicas e memórias não voláteis, entre elas EPROM e flash. A Intel usou a SGT no desenvolvimento de memórias. Frustrado, Faggin deixou a Fairchild em 1970 para trabalhar na Intel, onde projetou os primeiros microprocessadores com essa tecnologia. Hodgson e cinco dos fundadores da Fairchild estavam entre os investidores da Intel."
+    },
+    {
+      "id": "1307511_11",
+      "ordem": 11,
+      "texto": "Hodgson e cinco dos fundadores da Fairchild estavam entre os investidores da Intel.\nSherman Fairchild contratou Lester Hogan, que dirigia a divisão de semicondutores da Motorola. Hogan substituiu a direção da Fairchild por executivos vindos da Motorola. Cerca de sessenta funcionários da Motorola passaram para a Fairchild em dois anos.\nA saída desses executivos e a substituição dos gerentes por Hogan abalaram o ânimo dos funcionários e estimularam novas saídas para a criação de empresas.\nBoa parte dos fundadores havia deixado a Fairchild na década de 1960 para criar empresas que cresceram na década seguinte. Esses empreendedores e as empresas que criaram receberam o apelido de \"fairchildren\". Noyce e Moore estiveram entre os últimos fundadores a sair. Com eles, a empresa perdeu outros integrantes da equipe que havia sustentado seu crescimento.\nUm anúncio da Fairchild reunia, em uma colagem, os logotipos de empresas do Vale do Silício, com a frase \"Nós começamos tudo\". Em 1971, Don Hoefler popularizou a expressão \"Silicon Valley USA\" em Electronic News. Ele afirmava que não havia criado o nome. Gregory Gromov retomou o assunto, assim como Rhett Morris em um artigo de 2014 no TechCrunch."
+    },
+    {
+      "id": "1307511_12",
+      "ordem": 12,
+      "texto": "Gregory Gromov retomou o assunto, assim como Rhett Morris em um artigo de 2014 no TechCrunch.\nDécada de 1970: A contratação de funcionários da Motorola por Hogan levou a Motorola a processar a Fairchild. Em 1973, a Justiça decidiu a favor da Fairchild. O juiz William Copple afirmou que seus resultados eram tão fracos que seria impossível calcular perdas e danos \"sob qualquer teoria\". Hogan perdeu a presidência no ano seguinte, mas permaneceu como vice-presidente do conselho de administração.\nEm 1973, a Fairchild tornou-se a primeira empresa a produzir comercialmente um dispositivo de carga acoplada, ou CCD, inventado no Bell Labs. A Fairchild Imaging, que surgiu a partir da empresa, prosseguiu com a fabricação de sensores de imagem digitais. O início da produção de CCDs foi prejudicado pela recessão de 1973 a 1975, que se seguiu à crise do petróleo de 1973 e atingiu duramente a Fairchild.\nDepois que a Intel lançou o 8008, um microprocessador de oito bits, a Fairchild desenvolveu seu próprio modelo de oito bits, o Fairchild F8. O CPU Museum atribui ao F8 a liderança mundial em vendas de microprocessadores em 1977."
+    },
+    {
+      "id": "1307511_13",
+      "ordem": 13,
+      "texto": "O CPU Museum atribui ao F8 a liderança mundial em vendas de microprocessadores em 1977.\nEm 1976, a empresa lançou o primeiro console de videogame a usar cartuchos de memória ROM, o Fairchild Video Entertainment System, ou VES, depois rebatizado de Channel F. O aparelho usava o microprocessador F8. As vendas foram boas no início, mas ele perdeu espaço rapidamente após o lançamento do Atari Video Computer System, ou VCS, que passou a ser chamado de Atari 2600.\nNo fim da década de 1970, a Fairchild tinha poucos produtos novos em desenvolvimento e procurava mercados específicos para os produtos que já fabricava. Entre eles estavam circuitos integrados resistentes à radiação para aplicações militares e espaciais e produtos ECL isoplanares usados em equipamentos especializados, como os computadores Cray. A empresa operava com prejuízo e dependia sobretudo da receita do licenciamento de patentes.\nEm 1979, a Schlumberger, empresa de serviços para a exploração de petróleo, comprou a Fairchild Camera and Instrument por US$ 425 milhões. As patentes das quais a Fairchild dependia para obter receita estavam perto de expirar."
+    },
+    {
+      "id": "1307511_14",
+      "ordem": 14,
+      "texto": "As patentes das quais a Fairchild dependia para obter receita estavam perto de expirar.\nDécada de 1980: Em 1980, já sob o controle da Schlumberger, a Fairchild criou o Fairchild Laboratory for Artificial Intelligence Research, ou FLAIR, dentro de seu departamento de pesquisa. Em 1985, o laboratório foi separado para formar o Schlumberger Palo Alto Research, ou SPAR.\nNa década de 1980, a equipe de pesquisa da Fairchild desenvolveu a arquitetura Clipper, uma arquitetura de computadores de 32 bits semelhante à RISC. O trabalho resultou no lançamento do chip C100 em 1986. A tecnologia foi vendida depois à Intergraph, sua principal cliente.\nA Schlumberger vendeu a Fairchild à National Semiconductor em 1987 por US$ 200 milhões. A venda não incluiu a divisão de testes da Fairchild, que projetava e fabricava equipamentos de teste automatizado para a indústria de semicondutores, nem o Schlumberger Palo Alto Research.\nNo início da década de 1980, a Fairchild e outras empresas de tecnologia do Vale do Silício foram processadas por moradores de San José. A ação envolvia a contaminação do solo e da água subterrânea por solventes industriais no bairro Los Paseos. O processo terminou em acordo, e a área entrou no programa federal de descontaminação Superfund. O sistema de extração e tratamento de água subterrânea foi desligado em 1998, mas o monitoramento da contaminação prosseguiu."
+    },
+    {
+      "id": "1307511_15",
+      "ordem": 15,
+      "texto": "O sistema de extração e tratamento de água subterrânea foi desligado em 1998, mas o monitoramento da contaminação prosseguiu.\nDécada de 1990: Em 1997, a Fairchild Semiconductor voltou a ser uma empresa independente, com sede em South Portland, no Maine, e Kirk Pond como diretor executivo.\nEm 11 de março de 1997, a National Semiconductor anunciou a venda da Fairchild, reorganizada, por US$ 550 milhões à sua equipe de administração, com apoio da Sterling LLC, uma unidade da Citicorp Venture Capital. A nova Fairchild reunia principalmente o grupo de produtos padronizados que Gil Amelio havia separado anteriormente.\nEm 27 de novembro de 1997, a Fairchild Semiconductor anunciou que compraria a divisão de semicondutores da Raytheon por cerca de US$ 120 milhões em dinheiro. A compra foi concluída em 31 de dezembro daquele ano.\nEm dezembro de 1998, a Fairchild anunciou a compra da divisão de dispositivos de potência da Samsung, que fabricava MOSFETs de potência, IGBTs e outros componentes. O negócio foi concluído em abril de 1999 por US$ 450 milhões. A Fairchild manteve a Samsung entre seus clientes e recebeu dela um prêmio de gestão da cadeia de suprimentos em 2014.\nEm agosto de 1999, a Fairchild Semiconductor voltou a negociar ações na Bolsa de Valores de Nova Iorque, sob o código FCS. Suas instalações de South Portland e Mountain Top estavam entre as fábricas antigas da empresa. As operações em South Portland começaram em 1962, e a fábrica de Mountain Top funcionava desde 1960."
+    },
+    {
+      "id": "1307511_16",
+      "ordem": 16,
+      "texto": "As operações em South Portland começaram em 1962, e a fábrica de Mountain Top funcionava desde 1960.\nDécada de 2000: Em março de 2001, a Fairchild Semiconductor concluiu a compra da divisão de componentes discretos de potência da Intersil por cerca de US$ 338 milhões em dinheiro. A aquisição fez da Fairchild a segunda maior fornecedora mundial de MOSFETs de potência, com 20% de um mercado de US$ 3 bilhões, que havia crescido 40% em 2000.\nEm 6 de setembro de 2001, a Fairchild Semiconductor anunciou a compra da Impala Linear Corporation, sediada em San José, por cerca de US$ 6 milhões em ações e dinheiro. A Impala desenvolvia semicondutores analógicos para gerenciamento de energia em aparelhos portáteis, como notebooks, tocadores de MP3, telefones celulares, equipamentos de teste e assistentes pessoais digitais.\nEm 9 de janeiro de 2004, Kirk Pond, diretor executivo da Fairchild Semiconductor, foi eleito pelos bancos membros para um mandato de três anos no conselho de administração do Federal Reserve Bank de Boston.\nEm 13 de abril de 2005, a Fairchild anunciou a nomeação de Mark Thompson como diretor executivo. Ele também assumiria a presidência da empresa e uma cadeira no conselho de administração da Fairchild Semiconductor International. Thompson havia ingressado na Fairchild como vice-presidente executivo do grupo de manufatura e tecnologia."
+    },
+    {
+      "id": "1307511_17",
+      "ordem": 17,
+      "texto": "Thompson havia ingressado na Fairchild como vice-presidente executivo do grupo de manufatura e tecnologia.\nEm 15 de março de 2006, a Fairchild Semiconductor anunciou que Kirk P. Pond deixaria a presidência do conselho de administração na assembleia anual de acionistas de 3 de maio de 2006. Pond permaneceria como conselheiro. Mark Thompson, que já era diretor executivo, assumiu a presidência do conselho.\nEm 1 de setembro de 2007, a Anadigics, fornecedora de semicondutores de radiofrequência sediada em Nova Jérsei, comprou por US$ 2,4 milhões a equipe de projetos de radiofrequência da Fairchild Semiconductor, instalada em Tyngsboro, Massachusetts."
+    },
+    {
+      "id": "1307511_18",
+      "ordem": 18,
+      "texto": "Em 1 de setembro de 2007, a Anadigics, fornecedora de semicondutores de radiofrequência sediada em Nova Jérsei, comprou por US$ 2,4 milhões a equipe de projetos de radiofrequência da Fairchild Semiconductor, instalada em Tyngsboro, Massachusetts.\nDécada de 2010: Em abril de 2011, a Fairchild Semiconductor adquiriu a TranSiC, fabricante de transistores de potência de carbeto de silício originalmente sediada na Suécia.\nEm 18 de novembro de 2015, após meses de especulação sobre a busca de um comprador para a Fairchild, a ON Semiconductor ofereceu US$ 2,4 bilhões pela empresa, ou US$ 20 por ação.\nEm 10 de abril de 2016, a Fairchild Semiconductor transferiu sua sede do número 3030 da Orchard Parkway, em San José, para o número 1272 da Borregas Avenue, em Sunnyvale.\nEm 19 de setembro de 2016, a ON Semiconductor e a Fairchild Semiconductor anunciaram em conjunto a conclusão da compra da Fairchild por US$ 2,4 bilhões em dinheiro.\nA produção da fábrica de West Jordan, em Utah, havia terminado no terceiro trimestre de 2015. O fechamento fizera parte de uma redução das instalações industriais anunciada em 2014."
+    },
+    {
+      "id": "1307511_19",
+      "ordem": 19,
+      "texto": "O fechamento fizera parte de uma redução das instalações industriais anunciada em 2014.\nProteção do edifício: Em 8 de maio de 1991, o órgão de preservação histórica da Califórnia reconheceu o local da invenção do primeiro circuito integrado viável para produção comercial como patrimônio histórico estadual, sob o número 1000. A placa comemorativa traz o texto: \"Neste local, em 1959, o dr. Robert Noyce, da Fairchild Semiconductor Corporation, inventou o primeiro circuito integrado que podia ser produzido comercialmente. Baseada na tecnologia 'planar', desenvolvida anteriormente pela Fairchild, a invenção de Noyce consistia em um circuito eletrônico completo dentro de um pequeno chip de silício. Sua inovação ajudou a revolucionar a indústria de semicondutores do 'Vale do Silício' e trouxe profundas mudanças para a vida de pessoas em todo o mundo.\""
+    }
+  ],
+  "entidades": [
+    {
+      "id": "organizacao:fairchild_semiconductor",
+      "nome": "Fairchild Semiconductor",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Fairchild",
+        "Fairchild Semiconductor International",
+        "Fairchild Semiconductor International, Inc.",
+        "Fairchild Semiconductor Corporation"
+      ],
+      "descricao": "Empresa americana de semicondutores fundada em 1957 como divisão da Fairchild Camera and Instrument.",
+      "propriedades": {
+        "tipo": "empresa",
+        "ano_fundacao": 1957
+      },
+      "chunk_ids": [
+        "1307511_0",
+        "1307511_1",
+        "1307511_2",
+        "1307511_3",
+        "1307511_4",
+        "1307511_5",
+        "1307511_6",
+        "1307511_7",
+        "1307511_8",
+        "1307511_9",
+        "1307511_10",
+        "1307511_11",
+        "1307511_12",
+        "1307511_13",
+        "1307511_14",
+        "1307511_15",
+        "1307511_16",
+        "1307511_17",
+        "1307511_18",
+        "1307511_19"
+      ]
+    },
+    {
+      "id": "local:san_jose",
+      "nome": "San José",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "1307511_0",
+        "1307511_14",
+        "1307511_16"
+      ]
+    },
+    {
+      "id": "local:california",
+      "nome": "Califórnia",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_0"
+      ]
+    },
+    {
+      "id": "organizacao:fairchild_camera_and_instrument",
+      "nome": "Fairchild Camera and Instrument",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1307511_0",
+        "1307511_1",
+        "1307511_7",
+        "1307511_13"
+      ]
+    },
+    {
+      "id": "organizacao:shockley_semiconductor_laboratory",
+      "nome": "Shockley Semiconductor Laboratory",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "laboratorio"
+      },
+      "chunk_ids": [
+        "1307511_0",
+        "1307511_1"
+      ]
+    },
+    {
+      "id": "organizacao:schlumberger",
+      "nome": "Schlumberger",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1307511_0",
+        "1307511_13",
+        "1307511_14"
+      ]
+    },
+    {
+      "id": "organizacao:national_semiconductor",
+      "nome": "National Semiconductor",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1307511_0",
+        "1307511_8",
+        "1307511_9",
+        "1307511_14",
+        "1307511_15"
+      ]
+    },
+    {
+      "id": "organizacao:on_semiconductor",
+      "nome": "ON Semiconductor",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1307511_0",
+        "1307511_18"
+      ]
+    },
+    {
+      "id": "pessoa:william_bradford_shockley",
+      "nome": "William Bradford Shockley",
+      "tipo": "Pessoa",
+      "aliases": [
+        "William Shockley",
+        "Shockley"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_1"
+      ]
+    },
+    {
+      "id": "local:mountain_view",
+      "nome": "Mountain View",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "1307511_1",
+        "1307511_7"
+      ]
+    },
+    {
+      "id": "organizacao:beckman_instruments",
+      "nome": "Beckman Instruments",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1307511_1"
+      ]
+    },
+    {
+      "id": "organizacao:bell_labs",
+      "nome": "Bell Labs",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Laboratórios Bell",
+        "Bell Laboratories",
+        "Nokia Bell Labs",
+        "Bell Telephone Laboratories",
+        "AT&T Bell Laboratories"
+      ],
+      "propriedades": {
+        "tipo": "laboratorio"
+      },
+      "chunk_ids": [
+        "1307511_1",
+        "1307511_4",
+        "1307511_12"
+      ]
+    },
+    {
+      "id": "pessoa:julius_blank",
+      "nome": "Julius Blank",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_1"
+      ]
+    },
+    {
+      "id": "pessoa:victor_grinich",
+      "nome": "Victor Grinich",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_1"
+      ]
+    },
+    {
+      "id": "pessoa:jean_hoerni",
+      "nome": "Jean Hoerni",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Hoerni"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_1",
+        "1307511_2",
+        "1307511_3",
+        "1307511_4"
+      ]
+    },
+    {
+      "id": "pessoa:eugene_kleiner",
+      "nome": "Eugene Kleiner",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_1"
+      ]
+    },
+    {
+      "id": "pessoa:jay_last",
+      "nome": "Jay Last",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_1"
+      ]
+    },
+    {
+      "id": "pessoa:gordon_moore",
+      "nome": "Gordon Moore",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Gordon Earle Moore",
+        "Moore"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_1",
+        "1307511_2",
+        "1307511_10",
+        "1307511_11"
+      ]
+    },
+    {
+      "id": "pessoa:robert_noyce",
+      "nome": "Robert Noyce",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Robert Norton Noyce",
+        "Bob Noyce",
+        "Noyce"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_1",
+        "1307511_2",
+        "1307511_4",
+        "1307511_7",
+        "1307511_8",
+        "1307511_10",
+        "1307511_11",
+        "1307511_19"
+      ]
+    },
+    {
+      "id": "pessoa:sheldon_roberts",
+      "nome": "Sheldon Roberts",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_1"
+      ]
+    },
+    {
+      "id": "pessoa:sherman_fairchild",
+      "nome": "Sherman Fairchild",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_1",
+        "1307511_2",
+        "1307511_10",
+        "1307511_11"
+      ]
+    },
+    {
+      "id": "organizacao:ibm",
+      "nome": "IBM",
+      "tipo": "Organizacao",
+      "aliases": [
+        "International Business Machines",
+        "International Business Machines Corporation"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1307511_2"
+      ]
+    },
+    {
+      "id": "organizacao:autonetics",
+      "nome": "Autonetics",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1307511_2"
+      ]
+    },
+    {
+      "id": "tecnologia:2n697",
+      "nome": "2N697",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "descricao": "Primeiro transistor comercializado pela Fairchild, um transistor mesa lançado em 1958.",
+      "propriedades": {
+        "tipo": "invencao",
+        "ano": 1958
+      },
+      "chunk_ids": [
+        "1307511_2"
+      ]
+    },
+    {
+      "id": "tecnologia:processo_planar",
+      "nome": "Processo planar",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "descricao": "Processo que permitia fabricar transistores com mais facilidade, menor custo e maior confiabilidade.",
+      "propriedades": {
+        "tipo": "invencao"
+      },
+      "chunk_ids": [
+        "1307511_2",
+        "1307511_3",
+        "1307511_4"
+      ]
+    },
+    {
+      "id": "tecnologia:transistor",
+      "nome": "Transístor",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "Transistor",
+        "transistores",
+        "transístores"
+      ],
+      "propriedades": {
+        "tipo": "invencao"
+      },
+      "chunk_ids": [
+        "1307511_2"
+      ]
+    },
+    {
+      "id": "tecnologia:2n1613",
+      "nome": "2N1613",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "invencao"
+      },
+      "chunk_ids": [
+        "1307511_3"
+      ]
+    },
+    {
+      "id": "organizacao:philco",
+      "nome": "Philco",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1307511_3"
+      ]
+    },
+    {
+      "id": "tecnologia:circuito_integrado",
+      "nome": "Circuito integrado",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "CI"
+      ],
+      "propriedades": {
+        "tipo": "invencao"
+      },
+      "chunk_ids": [
+        "1307511_3",
+        "1307511_4",
+        "1307511_19"
+      ]
+    },
+    {
+      "id": "pessoa:jack_kilby",
+      "nome": "Jack Kilby",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Kilby"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_3",
+        "1307511_4"
+      ]
+    },
+    {
+      "id": "organizacao:texas_instruments",
+      "nome": "Texas Instruments",
+      "tipo": "Organizacao",
+      "aliases": [
+        "TI",
+        "Texas Instruments Incorporated"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1307511_3",
+        "1307511_4",
+        "1307511_7",
+        "1307511_9"
+      ]
+    },
+    {
+      "id": "pessoa:mohamed_atalla",
+      "nome": "Mohamed Atalla",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_4"
+      ]
+    },
+    {
+      "id": "pessoa:dawon_kahng",
+      "nome": "Dawon Kahng",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_4"
+      ]
+    },
+    {
+      "id": "pessoa:chih_tang_sah",
+      "nome": "Chih-Tang Sah",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_4"
+      ]
+    },
+    {
+      "id": "tecnologia:mosfet",
+      "nome": "MOSFET",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "transistor MOS"
+      ],
+      "descricao": "Transistor de efeito de campo de metal-óxido-semicondutor.",
+      "propriedades": {
+        "tipo": "invencao",
+        "ano": 1959
+      },
+      "chunk_ids": [
+        "1307511_4"
+      ]
+    },
+    {
+      "id": "pessoa:robert_widlar",
+      "nome": "Robert Widlar",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Widlar"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_5",
+        "1307511_8",
+        "1307511_9"
+      ]
+    },
+    {
+      "id": "pessoa:dave_talbert",
+      "nome": "Dave Talbert",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Talbert"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_5",
+        "1307511_8",
+        "1307511_9"
+      ]
+    },
+    {
+      "id": "pessoa:david_fullagar",
+      "nome": "David Fullagar",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_5",
+        "1307511_6"
+      ]
+    },
+    {
+      "id": "tecnologia:a702",
+      "nome": "μA702",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "invencao",
+        "ano": 1964
+      },
+      "chunk_ids": [
+        "1307511_5"
+      ]
+    },
+    {
+      "id": "tecnologia:a709",
+      "nome": "μA709",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "invencao"
+      },
+      "chunk_ids": [
+        "1307511_5"
+      ]
+    },
+    {
+      "id": "tecnologia:a741",
+      "nome": "μA741",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "descricao": "Amplificador operacional integrado mais popular.",
+      "propriedades": {
+        "tipo": "invencao",
+        "ano": 1968
+      },
+      "chunk_ids": [
+        "1307511_5",
+        "1307511_6"
+      ]
+    },
+    {
+      "id": "local:shiprock",
+      "nome": "Shiprock",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "1307511_6"
+      ]
+    },
+    {
+      "id": "pessoa:paul_driscoll",
+      "nome": "Paul Driscoll",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_6"
+      ]
+    },
+    {
+      "id": "pessoa:john_carter",
+      "nome": "John Carter",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Carter"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_7",
+        "1307511_8",
+        "1307511_9"
+      ]
+    },
+    {
+      "id": "organizacao:motorola",
+      "nome": "Motorola",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Motorola, Inc."
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1307511_7",
+        "1307511_11",
+        "1307511_12"
+      ]
+    },
+    {
+      "id": "local:palo_alto",
+      "nome": "Palo Alto",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "1307511_7"
+      ]
+    },
+    {
+      "id": "pessoa:charles_e_sporck",
+      "nome": "Charles E. Sporck",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Sporck"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_8"
+      ]
+    },
+    {
+      "id": "pessoa:pierre_lamond",
+      "nome": "Pierre Lamond",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Lamond"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_8"
+      ]
+    },
+    {
+      "id": "pessoa:peter_j_sprague",
+      "nome": "Peter J. Sprague",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_8"
+      ]
+    },
+    {
+      "id": "organizacao:plessey",
+      "nome": "Plessey",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1307511_8"
+      ]
+    },
+    {
+      "id": "organizacao:molectro",
+      "nome": "Molectro",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1307511_8",
+        "1307511_9"
+      ]
+    },
+    {
+      "id": "organizacao:intel",
+      "nome": "Intel",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Intel Corporation"
+      ],
+      "propriedades": {
+        "tipo": "empresa",
+        "ano_fundacao": 1968
+      },
+      "chunk_ids": [
+        "1307511_10",
+        "1307511_11",
+        "1307511_12"
+      ]
+    },
+    {
+      "id": "pessoa:andrew_grove",
+      "nome": "Andrew Grove",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_10"
+      ]
+    },
+    {
+      "id": "pessoa:leslie_l_vadasz",
+      "nome": "Leslie L. Vadász",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_10"
+      ]
+    },
+    {
+      "id": "pessoa:federico_faggin",
+      "nome": "Federico Faggin",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Faggin"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_10"
+      ]
+    },
+    {
+      "id": "tecnologia:sgt",
+      "nome": "SGT",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "MOS de porta de silício"
+      ],
+      "descricao": "Tecnologia MOS de porta de silício desenvolvida por Faggin na Fairchild.",
+      "propriedades": {
+        "tipo": "invencao"
+      },
+      "chunk_ids": [
+        "1307511_10"
+      ]
+    },
+    {
+      "id": "tecnologia:fairchild_3708",
+      "nome": "Fairchild 3708",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "descricao": "Primeiro circuito integrado MOS comercial a usar a tecnologia SGT.",
+      "propriedades": {
+        "tipo": "invencao"
+      },
+      "chunk_ids": [
+        "1307511_10"
+      ]
+    },
+    {
+      "id": "pessoa:richard_hodgson",
+      "nome": "Richard Hodgson",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Hodgson"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_10"
+      ]
+    },
+    {
+      "id": "pessoa:lester_hogan",
+      "nome": "Lester Hogan",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Hogan"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_11",
+        "1307511_12"
+      ]
+    },
+    {
+      "id": "pessoa:don_hoefler",
+      "nome": "Don Hoefler",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_11"
+      ]
+    },
+    {
+      "id": "tecnologia:dispositivo_de_carga_acoplada",
+      "nome": "Dispositivo de carga acoplada",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "CCD"
+      ],
+      "descricao": "Dispositivo de carga acoplada inventado no Bell Labs.",
+      "propriedades": {
+        "tipo": "invencao"
+      },
+      "chunk_ids": [
+        "1307511_12"
+      ]
+    },
+    {
+      "id": "hardware:intel_8008",
+      "nome": "Intel 8008",
+      "tipo": "Hardware",
+      "aliases": [
+        "8008"
+      ],
+      "descricao": "Microprocessador de oito bits lançado pela Intel.",
+      "propriedades": {
+        "tipo": "processador"
+      },
+      "chunk_ids": [
+        "1307511_12"
+      ]
+    },
+    {
+      "id": "hardware:fairchild_f8",
+      "nome": "Fairchild F8",
+      "tipo": "Hardware",
+      "aliases": [
+        "F8"
+      ],
+      "descricao": "Microprocessador de oito bits desenvolvido pela Fairchild.",
+      "propriedades": {
+        "tipo": "processador"
+      },
+      "chunk_ids": [
+        "1307511_12",
+        "1307511_13"
+      ]
+    },
+    {
+      "id": "hardware:fairchild_channel_f",
+      "nome": "Fairchild Channel F",
+      "tipo": "Hardware",
+      "aliases": [
+        "Fairchild Video Entertainment System",
+        "VES",
+        "Channel F"
+      ],
+      "descricao": "Primeiro console de videogame a usar cartuchos de memória ROM, lançado em 1976.",
+      "propriedades": {
+        "tipo": "computador",
+        "ano": 1976
+      },
+      "chunk_ids": [
+        "1307511_13"
+      ]
+    },
+    {
+      "id": "hardware:atari_2600",
+      "nome": "Atari 2600",
+      "tipo": "Hardware",
+      "aliases": [
+        "Atari Video Computer System",
+        "VCS"
+      ],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "1307511_13"
+      ]
+    },
+    {
+      "id": "organizacao:fairchild_laboratory_for_artificial_intelligence_research",
+      "nome": "Fairchild Laboratory for Artificial Intelligence Research",
+      "tipo": "Organizacao",
+      "aliases": [
+        "FLAIR"
+      ],
+      "propriedades": {
+        "tipo": "laboratorio"
+      },
+      "chunk_ids": [
+        "1307511_14"
+      ]
+    },
+    {
+      "id": "organizacao:schlumberger_palo_alto_research",
+      "nome": "Schlumberger Palo Alto Research",
+      "tipo": "Organizacao",
+      "aliases": [
+        "SPAR"
+      ],
+      "propriedades": {
+        "tipo": "laboratorio"
+      },
+      "chunk_ids": [
+        "1307511_14"
+      ]
+    },
+    {
+      "id": "tecnologia:arquitetura_clipper",
+      "nome": "Arquitetura Clipper",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "Clipper"
+      ],
+      "descricao": "Arquitetura de computadores de 32 bits semelhante à RISC.",
+      "propriedades": {
+        "tipo": "conceito"
+      },
+      "chunk_ids": [
+        "1307511_14"
+      ]
+    },
+    {
+      "id": "hardware:c100",
+      "nome": "C100",
+      "tipo": "Hardware",
+      "aliases": [],
+      "descricao": "Chip lançado em 1986 a partir da arquitetura Clipper.",
+      "propriedades": {
+        "tipo": "processador",
+        "ano": 1986
+      },
+      "chunk_ids": [
+        "1307511_14"
+      ]
+    },
+    {
+      "id": "organizacao:intergraph",
+      "nome": "Intergraph",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1307511_14"
+      ]
+    },
+    {
+      "id": "local:south_portland",
+      "nome": "South Portland",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "1307511_15"
+      ]
+    },
+    {
+      "id": "local:maine",
+      "nome": "Maine",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_15"
+      ]
+    },
+    {
+      "id": "pessoa:kirk_pond",
+      "nome": "Kirk Pond",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Kirk P. Pond",
+        "Pond"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_15",
+        "1307511_16",
+        "1307511_17"
+      ]
+    },
+    {
+      "id": "organizacao:raytheon",
+      "nome": "Raytheon",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1307511_15"
+      ]
+    },
+    {
+      "id": "organizacao:samsung",
+      "nome": "Samsung",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1307511_15"
+      ]
+    },
+    {
+      "id": "organizacao:intersil",
+      "nome": "Intersil",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1307511_16"
+      ]
+    },
+    {
+      "id": "organizacao:impala_linear_corporation",
+      "nome": "Impala Linear Corporation",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1307511_16"
+      ]
+    },
+    {
+      "id": "pessoa:mark_thompson",
+      "nome": "Mark Thompson",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Thompson"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_16",
+        "1307511_17"
+      ]
+    },
+    {
+      "id": "organizacao:anadigics",
+      "nome": "Anadigics",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1307511_17",
+        "1307511_18"
+      ]
+    },
+    {
+      "id": "local:nova_jersia",
+      "nome": "Nova Jérsia",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1307511_17",
+        "1307511_18"
+      ]
+    },
+    {
+      "id": "organizacao:transic",
+      "nome": "TranSiC",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1307511_18"
+      ]
+    },
+    {
+      "id": "local:suecia",
+      "nome": "Suécia",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "pais"
+      },
+      "chunk_ids": [
+        "1307511_18"
+      ]
+    },
+    {
+      "id": "local:sunnyvale",
+      "nome": "Sunnyvale",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "1307511_18"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "organizacao:fairchild_semiconductor",
+      "tipo": "SEDIADA_EM",
+      "destino": "local:san_jose",
+      "propriedades": {},
+      "chunk_id": "1307511_0",
+      "evidencia": "foi uma empresa americana de semicondutores sediada em San José, na Califórnia",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:shockley_semiconductor_laboratory",
+      "propriedades": {
+        "ano": 1955
+      },
+      "chunk_id": "1307511_1",
+      "evidencia": "Em 1955, William Shockley fundou o Shockley Semiconductor Laboratory em Mountain View, na Califórnia",
+      "confianca": 0.95
+    },
+    {
+      "origem": "organizacao:shockley_semiconductor_laboratory",
+      "tipo": "SEDIADA_EM",
+      "destino": "local:mountain_view",
+      "propriedades": {},
+      "chunk_id": "1307511_1",
+      "evidencia": "William Shockley fundou o Shockley Semiconductor Laboratory em Mountain View, na Califórnia",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:julius_blank",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:shockley_semiconductor_laboratory",
+      "propriedades": {},
+      "chunk_id": "1307511_1",
+      "evidencia": "Oito funcionários, que passaram a ser chamados de \"oito traidores\", ficaram insatisfeitos com sua gestão. Eram Julius Blank, Victor Grinich, Jean Hoerni, Eugene Kleiner, Jay Last, Gordon Moore, Robert Noyce e Sheldon Roberts.",
+      "confianca": 0.7
+    },
+    {
+      "origem": "pessoa:victor_grinich",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:shockley_semiconductor_laboratory",
+      "propriedades": {},
+      "chunk_id": "1307511_1",
+      "evidencia": "Oito funcionários, que passaram a ser chamados de \"oito traidores\", ficaram insatisfeitos com sua gestão. Eram Julius Blank, Victor Grinich, Jean Hoerni, Eugene Kleiner, Jay Last, Gordon Moore, Robert Noyce e Sheldon Roberts.",
+      "confianca": 0.7
+    },
+    {
+      "origem": "pessoa:jean_hoerni",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:shockley_semiconductor_laboratory",
+      "propriedades": {},
+      "chunk_id": "1307511_1",
+      "evidencia": "Oito funcionários, que passaram a ser chamados de \"oito traidores\", ficaram insatisfeitos com sua gestão. Eram Julius Blank, Victor Grinich, Jean Hoerni, Eugene Kleiner, Jay Last, Gordon Moore, Robert Noyce e Sheldon Roberts.",
+      "confianca": 0.7
+    },
+    {
+      "origem": "pessoa:eugene_kleiner",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:shockley_semiconductor_laboratory",
+      "propriedades": {},
+      "chunk_id": "1307511_1",
+      "evidencia": "Oito funcionários, que passaram a ser chamados de \"oito traidores\", ficaram insatisfeitos com sua gestão. Eram Julius Blank, Victor Grinich, Jean Hoerni, Eugene Kleiner, Jay Last, Gordon Moore, Robert Noyce e Sheldon Roberts.",
+      "confianca": 0.7
+    },
+    {
+      "origem": "pessoa:jay_last",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:shockley_semiconductor_laboratory",
+      "propriedades": {},
+      "chunk_id": "1307511_1",
+      "evidencia": "Oito funcionários, que passaram a ser chamados de \"oito traidores\", ficaram insatisfeitos com sua gestão. Eram Julius Blank, Victor Grinich, Jean Hoerni, Eugene Kleiner, Jay Last, Gordon Moore, Robert Noyce e Sheldon Roberts.",
+      "confianca": 0.7
+    },
+    {
+      "origem": "pessoa:gordon_moore",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:shockley_semiconductor_laboratory",
+      "propriedades": {},
+      "chunk_id": "1307511_1",
+      "evidencia": "Oito funcionários, que passaram a ser chamados de \"oito traidores\", ficaram insatisfeitos com sua gestão. Eram Julius Blank, Victor Grinich, Jean Hoerni, Eugene Kleiner, Jay Last, Gordon Moore, Robert Noyce e Sheldon Roberts.",
+      "confianca": 0.7
+    },
+    {
+      "origem": "pessoa:robert_noyce",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:shockley_semiconductor_laboratory",
+      "propriedades": {},
+      "chunk_id": "1307511_1",
+      "evidencia": "Oito funcionários, que passaram a ser chamados de \"oito traidores\", ficaram insatisfeitos com sua gestão. Eram Julius Blank, Victor Grinich, Jean Hoerni, Eugene Kleiner, Jay Last, Gordon Moore, Robert Noyce e Sheldon Roberts.",
+      "confianca": 0.7
+    },
+    {
+      "origem": "pessoa:sheldon_roberts",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:shockley_semiconductor_laboratory",
+      "propriedades": {},
+      "chunk_id": "1307511_1",
+      "evidencia": "Oito funcionários, que passaram a ser chamados de \"oito traidores\", ficaram insatisfeitos com sua gestão. Eram Julius Blank, Victor Grinich, Jean Hoerni, Eugene Kleiner, Jay Last, Gordon Moore, Robert Noyce e Sheldon Roberts.",
+      "confianca": 0.7
+    },
+    {
+      "origem": "pessoa:gordon_moore",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:2n697",
+      "propriedades": {
+        "ano": 1958
+      },
+      "chunk_id": "1307511_2",
+      "evidencia": "O primeiro transistor comercializado pela Fairchild foi o 2N697, lançado em 1958. Desenvolvido por Moore, esse transistor mesa teve boas vendas.",
+      "confianca": 0.9
+    },
+    {
+      "origem": "organizacao:fairchild_semiconductor",
+      "tipo": "DESENVOLVEU",
+      "destino": "tecnologia:2n697",
+      "propriedades": {
+        "ano": 1958
+      },
+      "chunk_id": "1307511_2",
+      "evidencia": "O primeiro transistor comercializado pela Fairchild foi o 2N697, lançado em 1958.",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:jean_hoerni",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:processo_planar",
+      "propriedades": {},
+      "chunk_id": "1307511_2",
+      "evidencia": "Jean Hoerni desenvolveu o processo planar",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:jean_hoerni",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:processo_planar",
+      "propriedades": {},
+      "chunk_id": "1307511_3",
+      "evidencia": "Jean Hoerni desenvolveu o processo planar",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:jean_hoerni",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:2n1613",
+      "propriedades": {},
+      "chunk_id": "1307511_3",
+      "evidencia": "O 2N1613 de Hoerni teve ampla aceitação",
+      "confianca": 0.7
+    },
+    {
+      "origem": "organizacao:fairchild_semiconductor",
+      "tipo": "DESENVOLVEU",
+      "destino": "tecnologia:circuito_integrado",
+      "propriedades": {
+        "ano": 1960
+      },
+      "chunk_id": "1307511_3",
+      "evidencia": "Em 1960, a Fairchild construiu um circuito com quatro transistores em um único wafer de silício, criando o primeiro circuito integrado desse material.",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:jack_kilby",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:texas_instruments",
+      "propriedades": {},
+      "chunk_id": "1307511_3",
+      "evidencia": "Jack Kilby, da Texas Instruments, havia desenvolvido um circuito integrado de germânio em 12 de setembro de 1958",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:jack_kilby",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:circuito_integrado",
+      "propriedades": {
+        "ano": 1958
+      },
+      "chunk_id": "1307511_3",
+      "evidencia": "Jack Kilby, da Texas Instruments, havia desenvolvido um circuito integrado de germânio em 12 de setembro de 1958",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:robert_noyce",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:fairchild_semiconductor",
+      "propriedades": {},
+      "chunk_id": "1307511_4",
+      "evidencia": "Noyce, da Fairchild, e Kilby, da Texas Instruments, inventaram de forma independente o circuito integrado",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:jack_kilby",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:texas_instruments",
+      "propriedades": {},
+      "chunk_id": "1307511_4",
+      "evidencia": "Noyce, da Fairchild, e Kilby, da Texas Instruments, inventaram de forma independente o circuito integrado",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:robert_noyce",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:circuito_integrado",
+      "propriedades": {
+        "ano": 1959
+      },
+      "chunk_id": "1307511_4",
+      "evidencia": "Em 1959, Noyce concebeu o circuito integrado planar.",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:jack_kilby",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:circuito_integrado",
+      "propriedades": {},
+      "chunk_id": "1307511_4",
+      "evidencia": "Noyce, da Fairchild, e Kilby, da Texas Instruments, inventaram de forma independente o circuito integrado",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:jean_hoerni",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:processo_planar",
+      "propriedades": {},
+      "chunk_id": "1307511_4",
+      "evidencia": "O projeto de Noyce tornou-se possível com o processo planar de Jean Hoerni.",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:mohamed_atalla",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:bell_labs",
+      "propriedades": {},
+      "chunk_id": "1307511_4",
+      "evidencia": "Mohamed Atalla e Dawon Kahng haviam inventado o primeiro MOSFET no Bell Labs em 1959",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:dawon_kahng",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:bell_labs",
+      "propriedades": {},
+      "chunk_id": "1307511_4",
+      "evidencia": "Mohamed Atalla e Dawon Kahng haviam inventado o primeiro MOSFET no Bell Labs em 1959",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:mohamed_atalla",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:mosfet",
+      "propriedades": {
+        "ano": 1959
+      },
+      "chunk_id": "1307511_4",
+      "evidencia": "Mohamed Atalla e Dawon Kahng haviam inventado o primeiro MOSFET no Bell Labs em 1959",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:dawon_kahng",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:mosfet",
+      "propriedades": {
+        "ano": 1959
+      },
+      "chunk_id": "1307511_4",
+      "evidencia": "Mohamed Atalla e Dawon Kahng haviam inventado o primeiro MOSFET no Bell Labs em 1959",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:dawon_kahng",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:mohamed_atalla",
+      "propriedades": {
+        "contexto": "invenção do MOSFET"
+      },
+      "chunk_id": "1307511_4",
+      "evidencia": "Mohamed Atalla e Dawon Kahng haviam inventado o primeiro MOSFET no Bell Labs em 1959",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:robert_widlar",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:fairchild_semiconductor",
+      "propriedades": {
+        "ano_inicio": 1963
+      },
+      "chunk_id": "1307511_5",
+      "evidencia": "Em 1963, a Fairchild contratou Robert Widlar para projetar amplificadores operacionais analógicos",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:dave_talbert",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:robert_widlar",
+      "propriedades": {
+        "contexto": "amplificadores operacionais μA702 e μA709"
+      },
+      "chunk_id": "1307511_5",
+      "evidencia": "Widlar trabalhou com o engenheiro de processos Dave Talbert",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:robert_widlar",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:a709",
+      "propriedades": {},
+      "chunk_id": "1307511_5",
+      "evidencia": "o μA702, lançado em 1964, e o μA709, projetados por Widlar",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:robert_widlar",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:a702",
+      "propriedades": {
+        "ano": 1964
+      },
+      "chunk_id": "1307511_5",
+      "evidencia": "o μA702, lançado em 1964, e o μA709, projetados por Widlar",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:david_fullagar",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:a741",
+      "propriedades": {
+        "ano": 1968
+      },
+      "chunk_id": "1307511_5",
+      "evidencia": "Em 1968, lançou o μA741, de David Fullagar",
+      "confianca": 0.9
+    },
+    {
+      "origem": "organizacao:fairchild_semiconductor",
+      "tipo": "DESENVOLVEU",
+      "destino": "tecnologia:a741",
+      "propriedades": {
+        "ano": 1968
+      },
+      "chunk_id": "1307511_5",
+      "evidencia": "Em 1968, lançou o μA741, de David Fullagar",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:david_fullagar",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:a741",
+      "propriedades": {
+        "ano": 1968
+      },
+      "chunk_id": "1307511_6",
+      "evidencia": "Em 1968, lançou o μA741, de David Fullagar",
+      "confianca": 0.9
+    },
+    {
+      "origem": "organizacao:fairchild_semiconductor",
+      "tipo": "DESENVOLVEU",
+      "destino": "tecnologia:a741",
+      "propriedades": {
+        "ano": 1968
+      },
+      "chunk_id": "1307511_6",
+      "evidencia": "Em 1968, lançou o μA741, de David Fullagar",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:john_carter",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:fairchild_camera_and_instrument",
+      "propriedades": {
+        "cargo": "presidente"
+      },
+      "chunk_id": "1307511_7",
+      "evidencia": "John Carter, presidente da Fairchild, empregava esses recursos na compra de negócios que não davam lucro.",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:robert_noyce",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:fairchild_camera_and_instrument",
+      "propriedades": {
+        "cargo": "vice-presidente"
+      },
+      "chunk_id": "1307511_7",
+      "evidencia": "Noyce foi promovido a vice-presidente da controladora",
+      "confianca": 0.7
+    },
+    {
+      "origem": "organizacao:fairchild_semiconductor",
+      "tipo": "SEDIADA_EM",
+      "destino": "local:mountain_view",
+      "propriedades": {},
+      "chunk_id": "1307511_7",
+      "evidencia": "A divisão de semicondutores, instalada em Mountain View e Palo Alto",
+      "confianca": 0.75
+    },
+    {
+      "origem": "organizacao:fairchild_semiconductor",
+      "tipo": "SEDIADA_EM",
+      "destino": "local:palo_alto",
+      "propriedades": {},
+      "chunk_id": "1307511_7",
+      "evidencia": "A divisão de semicondutores, instalada em Mountain View e Palo Alto",
+      "confianca": 0.75
+    },
+    {
+      "origem": "pessoa:charles_e_sporck",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:fairchild_semiconductor",
+      "propriedades": {
+        "cargo": "responsável pelas operações"
+      },
+      "chunk_id": "1307511_8",
+      "evidencia": "Charles E. Sporck, responsável pelas operações sob Noyce",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:charles_e_sporck",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:national_semiconductor",
+      "propriedades": {
+        "ano_inicio": 1967
+      },
+      "chunk_id": "1307511_8",
+      "evidencia": "Em março de 1967, Peter J. Sprague contratou Sporck para a National Semiconductor.",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:robert_widlar",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:molectro",
+      "propriedades": {},
+      "chunk_id": "1307511_8",
+      "evidencia": "Widlar e Talbert haviam deixado a Fairchild para trabalhar na Molectro, depois adquirida pela National Semiconductor.",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:dave_talbert",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:molectro",
+      "propriedades": {},
+      "chunk_id": "1307511_8",
+      "evidencia": "Widlar e Talbert haviam deixado a Fairchild para trabalhar na Molectro, depois adquirida pela National Semiconductor.",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:robert_widlar",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:molectro",
+      "propriedades": {},
+      "chunk_id": "1307511_9",
+      "evidencia": "Widlar e Talbert haviam deixado a Fairchild para trabalhar na Molectro, depois adquirida pela National Semiconductor.",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:dave_talbert",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:molectro",
+      "propriedades": {},
+      "chunk_id": "1307511_9",
+      "evidencia": "Widlar e Talbert haviam deixado a Fairchild para trabalhar na Molectro, depois adquirida pela National Semiconductor.",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:gordon_moore",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:fairchild_semiconductor",
+      "propriedades": {
+        "cargo": "diretor de pesquisa e desenvolvimento"
+      },
+      "chunk_id": "1307511_10",
+      "evidencia": "Gordon Moore, diretor de pesquisa e desenvolvimento",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:robert_noyce",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:intel",
+      "propriedades": {
+        "ano": 1968
+      },
+      "chunk_id": "1307511_10",
+      "evidencia": "Os dois deixaram a Fairchild e fundaram a Intel em 1968.",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:gordon_moore",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:intel",
+      "propriedades": {
+        "ano": 1968
+      },
+      "chunk_id": "1307511_10",
+      "evidencia": "Os dois deixaram a Fairchild e fundaram a Intel em 1968.",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:andrew_grove",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:intel",
+      "propriedades": {},
+      "chunk_id": "1307511_10",
+      "evidencia": "Andrew Grove e Leslie L. Vadász logo se juntaram a eles.",
+      "confianca": 0.7
+    },
+    {
+      "origem": "pessoa:leslie_l_vadasz",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:intel",
+      "propriedades": {},
+      "chunk_id": "1307511_10",
+      "evidencia": "Andrew Grove e Leslie L. Vadász logo se juntaram a eles.",
+      "confianca": 0.7
+    },
+    {
+      "origem": "pessoa:federico_faggin",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:sgt",
+      "propriedades": {},
+      "chunk_id": "1307511_10",
+      "evidencia": "que Federico Faggin havia acabado de desenvolver no laboratório de pesquisa da Fairchild",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:federico_faggin",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:fairchild_3708",
+      "propriedades": {},
+      "chunk_id": "1307511_10",
+      "evidencia": "Faggin também projetou o Fairchild 3708, primeiro circuito integrado MOS comercial a usar essa tecnologia.",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:federico_faggin",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:fairchild_semiconductor",
+      "propriedades": {
+        "ano_fim": 1970
+      },
+      "chunk_id": "1307511_10",
+      "evidencia": "Frustrado, Faggin deixou a Fairchild em 1970 para trabalhar na Intel",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:federico_faggin",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:intel",
+      "propriedades": {
+        "ano_inicio": 1970
+      },
+      "chunk_id": "1307511_10",
+      "evidencia": "Frustrado, Faggin deixou a Fairchild em 1970 para trabalhar na Intel",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:lester_hogan",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:motorola",
+      "propriedades": {
+        "cargo": "diretor da divisão de semicondutores"
+      },
+      "chunk_id": "1307511_11",
+      "evidencia": "Sherman Fairchild contratou Lester Hogan, que dirigia a divisão de semicondutores da Motorola.",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:lester_hogan",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:fairchild_semiconductor",
+      "propriedades": {},
+      "chunk_id": "1307511_11",
+      "evidencia": "Sherman Fairchild contratou Lester Hogan, que dirigia a divisão de semicondutores da Motorola.",
+      "confianca": 0.8
+    },
+    {
+      "origem": "organizacao:bell_labs",
+      "tipo": "DESENVOLVEU",
+      "destino": "tecnologia:dispositivo_de_carga_acoplada",
+      "propriedades": {},
+      "chunk_id": "1307511_12",
+      "evidencia": "um dispositivo de carga acoplada, ou CCD, inventado no Bell Labs",
+      "confianca": 0.9
+    },
+    {
+      "origem": "organizacao:intel",
+      "tipo": "DESENVOLVEU",
+      "destino": "hardware:intel_8008",
+      "propriedades": {},
+      "chunk_id": "1307511_12",
+      "evidencia": "Depois que a Intel lançou o 8008, um microprocessador de oito bits",
+      "confianca": 0.9
+    },
+    {
+      "origem": "organizacao:fairchild_semiconductor",
+      "tipo": "DESENVOLVEU",
+      "destino": "hardware:fairchild_f8",
+      "propriedades": {},
+      "chunk_id": "1307511_12",
+      "evidencia": "a Fairchild desenvolveu seu próprio modelo de oito bits, o Fairchild F8",
+      "confianca": 0.9
+    },
+    {
+      "origem": "organizacao:fairchild_semiconductor",
+      "tipo": "DESENVOLVEU",
+      "destino": "hardware:fairchild_channel_f",
+      "propriedades": {
+        "ano": 1976
+      },
+      "chunk_id": "1307511_13",
+      "evidencia": "Em 1976, a empresa lançou o primeiro console de videogame a usar cartuchos de memória ROM, o Fairchild Video Entertainment System, ou VES, depois rebatizado de Channel F.",
+      "confianca": 0.9
+    },
+    {
+      "origem": "hardware:fairchild_channel_f",
+      "tipo": "UTILIZA",
+      "destino": "hardware:fairchild_f8",
+      "propriedades": {},
+      "chunk_id": "1307511_13",
+      "evidencia": "O aparelho usava o microprocessador F8.",
+      "confianca": 0.9
+    },
+    {
+      "origem": "organizacao:fairchild_semiconductor",
+      "tipo": "DESENVOLVEU",
+      "destino": "tecnologia:arquitetura_clipper",
+      "propriedades": {},
+      "chunk_id": "1307511_14",
+      "evidencia": "a equipe de pesquisa da Fairchild desenvolveu a arquitetura Clipper",
+      "confianca": 0.85
+    },
+    {
+      "origem": "organizacao:fairchild_semiconductor",
+      "tipo": "DESENVOLVEU",
+      "destino": "hardware:c100",
+      "propriedades": {
+        "ano": 1986
+      },
+      "chunk_id": "1307511_14",
+      "evidencia": "O trabalho resultou no lançamento do chip C100 em 1986.",
+      "confianca": 0.65
+    },
+    {
+      "origem": "organizacao:fairchild_semiconductor",
+      "tipo": "SEDIADA_EM",
+      "destino": "local:south_portland",
+      "propriedades": {},
+      "chunk_id": "1307511_15",
+      "evidencia": "a Fairchild Semiconductor voltou a ser uma empresa independente, com sede em South Portland, no Maine",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:kirk_pond",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:fairchild_semiconductor",
+      "propriedades": {
+        "cargo": "diretor executivo",
+        "ano_inicio": 1997
+      },
+      "chunk_id": "1307511_15",
+      "evidencia": "Em 1997, a Fairchild Semiconductor voltou a ser uma empresa independente, com sede em South Portland, no Maine, e Kirk Pond como diretor executivo.",
+      "confianca": 0.9
+    },
+    {
+      "origem": "organizacao:impala_linear_corporation",
+      "tipo": "SEDIADA_EM",
+      "destino": "local:san_jose",
+      "propriedades": {},
+      "chunk_id": "1307511_16",
+      "evidencia": "a compra da Impala Linear Corporation, sediada em San José",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:kirk_pond",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:fairchild_semiconductor",
+      "propriedades": {
+        "cargo": "diretor executivo"
+      },
+      "chunk_id": "1307511_16",
+      "evidencia": "Kirk Pond, diretor executivo da Fairchild Semiconductor",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:mark_thompson",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:fairchild_semiconductor",
+      "propriedades": {
+        "cargo": "diretor executivo",
+        "ano_inicio": 2005
+      },
+      "chunk_id": "1307511_16",
+      "evidencia": "Em 13 de abril de 2005, a Fairchild anunciou a nomeação de Mark Thompson como diretor executivo.",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:mark_thompson",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:fairchild_semiconductor",
+      "propriedades": {
+        "cargo": "vice-presidente executivo do grupo de manufatura e tecnologia"
+      },
+      "chunk_id": "1307511_17",
+      "evidencia": "Thompson havia ingressado na Fairchild como vice-presidente executivo do grupo de manufatura e tecnologia.",
+      "confianca": 0.9
+    },
+    {
+      "origem": "organizacao:anadigics",
+      "tipo": "SEDIADA_EM",
+      "destino": "local:nova_jersia",
+      "propriedades": {},
+      "chunk_id": "1307511_17",
+      "evidencia": "a Anadigics, fornecedora de semicondutores de radiofrequência sediada em Nova Jérsei",
+      "confianca": 0.9
+    },
+    {
+      "origem": "organizacao:anadigics",
+      "tipo": "SEDIADA_EM",
+      "destino": "local:nova_jersia",
+      "propriedades": {},
+      "chunk_id": "1307511_18",
+      "evidencia": "a Anadigics, fornecedora de semicondutores de radiofrequência sediada em Nova Jérsei",
+      "confianca": 0.9
+    },
+    {
+      "origem": "organizacao:transic",
+      "tipo": "SEDIADA_EM",
+      "destino": "local:suecia",
+      "propriedades": {},
+      "chunk_id": "1307511_18",
+      "evidencia": "a TranSiC, fabricante de transistores de potência de carbeto de silício originalmente sediada na Suécia",
+      "confianca": 0.8
+    },
+    {
+      "origem": "organizacao:fairchild_semiconductor",
+      "tipo": "SEDIADA_EM",
+      "destino": "local:sunnyvale",
+      "propriedades": {},
+      "chunk_id": "1307511_18",
+      "evidencia": "a Fairchild Semiconductor transferiu sua sede do número 3030 da Orchard Parkway, em San José, para o número 1272 da Borregas Avenue, em Sunnyvale",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:robert_noyce",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:fairchild_semiconductor",
+      "propriedades": {},
+      "chunk_id": "1307511_19",
+      "evidencia": "o dr. Robert Noyce, da Fairchild Semiconductor Corporation, inventou o primeiro circuito integrado que podia ser produzido comercialmente",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:robert_noyce",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:circuito_integrado",
+      "propriedades": {
+        "ano": 1959
+      },
+      "chunk_id": "1307511_19",
+      "evidencia": "Neste local, em 1959, o dr. Robert Noyce, da Fairchild Semiconductor Corporation, inventou o primeiro circuito integrado que podia ser produzido comercialmente.",
+      "confianca": 0.9
+    }
+  ]
+}

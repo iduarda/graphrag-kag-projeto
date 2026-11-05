@@ -1,0 +1,265 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 128860,
+    "titulo": "John Bardeen",
+    "url": "https://pt.wikipedia.org/wiki/John_Bardeen",
+    "categoria": "Pessoa",
+    "wikidata_id": "Q949"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:25:21+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "pessoa:john_bardeen",
+  "chunks": [
+    {
+      "id": "128860_0",
+      "ordem": 0,
+      "texto": "John Bardeen (Madison, 23 de outubro de 1908 — Boston, 30 de janeiro de 1991) foi um físico estadunidense. Pai do físico James Maxwell Bardeen.\nBiografia: Ele é a única pessoa a receber o Prêmio Nobel de Física duas vezes: primeiro em 1956 com William Shockley e Walter Brattain pela invenção do transistor; e novamente em 1972 com Leon N. Cooper e John Robert Schrieffer para uma teoria fundamental da supercondutividade convencional conhecida como teoria BCS.\nO transistor revolucionou a indústria eletrônica, possibilitando o desenvolvimento de quase todos os dispositivos eletrônicos modernos, de telefones a computadores, e inaugurando a Era da Informação. Os desenvolvimentos de Bardeen em supercondutividade - pelos quais ele recebeu seu segundo Prêmio Nobel - são usados em espectroscopia de ressonância magnética nuclear (RMN), ressonância magnética médica (MRI) e circuitos quânticos supercondutores.\nNascido e criado em Wisconsin, Bardeen recebeu um Ph.D. em física pela Universidade de Princeton. Depois de servir na Segunda Guerra Mundial, ele foi pesquisador do Bell Labs e professor da Universidade de Illinois. Em 1990, Bardeen apareceu na lista da revista Life dos \"100 americanos mais influentes do século\"."
+    },
+    {
+      "id": "128860_1",
+      "ordem": 1,
+      "texto": "Em 1990, Bardeen apareceu na lista da revista Life dos \"100 americanos mais influentes do século\".\nBardeen é a primeira de apenas três pessoas a ganhar vários prêmios Nobel na mesma categoria (os outros são Frederick Sanger e Karl Barry Sharpless em química) e uma das cinco pessoas com dois prêmios Nobel."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "pessoa:john_bardeen",
+      "nome": "John Bardeen",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Bardeen"
+      ],
+      "descricao": "Físico estadunidense, único a receber duas vezes o Prêmio Nobel de Física.",
+      "propriedades": {
+        "ano_nascimento": 1908,
+        "ano_morte": 1991
+      },
+      "chunk_ids": [
+        "128860_0",
+        "128860_1"
+      ]
+    },
+    {
+      "id": "pessoa:william_bradford_shockley",
+      "nome": "William Bradford Shockley",
+      "tipo": "Pessoa",
+      "aliases": [
+        "William Shockley",
+        "Shockley"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "128860_0"
+      ]
+    },
+    {
+      "id": "pessoa:walter_houser_brattain",
+      "nome": "Walter Houser Brattain",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Walter Brattain",
+        "Brattain"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "128860_0"
+      ]
+    },
+    {
+      "id": "premio:premio_nobel_de_fisica",
+      "nome": "Prêmio Nobel de Física",
+      "tipo": "Premio",
+      "aliases": [
+        "Nobel de Física",
+        "Prémio Nobel de Física"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "128860_0"
+      ]
+    },
+    {
+      "id": "tecnologia:transistor",
+      "nome": "Transístor",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "Transistor",
+        "transistores",
+        "transístores"
+      ],
+      "descricao": "Invenção que revolucionou a indústria eletrônica.",
+      "propriedades": {
+        "tipo": "invencao"
+      },
+      "chunk_ids": [
+        "128860_0"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_de_princeton",
+      "nome": "Universidade de Princeton",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Princeton University",
+        "Princeton"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "128860_0"
+      ]
+    },
+    {
+      "id": "organizacao:bell_labs",
+      "nome": "Bell Labs",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Laboratórios Bell",
+        "Bell Laboratories",
+        "Nokia Bell Labs",
+        "Bell Telephone Laboratories",
+        "AT&T Bell Laboratories"
+      ],
+      "propriedades": {
+        "tipo": "laboratorio"
+      },
+      "chunk_ids": [
+        "128860_0"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_de_illinois",
+      "nome": "Universidade de Illinois",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "128860_0"
+      ]
+    },
+    {
+      "id": "local:madison",
+      "nome": "Madison",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "128860_0"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:john_bardeen",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_nobel_de_fisica",
+      "propriedades": {
+        "ano": 1956
+      },
+      "chunk_id": "128860_0",
+      "evidencia": "primeiro em 1956 com William Shockley e Walter Brattain pela invenção do transistor",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_nobel_de_fisica",
+      "propriedades": {
+        "ano": 1956
+      },
+      "chunk_id": "128860_0",
+      "evidencia": "primeiro em 1956 com William Shockley e Walter Brattain pela invenção do transistor",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:walter_houser_brattain",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_nobel_de_fisica",
+      "propriedades": {
+        "ano": 1956
+      },
+      "chunk_id": "128860_0",
+      "evidencia": "primeiro em 1956 com William Shockley e Walter Brattain pela invenção do transistor",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:john_bardeen",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:transistor",
+      "propriedades": {},
+      "chunk_id": "128860_0",
+      "evidencia": "primeiro em 1956 com William Shockley e Walter Brattain pela invenção do transistor",
+      "confianca": 0.7
+    },
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:transistor",
+      "propriedades": {},
+      "chunk_id": "128860_0",
+      "evidencia": "primeiro em 1956 com William Shockley e Walter Brattain pela invenção do transistor",
+      "confianca": 0.7
+    },
+    {
+      "origem": "pessoa:walter_houser_brattain",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:transistor",
+      "propriedades": {},
+      "chunk_id": "128860_0",
+      "evidencia": "primeiro em 1956 com William Shockley e Walter Brattain pela invenção do transistor",
+      "confianca": 0.7
+    },
+    {
+      "origem": "pessoa:john_bardeen",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:universidade_de_princeton",
+      "propriedades": {
+        "curso": "física"
+      },
+      "chunk_id": "128860_0",
+      "evidencia": "Bardeen recebeu um Ph.D. em física pela Universidade de Princeton",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:john_bardeen",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:bell_labs",
+      "propriedades": {
+        "cargo": "pesquisador"
+      },
+      "chunk_id": "128860_0",
+      "evidencia": "ele foi pesquisador do Bell Labs",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:john_bardeen",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:universidade_de_illinois",
+      "propriedades": {
+        "cargo": "professor"
+      },
+      "chunk_id": "128860_0",
+      "evidencia": "professor da Universidade de Illinois",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:john_bardeen",
+      "tipo": "NASCEU_EM",
+      "destino": "local:madison",
+      "propriedades": {},
+      "chunk_id": "128860_0",
+      "evidencia": "John Bardeen (Madison, 23 de outubro de 1908",
+      "confianca": 0.85
+    }
+  ]
+}

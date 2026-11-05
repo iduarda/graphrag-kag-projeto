@@ -1,0 +1,378 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:23:21+00:00",
+ "chunks": [
+  {
+   "chunk_id": "5704058_0",
+   "entidades": [
+    {
+     "nome": "Swift",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem de programação desenvolvida pela Apple para iOS, macOS, watchOS, tvOS, Windows e Linux.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Objective-C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Windows"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "Swift",
+     "propriedades": {},
+     "evidencia": "Swift é uma linguagem de programação desenvolvida pela Apple",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "5704058_1",
+   "entidades": [
+    {
+     "nome": "Swift",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Chris Lattner",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Iniciou o desenvolvimento do Swift em julho de 2010.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Objective-C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Rust",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Haskell",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ruby",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "CLU",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Chris Lattner",
+     "tipo": "CRIOU",
+     "destino": "Swift",
+     "propriedades": {},
+     "evidencia": "O desenvolvimento do Swift teve início em julho de 2010 por Chris Lattner",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Swift",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Objective-C",
+     "propriedades": {},
+     "evidencia": "O Swift é inspirado em linguagens como Objective-C, Rust, Haskell, Ruby, Python, C#, CLU",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Swift",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Rust",
+     "propriedades": {},
+     "evidencia": "O Swift é inspirado em linguagens como Objective-C, Rust, Haskell, Ruby, Python, C#, CLU",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Swift",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Haskell",
+     "propriedades": {},
+     "evidencia": "O Swift é inspirado em linguagens como Objective-C, Rust, Haskell, Ruby, Python, C#, CLU",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Swift",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Ruby",
+     "propriedades": {},
+     "evidencia": "O Swift é inspirado em linguagens como Objective-C, Rust, Haskell, Ruby, Python, C#, CLU",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Swift",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Python",
+     "propriedades": {},
+     "evidencia": "O Swift é inspirado em linguagens como Objective-C, Rust, Haskell, Ruby, Python, C#, CLU",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Swift",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C#",
+     "propriedades": {},
+     "evidencia": "O Swift é inspirado em linguagens como Objective-C, Rust, Haskell, Ruby, Python, C#, CLU",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Swift",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "CLU",
+     "propriedades": {},
+     "evidencia": "O Swift é inspirado em linguagens como Objective-C, Rust, Haskell, Ruby, Python, C#, CLU",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "5704058_2",
+   "entidades": [
+    {
+     "nome": "Chris Lattner",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Anunciou em janeiro de 2017 seu regresso da Apple por uma posição na Tesla Motors.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Tesla Motors",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Ted Kremenek",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Swift",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Chris Lattner",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Tesla Motors",
+     "propriedades": {},
+     "evidencia": "Chris Lattner anunciou seu regresso da Apple por uma posição na Tesla Motors",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Chris Lattner",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Apple",
+     "propriedades": {
+      "cargo": "líder de projeto do Swift",
+      "ano_fim": 2017
+     },
+     "evidencia": "Em janeiro de 2017, Chris Lattner anunciou seu regresso da Apple por uma posição na Tesla Motors, deixando o cargo de líder de projeto do Swift para Ted Kremenek.",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "5704058_3",
+   "entidades": [
+    {
+     "nome": "Swift",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Alternativa ao Objective-C com sintaxe mais simples.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Objective-C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Swift",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Objective-C",
+     "propriedades": {},
+     "evidencia": "O Swift retém conceitos chave do Objective-C como protocolos, clausura e categorias",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "5704058_4",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "5704058_5",
+   "entidades": [
+    {
+     "nome": "Swift",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "5704058_6",
+   "entidades": [
+    {
+     "nome": "Swift",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "5704058_7",
+   "entidades": [
+    {
+     "nome": "Swift",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Objective-C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "5704058_8",
+   "entidades": [
+    {
+     "nome": "Swift",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

@@ -1,0 +1,616 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:23:37+00:00",
+ "chunks": [
+  {
+   "chunk_id": "65038_0",
+   "entidades": [
+    {
+     "nome": "Edsger Dijkstra",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Edsger Wybe Dijkstra",
+      "Dijkstra"
+     ],
+     "descricao": "Cientista da computação holandês conhecido por algoritmos, linguagens de programação, sistemas operacionais e processamento distribuído.",
+     "propriedades": {
+      "ano_nascimento": 1930,
+      "ano_morte": 2002
+     }
+    },
+    {
+     "nome": "Roterdã",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "THE",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "sistema operacional THE"
+     ],
+     "descricao": "Sistema operacional desenvolvido por Dijkstra.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Algoritmo de Dijkstra",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "algoritmo para o problema do caminho mínimo"
+     ],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Edsger Dijkstra",
+     "tipo": "NASCEU_EM",
+     "destino": "Roterdã",
+     "propriedades": {},
+     "evidencia": "Edsger Wybe Dijkstra (Roterdã, 11 de maio de 1930",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Edsger Dijkstra",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 1972
+     },
+     "evidencia": "pelo qual recebeu o Prêmio Turing de 1972 por suas contribuições fundamentais",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Edsger Dijkstra",
+     "tipo": "CRIOU",
+     "destino": "Algoritmo de Dijkstra",
+     "propriedades": {},
+     "evidencia": "o algoritmo para o problema do caminho mínimo (também conhecido como algoritmo de Dijkstra)",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Edsger Dijkstra",
+     "tipo": "CRIOU",
+     "destino": "THE",
+     "propriedades": {},
+     "evidencia": "Entre suas contribuições para a ciência da computação está incluído o algoritmo para o problema do caminho mínimo (também conhecido como algoritmo de Dijkstra), o sistema operacional THE",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "65038_1",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "65038_2",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "65038_3",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "65038_4",
+   "entidades": [
+    {
+     "nome": "Edsger Dijkstra",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Dijkstra"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio ACM PODC Influential-Paper",
+     "tipo": "Premio",
+     "aliases": [
+      "prêmio ACM PODC-Influential-Paper Award",
+      "Prêmio Dijkstra"
+     ],
+     "descricao": "Prêmio em computação distribuída, renomeado Prêmio Dijkstra no ano seguinte a 2002.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Association for Computing Machinery",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ACM"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Edsger Dijkstra",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio ACM PODC Influential-Paper",
+     "propriedades": {
+      "ano": 2002
+     },
+     "evidencia": "Pouco antes de sua morte, em 2002, ele recebeu o prêmio ACM PODC-Influential-Paper Award em computação distribuída",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "65038_5",
+   "entidades": [
+    {
+     "nome": "Edsger Dijkstra",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Dijkstra"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade do Texas em Austin",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade do Texas"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "65038_6",
+   "entidades": [
+    {
+     "nome": "Edsger Dijkstra",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Dijkstra"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Roterdã",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Universidade de Leiden",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Edsger Dijkstra",
+     "tipo": "NASCEU_EM",
+     "destino": "Roterdã",
+     "propriedades": {},
+     "evidencia": "Nascido em Roterdã, Dijkstra era filho de um professor de química",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Edsger Dijkstra",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Leiden",
+     "propriedades": {
+      "curso": "matemática e física"
+     },
+     "evidencia": "Estudou matemática e física nos primeiros anos da Universidade de Leiden",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "65038_7",
+   "entidades": [
+    {
+     "nome": "Edsger Dijkstra",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Dijkstra",
+      "Edsger"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto Nacional de Pesquisa em Matemática e Ciência da Computação",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Centro de Matemática"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Universidade de Leiden",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Países Baixos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Edsger Dijkstra",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto Nacional de Pesquisa em Matemática e Ciência da Computação",
+     "propriedades": {
+      "cargo": "programador",
+      "ano_inicio": 1952
+     },
+     "evidencia": "emprego oferecido como programador no Centro de Matemática do Instituto Nacional de Pesquisa em Matemática e Ciência da Computação em Amesterdão, cujo início foi em março de 1952",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Edsger Dijkstra",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Leiden",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "continuou seus estudos de física na Universidade de Leiden como formalidade, até graduar-se em 1956",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "65038_8",
+   "entidades": [
+    {
+     "nome": "Edsger Dijkstra",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Dijkstra"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Algoritmo de Dijkstra",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Solução para o problema do caminho mínimo, concluída em 1956 e publicada em 1959.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "ARMAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "J. A. Zonneveld",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ALGOL",
+     "tipo": "Linguagem",
+     "aliases": [
+      "ALGOL 60"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto Nacional de Pesquisa em Matemática e Ciência da Computação",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Centro de Matemática"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Edsger Dijkstra",
+     "tipo": "CRIOU",
+     "destino": "Algoritmo de Dijkstra",
+     "propriedades": {},
+     "evidencia": "Um dos primeiros algoritmos desenvolvidos pelo cientista foi uma solução para o problema do caminho mínimo, também conhecido como algoritmo de Dijkstra.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Edsger Dijkstra",
+     "tipo": "COLABOROU_COM",
+     "destino": "J. A. Zonneveld",
+     "propriedades": {
+      "contexto": "primeiro compilador para ALGOL 60"
+     },
+     "evidencia": "trabalhou junto com J. A. Zonneveld no desenvolvimento do primeiro compilador para ALGOL 60",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "65038_9",
+   "entidades": [
+    {
+     "nome": "Edsger Dijkstra",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Dijkstra"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Tecnologia de Eindhoven",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade Eindhoven de Tecnologia"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "THE",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "sistema operacional THE"
+     ],
+     "descricao": "Considerado o primeiro sistema operacional com processos sequenciais cooperativos sincronizados explicitamente.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Niklaus Wirth",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Association for Computing Machinery",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Communications of the ACM"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Edsger Dijkstra",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Tecnologia de Eindhoven",
+     "propriedades": {
+      "cargo": "professor de matemática",
+      "ano_inicio": 1962
+     },
+     "evidencia": "Dijkstra foi nomeado professor de matemática na Universidade Eindhoven de Tecnologia a partir de 1962",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Edsger Dijkstra",
+     "tipo": "CRIOU",
+     "destino": "THE",
+     "propriedades": {},
+     "evidencia": "Nessa época ele construiu o sistema operacional THE",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "65038_10",
+   "entidades": [
+    {
+     "nome": "Niklaus Wirth",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Edsger Dijkstra",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Dijkstra"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "65038_11",
+   "entidades": [
+    {
+     "nome": "Edsger Dijkstra",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Dijkstra"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ALGOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Burroughs Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Edsger Dijkstra",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 1972
+     },
+     "evidencia": "Em 1972 recebeu o Prêmio Turing por suas contribuições com o ALGOL",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Edsger Dijkstra",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Burroughs Corporation",
+     "propriedades": {
+      "cargo": "pesquisador",
+      "ano_inicio": 1973
+     },
+     "evidencia": "Dijkstra trabalhou como pesquisador para a Burroughs Corporation a partir de agosto de 1973",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "65038_12",
+   "entidades": [
+    {
+     "nome": "Edsger Dijkstra",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Edger"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade do Texas em Austin",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade do Texas"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Edsger Dijkstra",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade do Texas em Austin",
+     "propriedades": {
+      "cargo": "cadeira de ciência da computação",
+      "ano_inicio": 1984
+     },
+     "evidencia": "Edger assumiu a cadeira de ciência da computação na Universidade do Texas em Austin, Estados Unidos, em 1984",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "65038_13",
+   "entidades": [
+    {
+     "nome": "Edsger Dijkstra",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Dijkstra"
+     ],
+     "propriedades": {
+      "ano_morte": 2002
+     }
+    },
+    {
+     "nome": "Universidade do Texas em Austin",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Edsger Dijkstra",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade do Texas em Austin",
+     "propriedades": {
+      "ano_fim": 1999
+     },
+     "evidencia": "Dijkstra trabalhou em Austin até sua aposentadoria, em novembro de 1999",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "65038_14",
+   "entidades": [
+    {
+     "nome": "Edsger Dijkstra",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Dijkstra"
+     ],
+     "propriedades": {
+      "ano_morte": 2002
+     }
+    },
+    {
+     "nome": "Países Baixos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "65038_15",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

@@ -1,0 +1,710 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:22:15+00:00",
+ "chunks": [
+  {
+   "chunk_id": "128859_0",
+   "entidades": [
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shockley",
+      "William Shockley"
+     ],
+     "descricao": "Físico e inventor estadunidense laureado com o Nobel de física em 1956.",
+     "propriedades": {
+      "ano_nascimento": 1910,
+      "ano_morte": 1989
+     }
+    },
+    {
+     "nome": "Londres",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade de Stanford"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Califórnia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "NASCEU_EM",
+     "destino": "Londres",
+     "propriedades": {},
+     "evidencia": "William Bradford Shockley (Londres, 13 de fevereiro de 1910",
+     "confianca": 0.85
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "laureado com o prêmio Nobel de física em 1956",
+     "confianca": 0.95
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade Stanford",
+     "propriedades": {
+      "cargo": "professor de engenharia elétrica"
+     },
+     "evidencia": "quando era professor de engenharia elétrica na Universidade de Stanford",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "128859_1",
+   "entidades": [
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade de Stanford"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "128859_2",
+   "entidades": [
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Tecnologia da Califórnia",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Caltech"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Clinton Davisson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Clarke Slater",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Nova Jérsia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Instituto de Tecnologia da Califórnia",
+     "propriedades": {
+      "ano": 1932
+     },
+     "evidencia": "No ano de 1932, ele recebeu seu grau de Bacharel em Ciências no Instituto de Tecnologia da Califórnia",
+     "confianca": 0.9
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "curso": "PhD",
+      "ano": 1936
+     },
+     "evidencia": "Shockley recebeu o seu PhD no Instituto de Tecnologia de Massachusetts em 1936",
+     "confianca": 0.9
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "ele se juntou a um grupo de pesquisa liderado por Clinton Davisson no Bell Labs",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "128859_3",
+   "entidades": [
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Universidade Columbia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {
+      "ano_fim": 1942
+     },
+     "evidencia": "Em maio de 1942 ele se despediu da Bell Labs",
+     "confianca": 0.85
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade Columbia",
+     "propriedades": {
+      "cargo": "diretor de pesquisa",
+      "ano_inicio": 1942
+     },
+     "evidencia": "para se tornar um diretor de pesquisa na  Universidade Columbia",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "128859_4",
+   "entidades": [
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha Presidencial por Mérito",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Porter Patterson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Presidencial por Mérito",
+     "propriedades": {
+      "ano": 1946
+     },
+     "evidencia": "o secretário de guerra Robert Porter Patterson concedeu a ele a Medalha Presidencial por Mérito em 17 de outubro de 1946",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "128859_5",
+   "entidades": [
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "John Bardeen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Walter Houser Brattain",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Walter Brattain"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Morgan Stanley",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Gerald Pearson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Gibney",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Hilbert Moore",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John N. Shive",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Transistor de ponto de contato",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1948,
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Transistor de junção",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "COLABOROU_COM",
+     "destino": "John Bardeen",
+     "propriedades": {
+      "contexto": "grupo de Física do Estado Sólido do Bell Labs"
+     },
+     "evidencia": "que foi liderado por Shockley e pelo químico Morgan Stanley, que incluía John Bardeen, Walter Brattain",
+     "confianca": 0.75
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "COLABOROU_COM",
+     "destino": "Walter Houser Brattain",
+     "propriedades": {
+      "contexto": "grupo de Física do Estado Sólido do Bell Labs"
+     },
+     "evidencia": "que foi liderado por Shockley e pelo químico Morgan Stanley, que incluía John Bardeen, Walter Brattain",
+     "confianca": 0.75
+    },
+    {
+     "origem": "John N. Shive",
+     "tipo": "CRIOU",
+     "destino": "Transistor de ponto de contato",
+     "propriedades": {
+      "ano": 1948
+     },
+     "evidencia": "Em 1948 outro membro da equipe, John N. Shive, construiu um transistor de ponto de contato",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "128859_6",
+   "entidades": [
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Transistor de junção",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1951,
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "John N. Shive",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Transistor de ponto de contato",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia da Califórnia",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Caltech"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Academia Nacional de Ciências",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Comstock de Física",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "CRIOU",
+     "destino": "Transistor de junção",
+     "propriedades": {
+      "ano": 1951
+     },
+     "evidencia": "ele inventou um novo tipo de transistor com uma camada de estrutura, a invenção do transistor de junção",
+     "confianca": 0.9
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Comstock de Física",
+     "propriedades": {},
+     "evidencia": "foi escolhido como o destinatário do prestigiado Prêmio Comstock de Física da NAS",
+     "confianca": 0.9
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia da Califórnia",
+     "propriedades": {
+      "cargo": "professor visitante",
+      "ano_inicio": 1953
+     },
+     "evidencia": "Mas, ele resolveu tirar uma licença da Bell Labs em 1953 e mudou-se de volta para o Instituto de Tecnologia da Califórnia (Caltech), durante quatro meses como professor visitante",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "128859_7",
+   "entidades": [
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Tecnologia da Califórnia",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Caltech"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Beckman Instruments",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Arnold Orville Beckman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Beckman Shockley Semiconductor Laboratory",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Beckman Shockley Semicondutor Laboratory"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ITT Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Beckman Instruments",
+     "propriedades": {
+      "ano_inicio": 1955
+     },
+     "evidencia": "Em 1955, Shockley se juntou à Beckman Instruments de Arnold Orville Beckman",
+     "confianca": 0.9
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Beckman Shockley Semiconductor Laboratory",
+     "propriedades": {
+      "cargo": "diretor"
+     },
+     "evidencia": "onde foi nomeado diretor do recém-fundado Beckman Shockley Semicondutor Laboratory",
+     "confianca": 0.9
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "Depois de receber o Prêmio Nobel em 1956",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "128859_8",
+   "entidades": [
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade de Stanford"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Shockley Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "ITT Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade Stanford",
+     "propriedades": {
+      "cargo": "Professor de Engenharia e Ciências Aplicadas",
+      "ano_inicio": 1963,
+      "ano_fim": 1975
+     },
+     "evidencia": "ele ingressou na Universidade de Stanford, onde foi nomeado Professor de Engenharia e Ciências Aplicadas em 1963, cargo que ocupou até se aposentar como professor emérito em 1975",
+     "confianca": 0.9
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Shockley Semiconductor",
+     "propriedades": {
+      "cargo": "diretor"
+     },
+     "evidencia": "Depois de Shockley ter deixado o seu cargo de diretor da Shockley Semiconductor",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "128859_9",
+   "entidades": [
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Pioneer Fund",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    },
+    {
+     "nome": "Universidade de Leeds",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "128859_10",
+   "entidades": [
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Southern Poverty Law Center",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

@@ -1,0 +1,688 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:21:12+00:00",
+ "chunks": [
+  {
+   "chunk_id": "6190_0",
+   "entidades": [
+    {
+     "nome": "Microprocessador",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "processador"
+     ],
+     "descricao": "Circuito integrado que realiza as funções de cálculo e tomada de decisão de um computador.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Circuito integrado",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6190_1",
+   "entidades": [
+    {
+     "nome": "Microprocessador",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Determina a capacidade de processamento do computador e o conjunto primário de instruções.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6190_2",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel 4004",
+     "tipo": "Hardware",
+     "aliases": [
+      "4004"
+     ],
+     "descricao": "Circuito integrado programável de 4 bits, primeiro microprocessador comercial.",
+     "propriedades": {
+      "ano": 1971,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8008",
+     "tipo": "Hardware",
+     "aliases": [
+      "8008"
+     ],
+     "descricao": "Primeiro microprocessador de 8 bits.",
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8080",
+     "tipo": "Hardware",
+     "aliases": [
+      "8080"
+     ],
+     "descricao": "Grande sucesso, base dos primeiros microcomputadores pessoais.",
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8085",
+     "tipo": "Hardware",
+     "aliases": [
+      "8085"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Zilog",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Zilog Z80",
+     "tipo": "Hardware",
+     "aliases": [
+      "Z80"
+     ],
+     "descricao": "Microprocessador compatível com o 8080 e mais poderoso.",
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Motorola",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Motorola 68000",
+     "tipo": "Hardware",
+     "aliases": [
+      "68000"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "MOS Technology",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "MOS 6502",
+     "tipo": "Hardware",
+     "aliases": [
+      "6502"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Intel 4004",
+     "propriedades": {
+      "ano": 1971
+     },
+     "evidencia": "foi projetado pela Intel em 1971 para atender uma empresa japonesa que precisava de um circuito integrado especial para as suas atividades. A Intel projectou o 4004",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Intel 8008",
+     "propriedades": {},
+     "evidencia": "a Intel prosseguiu com o desenvolvimento de novos microprocessadores: 8008 (o primeiro de 8 bits)",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Intel 8080",
+     "propriedades": {},
+     "evidencia": "a Intel prosseguiu com o desenvolvimento de novos microprocessadores: 8008 (o primeiro de 8 bits) e a seguir o 8080",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Intel 8085",
+     "propriedades": {},
+     "evidencia": "e a seguir o 8080 e o microprocessador 8085",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Intel 8080",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Intel 8008",
+     "propriedades": {},
+     "evidencia": "8008 (o primeiro de 8 bits) e a seguir o 8080",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Zilog",
+     "tipo": "DESENVOLVEU",
+     "destino": "Zilog Z80",
+     "propriedades": {},
+     "evidencia": "a Zilog, que viria a lançar o microprocessador Z80",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Motorola",
+     "tipo": "DESENVOLVEU",
+     "destino": "Motorola 68000",
+     "propriedades": {},
+     "evidencia": "A Motorola possuía o 68000",
+     "confianca": 0.7
+    },
+    {
+     "origem": "MOS Technology",
+     "tipo": "DESENVOLVEU",
+     "destino": "MOS 6502",
+     "propriedades": {},
+     "evidencia": "a MOS Technology o 6502",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "6190_3",
+   "entidades": [
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [
+      "IBM-PC"
+     ],
+     "descricao": "Computador pessoal lançado pela IBM em 1981.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Intel 8088",
+     "tipo": "Hardware",
+     "aliases": [
+      "8088"
+     ],
+     "descricao": "Microprocessador de 16 bits derivado do 8086.",
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8086",
+     "tipo": "Hardware",
+     "aliases": [
+      "8086"
+     ],
+     "propriedades": {
+      "ano": 1978,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Motorola",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Motorola 68000",
+     "tipo": "Hardware",
+     "aliases": [
+      "68000"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Zilog",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Zilog Z8000",
+     "tipo": "Hardware",
+     "aliases": [
+      "Z8000"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "TMS9900",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel 80286",
+     "tipo": "Hardware",
+     "aliases": [
+      "80286"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 80386",
+     "tipo": "Hardware",
+     "aliases": [
+      "80386"
+     ],
+     "descricao": "Podia trabalhar com memória virtual e multitarefa.",
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "IBM AT",
+     "tipo": "Hardware",
+     "aliases": [
+      "IBM-AT"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "IBM PC",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8088",
+     "propriedades": {},
+     "evidencia": "no seu IBM-PC utilizou um dos primeiros microprocessadores de 16 bits, o 8088",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Macintosh",
+     "tipo": "UTILIZA",
+     "destino": "Motorola 68000",
+     "propriedades": {},
+     "evidencia": "A Apple nos seus computadores Macintosh utilizava os processadores da Motorola, a família 68000",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Zilog",
+     "tipo": "DESENVOLVEU",
+     "destino": "Zilog Z8000",
+     "propriedades": {},
+     "evidencia": "a Zilog tinha o Z8000",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Texas Instruments",
+     "tipo": "DESENVOLVEU",
+     "destino": "TMS9900",
+     "propriedades": {},
+     "evidencia": "a Texas Instruments o TMS9900",
+     "confianca": 0.8
+    },
+    {
+     "origem": "IBM AT",
+     "tipo": "UTILIZA",
+     "destino": "Intel 80286",
+     "propriedades": {},
+     "evidencia": "Para o IBM-AT foi utilizado o 80286",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Intel 80386",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Intel 80286",
+     "propriedades": {},
+     "evidencia": "Para o IBM-AT foi utilizado o 80286, depois um grande salto com o 80386",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "6190_4",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel 80286",
+     "tipo": "Hardware",
+     "aliases": [
+      "80286"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 80386",
+     "tipo": "Hardware",
+     "aliases": [
+      "80386"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "IBM AT",
+     "tipo": "Hardware",
+     "aliases": [
+      "IBM-AT"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Grande concorrente da Intel, fabricante de microprocessadores.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD K6",
+     "tipo": "Hardware",
+     "aliases": [
+      "K6"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "AMD Athlon",
+     "tipo": "Hardware",
+     "aliases": [
+      "Athlon"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PowerPC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "IBM AT",
+     "tipo": "UTILIZA",
+     "destino": "Intel 80286",
+     "propriedades": {},
+     "evidencia": "Para o IBM-AT foi utilizado o 80286",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Intel 80386",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Intel 80286",
+     "propriedades": {},
+     "evidencia": "Para o IBM-AT foi utilizado o 80286, depois um grande salto com o 80386",
+     "confianca": 0.8
+    },
+    {
+     "origem": "AMD",
+     "tipo": "DESENVOLVEU",
+     "destino": "AMD K6",
+     "propriedades": {},
+     "evidencia": "partiu para o desenvolvimento de sua própria linha de microprocessadores: K6, Athlon",
+     "confianca": 0.8
+    },
+    {
+     "origem": "AMD",
+     "tipo": "DESENVOLVEU",
+     "destino": "AMD Athlon",
+     "propriedades": {},
+     "evidencia": "partiu para o desenvolvimento de sua própria linha de microprocessadores: K6, Athlon",
+     "confianca": 0.8
+    },
+    {
+     "origem": "IBM",
+     "tipo": "DESENVOLVEU",
+     "destino": "PowerPC",
+     "propriedades": {},
+     "evidencia": "a IBM possuía a linha PowerPC utilizada principalmente pelos microcomputadores da Apple",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "6190_5",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6190_6",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6190_7",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6190_8",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6190_9",
+   "entidades": [
+    {
+     "nome": "Arquitetura de von Neumann",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "arquitetura de Von Neumann"
+     ],
+     "descricao": "Arquitetura com barramento externo compartilhado entre memória de dados e de programa.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6190_10",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PowerPC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Motorola",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6190_11",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6190_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6190_13",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6190_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6190_15",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6190_16",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

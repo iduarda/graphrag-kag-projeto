@@ -1,0 +1,682 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:21:49+00:00",
+ "chunks": [
+  {
+   "chunk_id": "23726_0",
+   "entidades": [
+    {
+     "nome": "Lisp",
+     "tipo": "Linguagem",
+     "aliases": [
+      "LISP"
+     ],
+     "descricao": "Família de linguagens de programação concebida para o processamento de dados simbólicos e principal linguagem da comunidade de IA nos anos 1970 e 1980.",
+     "propriedades": {
+      "ano": 1958,
+      "paradigmas": [
+       "funcional"
+      ]
+     }
+    },
+    {
+     "nome": "John McCarthy",
+     "tipo": "Pessoa",
+     "aliases": [
+      "McCarthy"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Common Lisp",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Dialeto de Lisp.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Scheme",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Dialeto de Lisp.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Clojure",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Dialeto de Lisp.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John McCarthy",
+     "tipo": "CRIOU",
+     "destino": "Lisp",
+     "propriedades": {
+      "ano": 1958
+     },
+     "evidencia": "Lisp é uma família de linguagens de programação concebida por John McCarthy em 1958",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "23726_1",
+   "entidades": [
+    {
+     "nome": "Lisp",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Família de linguagens com longa história, cuja primeira implementação data do inverno de 1958.",
+     "propriedades": {}
+    },
+    {
+     "nome": "John McCarthy",
+     "tipo": "Pessoa",
+     "aliases": [
+      "McCarthy"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM 704",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM 7090",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-1",
+     "tipo": "Hardware",
+     "aliases": [
+      "DEC PDP-1"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-6",
+     "tipo": "Hardware",
+     "aliases": [
+      "DEC PDP-6"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-10",
+     "tipo": "Hardware",
+     "aliases": [
+      "DEC PDP-10"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Lisp 1.5",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Dialeto principal de Lisp entre 1960 e 1965.",
+     "propriedades": {}
+    },
+    {
+     "nome": "MacLisp",
+     "tipo": "Linguagem",
+     "aliases": [
+      "Maclisp"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Interlisp",
+     "tipo": "Linguagem",
+     "aliases": [
+      "InterLisp"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John McCarthy",
+     "tipo": "CRIOU",
+     "destino": "Lisp",
+     "propriedades": {},
+     "evidencia": "As primeiras ideias-chave para a linguagem foram desenvolvidas por John McCarthy em 1956",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Lisp",
+     "tipo": "EXECUTA_EM",
+     "destino": "IBM 704",
+     "propriedades": {},
+     "evidencia": "Esforços para a implementação de seus primeiros dialetos foram empreendidos no IBM 704, IBM 7090, DEC PDP-1, DEC PDP-6 e DEC PDP-10",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Lisp",
+     "tipo": "EXECUTA_EM",
+     "destino": "IBM 7090",
+     "propriedades": {},
+     "evidencia": "Esforços para a implementação de seus primeiros dialetos foram empreendidos no IBM 704, IBM 7090, DEC PDP-1, DEC PDP-6 e DEC PDP-10",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Lisp",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-1",
+     "propriedades": {},
+     "evidencia": "Esforços para a implementação de seus primeiros dialetos foram empreendidos no IBM 704, IBM 7090, DEC PDP-1, DEC PDP-6 e DEC PDP-10",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Lisp",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-6",
+     "propriedades": {},
+     "evidencia": "Esforços para a implementação de seus primeiros dialetos foram empreendidos no IBM 704, IBM 7090, DEC PDP-1, DEC PDP-6 e DEC PDP-10",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Lisp",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-10",
+     "propriedades": {},
+     "evidencia": "Esforços para a implementação de seus primeiros dialetos foram empreendidos no IBM 704, IBM 7090, DEC PDP-1, DEC PDP-6 e DEC PDP-10",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "23726_2",
+   "entidades": [
+    {
+     "nome": "Lisp",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM 704",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM 7090",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-6",
+     "tipo": "Hardware",
+     "aliases": [
+      "DEC PDP-6"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-10",
+     "tipo": "Hardware",
+     "aliases": [
+      "DEC PDP-10"
+     ],
+     "descricao": "Baluarte do Lisp e das pesquisas em IA até meados dos anos 1970.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [
+      "DEC VAX"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidades de Stanford"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade Carnegie Mellon",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Carnegie-Mellon"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Lisp",
+     "tipo": "EXECUTA_EM",
+     "destino": "IBM 704",
+     "propriedades": {},
+     "evidencia": "Apesar das primeiras implementações do Lisp terem sido realizados nos IBM 704 e 7090",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Lisp",
+     "tipo": "EXECUTA_EM",
+     "destino": "IBM 7090",
+     "propriedades": {},
+     "evidencia": "Apesar das primeiras implementações do Lisp terem sido realizados nos IBM 704 e 7090",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Lisp",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-10",
+     "propriedades": {},
+     "evidencia": "trabalhos posteriores concentraram-se nos DEC PDP-6 e PDP-10, este último sendo o baluarte do Lisp",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Lisp",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-6",
+     "propriedades": {},
+     "evidencia": "trabalhos posteriores concentraram-se nos DEC PDP-6 e PDP-10",
+     "confianca": 0.8
+    },
+    {
+     "origem": "PDP-10",
+     "tipo": "SUCESSOR_DE",
+     "destino": "PDP-6",
+     "propriedades": {},
+     "evidencia": "O computador PDP-10 e seu antecessor, o PDP-6",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Lisp",
+     "tipo": "EXECUTA_EM",
+     "destino": "VAX",
+     "propriedades": {},
+     "evidencia": "a utilização de computadores de uso geral com maior capacidade de endereçamento, como o DEC VAX",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "23726_3",
+   "entidades": [
+    {
+     "nome": "Lisp",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [
+      "DEC VAX"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Common Lisp",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Scheme",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Emacs Lisp",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Clojure",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Racket",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "23726_4",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "23726_5",
+   "entidades": [
+    {
+     "nome": "Scheme",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Julia",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lisp",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Julia",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Scheme",
+     "propriedades": {},
+     "evidencia": "Julia é inspirada por Scheme",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "23726_6",
+   "entidades": [
+    {
+     "nome": "Lisp 1.5",
+     "tipo": "Linguagem",
+     "aliases": [
+      "LISP 1.5"
+     ],
+     "descricao": "Primeira versão amplamente distribuída de Lisp.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Lisp 1.6",
+     "tipo": "Linguagem",
+     "aliases": [
+      "Stanford LISP 1.6"
+     ],
+     "descricao": "Sucessora do LISP 1.5 desenvolvida no Laboratório de IA de Stanford.",
+     "propriedades": {}
+    },
+    {
+     "nome": "John McCarthy",
+     "tipo": "Pessoa",
+     "aliases": [
+      "McCarthy"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "MacLisp",
+     "tipo": "Linguagem",
+     "aliases": [
+      "MACLISP",
+      "Maclisp"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Interlisp",
+     "tipo": "Linguagem",
+     "aliases": [
+      "InterLisp"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "BBN Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PDP-10",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Multics",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John McCarthy",
+     "tipo": "CRIOU",
+     "destino": "Lisp 1.5",
+     "propriedades": {},
+     "evidencia": "LISP 1.5 – Primeira versão amplamente distribuída, desenvolvida por McCarthy e outros do MIT",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Lisp 1.6",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Lisp 1.5",
+     "propriedades": {},
+     "evidencia": "Stanford LISP 1.6 – Este foi uma sucessora para o LISP 1.5",
+     "confianca": 0.95
+    },
+    {
+     "origem": "BBN Technologies",
+     "tipo": "DESENVOLVEU",
+     "destino": "Interlisp",
+     "propriedades": {},
+     "evidencia": "InterLisp – desenvolvido na BBN Technologies para sistemas PDP-10",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Interlisp",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-10",
+     "propriedades": {},
+     "evidencia": "InterLisp – desenvolvido na BBN Technologies para sistemas PDP-10",
+     "confianca": 0.85
+    },
+    {
+     "origem": "MacLisp",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-10",
+     "propriedades": {},
+     "evidencia": "Rodou em sistemas PDP-10 e Multics",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "23726_7",
+   "entidades": [
+    {
+     "nome": "Franz Lisp",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Franz Inc.",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Franz Inc"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Universidade da Califórnia em Berkeley",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade da Califórnia, Berkeleyt"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "MacLisp",
+     "tipo": "Linguagem",
+     "aliases": [
+      "Maclisp"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Interlisp",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Franz Inc.",
+     "tipo": "DESENVOLVEU",
+     "destino": "Franz Lisp",
+     "propriedades": {},
+     "evidencia": "originalmente um projeto da Universidade da Califórnia, Berkeleyt; mais tarde desenvolvido por Franz Inc.",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "23726_8",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "23726_9",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "23726_10",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "23726_11",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "23726_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "23726_13",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "23726_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "23726_15",
+   "entidades": [
+    {
+     "nome": "Lisp",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Richard Stallman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "23726_16",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

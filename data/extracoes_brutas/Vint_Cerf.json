@@ -1,0 +1,231 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:21:12+00:00",
+ "chunks": [
+  {
+   "chunk_id": "457862_0",
+   "entidades": [
+    {
+     "nome": "Vint Cerf",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Vinton Gray Cerf",
+      "Vinton Cerf"
+     ],
+     "descricao": "Matemático e informático estadunidense, referenciado como um dos fundadores da Internet.",
+     "propriedades": {
+      "ano_nascimento": 1943
+     }
+    },
+    {
+     "nome": "New Haven",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Kahn",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Kahn"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "TCP/IP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "Eric Schmidt",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Vint Cerf",
+     "tipo": "NASCEU_EM",
+     "destino": "New Haven",
+     "propriedades": {},
+     "evidencia": "Vint Cerf redução de Vinton Gray Cerf (New Haven, 23 de junho de 1943)",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Vint Cerf",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Google",
+     "propriedades": {
+      "cargo": "vice-presidente e Chief Internet-Evangelist",
+      "ano_inicio": 2005
+     },
+     "evidencia": "em 2005 foi contratado pela Google nas funções de vice-presidente e \"Chief Internet-Evangelist\"",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Vint Cerf",
+     "tipo": "CRIOU",
+     "destino": "Internet",
+     "propriedades": {},
+     "evidencia": "Junto a Robert Kahn, é um dos criadores da Internet",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Robert Kahn",
+     "tipo": "CRIOU",
+     "destino": "Internet",
+     "propriedades": {},
+     "evidencia": "Junto a Robert Kahn, é um dos criadores da Internet",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Vint Cerf",
+     "tipo": "CRIOU",
+     "destino": "TCP/IP",
+     "propriedades": {},
+     "evidencia": "tendo participado da criação dos protocolos TCP/IP",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Robert Kahn",
+     "tipo": "CRIOU",
+     "destino": "TCP/IP",
+     "propriedades": {},
+     "evidencia": "Junto a Robert Kahn, é um dos criadores da Internet, tendo participado da criação dos protocolos TCP/IP",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Vint Cerf",
+     "tipo": "COLABOROU_COM",
+     "destino": "Robert Kahn",
+     "propriedades": {
+      "contexto": "criação da Internet e do TCP/IP"
+     },
+     "evidencia": "Junto a Robert Kahn, é um dos criadores da Internet",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "457862_1",
+   "entidades": [
+    {
+     "nome": "Vint Cerf",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Cerf",
+      "Vinton Cerf"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Internet Society",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ISOC"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "ICANN",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Entidade que administra os domínios e nomes da internet.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Kahn",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Kahn"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "TCP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "IP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Vint Cerf",
+     "tipo": "FUNDOU",
+     "destino": "Internet Society",
+     "propriedades": {},
+     "evidencia": "também foi um dos fundadores da ISOC (Internet Society)",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Vint Cerf",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Internet Society",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_inicio": 1992,
+      "ano_fim": 1995
+     },
+     "evidencia": "sendo seu presidente entre 1992 e 1995",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Vint Cerf",
+     "tipo": "TRABALHOU_EM",
+     "destino": "ICANN",
+     "propriedades": {
+      "cargo": "membro do conselho",
+      "ano_inicio": 2000,
+      "ano_fim": 2007
+     },
+     "evidencia": "Entre 2000 e 2007 integrou o conselho do ICANN.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Robert Kahn",
+     "tipo": "CRIOU",
+     "destino": "TCP",
+     "propriedades": {},
+     "evidencia": "Foi Kahn quem desenvolveu o TCP",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Vint Cerf",
+     "tipo": "CRIOU",
+     "destino": "IP",
+     "propriedades": {},
+     "evidencia": "Vinton Cerf iniciou o desenvolvimento do IP",
+     "confianca": 0.85
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,117 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 214438,
+    "titulo": "Universidade de Princeton",
+    "url": "https://pt.wikipedia.org/wiki/Universidade_de_Princeton",
+    "categoria": "Organização",
+    "wikidata_id": "Q21578"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:26:22+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "organizacao:universidade_de_princeton",
+  "chunks": [
+    {
+      "id": "214438_0",
+      "ordem": 0,
+      "texto": "Universidade de Princeton (em inglês: Princeton University) é uma universidade privada de pesquisa da Ivy League em Princeton, Nova Jérsei. Fundada em 1746 em Elizabeth como Colégio de Nova Jérsei, Princeton é a quarta instituição de ensino superior mais antiga dos Estados Unidos e uma das nove faculdades coloniais fundadas antes da Revolução Americana. A instituição mudou-se para Newark em 1747, e depois para o local atual nove anos depois. Tornou-se oficialmente uma universidade em 1896 e foi posteriormente renomeada como Universidade de Princeton. Princeton é frequentemente classificada entre as melhores e mais prestigiadas universidades do mundo."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "organizacao:universidade_de_princeton",
+      "nome": "Universidade de Princeton",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Princeton University",
+        "Princeton",
+        "Colégio de Nova Jérsei"
+      ],
+      "descricao": "Universidade privada de pesquisa da Ivy League, a quarta instituição de ensino superior mais antiga dos Estados Unidos.",
+      "propriedades": {
+        "tipo": "universidade",
+        "ano_fundacao": 1746
+      },
+      "chunk_ids": [
+        "214438_0"
+      ]
+    },
+    {
+      "id": "local:princeton",
+      "nome": "Princeton",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "214438_0"
+      ]
+    },
+    {
+      "id": "local:nova_jersei",
+      "nome": "Nova Jérsei",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "214438_0"
+      ]
+    },
+    {
+      "id": "local:estados_unidos",
+      "nome": "Estados Unidos",
+      "tipo": "Local",
+      "aliases": [
+        "EUA",
+        "Estados Unidos da América",
+        "USA"
+      ],
+      "propriedades": {
+        "tipo": "pais"
+      },
+      "chunk_ids": [
+        "214438_0"
+      ]
+    },
+    {
+      "id": "local:elizabeth",
+      "nome": "Elizabeth",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "214438_0"
+      ]
+    },
+    {
+      "id": "local:newark",
+      "nome": "Newark",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "214438_0"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "organizacao:universidade_de_princeton",
+      "tipo": "SEDIADA_EM",
+      "destino": "local:princeton",
+      "propriedades": {},
+      "chunk_id": "214438_0",
+      "evidencia": "universidade privada de pesquisa da Ivy League em Princeton, Nova Jérsei",
+      "confianca": 0.9
+    }
+  ]
+}

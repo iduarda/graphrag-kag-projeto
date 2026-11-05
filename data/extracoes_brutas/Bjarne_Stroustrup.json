@@ -1,0 +1,315 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:25:36+00:00",
+ "chunks": [
+  {
+   "chunk_id": "24836_0",
+   "entidades": [
+    {
+     "nome": "Bjarne Stroustrup",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Stroustrup"
+     ],
+     "descricao": "Cientista da computação dinamarquês, conhecido como o pai da linguagem C++.",
+     "propriedades": {
+      "ano_nascimento": 1950
+     }
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Århus",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Universidade do Texas A&M",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Texas A&M University"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bjarne Stroustrup",
+     "tipo": "CRIOU",
+     "destino": "C++",
+     "propriedades": {},
+     "evidencia": "É conhecido como o pai da linguagem de programação C++.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Bjarne Stroustrup",
+     "tipo": "NASCEU_EM",
+     "destino": "Århus",
+     "propriedades": {},
+     "evidencia": "Bjarne Stroustrup (Århus, 30 de dezembro de 1950)",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Bjarne Stroustrup",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade do Texas A&M",
+     "propriedades": {
+      "cargo": "professor catedrático"
+     },
+     "evidencia": "professor catedrático da Universidade do Texas A&M",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "24836_1",
+   "entidades": [
+    {
+     "nome": "Bjarne Stroustrup",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Stroustrup"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Aarhus",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Cambridge",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Laboratórios Bell"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade do Texas A&M",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Texas A&M University"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Morgan Stanley",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Columbia University",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Association for Computing Machinery",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ACM"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Nova Iorque",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Dinamarca",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bjarne Stroustrup",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Aarhus",
+     "propriedades": {
+      "curso": "matemática e ciência da computação",
+      "ano": 1975
+     },
+     "evidencia": "em matemática e ciência da computação (1975) pela Universidade de Aarhus, Dinamarca",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Bjarne Stroustrup",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Cambridge",
+     "propriedades": {
+      "curso": "ciência da computação",
+      "ano": 1979
+     },
+     "evidencia": "doutor em ciência da computação (1979) pela Universidade de Cambridge, Inglaterra",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Bjarne Stroustrup",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {
+      "cargo": "diretor do Departamento de Investigação de Programação em Grande Escala",
+      "ano_fim": 2002
+     },
+     "evidencia": "Ele desempenhou o cargo de diretor do Departamento de Investigação de Programação em Grande Escala dos Laboratórios Bell da AT&T, desde a sua criação até aos finais de 2002.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Bjarne Stroustrup",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade do Texas A&M",
+     "propriedades": {
+      "cargo": "Presidente da Faculdade de Engenharia e Professor de Ciência da Computação",
+      "ano_inicio": 2002,
+      "ano_fim": 2014
+     },
+     "evidencia": "De 2002 a 2014, Stroustrup foi o Presidente da Faculdade de Engenharia e Professor de Ciência da Computação da Texas A&M University.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Bjarne Stroustrup",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Morgan Stanley",
+     "propriedades": {
+      "cargo": "diretor administrativo da divisão de tecnologia",
+      "ano_inicio": 2014
+     },
+     "evidencia": "Desde janeiro de 2014, Stroustrup é diretor administrativo da divisão de tecnologia do Morgan Stanley na cidade de Nova York",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Bjarne Stroustrup",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Columbia University",
+     "propriedades": {
+      "cargo": "professor visitante",
+      "ano_inicio": 2014
+     },
+     "evidencia": "professor visitante em ciência da computação na Columbia University",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "24836_2",
+   "entidades": [
+    {
+     "nome": "Bjarne Stroustrup",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Stroustrup"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Grace Murray Hopper",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IEEE Computer Society Computer Entrepreneur Award",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Association for Computing Machinery",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ACM"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bjarne Stroustrup",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Grace Murray Hopper",
+     "propriedades": {
+      "ano": 1993
+     },
+     "evidencia": "1993 - Prêmio Grace Murray Hopper da Association for Computing Machinery (ACM) pelo seu trabalho na linguagem C++",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Bjarne Stroustrup",
+     "tipo": "RECEBEU",
+     "destino": "IEEE Computer Society Computer Entrepreneur Award",
+     "propriedades": {
+      "ano": 2004
+     },
+     "evidencia": "2004 - IEEE Computer Society 2004 Computer Entrepreneur Award.",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "24836_3",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "24836_4",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

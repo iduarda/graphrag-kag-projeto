@@ -1,0 +1,91 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 170654,
+    "titulo": "Intel 8080",
+    "url": "https://pt.wikipedia.org/wiki/Intel_8080",
+    "categoria": "Hardware",
+    "wikidata_id": "Q324610"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:25:22+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "hardware:intel_8080",
+  "chunks": [
+    {
+      "id": "170654_0",
+      "ordem": 0,
+      "texto": "Os microprocessadores Intel 8080 e 8080a de 8 bits foram criados pela Intel, sucedendo ao microprocessador 8008.\nCaracterísticas Técnicas: O 8080 possuía um contador de programa de 16 bits o que resultava em uma capacidade de endereçamento de memória de 64 kbytes mais 512 portas de entrada/saída, tinha 7 registradores de uso geral de 8 bits cada, instruções lógicas e aritméticas com modos de endereçamento direto, indireto e imediato, trabalhando a um clock inicial de 2 MHz. Foi lançado em abril de 1974, contando com 6000 transistores em tecnologia LSI NMOS de 6 microns, sendo disponível em encapsulamento plástico ou cerâmico de 40 pinos (DIP)."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "hardware:intel_8080",
+      "nome": "Intel 8080",
+      "tipo": "Hardware",
+      "aliases": [
+        "8080",
+        "8080a"
+      ],
+      "descricao": "Microprocessador de 8 bits lançado em abril de 1974, com 6000 transistores.",
+      "propriedades": {
+        "ano": 1974,
+        "tipo": "processador"
+      },
+      "chunk_ids": [
+        "170654_0"
+      ]
+    },
+    {
+      "id": "organizacao:intel",
+      "nome": "Intel",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Intel Corporation"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "170654_0"
+      ]
+    },
+    {
+      "id": "hardware:intel_8008",
+      "nome": "Intel 8008",
+      "tipo": "Hardware",
+      "aliases": [
+        "8008"
+      ],
+      "propriedades": {
+        "tipo": "processador"
+      },
+      "chunk_ids": [
+        "170654_0"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "organizacao:intel",
+      "tipo": "DESENVOLVEU",
+      "destino": "hardware:intel_8080",
+      "propriedades": {},
+      "chunk_id": "170654_0",
+      "evidencia": "foram criados pela Intel",
+      "confianca": 0.95
+    },
+    {
+      "origem": "hardware:intel_8080",
+      "tipo": "SUCESSOR_DE",
+      "destino": "hardware:intel_8008",
+      "propriedades": {},
+      "chunk_id": "170654_0",
+      "evidencia": "sucedendo ao microprocessador 8008",
+      "confianca": 0.95
+    }
+  ]
+}

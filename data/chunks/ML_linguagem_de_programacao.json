@@ -1,0 +1,31 @@
+{
+  "documento": {
+    "id": 537553,
+    "titulo": "ML (linguagem de programação)",
+    "url": "https://pt.wikipedia.org/wiki/ML_(linguagem_de_programa%C3%A7%C3%A3o)",
+    "categoria": "Linguagem",
+    "wikidata_id": "Q860654"
+  },
+  "chunks": [
+    {
+      "id": "537553_0",
+      "ordem": 0,
+      "texto": "ML é uma linguagem de programação funcional de proposta geral desenvolvida por Robin Milner e outros no final dos anos 1970 na Universidade de Edimburgo, cuja sintaxe foi inspirada pelo ISWIM. É considerada uma linguagem funcional impura, por permitir a programação imperativa, ao contrário de outras linguagens funcionais como Haskell."
+    },
+    {
+      "id": "537553_1",
+      "ordem": 1,
+      "texto": "É considerada uma linguagem funcional impura, por permitir a programação imperativa, ao contrário de outras linguagens funcionais como Haskell.\nHistória: Standard ML foi criada por pesquisadores da LFCS (Laboratory for Foundations of Computer Science)  na década de 1980. Em 1987, Robin Milner e LFCS ganharam o Prêmio BCS Award for Technical Excellence por trabalhar no Standard ML.\nML foi originalmente concebida como uma metalinguagem para o sistema de prova de teorema de Edimburgo LCF, mas evoluiu para uma linguagem de propósito geral de sucesso. Esta linguagem foi padronizada em 1990 e revista em 1997 como Standard ML 97."
+    },
+    {
+      "id": "537553_2",
+      "ordem": 2,
+      "texto": "Esta linguagem foi padronizada em 1990 e revista em 1997 como Standard ML 97.\nCaracterísticas: ML é conhecida como uma linguagem funcional e impura, por permitir efeitos colaterais e, por esta razão também é considerada uma linguagem de programação multi-paradigma.\nAs características do ML são incluir chamada-a-valor avaliação e estratégia, em primeira classe funções de gerenciamento automático de memória através de coleta de lixo, polimorfismo paramétrico, tipagem estática, tipo inferência, tipos de dados algébricos, correspondência padrão, exceção e manuseio.\nHoje existem vários idiomas no ML família; os dois principais dialetos são Standard ML e Caml, mas existem outros que influenciaram muitas outras línguas, como Haskell, Cyclone, e Nemerle.\nOs pontos fortes da ML são aplicados principalmente em língua e manipulação (compiladores, analisadores, provadores de teoremas), mas é uma linguagem de aplicação geral também utilizado em bioinformática, sistemas financeiros, e aplicativos, incluindo um banco de dados genealógicos, um clienteP2P / programa servidor, etc.."
+    },
+    {
+      "id": "537553_3",
+      "ordem": 3,
+      "texto": "Olá Mundo: O Programa Olá Mundo de linguagens funcionais é tipicamente a função Fatorial, como expressado abaixo em ML:\nO fatorial foi definido como uma função recursiva, com uma única condição de parada, assemelhando-se as descrições dessa função em livros de Matemática. Parte da primeira linha é opcional, e descreve os tipos da função."
+    }
+  ]
+}

@@ -1,0 +1,602 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 66545,
+    "titulo": "Arquitetura de von Neumann",
+    "url": "https://pt.wikipedia.org/wiki/Arquitetura_de_von_Neumann",
+    "categoria": "Sistema/Invenção/Evento",
+    "wikidata_id": "Q189088"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:21:44+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "tecnologia:arquitetura_de_von_neumann",
+  "chunks": [
+    {
+      "id": "66545_0",
+      "ordem": 0,
+      "texto": "A Arquitetura de von Neumann (de John von Neumann, pronunciado Nóimánn) é uma arquitetura de computador que se caracteriza pela possibilidade de uma máquina digital armazenar seus programas no mesmo espaço de memória que os dados, podendo assim manipular tais programas. Esta arquitetura é um projeto modelo de um computador digital de programa armazenado que utiliza uma unidade de processamento (CPU) e uma de armazenamento (\"memória\") para comportar, respectivamente, instruções e dados.\nA máquina proposta por Von Neumann reúne os seguintes componentes:\nUma memória;\nUma unidade aritmética e lógica (ALU);\nUma Unidade de Controle (CU), cuja função é a mesma da tabela de controle da Máquina de Turing universal: buscar um programa na memória, instrução por instrução, e executá-lo sobre os dados de entrada."
+    },
+    {
+      "id": "66545_1",
+      "ordem": 1,
+      "texto": "Uma Unidade de Controle (CU), cuja função é a mesma da tabela de controle da Máquina de Turing universal: buscar um programa na memória, instrução por instrução, e executá-lo sobre os dados de entrada.\nTodos os elementos dessa arquitetura são alinhados da estrutura hardware do CPU, assim o sistema pode realizar todas as suas atividades sem apresentar erros no desempenho. Von Neumann é continuamente influenciado pela evolução tecnológica, tendo peças mais modernas inseridas. Cada um dos elementos apresentados é realizado à custa de componentes físicos independentes, cuja implementação tem variado ao longo do tempo, consoante a evolução das tecnologias de fabricação, desde os relés electromagnéticos, os tubos de vácuo (ou válvulas), até aos semicondutores, abrangendo os transistores e os circuitos eletrônicos integrados, com média, alta ou muito alta densidade de integração (MSI - medium scale, LSI - large scale, ou VLSI - very large scale integration), medida em termos de milhões transistores por pastilha de silício.\nAs novas interações entre os elementos exibem tempos típicos que também têm variado ao longo do tempo, consoante as tecnologias de fabricação. Atualmente, as CPUs processam instruções sob controle de relógios cujos períodos típicos são da ordem de 1 nanosegundo, ou seja,\n10\n−\n9\n{\\displaystyle 10^{-9}}"
+    },
+    {
+      "id": "66545_2",
+      "ordem": 2,
+      "texto": "{\\displaystyle 10^{-9}}\nsegundos. As memórias centrais têm tempos típicos de acesso da ordem da dezena de nanosegundos. As unidades de entrada e saída exibem tempos típicos extremamente variáveis, mas que são tipicamente muito superiores à escala do nanosegundo. Por exemplo, os discos rígidos exibem tempos da ordem dos milissegundos (milésimo de segundo,\n10\n−\n3\n{\\displaystyle 10^{-3}}\n). Outros dispositivos periféricos são inertes, a não ser que sejam ativados por utilizadores humanos: por exemplo, um teclado só envia informação para o computador após serem pressionada as devidas teclas. Assim, este dispositivo se comunica com a CPU eventualmente e, portanto, exibe tempos indeterminados.\nO modelo (ou arquitetura) de Von Neumann foi concebido a partir de 1946, quando John von Neumann e  sua equipe desenvolveram um novo projeto de “computador de programa armazenado”. Projetado pela IAS (Princeton Institute for Advanced Studies), este computador foi largamente difundido, influenciando muitos projetos subsequentes de outras máquinas."
+    },
+    {
+      "id": "66545_3",
+      "ordem": 3,
+      "texto": "Projetado pela IAS (Princeton Institute for Advanced Studies), este computador foi largamente difundido, influenciando muitos projetos subsequentes de outras máquinas.\nDescrição: As primeiras máquinas de computação tinham programas fixos. Alguns computadores muito simples ainda usam este projeto, quer para fins de simplicidade ou de formação. Por exemplo, uma calculadora de mesa (em princípio) é um programa de computador fixo. Ele pode fazer a matemática básica, mas não pode ser usado como um processador de texto ou um emulador de console de videogame. Alterar o programa de uma máquina de programa fixo exige religação, reestruturação ou reprojetar a máquina. Os primeiros computadores não eram tão \"programados\", como eles foram \"desenhados\". Era um processo trabalhoso, começando com fluxogramas e cédulas de papel, seguido de desenhos detalhados de engenharia e, em seguida o processo muitas vezes penoso fisicamente de religação e reconstrução da máquina. Podendo levar três semanas para criar um programa no ENIAC e começar a trabalhar."
+    },
+    {
+      "id": "66545_4",
+      "ordem": 4,
+      "texto": "Podendo levar três semanas para criar um programa no ENIAC e começar a trabalhar.\nA ideia do computador de programa armazenado, mudou tudo isso: um computador que pelo projeto inclui um conjunto de instruções e pode armazenar na memória um conjunto de instruções (programa) que detalha o cálculo. Um projeto de programa armazenado também permite que os programas possam se  modificar durante a execução. Uma motivação precoce para uma instalação desse tipo foi a necessidade de um programa para incrementar ou modificar a porção do endereço das instruções, o que tinha que ser feito manualmente em projetos adiantados. Isto tornou-se menos importante quando registradores de índice e endereçamento indireto foram as características usuais da arquitetura da máquina. Código de Automodificação foi amplamente caído em desuso, já que normalmente é difícil de entender e depurar, bem como sendo ineficiente em pipelining processador moderno, e esquemas de cache."
+    },
+    {
+      "id": "66545_5",
+      "ordem": 5,
+      "texto": "Código de Automodificação foi amplamente caído em desuso, já que normalmente é difícil de entender e depurar, bem como sendo ineficiente em pipelining processador moderno, e esquemas de cache.\nEm grande escala, a capacidade de tratar as instruções como os dados é o que faz montadores, compiladores e outras ferramentas de programação automatizada possíveis. Pode-se \"escrever programas que escrevem programas.\" Em uma escala menor, instruções de I / O da máquina intensiva, como o BitBlt primitivos usados para modificar imagens em um display bitmap. Foi mostrado posteriormente que estas instruções podem ser implementadas de forma eficiente por \"na compilação fly\" (\"just-in-time de compilação) de tecnologia, por exemplo, geração de código de programas, uma forma de código de auto-modificação que se manteve popular.\nHá desvantagens para a concepção de von Neumann. Além do gargalo de von Neumann descrito abaixo, alterar o programa pode ser bastante prejudicial, quer por acidente ou design. Em alguns projetos simples computador de programa armazenado, um programa com defeito pode danificar outros programas, ou o sistema operacional, possivelmente levando a uma pane no computador. Proteção de memória e outras formas de controle de acesso."
+    },
+    {
+      "id": "66545_6",
+      "ordem": 6,
+      "texto": "Proteção de memória e outras formas de controle de acesso.\nO matemático Alan Turing, que tinha sido alertado para um problema de lógica matemática pelas palestras de Max Newman na Universidade de Cambridge, escreveu um artigo em 1936 intitulado On Computable Numbers, com um aplicativo para o Entscheidungsproblem, que foi publicado nos Anais da Sociedade Matemática de Londres. Nela, ele descreveu uma máquina hipotética que ele chamou de \"máquina de computação universal\", e que agora é conhecida como a \"máquina de Turing universal\". A máquina hipotética tinha um armazenamento infinito (memória, na terminologia de hoje instruções e dados). O engenheiro alemão Konrad Zuse, independentemente escreveu sobre este conceito em 1936. John von Neumann tornou-se familiarizado com Turing, quando ele era professor visitante na Universidade de Cambridge em 1935 e também durante o ano que Turing passou na Universidade de Princeton, em 1936-1937."
+    },
+    {
+      "id": "66545_7",
+      "ordem": 7,
+      "texto": "John von Neumann tornou-se familiarizado com Turing, quando ele era professor visitante na Universidade de Cambridge em 1935 e também durante o ano que Turing passou na Universidade de Princeton, em 1936-1937.\nVon Neumann estava envolvido no Projeto Manhattan no Los Alamos National Laboratory, que exigiu enormes quantidades de cálculo. Isso o levou para o projeto ENIAC, no verão de 1944. Lá ele se juntou ao debate em curso sobre a concepção deste computador de programa armazenado, o EDVAC. Como parte desse grupo, ele se ofereceu para escrever uma descrição do mesmo. O termo \"arquitetura de von Neumann\" surgiu a partir de uma publicação de von Neumann, o primeiro esboço de um relatório sobre o EDVAC datado de 30 de junho de 1945, que incluía ideias de Eckert e Mauchly. O esboço estava inacabado quando seu colega Herman Goldstine que circulou somente com o nome de von Neumann sobre ele, para a consternação de Eckert e Mauchly. O documento foi lido por dezenas de colegas de von Neumann nos Estados Unidos e Europa, influenciando a próxima rodada de modelos de computador.\nAmbas publicações de von Neumann e Turing descreveram um programa armazenado para computadores, mas a publicação de von Neumann alcançou maior circulação e a arquitetura do computador que ele expôs ficou conhecida como a \"arquitetura de von Neumann\". Von Neumann foi, então, o criador da arquitetura de programa armazenado, mas Jack Copeland considera que é \"historicamente inadequado\" referir-se a eletrônica de programa armazenado e computadores digitais como \"máquinas de von Neumann\""
+    },
+    {
+      "id": "66545_8",
+      "ordem": 8,
+      "texto": "Von Neumann foi, então, o criador da arquitetura de programa armazenado, mas Jack Copeland considera que é \"historicamente inadequado\" referir-se a eletrônica de programa armazenado e computadores digitais como \"máquinas de von Neumann\"\nGargalo de Von Neumann: O canal de transmissão de dados entre a CPU e a memória leva ao gargalo de von Neumann, a troca de dados limitada (taxa de transferência) entre a CPU e a memória em relação à quantidade de memória. Na maioria dos computadores modernos, a troca de dados entre o processador e a memória é muito menor do que a taxa com que o processador pode trabalhar. Isso limita seriamente a velocidade eficaz de processamento, principalmente quando o processador é exigido para realizar o processamento de grandes quantidades de dados. A CPU é constantemente forçada a esperar por dados  que precisam ser transferidos para, ou a partir da, memória. Como a velocidade da CPU e o tamanho da memória têm aumentado muito mais rapidamente que a taxa de transferência entre eles, o gargalo se tornou mais um problema, um problema cuja gravidade aumenta com cada geração de CPU.\nO termo \"gargalo de von Neumann\" foi cunhado por John Backus em sua palestra Award 1977 ACM Turing. Segundo Backus:"
+    },
+    {
+      "id": "66545_9",
+      "ordem": 9,
+      "texto": "Segundo Backus:\nCertamente deve haver uma maneira menos primitiva de se fazer grandes alterações na memória, do que empurrando um grande número de palavras, de um lado a outro, do gargalo de von Neumann. Não é somente um gargalo literal para o tráfego de dados, mas, o mais importante, é um gargalo intelectual que nos tem mantido atados a um pensamento de \"uma palavra por vez\" em vez de encorajar-nos a pensar em termos unidades conceituais maiores. Assim, a programação é basicamente o planejamento e detalhamento do enorme tráfego de palavras através do gargalo de von Neumann e grande parte desse tráfego não diz respeito aos dados propriamente ditos, e sim a onde esses dados são encontrados.\nO problema de desempenho pode ser aliviado (até certo ponto) por diversos mecanismos. Colocando uma memória  cache entre o processador e a memória principal, proporcionando caches separados com os caminhos de acesso separado para dados e instruções (a chamada arquitetura Harvard Modificada), utilizando um algoritmo preditor de salto e lógica. O problema também pode ser contornado usando computação paralela, por exemplo a arquitetura NUMA, cuja abordagem é geralmente utilizada em supercomputadores."
+    },
+    {
+      "id": "66545_10",
+      "ordem": 10,
+      "texto": "O problema também pode ser contornado usando computação paralela, por exemplo a arquitetura NUMA, cuja abordagem é geralmente utilizada em supercomputadores.\nPrimeiros computadores de arquitetura von Neumann: A Primeira Ideia (primeiro rascunho - First Draft) descrevia um design de computador que foi usado por muitas universidades e corporações para construir seus computadores. Dentre esses computadores, somente o ILLIAC e o ORDVAC possuíam instruções compatíveis.\nManchester Small-Scale Experimental Machine (SSEM), Apelidado de \"Baby\" (Universidade de Manchester, Reino Unido) fez sua primeira temporada de sucesso de um programa armazenado em 21 de junho de 1948.\nEDSAC (Universidade de Cambridge, Reino Unido) foi o primeiro computador eletrônico prático de programa armazenado (Maio de 1949)\nManchester Mark 1 (Universidade de Manchester, Reino Unido) Desenvolvido a partir do SSEM (Junho de 1949).\nCSIRAC (Council for Scientific and Industrial Research) Australia (Novembro de 1949).\nEDVAC (Ballistic Research Laboratory, Computing Laboratory at Aberdeen Proving Ground 1951).\nORDVAC da Universidade de Illinois, Maryland (completado em novembro de 1951).\nIAS machine da Universidade de Princeton (jan. de 1952).\nMANIAC I do Laboratório cientifico Los Alamos (mar. 1952).\nILLIAC da Universidade de Illinois, (set. 1952).\nBESM-1 em Moscow (1952).\nAVIDAC do Laboratório Argonne National (1953).\nORACLE do Laboratório Oak Ridge National (jun. 1953).\nBESK em Stockholm (1953).\nJOHNNIAC da Corporação RAND (jan. 1954).\nWEIZAC em Rehovoth (1955)."
+    },
+    {
+      "id": "66545_11",
+      "ordem": 11,
+      "texto": "WEIZAC em Rehovoth (1955).\nDASK em Denmark (1955).\nPERM em Munich (1956?).\nSILLIAC em Sydney (1956)."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "tecnologia:arquitetura_de_von_neumann",
+      "nome": "Arquitetura de von Neumann",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "modelo de von Neumann"
+      ],
+      "propriedades": {
+        "tipo": "conceito"
+      },
+      "chunk_ids": [
+        "66545_0",
+        "66545_1",
+        "66545_2",
+        "66545_5",
+        "66545_7",
+        "66545_8",
+        "66545_9",
+        "66545_10"
+      ]
+    },
+    {
+      "id": "pessoa:john_von_neumann",
+      "nome": "John von Neumann",
+      "tipo": "Pessoa",
+      "aliases": [
+        "von Neumann",
+        "Neumann János"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "66545_0",
+        "66545_2",
+        "66545_6",
+        "66545_7",
+        "66545_8"
+      ]
+    },
+    {
+      "id": "tecnologia:maquina_de_turing",
+      "nome": "Máquina de Turing",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "máquina universal de Turing"
+      ],
+      "propriedades": {
+        "tipo": "conceito"
+      },
+      "chunk_ids": [
+        "66545_0",
+        "66545_6"
+      ]
+    },
+    {
+      "id": "tecnologia:transistor",
+      "nome": "Transístor",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "Transistor",
+        "transistores",
+        "transístores"
+      ],
+      "propriedades": {
+        "tipo": "invencao"
+      },
+      "chunk_ids": [
+        "66545_1"
+      ]
+    },
+    {
+      "id": "tecnologia:circuito_integrado",
+      "nome": "Circuito integrado",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "CI"
+      ],
+      "propriedades": {
+        "tipo": "invencao"
+      },
+      "chunk_ids": [
+        "66545_1"
+      ]
+    },
+    {
+      "id": "organizacao:princeton_institute_for_advanced_studies",
+      "nome": "Princeton Institute for Advanced Studies",
+      "tipo": "Organizacao",
+      "aliases": [
+        "IAS"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "66545_2"
+      ]
+    },
+    {
+      "id": "hardware:eniac",
+      "nome": "ENIAC",
+      "tipo": "Hardware",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "66545_3",
+        "66545_4",
+        "66545_7"
+      ]
+    },
+    {
+      "id": "pessoa:alan_turing",
+      "nome": "Alan Turing",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Alan Mathison Turing",
+        "Turing"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "66545_6",
+        "66545_7"
+      ]
+    },
+    {
+      "id": "pessoa:max_newman",
+      "nome": "Max Newman",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "66545_6"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_de_cambridge",
+      "nome": "Universidade de Cambridge",
+      "tipo": "Organizacao",
+      "aliases": [
+        "University of Cambridge",
+        "Cambridge"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "66545_6",
+        "66545_7"
+      ]
+    },
+    {
+      "id": "pessoa:konrad_zuse",
+      "nome": "Konrad Zuse",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Konrad Ernst Otto Zuse",
+        "Zuse"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "66545_6"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_de_princeton",
+      "nome": "Universidade de Princeton",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Princeton University",
+        "Princeton"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "66545_6",
+        "66545_10"
+      ]
+    },
+    {
+      "id": "organizacao:los_alamos_national_laboratory",
+      "nome": "Los Alamos National Laboratory",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "laboratorio"
+      },
+      "chunk_ids": [
+        "66545_7"
+      ]
+    },
+    {
+      "id": "hardware:edvac",
+      "nome": "EDVAC",
+      "tipo": "Hardware",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "66545_7",
+        "66545_10"
+      ]
+    },
+    {
+      "id": "pessoa:herman_goldstine",
+      "nome": "Herman Goldstine",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "66545_7"
+      ]
+    },
+    {
+      "id": "pessoa:john_presper_eckert",
+      "nome": "John Presper Eckert",
+      "tipo": "Pessoa",
+      "aliases": [
+        "J. Presper Eckert",
+        "Presper Eckert",
+        "Eckert"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "66545_7"
+      ]
+    },
+    {
+      "id": "pessoa:john_mauchly",
+      "nome": "John Mauchly",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "66545_7"
+      ]
+    },
+    {
+      "id": "pessoa:jack_copeland",
+      "nome": "Jack Copeland",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "66545_7",
+        "66545_8"
+      ]
+    },
+    {
+      "id": "pessoa:john_backus",
+      "nome": "John Backus",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "66545_8",
+        "66545_9"
+      ]
+    },
+    {
+      "id": "organizacao:association_for_computing_machinery",
+      "nome": "Association for Computing Machinery",
+      "tipo": "Organizacao",
+      "aliases": [
+        "ACM"
+      ],
+      "propriedades": {
+        "tipo": "fundacao"
+      },
+      "chunk_ids": [
+        "66545_8"
+      ]
+    },
+    {
+      "id": "hardware:illiac",
+      "nome": "ILLIAC",
+      "tipo": "Hardware",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "66545_10"
+      ]
+    },
+    {
+      "id": "hardware:ordvac",
+      "nome": "ORDVAC",
+      "tipo": "Hardware",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "66545_10"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_de_illinois",
+      "nome": "Universidade de Illinois",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "66545_10"
+      ]
+    },
+    {
+      "id": "hardware:ias_machine",
+      "nome": "IAS machine",
+      "tipo": "Hardware",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "66545_10"
+      ]
+    },
+    {
+      "id": "hardware:maniac_i",
+      "nome": "MANIAC I",
+      "tipo": "Hardware",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "66545_10"
+      ]
+    },
+    {
+      "id": "organizacao:laboratorio_los_alamos",
+      "nome": "Laboratório Los Alamos",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "laboratorio"
+      },
+      "chunk_ids": [
+        "66545_10"
+      ]
+    },
+    {
+      "id": "hardware:johnniac",
+      "nome": "JOHNNIAC",
+      "tipo": "Hardware",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "66545_10"
+      ]
+    },
+    {
+      "id": "organizacao:corporacao_rand",
+      "nome": "Corporação RAND",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "66545_10"
+      ]
+    },
+    {
+      "id": "hardware:manchester_baby",
+      "nome": "Manchester Baby",
+      "tipo": "Hardware",
+      "aliases": [
+        "Small-Scale Experimental Machine",
+        "SSEM"
+      ],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "66545_10"
+      ]
+    },
+    {
+      "id": "hardware:manchester_mark_i",
+      "nome": "Manchester Mark I",
+      "tipo": "Hardware",
+      "aliases": [
+        "Manchester Mark 1"
+      ],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "66545_10"
+      ]
+    },
+    {
+      "id": "hardware:edsac",
+      "nome": "EDSAC",
+      "tipo": "Hardware",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "66545_10"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:alan_turing",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:maquina_de_turing",
+      "propriedades": {
+        "ano": 1936
+      },
+      "chunk_id": "66545_6",
+      "evidencia": "Nela, ele descreveu uma máquina hipotética que ele chamou de \"máquina de computação universal\", e que agora é conhecida como a \"máquina de Turing universal",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:john_von_neumann",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:universidade_de_cambridge",
+      "propriedades": {
+        "cargo": "professor visitante",
+        "ano_inicio": 1935
+      },
+      "chunk_id": "66545_6",
+      "evidencia": "John von Neumann tornou-se familiarizado com Turing, quando ele era professor visitante na Universidade de Cambridge em 1935",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:john_von_neumann",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:universidade_de_cambridge",
+      "propriedades": {
+        "cargo": "professor visitante",
+        "ano_inicio": 1935
+      },
+      "chunk_id": "66545_7",
+      "evidencia": "John von Neumann tornou-se familiarizado com Turing, quando ele era professor visitante na Universidade de Cambridge em 1935",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:john_von_neumann",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:los_alamos_national_laboratory",
+      "propriedades": {},
+      "chunk_id": "66545_7",
+      "evidencia": "Von Neumann estava envolvido no Projeto Manhattan no Los Alamos National Laboratory",
+      "confianca": 0.7
+    },
+    {
+      "origem": "pessoa:john_von_neumann",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:arquitetura_de_von_neumann",
+      "propriedades": {},
+      "chunk_id": "66545_7",
+      "evidencia": "Von Neumann foi, então, o criador da arquitetura de programa armazenado",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:john_von_neumann",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:arquitetura_de_von_neumann",
+      "propriedades": {},
+      "chunk_id": "66545_8",
+      "evidencia": "Von Neumann foi, então, o criador da arquitetura de programa armazenado",
+      "confianca": 0.85
+    },
+    {
+      "origem": "organizacao:universidade_de_illinois",
+      "tipo": "DESENVOLVEU",
+      "destino": "hardware:ordvac",
+      "propriedades": {},
+      "chunk_id": "66545_10",
+      "evidencia": "ORDVAC da Universidade de Illinois, Maryland (completado em novembro de 1951)",
+      "confianca": 0.65
+    },
+    {
+      "origem": "organizacao:universidade_de_illinois",
+      "tipo": "DESENVOLVEU",
+      "destino": "hardware:illiac",
+      "propriedades": {},
+      "chunk_id": "66545_10",
+      "evidencia": "ILLIAC da Universidade de Illinois, (set. 1952)",
+      "confianca": 0.65
+    },
+    {
+      "origem": "organizacao:universidade_de_princeton",
+      "tipo": "DESENVOLVEU",
+      "destino": "hardware:ias_machine",
+      "propriedades": {},
+      "chunk_id": "66545_10",
+      "evidencia": "IAS machine da Universidade de Princeton (jan. de 1952)",
+      "confianca": 0.65
+    },
+    {
+      "origem": "organizacao:laboratorio_los_alamos",
+      "tipo": "DESENVOLVEU",
+      "destino": "hardware:maniac_i",
+      "propriedades": {},
+      "chunk_id": "66545_10",
+      "evidencia": "MANIAC I do Laboratório cientifico Los Alamos (mar. 1952)",
+      "confianca": 0.65
+    },
+    {
+      "origem": "organizacao:corporacao_rand",
+      "tipo": "DESENVOLVEU",
+      "destino": "hardware:johnniac",
+      "propriedades": {},
+      "chunk_id": "66545_10",
+      "evidencia": "JOHNNIAC da Corporação RAND (jan. 1954)",
+      "confianca": 0.65
+    }
+  ]
+}

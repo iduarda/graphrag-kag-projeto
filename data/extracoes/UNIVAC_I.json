@@ -1,0 +1,251 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 1134774,
+    "titulo": "UNIVAC I",
+    "url": "https://pt.wikipedia.org/wiki/UNIVAC_I",
+    "categoria": "Hardware",
+    "wikidata_id": "Q1044055"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:23:33+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "hardware:univac_i",
+  "chunks": [
+    {
+      "id": "1134774_0",
+      "ordem": 0,
+      "texto": "O UNIVAC I (de UNIVersal Automatic Computer - Computador Automático Universal) foi o primeiro computador comercial fabricado e comercializado nos Estados Unidos, projetado por J. Presper Eckert e John Mauchly em 1951, na empresa Eckert-Mauchly Computer Corporation, usado inicialmente no Pentágono.\nHistórico: O UNIVAC I foi projetado por J. Presper Eckert e John Mauchly, os inventores do ENIAC para uma empresa fundada por ambos, a Eckert-Mauchly Computer Corporation, mas só ficou pronto após esta ser adquirida pela Remington e virar a divisão UNIVAC.\nO primeiro UNIVAC foi entregue ao escritório do censo dos Estados Unidos em 31 de março de 1951, mas demorou para começar a funcionar, então o primeiro que entrou em operação foi o segundo a ser fabricado, para o Pentágono. Era programado ajustando-se cerca de 6 000 chaves e conectando-se cabos a um painel.\nPor volta de dezembro de 1954, quinze UNIVACs haviam sido entregues para companhias de peso como a General Electric a US Steel e a Metropolitan Life Insurance.\nProjetado para custar US$ 159 000, o UNIVAC I foi vendido por um preço entre US$ 1 250 000 e US$ 1 500 000. No total, 46 unidades deste primeiro modelo foram fabricadas."
+    },
+    {
+      "id": "1134774_1",
+      "ordem": 1,
+      "texto": "No total, 46 unidades deste primeiro modelo foram fabricadas.\nAlgumas unidades estiveram em serviço por muitos anos. A primeira unidade funcionou até 1963. Duas unidades da própria Remington funcionaram até 1968 e outra unidade, de uma companhia de seguros do Tennessee, até 1970, com mais de treze anos de serviço.\nO UNIVAC foi um dos  primeiros computadores do Brasil, adquirido pelo IBGE em 1961 por US$ 2 976 351, incluídos acessórios e periféricos, para processar dados do censo."
+    },
+    {
+      "id": "1134774_2",
+      "ordem": 2,
+      "texto": "O UNIVAC foi um dos  primeiros computadores do Brasil, adquirido pelo IBGE em 1961 por US$ 2 976 351, incluídos acessórios e periféricos, para processar dados do censo.\nDescrição: O UNIVAC usava 5 200 válvulas, pesava 13 toneladas e consumia 125 kW para fazer 1905 operações por segundo, com um clock de 2,25 MHz. O sistema completo ocupava mais de 35 m² de espaço no piso.\nSua memória de mil palavras era armazenada num dispositivo chamado delay line memory, construído com mercúrio e cristais piezoelétricos.\nA entrada e saída de informações eram realizadas por uma fita metálica de 1/2 polegada de largura e 400 m de comprimento. Normalmente acompanhados de um dispositivo impressor chamado Uniprinter, que, sozinho, consumia 14 kW."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "hardware:univac_i",
+      "nome": "UNIVAC I",
+      "tipo": "Hardware",
+      "aliases": [
+        "UNIVAC"
+      ],
+      "descricao": "Primeiro computador comercial fabricado e comercializado nos Estados Unidos.",
+      "propriedades": {
+        "ano": 1951,
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "1134774_0",
+        "1134774_1",
+        "1134774_2"
+      ]
+    },
+    {
+      "id": "pessoa:john_presper_eckert",
+      "nome": "John Presper Eckert",
+      "tipo": "Pessoa",
+      "aliases": [
+        "J. Presper Eckert",
+        "Presper Eckert",
+        "Eckert"
+      ],
+      "descricao": "Projetou o UNIVAC I com John Mauchly e foi um dos inventores do ENIAC.",
+      "propriedades": {},
+      "chunk_ids": [
+        "1134774_0"
+      ]
+    },
+    {
+      "id": "pessoa:john_mauchly",
+      "nome": "John Mauchly",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "descricao": "Projetou o UNIVAC I com J. Presper Eckert e foi um dos inventores do ENIAC.",
+      "propriedades": {},
+      "chunk_ids": [
+        "1134774_0"
+      ]
+    },
+    {
+      "id": "organizacao:eckert_mauchly_computer_corporation",
+      "nome": "Eckert-Mauchly Computer Corporation",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "descricao": "Empresa fundada por Eckert e Mauchly, depois adquirida pela Remington.",
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1134774_0"
+      ]
+    },
+    {
+      "id": "organizacao:remington",
+      "nome": "Remington",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1134774_0",
+        "1134774_1"
+      ]
+    },
+    {
+      "id": "hardware:eniac",
+      "nome": "ENIAC",
+      "tipo": "Hardware",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1134774_0"
+      ]
+    },
+    {
+      "id": "local:estados_unidos",
+      "nome": "Estados Unidos",
+      "tipo": "Local",
+      "aliases": [
+        "EUA",
+        "Estados Unidos da América",
+        "USA"
+      ],
+      "propriedades": {
+        "tipo": "pais"
+      },
+      "chunk_ids": [
+        "1134774_0"
+      ]
+    },
+    {
+      "id": "organizacao:general_electric",
+      "nome": "General Electric",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1134774_0"
+      ]
+    },
+    {
+      "id": "organizacao:us_steel",
+      "nome": "US Steel",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1134774_0"
+      ]
+    },
+    {
+      "id": "organizacao:metropolitan_life_insurance",
+      "nome": "Metropolitan Life Insurance",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1134774_0"
+      ]
+    },
+    {
+      "id": "organizacao:ibge",
+      "nome": "IBGE",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "descricao": "Adquiriu um UNIVAC em 1961 para processar dados do censo.",
+      "propriedades": {},
+      "chunk_ids": [
+        "1134774_1",
+        "1134774_2"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:john_presper_eckert",
+      "tipo": "CRIOU",
+      "destino": "hardware:univac_i",
+      "propriedades": {
+        "ano": 1951
+      },
+      "chunk_id": "1134774_0",
+      "evidencia": "projetado por J. Presper Eckert e John Mauchly em 1951",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:john_mauchly",
+      "tipo": "CRIOU",
+      "destino": "hardware:univac_i",
+      "propriedades": {
+        "ano": 1951
+      },
+      "chunk_id": "1134774_0",
+      "evidencia": "projetado por J. Presper Eckert e John Mauchly em 1951",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:john_presper_eckert",
+      "tipo": "CRIOU",
+      "destino": "hardware:eniac",
+      "propriedades": {},
+      "chunk_id": "1134774_0",
+      "evidencia": "projetado por J. Presper Eckert e John Mauchly, os inventores do ENIAC",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:john_mauchly",
+      "tipo": "CRIOU",
+      "destino": "hardware:eniac",
+      "propriedades": {},
+      "chunk_id": "1134774_0",
+      "evidencia": "projetado por J. Presper Eckert e John Mauchly, os inventores do ENIAC",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:john_presper_eckert",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:eckert_mauchly_computer_corporation",
+      "propriedades": {},
+      "chunk_id": "1134774_0",
+      "evidencia": "uma empresa fundada por ambos, a Eckert-Mauchly Computer Corporation",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:john_mauchly",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:eckert_mauchly_computer_corporation",
+      "propriedades": {},
+      "chunk_id": "1134774_0",
+      "evidencia": "uma empresa fundada por ambos, a Eckert-Mauchly Computer Corporation",
+      "confianca": 0.9
+    },
+    {
+      "origem": "organizacao:eckert_mauchly_computer_corporation",
+      "tipo": "DESENVOLVEU",
+      "destino": "hardware:univac_i",
+      "propriedades": {
+        "ano": 1951
+      },
+      "chunk_id": "1134774_0",
+      "evidencia": "projetado por J. Presper Eckert e John Mauchly em 1951, na empresa Eckert-Mauchly Computer Corporation",
+      "confianca": 0.75
+    }
+  ]
+}

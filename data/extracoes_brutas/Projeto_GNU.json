@@ -1,0 +1,161 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:23:47+00:00",
+ "chunks": [
+  {
+   "chunk_id": "910_0",
+   "entidades": [
+    {
+     "nome": "Projeto GNU",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "GNU"
+     ],
+     "descricao": "Projeto lançado em 1983 com o objetivo de criar um sistema operacional baseado em software livre.",
+     "propriedades": {
+      "ano": 1983,
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Richard Stallman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Ativista, programador e hacker que lançou o Projeto GNU.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Free Software Foundation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "FSF"
+     ],
+     "descricao": "Principal organização que patrocina o Projeto GNU.",
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Richard Stallman",
+     "tipo": "CRIOU",
+     "destino": "Projeto GNU",
+     "propriedades": {
+      "ano": 1983
+     },
+     "evidencia": "Projeto GNU, em computação, é um projeto lançado em 27 de setembro de 1983 pelo ativista, programador e hacker Richard Stallman",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "910_1",
+   "entidades": [
+    {
+     "nome": "Projeto GNU",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "GNU"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "910_2",
+   "entidades": [
+    {
+     "nome": "Richard Stallman",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Stallman"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Projeto GNU",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "GNU"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "910_3",
+   "entidades": [
+    {
+     "nome": "GNU Hurd",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Micronúcleo e conjunto de servidores que funcionam do mesmo modo que o núcleo Unix.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fortran",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "COBOL",
+     "tipo": "Linguagem",
+     "aliases": [
+      "Cobol"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "910_4",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

@@ -1,0 +1,2164 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:22:28+00:00",
+ "chunks": [
+  {
+   "chunk_id": "64467_0",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "descricao": "Universidade privada de pesquisa localizada em Cambridge.",
+     "propriedades": {
+      "tipo": "universidade",
+      "ano_fundacao": 1861
+     }
+    },
+    {
+     "nome": "Cambridge (Massachusetts)",
+     "tipo": "Local",
+     "aliases": [
+      "Cambridge"
+     ],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Boston",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "William Barton Rogers",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "SEDIADA_EM",
+     "destino": "Cambridge (Massachusetts)",
+     "propriedades": {},
+     "evidencia": "Está localizada na cidade de Cambridge, no estado de Massachusetts",
+     "confianca": 0.9
+    },
+    {
+     "origem": "William Barton Rogers",
+     "tipo": "FUNDOU",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {},
+     "evidencia": "William Barton Rogers fundou o Instituto de Tecnologia de Massachusetts",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "64467_1",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Vannevar Bush",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apollo Guidance Computer",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Vannevar Bush",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {},
+     "evidencia": "docentes como Vannevar Bush ajudaram a moldar o apoio federal à ciência básica",
+     "confianca": 0.65
+    }
+   ]
+  },
+  {
+   "chunk_id": "64467_2",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Laboratório Lincoln",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Broad Institute",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Whitehead Institute",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_3",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "William Barton Rogers",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Boston",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_4",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Boston",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Massachusetts Agricultural College",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Massachusetts Amherst",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Universidade de Massachusetts Amherst",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Massachusetts Agricultural College",
+     "propriedades": {},
+     "evidencia": "Massachusetts Agricultural College, que mais tarde se transformou na Universidade de Massachusetts Amherst",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "64467_5",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Boston",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Francis Amasa Walker",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Francis Amasa Walker",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "cargo": "presidente"
+     },
+     "evidencia": "sob a presidência de Francis Amasa Walker",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "64467_6",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade Harvard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Harvard"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Charles William Eliot",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Charles William Eliot",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade Harvard",
+     "propriedades": {
+      "cargo": "presidente"
+     },
+     "evidencia": "presidente da Universidade Harvard — e ex-docente do MIT —, Charles William Eliot",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Charles William Eliot",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "cargo": "docente"
+     },
+     "evidencia": "presidente da Universidade Harvard — e ex-docente do MIT —, Charles William Eliot",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "64467_7",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Cambridge (Massachusetts)",
+     "tipo": "Local",
+     "aliases": [
+      "Cambridge"
+     ],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "William W. Bosworth",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "George Eastman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Industrial, inventor de métodos de produção de filmes fotográficos e fundador da Kodak.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Kodak",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "George Eastman",
+     "tipo": "FUNDOU",
+     "destino": "Kodak",
+     "propriedades": {},
+     "evidencia": "industrial George Eastman, inventor de métodos de produção de filmes fotográficos e fundador da Kodak",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "64467_8",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Richard Maclaurin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Richard Maclaurin",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "cargo": "presidente"
+     },
+     "evidencia": "lançado pelo presidente Richard Maclaurin em 1919",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "64467_9",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Gerard Swope",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "General Electric",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Frank Baldwin Jewett",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Laboratórios Bell"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Karl Compton",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Vannevar Bush",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Gerard Swope",
+     "tipo": "TRABALHOU_EM",
+     "destino": "General Electric",
+     "propriedades": {
+      "cargo": "presidente"
+     },
+     "evidencia": "Gerard Swope, presidente da General Electric",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Frank Baldwin Jewett",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {
+      "cargo": "diretor"
+     },
+     "evidencia": "Frank Baldwin Jewett, diretor dos Bell Labs",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Karl Compton",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "cargo": "presidente"
+     },
+     "evidencia": "Como presidente, Compton reformulou primeiramente os departamentos de ciências",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Vannevar Bush",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "cargo": "vice-presidente e decano de engenharia"
+     },
+     "evidencia": "nomeou Vannevar Bush vice-presidente e decano de engenharia",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "64467_10",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Karl Compton",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_11",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Vannevar Bush",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Karl Compton",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto Carnegie",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Comitê Nacional de Pesquisa de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "NDRC"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Laboratório de Radiação",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Rad Lab"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Vannevar Bush",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto Carnegie",
+     "propriedades": {},
+     "evidencia": "Vannevar Bush, que havia deixado a administração do MIT para dirigir o Instituto Carnegie em Washington",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Vannevar Bush",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {},
+     "evidencia": "Vannevar Bush, que havia deixado a administração do MIT para dirigir o Instituto Carnegie em Washington",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "64467_12",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Laboratório de Radiação",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Rad Lab"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Laboratório de Pesquisa em Eletrônica",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Laboratório de Ciência Nuclear",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Laboratório Lincoln",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Charles Stark Draper",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Laboratório de Instrumentação",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_13",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Alvin Weinberg",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_14",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Laboratório de Instrumentação",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "União de Cientistas Preocupados",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Howard Johnson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "William Pounds",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Laboratório Lincoln",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Howard Johnson",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "cargo": "presidente"
+     },
+     "evidencia": "O presidente Howard Johnson convocou uma comissão para avaliar o Laboratório de Instrumentação",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "64467_15",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Howard Johnson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "William Pounds",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Laboratório de Instrumentação",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Laboratório Draper",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Laboratório Lincoln",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Howard Johnson",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "cargo": "presidente"
+     },
+     "evidencia": "O presidente Howard Johnson convocou uma comissão para avaliar o Laboratório de Instrumentação",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Laboratório Draper",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Laboratório de Instrumentação",
+     "propriedades": {},
+     "evidencia": "Em maio de 1970, Johnson anunciou que o Laboratório de Instrumentação seria separado do MIT; em 1973, ele se tornou o Laboratório Draper independente",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "64467_16",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "James Killian",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Warren K. Lewis",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "James Killian",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "cargo": "vice-presidente"
+     },
+     "evidencia": "Por iniciativa do vice-presidente James Killian em 1947, os docentes do MIT",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "64467_17",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_18",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Edwin H. Land",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Margaret MacVicar",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_19",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Salvador Luria",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "David Baltimore",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Phillip Sharp",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Nancy Hopkins",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Weinberg",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Centro de Pesquisa do Câncer",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Inaugurado em 1974 e fundado por Salvador Luria.",
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Instituto Nacional do Câncer",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Salvador Luria",
+     "tipo": "FUNDOU",
+     "destino": "Centro de Pesquisa do Câncer",
+     "propriedades": {},
+     "evidencia": "Fundado por Salvador Luria com uma subvenção do Instituto Nacional do Câncer",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "64467_20",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Whitehead Institute",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Eric Lander",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Broad Institute",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Empreendimento conjunto com Harvard, surgido do trabalho de Lander em genômica.",
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Universidade Harvard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Harvard"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Instituto McGovern de Pesquisa do Cérebro",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Instituto Picower de Aprendizagem e Memória",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Cambridge (Massachusetts)",
+     "tipo": "Local",
+     "aliases": [
+      "Cambridge"
+     ],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Eric Lander",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Whitehead Institute",
+     "propriedades": {},
+     "evidencia": "O matemático Eric Lander, trabalhando no Whitehead",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "64467_21",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Susan Hockfield",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Biogen",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Genzyme",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Novartis",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Cambridge (Massachusetts)",
+     "tipo": "Local",
+     "aliases": [
+      "Cambridge"
+     ],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Susan Hockfield",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_inicio": 2004
+     },
+     "evidencia": "a nomeação da neurocientista Susan Hockfield como a décima sexta presidente do MIT",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "64467_22",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ARPA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Tech Model Railroad Club",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Laboratório de Inteligência Artificial",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Richard Stallman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Projeto GNU",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1983
+     }
+    },
+    {
+     "nome": "Free Software Foundation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "FSF"
+     ],
+     "propriedades": {
+      "tipo": "fundacao",
+      "ano_fundacao": 1985
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Richard Stallman",
+     "tipo": "CRIOU",
+     "destino": "Projeto GNU",
+     "propriedades": {
+      "ano": 1983
+     },
+     "evidencia": "Richard Stallman reagiu lançando o Projeto GNU (1983) e a Free Software Foundation (1985)",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Richard Stallman",
+     "tipo": "FUNDOU",
+     "destino": "Free Software Foundation",
+     "propriedades": {
+      "ano": 1985
+     },
+     "evidencia": "Richard Stallman reagiu lançando o Projeto GNU (1983) e a Free Software Foundation (1985)",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "64467_23",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Kerberos",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Protocolo de autenticação produzido no Projeto Athena.",
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "X Window System",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Nicholas Negroponte",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jerome Wiesner",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Media Lab",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT Media Lab"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "DESENVOLVEU",
+     "destino": "Kerberos",
+     "propriedades": {},
+     "evidencia": "produziu infraestruturas amplamente adotadas, entre elas o protocolo de autenticação Kerberos",
+     "confianca": 0.65
+    },
+    {
+     "origem": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "DESENVOLVEU",
+     "destino": "X Window System",
+     "propriedades": {},
+     "evidencia": "entre elas o protocolo de autenticação Kerberos e o X Window System",
+     "confianca": 0.65
+    },
+    {
+     "origem": "Nicholas Negroponte",
+     "tipo": "FUNDOU",
+     "destino": "Media Lab",
+     "propriedades": {
+      "ano": 1985
+     },
+     "evidencia": "Nicholas Negroponte e o ex-presidente do MIT Jerome Wiesner fundaram o Media Lab",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Jerome Wiesner",
+     "tipo": "FUNDOU",
+     "destino": "Media Lab",
+     "propriedades": {
+      "ano": 1985
+     },
+     "evidencia": "Nicholas Negroponte e o ex-presidente do MIT Jerome Wiesner fundaram o Media Lab",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Jerome Wiesner",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "cargo": "presidente"
+     },
+     "evidencia": "o ex-presidente do MIT Jerome Wiesner",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "64467_24",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Tim Berners-Lee",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "World Wide Web Consortium",
+     "tipo": "Organizacao",
+     "aliases": [
+      "W3C"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Laboratório de Ciência da Computação e Inteligência Artificial",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CSAIL"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "FUNDOU",
+     "destino": "World Wide Web Consortium",
+     "propriedades": {
+      "ano": 1994
+     },
+     "evidencia": "Em 1994, Tim Berners-Lee fundou o World Wide Web Consortium (W3C)",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "64467_25",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Charles Vest",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Departamento de Justiça dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Nancy Hopkins",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Charles Vest",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "cargo": "presidente"
+     },
+     "evidencia": "o MIT, sob a presidência de Charles Vest",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "64467_26",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_27",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_28",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_29",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_30",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_31",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_32",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_33",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_34",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_35",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_36",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_37",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Sally Kornbluth",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Duke",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Sally Kornbluth",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_inicio": 2023
+     },
+     "evidencia": "se tornou a décima oitava presidente do MIT em janeiro de 2023",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Sally Kornbluth",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade Duke",
+     "propriedades": {
+      "cargo": "reitora acadêmica"
+     },
+     "evidencia": "ex-reitora acadêmica da Universidade Duke",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "64467_38",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Sally Kornbluth",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Duke",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Sally Kornbluth",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_inicio": 2023
+     },
+     "evidencia": "que se tornou a décima oitava presidente do MIT em janeiro de 2023",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Sally Kornbluth",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade Duke",
+     "propriedades": {
+      "cargo": "reitora acadêmica"
+     },
+     "evidencia": "ex-reitora acadêmica da Universidade Duke",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "64467_39",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_40",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_41",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_42",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_43",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_44",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_45",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_46",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_47",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_48",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_49",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Karl Compton",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Georges Doriot",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Merrill Grisswold",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "American Research and Development Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Karl Compton",
+     "tipo": "FUNDOU",
+     "destino": "American Research and Development Corporation",
+     "propriedades": {
+      "ano": 1946
+     },
+     "evidencia": "Em 1946, o presidente Compton, o professor da Harvard Business School Georges Doriot e o presidente do Massachusetts Investor Trust, Merrill Grisswold, fundaram a American Research and Development Corporation",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Georges Doriot",
+     "tipo": "FUNDOU",
+     "destino": "American Research and Development Corporation",
+     "propriedades": {
+      "ano": 1946
+     },
+     "evidencia": "Em 1946, o presidente Compton, o professor da Harvard Business School Georges Doriot e o presidente do Massachusetts Investor Trust, Merrill Grisswold, fundaram a American Research and Development Corporation",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Merrill Grisswold",
+     "tipo": "FUNDOU",
+     "destino": "American Research and Development Corporation",
+     "propriedades": {
+      "ano": 1946
+     },
+     "evidencia": "Em 1946, o presidente Compton, o professor da Harvard Business School Georges Doriot e o presidente do Massachusetts Investor Trust, Merrill Grisswold, fundaram a American Research and Development Corporation",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "64467_50",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_51",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_52",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_53",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_54",
+   "entidades": [
+    {
+     "nome": "MIT Museum",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "ano_fundacao": 1971
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_55",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "NASA",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_56",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Harold Eugene Edgerton",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Claude Shannon",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_57",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Eric Lander",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_58",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia da Califórnia",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Caltech"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Kip Thorne",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Barry Barish",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Rainer Weiss",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Seymour Papert",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Logo",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Media Lab",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT Media Lab"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Noam Chomsky",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Morris Halle",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Kip Thorne",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 2017
+     },
+     "evidencia": "os físicos do Caltech Kip Thorne e Barry Barish e o físico do MIT Rainer Weiss receberam o Prêmio Nobel de Física em 2017",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Barry Barish",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 2017
+     },
+     "evidencia": "os físicos do Caltech Kip Thorne e Barry Barish e o físico do MIT Rainer Weiss receberam o Prêmio Nobel de Física em 2017",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Rainer Weiss",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 2017
+     },
+     "evidencia": "os físicos do Caltech Kip Thorne e Barry Barish e o físico do MIT Rainer Weiss receberam o Prêmio Nobel de Física em 2017",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Kip Thorne",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia da Califórnia",
+     "propriedades": {},
+     "evidencia": "os físicos do Caltech Kip Thorne e Barry Barish",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Barry Barish",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia da Califórnia",
+     "propriedades": {},
+     "evidencia": "os físicos do Caltech Kip Thorne e Barry Barish",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Rainer Weiss",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {},
+     "evidencia": "o físico do MIT Rainer Weiss",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Rainer Weiss",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {},
+     "evidencia": "Weiss, que também é ex-aluno do MIT",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Seymour Papert",
+     "tipo": "CRIOU",
+     "destino": "Logo",
+     "propriedades": {},
+     "evidencia": "educador construtivista e criador da linguagem Logo, Seymour Papert",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Seymour Papert",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Media Lab",
+     "propriedades": {},
+     "evidencia": "abrigou pesquisadores influentes, como o educador construtivista e criador da linguagem Logo, Seymour Papert",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "64467_59",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Seymour Papert",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Logo",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Media Lab",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT Media Lab"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Seymour Papert",
+     "tipo": "CRIOU",
+     "destino": "Logo",
+     "propriedades": {},
+     "evidencia": "educador construtivista e criador da linguagem Logo, Seymour Papert",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Seymour Papert",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Media Lab",
+     "propriedades": {},
+     "evidencia": "abrigou pesquisadores influentes, como o educador construtivista e criador da linguagem Logo, Seymour Papert",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "64467_60",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_61",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_62",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia da Califórnia",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Caltech"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_63",
+   "entidades": [
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia da Califórnia",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Caltech"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_64",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_65",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "64467_66",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

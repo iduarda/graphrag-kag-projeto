@@ -1,0 +1,419 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:24:12+00:00",
+ "chunks": [
+  {
+   "chunk_id": "40927_0",
+   "entidades": [
+    {
+     "nome": "Netscape",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Netscape Communications",
+      "Netscape Communications Corporation"
+     ],
+     "descricao": "Empresa de serviços de computadores nos EUA, mais conhecida pelo navegador web Netscape Navigator.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Mountain View",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Califórnia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Cisco Systems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Secure Sockets Layer",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "SSL"
+     ],
+     "descricao": "Protocolo para garantir a comunicação on-line.",
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "JavaScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem mais utilizada para client-side scripts de páginas web.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Netscape",
+     "tipo": "SEDIADA_EM",
+     "destino": "Mountain View",
+     "propriedades": {},
+     "evidencia": "a sua sede foi em Mountain View, Califórnia",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Netscape",
+     "tipo": "DESENVOLVEU",
+     "destino": "Secure Sockets Layer",
+     "propriedades": {},
+     "evidencia": "A Netscape desenvolveu o protocolo Secure Sockets Layer (SSL) para garantir a comunicação on-line",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Netscape",
+     "tipo": "DESENVOLVEU",
+     "destino": "JavaScript",
+     "propriedades": {},
+     "evidencia": "A Netscape desenvolveu o protocolo Secure Sockets Layer (SSL) para garantir a comunicação on-line, que ainda é amplamente utilizada, bem como JavaScript",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "40927_1",
+   "entidades": [
+    {
+     "nome": "Netscape",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Secure Sockets Layer",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "SSL"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "JavaScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "AOL",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Netscape",
+     "tipo": "DESENVOLVEU",
+     "destino": "Secure Sockets Layer",
+     "propriedades": {},
+     "evidencia": "A Netscape desenvolveu o protocolo Secure Sockets Layer (SSL) para garantir a comunicação on-line",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Netscape",
+     "tipo": "DESENVOLVEU",
+     "destino": "JavaScript",
+     "propriedades": {},
+     "evidencia": "A Netscape desenvolveu o protocolo Secure Sockets Layer (SSL) para garantir a comunicação on-line, que ainda é amplamente utilizada, bem como JavaScript",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "40927_2",
+   "entidades": [
+    {
+     "nome": "Tom Drapeau",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Diretor das marcas Netscape e AOL.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Asa Dotzler",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Um dos programadores originais do Firefox.",
+     "propriedades": {}
+    },
+    {
+     "nome": "AOL",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Netscape",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "40927_3",
+   "entidades": [
+    {
+     "nome": "Marc Andreessen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Andreesen"
+     ],
+     "descricao": "Pesquisador do NCSA que anunciou o navegador X Mosaic em 1993.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Centro Nacional de Supercomputação Aplicada",
+     "tipo": "Organizacao",
+     "aliases": [
+      "NCSA"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Illinois",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Jim Clark",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Silicon Graphics",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Netscape",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Netscape Communications",
+      "Mosaic Communications"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Marc Andreessen",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Centro Nacional de Supercomputação Aplicada",
+     "propriedades": {
+      "cargo": "pesquisador"
+     },
+     "evidencia": "Marc Andreessen, pesquisador do Centro Nacional de Supercomputação Aplicada (NCSA) da Universidade de Illinois",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Jim Clark",
+     "tipo": "FUNDOU",
+     "destino": "Silicon Graphics",
+     "propriedades": {},
+     "evidencia": "Jim Clark, fundador da Silicon Graphics",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Jim Clark",
+     "tipo": "FUNDOU",
+     "destino": "Netscape",
+     "propriedades": {},
+     "evidencia": "Do encontro entre ambos, surgia a Mosaic Communications, logo rebatizada para Netscape Communications",
+     "confianca": 0.65
+    },
+    {
+     "origem": "Marc Andreessen",
+     "tipo": "FUNDOU",
+     "destino": "Netscape",
+     "propriedades": {},
+     "evidencia": "Do encontro entre ambos, surgia a Mosaic Communications, logo rebatizada para Netscape Communications",
+     "confianca": 0.65
+    }
+   ]
+  },
+  {
+   "chunk_id": "40927_4",
+   "entidades": [
+    {
+     "nome": "Netscape",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Netscape Communications"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "40927_5",
+   "entidades": [
+    {
+     "nome": "Netscape",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Netscape Communications"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AOL",
+     "tipo": "Organizacao",
+     "aliases": [
+      "AOL/Time Warner"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "40927_6",
+   "entidades": [
+    {
+     "nome": "Netscape",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AOL",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "40927_7",
+   "entidades": [
+    {
+     "nome": "Netscape",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AOL",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Yahoo!",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "40927_8",
+   "entidades": [
+    {
+     "nome": "Netscape",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AOL",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

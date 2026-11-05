@@ -1,0 +1,911 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:22:55+00:00",
+ "chunks": [
+  {
+   "chunk_id": "981118_0",
+   "entidades": [
+    {
+     "nome": "Robert Noyce",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Robert Norton Noyce",
+      "Bob Noyce"
+     ],
+     "descricao": "Físico estadunidense, co-inventor do circuito integrado e co-fundador da Intel.",
+     "propriedades": {
+      "ano_nascimento": 1927,
+      "ano_morte": 1990
+     }
+    },
+    {
+     "nome": "Burlington",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Intel Corporation"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Circuito integrado",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Robert Noyce",
+     "tipo": "NASCEU_EM",
+     "destino": "Burlington",
+     "propriedades": {},
+     "evidencia": "Robert Norton Noyce, também conhecido como Bob Noyce (Burlington, 12 de dezembro de 1927",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Robert Noyce",
+     "tipo": "FUNDOU",
+     "destino": "Intel",
+     "propriedades": {},
+     "evidencia": "co-fundador da Intel Corporation",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Robert Noyce",
+     "tipo": "CRIOU",
+     "destino": "Circuito integrado",
+     "propriedades": {},
+     "evidencia": "Percebeu que seria interessante a manipulação do silício, a fim de criar uma estrutura integrada, onde transistores e circuitos elétricos pudessem fazer parte de um todo, criando assim o circuito integrado",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "981118_1",
+   "entidades": [
+    {
+     "nome": "Robert Noyce",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Noyce"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "981118_2",
+   "entidades": [
+    {
+     "nome": "Robert Noyce",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Noyce"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Burlington",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Grinnell College",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Robert Noyce",
+     "tipo": "NASCEU_EM",
+     "destino": "Burlington",
+     "propriedades": {},
+     "evidencia": "Noyce nasceu em 12 de dezembro de 1927 em Burlington, Iowa",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "981118_3",
+   "entidades": [
+    {
+     "nome": "Robert Noyce",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Noyce"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Grinnell College",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Grant Gale",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Robert Noyce",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Grinnell College",
+     "propriedades": {
+      "curso": "física e matemática",
+      "ano": 1949
+     },
+     "evidencia": "Ele se formou Phi Beta Kappa com bacharelado em  física e matemática no Grinnell College em 1949",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Robert Noyce",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "curso": "física",
+      "ano": 1953
+     },
+     "evidencia": "Ele recebeu seu doutorado em física pelo Massachusetts Institute of Technology em 1953",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "981118_4",
+   "entidades": [
+    {
+     "nome": "Robert Noyce",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Noyce"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Massachusetts Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Philco",
+     "tipo": "Organizacao",
+     "aliases": [
+      "corporação Philco"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Shockley Semiconductor Laboratory",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "William Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "William Bradford Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Beckman Instruments",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Fairchild Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Mountain View",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Filadélfia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Robert Noyce",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Philco",
+     "propriedades": {
+      "cargo": "engenheiro pesquisador"
+     },
+     "evidencia": "assumiu seu primeiro emprego como engenheiro pesquisador na corporação Philco na Filadélfia",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Robert Noyce",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Shockley Semiconductor Laboratory",
+     "propriedades": {
+      "ano_inicio": 1956
+     },
+     "evidencia": "Em 1956 foi para o Shockley Semiconductor Laboratory em Mountain View",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Shockley Semiconductor Laboratory",
+     "tipo": "SEDIADA_EM",
+     "destino": "Mountain View",
+     "propriedades": {},
+     "evidencia": "Em 1956 foi para o Shockley Semiconductor Laboratory em Mountain View",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Robert Noyce",
+     "tipo": "COLABOROU_COM",
+     "destino": "William Bradford Shockley",
+     "propriedades": {
+      "contexto": "Shockley Semiconductor Laboratory"
+     },
+     "evidencia": "Se juntou com William Shockley na Shockley Semiconductor Laboratory",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Robert Noyce",
+     "tipo": "FUNDOU",
+     "destino": "Fairchild Semiconductor",
+     "propriedades": {},
+     "evidencia": "depois de sua saída fundou junto com seus amigos uma influente corporação chamada Fairchild Semiconductor",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "981118_5",
+   "entidades": [
+    {
+     "nome": "Robert Noyce",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Noyce"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Gordon Moore",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gordon E. Moore"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Intel Corporation"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Fairchild Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Arthur Rock",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Andrew Grove",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Robert Noyce",
+     "tipo": "FUNDOU",
+     "destino": "Intel",
+     "propriedades": {
+      "ano": 1968
+     },
+     "evidencia": "Posteriormente Noyce e Gordon E. Moore fundaram a Intel em  1968",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Gordon Moore",
+     "tipo": "FUNDOU",
+     "destino": "Intel",
+     "propriedades": {
+      "ano": 1968
+     },
+     "evidencia": "Posteriormente Noyce e Gordon E. Moore fundaram a Intel em  1968",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Robert Noyce",
+     "tipo": "COLABOROU_COM",
+     "destino": "Gordon Moore",
+     "propriedades": {
+      "contexto": "fundação da Intel"
+     },
+     "evidencia": "Posteriormente Noyce e Gordon E. Moore fundaram a Intel em  1968",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "981118_6",
+   "entidades": [
+    {
+     "nome": "Robert Noyce",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Noyce"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fairchild Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Gordon Moore",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gordon E. Moore"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Circuito integrado",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Channel F",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Console de jogos em vídeo da Fairchild Semiconductor.",
+     "propriedades": {
+      "ano": 1976
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Gordon Moore",
+     "tipo": "FUNDOU",
+     "destino": "Fairchild Semiconductor",
+     "propriedades": {},
+     "evidencia": "co-fundador da Fairchild Semiconductor , Gordon Moore",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Fairchild Semiconductor",
+     "tipo": "DESENVOLVEU",
+     "destino": "Channel F",
+     "propriedades": {
+      "ano": 1976
+     },
+     "evidencia": "Em 1976, a Fairchild Semiconductor lançou o seu próprio console de jogos em vídeo, a Channel F",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "981118_7",
+   "entidades": [
+    {
+     "nome": "Robert Noyce",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Noyce"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fairchild Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Intel Corporation"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "SEMATECH",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Austin",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Ted Hoff",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microprocessador",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Channel F",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Robert Noyce",
+     "tipo": "TRABALHOU_EM",
+     "destino": "SEMATECH",
+     "propriedades": {
+      "ano_inicio": 1988
+     },
+     "evidencia": "No verão de 1988, Noyce decidiu deixar sua aposentadoria satisfatoriamente ocupado e sua amada Califórnia para tocar o SEMATECH",
+     "confianca": 0.7
+    },
+    {
+     "origem": "SEMATECH",
+     "tipo": "SEDIADA_EM",
+     "destino": "Austin",
+     "propriedades": {},
+     "evidencia": "com sede em Austin, Texas",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Ted Hoff",
+     "tipo": "CRIOU",
+     "destino": "Microprocessador",
+     "propriedades": {},
+     "evidencia": "Na Intel, ele supervisionou a invenção do microprocessor do Ted Hoff",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "981118_8",
+   "entidades": [
+    {
+     "nome": "Robert Noyce",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Noyce"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Intel Corporation"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Apple Inc."
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Ann Schmeltz Bowers",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ann Bowers"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Cornell University",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Fundação Noyce",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Ann Schmeltz Bowers",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Cornell University",
+     "propriedades": {
+      "ano": 1959
+     },
+     "evidencia": "Bowers se formou em 1959 na Cornell University",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Ann Schmeltz Bowers",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "primeira diretora de pessoal"
+     },
+     "evidencia": "Ela foi a primeira diretora de pessoal da Intel e primeira vice-presidente de recursos humanos da Apple Inc",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Ann Schmeltz Bowers",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Apple",
+     "propriedades": {
+      "cargo": "primeira vice-presidente de recursos humanos"
+     },
+     "evidencia": "Ela foi a primeira diretora de pessoal da Intel e primeira vice-presidente de recursos humanos da Apple Inc",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "981118_9",
+   "entidades": [
+    {
+     "nome": "Robert Noyce",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Noyce"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Circuito integrado",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jack Kilby",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Bardeen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha Nacional de Tecnologia e Inovação",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lifetime Achievement Medal",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ronald Reagan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Robert Noyce",
+     "tipo": "CRIOU",
+     "destino": "Circuito integrado",
+     "propriedades": {},
+     "evidencia": "Recebeu honras de três presidentes dos Estados Unidos pela sua co-invenção do circuito integrado",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Robert Noyce",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Nacional de Tecnologia e Inovação",
+     "propriedades": {
+      "ano": 1987
+     },
+     "evidencia": "O Presidente Ronald Reagan concedeu-lhe a Medalha Nacional de Tecnologia ( National Medal of Technology ) em 1987",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Robert Noyce",
+     "tipo": "RECEBEU",
+     "destino": "Lifetime Achievement Medal",
+     "propriedades": {
+      "ano": 1990
+     },
+     "evidencia": "Em 1990 Noyce juntamente com, entre outros, Jack Kilby e o inventor do transistor John Bardeen recebeu a \"Lifetime Achievement Medal\"",
+     "confianca": 0.9
+    },
+    {
+     "origem": "John Bardeen",
+     "tipo": "CRIOU",
+     "destino": "Transístor",
+     "propriedades": {},
+     "evidencia": "o inventor do transistor John Bardeen",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Jack Kilby",
+     "tipo": "RECEBEU",
+     "destino": "Lifetime Achievement Medal",
+     "propriedades": {
+      "ano": 1990
+     },
+     "evidencia": "Em 1990 Noyce juntamente com, entre outros, Jack Kilby e o inventor do transistor John Bardeen recebeu a \"Lifetime Achievement Medal\"",
+     "confianca": 0.85
+    },
+    {
+     "origem": "John Bardeen",
+     "tipo": "RECEBEU",
+     "destino": "Lifetime Achievement Medal",
+     "propriedades": {
+      "ano": 1990
+     },
+     "evidencia": "Em 1990 Noyce juntamente com, entre outros, Jack Kilby e o inventor do transistor John Bardeen recebeu a \"Lifetime Achievement Medal\"",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "981118_10",
+   "entidades": [
+    {
+     "nome": "Robert Noyce",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Noyce"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Stuart Ballantine Medal",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IEEE Medal of Honor",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "National Medal of Science",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Charles Stark Draper Prize",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Franklin Institute",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "National Academy of Engineering",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fundação Noyce",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "fundacao",
+      "ano_fundacao": 1991
+     }
+    },
+    {
+     "nome": "Jack Kilby",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Bardeen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lifetime Achievement Medal",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Robert Noyce",
+     "tipo": "RECEBEU",
+     "destino": "Stuart Ballantine Medal",
+     "propriedades": {
+      "ano": 1966
+     },
+     "evidencia": "Noyce recebeu a medalha do Franklin Institute's Stuart Ballantine Medal em 1966",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Robert Noyce",
+     "tipo": "RECEBEU",
+     "destino": "IEEE Medal of Honor",
+     "propriedades": {
+      "ano": 1978
+     },
+     "evidencia": "Ele foi condecorado com a medalha de honra IEEE Medal of Honor em 1978",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Robert Noyce",
+     "tipo": "RECEBEU",
+     "destino": "National Medal of Science",
+     "propriedades": {
+      "ano": 1979
+     },
+     "evidencia": "Em 1979, ele foi condecorado com a medalha nacional da ciência ( National Medal of Science )",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Robert Noyce",
+     "tipo": "RECEBEU",
+     "destino": "Charles Stark Draper Prize",
+     "propriedades": {
+      "ano": 1989
+     },
+     "evidencia": "A National Academy of Engineering concedeu-lhe em 1989 o Charles Stark Draper Prize",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Robert Noyce",
+     "tipo": "RECEBEU",
+     "destino": "Lifetime Achievement Medal",
+     "propriedades": {
+      "ano": 1990
+     },
+     "evidencia": "Em 1990 Noyce juntamente com, entre outros, Jack Kilby e o inventor do transistor John Bardeen recebeu a \"Lifetime Achievement Medal\"",
+     "confianca": 0.9
+    }
+   ]
+  }
+ ]
+}

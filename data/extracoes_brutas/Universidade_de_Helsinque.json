@@ -1,0 +1,89 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:26:13+00:00",
+ "chunks": [
+  {
+   "chunk_id": "184250_0",
+   "entidades": [
+    {
+     "nome": "Universidade de Helsinque",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade de Helsínquia"
+     ],
+     "descricao": "Instituição de ensino superior localizada em Helsinque, a maior e mais antiga universidade da Finlândia.",
+     "propriedades": {
+      "tipo": "universidade",
+      "ano_fundacao": 1640
+     }
+    },
+    {
+     "nome": "Helsinque",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Finlândia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Turku",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Linus Torvalds",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Universidade de Helsinque",
+     "tipo": "SEDIADA_EM",
+     "destino": "Helsinque",
+     "propriedades": {},
+     "evidencia": "é uma instituição de ensino superior localizada na cidade de Helsinque, Finlândia",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Linus Torvalds",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Helsinque",
+     "propriedades": {
+      "curso": "mestrado"
+     },
+     "evidencia": "Linus Torvalds fez o seu mestrado e criou o Linux nesta universidade",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Linus Torvalds",
+     "tipo": "CRIOU",
+     "destino": "Linux",
+     "propriedades": {},
+     "evidencia": "Linus Torvalds fez o seu mestrado e criou o Linux nesta universidade",
+     "confianca": 0.95
+    }
+   ]
+  }
+ ]
+}

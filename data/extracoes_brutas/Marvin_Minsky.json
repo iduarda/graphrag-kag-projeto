@@ -1,0 +1,434 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:24:29+00:00",
+ "chunks": [
+  {
+   "chunk_id": "513075_0",
+   "entidades": [
+    {
+     "nome": "Marvin Minsky",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Marvin Lee Minsky",
+      "Minski"
+     ],
+     "descricao": "Cientista cognitivo norte-americano com atuação em inteligência artificial.",
+     "propriedades": {
+      "ano_nascimento": 1927,
+      "ano_morte": 2016
+     }
+    },
+    {
+     "nome": "Laboratório de Inteligência Artificial do MIT",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Nova Iorque",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Boston",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Marvin Minsky",
+     "tipo": "FUNDOU",
+     "destino": "Laboratório de Inteligência Artificial do MIT",
+     "propriedades": {},
+     "evidencia": "Minski foi co-fundador do Laboratório de Inteligência Artificial do Instituto de Tecnologia de Massachusetts (MIT)",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "513075_1",
+   "entidades": [
+    {
+     "nome": "Marvin Minsky",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Minsky"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Nova Iorque",
+     "tipo": "Local",
+     "aliases": [
+      "Nova York"
+     ],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Universidade Harvard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Harvard"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Princeton",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Princeton"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "John McCarthy",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Laboratório de Ciência da Computação e Inteligência Artificial do MIT",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio",
+      "ano_fundacao": 1959
+     }
+    },
+    {
+     "nome": "Seymour Papert",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Papert"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "SNARC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeira máquina de aprendizado com rede neural de fiação aleatória, construída por Minsky.",
+     "propriedades": {
+      "ano": 1951,
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Marvin Minsky",
+     "tipo": "NASCEU_EM",
+     "destino": "Nova Iorque",
+     "propriedades": {},
+     "evidencia": "Marvin Minsky nasceu na cidade de Nova York",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Marvin Minsky",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade Harvard",
+     "propriedades": {
+      "curso": "Matemática",
+      "ano": 1950
+     },
+     "evidencia": "Possui Bacharelado em Matemática pela Harvard (1950)",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Marvin Minsky",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Princeton",
+     "propriedades": {
+      "curso": "Matemática",
+      "ano": 1954
+     },
+     "evidencia": "PhD em Matemática pela Princeton (1954)",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Marvin Minsky",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "ano_inicio": 1958
+     },
+     "evidencia": "Ele está vinculado com o MIT desde 1958",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Marvin Minsky",
+     "tipo": "FUNDOU",
+     "destino": "Laboratório de Ciência da Computação e Inteligência Artificial do MIT",
+     "propriedades": {
+      "ano": 1959
+     },
+     "evidencia": "Em 1959 ele e John McCarthy fundaram o que agora é conhecido como o Laboratório de Ciência da Computação e Inteligência Artificial do MIT",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John McCarthy",
+     "tipo": "FUNDOU",
+     "destino": "Laboratório de Ciência da Computação e Inteligência Artificial do MIT",
+     "propriedades": {
+      "ano": 1959
+     },
+     "evidencia": "Em 1959 ele e John McCarthy fundaram o que agora é conhecido como o Laboratório de Ciência da Computação e Inteligência Artificial do MIT",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Marvin Minsky",
+     "tipo": "COLABOROU_COM",
+     "destino": "John McCarthy",
+     "propriedades": {
+      "contexto": "fundação do laboratório de IA do MIT"
+     },
+     "evidencia": "Em 1959 ele e John McCarthy fundaram",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Marvin Minsky",
+     "tipo": "COLABOROU_COM",
+     "destino": "Seymour Papert",
+     "propriedades": {
+      "contexto": "turtle Logo"
+     },
+     "evidencia": "Ele desenvolveu, com Seymour Papert, a primeira \"turtle\" Logo.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Marvin Minsky",
+     "tipo": "CRIOU",
+     "destino": "SNARC",
+     "propriedades": {
+      "ano": 1951
+     },
+     "evidencia": "Minsky também construiu, em 1951, a primeira máquina de aprendizado com rede neural de fiação aleatória, SNARC.",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "513075_2",
+   "entidades": [
+    {
+     "nome": "Marvin Minsky",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Minsky"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "SNARC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1951,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Seymour Papert",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Papert"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Marvin Minsky",
+     "tipo": "CRIOU",
+     "destino": "SNARC",
+     "propriedades": {
+      "ano": 1951
+     },
+     "evidencia": "Minsky também construiu, em 1951, a primeira máquina de aprendizado com rede neural de fiação aleatória, SNARC.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Marvin Minsky",
+     "tipo": "COLABOROU_COM",
+     "destino": "Seymour Papert",
+     "propriedades": {
+      "contexto": "livro Perceptrons"
+     },
+     "evidencia": "Minsky escreveu o livro Perceptrons (com Seymour Papert)",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "513075_3",
+   "entidades": [
+    {
+     "nome": "Marvin Minsky",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Minsky"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Seymour Papert",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Papert"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Laboratório de Inteligência Artificial do MIT",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Marvin Minsky",
+     "tipo": "COLABOROU_COM",
+     "destino": "Seymour Papert",
+     "propriedades": {
+      "contexto": "teoria da Sociedade da Mente"
+     },
+     "evidencia": "Minsky e Papert começaram a desenvolver o que veio a se chamar a teoria d'A Sociedade da Mente",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "513075_4",
+   "entidades": [
+    {
+     "nome": "Marvin Minsky",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Minsky"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Japão",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio IJCAI por Excelência em Pesquisa",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha Benjamin Franklin do Instituto Franklin",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmios Fundação BBVA Fronteiras do Conhecimento",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Marvin Minsky",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 1969
+     },
+     "evidencia": "Prêmio Turing (1969)",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Marvin Minsky",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Japão",
+     "propriedades": {
+      "ano": 1990
+     },
+     "evidencia": "Prêmio Japão (1990)",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Marvin Minsky",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio IJCAI por Excelência em Pesquisa",
+     "propriedades": {
+      "ano": 1991
+     },
+     "evidencia": "Prêmio IJCAI por Excelência em Pesquisa (1991)",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Marvin Minsky",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Benjamin Franklin do Instituto Franklin",
+     "propriedades": {
+      "ano": 2001
+     },
+     "evidencia": "Medalha Benjamin Franklin do Instituto Franklin (2001)",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Marvin Minsky",
+     "tipo": "RECEBEU",
+     "destino": "Prêmios Fundação BBVA Fronteiras do Conhecimento",
+     "propriedades": {
+      "ano": 2013
+     },
+     "evidencia": "Prêmios Fundação BBVA Fronteiras do Conhecimento na categoria de Tecnologias de Informação e Comunicação (2013)",
+     "confianca": 0.9
+    }
+   ]
+  }
+ ]
+}

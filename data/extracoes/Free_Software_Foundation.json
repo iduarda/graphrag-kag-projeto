@@ -1,0 +1,256 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 8825,
+    "titulo": "Free Software Foundation",
+    "url": "https://pt.wikipedia.org/wiki/Free_Software_Foundation",
+    "categoria": "Organização",
+    "wikidata_id": "Q48413"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:24:50+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "organizacao:free_software_foundation",
+  "chunks": [
+    {
+      "id": "8825_0",
+      "ordem": 0,
+      "texto": "A Free Software Foundation (FSF, Fundação Software Livre) é uma organização sem fins lucrativos, fundada em 4 de outubro de 1985 por Richard Stallman e que se dedica a eliminação de restrições sobre a cópia, estudo e modificação de programas de computadores – bandeiras do movimento do software livre, em essência. Faz isso promovendo o desenvolvimento e o uso de software livre em todas as áreas da computação mas, particularmente, ajudando a desenvolver o sistema operacional GNU e suas ferramentas.\nAté meados da década de 1990 a fundação dedicava-se mais à escrita do software. Como hoje existem muitos projetos independentes de software livre, a FSF dedica-se mais aos aspectos legais e estruturais da comunidade do software livre. Entre suas atribuições atuais, encarrega-se de aperfeiçoar licenças de software e de documentação, de desenvolver um aparato legal acerca dos direitos autorais dos programas criados sob essas licenças, de catalogar e disponibilizar um serviço com os softwares livres desenvolvidos (o Free Software Directory), e de discutir e aperfeiçoar a própria definição de software livre. A FSF mantém artigos históricos que abrangem a filosofia do software livre e mantém a definição do termo Software Livre, deixando claro quais são as características necessárias para que seja considerado livre."
+    },
+    {
+      "id": "8825_1",
+      "ordem": 1,
+      "texto": "A FSF mantém artigos históricos que abrangem a filosofia do software livre e mantém a definição do termo Software Livre, deixando claro quais são as características necessárias para que seja considerado livre.\nA FSF patrocina o Projeto GNU (um esforço contínuo para fornecer um sistema operacional completo e licenciado como software livre) e detém direitos autorais sobre uma grande proporção do sistema operacional GNU e outros softwares livres. Esta atitude visa defender o software livre dos esforços em torná-lo proprietário.\nTodos os anos a FSF coleta milhares de atribuições de direitos autorais de desenvolvedores e corporações que trabalham com software livre. A FSF registra os direitos autorais em um escritório de direitos autorais dos EUA e faz cumprir a licença sob a qual o software foi distribuído, normalmente a GNU General Public License. Isto é feito para garantir que os distribuidores de software livre respeitem a obrigação de garantir a liberdade a todos os usuários em compartilhar, estudar e modificar o código-fonte do software. A FSF realiza este trabalho por meio da FSF Free Software Licensing and Compliance Lab, que foi formalizada em dezembro de 2001.\nAtualmente, seguindo o mesmo método utilizado pela Wikipédia, a FSF está realizando uma campanha para arrecadação de fundos."
+    },
+    {
+      "id": "8825_2",
+      "ordem": 2,
+      "texto": "Atualmente, seguindo o mesmo método utilizado pela Wikipédia, a FSF está realizando uma campanha para arrecadação de fundos.\nLicenças GNU: A FSF publica diferentes licenças escritas com o propósito de promover e preservar a liberdade do software.\nGNU GPL - GNU General Public License\nGNU AGPL - GNU Affero General Public License\nGNU FDL - GNU Free Documentation License\nGNU LGPL - GNU Lesser General Public License\nProjetos Atuais: Projeto GNU\nO sistema de operação do GNU é um sistema completo feito com apenas softwares livres. Milhões de pessoas usam o GNU todos os dias para editar seus documentos, acessar a internet, jogar, usar o e-mail e usar parte do GNU/Linux no seu próprio computador.\nCampanha Free Bios\nA BIOS controla as operações básicas de Entrada/Saída do Sistema. Apesar dos usuários raramente conhecerem a BIOS, é uma tarefa fundamental garantir essa liberdade pois se não é livre os usuários não podem confiar em não modificar seus computadores acerca de quem escreveu. A campanha promove BIOS livres como Libreboot e Librecore.\nThe Free Software Directory"
+    },
+    {
+      "id": "8825_3",
+      "ordem": 3,
+      "texto": "The Free Software Directory\nÉ uma lista de pacotes de Hardwares e Drivers que foram verificados e compatíveis com Softwares Livres. Cada pacote contem um total de 47 componentes de informação tais como homepage do projeto, desenvolvedores, linguagem de programação e etc. O objetivo é providenciar um sistema de busca para o Software Livre e também checar dados passados por usuários. A FSF recebeu uma pequena contribuição da UNESCO para esse projeto e pretende traduzir em varias línguas no futuro.\nManutenção da Definição de Software Livre\nA FSF mantem uma variedade de documentos que definem o movimento do Software Livre.\nh-node\nÉ uma lista de Hardwares e Drivers que foram verificados e compatíveis com Softwares Livres.\nOpenDocument\nEsse projeto luta para que todos os documentos oficiais de governos adotem politicas internas para usarem apenas formatos de distribuição que são comuns, gratuitos e livres de direitos de propriedade, como o formato OpenDocument (ODF)."
+    },
+    {
+      "id": "8825_4",
+      "ordem": 4,
+      "texto": "Esse projeto luta para que todos os documentos oficiais de governos adotem politicas internas para usarem apenas formatos de distribuição que são comuns, gratuitos e livres de direitos de propriedade, como o formato OpenDocument (ODF).\nMembros: Liderança da FSF:\nRichard Matthew Stallman, Fundador e Presidente.\nJohn Sullivan, Diretor Executivo.\nWard Vandewege, Diretor de Tecnologia.\nConselho Administrativo:\nGerald J. Sussman, Professor de Engenharia Elétrica no MIT.\nRichard Matthew Stallman, fundador e presidente do FSF.\nGeoffrey Knauth, professor de Ciência da Computação na Faculdade de Lycoming.\nHenry Poole, fundador da CivicActions.\nHal Abelson, Professor de Engenharia Elétrica e Ciência da Computação no MIT.\nBenjamin Mako Hill, Estudante de Doutorado no MIT.\nBradley M. Kuhn, Diretor Executivo da Freedom Conservancy Software."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "organizacao:free_software_foundation",
+      "nome": "Free Software Foundation",
+      "tipo": "Organizacao",
+      "aliases": [
+        "FSF",
+        "Fundação Software Livre"
+      ],
+      "descricao": "Organização sem fins lucrativos dedicada ao software livre.",
+      "propriedades": {
+        "tipo": "fundacao",
+        "ano_fundacao": 1985
+      },
+      "chunk_ids": [
+        "8825_0",
+        "8825_1",
+        "8825_2",
+        "8825_3",
+        "8825_4"
+      ]
+    },
+    {
+      "id": "pessoa:richard_stallman",
+      "nome": "Richard Stallman",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Richard Matthew Stallman",
+        "rms",
+        "Stallman"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "8825_0",
+        "8825_4"
+      ]
+    },
+    {
+      "id": "tecnologia:projeto_gnu",
+      "nome": "Projeto GNU",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "GNU",
+        "sistema operacional GNU"
+      ],
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "8825_0",
+        "8825_1",
+        "8825_2"
+      ]
+    },
+    {
+      "id": "local:estados_unidos",
+      "nome": "Estados Unidos",
+      "tipo": "Local",
+      "aliases": [
+        "EUA",
+        "Estados Unidos da América",
+        "USA"
+      ],
+      "propriedades": {
+        "tipo": "pais"
+      },
+      "chunk_ids": [
+        "8825_1"
+      ]
+    },
+    {
+      "id": "organizacao:instituto_de_tecnologia_de_massachusetts",
+      "nome": "Instituto de Tecnologia de Massachusetts",
+      "tipo": "Organizacao",
+      "aliases": [
+        "MIT",
+        "Massachusetts Institute of Technology"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "8825_4"
+      ]
+    },
+    {
+      "id": "pessoa:gerald_j_sussman",
+      "nome": "Gerald J. Sussman",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "8825_4"
+      ]
+    },
+    {
+      "id": "pessoa:hal_abelson",
+      "nome": "Hal Abelson",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "8825_4"
+      ]
+    },
+    {
+      "id": "pessoa:john_sullivan",
+      "nome": "John Sullivan",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "8825_4"
+      ]
+    },
+    {
+      "id": "pessoa:ward_vandewege",
+      "nome": "Ward Vandewege",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "8825_4"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:richard_stallman",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:free_software_foundation",
+      "propriedades": {
+        "ano": 1985
+      },
+      "chunk_id": "8825_0",
+      "evidencia": "fundada em 4 de outubro de 1985 por Richard Stallman",
+      "confianca": 0.95
+    },
+    {
+      "origem": "organizacao:free_software_foundation",
+      "tipo": "DESENVOLVEU",
+      "destino": "tecnologia:projeto_gnu",
+      "propriedades": {},
+      "chunk_id": "8825_0",
+      "evidencia": "ajudando a desenvolver o sistema operacional GNU e suas ferramentas",
+      "confianca": 0.7
+    },
+    {
+      "origem": "pessoa:richard_stallman",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:free_software_foundation",
+      "propriedades": {},
+      "chunk_id": "8825_4",
+      "evidencia": "Richard Matthew Stallman, fundador e presidente do FSF",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:richard_stallman",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:free_software_foundation",
+      "propriedades": {
+        "cargo": "Presidente"
+      },
+      "chunk_id": "8825_4",
+      "evidencia": "Richard Matthew Stallman, Fundador e Presidente.",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:john_sullivan",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:free_software_foundation",
+      "propriedades": {
+        "cargo": "Diretor Executivo"
+      },
+      "chunk_id": "8825_4",
+      "evidencia": "John Sullivan, Diretor Executivo.",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:ward_vandewege",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:free_software_foundation",
+      "propriedades": {
+        "cargo": "Diretor de Tecnologia"
+      },
+      "chunk_id": "8825_4",
+      "evidencia": "Ward Vandewege, Diretor de Tecnologia.",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:gerald_j_sussman",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:instituto_de_tecnologia_de_massachusetts",
+      "propriedades": {
+        "cargo": "Professor de Engenharia Elétrica"
+      },
+      "chunk_id": "8825_4",
+      "evidencia": "Gerald J. Sussman, Professor de Engenharia Elétrica no MIT.",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:hal_abelson",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:instituto_de_tecnologia_de_massachusetts",
+      "propriedades": {
+        "cargo": "Professor de Engenharia Elétrica e Ciência da Computação"
+      },
+      "chunk_id": "8825_4",
+      "evidencia": "Hal Abelson, Professor de Engenharia Elétrica e Ciência da Computação no MIT.",
+      "confianca": 0.9
+    }
+  ]
+}

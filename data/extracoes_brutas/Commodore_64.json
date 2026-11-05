@@ -1,0 +1,706 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:23:59+00:00",
+ "chunks": [
+  {
+   "chunk_id": "343995_0",
+   "entidades": [
+    {
+     "nome": "Commodore 64",
+     "tipo": "Hardware",
+     "aliases": [
+      "C64",
+      "CBM 64"
+     ],
+     "descricao": "Computador doméstico lançado em 1982 e modelo de computador mais vendido de todos os tempos.",
+     "propriedades": {
+      "ano": 1982,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Commodore International",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Commodore"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Reino Unido",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "ZX Spectrum",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Commodore International",
+     "tipo": "DESENVOLVEU",
+     "destino": "Commodore 64",
+     "propriedades": {
+      "ano": 1982
+     },
+     "evidencia": "lançado pela Commodore International em agosto do mesmo ano",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "343995_1",
+   "entidades": [
+    {
+     "nome": "Commodore 64",
+     "tipo": "Hardware",
+     "aliases": [
+      "C64"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Commodore International",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Commodore"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "MOS Technology",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "ZX Spectrum",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "343995_2",
+   "entidades": [
+    {
+     "nome": "Commodore 64",
+     "tipo": "Hardware",
+     "aliases": [
+      "C64"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Commodore International",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Commodore"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "MOS Technology",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Ultimax",
+     "tipo": "Hardware",
+     "aliases": [
+      "Commodore MAX Machine",
+      "MAX Machine",
+      "VC-10"
+     ],
+     "descricao": "Console de jogos da Commodore.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VIC-20",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Commodore PET",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Yash Terakura",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Russell",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Yannes",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Al Charpentier",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Charles Winterble",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jack Tramiel",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Yash Terakura",
+     "tipo": "CRIOU",
+     "destino": "Ultimax",
+     "propriedades": {},
+     "evidencia": "um console projetado por Yash Terakura e que seria denominado Ultimax ou Commodore MAX Machine",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Charles Winterble",
+     "tipo": "TRABALHOU_EM",
+     "destino": "MOS Technology",
+     "propriedades": {
+      "cargo": "gerente"
+     },
+     "evidencia": "Charles Winterble (gerente da MOS Technology)",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Jack Tramiel",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Commodore International",
+     "propriedades": {
+      "cargo": "CEO"
+     },
+     "evidencia": "ao CEO da Commodore, Jack Tramiel",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "343995_3",
+   "entidades": [
+    {
+     "nome": "Commodore 64",
+     "tipo": "Hardware",
+     "aliases": [
+      "C64"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VIC-20",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "MOS Technology",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Yash Terakura",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Shiraz Shivji",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bob Russell",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Robert Russell"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bob Yannes",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Robert Yannes"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "David A. Ziembicki",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jack Tramiel",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Al Charpentier",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Charles Winterble",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Commodore 64",
+     "tipo": "SUCESSOR_DE",
+     "destino": "VIC-20",
+     "propriedades": {},
+     "evidencia": "O produto recebeu o codinome VIC-40 como o sucessor do popular VIC-20",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Yash Terakura",
+     "tipo": "CRIOU",
+     "destino": "Commodore 64",
+     "propriedades": {},
+     "evidencia": "O produto recebeu o codinome VIC-40 como o sucessor do popular VIC-20 e a equipe que o construiu consistia em Yash Terakura, Shiraz Shivji, Bob Russell, Bob Yannes e David A. Ziembicki",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Shiraz Shivji",
+     "tipo": "CRIOU",
+     "destino": "Commodore 64",
+     "propriedades": {},
+     "evidencia": "O produto recebeu o codinome VIC-40 como o sucessor do popular VIC-20 e a equipe que o construiu consistia em Yash Terakura, Shiraz Shivji, Bob Russell, Bob Yannes e David A. Ziembicki",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Bob Russell",
+     "tipo": "CRIOU",
+     "destino": "Commodore 64",
+     "propriedades": {},
+     "evidencia": "O produto recebeu o codinome VIC-40 como o sucessor do popular VIC-20 e a equipe que o construiu consistia em Yash Terakura, Shiraz Shivji, Bob Russell, Bob Yannes e David A. Ziembicki",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Bob Yannes",
+     "tipo": "CRIOU",
+     "destino": "Commodore 64",
+     "propriedades": {},
+     "evidencia": "O produto recebeu o codinome VIC-40 como o sucessor do popular VIC-20 e a equipe que o construiu consistia em Yash Terakura, Shiraz Shivji, Bob Russell, Bob Yannes e David A. Ziembicki",
+     "confianca": 0.85
+    },
+    {
+     "origem": "David A. Ziembicki",
+     "tipo": "CRIOU",
+     "destino": "Commodore 64",
+     "propriedades": {},
+     "evidencia": "O produto recebeu o codinome VIC-40 como o sucessor do popular VIC-20 e a equipe que o construiu consistia em Yash Terakura, Shiraz Shivji, Bob Russell, Bob Yannes e David A. Ziembicki",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "343995_4",
+   "entidades": [
+    {
+     "nome": "Commodore 64",
+     "tipo": "Hardware",
+     "aliases": [
+      "C64"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Commodore International",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Commodore"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Ultimax",
+     "tipo": "Hardware",
+     "aliases": [
+      "Commodore MAX Machine",
+      "MAX Machine",
+      "VC-10"
+     ],
+     "descricao": "Console de jogos da Commodore.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Commodore International",
+     "tipo": "DESENVOLVEU",
+     "destino": "Ultimax",
+     "propriedades": {
+      "ano": 1982
+     },
+     "evidencia": "Em 1982, a Commodore lançou em território japonês o MAX Machine",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "343995_5",
+   "entidades": [
+    {
+     "nome": "Commodore 64",
+     "tipo": "Hardware",
+     "aliases": [
+      "C64"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Commodore International",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Commodore"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Educator 64",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Commodore International",
+     "tipo": "DESENVOLVEU",
+     "destino": "Educator 64",
+     "propriedades": {
+      "ano": 1983
+     },
+     "evidencia": "Em 1983, a empresa lançou o Educator 64 com o intuito de competir com o Apple II",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "343995_6",
+   "entidades": [
+    {
+     "nome": "Commodore 64",
+     "tipo": "Hardware",
+     "aliases": [
+      "C64"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "SX-64",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Versão portátil do C64, primeiro computador portátil colorido.",
+     "propriedades": {
+      "ano": 1983,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Commodore 1541",
+     "tipo": "Hardware",
+     "aliases": [
+      "1541"
+     ],
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "SX-64",
+     "tipo": "UTILIZA",
+     "destino": "Commodore 1541",
+     "propriedades": {},
+     "evidencia": "uma unidade de disquete 1541 integrada",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "343995_7",
+   "entidades": [
+    {
+     "nome": "Commodore 64",
+     "tipo": "Hardware",
+     "aliases": [
+      "C64"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Commodore International",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Commodore"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Fred Bowen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bil Herd",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Commodore 128",
+     "tipo": "Hardware",
+     "aliases": [
+      "Commodore 128D"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Commodore Plus/4",
+     "tipo": "Hardware",
+     "aliases": [
+      "Plus/4"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Commodore 128",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Commodore 64",
+     "propriedades": {},
+     "evidencia": "eventuais sucessores do C64, os computadores Commodore 128 e 128D",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Fred Bowen",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Commodore International",
+     "propriedades": {
+      "cargo": "projetista"
+     },
+     "evidencia": "Fred Bowen e Bil Herd, projetistas da empresa",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Bil Herd",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Commodore International",
+     "propriedades": {
+      "cargo": "projetista"
+     },
+     "evidencia": "Fred Bowen e Bil Herd, projetistas da empresa",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "343995_8",
+   "entidades": [
+    {
+     "nome": "Commodore 64",
+     "tipo": "Hardware",
+     "aliases": [
+      "C64"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Commodore International",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Commodore"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Commodore 128",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "64C",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1986,
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Commodore International",
+     "tipo": "DESENVOLVEU",
+     "destino": "64C",
+     "propriedades": {
+      "ano": 1986
+     },
+     "evidencia": "Em 1986, a empresa lançou o computador 64C",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "343995_9",
+   "entidades": [
+    {
+     "nome": "Commodore 64",
+     "tipo": "Hardware",
+     "aliases": [
+      "C64"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "343995_10",
+   "entidades": [
+    {
+     "nome": "Commodore 64",
+     "tipo": "Hardware",
+     "aliases": [
+      "C64"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Atari 810",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

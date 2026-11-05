@@ -1,0 +1,1012 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:22:09+00:00",
+ "chunks": [
+  {
+   "chunk_id": "157830_0",
+   "entidades": [
+    {
+     "nome": "Multics",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Multiplexed Information and Computing Service"
+     ],
+     "descricao": "Um dos primeiros sistemas operacionais de tempo compartilhado, baseado em memória de nível único.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "General Electric",
+     "tipo": "Organizacao",
+     "aliases": [
+      "GE"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Honeywell",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Fernando Corbató",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "GE-645",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Computador projetado especialmente para o Multics.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "GE-635",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Dartmouth Time-Sharing System",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Cambridge (Massachusetts)",
+     "tipo": "Local",
+     "aliases": [
+      "Cambridge, Massachusetts"
+     ],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Multics",
+     "tipo": "EXECUTA_EM",
+     "destino": "GE-645",
+     "propriedades": {},
+     "evidencia": "O sistema foi desenvolvido no computador GE-645, projetado especialmente para ele.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "DESENVOLVEU",
+     "destino": "Multics",
+     "propriedades": {
+      "ano": 1964
+     },
+     "evidencia": "O projeto reunia o MIT, que o liderava por meio do Projeto MAC, com Fernando Corbató, a General Electric e os Bell Labs.",
+     "confianca": 0.8
+    },
+    {
+     "origem": "General Electric",
+     "tipo": "DESENVOLVEU",
+     "destino": "Multics",
+     "propriedades": {},
+     "evidencia": "O projeto reunia o MIT, que o liderava por meio do Projeto MAC, com Fernando Corbató, a General Electric e os Bell Labs.",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Bell Labs",
+     "tipo": "DESENVOLVEU",
+     "destino": "Multics",
+     "propriedades": {},
+     "evidencia": "O projeto reunia o MIT, que o liderava por meio do Projeto MAC, com Fernando Corbató, a General Electric e os Bell Labs.",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "157830_1",
+   "entidades": [
+    {
+     "nome": "Multics",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "PDP-7",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bell Labs",
+     "tipo": "DESENVOLVEU",
+     "destino": "Unix",
+     "propriedades": {},
+     "evidencia": "O Unix foi desenvolvido nos Bell Labs",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Unix",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-7",
+     "propriedades": {},
+     "evidencia": "O Unix foi desenvolvido nos Bell Labs para que a equipe que havia trabalhado no Multics pudesse prosseguir com suas pesquisas em máquinas menores, primeiro um PDP-7 e depois um PDP-11",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Unix",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-11",
+     "propriedades": {},
+     "evidencia": "O Unix foi desenvolvido nos Bell Labs para que a equipe que havia trabalhado no Multics pudesse prosseguir com suas pesquisas em máquinas menores, primeiro um PDP-7 e depois um PDP-11",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "157830_2",
+   "entidades": [
+    {
+     "nome": "Multics",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "PDP-7",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bell Labs",
+     "tipo": "DESENVOLVEU",
+     "destino": "Unix",
+     "propriedades": {},
+     "evidencia": "O Unix foi desenvolvido nos Bell Labs",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Unix",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-7",
+     "propriedades": {},
+     "evidencia": "O Unix foi desenvolvido nos Bell Labs para que a equipe que havia trabalhado no Multics pudesse prosseguir com suas pesquisas em máquinas menores, primeiro um PDP-7 e depois um PDP-11",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Unix",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-11",
+     "propriedades": {},
+     "evidencia": "O Unix foi desenvolvido nos Bell Labs para que a equipe que havia trabalhado no Multics pudesse prosseguir com suas pesquisas em máquinas menores, primeiro um PDP-7 e depois um PDP-11",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "157830_3",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "157830_4",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "157830_5",
+   "entidades": [
+    {
+     "nome": "Multics",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "PL/I",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Burroughs MCP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "ESPOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Versão ampliada de ALGOL.",
+     "propriedades": {}
+    },
+    {
+     "nome": "ALGOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Multics",
+     "tipo": "ESCRITO_EM",
+     "destino": "PL/I",
+     "propriedades": {},
+     "evidencia": "Foi ainda um dos primeiros sistemas operacionais escritos em linguagem de alto nível, o PL/I do Multics",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Burroughs MCP",
+     "tipo": "ESCRITO_EM",
+     "destino": "ESPOL",
+     "propriedades": {},
+     "evidencia": "Burroughs MCP, escrito em ESPOL, uma versão ampliada de ALGOL",
+     "confianca": 0.9
+    },
+    {
+     "origem": "ESPOL",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "ALGOL",
+     "propriedades": {},
+     "evidencia": "ESPOL, uma versão ampliada de ALGOL",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "157830_6",
+   "entidades": [
+    {
+     "nome": "Multics",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "PL/I",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Burroughs MCP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "ESPOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ALGOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Morrie Gasser",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "MITRE Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MITRE"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Multics",
+     "tipo": "ESCRITO_EM",
+     "destino": "PL/I",
+     "propriedades": {},
+     "evidencia": "Foi ainda um dos primeiros sistemas operacionais escritos em linguagem de alto nível, o PL/I do Multics",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Burroughs MCP",
+     "tipo": "ESCRITO_EM",
+     "destino": "ESPOL",
+     "propriedades": {},
+     "evidencia": "Burroughs MCP, escrito em ESPOL, uma versão ampliada de ALGOL",
+     "confianca": 0.9
+    },
+    {
+     "origem": "ESPOL",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "ALGOL",
+     "propriedades": {},
+     "evidencia": "ESPOL, uma versão ampliada de ALGOL",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Morrie Gasser",
+     "tipo": "TRABALHOU_EM",
+     "destino": "MITRE Corporation",
+     "propriedades": {},
+     "evidencia": "Morrie Gasser, da MITRE Corporation, desenvolveu um gerador de palavras aleatórias pronunciáveis",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "157830_7",
+   "entidades": [
+    {
+     "nome": "Multics",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "GE-645",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Honeywell 6180",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Honeywell",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "General Electric",
+     "tipo": "Organizacao",
+     "aliases": [
+      "GE"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Multics",
+     "tipo": "EXECUTA_EM",
+     "destino": "GE-645",
+     "propriedades": {},
+     "evidencia": "O desenvolvimento do Multics começou em 1964, para o mainframe GE-645",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Multics",
+     "tipo": "EXECUTA_EM",
+     "destino": "Honeywell 6180",
+     "propriedades": {},
+     "evidencia": "Por volta de 1973, o sistema passou a funcionar nos computadores Honeywell 6180",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "157830_8",
+   "entidades": [
+    {
+     "nome": "Multics",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Honeywell",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "157830_9",
+   "entidades": [
+    {
+     "nome": "Multics",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Honeywell",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Honeywell",
+     "tipo": "DESENVOLVEU",
+     "destino": "Multics",
+     "propriedades": {},
+     "evidencia": "A Honeywell manteve o desenvolvimento do sistema até 1985.",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "157830_10",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "157830_11",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "157830_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "157830_13",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "157830_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "157830_15",
+   "entidades": [
+    {
+     "nome": "Dick Hill",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Honeywell",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Honeywell Information Systems"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Dick Hill",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Honeywell",
+     "propriedades": {
+      "cargo": "gerente do programa Multics"
+     },
+     "evidencia": "Dick Hill, que foi gerente do programa Multics na Honeywell",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "157830_16",
+   "entidades": [
+    {
+     "nome": "Multics",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Thompson"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ritchie"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Ken Thompson",
+     "tipo": "CRIOU",
+     "destino": "Unix",
+     "propriedades": {},
+     "evidencia": "influenciaram o Unix, criado por dois programadores que haviam trabalhado no sistema, Ken Thompson e Dennis Ritchie",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "CRIOU",
+     "destino": "Unix",
+     "propriedades": {},
+     "evidencia": "influenciaram o Unix, criado por dois programadores que haviam trabalhado no sistema, Ken Thompson e Dennis Ritchie",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "157830_17",
+   "entidades": [
+    {
+     "nome": "Multics",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "CTSS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema do MIT, antecessor imediato do Multics.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Thompson"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ritchie"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Multics",
+     "tipo": "SUCESSOR_DE",
+     "destino": "CTSS",
+     "propriedades": {},
+     "evidencia": "CTSS do MIT, antecessor imediato do Multics",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "157830_18",
+   "entidades": [
+    {
+     "nome": "Multics",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "William Poduska",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Poduska"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prime Computer",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Apollo Computer",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PRIMOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "AEGIS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Domain/OS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Stratus VOS",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "VOS"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Stratus Computer",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Stratus Technologies"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "MCTS",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Multiple Console Time Sharing System"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "General Motors",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "STAR-100",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Control Data Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "VME",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "International Computers Limited",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ICL"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "William Poduska",
+     "tipo": "FUNDOU",
+     "destino": "Prime Computer",
+     "propriedades": {},
+     "evidencia": "William Poduska, um dos fundadores da Prime Computer",
+     "confianca": 0.95
+    },
+    {
+     "origem": "William Poduska",
+     "tipo": "FUNDOU",
+     "destino": "Apollo Computer",
+     "propriedades": {},
+     "evidencia": "Poduska depois fundou a Apollo Computer",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Prime Computer",
+     "tipo": "DESENVOLVEU",
+     "destino": "PRIMOS",
+     "propriedades": {},
+     "evidencia": "o sistema operacional PRIMOS da empresa",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Apollo Computer",
+     "tipo": "DESENVOLVEU",
+     "destino": "AEGIS",
+     "propriedades": {},
+     "evidencia": "Seus sistemas AEGIS e Domain/OS",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Apollo Computer",
+     "tipo": "DESENVOLVEU",
+     "destino": "Domain/OS",
+     "propriedades": {},
+     "evidencia": "Seus sistemas AEGIS e Domain/OS",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Stratus Computer",
+     "tipo": "DESENVOLVEU",
+     "destino": "Stratus VOS",
+     "propriedades": {},
+     "evidencia": "O Stratus VOS, da Stratus Computer",
+     "confianca": 0.8
+    },
+    {
+     "origem": "General Motors",
+     "tipo": "DESENVOLVEU",
+     "destino": "MCTS",
+     "propriedades": {},
+     "evidencia": "desenvolvido pela General Motors para o computador STAR-100 da Control Data Corporation",
+     "confianca": 0.8
+    },
+    {
+     "origem": "MCTS",
+     "tipo": "EXECUTA_EM",
+     "destino": "STAR-100",
+     "propriedades": {},
+     "evidencia": "desenvolvido pela General Motors para o computador STAR-100 da Control Data Corporation",
+     "confianca": 0.7
+    },
+    {
+     "origem": "International Computers Limited",
+     "tipo": "DESENVOLVEU",
+     "destino": "VME",
+     "propriedades": {},
+     "evidencia": "dos mecanismos de segurança do VME, da International Computers Limited",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "157830_19",
+   "entidades": [
+    {
+     "nome": "Multics",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "EMAS",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Edinburgh Multiple Access System"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

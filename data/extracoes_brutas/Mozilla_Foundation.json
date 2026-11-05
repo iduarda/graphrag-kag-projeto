@@ -1,0 +1,46 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:25:22+00:00",
+ "chunks": [
+  {
+   "chunk_id": "92162_0",
+   "entidades": [
+    {
+     "nome": "Mozilla Foundation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Fundação Mozilla"
+     ],
+     "descricao": "Organização sem fins lucrativos que mantém o software e os projetos Open Source da linha Mozilla.",
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    },
+    {
+     "nome": "Mountain View",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Califórnia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Mozilla Foundation",
+     "tipo": "SEDIADA_EM",
+     "destino": "Mountain View",
+     "propriedades": {},
+     "evidencia": "A sede se localiza em Mountain View, na Califórnia",
+     "confianca": 0.95
+    }
+   ]
+  }
+ ]
+}

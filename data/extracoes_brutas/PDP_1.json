@@ -1,0 +1,371 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:26:13+00:00",
+ "chunks": [
+  {
+   "chunk_id": "7536856_0",
+   "entidades": [
+    {
+     "nome": "PDP-1",
+     "tipo": "Hardware",
+     "aliases": [
+      "Programmed Data Processor-1"
+     ],
+     "descricao": "Primeiro computador da série PDP da Digital Equipment Corporation, importante na criação da cultura hacker no MIT.",
+     "propriedades": {
+      "ano": 1959,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Bolt, Beranek e Newman",
+     "tipo": "Organizacao",
+     "aliases": [
+      "BBN"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Russell",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "PDP-1",
+     "propriedades": {
+      "ano": 1959
+     },
+     "evidencia": "O PDP-1 ( Programmed Data Processor-1 ) é o primeiro computador da série PDP da Digital Equipment Corporation e foi produzido pela primeira vez em 1959",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "7536856_1",
+   "entidades": [
+    {
+     "nome": "PDP-1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7536856_2",
+   "entidades": [
+    {
+     "nome": "PDP-1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7536856_3",
+   "entidades": [
+    {
+     "nome": "PDP-1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "TX-0",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "TX-2",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Benjamin Gurley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ben Gurley"
+     ],
+     "descricao": "Engenheiro-chefe do projeto do PDP-1.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bolt, Beranek e Newman",
+     "tipo": "Organizacao",
+     "aliases": [
+      "BBN"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Laboratório Lincoln",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "BBN Time-Sharing System",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "ARPANET",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Benjamin Gurley",
+     "tipo": "CRIOU",
+     "destino": "PDP-1",
+     "propriedades": {},
+     "evidencia": "Benjamin Gurley foi o engenheiro-chefe do projeto",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "7536856_4",
+   "entidades": [
+    {
+     "nome": "TX-0",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "TX-2",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "PDP-1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Benjamin Gurley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ben Gurley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Gordon Bell",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jack Dennis",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bolt, Beranek e Newman",
+     "tipo": "Organizacao",
+     "aliases": [
+      "BBN"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "TX-2",
+     "tipo": "SUCESSOR_DE",
+     "destino": "TX-0",
+     "propriedades": {},
+     "evidencia": "TX-2, o sucessor do TX-0",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Benjamin Gurley",
+     "tipo": "CRIOU",
+     "destino": "PDP-1",
+     "propriedades": {},
+     "evidencia": "o design de Ben Gurley para o PDP-1",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "7536856_5",
+   "entidades": [
+    {
+     "nome": "PDP-1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7536856_6",
+   "entidades": [
+    {
+     "nome": "PDP-1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7536856_7",
+   "entidades": [
+    {
+     "nome": "PDP-1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Soroban Engineering",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7536856_8",
+   "entidades": [
+    {
+     "nome": "PDP-1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7536856_9",
+   "entidades": [
+    {
+     "nome": "PDP-1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7536856_10",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7536856_11",
+   "entidades": [
+    {
+     "nome": "Peter Samson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "PDP-1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7536856_12",
+   "entidades": [
+    {
+     "nome": "PDP-1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

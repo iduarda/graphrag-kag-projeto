@@ -1,0 +1,700 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 8104,
+    "titulo": "Claude Shannon",
+    "url": "https://pt.wikipedia.org/wiki/Claude_Shannon",
+    "categoria": "Pessoa",
+    "wikidata_id": "Q92760"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:26:13+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "pessoa:claude_shannon",
+  "chunks": [
+    {
+      "id": "8104_0",
+      "ordem": 0,
+      "texto": "Claude Elwood Shannon (30 de abril de 1916 — 24 de fevereiro de 2001) foi um matemático, engenheiro eletrônico e criptógrafo estadunidense, conhecido como \"o pai da teoria da informação\".\nDe 1932 a 1936, estudou matemática e engenharia elétrica na Universidade de Michigan.\nEm 1948, publicou o importante artigo científico intitulado A Mathematical Theory of Communication enfocando o problema de qual é a melhor forma para codificar a informação que um emissor queira transmitir para um receptor. Neste artigo, trabalhando inclusive com as ferramentas teóricas utilizadas por Norbert Wiener, Claude Shannon propôs com sucesso uma medida de informação própria para medir incerteza sobre espaços desordenados (mais tarde complementada por Ronald Fisher, que criou uma medida alternativa de informação apropriada para medir incerteza sobre espaços ordenados).\nEm 1949, em coautoria com o também matemático estadunidense Warren Weaver (1894-1978), publicou o livro Teoria Matemática da Comunicação (The Mathematical Theory of Communication), contendo reimpressões do seu artigo científico de 1948 de forma acessível também a não-especialistas - isto popularizou seus conceitos."
+    },
+    {
+      "id": "8104_1",
+      "ordem": 1,
+      "texto": "Entre 1946 e 1953, Claude Shannon integrou temporariamente o grupo reunido sob o nome de Macy Conferences, contribuindo para a consolidação da teoria cibernética junto com outros cientistas renomados: Arturo Rosenblueth, Gregory Bateson, Heinz von Foerster, John von Neumann, Julian Bigelow, Kurt Lewin, Lawrence Kubie, Lawrence K. Frank, Leonard Jimmie Savage, Margaret Mead, Molly Harrower, Norbert Wiener, Paul Lazarsfeld, Ralph Waldo Gerard , Walter Pitts, Warren McCulloch e William Ross Ashby; além de Erik Erikson e Max Delbrück.\nShannon é famoso por ter fundado a teoria da informação com um artigo publicado em 1948. Mas a ele também é creditada a fundação tanto do computador digital quanto do projeto de circuito digital em 1937, quando, com 21 anos de idade e mestrando no  MIT, escreveu uma tese demonstrando que uma aplicação elétrica utilizando álgebra booleana poderia resolver qualquer problema de lógica. Tem-se dito que  foi a tese de mestrado de mais importância de todos os tempos. Shannon contribuiu para o campo da criptoanálise durante a Segunda Guerra Mundial."
+    },
+    {
+      "id": "8104_2",
+      "ordem": 2,
+      "texto": "Shannon contribuiu para o campo da criptoanálise durante a Segunda Guerra Mundial.\nBiografia: Shannon nasceu em Petoskey, Michigan. Seu pai, Claude Sr (1862–1934), um descendente dos primeiros colonos de Nova Jérsia, foi um empresário bem-sucedido e foi juiz por um certo tempo. Sua mãe, Mabel Wolf Shannon (1890–1945), filha de imigrantes alemães, era uma professora de línguas. Os primeiros 16 anos de Shannon foram em Gaylord, Michigan, onde ele frequentou o ensino público, graduando-se no Gaylord High School em 1932. Shannon mostrou uma inclinação para coisas mecânicas, seus melhores talentos eram para a ciência e matemática. Em casa construiu dispositivos tais como modelos de aviões, um modelo de um barco controlado por rádio e um sistema de telégrafo. Enquanto crescia, trabalhava como mensageiro da Western Union. Seu herói de infância era Thomas Edison, que descobriu depois ser um primo distante. Ambos eram descendentes de John Ogden, um líder colonial e um ancestral de muitas pessoas ilustres."
+    },
+    {
+      "id": "8104_3",
+      "ordem": 3,
+      "texto": "Ambos eram descendentes de John Ogden, um líder colonial e um ancestral de muitas pessoas ilustres.\nTeoria booleana: Em 1932 Shannon começou a cursar a Universidade de Michigan, formando em 1936 com duas graduações de bacharelado em engenharia elétrica e matemática. Posteriormente, começou seus estudos de pós-graduação no Instituto de Tecnologia de Massachusetts (MIT), onde trabalhou com o analisador diferencial de Vannevar Bush, um computador lógico.\nAo estudar os complexos circuitos ad hoc do analisador diferencial, Shannon viu que os conceitos de George Boole, inventor da álgebra booleana, poderiam ser úteis para várias coisas. Um documento elaborado a partir da sua tese de mestrado em 1937, A Symbolic Analysis of Relay and Switching Circuits, foi publicado na edição de 1938 da Transactions of the American Institute of Electrical Engineers. Howard Gardner, da universidade de Harvard, chamou a tese de Shannon como \"possivelmente a mais importante e também a mais famosa tese de mestrado do século\"."
+    },
+    {
+      "id": "8104_4",
+      "ordem": 4,
+      "texto": "Howard Gardner, da universidade de Harvard, chamou a tese de Shannon como \"possivelmente a mais importante e também a mais famosa tese de mestrado do século\".\nNeste trabalho, Shannon provou que a álgebra booleana e a aritmética binária poderiam ser utilizadas para simplificar o arranjo dos relés eletromecânicos e então utilizados em comutadores para roteamento telefônico. Expandindo o conceito ele também mostrou que deveria ser possível a utilização de arranjos de relés para resolver problemas de álgebra booleana. A exploração dessa propriedade de interruptores elétricos criou a lógica e os conceitos mais básicos dos computadores digitais. O trabalho de Shannon tornou-se o principal na área de circuitos digitais quando se tornou amplamente conhecido entre a comunidade de engenharia elétrica durante e após a segunda guerra mundial. O trabalho teórico rigoroso de Shannon substituiu completamente os métodos ad hoc que haviam prevalecido anteriormente.\nEm 1940, Shannon se tornou pesquisador do Instituto nacional de Estudos Avançados em Princeton, Nova Jérsia. Em Princeton, Shannon teve a oportunidade de discutir suas ideias com cientistas e matemáticos influentes como Hermann Weyl e John von Neumann, além de um encontro ocasional com Albert Einstein. Shannon trabalhou livremente em todas as áreas, e começou a moldar as ideias que se tornariam a teoria da informação."
+    },
+    {
+      "id": "8104_5",
+      "ordem": 5,
+      "texto": "Shannon trabalhou livremente em todas as áreas, e começou a moldar as ideias que se tornariam a teoria da informação.\nPesquisa em tempo de guerra: Shannon em seguida juntou-se à Bell Labs para trabalhar em sistemas de controle de fogo e criptografia durante a Segunda Guerra Mundial, sob um contrato com a seção D-2 (Seção de Controle de Sistemas) do Comitê Nacional de Pesquisa em Defesa.\nConheceu sua esposa quando era um analista numérico na Bell Labs. Casaram-se em 1949."
+    },
+    {
+      "id": "8104_6",
+      "ordem": 6,
+      "texto": "Casaram-se em 1949.\nDurante dois meses no início de 1943, Shannon entrou em contato como o criptoanalista líder e matemático britânico Alan Turing. Turing havia sido enviado para Washington para compartilhar com o serviço de criptoanálise da marinha dos EUA os métodos utilizados pela escola de códigos e cifras do governo britânico em Bletchley Park para quebrar as cifras utilizadas pelos submarinos alemães no Atlântico Norte. Ele também ficou interessado em cifragem de fala e para isso ficou um tempo no Bell Labs. Shannon e Turing se encontraram na hora do lanche em uma cafeteria  e Turing mostrou a Shannon seu artigo que definiu o que hoje é conhecido como a \"Máquina Universal de Turing\". Em 1945, quando a guerra estava chegando ao fim, O NDRC estava emitindo um resumo dos relatórios técnicos como sua última atividade antes de seu eventual fechamento. Dentro do volume de controle de fogo um documento especial intitulado \"Suavização de Dados e Previsão em Sistemas de Controle de Fogo\", coautoria de Shannon, Ralph Beebe Blackman, e Hendrik Wade Bode, formalmente tratava do problema de suavização dos dados no controle de incêndio por analogia com \"o problema de separar um sinal de um ruído interferindo no sistema de comunicação\". Em outras palavras foi modelado o problema em termos de dados e processamento de sinal, e assim se anunciava o início da era da informação."
+    },
+    {
+      "id": "8104_7",
+      "ordem": 7,
+      "texto": "Em outras palavras foi modelado o problema em termos de dados e processamento de sinal, e assim se anunciava o início da era da informação.\nSeu trabalho em criptografia foi mais estreitamente relacionado com suas publicações posteriores sobre a teoria da informação. No final da guerra, ele preparou um memorando para a Bell Telephone Labs intitulado \"Uma Teoria Matemática da Criptografia,\" datada de setembro de 1945. Uma versão desclassificada deste trabalho foi posteriormente publicada em 1949 como \"Teoria da Comunicação de Sistemas Secretos\" no Bell System Technical Journal. Este trabalho incorporou muitos dos conceitos e formulações matemáticas que também apareceram em seu \"Uma Teoria Matemática da Comunicação\". Shannon disse que suas ideias em teoria da comunicação e criptografia durante a guerra haviam sido desenvolvidas simultaneamente e \" elas estavam tão juntas que você não podia separá-las\". Em nota de rodapé perto do início do relatório classificado, Shannon anunciou sua intenção de \"desenvolver estes estudos... em um memorando sobre a transmissão de informações\".\nEnquanto na Bell Labs, ele provou que a one-time pad era inquebrável em sua pesquisa que mais tarde foi publicada em outubro de 1949. Ele também provou que qualquer sistema inquebrável deve ter essencialmente as mesmas características do one-time pad: A chave deve ser verdadeiramente aleatória, tão grande quanto o texto original, nunca reutilizada e mantida em segredo."
+    },
+    {
+      "id": "8104_8",
+      "ordem": 8,
+      "texto": "Ele também provou que qualquer sistema inquebrável deve ter essencialmente as mesmas características do one-time pad: A chave deve ser verdadeiramente aleatória, tão grande quanto o texto original, nunca reutilizada e mantida em segredo.\nContribuições pós-guerra: Em 1948, o memorando prometido apareceu como \"A Mathematical Theory of Communication\", um artigo com duas partes nas edições de julho e outubro do Bell System Technical Journal. Este trabalho enfoca no problema da melhor forma de codificar uma informação que um remetente deseja transmitir. Neste trabalho fundamental ele usou ferramentas da teoria da probabilidade, desenvolvidas por Norbert Wiener, que estavam em seus estágios iniciais de serem aplicadas a teoria das comunicações na época. Shannon desenvolveu a entropia da informação como uma medida de incerteza em uma mensagem.\nContribuição fundamental da teoria da informação para processamento de linguagem natural e linguística computacional foi ainda estabelecida em 1951, em seu artigo \"Previsão e Entropia de Impresso Inglês\", mostrando limites superior e inferior da entropia nas estatísticas de Inglês - dando uma base estatística para análise da linguagem."
+    },
+    {
+      "id": "8104_9",
+      "ordem": 9,
+      "texto": "Outro papel notável publicado em 1949 é a \"Communication Theory of Secrecy Systems\", uma versão desclassificada do seu trabalho em tempo de guerra sobre a teoria matemática de criptografia, no qual ele provou que todas as cifras teoricamente inquebráveis devem ter os mesmos requisitos que a one-time pad. A ele também é creditado a introdução da teoria da amostragem, que se preocupa com o que representa um sinal de tempo contínuo a partir de um conjunto (uniforme) discreto de amostras. Essa teoria foi essencial para permitir a passagem das telecomunicações dos sistemas analógicos para sistemas digitais no ano de 1960 e posteriores."
+    },
+    {
+      "id": "8104_10",
+      "ordem": 10,
+      "texto": "Essa teoria foi essencial para permitir a passagem das telecomunicações dos sistemas analógicos para sistemas digitais no ano de 1960 e posteriores.\nHobbies e Invenções: Fora de suas pesquisas acadêmicas, Shannon estava interessado em malabarismo, monociclos e xadrez. Inventou também diversos dispositivos. Um dos seus dispositivos mais engraçados era uma caixa mantida em sua mesa chamada de \"Máquina definitiva\", baseada em uma ideia de Marvin Minsky. Além disso, ele construiu um dispositivo que poderia resolver o Cubo de Rubik.\nTambém é considerado coinventor do primeiro computador portátil, juntamente com Edward O. Thorp. O dispositivo foi utilizado para melhorar as chances quando se joga roleta."
+    },
+    {
+      "id": "8104_11",
+      "ordem": 11,
+      "texto": "O dispositivo foi utilizado para melhorar as chances quando se joga roleta.\nLegado e homenagens: Shannon chegou ao MIT em 1956, para se juntar ao corpo docente e para realizar um trabalho no Laboratório de Pesquisa de Eletrônica (RLE). Ele continuou a servir no corpo docente do MIT até 1978. Para comemorar suas conquistas, houve celebrações de seu trabalho em 2001, e atualmente há seis estátuas de Shannon esculpido por Eugene L. Daub: um na Universidade de Michigan, uma no MIT no Laboratório de Sistemas de Informação e Decisão, um em Gaylord, Michigan, um na Universidade da Califórnia, San Diego, uma no Bell Labs, e outro no Labs Shannon AT&T. Após o rompimento na Bell, a parte do Bell Labs que ficou com a AT&T foi nomeado Shannon Labs em sua honra.\nDe acordo com Neil Sloane, a perspectiva introduzida por Shannon da teoria da comunicação (agora chamada de teoria da informação) é a base da revolução digital, e cada dispositivo que contém um microprocessador ou microcontrolador é um descendente conceitual da publicação de Shannon. \"... Ele é um dos grandes homens do século, sem ele, nenhuma das coisas que conhecemos hoje existiria. Toda a revolução digital começou com ele\".\nShannon desenvolveu a doença de Alzheimer, e passou seus últimos anos em um asilo de Massachusetts. Ele foi auxiliado por sua esposa, Mary Elizabeth Moore Shannon, o filho, Andrew Moore Shannon; a filha, Shannon Margarita, uma irmã, Catherine S. Kay e suas duas netas."
+    },
+    {
+      "id": "8104_12",
+      "ordem": 12,
+      "texto": "Kay e suas duas netas.\nPublicações selecionadas: Claude E. Shannon: A Symbolic Analysis of Relay and Switching Circuits, master's thesis, MIT, 1937.\nClaude E. Shannon: \"A Mathematical Theory of Communication\", Bell System Technical Journal, Vol. 27, pp. 379–423, 623–656, 1948 (abstract).\nClaude E. Shannon e Warren Weaver: The Mathematical Theory of Communication. The University of Illinois Press, Urbana, Illinois, 1949. ISBN 0-252-72548-4"
+    }
+  ],
+  "entidades": [
+    {
+      "id": "pessoa:claude_shannon",
+      "nome": "Claude Shannon",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Claude Elwood Shannon",
+        "Shannon",
+        "Claude E. Shannon"
+      ],
+      "descricao": "Matemático, engenheiro eletrônico e criptógrafo estadunidense, conhecido como o pai da teoria da informação.",
+      "propriedades": {
+        "ano_nascimento": 1916,
+        "ano_morte": 2001
+      },
+      "chunk_ids": [
+        "8104_0",
+        "8104_1",
+        "8104_2",
+        "8104_3",
+        "8104_4",
+        "8104_5",
+        "8104_6",
+        "8104_7",
+        "8104_8",
+        "8104_9",
+        "8104_10",
+        "8104_11",
+        "8104_12"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_de_michigan",
+      "nome": "Universidade de Michigan",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "8104_0",
+        "8104_3",
+        "8104_11"
+      ]
+    },
+    {
+      "id": "pessoa:warren_weaver",
+      "nome": "Warren Weaver",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "descricao": "Matemático estadunidense, coautor de Shannon.",
+      "propriedades": {
+        "ano_nascimento": 1894,
+        "ano_morte": 1978
+      },
+      "chunk_ids": [
+        "8104_0",
+        "8104_12"
+      ]
+    },
+    {
+      "id": "pessoa:norbert_wiener",
+      "nome": "Norbert Wiener",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "8104_0",
+        "8104_1",
+        "8104_8"
+      ]
+    },
+    {
+      "id": "pessoa:ronald_fisher",
+      "nome": "Ronald Fisher",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "8104_0"
+      ]
+    },
+    {
+      "id": "tecnologia:teoria_da_informacao",
+      "nome": "Teoria da informação",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "propriedades": {
+        "ano": 1948,
+        "tipo": "conceito"
+      },
+      "chunk_ids": [
+        "8104_1"
+      ]
+    },
+    {
+      "id": "pessoa:john_von_neumann",
+      "nome": "John von Neumann",
+      "tipo": "Pessoa",
+      "aliases": [
+        "von Neumann",
+        "Neumann János"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "8104_1",
+        "8104_4"
+      ]
+    },
+    {
+      "id": "organizacao:instituto_de_tecnologia_de_massachusetts",
+      "nome": "Instituto de Tecnologia de Massachusetts",
+      "tipo": "Organizacao",
+      "aliases": [
+        "MIT",
+        "Massachusetts Institute of Technology"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "8104_1",
+        "8104_3",
+        "8104_11"
+      ]
+    },
+    {
+      "id": "local:petoskey",
+      "nome": "Petoskey",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "8104_2"
+      ]
+    },
+    {
+      "id": "organizacao:western_union",
+      "nome": "Western Union",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "8104_2"
+      ]
+    },
+    {
+      "id": "pessoa:thomas_edison",
+      "nome": "Thomas Edison",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "8104_2"
+      ]
+    },
+    {
+      "id": "pessoa:vannevar_bush",
+      "nome": "Vannevar Bush",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "8104_3"
+      ]
+    },
+    {
+      "id": "pessoa:george_boole",
+      "nome": "George Boole",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "8104_3"
+      ]
+    },
+    {
+      "id": "pessoa:howard_gardner",
+      "nome": "Howard Gardner",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "8104_3"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_harvard",
+      "nome": "Universidade Harvard",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Universidade de Harvard",
+        "Harvard University",
+        "Harvard"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "8104_3"
+      ]
+    },
+    {
+      "id": "organizacao:instituto_de_estudos_avancados",
+      "nome": "Instituto de Estudos Avançados",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Instituto nacional de Estudos Avançados"
+      ],
+      "descricao": "Instituto em Princeton, Nova Jérsia.",
+      "propriedades": {
+        "tipo": "laboratorio"
+      },
+      "chunk_ids": [
+        "8104_4"
+      ]
+    },
+    {
+      "id": "local:nova_jersia",
+      "nome": "Nova Jérsia",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "8104_4"
+      ]
+    },
+    {
+      "id": "pessoa:hermann_weyl",
+      "nome": "Hermann Weyl",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "8104_4"
+      ]
+    },
+    {
+      "id": "pessoa:albert_einstein",
+      "nome": "Albert Einstein",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "8104_4"
+      ]
+    },
+    {
+      "id": "organizacao:bell_labs",
+      "nome": "Bell Labs",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Laboratórios Bell",
+        "Bell Laboratories",
+        "Nokia Bell Labs",
+        "Bell Telephone Laboratories",
+        "AT&T Bell Laboratories",
+        "Bell Telephone Labs"
+      ],
+      "propriedades": {
+        "tipo": "laboratorio"
+      },
+      "chunk_ids": [
+        "8104_5",
+        "8104_6",
+        "8104_7",
+        "8104_11"
+      ]
+    },
+    {
+      "id": "pessoa:alan_turing",
+      "nome": "Alan Turing",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Alan Mathison Turing",
+        "Turing"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "8104_6"
+      ]
+    },
+    {
+      "id": "organizacao:bletchley_park",
+      "nome": "Bletchley Park",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Station X"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "8104_6"
+      ]
+    },
+    {
+      "id": "tecnologia:maquina_de_turing",
+      "nome": "Máquina de Turing",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "máquina universal de Turing"
+      ],
+      "propriedades": {
+        "tipo": "conceito"
+      },
+      "chunk_ids": [
+        "8104_6"
+      ]
+    },
+    {
+      "id": "pessoa:ralph_beebe_blackman",
+      "nome": "Ralph Beebe Blackman",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "8104_6"
+      ]
+    },
+    {
+      "id": "pessoa:hendrik_wade_bode",
+      "nome": "Hendrik Wade Bode",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "8104_6"
+      ]
+    },
+    {
+      "id": "tecnologia:entropia_da_informacao",
+      "nome": "Entropia da informação",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "descricao": "Medida de incerteza em uma mensagem.",
+      "propriedades": {
+        "tipo": "conceito"
+      },
+      "chunk_ids": [
+        "8104_8"
+      ]
+    },
+    {
+      "id": "tecnologia:teoria_da_amostragem",
+      "nome": "Teoria da amostragem",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "descricao": "Teoria que trata da representação de um sinal de tempo contínuo a partir de um conjunto discreto de amostras.",
+      "propriedades": {
+        "tipo": "conceito"
+      },
+      "chunk_ids": [
+        "8104_9"
+      ]
+    },
+    {
+      "id": "pessoa:marvin_minsky",
+      "nome": "Marvin Minsky",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "8104_10"
+      ]
+    },
+    {
+      "id": "pessoa:edward_o_thorp",
+      "nome": "Edward O. Thorp",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "8104_10"
+      ]
+    },
+    {
+      "id": "organizacao:at_t",
+      "nome": "AT&T",
+      "tipo": "Organizacao",
+      "aliases": [
+        "AT&T Inc.",
+        "American Telephone and Telegraph Company",
+        "American Telephone & Telegraph"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "8104_11"
+      ]
+    },
+    {
+      "id": "pessoa:neil_sloane",
+      "nome": "Neil Sloane",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "8104_11"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:claude_shannon",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:universidade_de_michigan",
+      "propriedades": {
+        "curso": "matemática e engenharia elétrica"
+      },
+      "chunk_id": "8104_0",
+      "evidencia": "De 1932 a 1936, estudou matemática e engenharia elétrica na Universidade de Michigan",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:claude_shannon",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:warren_weaver",
+      "propriedades": {
+        "contexto": "coautoria do livro Teoria Matemática da Comunicação, em 1949"
+      },
+      "chunk_id": "8104_0",
+      "evidencia": "Em 1949, em coautoria com o também matemático estadunidense Warren Weaver (1894-1978), publicou o livro Teoria Matemática da Comunicação",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:claude_shannon",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:teoria_da_informacao",
+      "propriedades": {
+        "ano": 1948
+      },
+      "chunk_id": "8104_1",
+      "evidencia": "Shannon é famoso por ter fundado a teoria da informação com um artigo publicado em 1948",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:claude_shannon",
+      "tipo": "NASCEU_EM",
+      "destino": "local:petoskey",
+      "propriedades": {},
+      "chunk_id": "8104_2",
+      "evidencia": "Shannon nasceu em Petoskey, Michigan",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:claude_shannon",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:western_union",
+      "propriedades": {
+        "cargo": "mensageiro"
+      },
+      "chunk_id": "8104_2",
+      "evidencia": "Enquanto crescia, trabalhava como mensageiro da Western Union",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:claude_shannon",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:universidade_de_michigan",
+      "propriedades": {
+        "curso": "engenharia elétrica e matemática"
+      },
+      "chunk_id": "8104_3",
+      "evidencia": "Em 1932 Shannon começou a cursar a Universidade de Michigan, formando em 1936 com duas graduações de bacharelado em engenharia elétrica e matemática",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:claude_shannon",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:instituto_de_tecnologia_de_massachusetts",
+      "propriedades": {
+        "curso": "pós-graduação"
+      },
+      "chunk_id": "8104_3",
+      "evidencia": "começou seus estudos de pós-graduação no Instituto de Tecnologia de Massachusetts (MIT)",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:howard_gardner",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:universidade_harvard",
+      "propriedades": {},
+      "chunk_id": "8104_3",
+      "evidencia": "Howard Gardner, da universidade de Harvard",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:claude_shannon",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:instituto_de_estudos_avancados",
+      "propriedades": {
+        "cargo": "pesquisador",
+        "ano_inicio": 1940
+      },
+      "chunk_id": "8104_4",
+      "evidencia": "Em 1940, Shannon se tornou pesquisador do Instituto nacional de Estudos Avançados em Princeton, Nova Jérsia",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:claude_shannon",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:john_von_neumann",
+      "propriedades": {
+        "contexto": "discussão de ideias em Princeton"
+      },
+      "chunk_id": "8104_4",
+      "evidencia": "Shannon teve a oportunidade de discutir suas ideias com cientistas e matemáticos influentes como Hermann Weyl e John von Neumann",
+      "confianca": 0.75
+    },
+    {
+      "origem": "pessoa:claude_shannon",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:bell_labs",
+      "propriedades": {},
+      "chunk_id": "8104_5",
+      "evidencia": "Shannon em seguida juntou-se à Bell Labs para trabalhar em sistemas de controle de fogo e criptografia durante a Segunda Guerra Mundial",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:alan_turing",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:claude_shannon",
+      "propriedades": {
+        "contexto": "contato e encontros no Bell Labs em 1943"
+      },
+      "chunk_id": "8104_6",
+      "evidencia": "Durante dois meses no início de 1943, Shannon entrou em contato como o criptoanalista líder e matemático britânico Alan Turing",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:alan_turing",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:bell_labs",
+      "propriedades": {},
+      "chunk_id": "8104_6",
+      "evidencia": "Ele também ficou interessado em cifragem de fala e para isso ficou um tempo no Bell Labs",
+      "confianca": 0.7
+    },
+    {
+      "origem": "pessoa:alan_turing",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:maquina_de_turing",
+      "propriedades": {},
+      "chunk_id": "8104_6",
+      "evidencia": "Turing mostrou a Shannon seu artigo que definiu o que hoje é conhecido como a \"Máquina Universal de Turing",
+      "confianca": 0.75
+    },
+    {
+      "origem": "pessoa:claude_shannon",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:ralph_beebe_blackman",
+      "propriedades": {
+        "contexto": "coautoria de documento sobre suavização de dados em controle de fogo"
+      },
+      "chunk_id": "8104_6",
+      "evidencia": "coautoria de Shannon, Ralph Beebe Blackman, e Hendrik Wade Bode",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:claude_shannon",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:hendrik_wade_bode",
+      "propriedades": {
+        "contexto": "coautoria de documento sobre suavização de dados em controle de fogo"
+      },
+      "chunk_id": "8104_6",
+      "evidencia": "coautoria de Shannon, Ralph Beebe Blackman, e Hendrik Wade Bode",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:claude_shannon",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:entropia_da_informacao",
+      "propriedades": {},
+      "chunk_id": "8104_8",
+      "evidencia": "Shannon desenvolveu a entropia da informação como uma medida de incerteza em uma mensagem",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:claude_shannon",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:teoria_da_amostragem",
+      "propriedades": {},
+      "chunk_id": "8104_9",
+      "evidencia": "A ele também é creditado a introdução da teoria da amostragem",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:claude_shannon",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:edward_o_thorp",
+      "propriedades": {
+        "contexto": "coinventores do primeiro computador portátil, usado para melhorar as chances na roleta"
+      },
+      "chunk_id": "8104_10",
+      "evidencia": "Também é considerado coinventor do primeiro computador portátil, juntamente com Edward O. Thorp",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:claude_shannon",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:instituto_de_tecnologia_de_massachusetts",
+      "propriedades": {
+        "cargo": "docente",
+        "ano_inicio": 1956,
+        "ano_fim": 1978
+      },
+      "chunk_id": "8104_11",
+      "evidencia": "Shannon chegou ao MIT em 1956, para se juntar ao corpo docente e para realizar um trabalho no Laboratório de Pesquisa de Eletrônica (RLE). Ele continuou a servir no corpo docente do MIT até 1978",
+      "confianca": 0.95
+    }
+  ]
+}

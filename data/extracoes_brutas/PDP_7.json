@@ -1,0 +1,85 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:25:22+00:00",
+ "chunks": [
+  {
+   "chunk_id": "8979_0",
+   "entidades": [
+    {
+     "nome": "PDP-7",
+     "tipo": "Hardware",
+     "aliases": [
+      "DEC PDP-7"
+     ],
+     "descricao": "Minicomputador de 18 bits, o primeiro a usar a tecnologia Flip Chip da DEC.",
+     "propriedades": {
+      "ano": 1965,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "UNIX",
+      "Unics"
+     ],
+     "descricao": "Primeiro sistema escrito em assembly num PDP-7, então chamado Unics.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Multics",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "PDP-7",
+     "propriedades": {},
+     "evidencia": "O DEC PDP-7 é um minicomputador produzido pela Digital Equipment Corporation",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "CRIOU",
+     "destino": "Unix",
+     "propriedades": {
+      "ano": 1969
+     },
+     "evidencia": "Em 1969, Ken Thompson escreveu o primeiro sistema UNIX em assembly num PDP-7",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Unix",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-7",
+     "propriedades": {},
+     "evidencia": "escreveu o primeiro sistema UNIX em assembly num PDP-7",
+     "confianca": 0.85
+    }
+   ]
+  }
+ ]
+}

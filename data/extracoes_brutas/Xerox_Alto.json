@@ -1,0 +1,266 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:22:28+00:00",
+ "chunks": [
+  {
+   "chunk_id": "712378_0",
+   "entidades": [
+    {
+     "nome": "Xerox Alto",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Microcomputador pioneiro desenvolvido no Xerox PARC, com interface gráfica e mouse de três botões.",
+     "propriedades": {
+      "ano": 1973,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Xerox PARC",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Setor de pesquisa da Xerox.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Xerox",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Xerox Corporation"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Interface gráfica do utilizador",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "GUI",
+      "interface gráfica de usuário"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Rato",
+     "tipo": "Hardware",
+     "aliases": [
+      "mouse"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Datapoint 2200",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Sistema anterior que também se encaixa no termo computador pessoal.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Xerox PARC",
+     "tipo": "DESENVOLVEU",
+     "destino": "Xerox Alto",
+     "propriedades": {
+      "ano": 1973
+     },
+     "evidencia": "desenvolvido no setor de pesquisa Xerox PARC, da empresa Xerox Corporation em 1973",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Xerox",
+     "tipo": "DESENVOLVEU",
+     "destino": "Xerox Alto",
+     "propriedades": {
+      "ano": 1973
+     },
+     "evidencia": "desenvolvido no setor de pesquisa Xerox PARC, da empresa Xerox Corporation em 1973",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "712378_1",
+   "entidades": [
+    {
+     "nome": "Xerox Alto",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Butler Lampson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Escreveu o memorando que idealizou o Alto.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Chuck Thacker",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Projetou principalmente o Alto.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Xerox",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "PLATO",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema educacional que teve grande influência sobre o Alto.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Universidade de Illinois",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Chuck Thacker",
+     "tipo": "CRIOU",
+     "destino": "Xerox Alto",
+     "propriedades": {},
+     "evidencia": "projetado principalmente por Chuck Thacker",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Butler Lampson",
+     "tipo": "CRIOU",
+     "destino": "Xerox Alto",
+     "propriedades": {},
+     "evidencia": "O Alto foi idealizado em 1972 num memorando escrito por Butler Lampson",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Universidade de Illinois",
+     "tipo": "DESENVOLVEU",
+     "destino": "PLATO",
+     "propriedades": {},
+     "evidencia": "sistema educacional PLATO desenvolvido no Education Research Laboratory na Universidade de Illinois",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "712378_2",
+   "entidades": [
+    {
+     "nome": "Xerox Alto",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ethernet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Rato",
+     "tipo": "Hardware",
+     "aliases": [
+      "mouse"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bill English",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Inventor dos mouses de bolinha.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "712378_3",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "712378_4",
+   "entidades": [
+    {
+     "nome": "Xerox Alto",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "BCPL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Mesa",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem usada no Alto, pouco utilizada fora do PARC.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Modula",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Smalltalk",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Modula",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Mesa",
+     "propriedades": {},
+     "evidencia": "Mesa, que não foi muito utilizada fora do PARC, mas, mais tarde,  influenciou várias outras linguagens, como por exemplo a Modula",
+     "confianca": 0.75
+    },
+    {
+     "origem": "BCPL",
+     "tipo": "EXECUTA_EM",
+     "destino": "Xerox Alto",
+     "propriedades": {},
+     "evidencia": "Inicialmente os programas para o Alto foram escritos na linguagem de programação BCPL",
+     "confianca": 0.65
+    },
+    {
+     "origem": "Mesa",
+     "tipo": "EXECUTA_EM",
+     "destino": "Xerox Alto",
+     "propriedades": {},
+     "evidencia": "posteriormente na linguagem Mesa",
+     "confianca": 0.65
+    },
+    {
+     "origem": "Smalltalk",
+     "tipo": "EXECUTA_EM",
+     "destino": "Xerox Alto",
+     "propriedades": {},
+     "evidencia": "as primeiras versões de ambiente Smalltalk",
+     "confianca": 0.6
+    }
+   ]
+  }
+ ]
+}

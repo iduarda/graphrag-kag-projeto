@@ -1,0 +1,205 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:25:21+00:00",
+ "chunks": [
+  {
+   "chunk_id": "128860_0",
+   "entidades": [
+    {
+     "nome": "John Bardeen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Físico estadunidense, único a receber duas vezes o Prêmio Nobel de Física.",
+     "propriedades": {
+      "ano_nascimento": 1908,
+      "ano_morte": 1991
+     }
+    },
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "William Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Walter Houser Brattain",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Walter Brattain"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "transistor"
+     ],
+     "descricao": "Invenção que revolucionou a indústria eletrônica.",
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Universidade de Princeton",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Universidade de Illinois",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Madison",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John Bardeen",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "primeiro em 1956 com William Shockley e Walter Brattain pela invenção do transistor",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John Bardeen",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1972
+     },
+     "evidencia": "novamente em 1972 com Leon N. Cooper e John Robert Schrieffer",
+     "confianca": 0.95
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "primeiro em 1956 com William Shockley e Walter Brattain pela invenção do transistor",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "primeiro em 1956 com William Shockley e Walter Brattain pela invenção do transistor",
+     "confianca": 0.9
+    },
+    {
+     "origem": "John Bardeen",
+     "tipo": "CRIOU",
+     "destino": "Transístor",
+     "propriedades": {},
+     "evidencia": "primeiro em 1956 com William Shockley e Walter Brattain pela invenção do transistor",
+     "confianca": 0.7
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "CRIOU",
+     "destino": "Transístor",
+     "propriedades": {},
+     "evidencia": "primeiro em 1956 com William Shockley e Walter Brattain pela invenção do transistor",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "CRIOU",
+     "destino": "Transístor",
+     "propriedades": {},
+     "evidencia": "primeiro em 1956 com William Shockley e Walter Brattain pela invenção do transistor",
+     "confianca": 0.7
+    },
+    {
+     "origem": "John Bardeen",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Princeton",
+     "propriedades": {
+      "curso": "física"
+     },
+     "evidencia": "Bardeen recebeu um Ph.D. em física pela Universidade de Princeton",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John Bardeen",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {
+      "cargo": "pesquisador"
+     },
+     "evidencia": "ele foi pesquisador do Bell Labs",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John Bardeen",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Illinois",
+     "propriedades": {
+      "cargo": "professor"
+     },
+     "evidencia": "professor da Universidade de Illinois",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John Bardeen",
+     "tipo": "NASCEU_EM",
+     "destino": "Madison",
+     "propriedades": {},
+     "evidencia": "John Bardeen (Madison, 23 de outubro de 1908",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "128860_1",
+   "entidades": [
+    {
+     "nome": "John Bardeen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Bardeen"
+     ],
+     "descricao": "Primeira de apenas três pessoas a ganhar vários prêmios Nobel na mesma categoria.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

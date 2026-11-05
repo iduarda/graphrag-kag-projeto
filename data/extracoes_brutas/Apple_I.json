@@ -1,0 +1,279 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:25:50+00:00",
+ "chunks": [
+  {
+   "chunk_id": "149118_0",
+   "entidades": [
+    {
+     "nome": "Apple I",
+     "tipo": "Hardware",
+     "aliases": [
+      "Apple-1"
+     ],
+     "descricao": "Computador pessoal primitivo formado por uma placa única de circuito integrado, primeiro produto da Apple.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Wozniak"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "CRIOU",
+     "destino": "Apple I",
+     "propriedades": {},
+     "evidencia": "inventado e fabricado manualmente pelo engenheiro norte-americano Steve Wozniak",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "COLABOROU_COM",
+     "destino": "Steve Jobs",
+     "propriedades": {
+      "contexto": "Apple I"
+     },
+     "evidencia": "em sociedade com o empresário norte-americano Steve Jobs",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "Apple I",
+     "propriedades": {},
+     "evidencia": "lançado pela empresa Apple, como seu primeiro produto",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "149118_1",
+   "entidades": [
+    {
+     "nome": "Apple I",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Wozniak"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Palo Alto",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "Apple I",
+     "propriedades": {},
+     "evidencia": "O computador Apple I foi o primeiro produto da empresa Apple",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "149118_2",
+   "entidades": [
+    {
+     "nome": "Apple I",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Altair 8800",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "MOS Technology KIM-1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Datapoint 2200",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple II",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Apple I",
+     "propriedades": {},
+     "evidencia": "O Apple I foi descontinuado em março de 1977, quando foi substituído pelo Apple II",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "149118_3",
+   "entidades": [
+    {
+     "nome": "Apple I",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Wozniak"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Christie's",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "The Henry Ford Museum",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple II",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Apple I",
+     "propriedades": {},
+     "evidencia": "substituído pelo Apple II",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "149118_4",
+   "entidades": [
+    {
+     "nome": "Apple I",
+     "tipo": "Hardware",
+     "aliases": [
+      "apple I"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple II",
+     "tipo": "Hardware",
+     "aliases": [
+      "apple II"
+     ],
+     "descricao": "Série de computadores pessoais criada por Steve Wozniak, que durou de 1977 a 1994.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Wozniak"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple II",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Apple I",
+     "propriedades": {},
+     "evidencia": "O computador apple I foi seguido pela apple II",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "CRIOU",
+     "destino": "Apple II",
+     "propriedades": {},
+     "evidencia": "apple II, uma série de computadores pessoais criado pelo engenheiro Steve Wozniak",
+     "confianca": 0.9
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:25:22+00:00",
+ "chunks": [
+  {
+   "chunk_id": "100539_0",
+   "entidades": [
+    {
+     "nome": "BCPL",
+     "tipo": "Linguagem",
+     "aliases": [
+      "Basic Combined Programming Language"
+     ],
+     "descricao": "Linguagem procedural, imperativa e estruturada, originalmente destinada à escrita de compiladores.",
+     "propriedades": {
+      "ano": 1967,
+      "paradigmas": [
+       "procedural",
+       "imperativa",
+       "estruturada"
+      ]
+     }
+    },
+    {
+     "nome": "B",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Versão reduzida e sintaticamente mudada do BCPL.",
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Martin Richards",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Cambridge",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "B",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "BCPL",
+     "propriedades": {},
+     "evidencia": "sua influência ainda é sentida devido a versão reduzida e mudada sintaticamente, chamada de B",
+     "confianca": 0.8
+    },
+    {
+     "origem": "C",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "B",
+     "propriedades": {},
+     "evidencia": "foi a linguagem em que a linguagem de programação C foi baseada",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Martin Richards",
+     "tipo": "CRIOU",
+     "destino": "BCPL",
+     "propriedades": {
+      "ano": 1967
+     },
+     "evidencia": "BCPL foi implementada pela primeira vez Martin Richards, da Universidade de Cambridge em 1967",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Martin Richards",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Cambridge",
+     "propriedades": {},
+     "evidencia": "Martin Richards, da Universidade de Cambridge",
+     "confianca": 0.75
+    }
+   ]
+  }
+ ]
+}

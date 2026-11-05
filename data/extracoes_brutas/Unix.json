@@ -1,0 +1,927 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:18:59+00:00",
+ "chunks": [
+  {
+   "chunk_id": "1875_0",
+   "entidades": [
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "UNIX"
+     ],
+     "descricao": "Sistema operativo portável, multitarefa e multiutilizador criado nos Laboratórios Bell da AT&T.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Laboratórios Bell"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "The Open Group",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Companhia formada por diversas empresas de informática, proprietária da marca UNIX.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Ken Thompson",
+     "tipo": "CRIOU",
+     "destino": "Unix",
+     "propriedades": {},
+     "evidencia": "originalmente criado por Ken Thompson, Dennis Ritchie, entre outros",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "CRIOU",
+     "destino": "Unix",
+     "propriedades": {},
+     "evidencia": "originalmente criado por Ken Thompson, Dennis Ritchie, entre outros",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "criado por Ken Thompson, Dennis Ritchie, entre outros, que trabalhavam nos Laboratórios Bell da AT&T",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "criado por Ken Thompson, Dennis Ritchie, entre outros, que trabalhavam nos Laboratórios Bell da AT&T",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "1875_1",
+   "entidades": [
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Douglas McIlroy",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Peter Weiner",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Laboratórios Bell"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "General Electric",
+     "tipo": "Organizacao",
+     "aliases": [
+      "GE"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachussets Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Multics",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema operacional de tempo compartilhado para uma grande comunidade de usuários.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "GE 645",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "AT&T",
+     "tipo": "DESENVOLVEU",
+     "destino": "Multics",
+     "propriedades": {},
+     "evidencia": "num esforço conjunto da AT&T (Laboratórios Bell), da General Electric (GE) e do MIT (Massachussets Institute of Technology) para o desenvolvimento de um sistema operacional chamado Multics",
+     "confianca": 0.9
+    },
+    {
+     "origem": "General Electric",
+     "tipo": "DESENVOLVEU",
+     "destino": "Multics",
+     "propriedades": {},
+     "evidencia": "num esforço conjunto da AT&T (Laboratórios Bell), da General Electric (GE) e do MIT (Massachussets Institute of Technology) para o desenvolvimento de um sistema operacional chamado Multics",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "DESENVOLVEU",
+     "destino": "Multics",
+     "propriedades": {},
+     "evidencia": "num esforço conjunto da AT&T (Laboratórios Bell), da General Electric (GE) e do MIT (Massachussets Institute of Technology) para o desenvolvimento de um sistema operacional chamado Multics",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Multics",
+     "tipo": "EXECUTA_EM",
+     "destino": "GE 645",
+     "propriedades": {},
+     "evidencia": "os recursos computacionais disponíveis à época, particularmente os do computador utilizado, um GE 645, revelaram-se insuficientes",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "1875_2",
+   "entidades": [
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Thompson"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ritchie"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Brian Kernighan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Multics",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Unics",
+      "UNIX"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "PDP-7",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "PDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "B",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "BSD",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Universidade da Califórnia em Berkeley",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade de Berkeley"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "System III",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "System V",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Unix",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-7",
+     "propriedades": {},
+     "evidencia": "Ken Thompson, usando um ocioso computador PDP-7, começou a reescrever o Multics num conceito menos ambicioso, batizado de Unics",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Unix",
+     "tipo": "ESCRITO_EM",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "Dennis Ritchie e Ken Thompson reescreveram o Unix, usando a linguagem C, para um computador PDP-11",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Unix",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-11",
+     "propriedades": {},
+     "evidencia": "Dennis Ritchie e Ken Thompson reescreveram o Unix, usando a linguagem C, para um computador PDP-11",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "COLABOROU_COM",
+     "destino": "Ken Thompson",
+     "propriedades": {
+      "contexto": "reescrita do Unix em C para o PDP-11 em 1973"
+     },
+     "evidencia": "em 1973, quando Dennis Ritchie e Ken Thompson reescreveram o Unix",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "CRIOU",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "A linguagem C havia sido desenvolvida por Ritchie",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "CRIOU",
+     "destino": "B",
+     "propriedades": {},
+     "evidencia": "linguagem B, desenvolvida por Thompson",
+     "confianca": 0.95
+    },
+    {
+     "origem": "C",
+     "tipo": "SUCESSOR_DE",
+     "destino": "B",
+     "propriedades": {},
+     "evidencia": "A linguagem C havia sido desenvolvida por Ritchie para substituir e superar as limitações da linguagem B",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Universidade da Califórnia em Berkeley",
+     "tipo": "DESENVOLVEU",
+     "destino": "BSD",
+     "propriedades": {},
+     "evidencia": "os sistemas BSD (na Universidade de Berkeley na Califórnia)",
+     "confianca": 0.8
+    },
+    {
+     "origem": "AT&T",
+     "tipo": "DESENVOLVEU",
+     "destino": "System III",
+     "propriedades": {},
+     "evidencia": "os System III e System V (na AT&T)",
+     "confianca": 0.8
+    },
+    {
+     "origem": "AT&T",
+     "tipo": "DESENVOLVEU",
+     "destino": "System V",
+     "propriedades": {},
+     "evidencia": "os System III e System V (na AT&T)",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "1875_3",
+   "entidades": [
+    {
+     "nome": "BSD",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Universidade da Califórnia em Berkeley",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade de Berkeley"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "System III",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "System V",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Peter Weiner",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Cientista de Yale e fundador da Interactive System Corporation.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Interactive System Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Interactive"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Interdata 8/32",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC",
+      "Digital Equipament Corporation"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Universidade da Califórnia em Berkeley",
+     "tipo": "DESENVOLVEU",
+     "destino": "BSD",
+     "propriedades": {},
+     "evidencia": "os sistemas BSD (na Universidade de Berkeley na Califórnia)",
+     "confianca": 0.8
+    },
+    {
+     "origem": "AT&T",
+     "tipo": "DESENVOLVEU",
+     "destino": "System III",
+     "propriedades": {},
+     "evidencia": "os System III e System V (na AT&T)",
+     "confianca": 0.8
+    },
+    {
+     "origem": "AT&T",
+     "tipo": "DESENVOLVEU",
+     "destino": "System V",
+     "propriedades": {},
+     "evidencia": "os System III e System V (na AT&T)",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Peter Weiner",
+     "tipo": "FUNDOU",
+     "destino": "Interactive System Corporation",
+     "propriedades": {},
+     "evidencia": "Peter Weiner - cientista de Yale e fundador da Interactive System Corporation",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Unix",
+     "tipo": "EXECUTA_EM",
+     "destino": "Interdata 8/32",
+     "propriedades": {},
+     "evidencia": "licença para transportar e comercializar o Unix para o computador Interdata 8/32",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "1875_4",
+   "entidades": [
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "System III",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Primeiro sistema Unix comercial, que integrou muitas variantes.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "System V",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Unix System V"
+     ],
+     "descricao": "Novo Unix comercial da AT&T, padrão internacional de fato no mercado Unix.",
+     "propriedades": {
+      "tipo": "sistema",
+      "ano": 1983
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "AT&T",
+     "tipo": "DESENVOLVEU",
+     "destino": "System III",
+     "propriedades": {},
+     "evidencia": "a AT&T integrou muitas variantes no primeiro sistema Unix comercial chamado de System III",
+     "confianca": 0.9
+    },
+    {
+     "origem": "AT&T",
+     "tipo": "DESENVOLVEU",
+     "destino": "System V",
+     "propriedades": {
+      "ano": 1983
+     },
+     "evidencia": "Em 1983, após acrescentar vários melhoramentos ao System III, a AT&T apresentava o novo Unix comercial, agora chamado de System V",
+     "confianca": 0.9
+    },
+    {
+     "origem": "System V",
+     "tipo": "SUCESSOR_DE",
+     "destino": "System III",
+     "propriedades": {},
+     "evidencia": "Em 1983, após acrescentar vários melhoramentos ao System III, a AT&T apresentava o novo Unix comercial, agora chamado de System V",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "1875_5",
+   "entidades": [
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "*nix"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "System V",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Unix System V"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "GNU/Linux"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "BSD",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "FreeBSD",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "OpenBSD",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "NetBSD",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Solaris",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "SunOS"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "IRIX",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "AIX",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "HP-UX",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Tru64",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Mac OS X",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Darwin",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1875_6",
+   "entidades": [
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1875_7",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1875_8",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1875_9",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1875_10",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1875_11",
+   "entidades": [
+    {
+     "nome": "Interface gráfica do utilizador",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "GUI",
+      "Ambiente gráfico"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1875_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1875_13",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1875_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1875_15",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1875_16",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1875_17",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1875_18",
+   "entidades": [
+    {
+     "nome": "X Window System",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Xwindow"
+     ],
+     "descricao": "Sistema gráfico do Unix, que funciona como gerenciador de exibição.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT",
+      "Massachussets Institute of Technology"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "DESENVOLVEU",
+     "destino": "X Window System",
+     "propriedades": {},
+     "evidencia": "Desenvolvido no MIT (Massachussets Institute of Technology)",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "1875_19",
+   "entidades": [
+    {
+     "nome": "X Window System",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Xwindow"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1875_20",
+   "entidades": [
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1875_21",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1875_22",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1875_23",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1875_24",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

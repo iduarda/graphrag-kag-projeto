@@ -1,0 +1,404 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:24:25+00:00",
+ "chunks": [
+  {
+   "chunk_id": "99823_0",
+   "entidades": [
+    {
+     "nome": "Herman Hollerith",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Hollerith"
+     ],
+     "descricao": "Empresário norte-americano, impulsionador do leitor de cartões perfurados.",
+     "propriedades": {
+      "ano_nascimento": 1860,
+      "ano_morte": 1929
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Buffalo",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Herman Hollerith",
+     "tipo": "FUNDOU",
+     "destino": "IBM",
+     "propriedades": {},
+     "evidencia": "Foi também um dos fundadores da IBM",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Herman Hollerith",
+     "tipo": "NASCEU_EM",
+     "destino": "Buffalo",
+     "propriedades": {},
+     "evidencia": "Herman Hollerith (Buffalo, 29 de fevereiro de 1860",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "99823_1",
+   "entidades": [
+    {
+     "nome": "Herman Hollerith",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Hollerith"
+     ],
+     "propriedades": {
+      "ano_nascimento": 1860
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Buffalo",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Nova Iorque",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Herman Hollerith",
+     "tipo": "FUNDOU",
+     "destino": "IBM",
+     "propriedades": {},
+     "evidencia": "Foi também um dos fundadores da IBM",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Herman Hollerith",
+     "tipo": "NASCEU_EM",
+     "destino": "Buffalo",
+     "propriedades": {},
+     "evidencia": "Hollerith nasceu em Buffalo, Nova Iorque, em 29 de fevereiro de 1860",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "99823_2",
+   "entidades": [
+    {
+     "nome": "Herman Hollerith",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Hollerith"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "City College de Nova York",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade Columbia",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Columbia College"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Herman Hollerith",
+     "tipo": "ESTUDOU_EM",
+     "destino": "City College de Nova York",
+     "propriedades": {},
+     "evidencia": "Aos 14 anos, ingressou no City College de Nova York",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Herman Hollerith",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade Columbia",
+     "propriedades": {
+      "curso": "Engenharia de Minas",
+      "ano": 1879
+     },
+     "evidencia": "foi admitido na Escola de Minas da Columbia College, atualmente Universidade Columbia",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "99823_3",
+   "entidades": [
+    {
+     "nome": "Herman Hollerith",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Hollerith"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Escritório de Patentes dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Herman Hollerith",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "cargo": "instrutor de engenharia mecânica",
+      "ano_inicio": 1882,
+      "ano_fim": 1883
+     },
+     "evidencia": "Hollerith trabalhou como instrutor de engenharia mecânica no Instituto de Tecnologia de Massachusetts entre 1882 e 1883",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Herman Hollerith",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Escritório de Patentes dos Estados Unidos",
+     "propriedades": {
+      "cargo": "examinador assistente",
+      "ano_inicio": 1883,
+      "ano_fim": 1884
+     },
+     "evidencia": "Trabalhou também e como examinador assistente no Escritório de Patentes dos Estados Unidos",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "99823_4",
+   "entidades": [
+    {
+     "nome": "Herman Hollerith",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Hollerith"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Escritório de Patentes dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Tabulating Machine Company",
+     "tipo": "Organizacao",
+     "aliases": [
+      "TMC"
+     ],
+     "descricao": "Empresa fundada por Hollerith em 1896.",
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1896
+     }
+    },
+    {
+     "nome": "Computer-Tabulating-Recording Company",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CTR"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [
+      "International Business Machines"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Herman Hollerith",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Escritório de Patentes dos Estados Unidos",
+     "propriedades": {
+      "cargo": "examinador assistente",
+      "ano_inicio": 1883,
+      "ano_fim": 1884
+     },
+     "evidencia": "Trabalhou também e como examinador assistente no Escritório de Patentes dos Estados Unidos",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Herman Hollerith",
+     "tipo": "FUNDOU",
+     "destino": "Tabulating Machine Company",
+     "propriedades": {
+      "ano": 1896
+     },
+     "evidencia": "Em 1896, fundou a Tabulating Machine Company (TMC)",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Herman Hollerith",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Computer-Tabulating-Recording Company",
+     "propriedades": {
+      "cargo": "engenheiro consultor",
+      "ano_fim": 1921
+     },
+     "evidencia": "Hollerith atuou como engenheiro consultor da CTR por mais uma década, até 1921",
+     "confianca": 0.9
+    },
+    {
+     "origem": "IBM",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Computer-Tabulating-Recording Company",
+     "propriedades": {},
+     "evidencia": "A CTR foi posteriormente renomeada como International Business Machines (IBM) em 1924",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "99823_5",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "99823_6",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "99823_7",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "99823_8",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "99823_9",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "99823_10",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "99823_11",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "99823_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "99823_13",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "99823_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "99823_15",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "99823_16",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "99823_17",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "99823_18",
+   "entidades": [
+    {
+     "nome": "Herman Hollerith",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Hollerith"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Columbia",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Columbia College"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

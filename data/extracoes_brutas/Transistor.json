@@ -1,0 +1,980 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:24:35+00:00",
+ "chunks": [
+  {
+   "chunk_id": "9753_0",
+   "entidades": [
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "transistor"
+     ],
+     "descricao": "Dispositivo semicondutor usado para amplificar ou trocar sinais eletrônicos.",
+     "propriedades": {
+      "ano": 1947,
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "John Bardeen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Walter Houser Brattain",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Walter Brattain"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "William Shockley"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John Bardeen",
+     "tipo": "CRIOU",
+     "destino": "Transístor",
+     "propriedades": {
+      "ano": 1947
+     },
+     "evidencia": "considera-se inventado em 1947 pelos físicos estadunidenses John Bardeen, Walter Brattain e William Shockley",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "CRIOU",
+     "destino": "Transístor",
+     "propriedades": {
+      "ano": 1947
+     },
+     "evidencia": "considera-se inventado em 1947 pelos físicos estadunidenses John Bardeen, Walter Brattain e William Shockley",
+     "confianca": 0.95
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "CRIOU",
+     "destino": "Transístor",
+     "propriedades": {
+      "ano": 1947
+     },
+     "evidencia": "considera-se inventado em 1947 pelos físicos estadunidenses John Bardeen, Walter Brattain e William Shockley",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "9753_1",
+   "entidades": [
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "transistor"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "John Bardeen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Walter Houser Brattain",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Walter Brattain"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "William Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Transistor de ponto de contato",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "transistor de contato pontual"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Julius Edgar Lilienfeld",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John Bardeen",
+     "tipo": "CRIOU",
+     "destino": "Transistor de ponto de contato",
+     "propriedades": {
+      "ano": 1947
+     },
+     "evidencia": "O primeiro dispositivo praticamente implementado foi um transistor de contato pontual inventado em 1947 pelos físicos estadunidenses John Bardeen, Walter Brattain e William Shockley",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "CRIOU",
+     "destino": "Transistor de ponto de contato",
+     "propriedades": {
+      "ano": 1947
+     },
+     "evidencia": "O primeiro dispositivo praticamente implementado foi um transistor de contato pontual inventado em 1947 pelos físicos estadunidenses John Bardeen, Walter Brattain e William Shockley",
+     "confianca": 0.95
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "CRIOU",
+     "destino": "Transistor de ponto de contato",
+     "propriedades": {
+      "ano": 1947
+     },
+     "evidencia": "O primeiro dispositivo praticamente implementado foi um transistor de contato pontual inventado em 1947 pelos físicos estadunidenses John Bardeen, Walter Brattain e William Shockley",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John Bardeen",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "Bardeen, Brattain e Shockley dividiram o Prêmio Nobel de Física em 1956 por sua conquista",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "Bardeen, Brattain e Shockley dividiram o Prêmio Nobel de Física em 1956 por sua conquista",
+     "confianca": 0.95
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "Bardeen, Brattain e Shockley dividiram o Prêmio Nobel de Física em 1956 por sua conquista",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "9753_2",
+   "entidades": [
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "transistor"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "John R. Pierce",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9753_3",
+   "entidades": [
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "transistor"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Julius Edgar Lilienfeld",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "William Eccles",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Oskar Heil",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Canadá",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9753_4",
+   "entidades": [
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "transistor"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "John Bardeen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Walter Houser Brattain",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Walter Brattain"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "William Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John R. Pierce",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Julius Edgar Lilienfeld",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Transistor de ponto de contato",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "transistor de contato pontual"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John Bardeen",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "John Bardeen e Walter Brattain da Bell Labs da AT&T em Murray Hill",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "John Bardeen e Walter Brattain da Bell Labs da AT&T em Murray Hill",
+     "confianca": 0.85
+    },
+    {
+     "origem": "John Bardeen",
+     "tipo": "COLABOROU_COM",
+     "destino": "Walter Houser Brattain",
+     "propriedades": {
+      "contexto": "experimentos com cristal de germânio que levaram ao transistor"
+     },
+     "evidencia": "John Bardeen e Walter Brattain da Bell Labs da AT&T em Murray Hill, Nova Jersey, nos Estados Unidos, realizaram experimentos",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "9753_5",
+   "entidades": [
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "transistor"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "John Bardeen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Walter Houser Brattain",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Walter Brattain"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "William Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Transistor de ponto de contato",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "transistor de contato pontual"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Herbert Mataré",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Heinrich Welker",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Compagnie des Freins et Signaux",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Westinghouse",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Paris",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John Bardeen",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "Shockley, Bardeen e Brattain receberam conjuntamente o Prêmio Nobel de Física de 1956",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "Shockley, Bardeen e Brattain receberam conjuntamente o Prêmio Nobel de Física de 1956",
+     "confianca": 0.95
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "Shockley, Bardeen e Brattain receberam conjuntamente o Prêmio Nobel de Física de 1956",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Herbert Mataré",
+     "tipo": "CRIOU",
+     "destino": "Transistor de ponto de contato",
+     "propriedades": {
+      "ano": 1948
+     },
+     "evidencia": "Em 1948, o transistor de ponto de contato foi inventado independentemente pelos físicos alemães Herbert Mataré e Heinrich Welker",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Heinrich Welker",
+     "tipo": "CRIOU",
+     "destino": "Transistor de ponto de contato",
+     "propriedades": {
+      "ano": 1948
+     },
+     "evidencia": "Em 1948, o transistor de ponto de contato foi inventado independentemente pelos físicos alemães Herbert Mataré e Heinrich Welker",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Herbert Mataré",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Compagnie des Freins et Signaux",
+     "propriedades": {},
+     "evidencia": "enquanto trabalhavam na Compagnie des Freins et Signaux, uma subsidiária da Westinghouse localizada em Paris",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Heinrich Welker",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Compagnie des Freins et Signaux",
+     "propriedades": {},
+     "evidencia": "enquanto trabalhavam na Compagnie des Freins et Signaux, uma subsidiária da Westinghouse localizada em Paris",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Compagnie des Freins et Signaux",
+     "tipo": "SEDIADA_EM",
+     "destino": "Paris",
+     "propriedades": {},
+     "evidencia": "uma subsidiária da Westinghouse localizada em Paris",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "9753_6",
+   "entidades": [
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "transistor"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "William Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Transistor de junção",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "transistor de junção bipolar"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Gordon Teal",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Morgan Sparks",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Philco",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Transistor de germânio de superfície-barreira",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1953,
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "INTERMETALL",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1952
+     }
+    },
+    {
+     "nome": "Herbert Mataré",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "CRIOU",
+     "destino": "Transistor de junção",
+     "propriedades": {},
+     "evidencia": "Os primeiros transistores de junção bipolar foram inventados por William Shockley, da Bell Labs",
+     "confianca": 0.9
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "Os primeiros transistores de junção bipolar foram inventados por William Shockley, da Bell Labs",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Gordon Teal",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "os químicos Gordon Teal e Morgan Sparks, da Bell Labs",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Morgan Sparks",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "os químicos Gordon Teal e Morgan Sparks, da Bell Labs",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Philco",
+     "tipo": "DESENVOLVEU",
+     "destino": "Transistor de germânio de superfície-barreira",
+     "propriedades": {
+      "ano": 1953
+     },
+     "evidencia": "o transistor de germânio de superfície-barreira desenvolvido pela Philco em 1953",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Herbert Mataré",
+     "tipo": "FUNDOU",
+     "destino": "INTERMETALL",
+     "propriedades": {
+      "ano": 1952
+     },
+     "evidencia": "INTERMETALL (empresa fundada por Herbert Mataré em 1952)",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "9753_7",
+   "entidades": [
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "transistor"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "INTERMETALL",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Herbert Mataré",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Chrysler",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Philco",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Herbert Mataré",
+     "tipo": "FUNDOU",
+     "destino": "INTERMETALL",
+     "propriedades": {
+      "ano": 1952
+     },
+     "evidencia": "INTERMETALL (empresa fundada por Herbert Mataré em 1952)",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "9753_8",
+   "entidades": [
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "transistor"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Morris Tanenbaum",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Transistor de silício",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1954,
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Gordon Teal",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "MOSFET",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1960,
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Kahng",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Atalla",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Morris Tanenbaum",
+     "tipo": "CRIOU",
+     "destino": "Transistor de silício",
+     "propriedades": {
+      "ano": 1954
+     },
+     "evidencia": "O primeiro transistor de silício em funcionamento foi desenvolvido na Bell Labs em 26 de janeiro de 1954 por Morris Tanenbaum",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Morris Tanenbaum",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "O primeiro transistor de silício em funcionamento foi desenvolvido na Bell Labs em 26 de janeiro de 1954 por Morris Tanenbaum",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Texas Instruments",
+     "tipo": "DESENVOLVEU",
+     "destino": "Transistor de silício",
+     "propriedades": {
+      "ano": 1954
+     },
+     "evidencia": "O primeiro transistor de silício comercial foi produzido pela Texas Instruments em 1954",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Gordon Teal",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "Este foi o trabalho de Gordon Teal, um especialista no cultivo de cristais de alta pureza, que já havia trabalhado no Bell Labs",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Kahng",
+     "tipo": "CRIOU",
+     "destino": "MOSFET",
+     "propriedades": {
+      "ano": 1960
+     },
+     "evidencia": "O primeiro MOSFET efetivamente construído foi de Kahng e Atalla no Bell Labs em 1960",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Atalla",
+     "tipo": "CRIOU",
+     "destino": "MOSFET",
+     "propriedades": {
+      "ano": 1960
+     },
+     "evidencia": "O primeiro MOSFET efetivamente construído foi de Kahng e Atalla no Bell Labs em 1960",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Kahng",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "O primeiro MOSFET efetivamente construído foi de Kahng e Atalla no Bell Labs em 1960",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Atalla",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "O primeiro MOSFET efetivamente construído foi de Kahng e Atalla no Bell Labs em 1960",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "9753_9",
+   "entidades": [
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "transistor"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "MOSFET",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Circuito integrado",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microprocessador",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Kahng",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Atalla",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Kahng",
+     "tipo": "CRIOU",
+     "destino": "MOSFET",
+     "propriedades": {
+      "ano": 1960
+     },
+     "evidencia": "O primeiro MOSFET efetivamente construído foi de Kahng e Atalla no Bell Labs em 1960",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Atalla",
+     "tipo": "CRIOU",
+     "destino": "MOSFET",
+     "propriedades": {
+      "ano": 1960
+     },
+     "evidencia": "O primeiro MOSFET efetivamente construído foi de Kahng e Atalla no Bell Labs em 1960",
+     "confianca": 0.85
+    }
+   ]
+  }
+ ]
+}

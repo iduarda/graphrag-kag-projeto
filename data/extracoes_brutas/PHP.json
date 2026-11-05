@@ -1,0 +1,396 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:26:22+00:00",
+ "chunks": [
+  {
+   "chunk_id": "2746_0",
+   "entidades": [
+    {
+     "nome": "PHP",
+     "tipo": "Linguagem",
+     "aliases": [
+      "PHP: Hypertext Preprocessor",
+      "Personal Home Page"
+     ],
+     "descricao": "Linguagem interpretada livre usada para desenvolver aplicações do lado do servidor que geram conteúdo dinâmico na web.",
+     "propriedades": {
+      "ano": 1995,
+      "paradigmas": []
+     }
+    },
+    {
+     "nome": "Rasmus Lerdorf",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Criador do PHP.",
+     "propriedades": {}
+    },
+    {
+     "nome": "The PHP Group",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Organização que mantém a implementação principal do PHP.",
+     "propriedades": {}
+    },
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Rasmus Lerdorf",
+     "tipo": "CRIOU",
+     "destino": "PHP",
+     "propriedades": {
+      "ano": 1995
+     },
+     "evidencia": "Criado por Rasmus Lerdorf em 1995",
+     "confianca": 0.95
+    },
+    {
+     "origem": "The PHP Group",
+     "tipo": "DESENVOLVEU",
+     "destino": "PHP",
+     "propriedades": {},
+     "evidencia": "a produção de sua implementação principal, referência formal da linguagem, mantida por uma organização chamada The PHP Group",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "2746_1",
+   "entidades": [
+    {
+     "nome": "PHP",
+     "tipo": "Linguagem",
+     "aliases": [
+      "Personal Home Page Tools"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Rasmus Lerdorf",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Zeev Suraski",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Zeev"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Andi Gutmans",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Perl",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ruby",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Rasmus Lerdorf",
+     "tipo": "CRIOU",
+     "destino": "PHP",
+     "propriedades": {
+      "ano": 1994
+     },
+     "evidencia": "A linguagem foi criada em 1994 e o código fonte do PHP só foi liberado em 1995, como um pacote de programas CGI criados por Rasmus Lerdorf",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Zeev Suraski",
+     "tipo": "COLABOROU_COM",
+     "destino": "Andi Gutmans",
+     "propriedades": {
+      "contexto": "escreveram o PHP 4"
+     },
+     "evidencia": "Zeev e Andi Gutmans, escreveram o PHP 4",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "2746_2",
+   "entidades": [
+    {
+     "nome": "PHP",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Windows"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "FreeBSD",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "2746_3",
+   "entidades": [
+    {
+     "nome": "PHP",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Windows"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "2746_4",
+   "entidades": [
+    {
+     "nome": "PHP",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "2746_5",
+   "entidades": [
+    {
+     "nome": "PHP",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Andrei Zmievski",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Liderou em 2005 um projeto para trazer suporte a Unicode ao PHP.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "2746_6",
+   "entidades": [
+    {
+     "nome": "PHP",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "2746_7",
+   "entidades": [
+    {
+     "nome": "PHP",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Perl",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "2746_8",
+   "entidades": [
+    {
+     "nome": "PHP",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [
+      "C/C++"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "2746_9",
+   "entidades": [
+    {
+     "nome": "PHP",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "2746_10",
+   "entidades": [
+    {
+     "nome": "PHP",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "2746_11",
+   "entidades": [
+    {
+     "nome": "PHP",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "2746_12",
+   "entidades": [
+    {
+     "nome": "PHP",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "2746_13",
+   "entidades": [
+    {
+     "nome": "PHP",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

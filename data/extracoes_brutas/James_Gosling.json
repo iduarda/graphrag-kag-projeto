@@ -1,0 +1,458 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:23:25+00:00",
+ "chunks": [
+  {
+   "chunk_id": "332613_0",
+   "entidades": [
+    {
+     "nome": "James Gosling",
+     "tipo": "Pessoa",
+     "aliases": [
+      "James Arthur Gosling",
+      "Gosling"
+     ],
+     "descricao": "Programador canadense, mais conhecido como o pai da linguagem Java.",
+     "propriedades": {
+      "ano_nascimento": 1956
+     }
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Calgary",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Universidade de Calgary",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade Carnegie Mellon",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Liquid Robotics",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "UNIX"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "James Gosling",
+     "tipo": "NASCEU_EM",
+     "destino": "Calgary",
+     "propriedades": {},
+     "evidencia": "James Arthur Gosling (Calgary, 19 de maio de 1956)",
+     "confianca": 0.75
+    },
+    {
+     "origem": "James Gosling",
+     "tipo": "CRIOU",
+     "destino": "Java",
+     "propriedades": {},
+     "evidencia": "mais conhecido como o pai da linguagem de programação Java",
+     "confianca": 0.9
+    },
+    {
+     "origem": "James Gosling",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Calgary",
+     "propriedades": {
+      "curso": "ciência da computação",
+      "ano": 1977
+     },
+     "evidencia": "Em 1977, James Gosling se formou bacharel em ciência da computação pela Universidade de Calgary",
+     "confianca": 0.95
+    },
+    {
+     "origem": "James Gosling",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade Carnegie Mellon",
+     "propriedades": {
+      "curso": "ciência da computação",
+      "ano": 1983
+     },
+     "evidencia": "em 1983 obteve um PhD em ciência da computação pela Universidade Carnegie Mellon",
+     "confianca": 0.95
+    },
+    {
+     "origem": "James Gosling",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Sun Microsystems",
+     "propriedades": {
+      "ano_inicio": 1984
+     },
+     "evidencia": "Gosling trabalhou desde 1984 na Sun Microsystems até abril de 2010, quando se demitiu",
+     "confianca": 0.95
+    },
+    {
+     "origem": "James Gosling",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Google",
+     "propriedades": {
+      "ano_inicio": 2011
+     },
+     "evidencia": "Em março de 2011 anunciou em seu blog que havia sido contratado pela Google",
+     "confianca": 0.9
+    },
+    {
+     "origem": "James Gosling",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Liquid Robotics",
+     "propriedades": {},
+     "evidencia": "anunciou sua saída da Google, e contratação pela startup Liquid Robotics",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "332613_1",
+   "entidades": [
+    {
+     "nome": "James Gosling",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gosling"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "NeWS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema de janelas inventado por Gosling.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1995
+     }
+    },
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Sun"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "DEC VAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Brian Kernighan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "James Gosling",
+     "tipo": "CRIOU",
+     "destino": "NeWS",
+     "propriedades": {},
+     "evidencia": "também inventou o sistema de janelas NeWS",
+     "confianca": 0.9
+    },
+    {
+     "origem": "James Gosling",
+     "tipo": "CRIOU",
+     "destino": "Java",
+     "propriedades": {
+      "ano": 1995
+     },
+     "evidencia": "É geralmente apontado como sendo o inventor da linguagem de programação Java (lançada em maio de 1995)",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "332613_2",
+   "entidades": [
+    {
+     "nome": "James Gosling",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gosling"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Sun"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Mike Sheridan",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Sheridan"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Patrick Naughton",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ed Frank",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Web"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "James Gosling",
+     "tipo": "COLABOROU_COM",
+     "destino": "Mike Sheridan",
+     "propriedades": {
+      "contexto": "projeto da linguagem Java"
+     },
+     "evidencia": "Em junho de 1991, Gosling, Mike Sheridan, Patrick Naughton e Ed Frank iniciaram o projeto de linguagem Java",
+     "confianca": 0.9
+    },
+    {
+     "origem": "James Gosling",
+     "tipo": "COLABOROU_COM",
+     "destino": "Patrick Naughton",
+     "propriedades": {
+      "contexto": "projeto da linguagem Java"
+     },
+     "evidencia": "Em junho de 1991, Gosling, Mike Sheridan, Patrick Naughton e Ed Frank iniciaram o projeto de linguagem Java",
+     "confianca": 0.9
+    },
+    {
+     "origem": "James Gosling",
+     "tipo": "COLABOROU_COM",
+     "destino": "Ed Frank",
+     "propriedades": {
+      "contexto": "projeto da linguagem Java"
+     },
+     "evidencia": "Em junho de 1991, Gosling, Mike Sheridan, Patrick Naughton e Ed Frank iniciaram o projeto de linguagem Java",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "332613_3",
+   "entidades": [
+    {
+     "nome": "James Gosling",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gosling"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Netscape",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Netscape Communications"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "The Economist Innovation Award",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "The Flame Award",
+     "tipo": "Premio",
+     "aliases": [
+      "USENIX Lifetime Achievement Award"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Order of Canada",
+     "tipo": "Premio",
+     "aliases": [],
+     "descricao": "Segunda maior honra civil do Canadá.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha John von Neumann",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Canadá",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Association for Computing Machinery",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ACM"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Institute of Electrical and Electronics Engineers",
+     "tipo": "Organizacao",
+     "aliases": [
+      "IEEE"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "James Gosling",
+     "tipo": "RECEBEU",
+     "destino": "The Economist Innovation Award",
+     "propriedades": {
+      "ano": 2002
+     },
+     "evidencia": "2002: premiado com o The Economist Innovation Award",
+     "confianca": 0.95
+    },
+    {
+     "origem": "James Gosling",
+     "tipo": "RECEBEU",
+     "destino": "The Flame Award",
+     "propriedades": {
+      "ano": 2002
+     },
+     "evidencia": "2002: premiado com o The Flame Award pela USENIX Lifetime Achievement Award",
+     "confianca": 0.9
+    },
+    {
+     "origem": "James Gosling",
+     "tipo": "RECEBEU",
+     "destino": "Order of Canada",
+     "propriedades": {
+      "ano": 2007
+     },
+     "evidencia": "2007: nomeado oficial da Order of Canada",
+     "confianca": 0.9
+    },
+    {
+     "origem": "James Gosling",
+     "tipo": "RECEBEU",
+     "destino": "Medalha John von Neumann",
+     "propriedades": {
+      "ano": 2015
+     },
+     "evidencia": "2015: medalha John von Neumann concedida pelo IEEE",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "332613_4",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "332613_5",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

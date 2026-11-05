@@ -1,0 +1,449 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:25:18+00:00",
+ "chunks": [
+  {
+   "chunk_id": "261331_0",
+   "entidades": [
+    {
+     "nome": "Douglas Engelbart",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Douglas C. Engelbart",
+      "Engelbart"
+     ],
+     "descricao": "Informático estadunidense conhecido por ter inventado o mouse de computador.",
+     "propriedades": {
+      "ano_nascimento": 1925,
+      "ano_morte": 2013
+     }
+    },
+    {
+     "nome": "Rato",
+     "tipo": "Hardware",
+     "aliases": [
+      "mouse"
+     ],
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Bill English",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Vannevar Bush",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Portland",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Douglas Engelbart",
+     "tipo": "CRIOU",
+     "destino": "Rato",
+     "propriedades": {},
+     "evidencia": "É conhecido por ter inventado o mouse de computador (juntamente com Bill English)",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Douglas Engelbart",
+     "tipo": "COLABOROU_COM",
+     "destino": "Bill English",
+     "propriedades": {
+      "contexto": "invenção do mouse"
+     },
+     "evidencia": "inventado o mouse de computador (juntamente com Bill English)",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Douglas Engelbart",
+     "tipo": "NASCEU_EM",
+     "destino": "Portland",
+     "propriedades": {},
+     "evidencia": "Douglas C. Engelbart (Portland, 30 de janeiro de 1925",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "261331_1",
+   "entidades": [
+    {
+     "nome": "Douglas Engelbart",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Engelbart"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Estadual de Oregon",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Ames Aeronautical Laboratory",
+     "tipo": "Organizacao",
+     "aliases": [
+      "laboratório aeronáutico de Ames"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Mountain View",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Douglas Engelbart",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade Estadual de Oregon",
+     "propriedades": {
+      "curso": "engenharia eletrônica",
+      "ano": 1948
+     },
+     "evidencia": "Ele veio a concluir o bacharelado em engenharia eletrônica pela Universidade Estadual de Oregon em 1948.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Douglas Engelbart",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Ames Aeronautical Laboratory",
+     "propriedades": {
+      "cargo": "engenheiro eletrônico"
+     },
+     "evidencia": "conseguiu um emprego no laboratório aeronáutico de Ames (Ames Aeronautical Laboratory), em Mountain View, Califórnia, como engenheiro eletrônico",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ames Aeronautical Laboratory",
+     "tipo": "SEDIADA_EM",
+     "destino": "Mountain View",
+     "propriedades": {},
+     "evidencia": "laboratório aeronáutico de Ames (Ames Aeronautical Laboratory), em Mountain View, Califórnia",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "261331_2",
+   "entidades": [
+    {
+     "nome": "Douglas Engelbart",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Engelbart"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade da Califórnia em Berkeley",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade de Berkeley"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Ames Aeronautical Laboratory",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Ames"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Douglas Engelbart",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade da Califórnia em Berkeley",
+     "propriedades": {
+      "curso": "engenharia eletrônica",
+      "ano": 1951
+     },
+     "evidencia": "Em 1951, Engelbart decidiu entrar mais a fundo no mundo dos computadores, e deixou Ames para ingressar na Universidade de Berkeley",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Douglas Engelbart",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade da Califórnia em Berkeley",
+     "propriedades": {
+      "cargo": "professor"
+     },
+     "evidencia": "permaneceu mais um ano na universidade lecionando como professor",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "261331_3",
+   "entidades": [
+    {
+     "nome": "Douglas Engelbart",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Engelbart"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Stanford Research Institute",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Menlo Park",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ARPA",
+      "Advanced Research Projects Agency"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Augmentation Research Center",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Laboratório construído com financiamento da ARPA.",
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "On-Line System",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "NLS"
+     ],
+     "descricao": "Primeiro ambiente integrado para processamento de ideias.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Douglas Engelbart",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Stanford Research Institute",
+     "propriedades": {},
+     "evidencia": "Foi então trabalhar para no Stanford Research Institute, em Menlo Park, Califórnia",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Stanford Research Institute",
+     "tipo": "SEDIADA_EM",
+     "destino": "Menlo Park",
+     "propriedades": {},
+     "evidencia": "Stanford Research Institute, em Menlo Park, Califórnia",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Douglas Engelbart",
+     "tipo": "FUNDOU",
+     "destino": "Augmentation Research Center",
+     "propriedades": {},
+     "evidencia": "construísse um laboratório onde pudesse levar a tecnologia dos computadores a uma nova etapa. O cientista deu-lhe o nome de Augmentation Research Center",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Douglas Engelbart",
+     "tipo": "CRIOU",
+     "destino": "On-Line System",
+     "propriedades": {},
+     "evidencia": "aí criou o On-Line system (NLS), o primeiro ambiente integrado para processamento de ideias",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "261331_4",
+   "entidades": [
+    {
+     "nome": "Douglas Engelbart",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Engelbart"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ARPA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Xerox PARC",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Palo Alto Research Center"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Xerox",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Xerox Corporation"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Xerox Alto",
+     "tipo": "Hardware",
+     "aliases": [
+      "Alto"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Tymshare, Inc.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "McDonnell Douglas Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Bootstrap Institute",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "ano_fundacao": 1990
+     }
+    },
+    {
+     "nome": "Palo Alto",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "San Francisco",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Douglas Engelbart",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Tymshare, Inc.",
+     "propriedades": {},
+     "evidencia": "Engelbart, contudo, foi trabalhar para a Tymshare, Inc.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Douglas Engelbart",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade Stanford",
+     "propriedades": {},
+     "evidencia": "trabalhou para a Universidade Stanford, onde dirigiu o Boostrap Project",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Douglas Engelbart",
+     "tipo": "FUNDOU",
+     "destino": "Bootstrap Institute",
+     "propriedades": {
+      "ano": 1990
+     },
+     "evidencia": "Em 1990, fundou o Bootstrap Institute, em Palo Alto, na Califórnia",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Bootstrap Institute",
+     "tipo": "SEDIADA_EM",
+     "destino": "Palo Alto",
+     "propriedades": {},
+     "evidencia": "fundou o Bootstrap Institute, em Palo Alto, na Califórnia",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Douglas Engelbart",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bootstrap Institute",
+     "propriedades": {
+      "cargo": "diretor"
+     },
+     "evidencia": "onde trabalhou como diretor",
+     "confianca": 0.85
+    }
+   ]
+  }
+ ]
+}

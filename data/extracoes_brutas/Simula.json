@@ -1,0 +1,480 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:25:31+00:00",
+ "chunks": [
+  {
+   "chunk_id": "115437_0",
+   "entidades": [
+    {
+     "nome": "Simula",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {},
+     "descricao": "Família de linguagens projetadas para apoiar a simulação de eventos discretos; considerada a 1ª linguagem orientada a objetos (Simula 67)."
+    },
+    {
+     "nome": "Kristen Nygaard",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ole-Johan Dahl",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Centro Norueguês de Computação",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Oslo",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "ALGOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bjarne Stroustrup",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "James Gosling",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Object Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Kristen Nygaard",
+     "tipo": "CRIOU",
+     "destino": "Simula",
+     "propriedades": {},
+     "evidencia": "criada entre 1962 e 1968 por Kristen Nygaard e Ole-Johan Dahl no Centro Norueguês de Computação em Oslo",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ole-Johan Dahl",
+     "tipo": "CRIOU",
+     "destino": "Simula",
+     "propriedades": {},
+     "evidencia": "criada entre 1962 e 1968 por Kristen Nygaard e Ole-Johan Dahl no Centro Norueguês de Computação em Oslo",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Centro Norueguês de Computação",
+     "tipo": "SEDIADA_EM",
+     "destino": "Oslo",
+     "propriedades": {},
+     "evidencia": "no Centro Norueguês de Computação em Oslo",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Simula",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "ALGOL",
+     "propriedades": {},
+     "evidencia": "Simula I, criada em 1962, baseada em ALGOL 60",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Bjarne Stroustrup",
+     "tipo": "CRIOU",
+     "destino": "C++",
+     "propriedades": {},
+     "evidencia": "Bjarne Stroustrup, criador de C++",
+     "confianca": 0.95
+    },
+    {
+     "origem": "James Gosling",
+     "tipo": "CRIOU",
+     "destino": "Java",
+     "propriedades": {},
+     "evidencia": "James Gosling, criador de Java",
+     "confianca": 0.95
+    },
+    {
+     "origem": "C++",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Simula",
+     "propriedades": {},
+     "evidencia": "Bjarne Stroustrup, criador de C++, e James Gosling, criador de Java, reconheceram Simula como uma influência importante",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Java",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Simula",
+     "propriedades": {},
+     "evidencia": "Bjarne Stroustrup, criador de C++, e James Gosling, criador de Java, reconheceram Simula como uma influência importante",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "115437_1",
+   "entidades": [
+    {
+     "nome": "Simula",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {},
+     "descricao": "Família de linguagens projetadas para apoiar a simulação de eventos discretos; considerada a 1ª linguagem orientada a objetos (Simula 67)."
+    },
+    {
+     "nome": "Kristen Nygaard",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ole-Johan Dahl",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ALGOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Bemer",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Univac",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "UNIVAC 1107",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     },
+     "descricao": "Novo computador da Univac."
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Kristen Nygaard",
+     "tipo": "COLABOROU_COM",
+     "destino": "Ole-Johan Dahl",
+     "propriedades": {
+      "contexto": "criação do Simula"
+     },
+     "evidencia": "Ole-Johan Dahl juntou-se ao seu trabalho em janeiro de 1962",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Robert Bemer",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Univac",
+     "propriedades": {
+      "cargo": "diretor de sistemas de programação"
+     },
+     "evidencia": "Robert Bemer, o diretor de sistemas de programação da Univac",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "115437_2",
+   "entidades": [
+    {
+     "nome": "Simula",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {},
+     "descricao": "Família de linguagens projetadas para apoiar a simulação de eventos discretos; considerada a 1ª linguagem orientada a objetos (Simula 67)."
+    },
+    {
+     "nome": "Kristen Nygaard",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ole-Johan Dahl",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Centro Norueguês de Computação",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "UNIVAC 1107",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Burroughs B5500",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "URAL-16",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Charles Antony Richard Hoare",
+     "tipo": "Pessoa",
+     "aliases": [
+      "C. A. R. Hoare"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "ALGOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Simula",
+     "tipo": "EXECUTA_EM",
+     "destino": "UNIVAC 1107",
+     "propriedades": {},
+     "evidencia": "Simula I estava totalmente operacional no UNIVAC 1107 em janeiro de 1965",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Simula",
+     "tipo": "EXECUTA_EM",
+     "destino": "Burroughs B5500",
+     "propriedades": {},
+     "evidencia": "Simula I foi posteriormente executado em computadores Burroughs B5500",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Simula",
+     "tipo": "EXECUTA_EM",
+     "destino": "URAL-16",
+     "propriedades": {},
+     "evidencia": "e do computador russo URAL-16",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "115437_3",
+   "entidades": [
+    {
+     "nome": "Simula",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {},
+     "descricao": "Família de linguagens projetadas para apoiar a simulação de eventos discretos; considerada a 1ª linguagem orientada a objetos (Simula 67)."
+    },
+    {
+     "nome": "Smalltalk",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Oslo",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Smalltalk",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Simula",
+     "propriedades": {},
+     "evidencia": "Simula foi influente no desenvolvimento de Smalltalk",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "115437_4",
+   "entidades": [
+    {
+     "nome": "Kristen Nygaard",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ole-Johan Dahl",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha IEEE John von Neumann",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Institute of Electrical and Electronics Engineers",
+     "tipo": "Organizacao",
+     "aliases": [
+      "IEEE"
+     ],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    },
+    {
+     "nome": "Association for Computing Machinery",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ACM"
+     ],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    },
+    {
+     "nome": "Seattle",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Ole-Johan Dahl",
+     "tipo": "RECEBEU",
+     "destino": "Medalha IEEE John von Neumann",
+     "propriedades": {
+      "ano": 2001
+     },
+     "evidencia": "Em novembro de 2001, Dahl e Nyggard foram premiados com a medalha IEEE John von Neumann",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Kristen Nygaard",
+     "tipo": "RECEBEU",
+     "destino": "Medalha IEEE John von Neumann",
+     "propriedades": {
+      "ano": 2001
+     },
+     "evidencia": "Em novembro de 2001, Dahl e Nyggard foram premiados com a medalha IEEE John von Neumann",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Ole-Johan Dahl",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {},
+     "evidencia": "Em fevereiro de 2002, eles receberam o premio 2001 Turing A.M.",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Kristen Nygaard",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {},
+     "evidencia": "Em fevereiro de 2002, eles receberam o premio 2001 Turing A.M.",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "115437_5",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "115437_6",
+   "entidades": [
+    {
+     "nome": "Simula",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {},
+     "descricao": "Família de linguagens projetadas para apoiar a simulação de eventos discretos; considerada a 1ª linguagem orientada a objetos (Simula 67)."
+    },
+    {
+     "nome": "ALGOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

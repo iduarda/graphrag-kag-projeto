@@ -1,0 +1,121 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:29:03+00:00",
+ "chunks": [
+  {
+   "chunk_id": "2454784_0",
+   "entidades": [
+    {
+     "nome": "Robert Kahn",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Robert Elliot Kahn",
+      "Kahn"
+     ],
+     "descricao": "Informático estadunidense, laureado com o Prêmio Turing de 2004.",
+     "propriedades": {
+      "ano_nascimento": 1938
+     }
+    },
+    {
+     "nome": "Vint Cerf",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Nova Iorque",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Transmission Control Protocol",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "TCP"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio de Engenharia Rainha Elizabeth",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Robert Kahn",
+     "tipo": "NASCEU_EM",
+     "destino": "Nova Iorque",
+     "propriedades": {},
+     "evidencia": "Robert Elliot Kahn (Nova Iorque, 23 de dezembro de 1938)",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Robert Kahn",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 2004
+     },
+     "evidencia": "Foi laureado com o Prêmio Turing de 2004",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Robert Kahn",
+     "tipo": "COLABOROU_COM",
+     "destino": "Vint Cerf",
+     "propriedades": {
+      "contexto": "desenvolvimento do TCP"
+     },
+     "evidencia": "juntamente com Vint Cerf, por desenvolverem o Transmission Control Protocol (TCP)",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Robert Kahn",
+     "tipo": "CRIOU",
+     "destino": "Transmission Control Protocol",
+     "propriedades": {},
+     "evidencia": "juntamente com Vint Cerf, por desenvolverem o Transmission Control Protocol (TCP)",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Vint Cerf",
+     "tipo": "CRIOU",
+     "destino": "Transmission Control Protocol",
+     "propriedades": {},
+     "evidencia": "juntamente com Vint Cerf, por desenvolverem o Transmission Control Protocol (TCP)",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Robert Kahn",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio de Engenharia Rainha Elizabeth",
+     "propriedades": {
+      "ano": 2013
+     },
+     "evidencia": "Em 2013 Kahn foi um dos cinco pioneiros da Internet e da Web que receberam o prêmio inaugural Prêmio de Engenharia Rainha Elizabeth",
+     "confianca": 0.9
+    }
+   ]
+  }
+ ]
+}

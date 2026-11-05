@@ -1,0 +1,694 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:26:13+00:00",
+ "chunks": [
+  {
+   "chunk_id": "1933_0",
+   "entidades": [
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Windows"
+     ],
+     "descricao": "Família de sistemas operacionais desenvolvidos, comercializados e vendidos pela Microsoft.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Windows 1.0",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Ambiente operacional introduzido pela Microsoft como um shell para MS-DOS.",
+     "propriedades": {
+      "ano": 1985,
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Windows NT",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "macOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1984,
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "Microsoft Windows",
+     "propriedades": {},
+     "evidencia": "uma família de sistemas operacionais desenvolvidos, comercializados e vendidos pela Microsoft",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "Windows 1.0",
+     "propriedades": {
+      "ano": 1985
+     },
+     "evidencia": "A Microsoft introduziu um ambiente operacional chamado Windows 1.0 em 20 de novembro de 1985",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "1933_1",
+   "entidades": [
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Windows"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Android",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows 11",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows Server 2025",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Xbox One",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Xbox Series X",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Microsoft Windows",
+     "tipo": "EXECUTA_EM",
+     "destino": "Xbox One",
+     "propriedades": {},
+     "evidencia": "Uma versão especializada do Windows é executada no console de jogos Xbox One, Xbox Series X e Series S",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Microsoft Windows",
+     "tipo": "EXECUTA_EM",
+     "destino": "Xbox Series X",
+     "propriedades": {},
+     "evidencia": "Uma versão especializada do Windows é executada no console de jogos Xbox One, Xbox Series X e Series S",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "1933_2",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Windows"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Windows NT",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows 95",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows 98",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows XP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "Microsoft Windows",
+     "propriedades": {
+      "ano": 1981
+     },
+     "evidencia": "A Microsoft começou a desenvolver o Microsoft Windows em setembro de 1981",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "1933_3",
+   "entidades": [
+    {
+     "nome": "Windows 95",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Windows completamente novo que introduziu o Menu Iniciar e a Barra de Tarefas.",
+     "propriedades": {
+      "ano": 1995,
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows 3.1",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Windows XP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Windows 95",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Windows 3.1",
+     "propriedades": {},
+     "evidencia": "O salto do Windows 3.1 ao Windows 95 foi muito grande",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "1933_4",
+   "entidades": [
+    {
+     "nome": "Windows 98",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1998,
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows 95",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Windows 98",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Windows 95",
+     "propriedades": {},
+     "evidencia": "Foram corrigidas muitas das falhas do seu antecessor, o Windows 95",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "1933_5",
+   "entidades": [
+    {
+     "nome": "Windows XP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Primeiro da família a oferecer suporte a sistemas de 64 bits.",
+     "propriedades": {
+      "ano": 2001,
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows 2000",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows ME",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows Vista",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows 7",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Windows XP",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Windows 2000",
+     "propriedades": {},
+     "evidencia": "É o sucessor de ambos os Windows 2000 e Windows ME",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Windows XP",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Windows ME",
+     "propriedades": {},
+     "evidencia": "É o sucessor de ambos os Windows 2000 e Windows ME",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Windows Vista",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Windows XP",
+     "propriedades": {},
+     "evidencia": "Foi sucedido pelo Windows Vista",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "1933_6",
+   "entidades": [
+    {
+     "nome": "Windows Vista",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Longhorn"
+     ],
+     "propriedades": {
+      "ano": 2007,
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows XP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows 7",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Windows Vista",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Windows XP",
+     "propriedades": {},
+     "evidencia": "O lançamento do Windows Vista ocorreu mais de cinco anos após a introdução do seu predecessor, o Windows XP",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "1933_7",
+   "entidades": [
+    {
+     "nome": "Windows Vista",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows XP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1933_8",
+   "entidades": [
+    {
+     "nome": "Windows 7",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "ano": 2009,
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows Vista",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows 8",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "ano": 2012,
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Windows 7",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Windows Vista",
+     "propriedades": {},
+     "evidencia": "menos de 3 anos após o lançamento do seu predecessor, o Windows Vista",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Windows 8",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Windows 7",
+     "propriedades": {},
+     "evidencia": "O seu sucessor, Windows 8 por sua vez, foi lançado em 26 de outubro de 2012",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "1933_9",
+   "entidades": [
+    {
+     "nome": "Windows 10",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "ano": 2015,
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows 8.1",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows 7",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows Vista",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Windows 10",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Windows 8.1",
+     "propriedades": {},
+     "evidencia": "Houve muitas alterações quando se compara o design com a versão anterior (Windows 8.1)",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "Windows 10",
+     "propriedades": {
+      "ano": 2015
+     },
+     "evidencia": "No dia 29 de julho de 2015, a versão final do Windows 10 foi lançada pela Microsoft",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "1933_10",
+   "entidades": [
+    {
+     "nome": "Windows 11",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "ano": 2021,
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Windows 10",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1933_11",
+   "entidades": [
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Windows"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Assembly",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Microsoft Windows",
+     "tipo": "ESCRITO_EM",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "A principal linguagem de programação usada para escrever o código-fonte das várias versões do Windows é o C e algumas partes com C++ e Assembly",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Microsoft Windows",
+     "tipo": "ESCRITO_EM",
+     "destino": "C++",
+     "propriedades": {},
+     "evidencia": "A principal linguagem de programação usada para escrever o código-fonte das várias versões do Windows é o C e algumas partes com C++ e Assembly",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Microsoft Windows",
+     "tipo": "ESCRITO_EM",
+     "destino": "Assembly",
+     "propriedades": {},
+     "evidencia": "A principal linguagem de programação usada para escrever o código-fonte das várias versões do Windows é o C e algumas partes com C++ e Assembly",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "1933_12",
+   "entidades": [
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Windows"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}
