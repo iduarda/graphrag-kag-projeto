@@ -1,0 +1,6158 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:26:38+00:00",
+ "chunks": [
+  {
+   "chunk_id": "1060_0",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Intel Corporation"
+     ],
+     "descricao": "Empresa multinacional de tecnologia dos Estados Unidos que projeta e fabrica componentes de computador.",
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1968
+     }
+    },
+    {
+     "nome": "Santa Clara",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Gordon Moore",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Engenheiro que fundou a Intel.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Noyce",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Engenheiro que fundou a Intel.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Arthur Rock",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Investidor que fundou a Intel com Moore e Noyce.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Andrew Grove",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Andy Grove"
+     ],
+     "descricao": "Terceiro funcionário da Intel, que dirigiu a empresa nas décadas de 1980 e 1990.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel 4004",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro microprocessador comercial em um único chip.",
+     "propriedades": {
+      "ano": 1971,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "X86",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "arquitetura X86"
+     ],
+     "descricao": "Arquitetura usada na maioria dos computadores pessoais.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Intel Core",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Processadores de consumo da Intel.",
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Microprocessador",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "microprocessadores"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Intel",
+     "tipo": "SEDIADA_EM",
+     "destino": "Santa Clara",
+     "propriedades": {},
+     "evidencia": "com sede em Santa Clara, na Califórnia",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Intel",
+     "tipo": "SEDIADA_EM",
+     "destino": "Estados Unidos",
+     "propriedades": {},
+     "evidencia": "empresa multinacional de tecnologia dos Estados Unidos, com sede em Santa Clara",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Gordon Moore",
+     "tipo": "FUNDOU",
+     "destino": "Intel",
+     "propriedades": {
+      "ano": 1968
+     },
+     "evidencia": "Os engenheiros Gordon Moore e Robert Noyce fundaram a Intel em 1968 com o investidor Arthur Rock",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Robert Noyce",
+     "tipo": "FUNDOU",
+     "destino": "Intel",
+     "propriedades": {
+      "ano": 1968
+     },
+     "evidencia": "Os engenheiros Gordon Moore e Robert Noyce fundaram a Intel em 1968 com o investidor Arthur Rock",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Arthur Rock",
+     "tipo": "FUNDOU",
+     "destino": "Intel",
+     "propriedades": {
+      "ano": 1968
+     },
+     "evidencia": "Os engenheiros Gordon Moore e Robert Noyce fundaram a Intel em 1968 com o investidor Arthur Rock",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Andrew Grove",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {},
+     "evidencia": "Andrew Grove foi o terceiro funcionário e dirigiu a empresa durante boa parte das décadas de 1980 e 1990",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "X86",
+     "propriedades": {},
+     "evidencia": "A empresa desenvolveu a arquitetura X86, usada na maioria dos computadores pessoais",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Intel 4004",
+     "propriedades": {
+      "ano": 1971
+     },
+     "evidencia": "Em 1971, a Intel lançou o Intel 4004, primeiro microprocessador comercial em um único chip",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Intel Core",
+     "propriedades": {},
+     "evidencia": "Seus produtos de consumo incluem os processadores Intel Core",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_1",
+   "entidades": [
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Windows"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Concorrente da Intel.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_2",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1968
+     }
+    },
+    {
+     "nome": "Mountain View",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Gordon Moore",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Moore"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Noyce",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Noyce"
+     ],
+     "descricao": "Físico e coinventor do circuito integrado.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Arthur Rock",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Rock"
+     ],
+     "descricao": "Investidor de capital de risco.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Circuito integrado",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Fairchild Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Andrew Grove",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Andy Grove"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Intel",
+     "tipo": "SEDIADA_EM",
+     "destino": "Mountain View",
+     "propriedades": {},
+     "evidencia": "A Intel foi constituída em Mountain View, na Califórnia, em 18 de julho de 1968",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Gordon Moore",
+     "tipo": "FUNDOU",
+     "destino": "Intel",
+     "propriedades": {},
+     "evidencia": "Seus fundadores foram o químico Gordon Moore, o físico e coinventor do circuito integrado Robert Noyce e o investidor de capital de risco Arthur Rock",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Robert Noyce",
+     "tipo": "FUNDOU",
+     "destino": "Intel",
+     "propriedades": {},
+     "evidencia": "Seus fundadores foram o químico Gordon Moore, o físico e coinventor do circuito integrado Robert Noyce e o investidor de capital de risco Arthur Rock",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Arthur Rock",
+     "tipo": "FUNDOU",
+     "destino": "Intel",
+     "propriedades": {},
+     "evidencia": "Seus fundadores foram o químico Gordon Moore, o físico e coinventor do circuito integrado Robert Noyce e o investidor de capital de risco Arthur Rock",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Robert Noyce",
+     "tipo": "CRIOU",
+     "destino": "Circuito integrado",
+     "propriedades": {},
+     "evidencia": "o físico e coinventor do circuito integrado Robert Noyce",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Gordon Moore",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Fairchild Semiconductor",
+     "propriedades": {},
+     "evidencia": "Moore e Noyce haviam deixado a Fairchild Semiconductor, onde integravam o grupo conhecido como Os Oito Traidores",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Robert Noyce",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Fairchild Semiconductor",
+     "propriedades": {},
+     "evidencia": "Moore e Noyce haviam deixado a Fairchild Semiconductor, onde integravam o grupo conhecido como Os Oito Traidores",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Andrew Grove",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {},
+     "evidencia": "Andy Grove, terceiro funcionário da companhia, viria a dirigi-la durante boa parte das décadas de 1980 e 1990",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_3",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel 4004",
+     "tipo": "Hardware",
+     "aliases": [
+      "4004"
+     ],
+     "descricao": "Primeiro microprocessador comercial em um único chip.",
+     "propriedades": {
+      "ano": 1971,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Microprocessador",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Circuito integrado",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Fairchild Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Fairchild"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Intel 4004",
+     "propriedades": {
+      "ano": 1971
+     },
+     "evidencia": "Em 1971, a Intel lançou o Intel 4004, primeiro microprocessador comercial em um único chip",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_4",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Gordon Moore",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Moore"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Andrew Grove",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Andy Grove"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel 80386",
+     "tipo": "Hardware",
+     "aliases": [
+      "80386"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Pentium",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Windows"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Malásia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Gordon Moore",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor-executivo",
+      "ano_fim": 1987
+     },
+     "evidencia": "Moore entregou o cargo de diretor-executivo a Andy Grove em 1987",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Andrew Grove",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor-executivo",
+      "ano_inicio": 1987
+     },
+     "evidencia": "Moore entregou o cargo de diretor-executivo a Andy Grove em 1987",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_5",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Vale do Silício",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_6",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel 80386",
+     "tipo": "Hardware",
+     "aliases": [
+      "80386"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Andrew Grove",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Andy Grove"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Craig Barrett",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_7",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Craig Barrett",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel 80386",
+     "tipo": "Hardware",
+     "aliases": [
+      "80386"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_8",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Paul Otellini",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Marvell Technology Group",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "SpectraWatt Incorporated",
+     "tipo": "Organizacao",
+     "aliases": [
+      "SpectraWatt"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Paul Otellini",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor-executivo"
+     },
+     "evidencia": "Em 2005, o diretor-executivo Paul Otellini reorganizou a Intel",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Steve Jobs",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Apple",
+     "propriedades": {
+      "cargo": "diretor-executivo"
+     },
+     "evidencia": "Steve Jobs, então diretor-executivo da Apple",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_9",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Chandler",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Aliança por uma Internet Acessível",
+     "tipo": "Organizacao",
+     "aliases": [
+      "A4AI"
+     ],
+     "descricao": "Coalizão criada em outubro de 2013 para baratear o acesso à internet nos países em desenvolvimento.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Facebook",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Tim Berners-Lee",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_10",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "ZTE",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel Atom",
+     "tipo": "Hardware",
+     "aliases": [
+      "Atom"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Android",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Android 2.3"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "São Francisco",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Kirk Skaugen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Android",
+     "tipo": "EXECUTA_EM",
+     "destino": "Intel Atom",
+     "propriedades": {},
+     "evidencia": "uma versão do Android 2.3 compatível com processadores Atom",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Kirk Skaugen",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {},
+     "evidencia": "Kirk Skaugen, da Intel, afirmou em 2013",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_11",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Altera",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Qualcomm",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_12",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_13",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Cannon Lake",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro microprocessador produzido no processo de 10 nm.",
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Ice Lake",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Processadores móveis da décima geração Core.",
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_14",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Itanium",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_15",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Pat Gelsinger",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Alemanha",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Pat Gelsinger",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor-executivo"
+     },
+     "evidencia": "o diretor-executivo Pat Gelsinger apresentou a estratégia IDM 2.0",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_16",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Brookfield Asset Management",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "TSMC",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Nvidia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Xeon 6",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Processador para centros de dados.",
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Lunar Lake",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Processadores para computadores com recursos de IA.",
+     "propriedades": {
+      "ano": 2024,
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Xeon 6",
+     "propriedades": {},
+     "evidencia": "anunciou o processador Xeon 6 para centros de dados",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Lunar Lake",
+     "propriedades": {},
+     "evidencia": "divulgou a arquitetura dos processadores Lunar Lake para computadores com recursos de IA",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_17",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Lunar Lake",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 2024,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Nvidia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Apollo Global Management",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Irlanda",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_18",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Apollo Global Management",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "SambaNova Systems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Irlanda",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_19",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Pat Gelsinger",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "David Zinsner",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Michelle Johnston Holthaus",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lip-Bu Tan",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Tan"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Nvidia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Pat Gelsinger",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor-executivo",
+      "ano_fim": 2024
+     },
+     "evidencia": "Pat Gelsinger deixou a direção da Intel em 1º de dezembro de 2024",
+     "confianca": 0.85
+    },
+    {
+     "origem": "David Zinsner",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor-executivo interino"
+     },
+     "evidencia": "David Zinsner e Michelle Johnston Holthaus assumiram como diretores-executivos interinos enquanto o conselho procurava um sucessor",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Michelle Johnston Holthaus",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor-executivo interino"
+     },
+     "evidencia": "David Zinsner e Michelle Johnston Holthaus assumiram como diretores-executivos interinos enquanto o conselho procurava um sucessor",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Lip-Bu Tan",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor-executivo",
+      "ano_inicio": 2025
+     },
+     "evidencia": "A Intel nomeou Lip-Bu Tan diretor-executivo em 13 de março de 2025",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_20",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Lip-Bu Tan",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Tan"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Donald Trump",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Trump"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Cadence Design Systems",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Cadence"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "China",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Howard Lutnick",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Scott Bessent",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Lip-Bu Tan",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Cadence Design Systems",
+     "propriedades": {},
+     "evidencia": "Tan havia dirigido a Cadence Design Systems quando a companhia vendeu ilegalmente ferramentas de projeto de semicondutores à China",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_21",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "SoftBank",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_22",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_23",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Marcian Hoff",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Federico Faggin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Stanley Mazor",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Masatoshi Shima",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel 4004",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro microprocessador da Intel, encomendado pela Busicom para uma calculadora.",
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Busicom",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Fabricante japonesa que encomendou o Intel 4004.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Andrew Grove",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Andy Grove",
+      "Grove"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel 8086",
+     "tipo": "Hardware",
+     "aliases": [
+      "8086"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Marcian Hoff",
+     "tipo": "CRIOU",
+     "destino": "Intel 4004",
+     "propriedades": {},
+     "evidencia": "Marcian Hoff, Federico Faggin, Stanley Mazor e Masatoshi Shima desenvolveram o primeiro microprocessador da companhia",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Federico Faggin",
+     "tipo": "CRIOU",
+     "destino": "Intel 4004",
+     "propriedades": {},
+     "evidencia": "Marcian Hoff, Federico Faggin, Stanley Mazor e Masatoshi Shima desenvolveram o primeiro microprocessador da companhia",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Stanley Mazor",
+     "tipo": "CRIOU",
+     "destino": "Intel 4004",
+     "propriedades": {},
+     "evidencia": "Marcian Hoff, Federico Faggin, Stanley Mazor e Masatoshi Shima desenvolveram o primeiro microprocessador da companhia",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Masatoshi Shima",
+     "tipo": "CRIOU",
+     "destino": "Intel 4004",
+     "propriedades": {},
+     "evidencia": "Marcian Hoff, Federico Faggin, Stanley Mazor e Masatoshi Shima desenvolveram o primeiro microprocessador da companhia",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_24",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel 4004",
+     "tipo": "Hardware",
+     "aliases": [
+      "4004"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8008",
+     "tipo": "Hardware",
+     "aliases": [
+      "8008"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8080",
+     "tipo": "Hardware",
+     "aliases": [
+      "8080"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel iAPX 432",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Processador de 32 bits que ficou abaixo das metas de desempenho e fracassou comercialmente.",
+     "propriedades": {
+      "ano": 1981,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "X86",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "arquitetura x86"
+     ],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Intel 8086",
+     "tipo": "Hardware",
+     "aliases": [
+      "8086"
+     ],
+     "propriedades": {
+      "ano": 1978,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8088",
+     "tipo": "Hardware",
+     "aliases": [
+      "8088"
+     ],
+     "propriedades": {
+      "ano": 1978,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel 80286",
+     "tipo": "Hardware",
+     "aliases": [
+      "80286"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "IBM PC/AT",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Compaq",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel 80386",
+     "tipo": "Hardware",
+     "aliases": [
+      "80386"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Intel iAPX 432",
+     "propriedades": {
+      "ano": 1981
+     },
+     "evidencia": "Em 1975, a Intel iniciou o projeto de um processador de 32 bits, lançado em 1981 como Intel iAPX 432",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Intel 8086",
+     "propriedades": {
+      "ano": 1978
+     },
+     "evidencia": "A Intel concluiu o 8086 e sua variante 8088 em 1978",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Intel 8088",
+     "propriedades": {
+      "ano": 1978
+     },
+     "evidencia": "A Intel concluiu o 8086 e sua variante 8088 em 1978",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Intel 80286",
+     "propriedades": {},
+     "evidencia": "No ano seguinte, a Intel apresentou o 80286, usado no IBM PC/AT a partir de 1984",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Intel 8008",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Intel 4004",
+     "propriedades": {},
+     "evidencia": "O 4004 e seus sucessores, o 8008 e o 8080",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Intel 8080",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Intel 4004",
+     "propriedades": {},
+     "evidencia": "O 4004 e seus sucessores, o 8008 e o 8080",
+     "confianca": 0.85
+    },
+    {
+     "origem": "IBM PC/AT",
+     "tipo": "UTILIZA",
+     "destino": "Intel 80286",
+     "propriedades": {},
+     "evidencia": "o 80286, usado no IBM PC/AT a partir de 1984",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_25",
+   "entidades": [
+    {
+     "nome": "Andrew Grove",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Grove"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel 80386",
+     "tipo": "Hardware",
+     "aliases": [
+      "386"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel 8080",
+     "tipo": "Hardware",
+     "aliases": [
+      "8080"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8086",
+     "tipo": "Hardware",
+     "aliases": [
+      "8086"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Santa Clara",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Hillsboro",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Chandler",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Compaq",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Andrew Grove",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {},
+     "evidencia": "Andrew Grove encerrou grande parte do negócio de memórias e transferiu recursos para os microprocessadores",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_26",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel 486",
+     "tipo": "Hardware",
+     "aliases": [
+      "486"
+     ],
+     "propriedades": {
+      "ano": 1989,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Pentium",
+     "tipo": "Hardware",
+     "aliases": [
+      "P5"
+     ],
+     "propriedades": {
+      "ano": 1993,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Pentium Pro",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Processador baseado no P6.",
+     "propriedades": {
+      "ano": 1995,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Pentium II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1997,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Itanium",
+     "tipo": "Hardware",
+     "aliases": [
+      "IA-64"
+     ],
+     "descricao": "Arquitetura IA-64 desenvolvida como sucessora da x86.",
+     "propriedades": {
+      "ano": 2001,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Santa Clara",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Hillsboro",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Intel 486",
+     "propriedades": {
+      "ano": 1989
+     },
+     "evidencia": "A Intel lançou o 486 em 1989",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Pentium",
+     "propriedades": {
+      "ano": 1993
+     },
+     "evidencia": "O P5, chamado internamente de Operação Bicicleta por suas duas linhas de execução, chegou em 1993 com o nome Pentium",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Pentium II",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Pentium Pro",
+     "propriedades": {},
+     "evidencia": "O Pentium Pro, baseado no P6, veio em 1995 e deu origem ao Pentium II em 1997",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Itanium",
+     "propriedades": {
+      "ano": 2001
+     },
+     "evidencia": "A arquitetura IA-64 resultante chegou ao mercado em junho de 2001 como Itanium",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_27",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Itanium",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "David House",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Steven McGeady",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "David House",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "chefe da divisão de microprocessadores"
+     },
+     "evidencia": "David House, então chefe da divisão de microprocessadores, criou o lema",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_28",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Pentium",
+     "tipo": "Hardware",
+     "aliases": [
+      "Pentium P5"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Thomas Nicely",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lynchburg College",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "John Markoff",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "The New York Times",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Thomas Nicely",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Lynchburg College",
+     "propriedades": {
+      "cargo": "professor de matemática"
+     },
+     "evidencia": "Thomas Nicely, professor de matemática no Lynchburg College",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_29",
+   "entidades": [
+    {
+     "nome": "Intel Core",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Yonah",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Processador móvel de 32 bits e dois núcleos derivado do Pentium M.",
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Pentium M",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Core 2",
+     "tipo": "Hardware",
+     "aliases": [
+      "família Core 2"
+     ],
+     "propriedades": {
+      "ano": 2006,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Penryn",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Microarquitetura de 45 nm.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Nehalem",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Westmere",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Microarquitetura que reduziu o processo para 32 nm.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Sandy Bridge",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Ivy Bridge",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Penryn",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Core 2",
+     "propriedades": {},
+     "evidencia": "Os chips Core 2 foram produzidos em 65 nm e sucedidos pelo Penryn de 45 nm em 2008",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Westmere",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Nehalem",
+     "propriedades": {},
+     "evidencia": "A microarquitetura Westmere sucedeu a Nehalem em 2010",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_30",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel Core",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Skylake",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Kaby Lake",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Amber Lake",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Comet Lake",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Cannon Lake",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Ice Lake",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Baseado na microarquitetura Sunny Cove, fabricado em 10 nm.",
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_31",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Tiger Lake",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 2020,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Rocket Lake",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Comet Lake",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Alder Lake",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Tiger Lake",
+     "propriedades": {
+      "ano": 2020
+     },
+     "evidencia": "A Intel lançou os processadores móveis Core de 11ª geração, chamados Tiger Lake, em setembro de 2020",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Rocket Lake",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Comet Lake",
+     "propriedades": {},
+     "evidencia": "Fabricada em 14 nm e baseada na microarquitetura Cypress Cove, ela substituiu os modelos Comet Lake",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_32",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [
+      "Macs"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PowerPC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "X86",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Xserve",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Xeon",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Mac Pro",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Jobs",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Apple",
+     "propriedades": {
+      "cargo": "diretor-executivo"
+     },
+     "evidencia": "Steve Jobs, então diretor-executivo da Apple",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Xserve",
+     "tipo": "UTILIZA",
+     "destino": "Xeon",
+     "propriedades": {},
+     "evidencia": "o servidor Xserve recebeu processadores Xeon em novembro",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_33",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Tim Cook",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [
+      "Macs"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple Silicon",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Chips próprios da Apple baseados na arquitetura Arm.",
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Apple M1",
+     "tipo": "Hardware",
+     "aliases": [
+      "M1"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "X86",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_34",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "SK Hynix",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Apple M1",
+     "tipo": "Hardware",
+     "aliases": [
+      "M1"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_35",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel Scientific Computers",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Intel Supercomputing Systems Division"
+     ],
+     "descricao": "Divisão da Intel para computadores paralelos baseados em microprocessadores Intel.",
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1984
+     }
+    },
+    {
+     "nome": "Justin Rattner",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel iPSC/1",
+     "tipo": "Hardware",
+     "aliases": [
+      "iPSC/1"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Intel iPSC/2",
+     "tipo": "Hardware",
+     "aliases": [
+      "iPSC/2"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Intel iPSC/860",
+     "tipo": "Hardware",
+     "aliases": [
+      "iPSC/860"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Intel Paragon",
+     "tipo": "Hardware",
+     "aliases": [
+      "Paragon"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "ASCI Red",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Justin Rattner",
+     "tipo": "FUNDOU",
+     "destino": "Intel Scientific Computers",
+     "propriedades": {
+      "ano": 1984
+     },
+     "evidencia": "A divisão Intel Scientific Computers foi fundada em 1984 por Justin Rattner",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Intel Scientific Computers",
+     "tipo": "DESENVOLVEU",
+     "destino": "Intel iPSC/1",
+     "propriedades": {},
+     "evidencia": "A divisão projetou outros supercomputadores, incluindo o Intel iPSC/1, iPSC/2, iPSC/860, Paragon e ASCI Red",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Intel Scientific Computers",
+     "tipo": "DESENVOLVEU",
+     "destino": "Intel iPSC/2",
+     "propriedades": {},
+     "evidencia": "A divisão projetou outros supercomputadores, incluindo o Intel iPSC/1, iPSC/2, iPSC/860, Paragon e ASCI Red",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Intel Scientific Computers",
+     "tipo": "DESENVOLVEU",
+     "destino": "Intel iPSC/860",
+     "propriedades": {},
+     "evidencia": "A divisão projetou outros supercomputadores, incluindo o Intel iPSC/1, iPSC/2, iPSC/860, Paragon e ASCI Red",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Intel Scientific Computers",
+     "tipo": "DESENVOLVEU",
+     "destino": "Intel Paragon",
+     "propriedades": {},
+     "evidencia": "A divisão projetou outros supercomputadores, incluindo o Intel iPSC/1, iPSC/2, iPSC/860, Paragon e ASCI Red",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Intel Scientific Computers",
+     "tipo": "DESENVOLVEU",
+     "destino": "ASCI Red",
+     "propriedades": {},
+     "evidencia": "A divisão projetou outros supercomputadores, incluindo o Intel iPSC/1, iPSC/2, iPSC/860, Paragon e ASCI Red",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_36",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "OpenFog Consortium",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Consórcio criado em 2015 para desenvolver a computação em névoa.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Arm",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Dell",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Cisco",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Universidade de Princeton",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Jeff Fedders",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Jeff Fedders",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "estrategista-chefe do grupo de internet das coisas"
+     },
+     "evidencia": "Jeff Fedders, estrategista-chefe do grupo de internet das coisas da Intel",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_37",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Jeff Fedders",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Mobileye",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Jeff Fedders",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "estrategista-chefe do grupo de internet das coisas"
+     },
+     "evidencia": "Jeff Fedders, estrategista-chefe do grupo de internet das coisas da Intel",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_38",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Altera",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Programmable Solutions Group",
+     "tipo": "Organizacao",
+     "aliases": [
+      "PSG"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Silver Lake",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_39",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Silver Lake",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Pentium II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Pentium III",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Pentium 4",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intergraph",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Comissão Federal do Comércio dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_40",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Bill Gaede",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gaede"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Chandler",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Intel 486",
+     "tipo": "Hardware",
+     "aliases": [
+      "i486"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Pentium",
+     "tipo": "Hardware",
+     "aliases": [
+      "Pentium P5"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bill Gaede",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AMD",
+     "propriedades": {},
+     "evidencia": "O engenheiro argentino Bill Gaede havia trabalhado na AMD e na fábrica da Intel em Chandler",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Bill Gaede",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {},
+     "evidencia": "O engenheiro argentino Bill Gaede havia trabalhado na AMD e na fábrica da Intel em Chandler",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_41",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_42",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Dell",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Lenovo",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "HP Inc.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Departamento de Defesa dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_43",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Bob Swan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bob Swan",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor-executivo"
+     },
+     "evidencia": "O então diretor-executivo Bob Swan atribuiu a demora à tentativa de avançar depressa demais",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_44",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Bob Swan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Samsung Electronics",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "TSMC",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bob Swan",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor-executivo"
+     },
+     "evidencia": "O então diretor-executivo Bob Swan atribuiu a demora à tentativa de avançar depressa demais",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_45",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "VIA Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Nvidia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Broadcom",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Marvell Technology Group",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Samsung Electronics",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Arm",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "X86",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_46",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Irlanda",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Israel",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "China",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Costa Rica",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Malásia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Vietnã",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Brasil",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "TSMC",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Foxconn",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Samsung Electronics",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Samsung"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Nvidia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_47",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Robert Noyce",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Gordon Moore",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Andrew Grove",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Andy Grove"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Craig Barrett",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Paul Otellini",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jane Shaw",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Andy Bryant",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sanjay Jha",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Pat Gelsinger",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Patrick Gelsinger"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Robert Noyce",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "dirigente",
+      "ano_inicio": 1968
+     },
+     "evidencia": "Robert Noyce dirigia a Intel quando a empresa foi fundada, em 1968",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Gordon Moore",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "ano_inicio": 1975
+     },
+     "evidencia": "O cofundador Gordon Moore assumiu o cargo em 1975",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Andrew Grove",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "presidente da companhia",
+      "ano_inicio": 1979
+     },
+     "evidencia": "Andrew Grove tornou-se presidente da companhia em 1979 e diretor-executivo em 1987",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Andrew Grove",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor-executivo",
+      "ano_inicio": 1987
+     },
+     "evidencia": "Andrew Grove tornou-se presidente da companhia em 1979 e diretor-executivo em 1987",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Craig Barrett",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor-executivo",
+      "ano_inicio": 1998
+     },
+     "evidencia": "Grove sucedeu Moore no conselho em 1998, e Craig Barrett assumiu a direção executiva",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Paul Otellini",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor-executivo",
+      "ano_inicio": 2005,
+      "ano_fim": 2013
+     },
+     "evidencia": "Em 18 de maio de 2005, Barrett entregou o comando a Paul Otellini",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Jane Shaw",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "presidente do conselho",
+      "ano_inicio": 2009
+     },
+     "evidencia": "Jane Shaw sucedeu Barrett em maio de 2009",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Andy Bryant",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "presidente do conselho"
+     },
+     "evidencia": "Andy Bryant, que havia sido diretor financeiro e diretor administrativo, tomou o lugar de Shaw",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_48",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Paul Otellini",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Brian Krzanich",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Renée James",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bob Swan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Pat Gelsinger",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gelsinger"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "VMware",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Andy Bryant",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Donahoe",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Frank Yeary",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Charlene Barshefsky",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Susan Decker",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Reed Hundt",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "James Plummer",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "David Pottruck",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "David Yoffie",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Will.i.am",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Brian Krzanich",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor-executivo",
+      "ano_inicio": 2013
+     },
+     "evidencia": "O conselho escolheu Brian Krzanich, então vice-presidente executivo e diretor de operações, como sexto diretor-executivo da Intel em 2 de maio de 2013",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Brian Krzanich",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor-executivo",
+      "ano_fim": 2018
+     },
+     "evidencia": "Brian Krzanich deixou a direção da Intel em 21 de junho de 2018",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Renée James",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "presidente"
+     },
+     "evidencia": "Renée James, chefe da área de programas, tornou-se presidente da empresa",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Bob Swan",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor-executivo",
+      "ano_inicio": 2019
+     },
+     "evidencia": "Em 31 de janeiro de 2019, Bob Swan deixou a função de diretor financeiro e foi confirmado como o sétimo diretor-executivo da Intel",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Pat Gelsinger",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor-executivo",
+      "ano_inicio": 2021
+     },
+     "evidencia": "Em 13 de janeiro de 2021, a Intel anunciou que Pat Gelsinger substituiria Bob Swan em 15 de fevereiro",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Pat Gelsinger",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor de tecnologia"
+     },
+     "evidencia": "Gelsinger havia sido diretor de tecnologia da Intel e diretor-executivo da VMware",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Pat Gelsinger",
+     "tipo": "TRABALHOU_EM",
+     "destino": "VMware",
+     "propriedades": {
+      "cargo": "diretor-executivo"
+     },
+     "evidencia": "Gelsinger havia sido diretor de tecnologia da Intel e diretor-executivo da VMware",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Andy Bryant",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "membro do conselho"
+     },
+     "evidencia": "o conselho de administração era formado por Andy Bryant, John Donahoe, Frank Yeary, Charlene Barshefsky, Susan Decker, Reed Hundt, Paul Otellini, James Plummer, David Pottruck e David Yoffie",
+     "confianca": 0.75
+    },
+    {
+     "origem": "John Donahoe",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "membro do conselho"
+     },
+     "evidencia": "o conselho de administração era formado por Andy Bryant, John Donahoe, Frank Yeary, Charlene Barshefsky, Susan Decker, Reed Hundt, Paul Otellini, James Plummer, David Pottruck e David Yoffie",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Frank Yeary",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "membro do conselho"
+     },
+     "evidencia": "o conselho de administração era formado por Andy Bryant, John Donahoe, Frank Yeary, Charlene Barshefsky, Susan Decker, Reed Hundt, Paul Otellini, James Plummer, David Pottruck e David Yoffie",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Charlene Barshefsky",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "membro do conselho"
+     },
+     "evidencia": "o conselho de administração era formado por Andy Bryant, John Donahoe, Frank Yeary, Charlene Barshefsky, Susan Decker, Reed Hundt, Paul Otellini, James Plummer, David Pottruck e David Yoffie",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Susan Decker",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "membro do conselho"
+     },
+     "evidencia": "o conselho de administração era formado por Andy Bryant, John Donahoe, Frank Yeary, Charlene Barshefsky, Susan Decker, Reed Hundt, Paul Otellini, James Plummer, David Pottruck e David Yoffie",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Reed Hundt",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "membro do conselho"
+     },
+     "evidencia": "o conselho de administração era formado por Andy Bryant, John Donahoe, Frank Yeary, Charlene Barshefsky, Susan Decker, Reed Hundt, Paul Otellini, James Plummer, David Pottruck e David Yoffie",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Paul Otellini",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "membro do conselho"
+     },
+     "evidencia": "o conselho de administração era formado por Andy Bryant, John Donahoe, Frank Yeary, Charlene Barshefsky, Susan Decker, Reed Hundt, Paul Otellini, James Plummer, David Pottruck e David Yoffie",
+     "confianca": 0.75
+    },
+    {
+     "origem": "James Plummer",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "membro do conselho"
+     },
+     "evidencia": "o conselho de administração era formado por Andy Bryant, John Donahoe, Frank Yeary, Charlene Barshefsky, Susan Decker, Reed Hundt, Paul Otellini, James Plummer, David Pottruck e David Yoffie",
+     "confianca": 0.75
+    },
+    {
+     "origem": "David Pottruck",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "membro do conselho"
+     },
+     "evidencia": "o conselho de administração era formado por Andy Bryant, John Donahoe, Frank Yeary, Charlene Barshefsky, Susan Decker, Reed Hundt, Paul Otellini, James Plummer, David Pottruck e David Yoffie",
+     "confianca": 0.75
+    },
+    {
+     "origem": "David Yoffie",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "membro do conselho"
+     },
+     "evidencia": "o conselho de administração era formado por Andy Bryant, John Donahoe, Frank Yeary, Charlene Barshefsky, Susan Decker, Reed Hundt, Paul Otellini, James Plummer, David Pottruck e David Yoffie",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_49",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Pat Gelsinger",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gelsinger"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "VMware",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "David Zinsner",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Michelle Johnston Holthaus",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lip-Bu Tan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Programmable Solutions Group",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Pat Gelsinger",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor de tecnologia"
+     },
+     "evidencia": "Gelsinger havia sido diretor de tecnologia da Intel e diretor-executivo da VMware",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Pat Gelsinger",
+     "tipo": "TRABALHOU_EM",
+     "destino": "VMware",
+     "propriedades": {
+      "cargo": "diretor-executivo"
+     },
+     "evidencia": "Gelsinger havia sido diretor de tecnologia da Intel e diretor-executivo da VMware",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Pat Gelsinger",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor-executivo",
+      "ano_fim": 2024
+     },
+     "evidencia": "Pat Gelsinger deixou o cargo de diretor-executivo e o conselho da Intel em 1º de dezembro de 2024",
+     "confianca": 0.95
+    },
+    {
+     "origem": "David Zinsner",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor-executivo interino"
+     },
+     "evidencia": "David Zinsner e Michelle Johnston Holthaus assumiram interinamente",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Michelle Johnston Holthaus",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor-executivo interino"
+     },
+     "evidencia": "David Zinsner e Michelle Johnston Holthaus assumiram interinamente",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Lip-Bu Tan",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor-executivo",
+      "ano_inicio": 2025
+     },
+     "evidencia": "Em 13 de março de 2025, a empresa nomeou Lip-Bu Tan para o cargo, com início em 18 de março",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_50",
+   "entidades": [
+    {
+     "nome": "Frank D. Yeary",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Frank Yeary"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Darwin Capital",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "James Goetz",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sequoia Capital",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Andrea Goldsmith",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Princeton",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Alyssa Henry",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Square, Inc.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Omar Ishrak",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medtronic",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Risa Lavizzo-Mourey",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Wood Johnson Foundation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    },
+    {
+     "nome": "Tsu-Jae King Liu",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade da Califórnia em Berkeley",
+     "tipo": "Organizacao",
+     "aliases": [
+      "UC Berkeley"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Barbara G. Novick",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "BlackRock",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Gregory Smith",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Boeing",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Dion Weisler",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "HP Inc.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Lip-Bu Tan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Cadence Design Systems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Frank D. Yeary",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Darwin Capital",
+     "propriedades": {
+      "cargo": "membro administrativo"
+     },
+     "evidencia": "Frank D. Yeary (presidente), membro administrativo da Darwin Capital",
+     "confianca": 0.9
+    },
+    {
+     "origem": "James Goetz",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Sequoia Capital",
+     "propriedades": {
+      "cargo": "diretor administrativo"
+     },
+     "evidencia": "James Goetz, diretor administrativo da Sequoia Capital",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Andrea Goldsmith",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Princeton",
+     "propriedades": {
+      "cargo": "reitor de engenharia e ciências aplicadas"
+     },
+     "evidencia": "Andrea Goldsmith, reitor de engenharia e ciências aplicadas da Universidade de Princeton",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Alyssa Henry",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Square, Inc.",
+     "propriedades": {
+      "cargo": "executiva"
+     },
+     "evidencia": "Alyssa Henry, executiva da Square, Inc.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Omar Ishrak",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Medtronic",
+     "propriedades": {
+      "cargo": "presidente e ex-CEO"
+     },
+     "evidencia": "Omar Ishrak, presidente e ex-CEO da Medtronic",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Risa Lavizzo-Mourey",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Robert Wood Johnson Foundation",
+     "propriedades": {
+      "cargo": "ex-presidente e CEO"
+     },
+     "evidencia": "Risa Lavizzo-Mourey, ex-presidente e CEO da Robert Wood Johnson Foundation",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Tsu-Jae King Liu",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade da Califórnia em Berkeley",
+     "propriedades": {
+      "cargo": "professor"
+     },
+     "evidencia": "Tsu-Jae King Liu, professor da UC Berkeley College of Engineering",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Barbara G. Novick",
+     "tipo": "FUNDOU",
+     "destino": "BlackRock",
+     "propriedades": {},
+     "evidencia": "Barbara G. Novick, cofundadora da BlackRock",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Gregory Smith",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Boeing",
+     "propriedades": {
+      "cargo": "CFO"
+     },
+     "evidencia": "Gregory Smith, CFO da Boeing",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Dion Weisler",
+     "tipo": "TRABALHOU_EM",
+     "destino": "HP Inc.",
+     "propriedades": {
+      "cargo": "ex-presidente e diretor-executivo"
+     },
+     "evidencia": "Dion Weisler, ex-presidente e diretor-executivo da HP Inc.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Lip-Bu Tan",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Cadence Design Systems",
+     "propriedades": {
+      "cargo": "presidente executivo"
+     },
+     "evidencia": "Lip-Bu Tan, presidente executivo da Cadence Design Systems",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_51",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Lip-Bu Tan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Cadence Design Systems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Andrew Grove",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Andy Grove"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Noyce",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Gordon Moore",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Santa Clara",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Oregon",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Novo México",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Arizona",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Pequim",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Qiryat Gat",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Lip-Bu Tan",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Cadence Design Systems",
+     "propriedades": {
+      "cargo": "presidente executivo"
+     },
+     "evidencia": "Lip-Bu Tan, presidente executivo da Cadence Design Systems",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Intel",
+     "tipo": "SEDIADA_EM",
+     "destino": "Santa Clara",
+     "propriedades": {},
+     "evidencia": "A Intel tem sede em Santa Clara, na Califórnia",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_52",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Pat Gelsinger",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Israel",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Qiryat Gat",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_53",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Pat Gelsinger",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Human Rights Campaign",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_54",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "ECONorthwest",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Oregon",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_55",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel Israel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Subsidiária da Intel em Israel, que trabalha no país desde 1974.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Dov Frohman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Maxine Fesberg",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Yaniv Gerti",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Israel",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Haifa",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Jerusalém",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Petah Tikva",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Qiryat Gat",
+     "tipo": "Local",
+     "aliases": [
+      "Kiryat Gat"
+     ],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Maxine Fesberg",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel Israel",
+     "propriedades": {
+      "cargo": "diretora",
+      "ano_inicio": 2007,
+      "ano_fim": 2016
+     },
+     "evidencia": "Maxine Fesberg dirigiu a Intel Israel de 2007 ao fim de 2016",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Yaniv Gerti",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel Israel",
+     "propriedades": {
+      "cargo": "diretor",
+      "ano_inicio": 2017
+     },
+     "evidencia": "Yaniv Gerti assumiu em janeiro de 2017",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_56",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "McAfee",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "TPG Capital",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Infineon Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "SySDSoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Cairo",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Fulcrum Microsystems Incorporated",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Fulcrum Microsystems"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "SySDSoft",
+     "tipo": "SEDIADA_EM",
+     "destino": "Cairo",
+     "propriedades": {},
+     "evidencia": "SySDSoft, com sede no Cairo",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_57",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Telmap",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "ASML",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Omek Interactive",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Indisys",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PasswordBox",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Israel",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Telmap",
+     "tipo": "SEDIADA_EM",
+     "destino": "Israel",
+     "propriedades": {},
+     "evidencia": "Telmap, uma empresa de software de navegação com sede em Israel",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_58",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Intel Corporation"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PasswordBox",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Vuzix",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Lantiq",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Altera",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Saffron Technology",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Nervana Systems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Movidius",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Mobileye",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Bangalore",
+     "tipo": "Local",
+     "aliases": [
+      "Bangalor"
+     ],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Índia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Israel",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Alemanha",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Mobileye",
+     "tipo": "SEDIADA_EM",
+     "destino": "Israel",
+     "propriedades": {},
+     "evidencia": "Mobileye, empresa israelense de sistemas para direção autônoma",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_59",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Centaur Technology",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "VIA Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Mobileye",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Tower Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Siru Innovations",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Qualcomm",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Malásia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Israel",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_60",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Ericsson",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Altera",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Silver Lake",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_61",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel Capital",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Ivy Bridge",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Acer",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Compal",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_62",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Linux Foundation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Michael Robertson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Linspire",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Theo de Raadt",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "OpenBSD",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "FreeBSD",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Michael Robertson",
+     "tipo": "CRIOU",
+     "destino": "Linspire",
+     "propriedades": {},
+     "evidencia": "Michael Robertson, criador do Linspire",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_63",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Robert Noyce",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Gordon Moore",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "FutureBrand",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "VMLY&R",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Andrew Mirikian",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Andrew Mirikian",
+     "tipo": "TRABALHOU_EM",
+     "destino": "VMLY&R",
+     "propriedades": {},
+     "evidencia": "Andrew Mirikian, da VMLY&R",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_64",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "MicroAge",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Zilog",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Dennis Carter",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Carter"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ron Mion",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Mion"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Tempe",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Arizona",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Boulder",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Colorado",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Dennis Carter",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {},
+     "evidencia": "Dennis Carter, da Intel",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Ron Mion",
+     "tipo": "TRABALHOU_EM",
+     "destino": "MicroAge",
+     "propriedades": {
+      "cargo": "vice-presidente de marketing"
+     },
+     "evidencia": "Ron Mion, vice-presidente de marketing da MicroAge",
+     "confianca": 0.95
+    },
+    {
+     "origem": "MicroAge",
+     "tipo": "SEDIADA_EM",
+     "destino": "Tempe",
+     "propriedades": {},
+     "evidencia": "na sede da revendedora em Tempe, no Arizona",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_65",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "DahlinSmithWhite Advertising",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Salt Lake City",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Steve Grigg",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Andrew Grove",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Andy Grove"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Brett Hannath",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Tóquio",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "DahlinSmithWhite Advertising",
+     "tipo": "SEDIADA_EM",
+     "destino": "Salt Lake City",
+     "propriedades": {},
+     "evidencia": "A agência DahlinSmithWhite Advertising, de Salt Lake City, criou a primeira campanha",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Steve Grigg",
+     "tipo": "TRABALHOU_EM",
+     "destino": "DahlinSmithWhite Advertising",
+     "propriedades": {
+      "cargo": "diretor de arte"
+     },
+     "evidencia": "Seu diretor de arte Steve Grigg desenhou o anel do emblema",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Brett Hannath",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor de marketing"
+     },
+     "evidencia": "o diretor de marketing Brett Hannath anunciou uma nova campanha de marketing",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_66",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Brett Hannath",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Walter Werzowa",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Musikvergnuegen",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Pentium",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Pentium III",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1999,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Escritório de Direitos Autorais dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Walter Werzowa",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Musikvergnuegen",
+     "propriedades": {},
+     "evidencia": "Walter Werzowa, da Musikvergnuegen",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Brett Hannath",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "diretor de marketing"
+     },
+     "evidencia": "o diretor de marketing Brett Hannath anunciou uma nova campanha de marketing",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_67",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Yonah",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Core 2",
+     "tipo": "Hardware",
+     "aliases": [
+      "família Core 2"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Pentium",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Celeron",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel Atom",
+     "tipo": "Hardware",
+     "aliases": [
+      "Atom"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel Core",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Bill Calder",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sandy Bridge",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bill Calder",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "porta-voz"
+     },
+     "evidencia": "O porta-voz Bill Calder afirmou que a Intel manteria Celeron, Atom e vPro em seu catálogo",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_68",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Pentium",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Celeron",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel Core",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_69",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Sebastian Lester",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Red Peak Branding",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Dalton Maag",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Tobias Frere-Jones",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fred Shallcrass",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Frere-Jones Type",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tobias Frere-Jones",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Frere-Jones Type",
+     "propriedades": {},
+     "evidencia": "Desenhada por Tobias Frere-Jones e Fred Shallcrass, da Frere-Jones Type",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Fred Shallcrass",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Frere-Jones Type",
+     "propriedades": {},
+     "evidencia": "Desenhada por Tobias Frere-Jones e Fred Shallcrass, da Frere-Jones Type",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_70",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Red Peak Branding",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_71",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Londres",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Framestore",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_72",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "McLaren",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Futbol Club Barcelona",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Riot Games",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "JD Gaming",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Global Esports",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_73",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Transmeta",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_74",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Intel Corporation"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Transmeta",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Nova Iorque",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_75",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Comissão de Comércio Justo do Japão",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Coreia do Sul",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_76",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Dell",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Andrew Cuomo",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Nova Iorque",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Comissão Federal do Comércio dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [
+      "FTC"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Comissão de Valores Mobiliários dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_77",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Dell",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Comissão Europeia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Acer",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "HP",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Lenovo",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "NEC",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Alemanha",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_78",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Rio Rancho",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_79",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Brian Krzanich",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Enough Project",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "República Democrática do Congo",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_80",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Brian Krzanich",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "FACE Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Grupo formado por funcionários e ex-funcionários da Intel.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Ken Hamidi",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Hamidi"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Ken Hamidi",
+     "tipo": "FUNDOU",
+     "destino": "FACE Intel",
+     "propriedades": {},
+     "evidencia": "Ken Hamidi fundou a FACE Intel depois de ser demitido em 1995",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "1060_81",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Bruhat Bengaluru Mahanagara Palike",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Bengaluru",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_82",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Raptor Lake",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Pentium",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1060_83",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Raptor Lake",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

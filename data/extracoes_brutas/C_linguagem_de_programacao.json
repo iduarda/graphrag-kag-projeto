@@ -1,0 +1,585 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:22:06+00:00",
+ "chunks": [
+  {
+   "chunk_id": "654_0",
+   "entidades": [
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem de programação compilada de propósito geral, estruturada, imperativa e procedural, criada em 1972.",
+     "propriedades": {
+      "ano": 1972,
+      "paradigmas": [
+       "estruturada",
+       "imperativa",
+       "procedural"
+      ]
+     }
+    },
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "AT&T Bell Labs"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Organização Internacional para Padronização",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ISO"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "CRIOU",
+     "destino": "C",
+     "propriedades": {
+      "ano": 1972
+     },
+     "evidencia": "criada em 1972 por Dennis Ritchie na empresa AT&T Bell Labs",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Java",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "C tem influenciado muitas outras linguagens de programação (por exemplo, a linguagem Java)",
+     "confianca": 0.9
+    },
+    {
+     "origem": "C++",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "mais notavelmente C++, que originalmente começou como uma extensão para C",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "654_1",
+   "entidades": [
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "AT&T Bell Labs"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ritchie"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "B",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "BCPL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "PDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Stephen C. Johnson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Johnson"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "C",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "B",
+     "propriedades": {},
+     "evidencia": "porque suas características foram obtidas a partir de uma linguagem anteriormente chamada de \"B\"",
+     "confianca": 0.9
+    },
+    {
+     "origem": "B",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "BCPL",
+     "propriedades": {},
+     "evidencia": "que de acordo com Ken Thompson era a versão reduzida da linguagem de programação BCPL",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Unix",
+     "tipo": "ESCRITO_EM",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "a linguagem C tornou-se poderosa o suficiente para que a maior parte do kernel do Unix fosse reescrito em C",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Unix",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-11",
+     "propriedades": {},
+     "evidencia": "A versão original PDP-11 do sistema Unix foi desenvolvido em Assembly",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "654_2",
+   "entidades": [
+    {
+     "nome": "Brian Kernighan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Brian Kernighan",
+     "tipo": "COLABOROU_COM",
+     "destino": "Dennis Ritchie",
+     "propriedades": {
+      "contexto": "livro The C Programming Language"
+     },
+     "evidencia": "em 1978 Brian Kernighan e Dennis Ritchie lançam o livro The C Programming Language",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "654_3",
+   "entidades": [
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "654_4",
+   "entidades": [
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "BASIC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [
+      "PC IBM"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Bjarne Stroustrup",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "laboratórios Bell"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Windows"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bjarne Stroustrup",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "Bjarne Stroustrup, juntamente com outros nos laboratórios Bell",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Bjarne Stroustrup",
+     "tipo": "CRIOU",
+     "destino": "C++",
+     "propriedades": {},
+     "evidencia": "Bjarne Stroustrup, juntamente com outros nos laboratórios Bell, começou a trabalhar num projecto onde se adicionavam extras para programação orientada por objectos à linguagem C. A linguagem que eles produziram, chamada C++",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "654_5",
+   "entidades": [
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "ANSI",
+     "tipo": "Organizacao",
+     "aliases": [
+      "instituto norte-americano de padrões"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Organização Internacional para Padronização",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ISO"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "654_6",
+   "entidades": [
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "654_7",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Borland",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "654_8",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "654_9",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "654_10",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "654_11",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "654_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "654_13",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "654_14",
+   "entidades": [
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "UNIX"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "654_15",
+   "entidades": [
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ALGOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "654_16",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "654_17",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "654_18",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "654_19",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "654_20",
+   "entidades": [
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "C++",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "A linguagem de programação C++ foi originalmente derivada do C para suportar programação orientada a objetos",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "654_21",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "654_22",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "654_23",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

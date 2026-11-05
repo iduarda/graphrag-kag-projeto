@@ -1,0 +1,420 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 65703,
+    "titulo": "ALGOL",
+    "url": "https://pt.wikipedia.org/wiki/ALGOL",
+    "categoria": "Linguagem",
+    "wikidata_id": "Q188436"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:24:40+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "linguagem:algol",
+  "chunks": [
+    {
+      "id": "65703_0",
+      "ordem": 0,
+      "texto": "O ALGOL é uma família de linguagens de programação de alto nível voltadas principalmente para aplicações científicas. Seu nome provém das palavras \"ALGOrithmic Language\" (Linguagem Algorítmica).\nO nome é escrito ALGOL ou Algol, dependendo da fonte de consulta.\nVárias linguagens razoavelmente diferentes receberam o nome de ALGOL ou Algol, adicionando ao nome letras ou números, por descenderem diretamente do ALGOL original."
+    },
+    {
+      "id": "65703_1",
+      "ordem": 1,
+      "texto": "Várias linguagens razoavelmente diferentes receberam o nome de ALGOL ou Algol, adicionando ao nome letras ou números, por descenderem diretamente do ALGOL original.\nHistória: A ALGOL foi originalmente inventada no final dos anos 50, por um comitê conjunto de cientistas da computação americanos e europeus, reunidos em Zurique. Seu trabalho foi lançado como a linguagem agora conhecida como ALGOL 58 Uma segunda versão do grupo, conhecida como ALGOL 60, tornou-se a versão padrão da linguagem e de uso comum. Esta versão, descrita agora no famoso Relatório ALGOL 60 , teve um profundo impacto no campo de design de linguagem de programação. O ALGOL 68, a última versão “oficial” da linguagem, não foi bem recebida pela comunidade do ALGOL.\nA ALGOL nunca pegou realmente em programação para empresas, além de alguns aplicativos de análise matemática usados pelo setor financeiro. Foi, no entanto, amplamente utilizado em matemática e ciências da computação acadêmica, e foi a linguagem padrão para a descrição algorítmica até os anos 80 e 90.\nJohn Backus desenvolveu a Forma Normal de Backus, conhecido como BNF, para descrever ALGOL 58. O método foi revisado e expandido por Peter Naur, recebendo então o nome de Forma de Backus-Naur, e mantendo a sigla."
+    },
+    {
+      "id": "65703_2",
+      "ordem": 2,
+      "texto": "O método foi revisado e expandido por Peter Naur, recebendo então o nome de Forma de Backus-Naur, e mantendo a sigla.\nC.A.R. Hoare disse de ALGOL 60: \"Aqui está uma linguagem tão a frente de seu tempo, que não foi uma melhoria sobre seus predecessoras, mas também a quase todas suas sucessoras\". Essa fala foi também uma crítica velada a ALGOL 68, uma linguagem considerada inchada demais por muitos de seus críticos (e que não teve praticamente nenhum sucesso comercial)."
+    },
+    {
+      "id": "65703_3",
+      "ordem": 3,
+      "texto": "Essa fala foi também uma crítica velada a ALGOL 68, uma linguagem considerada inchada demais por muitos de seus críticos (e que não teve praticamente nenhum sucesso comercial).\nImpacto: A definição do ALGOL 60 foi um evento-chave na história das linguagens de programação. Foi a primeira linguagem de Programação estruturada. Nenhuma outra linguagem teve influência tão importante nos projetos de novas linguagens.\nAlém disso, a especificação da linguagem também criou desafios técnicos para a construção de compiladores, como mais tarde aconteceria com PL/I e Ada"
+    },
+    {
+      "id": "65703_4",
+      "ordem": 4,
+      "texto": "Além disso, a especificação da linguagem também criou desafios técnicos para a construção de compiladores, como mais tarde aconteceria com PL/I e Ada\nCaracterísticas: As duas características principais do Algol são: a clareza e a elegância da sua estrutura baseada nos blocos e o estilo de sua definição, que usa uma linguagem metalingüística para definir de forma concisa e relativamente completa a sua sintaxe.\nA linguagem continuou sendo desenvolvida e enriquecida com novas construções e novos comandos que aumentaram seu potencial.\nExistem outras versões do Algol, como, por exemplo, o Algol 68, o Algol W voltado para máquinas IBM e o Algol 6000/7000 da Burroughs."
+    },
+    {
+      "id": "65703_5",
+      "ordem": 5,
+      "texto": "Existem outras versões do Algol, como, por exemplo, o Algol 68, o Algol W voltado para máquinas IBM e o Algol 6000/7000 da Burroughs.\nALGOL e Burroughs: Em particular, a Burroughs, projetou o hardware de seu computador B6700 com base na estrutura da linguagem Algol. Isso fez com que o nome de ALGOL fosse logo associado a máquinas Burroughs, e vice-versa.\nO Algol B6000/7000 é uma linguagem muito mais poderosa do que o Algol 60. As principais extensões que foram acrescentadas são: facilidade para o tratamento de entrada e saída (definição de arquivos e seus atributos, comandos para manipulação de arquivos e variedade de formatos), facilidades para o tratamento de cadeias de caracteres (tipo string, tipo POINTER (ou Ponteiro), comandos e funções para manipulação de cadeias), acesso a bits de memória (palavra parcial) e facilidade para definir macros (declaração DEFINE).\nEsta linguagem se tornou apropriada para escrever software básico; em particular o sistema operacional do B6700 (MCP – \"Master Control Program\" está escrito em ESPOL, uma extensão do Algol, permitindo manipulações mais perto do hardware. Há uma outra extensão, o DCALGOL, Data Communications ALGOL, usado para escrever software de comunicação de dados."
+    },
+    {
+      "id": "65703_6",
+      "ordem": 6,
+      "texto": "Há uma outra extensão, o DCALGOL, Data Communications ALGOL, usado para escrever software de comunicação de dados.\nPadrões: ALGOL 58, primeira proposta da linguagem\nALGOL 60, versão mais conhecida da linguagem\nALGOL 68, versão bem mais poderosa, porém menos conhecida\nVariantes proprietárias: Elliot ALGOL, a versão estendida da Burroughs.\nDCALGOL, Data Communications ALGOL, uma extensão da Burroughs para acesso aos protocolos de comunicação (algo muito superior ao eqivalente da IBM na época).\nDMALGOL, Data Management ALGOL, outra extensão da Burroughs para interface ao sistema de Data Base (algo bem superior ao eqivalente da IBM na época)."
+    },
+    {
+      "id": "65703_7",
+      "ordem": 7,
+      "texto": "DMALGOL, Data Management ALGOL, outra extensão da Burroughs para interface ao sistema de Data Base (algo bem superior ao eqivalente da IBM na época).\nOutras variantes: Algol-W, proposta por Niklaus Wirth, no comitê de transição de Algol 60 para Algol 68, antecessora de Pascal\nS-algol, Algol com tipos de dados ortogonais, desenvolvido por Ron Morrison\nJovial\nSimula\nProcedimento: procedure Absmax(a) Size:(n, m) Result:(y) Subscripts:(i, k);\nvalue n, m; array a; integer n, m, i, k; real y;\ncomment The absolute greatest element of the matrix a, of size n by m\nis transferred to y, and the subscripts of this element to i and k;\nbegin integer p, q;\ny := 0; i := k := 1;\nfor p:=1 step 1 until n do\nfor q:=1 step 1 until m do\nif abs(a[p, q]) > y then\nbegin y := abs(a[p, q]);\ni := p; k := q\nend\nend Absmax"
+    },
+    {
+      "id": "65703_8",
+      "ordem": 8,
+      "texto": "end Absmax\nHello world: BEGIN\nFILE F (KIND=REMOTE);\nEBCDIC ARRAY E [0:11];\nREPLACE E BY \"HELLO WORLD!\";\nWHILE TRUE DO\nBEGIN\nWRITE (F, *, E);\nEND;\nEND.\nHello world em Elliot Algol: Elliot Algol usava símbolos diferentes para abrir e fechar strings, mas isso não pode ser feito com código ASCII.\nprogram HelloWorld;\nbegin\nprint \"Hello world\";\nend;"
+    }
+  ],
+  "entidades": [
+    {
+      "id": "linguagem:algol",
+      "nome": "ALGOL",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "descricao": "Família de linguagens de programação de alto nível voltadas principalmente para aplicações científicas.",
+      "propriedades": {},
+      "chunk_ids": [
+        "65703_0",
+        "65703_1",
+        "65703_2",
+        "65703_3",
+        "65703_4",
+        "65703_5",
+        "65703_6",
+        "65703_7",
+        "65703_8"
+      ]
+    },
+    {
+      "id": "pessoa:john_backus",
+      "nome": "John Backus",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "65703_1",
+        "65703_2"
+      ]
+    },
+    {
+      "id": "pessoa:peter_naur",
+      "nome": "Peter Naur",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "65703_1",
+        "65703_2"
+      ]
+    },
+    {
+      "id": "tecnologia:forma_de_backus_naur",
+      "nome": "Forma de Backus-Naur",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "BNF",
+        "Forma Normal de Backus"
+      ],
+      "descricao": "Notação para descrever a sintaxe de linguagens, criada para descrever ALGOL 58.",
+      "propriedades": {
+        "tipo": "conceito"
+      },
+      "chunk_ids": [
+        "65703_1"
+      ]
+    },
+    {
+      "id": "pessoa:charles_antony_richard_hoare",
+      "nome": "Charles Antony Richard Hoare",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Tony Hoare",
+        "C. A. R. Hoare",
+        "Hoare"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "65703_2"
+      ]
+    },
+    {
+      "id": "linguagem:ada",
+      "nome": "Ada",
+      "tipo": "Linguagem",
+      "aliases": [
+        "Ada (linguagem de programação)"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "65703_3",
+        "65703_4"
+      ]
+    },
+    {
+      "id": "linguagem:pl_i",
+      "nome": "PL/I",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "65703_3",
+        "65703_4"
+      ]
+    },
+    {
+      "id": "linguagem:algol_w",
+      "nome": "Algol W",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "descricao": "Variante de ALGOL proposta por Niklaus Wirth, antecessora de Pascal.",
+      "propriedades": {},
+      "chunk_ids": [
+        "65703_4",
+        "65703_7"
+      ]
+    },
+    {
+      "id": "organizacao:burroughs",
+      "nome": "Burroughs",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "65703_5",
+        "65703_6"
+      ]
+    },
+    {
+      "id": "hardware:b6700",
+      "nome": "B6700",
+      "tipo": "Hardware",
+      "aliases": [],
+      "descricao": "Computador da Burroughs cujo hardware foi projetado com base na estrutura da linguagem Algol.",
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "65703_5"
+      ]
+    },
+    {
+      "id": "tecnologia:mcp",
+      "nome": "MCP",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "Master Control Program"
+      ],
+      "descricao": "Master Control Program, sistema operacional do B6700.",
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "65703_5"
+      ]
+    },
+    {
+      "id": "linguagem:espol",
+      "nome": "ESPOL",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "descricao": "Extensão do Algol usada para escrever o MCP.",
+      "propriedades": {},
+      "chunk_ids": [
+        "65703_5"
+      ]
+    },
+    {
+      "id": "linguagem:dcalgol",
+      "nome": "DCALGOL",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "descricao": "Data Communications ALGOL, extensão usada para software de comunicação de dados.",
+      "propriedades": {},
+      "chunk_ids": [
+        "65703_5",
+        "65703_6"
+      ]
+    },
+    {
+      "id": "linguagem:dmalgol",
+      "nome": "DMALGOL",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "descricao": "Data Management ALGOL, extensão da Burroughs para interface ao sistema de Data Base.",
+      "propriedades": {},
+      "chunk_ids": [
+        "65703_6"
+      ]
+    },
+    {
+      "id": "pessoa:niklaus_wirth",
+      "nome": "Niklaus Wirth",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "65703_7"
+      ]
+    },
+    {
+      "id": "linguagem:pascal",
+      "nome": "Pascal",
+      "tipo": "Linguagem",
+      "aliases": [
+        "Pascal (linguagem de programação)"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "65703_7"
+      ]
+    },
+    {
+      "id": "linguagem:s_algol",
+      "nome": "S-algol",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "descricao": "Algol com tipos de dados ortogonais.",
+      "propriedades": {},
+      "chunk_ids": [
+        "65703_7"
+      ]
+    },
+    {
+      "id": "pessoa:ron_morrison",
+      "nome": "Ron Morrison",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "65703_7"
+      ]
+    },
+    {
+      "id": "linguagem:simula",
+      "nome": "Simula",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "65703_7"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:john_backus",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:forma_de_backus_naur",
+      "propriedades": {},
+      "chunk_id": "65703_1",
+      "evidencia": "John Backus desenvolveu a Forma Normal de Backus, conhecido como BNF, para descrever ALGOL 58",
+      "confianca": 0.85
+    },
+    {
+      "origem": "organizacao:burroughs",
+      "tipo": "DESENVOLVEU",
+      "destino": "hardware:b6700",
+      "propriedades": {},
+      "chunk_id": "65703_5",
+      "evidencia": "a Burroughs, projetou o hardware de seu computador B6700 com base na estrutura da linguagem Algol",
+      "confianca": 0.9
+    },
+    {
+      "origem": "tecnologia:mcp",
+      "tipo": "EXECUTA_EM",
+      "destino": "hardware:b6700",
+      "propriedades": {},
+      "chunk_id": "65703_5",
+      "evidencia": "o sistema operacional do B6700 (MCP – \"Master Control Program",
+      "confianca": 0.8
+    },
+    {
+      "origem": "tecnologia:mcp",
+      "tipo": "ESCRITO_EM",
+      "destino": "linguagem:espol",
+      "propriedades": {},
+      "chunk_id": "65703_5",
+      "evidencia": "está escrito em ESPOL, uma extensão do Algol",
+      "confianca": 0.9
+    },
+    {
+      "origem": "linguagem:espol",
+      "tipo": "INFLUENCIADA_POR",
+      "destino": "linguagem:algol",
+      "propriedades": {},
+      "chunk_id": "65703_5",
+      "evidencia": "ESPOL, uma extensão do Algol",
+      "confianca": 0.75
+    },
+    {
+      "origem": "linguagem:dcalgol",
+      "tipo": "INFLUENCIADA_POR",
+      "destino": "linguagem:algol",
+      "propriedades": {},
+      "chunk_id": "65703_5",
+      "evidencia": "Há uma outra extensão, o DCALGOL, Data Communications ALGOL",
+      "confianca": 0.7
+    },
+    {
+      "origem": "organizacao:burroughs",
+      "tipo": "DESENVOLVEU",
+      "destino": "linguagem:dcalgol",
+      "propriedades": {},
+      "chunk_id": "65703_6",
+      "evidencia": "DCALGOL, Data Communications ALGOL, uma extensão da Burroughs",
+      "confianca": 0.85
+    },
+    {
+      "origem": "organizacao:burroughs",
+      "tipo": "DESENVOLVEU",
+      "destino": "linguagem:dmalgol",
+      "propriedades": {},
+      "chunk_id": "65703_6",
+      "evidencia": "DMALGOL, Data Management ALGOL, outra extensão da Burroughs",
+      "confianca": 0.85
+    },
+    {
+      "origem": "linguagem:dcalgol",
+      "tipo": "INFLUENCIADA_POR",
+      "destino": "linguagem:algol",
+      "propriedades": {},
+      "chunk_id": "65703_6",
+      "evidencia": "DCALGOL, Data Communications ALGOL, uma extensão da Burroughs para acesso aos protocolos de comunicação",
+      "confianca": 0.65
+    },
+    {
+      "origem": "linguagem:dmalgol",
+      "tipo": "INFLUENCIADA_POR",
+      "destino": "linguagem:algol",
+      "propriedades": {},
+      "chunk_id": "65703_6",
+      "evidencia": "DMALGOL, Data Management ALGOL, outra extensão da Burroughs",
+      "confianca": 0.6
+    },
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "CRIOU",
+      "destino": "linguagem:algol_w",
+      "propriedades": {},
+      "chunk_id": "65703_7",
+      "evidencia": "Algol-W, proposta por Niklaus Wirth, no comitê de transição de Algol 60 para Algol 68",
+      "confianca": 0.85
+    },
+    {
+      "origem": "linguagem:pascal",
+      "tipo": "SUCESSOR_DE",
+      "destino": "linguagem:algol_w",
+      "propriedades": {},
+      "chunk_id": "65703_7",
+      "evidencia": "antecessora de Pascal",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:ron_morrison",
+      "tipo": "CRIOU",
+      "destino": "linguagem:s_algol",
+      "propriedades": {},
+      "chunk_id": "65703_7",
+      "evidencia": "S-algol, Algol com tipos de dados ortogonais, desenvolvido por Ron Morrison",
+      "confianca": 0.9
+    }
+  ]
+}

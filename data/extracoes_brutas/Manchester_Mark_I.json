@@ -1,0 +1,113 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:25:22+00:00",
+ "chunks": [
+  {
+   "chunk_id": "581232_0",
+   "entidades": [
+    {
+     "nome": "Manchester Mark I",
+     "tipo": "Hardware",
+     "aliases": [
+      "MADM",
+      "Manchester Automatic Digital Machine"
+     ],
+     "descricao": "Um dos primeiros computadores eletrônicos, com registrador de índice, plataforma de desenvolvimento do Autocode.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Universidade de Manchester",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Manchester Baby",
+     "tipo": "Hardware",
+     "aliases": [
+      "SSEM",
+      "baby"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "F. C. Williams",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Tom Kilburn",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Autocode",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Uma das primeiras linguagens de programação de alto nível.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Universidade de Manchester",
+     "tipo": "DESENVOLVEU",
+     "destino": "Manchester Mark I",
+     "propriedades": {},
+     "evidencia": "Foi construído pela Universidade de Manchester do periodo de 1948 a 1949",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Manchester Mark I",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Manchester Baby",
+     "propriedades": {},
+     "evidencia": "Ele foi desenvolvido a partir do SSEM",
+     "confianca": 0.8
+    },
+    {
+     "origem": "F. C. Williams",
+     "tipo": "CRIOU",
+     "destino": "Manchester Mark I",
+     "propriedades": {},
+     "evidencia": "pelo Prof. F. C. Williams e pelo Prof. Tom Kilburn",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Tom Kilburn",
+     "tipo": "CRIOU",
+     "destino": "Manchester Mark I",
+     "propriedades": {},
+     "evidencia": "pelo Prof. F. C. Williams e pelo Prof. Tom Kilburn",
+     "confianca": 0.85
+    },
+    {
+     "origem": "F. C. Williams",
+     "tipo": "COLABOROU_COM",
+     "destino": "Tom Kilburn",
+     "propriedades": {
+      "contexto": "desenvolvimento do Manchester Mark I"
+     },
+     "evidencia": "pelo Prof. F. C. Williams e pelo Prof. Tom Kilburn",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Autocode",
+     "tipo": "EXECUTA_EM",
+     "destino": "Manchester Mark I",
+     "propriedades": {},
+     "evidencia": "ter sido a plataforma na qual a Autocode",
+     "confianca": 0.8
+    }
+   ]
+  }
+ ]
+}

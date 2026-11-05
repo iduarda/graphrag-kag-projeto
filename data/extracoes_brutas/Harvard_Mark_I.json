@@ -1,0 +1,242 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:26:31+00:00",
+ "chunks": [
+  {
+   "chunk_id": "482596_0",
+   "entidades": [
+    {
+     "nome": "Harvard Mark I",
+     "tipo": "Hardware",
+     "aliases": [
+      "Automatic Sequence Controlled Calculator",
+      "ASCC",
+      "Mark I"
+     ],
+     "descricao": "Primeira calculadora eletromecânica automática produzida em larga escala nos Estados Unidos.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Howard Aiken",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Harvard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Harvard"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Howard Aiken",
+     "tipo": "CRIOU",
+     "destino": "Harvard Mark I",
+     "propriedades": {},
+     "evidencia": "projetada em 1930 pelo estudante pós-graduando em física Howard Aiken",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Howard Aiken",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade Harvard",
+     "propriedades": {
+      "curso": "física"
+     },
+     "evidencia": "estudante pós-graduando em física Howard Aiken, na Universidade Harvard",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "482596_1",
+   "entidades": [
+    {
+     "nome": "Harvard Mark I",
+     "tipo": "Hardware",
+     "aliases": [
+      "Mark I"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Howard Aiken",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Universidade Harvard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Harvard"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Babbage"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Thomas Watson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "IBM",
+     "tipo": "DESENVOLVEU",
+     "destino": "Harvard Mark I",
+     "propriedades": {
+      "ano": 1944
+     },
+     "evidencia": "O Mark I foi desenvolvido e construído pela IBM em seu Endicott e, posteriormente enviado para Harvard em fevereiro de 1944",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "482596_2",
+   "entidades": [
+    {
+     "nome": "Harvard Mark I",
+     "tipo": "Hardware",
+     "aliases": [
+      "ASCC",
+      "Mark I"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Howard Aiken",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Harvard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Harvard"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Howard Aiken",
+     "tipo": "CRIOU",
+     "destino": "Harvard Mark I",
+     "propriedades": {},
+     "evidencia": "Um projeto concebido pelo Dr. Howard Aiken da Universidade Harvard, o Mark I foi construído por engenheiros da IBM em Endicott, NY",
+     "confianca": 0.9
+    },
+    {
+     "origem": "IBM",
+     "tipo": "DESENVOLVEU",
+     "destino": "Harvard Mark I",
+     "propriedades": {},
+     "evidencia": "o Mark I foi construído por engenheiros da IBM em Endicott, NY",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "482596_3",
+   "entidades": [
+    {
+     "nome": "Harvard Mark I",
+     "tipo": "Hardware",
+     "aliases": [
+      "ASCC",
+      "Mark I"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Howard Aiken",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Aiken"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Norman Bel Geddes",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Grace Hopper",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

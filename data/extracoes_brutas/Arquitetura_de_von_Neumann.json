@@ -1,0 +1,561 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:21:44+00:00",
+ "chunks": [
+  {
+   "chunk_id": "66545_0",
+   "entidades": [
+    {
+     "nome": "Arquitetura de von Neumann",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina de Turing",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "66545_1",
+   "entidades": [
+    {
+     "nome": "Arquitetura de von Neumann",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Circuito integrado",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "66545_2",
+   "entidades": [
+    {
+     "nome": "Arquitetura de von Neumann",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Princeton Institute for Advanced Studies",
+     "tipo": "Organizacao",
+     "aliases": [
+      "IAS"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "66545_3",
+   "entidades": [
+    {
+     "nome": "ENIAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "66545_4",
+   "entidades": [
+    {
+     "nome": "ENIAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "66545_5",
+   "entidades": [
+    {
+     "nome": "Arquitetura de von Neumann",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "66545_6",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Max Newman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Cambridge",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Máquina de Turing",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Konrad Zuse",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Princeton",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "CRIOU",
+     "destino": "Máquina de Turing",
+     "propriedades": {
+      "ano": 1936
+     },
+     "evidencia": "Nela, ele descreveu uma máquina hipotética que ele chamou de \"máquina de computação universal\", e que agora é conhecida como a \"máquina de Turing universal\"",
+     "confianca": 0.85
+    },
+    {
+     "origem": "John von Neumann",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Cambridge",
+     "propriedades": {
+      "cargo": "professor visitante",
+      "ano_inicio": 1935
+     },
+     "evidencia": "John von Neumann tornou-se familiarizado com Turing, quando ele era professor visitante na Universidade de Cambridge em 1935",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "66545_7",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Arquitetura de von Neumann",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Universidade de Cambridge",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Los Alamos National Laboratory",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "ENIAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "EDVAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Herman Goldstine",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Presper Eckert",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Mauchly",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jack Copeland",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Cambridge",
+     "propriedades": {
+      "cargo": "professor visitante",
+      "ano_inicio": 1935
+     },
+     "evidencia": "John von Neumann tornou-se familiarizado com Turing, quando ele era professor visitante na Universidade de Cambridge em 1935",
+     "confianca": 0.85
+    },
+    {
+     "origem": "John von Neumann",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Los Alamos National Laboratory",
+     "propriedades": {},
+     "evidencia": "Von Neumann estava envolvido no Projeto Manhattan no Los Alamos National Laboratory",
+     "confianca": 0.7
+    },
+    {
+     "origem": "John von Neumann",
+     "tipo": "CRIOU",
+     "destino": "Arquitetura de von Neumann",
+     "propriedades": {},
+     "evidencia": "Von Neumann foi, então, o criador da arquitetura de programa armazenado",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "66545_8",
+   "entidades": [
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Arquitetura de von Neumann",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "John Backus",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Association for Computing Machinery",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ACM"
+     ],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    },
+    {
+     "nome": "Jack Copeland",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John von Neumann",
+     "tipo": "CRIOU",
+     "destino": "Arquitetura de von Neumann",
+     "propriedades": {},
+     "evidencia": "Von Neumann foi, então, o criador da arquitetura de programa armazenado",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "66545_9",
+   "entidades": [
+    {
+     "nome": "Arquitetura de von Neumann",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "John Backus",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "66545_10",
+   "entidades": [
+    {
+     "nome": "Arquitetura de von Neumann",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "ILLIAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "ORDVAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Universidade de Illinois",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "IAS machine",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Universidade de Princeton",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "MANIAC I",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Laboratório Los Alamos",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "JOHNNIAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Corporação RAND",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Manchester Baby",
+     "tipo": "Hardware",
+     "aliases": [
+      "SSEM"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Manchester Mark I",
+     "tipo": "Hardware",
+     "aliases": [
+      "Manchester Mark 1"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "EDSAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "EDVAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Universidade de Illinois",
+     "tipo": "DESENVOLVEU",
+     "destino": "ORDVAC",
+     "propriedades": {},
+     "evidencia": "ORDVAC da Universidade de Illinois, Maryland (completado em novembro de 1951)",
+     "confianca": 0.65
+    },
+    {
+     "origem": "Universidade de Illinois",
+     "tipo": "DESENVOLVEU",
+     "destino": "ILLIAC",
+     "propriedades": {},
+     "evidencia": "ILLIAC da Universidade de Illinois, (set. 1952)",
+     "confianca": 0.65
+    },
+    {
+     "origem": "Universidade de Princeton",
+     "tipo": "DESENVOLVEU",
+     "destino": "IAS machine",
+     "propriedades": {},
+     "evidencia": "IAS machine da Universidade de Princeton (jan. de 1952)",
+     "confianca": 0.65
+    },
+    {
+     "origem": "Laboratório Los Alamos",
+     "tipo": "DESENVOLVEU",
+     "destino": "MANIAC I",
+     "propriedades": {},
+     "evidencia": "MANIAC I do Laboratório cientifico Los Alamos (mar. 1952)",
+     "confianca": 0.65
+    },
+    {
+     "origem": "Corporação RAND",
+     "tipo": "DESENVOLVEU",
+     "destino": "JOHNNIAC",
+     "propriedades": {},
+     "evidencia": "JOHNNIAC da Corporação RAND (jan. 1954)",
+     "confianca": 0.65
+    }
+   ]
+  },
+  {
+   "chunk_id": "66545_11",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

@@ -1,0 +1,435 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:20:32+00:00",
+ "chunks": [
+  {
+   "chunk_id": "28722_0",
+   "entidades": [
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [
+      "International Business Machines Corporation"
+     ],
+     "descricao": "Empresa multinacional americana de tecnologia.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "28722_1",
+   "entidades": [
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [
+      "International Business Machines Corporation"
+     ],
+     "descricao": "Empresa multinacional americana de tecnologia.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Herman Hollerith",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Inventor de máquinas elétricas de soma e contagem de dados em fitas perfuradas.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Tabulating Machine Company",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Computing Tabulating Recording Co.",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CTR"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Herman Hollerith",
+     "tipo": "FUNDOU",
+     "destino": "Tabulating Machine Company",
+     "propriedades": {
+      "ano": 1896
+     },
+     "evidencia": "Em 1896, Hollerith criou a Tabulating Machine Company",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "28722_2",
+   "entidades": [
+    {
+     "nome": "Thomas J. Watson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Líder industrial que assumiu a presidência da CTR em 1914.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Computing Tabulating Recording Co.",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CTR"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [
+      "International Business Machines Corporation"
+     ],
+     "descricao": "Empresa multinacional americana de tecnologia.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Thomas J. Watson",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Computing Tabulating Recording Co.",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_inicio": 1914
+     },
+     "evidencia": "em 1914, Thomas J. Watson (líder industrial e um dos homens mais ricos do seu tempo) assumiu a presidência da organização",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "28722_3",
+   "entidades": [
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [
+      "International Business Machines Corporation"
+     ],
+     "descricao": "Empresa multinacional americana de tecnologia.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM World Trade Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Subsidiária independente da IBM para vendas e produção fora dos Estados Unidos.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "28722_4",
+   "entidades": [
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [
+      "International Business Machines Corporation"
+     ],
+     "descricao": "Empresa multinacional americana de tecnologia.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Lenovo",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Samsung",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "28722_5",
+   "entidades": [
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [
+      "International Business Machines Corporation"
+     ],
+     "descricao": "Empresa multinacional americana de tecnologia.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM Brasil",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Subsidiária da IBM World Trade Corporation.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM World Trade Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "28722_6",
+   "entidades": [
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [
+      "International Business Machines Corporation"
+     ],
+     "descricao": "Empresa multinacional americana de tecnologia.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "28722_7",
+   "entidades": [
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [
+      "International Business Machines Corporation"
+     ],
+     "descricao": "Empresa multinacional americana de tecnologia.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "28722_8",
+   "entidades": [
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [
+      "International Business Machines Corporation"
+     ],
+     "descricao": "Empresa multinacional americana de tecnologia.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM System/360",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM 1130",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "ABRI",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "28722_9",
+   "entidades": [
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [
+      "International Business Machines Corporation"
+     ],
+     "descricao": "Empresa multinacional americana de tecnologia.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "28722_10",
+   "entidades": [
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [
+      "International Business Machines Corporation"
+     ],
+     "descricao": "Empresa multinacional americana de tecnologia.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Ativa",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Computador lançado pela IBM em 1994.",
+     "propriedades": {
+      "ano": 1994,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Intel 486 DX4",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Gerdau",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Ativa",
+     "tipo": "UTILIZA",
+     "destino": "Intel 486 DX4",
+     "propriedades": {},
+     "evidencia": "lançou o Ativa, com processador Intel 486 DX4",
+     "confianca": 0.9
+    },
+    {
+     "origem": "IBM",
+     "tipo": "DESENVOLVEU",
+     "destino": "Ativa",
+     "propriedades": {
+      "ano": 1994
+     },
+     "evidencia": "IBM assumiu o controle acionário da SI. Neste ano lançou o Ativa, com processador Intel 486 DX4",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "28722_11",
+   "entidades": [
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [
+      "International Business Machines Corporation"
+     ],
+     "descricao": "Empresa multinacional americana de tecnologia.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Oracle Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "People Soft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Paul Rand",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Designer gráfico do logo de oito barras da IBM.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

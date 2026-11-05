@@ -1,0 +1,4474 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:25:40+00:00",
+ "chunks": [
+  {
+   "chunk_id": "140121_0",
+   "entidades": [
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Nokia Bell Labs"
+     ],
+     "descricao": "Empresa estadunidense de pesquisa e desenvolvimento industrial pertencente à Nokia, com sede em Murray Hill.",
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Nokia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Empresa de tecnologia finlandesa proprietária do Bell Labs.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [
+      "American Telephone and Telegraph Company"
+     ],
+     "descricao": "Empresa da qual o Bell Labs foi subsidiária ao longo do século XX.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Murray Hill",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Nova Jérsei",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "transistor"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Dispositivo de carga acoplada",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "CCD"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Teoria da informação",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "B",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bell Labs",
+     "tipo": "SEDIADA_EM",
+     "destino": "Murray Hill",
+     "propriedades": {},
+     "evidencia": "Sua sede fica em Murray Hill, Nova Jérsei",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Bell Labs",
+     "tipo": "DESENVOLVEU",
+     "destino": "Transístor",
+     "propriedades": {},
+     "evidencia": "seus pesquisadores desenvolveram a radioastronomia, o transistor, o laser, a célula fotovoltaica, o dispositivo de carga acoplada, ou CCD, a teoria da informação, o sistema operacional Unix e as linguagens de programação B, C, C++, S, SNOBOL, AWK e AMPL",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Bell Labs",
+     "tipo": "DESENVOLVEU",
+     "destino": "Dispositivo de carga acoplada",
+     "propriedades": {},
+     "evidencia": "seus pesquisadores desenvolveram a radioastronomia, o transistor, o laser, a célula fotovoltaica, o dispositivo de carga acoplada, ou CCD, a teoria da informação, o sistema operacional Unix e as linguagens de programação B, C, C++, S, SNOBOL, AWK e AMPL",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Bell Labs",
+     "tipo": "DESENVOLVEU",
+     "destino": "Teoria da informação",
+     "propriedades": {},
+     "evidencia": "seus pesquisadores desenvolveram a radioastronomia, o transistor, o laser, a célula fotovoltaica, o dispositivo de carga acoplada, ou CCD, a teoria da informação, o sistema operacional Unix e as linguagens de programação B, C, C++, S, SNOBOL, AWK e AMPL",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Bell Labs",
+     "tipo": "DESENVOLVEU",
+     "destino": "Unix",
+     "propriedades": {},
+     "evidencia": "seus pesquisadores desenvolveram a radioastronomia, o transistor, o laser, a célula fotovoltaica, o dispositivo de carga acoplada, ou CCD, a teoria da informação, o sistema operacional Unix e as linguagens de programação B, C, C++, S, SNOBOL, AWK e AMPL",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Bell Labs",
+     "tipo": "DESENVOLVEU",
+     "destino": "B",
+     "propriedades": {},
+     "evidencia": "seus pesquisadores desenvolveram a radioastronomia, o transistor, o laser, a célula fotovoltaica, o dispositivo de carga acoplada, ou CCD, a teoria da informação, o sistema operacional Unix e as linguagens de programação B, C, C++, S, SNOBOL, AWK e AMPL",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Bell Labs",
+     "tipo": "DESENVOLVEU",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "seus pesquisadores desenvolveram a radioastronomia, o transistor, o laser, a célula fotovoltaica, o dispositivo de carga acoplada, ou CCD, a teoria da informação, o sistema operacional Unix e as linguagens de programação B, C, C++, S, SNOBOL, AWK e AMPL",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Bell Labs",
+     "tipo": "DESENVOLVEU",
+     "destino": "C++",
+     "propriedades": {},
+     "evidencia": "seus pesquisadores desenvolveram a radioastronomia, o transistor, o laser, a célula fotovoltaica, o dispositivo de carga acoplada, ou CCD, a teoria da informação, o sistema operacional Unix e as linguagens de programação B, C, C++, S, SNOBOL, AWK e AMPL",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_1",
+   "entidades": [
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Bell Telephone Laboratories"
+     ],
+     "descricao": "Surgiu do Departamento de Engenharia da Western Electric e foi reorganizado como Bell Telephone Laboratories em 1925.",
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Western Electric",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [
+      "American Telephone and Telegraph Company"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Lucent Technologies",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Lucent"
+     ],
+     "descricao": "Nome recebido pela AT&T Technologies após 1996, com sede em Murray Hill.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Alcatel-Lucent",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Empresa formada em 2006 pela fusão da Lucent com a Alcatel e adquirida pela Nokia em 2016.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Nokia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Murray Hill",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Nova Iorque",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bell Labs",
+     "tipo": "SEDIADA_EM",
+     "destino": "Murray Hill",
+     "propriedades": {},
+     "evidencia": "Na década de 1960, a sede da empresa e os laboratórios foram transferidos para Murray Hill.",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Bell Labs",
+     "tipo": "SEDIADA_EM",
+     "destino": "Nova Iorque",
+     "propriedades": {},
+     "evidencia": "instalado no número 463 da West Street, em Nova Iorque",
+     "confianca": 0.65
+    },
+    {
+     "origem": "Lucent Technologies",
+     "tipo": "SEDIADA_EM",
+     "destino": "Murray Hill",
+     "propriedades": {},
+     "evidencia": "que recebeu o nome de Lucent Technologies e estabeleceu sua sede em Murray Hill",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_2",
+   "entidades": [
+    {
+     "nome": "Alexander Graham Bell",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Bell"
+     ],
+     "descricao": "Inventor do telefone, premiado em 1880 pelo governo francês.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Volta",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Laboratório Volta",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Laboratório Alexander Graham Bell",
+      "Volta Laboratory"
+     ],
+     "descricao": "Laboratório financiado por Bell com o prêmio, voltado à análise, gravação e transmissão do som.",
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Washington, D.C.",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alexander Graham Bell",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Volta",
+     "propriedades": {
+      "ano": 1880
+     },
+     "evidencia": "Em 1880, o governo francês concedeu a Alexander Graham Bell o Prêmio Volta de 50.000 francos pela invenção do telefone",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Laboratório Volta",
+     "tipo": "SEDIADA_EM",
+     "destino": "Washington, D.C.",
+     "propriedades": {},
+     "evidencia": "Laboratório Volta, também chamado de \"Laboratório Alexander Graham Bell\", em Washington, D.C.",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_3",
+   "entidades": [
+    {
+     "nome": "Alexander Graham Bell",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Thomas Sanders",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Gardiner Hubbard",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Patent Association",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Formada para apresentar os primeiros pedidos de patente do telefone, em 1876.",
+     "propriedades": {}
+    },
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [
+      "American Telephone and Telegraph Company"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Western Electric",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alexander Graham Bell",
+     "tipo": "FUNDOU",
+     "destino": "Bell Patent Association",
+     "propriedades": {
+      "ano": 1876
+     },
+     "evidencia": "A Bell Patent Association foi formada por Alexander Graham Bell, Thomas Sanders e Gardiner Hubbard quando apresentaram os primeiros pedidos de patente do telefone, em 1876.",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Thomas Sanders",
+     "tipo": "FUNDOU",
+     "destino": "Bell Patent Association",
+     "propriedades": {
+      "ano": 1876
+     },
+     "evidencia": "A Bell Patent Association foi formada por Alexander Graham Bell, Thomas Sanders e Gardiner Hubbard quando apresentaram os primeiros pedidos de patente do telefone, em 1876.",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Gardiner Hubbard",
+     "tipo": "FUNDOU",
+     "destino": "Bell Patent Association",
+     "propriedades": {
+      "ano": 1876
+     },
+     "evidencia": "A Bell Patent Association foi formada por Alexander Graham Bell, Thomas Sanders e Gardiner Hubbard quando apresentaram os primeiros pedidos de patente do telefone, em 1876.",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_4",
+   "entidades": [
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Bell Telephone Laboratories"
+     ],
+     "descricao": "Constituída em 1 de janeiro de 1925 como Bell Telephone Laboratories, Inc., com participações iguais da Western Electric e da AT&T.",
+     "propriedades": {
+      "tipo": "laboratorio",
+      "ano_fundacao": 1925
+     }
+    },
+    {
+     "nome": "Western Electric",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "140121_5",
+   "entidades": [
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Western Electric",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "John J. Carty",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Vice-presidente da AT&T e primeiro presidente do conselho de administração do Bell Labs.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Frank B. Jewett",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Primeiro presidente da empresa, no cargo até 1940.",
+     "propriedades": {}
+    },
+    {
+     "nome": "E. B. Craft",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Craft"
+     ],
+     "descricao": "Vice-presidente executivo que dirigia as operações e antigo engenheiro-chefe da Western Electric.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John J. Carty",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "vice-presidente"
+     },
+     "evidencia": "John J. Carty, vice-presidente da AT&T",
+     "confianca": 0.9
+    },
+    {
+     "origem": "John J. Carty",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {
+      "cargo": "presidente do conselho de administração"
+     },
+     "evidencia": "O primeiro presidente do conselho de administração foi John J. Carty, vice-presidente da AT&T.",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Frank B. Jewett",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_fim": 1940
+     },
+     "evidencia": "O primeiro presidente da empresa foi Frank B. Jewett, também membro do conselho, que permaneceu no cargo até 1940.",
+     "confianca": 0.75
+    },
+    {
+     "origem": "E. B. Craft",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {
+      "cargo": "vice-presidente executivo"
+     },
+     "evidencia": "As operações eram dirigidas por E. B. Craft, vice-presidente executivo",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_6",
+   "entidades": [
+    {
+     "nome": "E. B. Craft",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Craft"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Western Electric",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "E. B. Craft",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Western Electric",
+     "propriedades": {
+      "cargo": "engenheiro-chefe"
+     },
+     "evidencia": "Craft, vice-presidente executivo e antigo engenheiro-chefe da Western Electric.",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_7",
+   "entidades": [
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Bell Laboratories"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Murray Hill",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Nova Jérsei",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bell Labs",
+     "tipo": "SEDIADA_EM",
+     "destino": "Murray Hill",
+     "propriedades": {},
+     "evidencia": "Em 1967, a sede do Bell Laboratories foi oficialmente transferida para Murray Hill, Nova Jérsei.",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_8",
+   "entidades": [
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Bell Laboratories"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Murray Hill",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Nova Jérsei",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Telcordia Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Bayer",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bell Labs",
+     "tipo": "SEDIADA_EM",
+     "destino": "Murray Hill",
+     "propriedades": {},
+     "evidencia": "Em 1967, a sede do Bell Laboratories foi oficialmente transferida para Murray Hill, Nova Jérsei.",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_9",
+   "entidades": [
+    {
+     "nome": "Eero Saarinen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Projetou o edifício de vidro espelhado do laboratório de Holmdel.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "140121_10",
+   "entidades": [
+    {
+     "nome": "Lucent Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "140121_11",
+   "entidades": [
+    {
+     "nome": "Eero Saarinen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Projetou o edifício de vidro de Holmdel.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "140121_12",
+   "entidades": [
+    {
+     "nome": "Nokia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Lucent Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Alcatel-Lucent",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "140121_13",
+   "entidades": [
+    {
+     "nome": "Murray Hill",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "140121_14",
+   "entidades": [
+    {
+     "nome": "UNIX System Laboratories",
+     "tipo": "Organizacao",
+     "aliases": [
+      "USL"
+     ],
+     "descricao": "Surgiu da UNIX Software Operations e uniu-se à Novell em dezembro de 1992.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Novell",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Nova Iorque",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "140121_15",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "140121_16",
+   "entidades": [
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Nokia Bell Labs"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Murray Hill",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Nokia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bell Labs",
+     "tipo": "SEDIADA_EM",
+     "destino": "Murray Hill",
+     "propriedades": {},
+     "evidencia": "Murray Hill, 600 Mountain Avenue, Nova Jérsei, 07974-0636, sede mundial.",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_17",
+   "entidades": [
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Bell Laboratories"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "transistor"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Teoria da informação",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dispositivo de carga acoplada",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "CCD"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bell Labs",
+     "tipo": "DESENVOLVEU",
+     "destino": "Transístor",
+     "propriedades": {},
+     "evidencia": "Entre as tecnologias desenvolvidas no Bell Laboratories estão a radioastronomia, o transistor, o laser, a teoria da informação, o sistema operacional Unix, as linguagens C e C++, as células solares, o CCD",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Bell Labs",
+     "tipo": "DESENVOLVEU",
+     "destino": "Teoria da informação",
+     "propriedades": {},
+     "evidencia": "Entre as tecnologias desenvolvidas no Bell Laboratories estão a radioastronomia, o transistor, o laser, a teoria da informação, o sistema operacional Unix, as linguagens C e C++, as células solares, o CCD",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Bell Labs",
+     "tipo": "DESENVOLVEU",
+     "destino": "Unix",
+     "propriedades": {},
+     "evidencia": "Entre as tecnologias desenvolvidas no Bell Laboratories estão a radioastronomia, o transistor, o laser, a teoria da informação, o sistema operacional Unix, as linguagens C e C++, as células solares, o CCD",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Bell Labs",
+     "tipo": "DESENVOLVEU",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "Entre as tecnologias desenvolvidas no Bell Laboratories estão a radioastronomia, o transistor, o laser, a teoria da informação, o sistema operacional Unix, as linguagens C e C++, as células solares, o CCD",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Bell Labs",
+     "tipo": "DESENVOLVEU",
+     "destino": "C++",
+     "propriedades": {},
+     "evidencia": "Entre as tecnologias desenvolvidas no Bell Laboratories estão a radioastronomia, o transistor, o laser, a teoria da informação, o sistema operacional Unix, as linguagens C e C++, as células solares, o CCD",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Bell Labs",
+     "tipo": "DESENVOLVEU",
+     "destino": "Dispositivo de carga acoplada",
+     "propriedades": {},
+     "evidencia": "Entre as tecnologias desenvolvidas no Bell Laboratories estão a radioastronomia, o transistor, o laser, a teoria da informação, o sistema operacional Unix, as linguagens C e C++, as células solares, o CCD",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_18",
+   "entidades": [
+    {
+     "nome": "Claude Shannon",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Demonstrou matematicamente que a cifra de chave de uso único é indecifrável nas condições previstas.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Gilbert Vernam",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Joseph Mauborgne",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Cifra de chave de uso único",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Gilbert Vernam",
+     "tipo": "CRIOU",
+     "destino": "Cifra de chave de uso único",
+     "propriedades": {},
+     "evidencia": "Gilbert Vernam e Joseph Mauborgne desenvolveram a cifra de chave de uso único.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Joseph Mauborgne",
+     "tipo": "CRIOU",
+     "destino": "Cifra de chave de uso único",
+     "propriedades": {},
+     "evidencia": "Gilbert Vernam e Joseph Mauborgne desenvolveram a cifra de chave de uso único.",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_19",
+   "entidades": [
+    {
+     "nome": "Clinton Davisson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "George Paget Thomson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [
+      "Nobel de Física"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Clinton Davisson",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {},
+     "evidencia": "O pesquisador Clinton Davisson dividiu o Nobel de Física com George Paget Thomson pela descoberta da difração de elétrons",
+     "confianca": 0.9
+    },
+    {
+     "origem": "George Paget Thomson",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {},
+     "evidencia": "O pesquisador Clinton Davisson dividiu o Nobel de Física com George Paget Thomson pela descoberta da difração de elétrons",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_20",
+   "entidades": [
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "SIGSALY",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Primeiro sistema digital de transmissão de voz cifrada, usado pelos Aliados na Segunda Guerra Mundial.",
+     "propriedades": {
+      "ano": 1943,
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "descricao": "Matemático britânico que visitou os laboratórios e se encontrou com Claude Shannon.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Claude Shannon",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Bardeen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Walter Houser Brattain",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "transistor"
+     ],
+     "propriedades": {
+      "ano": 1947,
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [
+      "Nobel de Física"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Richard Hamming",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Códigos de Hamming",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Códigos para detecção e correção de erros.",
+     "propriedades": {
+      "ano": 1947,
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bell Labs",
+     "tipo": "DESENVOLVEU",
+     "destino": "SIGSALY",
+     "propriedades": {
+      "ano": 1943
+     },
+     "evidencia": "Em 1943, o Bell Labs criou o SIGSALY, o primeiro sistema digital de transmissão de voz cifrada",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John Bardeen",
+     "tipo": "CRIOU",
+     "destino": "Transístor",
+     "propriedades": {
+      "ano": 1947
+     },
+     "evidencia": "Em 1947, John Bardeen, Walter Houser Brattain e William Bradford Shockley desenvolveram o transistor.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "CRIOU",
+     "destino": "Transístor",
+     "propriedades": {
+      "ano": 1947
+     },
+     "evidencia": "Em 1947, John Bardeen, Walter Houser Brattain e William Bradford Shockley desenvolveram o transistor.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "CRIOU",
+     "destino": "Transístor",
+     "propriedades": {
+      "ano": 1947
+     },
+     "evidencia": "Em 1947, John Bardeen, Walter Houser Brattain e William Bradford Shockley desenvolveram o transistor.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John Bardeen",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "Os três receberam o Nobel de Física em 1956.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "Os três receberam o Nobel de Física em 1956.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "Os três receberam o Nobel de Física em 1956.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Richard Hamming",
+     "tipo": "CRIOU",
+     "destino": "Códigos de Hamming",
+     "propriedades": {
+      "ano": 1947
+     },
+     "evidencia": "Naquele ano, Richard Hamming criou os códigos de Hamming para detecção e correção de erros.",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_21",
+   "entidades": [
+    {
+     "nome": "Claude Shannon",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Publicou em 1948 \"A Mathematical Theory of Communication\", um dos trabalhos fundadores da teoria da informação.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Harry Nyquist",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ralph Hartley",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Teoria da informação",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "140121_22",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "140121_23",
+   "entidades": [
+    {
+     "nome": "Maurice Karnaugh",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Mapa de Karnaugh",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Usado para trabalhar com expressões de álgebra booliana.",
+     "propriedades": {
+      "ano": 1953,
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Maurice Karnaugh",
+     "tipo": "CRIOU",
+     "destino": "Mapa de Karnaugh",
+     "propriedades": {
+      "ano": 1953
+     },
+     "evidencia": "Em 1953, Maurice Karnaugh criou o mapa de Karnaugh",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_24",
+   "entidades": [
+    {
+     "nome": "Maurice Karnaugh",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Mapa de Karnaugh",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1953,
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Bell Laboratories"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "TRADIC Phase One",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Um dos primeiros computadores transistorizados, desenvolvido para a Força Aérea dos Estados Unidos.",
+     "propriedades": {
+      "ano": 1954,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Jean Howard Felker",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Engenheiro eletricista que dirigia a equipe do TRADIC.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Maurice Karnaugh",
+     "tipo": "CRIOU",
+     "destino": "Mapa de Karnaugh",
+     "propriedades": {
+      "ano": 1953
+     },
+     "evidencia": "Em 1953, Maurice Karnaugh criou o mapa de Karnaugh",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Bell Labs",
+     "tipo": "DESENVOLVEU",
+     "destino": "TRADIC Phase One",
+     "propriedades": {},
+     "evidencia": "Em janeiro de 1954, o Bell Labs demonstrou o TRADIC Phase One, um dos primeiros computadores transistorizados, desenvolvido para a Força Aérea dos Estados Unidos.",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_25",
+   "entidades": [
+    {
+     "nome": "Mohamed Atalla",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dawon Kahng",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "140121_26",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "140121_27",
+   "entidades": [
+    {
+     "nome": "Philip W. Anderson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Arno Penzias",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Penzias"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert W. Wilson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Wilson"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [
+      "Nobel de Física"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ken Knowlton",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Knowlton"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "BEFLIX",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem de animação.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Philip W. Anderson",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1977
+     },
+     "evidencia": "lhe renderam o Nobel de Física de 1977",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Arno Penzias",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1978
+     },
+     "evidencia": "Penzias e Wilson publicaram a descoberta da radiação cósmica de fundo em micro-ondas, pela qual receberam o Nobel de Física em 1978.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Robert W. Wilson",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1978
+     },
+     "evidencia": "Penzias e Wilson publicaram a descoberta da radiação cósmica de fundo em micro-ondas, pela qual receberam o Nobel de Física em 1978.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Ken Knowlton",
+     "tipo": "CRIOU",
+     "destino": "BEFLIX",
+     "propriedades": {},
+     "evidencia": "Knowlton criou a linguagem de animação BEFLIX.",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_28",
+   "entidades": [
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ritchie"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema operacional usado em computação de uso geral e em sistemas de comutação de telecomunicações.",
+     "propriedades": {
+      "ano": 1969,
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Willard Boyle",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Willard S. Boyle"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "George E. Smith",
+     "tipo": "Pessoa",
+     "aliases": [
+      "George Smith"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dispositivo de carga acoplada",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "CCD"
+     ],
+     "propriedades": {
+      "ano": 1969,
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [
+      "Nobel de Física"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "CRIOU",
+     "destino": "Unix",
+     "propriedades": {
+      "ano": 1969
+     },
+     "evidencia": "Em 1969, Dennis Ritchie e Ken Thompson criaram o sistema operacional Unix",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "CRIOU",
+     "destino": "Unix",
+     "propriedades": {
+      "ano": 1969
+     },
+     "evidencia": "Em 1969, Dennis Ritchie e Ken Thompson criaram o sistema operacional Unix",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "COLABOROU_COM",
+     "destino": "Ken Thompson",
+     "propriedades": {
+      "contexto": "criação do Unix"
+     },
+     "evidencia": "Dennis Ritchie e Ken Thompson criaram o sistema operacional Unix",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Willard Boyle",
+     "tipo": "CRIOU",
+     "destino": "Dispositivo de carga acoplada",
+     "propriedades": {
+      "ano": 1969
+     },
+     "evidencia": "Também em 1969, Willard Boyle e George E. Smith inventaram o dispositivo de carga acoplada",
+     "confianca": 0.95
+    },
+    {
+     "origem": "George E. Smith",
+     "tipo": "CRIOU",
+     "destino": "Dispositivo de carga acoplada",
+     "propriedades": {
+      "ano": 1969
+     },
+     "evidencia": "Também em 1969, Willard Boyle e George E. Smith inventaram o dispositivo de carga acoplada",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Willard Boyle",
+     "tipo": "COLABOROU_COM",
+     "destino": "George E. Smith",
+     "propriedades": {
+      "contexto": "invenção do dispositivo de carga acoplada"
+     },
+     "evidencia": "Willard Boyle e George E. Smith inventaram o dispositivo de carga acoplada",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Willard Boyle",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 2009
+     },
+     "evidencia": "pelo qual receberam o Nobel de Física em 2009",
+     "confianca": 0.9
+    },
+    {
+     "origem": "George E. Smith",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 2009
+     },
+     "evidencia": "pelo qual receberam o Nobel de Física em 2009",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_29",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "140121_30",
+   "entidades": [
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Bell Laboratories"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ritchie"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem compilada desenvolvida em 1972 para substituir a linguagem interpretada B.",
+     "propriedades": {
+      "ano": 1972
+     }
+    },
+    {
+     "nome": "B",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem interpretada substituída pela C.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Alfred Aho",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Peter Weinberger",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Brian Kernighan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "AWK",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1972
+     }
+    },
+    {
+     "nome": "BELLMAC-8",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro microprocessador projetado internamente pela empresa.",
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Oryx/Pecos",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema operacional proprietário para os equipamentos de comutação PBX de grande porte da AT&T.",
+     "propriedades": {
+      "ano": 1978,
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "CRIOU",
+     "destino": "C",
+     "propriedades": {
+      "ano": 1972
+     },
+     "evidencia": "Em 1972, Dennis Ritchie desenvolveu a linguagem compilada C para substituir a linguagem interpretada B.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "C",
+     "tipo": "SUCESSOR_DE",
+     "destino": "B",
+     "propriedades": {},
+     "evidencia": "desenvolveu a linguagem compilada C para substituir a linguagem interpretada B",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Unix",
+     "tipo": "ESCRITO_EM",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "C foi usada na reescrita do Unix",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Alfred Aho",
+     "tipo": "CRIOU",
+     "destino": "AWK",
+     "propriedades": {
+      "ano": 1972
+     },
+     "evidencia": "Alfred Aho, Peter Weinberger e Brian Kernighan criaram e implementaram a linguagem AWK.",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Peter Weinberger",
+     "tipo": "CRIOU",
+     "destino": "AWK",
+     "propriedades": {
+      "ano": 1972
+     },
+     "evidencia": "Alfred Aho, Peter Weinberger e Brian Kernighan criaram e implementaram a linguagem AWK.",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Brian Kernighan",
+     "tipo": "CRIOU",
+     "destino": "AWK",
+     "propriedades": {
+      "ano": 1972
+     },
+     "evidencia": "Alfred Aho, Peter Weinberger e Brian Kernighan criaram e implementaram a linguagem AWK.",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Bell Labs",
+     "tipo": "DESENVOLVEU",
+     "destino": "BELLMAC-8",
+     "propriedades": {},
+     "evidencia": "A produção do BELLMAC-8, primeiro microprocessador projetado internamente pela empresa, começou em 1977.",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Bell Labs",
+     "tipo": "DESENVOLVEU",
+     "destino": "Oryx/Pecos",
+     "propriedades": {
+      "ano": 1978
+     },
+     "evidencia": "Em 1978, o Bell Labs desenvolveu o sistema operacional proprietário Oryx/Pecos",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_31",
+   "entidades": [
+    {
+     "nome": "Plan 9",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Plan 9 from Bell Labs"
+     ],
+     "descricao": "Sistema operacional desenvolvido na década de 1980 que ampliava o modelo do Unix.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Blit",
+     "tipo": "Hardware",
+     "aliases": [
+      "Jerq",
+      "AT&T 5620 DMD"
+     ],
+     "descricao": "Terminal gráfico programável para Unix que exibia mapas de bits e permitia sobrepor janelas.",
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Rob Pike",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bart Locanthi Jr.",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Motorola 68000",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Gnot",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Terminal sucessor do Blit dentro do Bell Labs, sem disco e com tela de 1.024 por 1.024 pixels.",
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Motorola 68020",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Bell Labs Fellow",
+     "tipo": "Premio",
+     "aliases": [],
+     "descricao": "Prêmio criado em 1982 para homenagear cientistas e engenheiros da AT&T.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bell Labs",
+     "tipo": "DESENVOLVEU",
+     "destino": "Plan 9",
+     "propriedades": {},
+     "evidencia": "foi desenvolvido o sistema operacional Plan 9 from Bell Labs, que ampliava o modelo do Unix",
+     "confianca": 0.65
+    },
+    {
+     "origem": "Rob Pike",
+     "tipo": "CRIOU",
+     "destino": "Blit",
+     "propriedades": {},
+     "evidencia": "recebeu de seus projetistas, Rob Pike e Bart Locanthi Jr., o nome Blit",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Bart Locanthi Jr.",
+     "tipo": "CRIOU",
+     "destino": "Blit",
+     "propriedades": {},
+     "evidencia": "recebeu de seus projetistas, Rob Pike e Bart Locanthi Jr., o nome Blit",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Blit",
+     "tipo": "UTILIZA",
+     "destino": "Motorola 68000",
+     "propriedades": {},
+     "evidencia": "O Blit usava o microprocessador Motorola 68000",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Gnot",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Blit",
+     "propriedades": {},
+     "evidencia": "Dentro do Bell Labs, seu sucessor foi o terminal Gnot",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Gnot",
+     "tipo": "UTILIZA",
+     "destino": "Motorola 68020",
+     "propriedades": {},
+     "evidencia": "terminal Gnot, com processador Motorola 68020",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_32",
+   "entidades": [
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ritchie"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs Fellow",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Japão",
+     "tipo": "Premio",
+     "aliases": [
+      "Prêmio Japão de Informação e Comunicação"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Horst Störmer",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert B. Laughlin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Daniel C. Tsui",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [
+      "Nobel de Física"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Ken Thompson",
+     "tipo": "RECEBEU",
+     "destino": "Bell Labs Fellow",
+     "propriedades": {
+      "ano": 1982
+     },
+     "evidencia": "Ken Thompson e Dennis Ritchie receberam o Bell Labs Fellow em 1982.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "RECEBEU",
+     "destino": "Bell Labs Fellow",
+     "propriedades": {
+      "ano": 1982
+     },
+     "evidencia": "Ken Thompson e Dennis Ritchie receberam o Bell Labs Fellow em 1982.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {
+      "ano_inicio": 1967
+     },
+     "evidencia": "Ritchie havia ingressado no departamento de pesquisa de sistemas de computação em 1967, e Thompson, em 1966.",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {
+      "ano_inicio": 1966
+     },
+     "evidencia": "Ritchie havia ingressado no departamento de pesquisa de sistemas de computação em 1967, e Thompson, em 1966.",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Japão",
+     "propriedades": {
+      "ano": 2011
+     },
+     "evidencia": "Pelo desenvolvimento do Unix e da linguagem C, receberam o Prêmio Japão de Informação e Comunicação de 2011.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Japão",
+     "propriedades": {
+      "ano": 2011
+     },
+     "evidencia": "Pelo desenvolvimento do Unix e da linguagem C, receberam o Prêmio Japão de Informação e Comunicação de 2011.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Horst Störmer",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1998
+     },
+     "evidencia": "Os três receberam o Nobel de Física de 1998 por esse trabalho.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Robert B. Laughlin",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1998
+     },
+     "evidencia": "Os três receberam o Nobel de Física de 1998 por esse trabalho.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Daniel C. Tsui",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1998
+     },
+     "evidencia": "Os três receberam o Nobel de Física de 1998 por esse trabalho.",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_33",
+   "entidades": [
+    {
+     "nome": "Brian Kernighan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Fourer",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "David M. Gay",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "AMPL",
+     "tipo": "Linguagem",
+     "aliases": [
+      "A Mathematical Programming Language"
+     ],
+     "descricao": "Linguagem de modelagem desenvolvida no Bell Laboratories em 1985.",
+     "propriedades": {
+      "ano": 1985
+     }
+    },
+    {
+     "nome": "Bjarne Stroustrup",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Extensão da linguagem C, com primeiro lançamento comercial em 1985.",
+     "propriedades": {
+      "ano": 1985
+     }
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Bell Laboratories"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Arthur Ashkin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [
+      "Nobel de Física"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Robert Fourer",
+     "tipo": "CRIOU",
+     "destino": "AMPL",
+     "propriedades": {
+      "ano": 1985
+     },
+     "evidencia": "Robert Fourer, David M. Gay e Brian Kernighan desenvolveram no Bell Laboratories a linguagem de modelagem AMPL",
+     "confianca": 0.95
+    },
+    {
+     "origem": "David M. Gay",
+     "tipo": "CRIOU",
+     "destino": "AMPL",
+     "propriedades": {
+      "ano": 1985
+     },
+     "evidencia": "Robert Fourer, David M. Gay e Brian Kernighan desenvolveram no Bell Laboratories a linguagem de modelagem AMPL",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Brian Kernighan",
+     "tipo": "CRIOU",
+     "destino": "AMPL",
+     "propriedades": {
+      "ano": 1985
+     },
+     "evidencia": "Robert Fourer, David M. Gay e Brian Kernighan desenvolveram no Bell Laboratories a linguagem de modelagem AMPL",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Bjarne Stroustrup",
+     "tipo": "CRIOU",
+     "destino": "C++",
+     "propriedades": {},
+     "evidencia": "Bjarne Stroustrup havia começado a desenvolvê-la no Bell Laboratories em 1979, como uma extensão da linguagem C.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Bjarne Stroustrup",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {
+      "ano_inicio": 1979
+     },
+     "evidencia": "Bjarne Stroustrup havia começado a desenvolvê-la no Bell Laboratories em 1979",
+     "confianca": 0.7
+    },
+    {
+     "origem": "C++",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "como uma extensão da linguagem C",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Arthur Ashkin",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 2018
+     },
+     "evidencia": "Pelo trabalho com pinças ópticas e suas aplicações à biologia, recebeu o Nobel de Física de 2018.",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_34",
+   "entidades": [
+    {
+     "nome": "Arthur Ashkin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [
+      "Nobel de Física"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Charles A. Burrus",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs Fellow",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "AT&T Bell Laboratories Distinguished Technical Staff Award",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lucent Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Arthur Ashkin",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 2018
+     },
+     "evidencia": "Pelo trabalho com pinças ópticas e suas aplicações à biologia, recebeu o Nobel de Física de 2018.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Charles A. Burrus",
+     "tipo": "RECEBEU",
+     "destino": "Bell Labs Fellow",
+     "propriedades": {
+      "ano": 1988
+     },
+     "evidencia": "Charles A. Burrus recebeu o Bell Labs Fellow em 1988",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Charles A. Burrus",
+     "tipo": "RECEBEU",
+     "destino": "AT&T Bell Laboratories Distinguished Technical Staff Award",
+     "propriedades": {
+      "ano": 1982
+     },
+     "evidencia": "Em 1982, já havia recebido o AT&T Bell Laboratories Distinguished Technical Staff Award.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Charles A. Burrus",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Lucent Technologies",
+     "propriedades": {
+      "cargo": "consultor",
+      "ano_fim": 2002
+     },
+     "evidencia": "prestou consultoria à Lucent Technologies até 2002",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_35",
+   "entidades": [
+    {
+     "nome": "Claude Shannon",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shannon"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Richard D. Gitlin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jean-Jacques Werner",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "DSL",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Tecnologia que permitia transmitir dados a taxas de megabits por segundo pelos fios de cobre já instalados.",
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Richard D. Gitlin",
+     "tipo": "CRIOU",
+     "destino": "DSL",
+     "propriedades": {},
+     "evidencia": "Richard D. Gitlin, Jean-Jacques Werner e seus colegas desenvolveram a tecnologia DSL",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Jean-Jacques Werner",
+     "tipo": "CRIOU",
+     "destino": "DSL",
+     "propriedades": {},
+     "evidencia": "Richard D. Gitlin, Jean-Jacques Werner e seus colegas desenvolveram a tecnologia DSL",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_36",
+   "entidades": [
+    {
+     "nome": "John Mayo",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "W. Lincoln Hawkins",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Amos Joel",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ronald Snare",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha Nacional de Tecnologia e Inovação",
+     "tipo": "Premio",
+     "aliases": [
+      "Medalha Nacional de Tecnologia"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs Fellow",
+     "tipo": "Premio",
+     "aliases": [
+      "AT&T Bell Laboratories Fellow"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John Mayo",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Nacional de Tecnologia e Inovação",
+     "propriedades": {
+      "ano": 1990
+     },
+     "evidencia": "John Mayo recebeu a Medalha Nacional de Tecnologia em 1990.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ronald Snare",
+     "tipo": "RECEBEU",
+     "destino": "Bell Labs Fellow",
+     "propriedades": {
+      "ano": 1990
+     },
+     "evidencia": "Em maio de 1990, Ronald Snare recebeu o AT&T Bell Laboratories Fellow",
+     "confianca": 0.95
+    },
+    {
+     "origem": "W. Lincoln Hawkins",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Nacional de Tecnologia e Inovação",
+     "propriedades": {
+      "ano": 1992
+     },
+     "evidencia": "Em 1992, o cientista W. Lincoln Hawkins recebeu a Medalha Nacional de Tecnologia pelo trabalho realizado no Bell Labs.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Amos Joel",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Nacional de Tecnologia e Inovação",
+     "propriedades": {
+      "ano": 1993
+     },
+     "evidencia": "Amos Joel recebeu a Medalha Nacional de Tecnologia em 1993.",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_37",
+   "entidades": [
+    {
+     "nome": "Amos Joel",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Joel Engel",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Richard Frenkiel",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha Nacional de Tecnologia e Inovação",
+     "tipo": "Premio",
+     "aliases": [
+      "Medalha Nacional de Tecnologia"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "AT&T Bell Labs"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ritchie"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Inferno",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema operacional derivado do Plan 9, criado em 1996.",
+     "propriedades": {
+      "ano": 1996,
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Limbo",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem de programação concorrente.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Plan 9",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Lucent Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Lucy Sanders",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs Fellow",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Amos Joel",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Nacional de Tecnologia e Inovação",
+     "propriedades": {
+      "ano": 1993
+     },
+     "evidencia": "Amos Joel recebeu a Medalha Nacional de Tecnologia em 1993.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Joel Engel",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Nacional de Tecnologia e Inovação",
+     "propriedades": {
+      "ano": 1994
+     },
+     "evidencia": "Em 1994, os cientistas Joel Engel e Richard Frenkiel, do AT&T Bell Labs, também receberam a medalha.",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Richard Frenkiel",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Nacional de Tecnologia e Inovação",
+     "propriedades": {
+      "ano": 1994
+     },
+     "evidencia": "Em 1994, os cientistas Joel Engel e Richard Frenkiel, do AT&T Bell Labs, também receberam a medalha.",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Joel Engel",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "os cientistas Joel Engel e Richard Frenkiel, do AT&T Bell Labs",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Richard Frenkiel",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "os cientistas Joel Engel e Richard Frenkiel, do AT&T Bell Labs",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "CRIOU",
+     "destino": "Inferno",
+     "propriedades": {},
+     "evidencia": "Dennis Ritchie e outros pesquisadores criaram o sistema operacional Inferno, derivado do Plan 9, usando a nova linguagem de programação concorrente Limbo.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Inferno",
+     "tipo": "ESCRITO_EM",
+     "destino": "Limbo",
+     "propriedades": {},
+     "evidencia": "criaram o sistema operacional Inferno, derivado do Plan 9, usando a nova linguagem de programação concorrente Limbo",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Lucy Sanders",
+     "tipo": "RECEBEU",
+     "destino": "Bell Labs Fellow",
+     "propriedades": {
+      "ano": 1996
+     },
+     "evidencia": "Lucy Sanders tornou-se, em 1996, a terceira mulher a receber o Bell Labs Fellow.",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_38",
+   "entidades": [
+    {
+     "nome": "Lucy Sanders",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Rudolph Kazarinov",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Federico Capasso",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Rank de Optoeletrônica",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ritchie"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Thompson"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha Nacional de Tecnologia e Inovação",
+     "tipo": "Premio",
+     "aliases": [
+      "Medalha Nacional de Tecnologia"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Lucy Sanders",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {
+      "ano_inicio": 1977
+     },
+     "evidencia": "Sanders havia ingressado na empresa em 1977",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Rudolph Kazarinov",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Rank de Optoeletrônica",
+     "propriedades": {
+      "ano": 1998
+     },
+     "evidencia": "Rudolph Kazarinov e Federico Capasso receberam o Prêmio Rank de Optoeletrônica em 8 de dezembro de 1998.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Federico Capasso",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Rank de Optoeletrônica",
+     "propriedades": {
+      "ano": 1998
+     },
+     "evidencia": "Rudolph Kazarinov e Federico Capasso receberam o Prêmio Rank de Optoeletrônica em 8 de dezembro de 1998.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Nacional de Tecnologia e Inovação",
+     "propriedades": {},
+     "evidencia": "Ritchie e Thompson foram escolhidos para receber a Medalha Nacional de Tecnologia pelo trabalho realizado no Bell Labs",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Nacional de Tecnologia e Inovação",
+     "propriedades": {},
+     "evidencia": "Ritchie e Thompson foram escolhidos para receber a Medalha Nacional de Tecnologia pelo trabalho realizado no Bell Labs",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_39",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "140121_40",
+   "entidades": [
+    {
+     "nome": "Magaly Spector",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Eve Varma",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs Fellow",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jeong H. Kim",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Bell Laboratories"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Lucent Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Alcatel-Lucent",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Empresa resultante da fusão da Lucent com a Alcatel, em operação desde 1 de dezembro de 2006.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Magaly Spector",
+     "tipo": "RECEBEU",
+     "destino": "Bell Labs Fellow",
+     "propriedades": {
+      "ano": 2004
+     },
+     "evidencia": "Em 2004, a Lucent Technologies concedeu o Bell Labs Fellow a duas mulheres. Magaly Spector, diretora do INS/Network Systems Group, foi homenageada",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Eve Varma",
+     "tipo": "RECEBEU",
+     "destino": "Bell Labs Fellow",
+     "propriedades": {
+      "ano": 2004
+     },
+     "evidencia": "Eve Varma, gerente técnica do MNS/Network Systems Group, recebeu a distinção",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Jeong H. Kim",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Lucent Technologies",
+     "propriedades": {
+      "cargo": "presidente do grupo de redes ópticas"
+     },
+     "evidencia": "Jeong H. Kim, antigo presidente do grupo de redes ópticas da Lucent",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Jeong H. Kim",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_inicio": 2005
+     },
+     "evidencia": "Em 2005, Jeong H. Kim, antigo presidente do grupo de redes ópticas da Lucent, deixou o meio universitário e voltou à empresa para presidir o Bell Laboratories.",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_41",
+   "entidades": [
+    {
+     "nome": "Jeong H. Kim",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Martin J. Glapa",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Glapa"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs Fellow",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lucent Technologies",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Lucent"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Martin J. Glapa",
+     "tipo": "RECEBEU",
+     "destino": "Bell Labs Fellow",
+     "propriedades": {},
+     "evidencia": "o presidente Jeong H. Kim entregou a Martin J. Glapa o Bell Labs Fellow referente a 2006",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Martin J. Glapa",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Lucent Technologies",
+     "propriedades": {
+      "cargo": "diretor de tecnologia da unidade de comunicações por cabo"
+     },
+     "evidencia": "Glapa havia sido diretor de tecnologia da unidade de comunicações por cabo da Lucent",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_42",
+   "entidades": [
+    {
+     "nome": "Willard Boyle",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "George E. Smith",
+     "tipo": "Pessoa",
+     "aliases": [
+      "George Smith"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [
+      "Nobel de Física"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dispositivo de carga acoplada",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "CCD"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Rob Soni",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs Fellow",
+     "tipo": "Premio",
+     "aliases": [
+      "Alcatel-Lucent Bell Labs Fellow"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Willard Boyle",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 2009
+     },
+     "evidencia": "Em 2009, Willard Boyle e George Smith receberam o Nobel de Física pela invenção e pelo desenvolvimento do dispositivo de carga acoplada.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "George E. Smith",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 2009
+     },
+     "evidencia": "Em 2009, Willard Boyle e George Smith receberam o Nobel de Física pela invenção e pelo desenvolvimento do dispositivo de carga acoplada.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Rob Soni",
+     "tipo": "RECEBEU",
+     "destino": "Bell Labs Fellow",
+     "propriedades": {
+      "ano": 2009
+     },
+     "evidencia": "Rob Soni recebeu o Alcatel-Lucent Bell Labs Fellow em 2009",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_43",
+   "entidades": [
+    {
+     "nome": "Rob Soni",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs Fellow",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Gee Rittenhouse",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Marcus Weldon",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Michel Combes",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Danny Raz",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Eric Betzig",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Nobel de Química",
+     "tipo": "Premio",
+     "aliases": [
+      "Nobel de Química"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Alcatel-Lucent",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Rob Soni",
+     "tipo": "RECEBEU",
+     "destino": "Bell Labs Fellow",
+     "propriedades": {
+      "ano": 2009
+     },
+     "evidencia": "Rob Soni recebeu o Alcatel-Lucent Bell Labs Fellow em 2009",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Gee Rittenhouse",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_inicio": 2013
+     },
+     "evidencia": "Em fevereiro de 2013, Gee Rittenhouse, antigo chefe de pesquisa, deixou o cargo de diretor de operações da divisão de software, serviços e soluções da Alcatel-Lucent e voltou ao Bell Labs como seu 12.º presidente.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Marcus Weldon",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_inicio": 2013
+     },
+     "evidencia": "Em 4 de novembro de 2013, a Alcatel-Lucent anunciou a nomeação de Marcus Weldon para a presidência do Bell Labs.",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Michel Combes",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Alcatel-Lucent",
+     "propriedades": {
+      "cargo": "diretor-executivo"
+     },
+     "evidencia": "Michel Combes, diretor-executivo da Alcatel-Lucent",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Danny Raz",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "Danny Raz, que já havia trabalhado no Bell Labs",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Eric Betzig",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Química",
+     "propriedades": {
+      "ano": 2014
+     },
+     "evidencia": "Naquele ano, Eric Betzig dividiu o Nobel de Química por seu trabalho em microscopia de fluorescência de super-resolução",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_44",
+   "entidades": [
+    {
+     "nome": "Eric Betzig",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Nobel de Química",
+     "tipo": "Premio",
+     "aliases": [
+      "Nobel de Química"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Antero Taivalsaari",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dragan Samardzija",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs Fellow",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Arthur Ashkin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [
+      "Nobel de Física"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Nokia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Alcatel-Lucent",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Eric Betzig",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Química",
+     "propriedades": {},
+     "evidencia": "Eric Betzig dividiu o Nobel de Química por seu trabalho em microscopia de fluorescência de super-resolução",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Antero Taivalsaari",
+     "tipo": "RECEBEU",
+     "destino": "Bell Labs Fellow",
+     "propriedades": {
+      "ano": 2016
+     },
+     "evidencia": "Antero Taivalsaari recebeu o Bell Labs Fellow em 2016.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Dragan Samardzija",
+     "tipo": "RECEBEU",
+     "destino": "Bell Labs Fellow",
+     "propriedades": {
+      "ano": 2017
+     },
+     "evidencia": "Dragan Samardzija recebeu a mesma distinção em 2017.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Arthur Ashkin",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 2018
+     },
+     "evidencia": "Em 2018, Arthur Ashkin dividiu o Nobel de Física pelas pinças ópticas e suas aplicações a sistemas biológicos",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_45",
+   "entidades": [
+    {
+     "nome": "Arthur Ashkin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [
+      "Nobel de Física"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alfred Aho",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jeffrey Ullman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Nokia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Arthur Ashkin",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 2018
+     },
+     "evidencia": "Em 2018, Arthur Ashkin dividiu o Nobel de Física pelas pinças ópticas e suas aplicações a sistemas biológicos",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Alfred Aho",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 2020
+     },
+     "evidencia": "Em 2020, Alfred Aho e Jeffrey Ullman dividiram o Prêmio Turing pelo trabalho com compiladores",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Jeffrey Ullman",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 2020
+     },
+     "evidencia": "Em 2020, Alfred Aho e Jeffrey Ullman dividiram o Prêmio Turing pelo trabalho com compiladores",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Alfred Aho",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {
+      "ano_inicio": 1967,
+      "ano_fim": 1969
+     },
+     "evidencia": "iniciado quando trabalharam juntos no Bell Labs, entre 1967 e 1969",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Jeffrey Ullman",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {
+      "ano_inicio": 1967,
+      "ano_fim": 1969
+     },
+     "evidencia": "iniciado quando trabalharam juntos no Bell Labs, entre 1967 e 1969",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Alfred Aho",
+     "tipo": "COLABOROU_COM",
+     "destino": "Jeffrey Ullman",
+     "propriedades": {
+      "contexto": "trabalho com compiladores no Bell Labs"
+     },
+     "evidencia": "iniciado quando trabalharam juntos no Bell Labs, entre 1967 e 1969",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_46",
+   "entidades": [
+    {
+     "nome": "Murray Hill",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Nokia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Lucent Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Alcatel-Lucent",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "140121_47",
+   "entidades": [
+    {
+     "nome": "Guru Parulkar",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Peter Vetter",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Guru Parulkar",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_inicio": 2026
+     },
+     "evidencia": "Em 2026, as unidades Core Research e Solutions Research voltaram a formar uma única organização, presidida por Guru Parulkar.",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Peter Vetter",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {
+      "cargo": "copresidente"
+     },
+     "evidencia": "Peter Vetter, até então copresidente do Bell Labs e responsável pelo Core Research, aposentou-se.",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_48",
+   "entidades": [
+    {
+     "nome": "Clinton Davisson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Clinton J. Davisson"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Bardeen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Walter Houser Brattain",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Walter H. Brattain"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "William Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Philip W. Anderson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Arno Penzias",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Arno A. Penzias"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert W. Wilson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steven Chu",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Horst Störmer",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert B. Laughlin",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Robert Laughlin"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Daniel C. Tsui",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Daniel Tsui"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Willard Boyle",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Willard S. Boyle"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "George E. Smith",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Charles K. Kao",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Eric Betzig",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [
+      "Nobel de Física"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Nobel de Química",
+     "tipo": "Premio",
+     "aliases": [
+      "Nobel de Química"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Clinton Davisson",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1937
+     },
+     "evidencia": "1937, Clinton J. Davisson dividiu o Nobel de Física pela demonstração da natureza ondulatória da matéria.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John Bardeen",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "1956, John Bardeen, Walter H. Brattain e William Shockley receberam o Nobel de Física pela invenção dos primeiros transistores.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "1956, John Bardeen, Walter H. Brattain e William Shockley receberam o Nobel de Física pela invenção dos primeiros transistores.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "1956, John Bardeen, Walter H. Brattain e William Shockley receberam o Nobel de Física pela invenção dos primeiros transistores.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Philip W. Anderson",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1977
+     },
+     "evidencia": "1977, Philip W. Anderson dividiu o Nobel de Física por seus estudos da estrutura eletrônica de materiais magnéticos e desordenados.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Arno Penzias",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1978
+     },
+     "evidencia": "1978, Arno A. Penzias e Robert W. Wilson dividiram o Nobel de Física",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Robert W. Wilson",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1978
+     },
+     "evidencia": "1978, Arno A. Penzias e Robert W. Wilson dividiram o Nobel de Física",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Steven Chu",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1997
+     },
+     "evidencia": "1997, Steven Chu dividiu o Nobel de Física pelo desenvolvimento de métodos para resfriar e aprisionar átomos com luz laser.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Horst Störmer",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1998
+     },
+     "evidencia": "1998, Horst Störmer, Robert Laughlin e Daniel Tsui receberam o Nobel de Física",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Robert B. Laughlin",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1998
+     },
+     "evidencia": "1998, Horst Störmer, Robert Laughlin e Daniel Tsui receberam o Nobel de Física",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Daniel C. Tsui",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1998
+     },
+     "evidencia": "1998, Horst Störmer, Robert Laughlin e Daniel Tsui receberam o Nobel de Física",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Willard Boyle",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 2009
+     },
+     "evidencia": "2009, Willard S. Boyle e George E. Smith dividiram o Nobel de Física com Charles K. Kao.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "George E. Smith",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 2009
+     },
+     "evidencia": "2009, Willard S. Boyle e George E. Smith dividiram o Nobel de Física com Charles K. Kao.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Charles K. Kao",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 2009
+     },
+     "evidencia": "2009, Willard S. Boyle e George E. Smith dividiram o Nobel de Física com Charles K. Kao.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Eric Betzig",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Química",
+     "propriedades": {
+      "ano": 2014
+     },
+     "evidencia": "2014, Eric Betzig dividiu o Nobel de Química pelo trabalho com microscopia de fluorescência de super-resolução",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_49",
+   "entidades": [
+    {
+     "nome": "Eric Betzig",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Arthur Ashkin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Louis Brus",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Hopfield",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [
+      "Nobel de Física"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Nobel de Química",
+     "tipo": "Premio",
+     "aliases": [
+      "Nobel de Química"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Eric Betzig",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Química",
+     "propriedades": {
+      "ano": 2014
+     },
+     "evidencia": "2014, Eric Betzig dividiu o Nobel de Química pelo trabalho com microscopia de fluorescência de super-resolução",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Arthur Ashkin",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 2018
+     },
+     "evidencia": "2018, Arthur Ashkin dividiu o Nobel de Física pela criação das pinças ópticas",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Louis Brus",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Química",
+     "propriedades": {
+      "ano": 2023
+     },
+     "evidencia": "2023, Louis Brus dividiu o Nobel de Química pela descoberta e síntese dos pontos quânticos",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John Hopfield",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 2024
+     },
+     "evidencia": "2024, John Hopfield dividiu o Nobel de Física pelo trabalho com redes neurais artificiais para aprendizado de máquina.",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_50",
+   "entidades": [
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Richard Hamming",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Tarjan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Hopcroft",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Yann LeCun",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Yoshua Bengio",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Geoffrey Hinton",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alfred Aho",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jeffrey Ullman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Richard Hamming",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 1968
+     },
+     "evidencia": "1968, Richard Hamming, por métodos numéricos, sistemas automáticos de codificação e códigos de detecção e correção de erros.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 1983
+     },
+     "evidencia": "1983, Ken Thompson e Dennis Ritchie, pela teoria dos sistemas operacionais e pelo desenvolvimento do Unix.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 1983
+     },
+     "evidencia": "1983, Ken Thompson e Dennis Ritchie, pela teoria dos sistemas operacionais e pelo desenvolvimento do Unix.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Robert Tarjan",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 1986
+     },
+     "evidencia": "1986, Robert Tarjan, junto com John Hopcroft, pelo projeto e pela análise de algoritmos e estruturas de dados.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John Hopcroft",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 1986
+     },
+     "evidencia": "1986, Robert Tarjan, junto com John Hopcroft, pelo projeto e pela análise de algoritmos e estruturas de dados.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Yann LeCun",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 2018
+     },
+     "evidencia": "2018, Yann LeCun dividiu o prêmio com Yoshua Bengio e Geoffrey Hinton pelo trabalho com aprendizado profundo.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Yoshua Bengio",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 2018
+     },
+     "evidencia": "2018, Yann LeCun dividiu o prêmio com Yoshua Bengio e Geoffrey Hinton pelo trabalho com aprendizado profundo.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Geoffrey Hinton",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 2018
+     },
+     "evidencia": "2018, Yann LeCun dividiu o prêmio com Yoshua Bengio e Geoffrey Hinton pelo trabalho com aprendizado profundo.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Alfred Aho",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 2020
+     },
+     "evidencia": "2020, Alfred Aho e Jeffrey Ullman, pelo trabalho com compiladores.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Jeffrey Ullman",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 2020
+     },
+     "evidencia": "2020, Alfred Aho e Jeffrey Ullman, pelo trabalho com compiladores.",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_51",
+   "entidades": [
+    {
+     "nome": "Medalha de Honra IEEE",
+     "tipo": "Premio",
+     "aliases": [],
+     "descricao": "Mais alta distinção do Instituto de Engenheiros Eletricistas e Eletrônicos, concedida pela primeira vez em 1917.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Greenleaf Whittier Pickard",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "G. A. Campbell",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lloyd Espenschied",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ralph Hartley",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ralph Bown",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Harald T. Friis",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Harry Nyquist",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "George C. Southworth",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John H. Hammond Jr.",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Institute of Electrical and Electronics Engineers",
+     "tipo": "Organizacao",
+     "aliases": [
+      "IEEE",
+      "Instituto de Engenheiros Eletricistas e Eletrônicos"
+     ],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Greenleaf Whittier Pickard",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 1926
+     },
+     "evidencia": "1926, Greenleaf Whittier Pickard, por detectores de cristal",
+     "confianca": 0.9
+    },
+    {
+     "origem": "G. A. Campbell",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 1936
+     },
+     "evidencia": "1936, G. A. Campbell, pela teoria das redes elétricas.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Lloyd Espenschied",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 1940
+     },
+     "evidencia": "1940, Lloyd Espenschied, por seu trabalho de engenheiro e inventor",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Ralph Hartley",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 1946
+     },
+     "evidencia": "1946, Ralph Hartley, pelo trabalho inicial com circuitos oscilantes de válvulas triodo",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Ralph Bown",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 1949
+     },
+     "evidencia": "1949, Ralph Bown, por seu trabalho em rádio",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Harald T. Friis",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 1955
+     },
+     "evidencia": "1955, Harald T. Friis, pela ampliação do espectro de radiofrequências utilizável",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Harry Nyquist",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 1960
+     },
+     "evidencia": "1960, Harry Nyquist, pelos estudos quantitativos do ruído térmico",
+     "confianca": 0.9
+    },
+    {
+     "origem": "George C. Southworth",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 1963
+     },
+     "evidencia": "1963, George C. Southworth, por seus trabalhos em física de micro-ondas",
+     "confianca": 0.9
+    },
+    {
+     "origem": "John H. Hammond Jr.",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 1963
+     },
+     "evidencia": "1963, George C. Southworth, por seus trabalhos em física de micro-ondas, radioastronomia e transmissão por guias de onda. John H. Hammond Jr. também recebeu a medalha naquele ano.",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_52",
+   "entidades": [
+    {
+     "nome": "Medalha de Honra IEEE",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John H. Hammond Jr.",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Hammond Jr."
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Claude Shannon",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Charles H. Townes",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Bardeen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Rudolf Kompfner",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John R. Pierce",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "H. Earle Vaughan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "William Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sidney Darlington",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Wilder Tukey",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John H. Hammond Jr.",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {},
+     "evidencia": "Hammond Jr. também recebeu a medalha naquele ano.",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Claude Shannon",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 1966
+     },
+     "evidencia": "1966, Claude Shannon, pelo desenvolvimento de uma teoria matemática da comunicação",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Charles H. Townes",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 1967
+     },
+     "evidencia": "1967, Charles H. Townes, pelos estudos de eletrônica quântica",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John Bardeen",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 1971
+     },
+     "evidencia": "1971, John Bardeen, pelos estudos da condutividade dos sólidos",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Rudolf Kompfner",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 1973
+     },
+     "evidencia": "1973, Rudolf Kompfner, pela criação da válvula de ondas progressivas",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John R. Pierce",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 1975
+     },
+     "evidencia": "1975, John R. Pierce, pelas propostas e pelos experimentos de comunicação por satélite",
+     "confianca": 0.95
+    },
+    {
+     "origem": "H. Earle Vaughan",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 1977
+     },
+     "evidencia": "1977, H. Earle Vaughan, pela concepção, pelo desenvolvimento técnico e pela direção do projeto",
+     "confianca": 0.95
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 1980
+     },
+     "evidencia": "1980, William Shockley, pela invenção do transistor de junção",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Sidney Darlington",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 1981
+     },
+     "evidencia": "1981, Sidney Darlington, pelos trabalhos em filtragem e processamento de sinais",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John Wilder Tukey",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 1982
+     },
+     "evidencia": "1982, John Wilder Tukey, pela análise espectral de processos aleatórios",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_53",
+   "entidades": [
+    {
+     "nome": "Medalha de Honra IEEE",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Wilder Tukey",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C. Kumar N. Patel",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Amos Joel",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Amos E. Joel Jr."
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alfred Y. Cho",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Herwig Kogelnik",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "James L. Flanagan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John Wilder Tukey",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 1982
+     },
+     "evidencia": "1982, John Wilder Tukey, pela análise espectral de processos aleatórios",
+     "confianca": 0.95
+    },
+    {
+     "origem": "C. Kumar N. Patel",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 1989
+     },
+     "evidencia": "1989, C. Kumar N. Patel, pelos estudos de eletrônica quântica",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Amos Joel",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 1992
+     },
+     "evidencia": "1992, Amos E. Joel Jr., pelo desenvolvimento e pela direção de trabalhos com sistemas de comutação de telecomunicações.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Alfred Y. Cho",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 1994
+     },
+     "evidencia": "1994, Alfred Y. Cho, pelo desenvolvimento da epitaxia por feixe molecular.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Herwig Kogelnik",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 2001
+     },
+     "evidencia": "2001, Herwig Kogelnik, pela ciência e tecnologia dos lasers e da optoeletrônica",
+     "confianca": 0.95
+    },
+    {
+     "origem": "James L. Flanagan",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 2005
+     },
+     "evidencia": "2005, James L. Flanagan, pelo trabalho e pela direção de pesquisas em tecnologia da fala",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "140121_54",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "140121_55",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "140121_56",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

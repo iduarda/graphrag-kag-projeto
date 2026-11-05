@@ -1,0 +1,752 @@
+[
+ {
+  "n": 1,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 2,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 3,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 4,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 5,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 6,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 7,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 8,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 9,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 10,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 11,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 12,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 13,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 14,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 15,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 16,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 17,
+  "veredito": "incorreta",
+  "motivo": "Trecho é uma lista de nomes sem cabeçalho; não menciona a DEC nem diz que Radia Perlman trabalhou lá; a evidência citada não sustenta vínculo empregatício."
+ },
+ {
+  "n": 18,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 19,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 20,
+  "veredito": "parcial",
+  "motivo": "Tanenbaum criou o primeiro transistor de silício, não o 'Transístor' em geral; destino genérico demais (o mesmo nó dos inventores de 1947)."
+ },
+ {
+  "n": 21,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 22,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 23,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 24,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 25,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 26,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 27,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 28,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 29,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 30,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 31,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 32,
+  "veredito": "parcial",
+  "motivo": "Bletchley Park é um local/complexo, não uma organização; quem está ali é o Museu Nacional de Computação. Tipo de entidade discutível."
+ },
+ {
+  "n": 33,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 34,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 35,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 36,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 37,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 38,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 39,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 40,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 41,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 42,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 43,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 44,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 45,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 46,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 47,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 48,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 49,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 50,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 51,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 52,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 53,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 54,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 55,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 56,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 57,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 58,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 59,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 60,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 61,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 62,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 63,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 64,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 65,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 66,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 67,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 68,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 69,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 70,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 71,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 72,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 73,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 74,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 75,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 76,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 77,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 78,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 79,
+  "veredito": "parcial",
+  "motivo": "Lista 'Presidentes' sem nomear a empresa; Texas Instruments vem do contexto do documento, não do trecho (cargo e anos estão corretos)."
+ },
+ {
+  "n": 80,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 81,
+  "veredito": "parcial",
+  "motivo": "O trecho diz que o Visual Basic está 'sob o domínio' da Microsoft (controle/propriedade), não que ela o desenvolveu; relação forçada."
+ },
+ {
+  "n": 82,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 83,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 84,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 85,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 86,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 87,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 88,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 89,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 90,
+  "veredito": "parcial",
+  "motivo": "Crédito coletivo: o trecho diz que três ex-funcionários foram responsáveis pelo DEC Alpha e pelo StrongARM, sem dizer qual fez o quê; CRIOU individual é forçado."
+ },
+ {
+  "n": 91,
+  "veredito": "parcial",
+  "motivo": "MIT não é nomeado no trecho (só inferido por Sloan School/Lincoln); presidente da instituição forçado como TRABALHOU_EM."
+ },
+ {
+  "n": 92,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 93,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 94,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 95,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 96,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 97,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 98,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 99,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 100,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 101,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 102,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 103,
+  "veredito": "parcial",
+  "motivo": "Membro do conselho forçado como TRABALHOU_EM; ano_inicio 2000 conflita com 'membro do conselho desde 1999' no mesmo trecho."
+ },
+ {
+  "n": 104,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 105,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 106,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 107,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 108,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 109,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 110,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 111,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 112,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 113,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 114,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 115,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 116,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 117,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 118,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 119,
+  "veredito": "parcial",
+  "motivo": "Crédito coletivo: o trecho diz que três ex-funcionários foram responsáveis pelo DEC Alpha e pelo StrongARM, sem atribuir a Keller especificamente; CRIOU forçado."
+ },
+ {
+  "n": 120,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 121,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 122,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 123,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 124,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 125,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 126,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 127,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 128,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 129,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 130,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 131,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 132,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 133,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 134,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 135,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 136,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 137,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 138,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 139,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 140,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 141,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 142,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 143,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 144,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 145,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 146,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 147,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 148,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 149,
+  "veredito": "correta",
+  "motivo": ""
+ },
+ {
+  "n": 150,
+  "veredito": "correta",
+  "motivo": ""
+ }
+]

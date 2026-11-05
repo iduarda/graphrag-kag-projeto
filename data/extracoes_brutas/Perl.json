@@ -1,0 +1,414 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:20:36+00:00",
+ "chunks": [
+  {
+   "chunk_id": "1409_0",
+   "entidades": [
+    {
+     "nome": "Perl",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Família de linguagens de programação multiplataforma, usada em CGI, administração de sistemas e manipulação de strings.",
+     "propriedades": {
+      "ano": 1987
+     }
+    },
+    {
+     "nome": "Larry Wall",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Desenvolvedor original da linguagem Perl.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "UNIX"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "MSDOS"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Windows"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Larry Wall",
+     "tipo": "CRIOU",
+     "destino": "Perl",
+     "propriedades": {
+      "ano": 1987
+     },
+     "evidencia": "Originalmente, Perl foi desenvolvida por Larry Wall em 1987",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "1409_1",
+   "entidades": [
+    {
+     "nome": "Perl",
+     "tipo": "Linguagem",
+     "aliases": [
+      "PEARL"
+     ],
+     "descricao": "Linguagem desenvolvida por Larry Wall e lançada em 1987 na Usenet.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Larry Wall",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Wall"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "AWK",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Larry Wall",
+     "tipo": "CRIOU",
+     "destino": "Perl",
+     "propriedades": {},
+     "evidencia": "A linguagem Perl foi desenvolvida por Larry Wall",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Perl",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "além da sintaxe baseada tanto em C quanto em Shell Script",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Perl",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "AWK",
+     "propriedades": {},
+     "evidencia": "A ideia de Wall foi juntar as principais vantagens de todas essas linguagens: expressões regulares do 'sed'; a identificação de padrões de AWK",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "1409_2",
+   "entidades": [
+    {
+     "nome": "Perl",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem que se popularizou e chegou à versão 5 em 1994.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Larry Wall",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Wall"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "AWK",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Perl",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "AWK",
+     "propriedades": {},
+     "evidencia": "A ideia de Wall foi juntar as principais vantagens de todas essas linguagens: expressões regulares do 'sed'; a identificação de padrões de AWK; a profundidade de C",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Perl",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "A ideia de Wall foi juntar as principais vantagens de todas essas linguagens: expressões regulares do 'sed'; a identificação de padrões de AWK; a profundidade de C",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "1409_3",
+   "entidades": [
+    {
+     "nome": "Perl",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem com sintaxe semelhante à de C, que empresta ideias de Lisp, awk e sed.",
+     "propriedades": {
+      "paradigmas": [
+       "funcional",
+       "orientada a objetos"
+      ]
+     }
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lisp",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "AWK",
+     "tipo": "Linguagem",
+     "aliases": [
+      "awk"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Perl",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Lisp",
+     "propriedades": {},
+     "evidencia": "Perl pega emprestado as listas de Lisp, as arrays associativas (tabelas hash) de awk",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Perl",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "AWK",
+     "propriedades": {},
+     "evidencia": "Perl pega emprestado as listas de Lisp, as arrays associativas (tabelas hash) de awk",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Perl",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "a sintaxe de um programa em Perl se parece muito com a de um programa em C",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "1409_4",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1409_5",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1409_6",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1409_7",
+   "entidades": [
+    {
+     "nome": "Perl",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem que permite programação procedural e orientada a objetos.",
+     "propriedades": {
+      "paradigmas": [
+       "procedural",
+       "orientada a objetos"
+      ]
+     }
+    },
+    {
+     "nome": "Oracle Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Oracle"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1409_8",
+   "entidades": [
+    {
+     "nome": "Perl",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Conhecida como o Canivete Suíço da Internet.",
+     "propriedades": {}
+    },
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "www"
+     ],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1409_9",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1409_10",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1409_11",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1409_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1409_13",
+   "entidades": [
+    {
+     "nome": "Perl",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem cujo laço for segue o mesmo estilo da linguagem C.",
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Perl",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "O laço for em Perl segue o mesmo estilo da linguagem C",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "1409_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1409_15",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "UNIX"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1409_16",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

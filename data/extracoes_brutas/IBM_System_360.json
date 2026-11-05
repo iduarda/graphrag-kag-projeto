@@ -1,0 +1,58 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:25:22+00:00",
+ "chunks": [
+  {
+   "chunk_id": "802856_0",
+   "entidades": [
+    {
+     "nome": "IBM System/360",
+     "tipo": "Hardware",
+     "aliases": [
+      "S/360"
+     ],
+     "descricao": "Família de mainframes lançada em 7 de abril de 1964, a primeira a distinguir arquitetura de implementação.",
+     "propriedades": {
+      "ano": 1964,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Gene Amdahl",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Responsável pela arquitectura do S/360.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "IBM",
+     "tipo": "DESENVOLVEU",
+     "destino": "IBM System/360",
+     "propriedades": {
+      "ano": 1964
+     },
+     "evidencia": "família de mainframe lançada pela IBM em 7 de Abril de 1964",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Gene Amdahl",
+     "tipo": "CRIOU",
+     "destino": "IBM System/360",
+     "propriedades": {},
+     "evidencia": "O responsável pela arquitectura do S/360 foi Gene Amdahl",
+     "confianca": 0.8
+    }
+   ]
+  }
+ ]
+}

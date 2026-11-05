@@ -1,0 +1,195 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:25:22+00:00",
+ "chunks": [
+  {
+   "chunk_id": "24846_0",
+   "entidades": [
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Kenneth Thompson",
+      "Thompson"
+     ],
+     "descricao": "Cientista da computação conhecido pela influência na criação do UNIX e pela invenção da linguagem B.",
+     "propriedades": {
+      "ano_nascimento": 1943
+     }
+    },
+    {
+     "nome": "Nova Orleães",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "UNIX"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "B",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Multics",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ritchie"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Plan 9",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Go",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Ken Thompson",
+     "tipo": "NASCEU_EM",
+     "destino": "Nova Orleães",
+     "propriedades": {},
+     "evidencia": "Kenneth Thompson (Nova Orleães, 4 de fevereiro de 1943)",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {
+      "ano_inicio": 1966
+     },
+     "evidencia": "Originalmente contratado em 1966 para trabalhar no projeto Multics da Bell Labs",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Google",
+     "propriedades": {
+      "ano_inicio": 2006
+     },
+     "evidencia": "Desde 2006, está trabalhando na empresa Google",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "COLABOROU_COM",
+     "destino": "Dennis Ritchie",
+     "propriedades": {
+      "contexto": "criação do UNIX"
+     },
+     "evidencia": "Thompson conheceu Dennis Ritchie e trabalhou junto com Ritchie para criar o sistema operacional UNIX",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "CRIOU",
+     "destino": "Unix",
+     "propriedades": {},
+     "evidencia": "trabalhou junto com Ritchie para criar o sistema operacional UNIX",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "CRIOU",
+     "destino": "Unix",
+     "propriedades": {},
+     "evidencia": "trabalhou junto com Ritchie para criar o sistema operacional UNIX",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "CRIOU",
+     "destino": "B",
+     "propriedades": {},
+     "evidencia": "Thompson também criou a linguagem de programação B",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "CRIOU",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "uma precursora da linguagem C de Dennis Ritchie",
+     "confianca": 0.8
+    },
+    {
+     "origem": "C",
+     "tipo": "SUCESSOR_DE",
+     "destino": "B",
+     "propriedades": {},
+     "evidencia": "pela invenção da linguagem de programação B, antecessora da linguagem de programação C",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "CRIOU",
+     "destino": "Plan 9",
+     "propriedades": {},
+     "evidencia": "Thompson também é conhecido por outros trabalhos, como o sistema operacional Plan 9",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "CRIOU",
+     "destino": "Go",
+     "propriedades": {},
+     "evidencia": "onde co-inventou a linguagem de programação Go",
+     "confianca": 0.95
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,957 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:24:26+00:00",
+ "chunks": [
+  {
+   "chunk_id": "6637_0",
+   "entidades": [
+    {
+     "nome": "Bill Gates",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gates",
+      "William Henry Gates III"
+     ],
+     "descricao": "Empresário norte-americano, fundador da Microsoft junto com Paul Allen.",
+     "propriedades": {
+      "ano_nascimento": 1955
+     }
+    },
+    {
+     "nome": "Paul Allen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Maior e mais conhecida empresa de software do mundo em valor de mercado.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Seattle",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bill Gates",
+     "tipo": "FUNDOU",
+     "destino": "Microsoft",
+     "propriedades": {},
+     "evidencia": "fundar, junto com Paul Allen, a Microsoft",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "FUNDOU",
+     "destino": "Microsoft",
+     "propriedades": {},
+     "evidencia": "fundar, junto com Paul Allen, a Microsoft",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Bill Gates",
+     "tipo": "COLABOROU_COM",
+     "destino": "Paul Allen",
+     "propriedades": {
+      "contexto": "fundação da Microsoft"
+     },
+     "evidencia": "fundar, junto com Paul Allen, a Microsoft",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Bill Gates",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Microsoft",
+     "propriedades": {
+      "cargo": "presidente não-executivo"
+     },
+     "evidencia": "Gates ocupa atualmente o cargo de presidente não-executivo da Microsoft",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Bill Gates",
+     "tipo": "NASCEU_EM",
+     "destino": "Seattle",
+     "propriedades": {},
+     "evidencia": "(Seattle, 28 de outubro de 1955)",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "6637_1",
+   "entidades": [
+    {
+     "nome": "Bill Gates",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gates"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Paul Allen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Allen"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Seattle",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Universidade Harvard",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Taito",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "University of Massachusetts at Amherst",
+     "tipo": "Organizacao",
+     "aliases": [
+      "UMASS"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Intel 8008",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Traf-o-Data",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Empresa criada por Gates e Allen.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bill Gates",
+     "tipo": "NASCEU_EM",
+     "destino": "Seattle",
+     "propriedades": {},
+     "evidencia": "Gates nasceu em uma família de classe média de Seattle",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Bill Gates",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade Harvard",
+     "propriedades": {},
+     "evidencia": "Bill Gates, foi admitido na prestigiosa Universidade Harvard",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Bill Gates",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Taito",
+     "propriedades": {},
+     "evidencia": "Trabalhou na Taito com o desenvolvimento de software básico para máquinas de jogos eletrônicos",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Bill Gates",
+     "tipo": "TRABALHOU_EM",
+     "destino": "University of Massachusetts at Amherst",
+     "propriedades": {
+      "cargo": "pesquisador visitante"
+     },
+     "evidencia": "Também trabalhou como pesquisador visitante na University of Massachusetts at Amherst",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Bill Gates",
+     "tipo": "FUNDOU",
+     "destino": "Traf-o-Data",
+     "propriedades": {},
+     "evidencia": "Gates e Allen criaram uma empresa, a Traf-o-Data",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "FUNDOU",
+     "destino": "Traf-o-Data",
+     "propriedades": {},
+     "evidencia": "Gates e Allen criaram uma empresa, a Traf-o-Data",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "6637_2",
+   "entidades": [
+    {
+     "nome": "Bill Gates",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gates"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Paul Allen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Allen"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Traf-o-Data",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "BASIC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Altair 8800",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bill Gates",
+     "tipo": "FUNDOU",
+     "destino": "Traf-o-Data",
+     "propriedades": {},
+     "evidencia": "Gates e Allen criaram uma empresa, a Traf-o-Data",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "FUNDOU",
+     "destino": "Traf-o-Data",
+     "propriedades": {},
+     "evidencia": "Gates e Allen criaram uma empresa, a Traf-o-Data",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Bill Gates",
+     "tipo": "FUNDOU",
+     "destino": "Microsoft",
+     "propriedades": {},
+     "evidencia": "Gates e Allen fundaram a Microsoft",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "FUNDOU",
+     "destino": "Microsoft",
+     "propriedades": {},
+     "evidencia": "Gates e Allen fundaram a Microsoft",
+     "confianca": 0.95
+    },
+    {
+     "origem": "BASIC",
+     "tipo": "EXECUTA_EM",
+     "destino": "Altair 8800",
+     "propriedades": {},
+     "evidencia": "desenvolveram um interpretador da linguagem BASIC para um dos primeiros computadores pessoais a serem lançado nos Estados Unidos—o Altair 8800",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "6637_3",
+   "entidades": [
+    {
+     "nome": "Bill Gates",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gates"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [
+      "PC"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1977,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Kenbak-1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1971,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "IBM",
+     "tipo": "DESENVOLVEU",
+     "destino": "IBM PC",
+     "propriedades": {},
+     "evidencia": "a IBM, líder no mercado de grandes computadores, resolveu entrar no mercado da microinformática com o PC",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "6637_4",
+   "entidades": [
+    {
+     "nome": "Bill Gates",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gates"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Paul Allen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1975
+     }
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Seattle Computer Products",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Steve Ballmer",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fundação Bill e Melinda Gates",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Bill & Melinda Gates Foundation"
+     ],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bill Gates",
+     "tipo": "FUNDOU",
+     "destino": "Microsoft",
+     "propriedades": {
+      "ano": 1975
+     },
+     "evidencia": "Foi fundada em 1975 por Bill Gates, então com 19 anos, em parceria com Paul Allen.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "FUNDOU",
+     "destino": "Microsoft",
+     "propriedades": {
+      "ano": 1975
+     },
+     "evidencia": "Foi fundada em 1975 por Bill Gates, então com 19 anos, em parceria com Paul Allen.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Bill Gates",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Microsoft",
+     "propriedades": {
+      "ano_fim": 2008
+     },
+     "evidencia": "Em 27 de junho de 2008 Bill Gates retirou-se definitivamente da Microsoft",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "6637_5",
+   "entidades": [
+    {
+     "nome": "Bill Gates",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gates"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Fundação Bill e Melinda Gates",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Fundação Bill & Melinda Gates"
+     ],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bill Gates",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Microsoft",
+     "propriedades": {
+      "ano_fim": 2008
+     },
+     "evidencia": "Em 27 de junho de 2008 Bill Gates retirou-se definitivamente da Microsoft",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "6637_6",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6637_7",
+   "entidades": [
+    {
+     "nome": "Bill Gates",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gates"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Melinda Gates",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Melinda"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fundação Bill e Melinda Gates",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Organização filantrópica voltada à pesquisa sobre a AIDS e outras doenças.",
+     "propriedades": {
+      "tipo": "fundacao",
+      "ano_fundacao": 2000
+     }
+    },
+    {
+     "nome": "Warren Buffett",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bill Gates",
+     "tipo": "FUNDOU",
+     "destino": "Fundação Bill e Melinda Gates",
+     "propriedades": {
+      "ano": 2000
+     },
+     "evidencia": "Em 2000, junto com sua esposa Melinda, Gates criou a Fundação Bill e Melinda Gates",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Melinda Gates",
+     "tipo": "FUNDOU",
+     "destino": "Fundação Bill e Melinda Gates",
+     "propriedades": {
+      "ano": 2000
+     },
+     "evidencia": "Em 2000, junto com sua esposa Melinda, Gates criou a Fundação Bill e Melinda Gates",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "6637_8",
+   "entidades": [
+    {
+     "nome": "Bill Gates",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gates"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Melinda Gates",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Melinda"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha Presidencial da Liberdade",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Harvard",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Cambridge",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bill Gates",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Presidencial da Liberdade",
+     "propriedades": {
+      "ano": 2016
+     },
+     "evidencia": "Em 2016, Bill e Melinda Gates foram condecorados por Barack Obama com a Medalha Presidencial da Liberdade",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Melinda Gates",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Presidencial da Liberdade",
+     "propriedades": {
+      "ano": 2016
+     },
+     "evidencia": "Em 2016, Bill e Melinda Gates foram condecorados por Barack Obama com a Medalha Presidencial da Liberdade",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "6637_9",
+   "entidades": [
+    {
+     "nome": "Bill Gates",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gates"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ordem do Império Britânico",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ordem da Águia Asteca",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Grã-Cruz da Ordem do Infante D. Henrique",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bill Gates",
+     "tipo": "RECEBEU",
+     "destino": "Ordem do Império Britânico",
+     "propriedades": {
+      "ano": 2005
+     },
+     "evidencia": "Gates também foi condecorado por duas ordens de cavalaria: a Ordem do Império Britânico, em 2005",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Bill Gates",
+     "tipo": "RECEBEU",
+     "destino": "Ordem da Águia Asteca",
+     "propriedades": {
+      "ano": 2006
+     },
+     "evidencia": "a Ordem da Águia Asteca em 2006",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Bill Gates",
+     "tipo": "RECEBEU",
+     "destino": "Grã-Cruz da Ordem do Infante D. Henrique",
+     "propriedades": {
+      "ano": 2006
+     },
+     "evidencia": "a 5 de Janeiro de 2006, condecorado, em Portugal, pelo Presidente Jorge Sampaio, com a Grã-Cruz da Ordem do Infante D. Henrique",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "6637_10",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6637_11",
+   "entidades": [
+    {
+     "nome": "Bill Gates",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gates"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "bgC3",
+     "tipo": "Organizacao",
+     "aliases": [
+      "bgC3 LLC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Cascade Investment",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Cascade Investment LLC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Kirkland",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bill Gates",
+     "tipo": "FUNDOU",
+     "destino": "bgC3",
+     "propriedades": {},
+     "evidencia": "bgC3 LLC, um think tank e empresa de pesquisa fundada por Gates.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Bill Gates",
+     "tipo": "FUNDOU",
+     "destino": "Cascade Investment",
+     "propriedades": {},
+     "evidencia": "Cascade Investment LLC, uma empresa privada de investimento e holding constituída nos Estados Unidos, fundada e controlada por Gates",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Cascade Investment",
+     "tipo": "SEDIADA_EM",
+     "destino": "Kirkland",
+     "propriedades": {},
+     "evidencia": "sediada em Kirkland, Washington",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "6637_12",
+   "entidades": [
+    {
+     "nome": "Bill Gates",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gates"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Corbis",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Interactive Home Systems",
+      "Branded Entertainment Network"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "EarthNow",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Seattle",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bill Gates",
+     "tipo": "FUNDOU",
+     "destino": "Corbis",
+     "propriedades": {},
+     "evidencia": "uma empresa de licenciamento de imagens digitais e serviços de direitos fundada e presidida por Gates",
+     "confianca": 0.95
+    },
+    {
+     "origem": "EarthNow",
+     "tipo": "SEDIADA_EM",
+     "destino": "Seattle",
+     "propriedades": {},
+     "evidencia": "EarthNow, uma startup com sede em Seattle",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "6637_13",
+   "entidades": [
+    {
+     "nome": "Bill Gates",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gates"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "TerraPower",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Breakthrough Energy Ventures",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 2015
+     }
+    },
+    {
+     "nome": "Cascade Investment",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bill Gates",
+     "tipo": "FUNDOU",
+     "destino": "TerraPower",
+     "propriedades": {},
+     "evidencia": "TerraPower, uma empresa de projeto de reatores nucleares cofundada e presidida por Gates",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Bill Gates",
+     "tipo": "FUNDOU",
+     "destino": "Breakthrough Energy Ventures",
+     "propriedades": {
+      "ano": 2015
+     },
+     "evidencia": "Foi fundada por Gates em 2015.",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "6637_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6637_15",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6637_16",
+   "entidades": [
+    {
+     "nome": "Universidade de Oxford",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6637_17",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "6637_18",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

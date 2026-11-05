@@ -1,0 +1,29 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:25:21+00:00",
+ "chunks": [
+  {
+   "chunk_id": "248864_0",
+   "entidades": [
+    {
+     "nome": "Python Software Foundation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "PSF"
+     ],
+     "descricao": "Organização sem fins lucrativos que detém os direitos de propriedade intelectual da linguagem Python.",
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    },
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

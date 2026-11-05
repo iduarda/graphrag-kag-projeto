@@ -1,0 +1,939 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:26:13+00:00",
+ "chunks": [
+  {
+   "chunk_id": "44065_0",
+   "entidades": [
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Hewlett-Packard Company",
+      "HP"
+     ],
+     "descricao": "Companhia multinacional americana de tecnologia da informação, dividida em 2015 em HP Inc. e Hewlett-Packard Enterprise.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Bill Hewlett",
+     "tipo": "Pessoa",
+     "aliases": [
+      "William Redington Hewlett",
+      "Bill"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "David Packard",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Dave Packard",
+      "Dave"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Palo Alto",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Califórnia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "HP Inc.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Hewlett Packard Enterprise",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Agilent Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1999
+     }
+    },
+    {
+     "nome": "Compaq",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Lenovo",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "3Com",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Palm, Inc.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Hewlett-Packard",
+     "tipo": "SEDIADA_EM",
+     "destino": "Palo Alto",
+     "propriedades": {},
+     "evidencia": "Tinha sua sede em Palo Alto, na Califórnia, Estados Unidos",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Bill Hewlett",
+     "tipo": "FUNDOU",
+     "destino": "Hewlett-Packard",
+     "propriedades": {},
+     "evidencia": "A HP foi fundada em uma garagem em Palo Alto por William \"Bill\" Redington Hewlett e David \"Dave\" Packard",
+     "confianca": 0.95
+    },
+    {
+     "origem": "David Packard",
+     "tipo": "FUNDOU",
+     "destino": "Hewlett-Packard",
+     "propriedades": {},
+     "evidencia": "A HP foi fundada em uma garagem em Palo Alto por William \"Bill\" Redington Hewlett e David \"Dave\" Packard",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Bill Hewlett",
+     "tipo": "COLABOROU_COM",
+     "destino": "David Packard",
+     "propriedades": {
+      "contexto": "fundação da HP"
+     },
+     "evidencia": "A HP foi fundada em uma garagem em Palo Alto por William \"Bill\" Redington Hewlett e David \"Dave\" Packard",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "44065_1",
+   "entidades": [
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "HP"
+     ],
+     "propriedades": {
+      "ano_fundacao": 1939
+     }
+    },
+    {
+     "nome": "Bill Hewlett",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Bill"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "David Packard",
+     "tipo": "Pessoa",
+     "aliases": [
+      "David"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Stanford University",
+      "Stanford"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "GE",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "HP Inc.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Hewlett Packard Enterprise",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Palm, Inc.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Palo Alto",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bill Hewlett",
+     "tipo": "FUNDOU",
+     "destino": "Hewlett-Packard",
+     "propriedades": {
+      "ano": 1939
+     },
+     "evidencia": "Fundada oficialmente somente em 1939 por Bill Hewlett (26) e David Packard (27)",
+     "confianca": 0.95
+    },
+    {
+     "origem": "David Packard",
+     "tipo": "FUNDOU",
+     "destino": "Hewlett-Packard",
+     "propriedades": {
+      "ano": 1939
+     },
+     "evidencia": "Fundada oficialmente somente em 1939 por Bill Hewlett (26) e David Packard (27)",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Bill Hewlett",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade Stanford",
+     "propriedades": {},
+     "evidencia": "Bill continuou os estudos em Stanford e no MIT",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Bill Hewlett",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {},
+     "evidencia": "Bill continuou os estudos em Stanford e no MIT",
+     "confianca": 0.9
+    },
+    {
+     "origem": "David Packard",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade Stanford",
+     "propriedades": {},
+     "evidencia": "dois estudantes da Stanford University",
+     "confianca": 0.85
+    },
+    {
+     "origem": "David Packard",
+     "tipo": "TRABALHOU_EM",
+     "destino": "GE",
+     "propriedades": {},
+     "evidencia": "enquanto David começou a trabalhar na GE",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "44065_2",
+   "entidades": [
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "HP"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Canon",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Xerox",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Palo Alto",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Califórnia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "44065_3",
+   "entidades": [
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "HP"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "HP 2113A",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro computador da HP, com 3Kb de memória de núcleo magnético, expansível a 33 Kb.",
+     "propriedades": {
+      "ano": 1963,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "F.L. Moseley",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Yokogawa Electric",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Palo Alto",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Hewlett-Packard",
+     "tipo": "DESENVOLVEU",
+     "destino": "HP 2113A",
+     "propriedades": {
+      "ano": 1963
+     },
+     "evidencia": "Em 1963 lança seu primeiro computador, HP 2113A",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "44065_4",
+   "entidades": [
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "HP"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "HP-IB",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "interface bus"
+     ],
+     "descricao": "Interface padrão para sistemas de instrumentos, reconhecida como padrão internacional.",
+     "propriedades": {
+      "ano": 1973,
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "HP-85",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro computador pessoal da HP.",
+     "propriedades": {
+      "ano": 1983,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "ThinkJet",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1983,
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Compaq",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel 80386",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Hewlett-Packard",
+     "tipo": "DESENVOLVEU",
+     "destino": "HP-IB",
+     "propriedades": {
+      "ano": 1973
+     },
+     "evidencia": "Em 1973 cria uma interface padrão (HP-IB ou interface bus) para sistemas de instrumentos",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Hewlett-Packard",
+     "tipo": "DESENVOLVEU",
+     "destino": "HP-85",
+     "propriedades": {
+      "ano": 1983
+     },
+     "evidencia": "Em 1983 lança seu primeiro computador pessoal, o HP-85",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Hewlett-Packard",
+     "tipo": "DESENVOLVEU",
+     "destino": "ThinkJet",
+     "propriedades": {
+      "ano": 1983
+     },
+     "evidencia": "Em 1983 lança a impressora ThinkJet de 96 dpi",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "44065_5",
+   "entidades": [
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "HP"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "HP DeskJet",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1988,
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "HP 95LX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro palmtop da HP.",
+     "propriedades": {
+      "ano": 1991,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "HP Omnibook 300",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1993,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Itanium",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Processador de 64 bits desenvolvido em conjunto pela HP e a Intel.",
+     "propriedades": {
+      "ano": 2001,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Superdome",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Servidor especializado para internet.",
+     "propriedades": {
+      "ano": 2000,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "David Packard",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Dave Packard"
+     ],
+     "propriedades": {
+      "ano_morte": 1996
+     }
+    },
+    {
+     "nome": "Bill Hewlett",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {
+      "ano_morte": 2001
+     }
+    },
+    {
+     "nome": "Compaq Computer Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Compaq"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Houston",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Hewlett-Packard",
+     "tipo": "DESENVOLVEU",
+     "destino": "HP DeskJet",
+     "propriedades": {
+      "ano": 1988
+     },
+     "evidencia": "Em 1988 lança a HP DeskJet",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Hewlett-Packard",
+     "tipo": "DESENVOLVEU",
+     "destino": "HP 95LX",
+     "propriedades": {
+      "ano": 1991
+     },
+     "evidencia": "Em 1991 lança seu primeiro palmtop, HP 95LX",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Hewlett-Packard",
+     "tipo": "DESENVOLVEU",
+     "destino": "HP Omnibook 300",
+     "propriedades": {
+      "ano": 1993
+     },
+     "evidencia": "é lançado o HP Omnibook 300, um portátil com bateria capaz de durar um voo através dos Estados Unidos",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Hewlett-Packard",
+     "tipo": "DESENVOLVEU",
+     "destino": "Itanium",
+     "propriedades": {
+      "ano": 2001
+     },
+     "evidencia": "Em 1994 inicia em conjunto com a Intel o desenvolvimento de um processador de 64 bits, hoje chamado de Itanium, lançado em 2001",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Itanium",
+     "propriedades": {
+      "ano": 2001
+     },
+     "evidencia": "Em 1994 inicia em conjunto com a Intel o desenvolvimento de um processador de 64 bits, hoje chamado de Itanium, lançado em 2001",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Hewlett-Packard",
+     "tipo": "DESENVOLVEU",
+     "destino": "Superdome",
+     "propriedades": {
+      "ano": 2000
+     },
+     "evidencia": "Em 2000 lança o servidor especializado para internet Superdome",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "44065_6",
+   "entidades": [
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "HP"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Compaq",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "3Com",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Palm, Inc.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "EDS",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Electronic Data Systems"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Mark Hurd",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Léo Apotheker",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Meg Whitman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "HP Inc.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Hewlett Packard Enterprise",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Mark Hurd",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Hewlett-Packard",
+     "propriedades": {
+      "cargo": "CEO",
+      "ano_fim": 2010
+     },
+     "evidencia": "A 6 de Agosto de 2010, o CEO Mark Hurd demite-se",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Léo Apotheker",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Hewlett-Packard",
+     "propriedades": {
+      "cargo": "CEO e Presidente",
+      "ano_inicio": 2010
+     },
+     "evidencia": "A 30 de Setembro de 2010, Léo Apotheker foi nomeado o novo CEO e Presidente da HP",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Meg Whitman",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Hewlett-Packard",
+     "propriedades": {
+      "cargo": "CEO global",
+      "ano_inicio": 2011
+     },
+     "evidencia": "o Conselho de Administração nomeou Meg Whitman como nova CEO global da companhia",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "44065_7",
+   "entidades": [
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "HP"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "44065_8",
+   "entidades": [
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "HP"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Cisco",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "SAP",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Novell",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "3Com",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "44065_9",
+   "entidades": [
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "HP"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Cisco",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "SAP",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Novell",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "3Com",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "44065_10",
+   "entidades": [
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "HP"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "44065_11",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "44065_12",
+   "entidades": [
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "HP"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

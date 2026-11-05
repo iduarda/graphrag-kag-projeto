@@ -1,0 +1,699 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:26:13+00:00",
+ "chunks": [
+  {
+   "chunk_id": "8104_0",
+   "entidades": [
+    {
+     "nome": "Claude Shannon",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Claude Elwood Shannon",
+      "Shannon"
+     ],
+     "descricao": "Matemático, engenheiro eletrônico e criptógrafo estadunidense, conhecido como o pai da teoria da informação.",
+     "propriedades": {
+      "ano_nascimento": 1916,
+      "ano_morte": 2001
+     }
+    },
+    {
+     "nome": "Universidade de Michigan",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Warren Weaver",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Matemático estadunidense, coautor de Shannon.",
+     "propriedades": {
+      "ano_nascimento": 1894,
+      "ano_morte": 1978
+     }
+    },
+    {
+     "nome": "Norbert Wiener",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ronald Fisher",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Claude Shannon",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Michigan",
+     "propriedades": {
+      "curso": "matemática e engenharia elétrica"
+     },
+     "evidencia": "De 1932 a 1936, estudou matemática e engenharia elétrica na Universidade de Michigan",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Claude Shannon",
+     "tipo": "COLABOROU_COM",
+     "destino": "Warren Weaver",
+     "propriedades": {
+      "contexto": "coautoria do livro Teoria Matemática da Comunicação, em 1949"
+     },
+     "evidencia": "Em 1949, em coautoria com o também matemático estadunidense Warren Weaver (1894-1978), publicou o livro Teoria Matemática da Comunicação",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "8104_1",
+   "entidades": [
+    {
+     "nome": "Claude Shannon",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shannon"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Teoria da informação",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1948,
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Norbert Wiener",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Claude Shannon",
+     "tipo": "CRIOU",
+     "destino": "Teoria da informação",
+     "propriedades": {
+      "ano": 1948
+     },
+     "evidencia": "Shannon é famoso por ter fundado a teoria da informação com um artigo publicado em 1948",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "8104_2",
+   "entidades": [
+    {
+     "nome": "Claude Shannon",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shannon"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Petoskey",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Western Union",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Thomas Edison",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Claude Shannon",
+     "tipo": "NASCEU_EM",
+     "destino": "Petoskey",
+     "propriedades": {},
+     "evidencia": "Shannon nasceu em Petoskey, Michigan",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Claude Shannon",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Western Union",
+     "propriedades": {
+      "cargo": "mensageiro"
+     },
+     "evidencia": "Enquanto crescia, trabalhava como mensageiro da Western Union",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "8104_3",
+   "entidades": [
+    {
+     "nome": "Claude Shannon",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shannon"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Michigan",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Vannevar Bush",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "George Boole",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Howard Gardner",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Harvard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "universidade de Harvard"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Claude Shannon",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Michigan",
+     "propriedades": {
+      "curso": "engenharia elétrica e matemática"
+     },
+     "evidencia": "Em 1932 Shannon começou a cursar a Universidade de Michigan, formando em 1936 com duas graduações de bacharelado em engenharia elétrica e matemática",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Claude Shannon",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "curso": "pós-graduação"
+     },
+     "evidencia": "começou seus estudos de pós-graduação no Instituto de Tecnologia de Massachusetts (MIT)",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Howard Gardner",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade Harvard",
+     "propriedades": {},
+     "evidencia": "Howard Gardner, da universidade de Harvard",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "8104_4",
+   "entidades": [
+    {
+     "nome": "Claude Shannon",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shannon"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Estudos Avançados",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Instituto nacional de Estudos Avançados"
+     ],
+     "descricao": "Instituto em Princeton, Nova Jérsia.",
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Nova Jérsia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Hermann Weyl",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Albert Einstein",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Claude Shannon",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Estudos Avançados",
+     "propriedades": {
+      "cargo": "pesquisador",
+      "ano_inicio": 1940
+     },
+     "evidencia": "Em 1940, Shannon se tornou pesquisador do Instituto nacional de Estudos Avançados em Princeton, Nova Jérsia",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Claude Shannon",
+     "tipo": "COLABOROU_COM",
+     "destino": "John von Neumann",
+     "propriedades": {
+      "contexto": "discussão de ideias em Princeton"
+     },
+     "evidencia": "Shannon teve a oportunidade de discutir suas ideias com cientistas e matemáticos influentes como Hermann Weyl e John von Neumann",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "8104_5",
+   "entidades": [
+    {
+     "nome": "Claude Shannon",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shannon"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Claude Shannon",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "Shannon em seguida juntou-se à Bell Labs para trabalhar em sistemas de controle de fogo e criptografia durante a Segunda Guerra Mundial",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "8104_6",
+   "entidades": [
+    {
+     "nome": "Claude Shannon",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shannon"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina de Turing",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Máquina Universal de Turing"
+     ],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Ralph Beebe Blackman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Hendrik Wade Bode",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Claude Shannon",
+     "tipo": "COLABOROU_COM",
+     "destino": "Alan Turing",
+     "propriedades": {
+      "contexto": "contato e encontros no Bell Labs em 1943"
+     },
+     "evidencia": "Durante dois meses no início de 1943, Shannon entrou em contato como o criptoanalista líder e matemático britânico Alan Turing",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Alan Turing",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "Ele também ficou interessado em cifragem de fala e para isso ficou um tempo no Bell Labs",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Alan Turing",
+     "tipo": "CRIOU",
+     "destino": "Máquina de Turing",
+     "propriedades": {},
+     "evidencia": "Turing mostrou a Shannon seu artigo que definiu o que hoje é conhecido como a \"Máquina Universal de Turing\"",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Claude Shannon",
+     "tipo": "COLABOROU_COM",
+     "destino": "Ralph Beebe Blackman",
+     "propriedades": {
+      "contexto": "coautoria de documento sobre suavização de dados em controle de fogo"
+     },
+     "evidencia": "coautoria de Shannon, Ralph Beebe Blackman, e Hendrik Wade Bode",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Claude Shannon",
+     "tipo": "COLABOROU_COM",
+     "destino": "Hendrik Wade Bode",
+     "propriedades": {
+      "contexto": "coautoria de documento sobre suavização de dados em controle de fogo"
+     },
+     "evidencia": "coautoria de Shannon, Ralph Beebe Blackman, e Hendrik Wade Bode",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "8104_7",
+   "entidades": [
+    {
+     "nome": "Claude Shannon",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shannon"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Bell Telephone Labs"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8104_8",
+   "entidades": [
+    {
+     "nome": "Claude Shannon",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shannon"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Entropia da informação",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Medida de incerteza em uma mensagem.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Norbert Wiener",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Claude Shannon",
+     "tipo": "CRIOU",
+     "destino": "Entropia da informação",
+     "propriedades": {},
+     "evidencia": "Shannon desenvolveu a entropia da informação como uma medida de incerteza em uma mensagem",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "8104_9",
+   "entidades": [
+    {
+     "nome": "Claude Shannon",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shannon"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Teoria da amostragem",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Teoria que trata da representação de um sinal de tempo contínuo a partir de um conjunto discreto de amostras.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Claude Shannon",
+     "tipo": "CRIOU",
+     "destino": "Teoria da amostragem",
+     "propriedades": {},
+     "evidencia": "A ele também é creditado a introdução da teoria da amostragem",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "8104_10",
+   "entidades": [
+    {
+     "nome": "Claude Shannon",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shannon"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Marvin Minsky",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Edward O. Thorp",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Claude Shannon",
+     "tipo": "COLABOROU_COM",
+     "destino": "Edward O. Thorp",
+     "propriedades": {
+      "contexto": "coinventores do primeiro computador portátil, usado para melhorar as chances na roleta"
+     },
+     "evidencia": "Também é considerado coinventor do primeiro computador portátil, juntamente com Edward O. Thorp",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "8104_11",
+   "entidades": [
+    {
+     "nome": "Claude Shannon",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shannon"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Michigan",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Neil Sloane",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Claude Shannon",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "cargo": "docente",
+      "ano_inicio": 1956,
+      "ano_fim": 1978
+     },
+     "evidencia": "Shannon chegou ao MIT em 1956, para se juntar ao corpo docente e para realizar um trabalho no Laboratório de Pesquisa de Eletrônica (RLE). Ele continuou a servir no corpo docente do MIT até 1978",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "8104_12",
+   "entidades": [
+    {
+     "nome": "Claude Shannon",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Claude E. Shannon"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Warren Weaver",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

@@ -1,0 +1,841 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:23:00+00:00",
+ "chunks": [
+  {
+   "chunk_id": "54218_0",
+   "entidades": [
+    {
+     "nome": "ARPANET",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Advanced Research Projects Agency Network"
+     ],
+     "descricao": "Rede de computadores construída em 1969 para transmissão de dados militares sigilosos e interligação dos departamentos de pesquisa nos Estados Unidos.",
+     "propriedades": {
+      "tipo": "rede",
+      "ano": 1969
+     }
+    },
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ARPA",
+      "DARPA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Departamento de Defesa dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "TCP/IP",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Transmission Control Protocol/Internet Protocol"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "Network Control Protocol",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "NCP"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Kahn",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Vint Cerf",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Leonard Kleinrock",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Paul Baran",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Donald Davies",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lawrence Roberts",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Louis Pouzin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Robert Kahn",
+     "tipo": "CRIOU",
+     "destino": "TCP/IP",
+     "propriedades": {},
+     "evidencia": "Os protocolos de comunicação TCP/IP foram desenvolvidos para a ARPANET pelos cientistas da computação Robert Kahn e Vint Cerf",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Vint Cerf",
+     "tipo": "CRIOU",
+     "destino": "TCP/IP",
+     "propriedades": {},
+     "evidencia": "Os protocolos de comunicação TCP/IP foram desenvolvidos para a ARPANET pelos cientistas da computação Robert Kahn e Vint Cerf",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Robert Kahn",
+     "tipo": "COLABOROU_COM",
+     "destino": "Vint Cerf",
+     "propriedades": {
+      "contexto": "desenvolvimento do TCP/IP para a ARPANET"
+     },
+     "evidencia": "desenvolvidos para a ARPANET pelos cientistas da computação Robert Kahn e Vint Cerf",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "54218_1",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "54218_2",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "54218_3",
+   "entidades": [
+    {
+     "nome": "Joseph Carl Licklider",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Licklider"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "BBN Technologies",
+     "tipo": "Organizacao",
+     "aliases": [
+      "BBN"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ARPA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Ivan Sutherland",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bob Taylor",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Joseph Carl Licklider",
+     "tipo": "TRABALHOU_EM",
+     "destino": "BBN Technologies",
+     "propriedades": {},
+     "evidencia": "Joseph Carl Licklider da BBN Technologies",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Joseph Carl Licklider",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "propriedades": {
+      "cargo": "chefe dos programas de Ciências Comportamentais e Comando",
+      "ano_inicio": 1963
+     },
+     "evidencia": "Em outubro de 1963, Licklider foi nomeado chefe dos programas de Ciências Comportamentais e Comando da Agência para Projetos de Pesquisa Avançada (ARPA) do Departamento de Defesa.",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "54218_4",
+   "entidades": [
+    {
+     "nome": "Paul Baran",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "RAND Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Donald Davies",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Laboratório Nacional de Física",
+     "tipo": "Organizacao",
+     "aliases": [
+      "NPL"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Paul Baran",
+     "tipo": "TRABALHOU_EM",
+     "destino": "RAND Corporation",
+     "propriedades": {},
+     "evidencia": "Paul Baran, da RAND Corporation, pesquisava sistemas que poderiam sobreviver à guerra nuclear",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Donald Davies",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Laboratório Nacional de Física",
+     "propriedades": {},
+     "evidencia": "Donald Davies, do Laboratório Nacional de Física (NPL) do Reino Unido, inventou o mesmo conceito em 1965",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "54218_5",
+   "entidades": [
+    {
+     "nome": "Elizabeth J. Feinler",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lawrence Roberts",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Larry Roberts"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ARPA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Lawrence Roberts",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "propriedades": {},
+     "evidencia": "Larry Roberts, na ARPA, aplicou os conceitos de Davies de comutação de pacotes.",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "54218_6",
+   "entidades": [
+    {
+     "nome": "Bob Taylor",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Charles Herzfeld",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ARPA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Lawrence Roberts",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Larry Roberts",
+      "Roberts"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Wesley Clark",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Charles Herzfeld",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "propriedades": {
+      "cargo": "diretor"
+     },
+     "evidencia": "Bob Taylor convenceu o diretor da ARPA, Charles Herzfeld, a financiar um projeto de rede",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "54218_7",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "54218_8",
+   "entidades": [
+    {
+     "nome": "ARPANET",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "BBN Technologies",
+     "tipo": "Organizacao",
+     "aliases": [
+      "BBN"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Frank Heart",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Kahn",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "BBN Technologies",
+     "tipo": "DESENVOLVEU",
+     "destino": "ARPANET",
+     "propriedades": {
+      "ano": 1969
+     },
+     "evidencia": "outorgou o contrato para construir a rede para a BBN Technologies em 7 de abril de 1969",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Frank Heart",
+     "tipo": "TRABALHOU_EM",
+     "destino": "BBN Technologies",
+     "propriedades": {},
+     "evidencia": "Esta equipe foi liderada por Frank Heart e incluiu Robert Kahn.",
+     "confianca": 0.65
+    },
+    {
+     "origem": "Robert Kahn",
+     "tipo": "TRABALHOU_EM",
+     "destino": "BBN Technologies",
+     "propriedades": {},
+     "evidencia": "Esta equipe foi liderada por Frank Heart e incluiu Robert Kahn.",
+     "confianca": 0.65
+    }
+   ]
+  },
+  {
+   "chunk_id": "54218_9",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "54218_10",
+   "entidades": [
+    {
+     "nome": "Interface Message Processor",
+     "tipo": "Hardware",
+     "aliases": [
+      "IMP",
+      "Processador de Mensagens de Interface"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Honeywell DDP-516",
+     "tipo": "Hardware",
+     "aliases": [
+      "DDP-516"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Interface Message Processor",
+     "tipo": "UTILIZA",
+     "destino": "Honeywell DDP-516",
+     "propriedades": {},
+     "evidencia": "Os IMPs de primeira geração foram construídos usando uma versão robusta do computador Honeywell DDP-516",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "54218_11",
+   "entidades": [
+    {
+     "nome": "Elmer Shapiro",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "SRI International",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Stephen J. Lukasik",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DARPA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Paul Baran",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "RAND Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Elmer Shapiro",
+     "tipo": "TRABALHOU_EM",
+     "destino": "SRI International",
+     "propriedades": {},
+     "evidencia": "Atas tomadas por Elmer Shapiro, do SRI International",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Stephen J. Lukasik",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "propriedades": {
+      "cargo": "Diretor",
+      "ano_inicio": 1967,
+      "ano_fim": 1974
+     },
+     "evidencia": "Stephen J. Lukasik, que como Diretor da DARPA (1967-1974)",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "54218_12",
+   "entidades": [
+    {
+     "nome": "Charles Herzfeld",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ARPA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Douglas Engelbart",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "NLS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Inovador sistema de hipertexto inicial.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "SRI International",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Instituto de Pesquisa de Stanford"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Charles Herzfeld",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "propriedades": {
+      "cargo": "diretor",
+      "ano_inicio": 1965,
+      "ano_fim": 1967
+     },
+     "evidencia": "Charles Herzfeld, diretor da ARPA (1965–1967)",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Douglas Engelbart",
+     "tipo": "CRIOU",
+     "destino": "NLS",
+     "propriedades": {},
+     "evidencia": "onde Douglas Engelbart criara o inovador sistema NLS",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Douglas Engelbart",
+     "tipo": "TRABALHOU_EM",
+     "destino": "SRI International",
+     "propriedades": {},
+     "evidencia": "O Centro de Pesquisa do Instituto de Pesquisa de Stanford (atual SRI International), onde Douglas Engelbart criara o inovador sistema NLS",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "54218_13",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "54218_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "54218_15",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "54218_16",
+   "entidades": [
+    {
+     "nome": "Interface Message Processor",
+     "tipo": "Hardware",
+     "aliases": [
+      "IMP"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Honeywell 316",
+     "tipo": "Hardware",
+     "aliases": [
+      "316"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Interface Message Processor",
+     "tipo": "UTILIZA",
+     "destino": "Honeywell 316",
+     "propriedades": {},
+     "evidencia": "Em 1971 deu-se início ao uso do Honeywell 316 não robusto (e, portanto, significativamente mais leve) como um IMP",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "54218_17",
+   "entidades": [
+    {
+     "nome": "TCP/IP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "Network Control Protocol",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "NCP"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "TCP/IP",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Network Control Protocol",
+     "propriedades": {},
+     "evidencia": "Em 1983, os protocolos TCP/IP substituíram o NCP como protocolo principal da ARPANET",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "54218_18",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "54218_19",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "54218_20",
+   "entidades": [
+    {
+     "nome": "TCP/IP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "Network Control Protocol",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "NCP",
+      "Programa de Controle de Rede"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "TCP/IP",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Network Control Protocol",
+     "propriedades": {},
+     "evidencia": "Em 1983, os protocolos TCP/IP substituíram o NCP como o protocolo principal da ARPANET",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "54218_21",
+   "entidades": [
+    {
+     "nome": "TCP/IP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "Network Control Protocol",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "NCP"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "Ray Tomlinson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "BBN Technologies",
+     "tipo": "Organizacao",
+     "aliases": [
+      "BBN"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "TCP/IP",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Network Control Protocol",
+     "propriedades": {},
+     "evidencia": "Em 1983, os protocolos TCP/IP substituíram o NCP como o protocolo principal da ARPANET",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Ray Tomlinson",
+     "tipo": "TRABALHOU_EM",
+     "destino": "BBN Technologies",
+     "propriedades": {},
+     "evidencia": "Em 1971, Ray Tomlinson, da BBN, enviou o primeiro e-mail de rede",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "54218_22",
+   "entidades": [
+    {
+     "nome": "Lawrence Roberts",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Larry Roberts"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ARPA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Lawrence Roberts",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "propriedades": {
+      "cargo": "chefe"
+     },
+     "evidencia": "a pedido de Larry Roberts, chefe da ARPA na época",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "54218_23",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "54218_24",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

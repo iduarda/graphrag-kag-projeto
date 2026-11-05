@@ -1,0 +1,162 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 581232,
+    "titulo": "Manchester Mark I",
+    "url": "https://pt.wikipedia.org/wiki/Manchester_Mark_I",
+    "categoria": "Hardware",
+    "wikidata_id": "Q1463814"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:25:22+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "hardware:manchester_mark_i",
+  "chunks": [
+    {
+      "id": "581232_0",
+      "ordem": 0,
+      "texto": "O Manchester Mark I foi um dos primeiros computadores eletrônicos desenvolvidos. Foi construído pela Universidade de Manchester do periodo de 1948 a 1949. Também era chamado de MADM (Manchester Automatic Digital Machine). Ele foi desenvolvido a partir do SSEM (ou \"baby\") pelo Prof. F. C. Williams e pelo Prof. Tom Kilburn (nesse caso o seu prótotipo - O Manchester MARK I - The Baby Machine) e teve importância histórica devido ao pioneirismo no uso de um tipo de registrador de índice em sua arquitetura, além de ter sido a plataforma na qual a Autocode, uma das primeiras linguagens de programação de \"alto nível\", foi desenvolvida. O Mark I como todos, servia para calcular operações aritméticas, dispondo ainda de sub-rotinas integradas que calculavam funções logarítmicas e trigonométricas; mesmo assim o Mark I era um calculador lento demorando 3 a 5 segundos para efetuar uma multiplicação, mas era totalmente automático e podia realizar cálculos extensos sem intervenção humana."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "hardware:manchester_mark_i",
+      "nome": "Manchester Mark I",
+      "tipo": "Hardware",
+      "aliases": [
+        "MADM",
+        "Manchester Automatic Digital Machine"
+      ],
+      "descricao": "Um dos primeiros computadores eletrônicos, com registrador de índice, plataforma de desenvolvimento do Autocode.",
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "581232_0"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_de_manchester",
+      "nome": "Universidade de Manchester",
+      "tipo": "Organizacao",
+      "aliases": [
+        "University of Manchester",
+        "Victoria University of Manchester"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "581232_0"
+      ]
+    },
+    {
+      "id": "hardware:manchester_baby",
+      "nome": "Manchester Baby",
+      "tipo": "Hardware",
+      "aliases": [
+        "Small-Scale Experimental Machine",
+        "SSEM",
+        "baby"
+      ],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "581232_0"
+      ]
+    },
+    {
+      "id": "pessoa:f_c_williams",
+      "nome": "F. C. Williams",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "581232_0"
+      ]
+    },
+    {
+      "id": "pessoa:tom_kilburn",
+      "nome": "Tom Kilburn",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "581232_0"
+      ]
+    },
+    {
+      "id": "linguagem:autocode",
+      "nome": "Autocode",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "descricao": "Uma das primeiras linguagens de programação de alto nível.",
+      "propriedades": {},
+      "chunk_ids": [
+        "581232_0"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "organizacao:universidade_de_manchester",
+      "tipo": "DESENVOLVEU",
+      "destino": "hardware:manchester_mark_i",
+      "propriedades": {},
+      "chunk_id": "581232_0",
+      "evidencia": "Foi construído pela Universidade de Manchester do periodo de 1948 a 1949",
+      "confianca": 0.95
+    },
+    {
+      "origem": "hardware:manchester_mark_i",
+      "tipo": "SUCESSOR_DE",
+      "destino": "hardware:manchester_baby",
+      "propriedades": {},
+      "chunk_id": "581232_0",
+      "evidencia": "Ele foi desenvolvido a partir do SSEM",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:f_c_williams",
+      "tipo": "CRIOU",
+      "destino": "hardware:manchester_mark_i",
+      "propriedades": {},
+      "chunk_id": "581232_0",
+      "evidencia": "pelo Prof. F. C. Williams e pelo Prof. Tom Kilburn",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:tom_kilburn",
+      "tipo": "CRIOU",
+      "destino": "hardware:manchester_mark_i",
+      "propriedades": {},
+      "chunk_id": "581232_0",
+      "evidencia": "pelo Prof. F. C. Williams e pelo Prof. Tom Kilburn",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:f_c_williams",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:tom_kilburn",
+      "propriedades": {
+        "contexto": "desenvolvimento do Manchester Mark I"
+      },
+      "chunk_id": "581232_0",
+      "evidencia": "pelo Prof. F. C. Williams e pelo Prof. Tom Kilburn",
+      "confianca": 0.8
+    },
+    {
+      "origem": "linguagem:autocode",
+      "tipo": "EXECUTA_EM",
+      "destino": "hardware:manchester_mark_i",
+      "propriedades": {},
+      "chunk_id": "581232_0",
+      "evidencia": "ter sido a plataforma na qual a Autocode",
+      "confianca": 0.8
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:26:31+00:00",
+ "chunks": [
+  {
+   "chunk_id": "3463818_0",
+   "entidades": [
+    {
+     "nome": "IBM 701",
+     "tipo": "Hardware",
+     "aliases": [
+      "Defense Calculator",
+      "Calculadora da defesa"
+     ],
+     "descricao": "Primeiro computador científico comercial da IBM, anunciado em 1952.",
+     "propriedades": {
+      "ano": 1952,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM 702",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM 650",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Nova Iorque",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "IBM",
+     "tipo": "DESENVOLVEU",
+     "destino": "IBM 701",
+     "propriedades": {},
+     "evidencia": "foi o primeiro computador científico comercial da IBM",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "3463818_1",
+   "entidades": [
+    {
+     "nome": "IBM 701",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3463818_2",
+   "entidades": [
+    {
+     "nome": "IBM 701",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM 704",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Fortran",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Artur Samuel",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Fortran",
+     "tipo": "EXECUTA_EM",
+     "destino": "IBM 704",
+     "propriedades": {},
+     "evidencia": "Um compilador Fortran não foi lançado pela IBM até o lançamento do IBM 704",
+     "confianca": 0.65
+    }
+   ]
+  },
+  {
+   "chunk_id": "3463818_3",
+   "entidades": [
+    {
+     "nome": "IBM 701",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "ERA 1103",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Remington Rand",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "NSA",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "NSA",
+     "tipo": "DESENVOLVEU",
+     "destino": "ERA 1103",
+     "propriedades": {},
+     "evidencia": "ERA 1103 da Remington Rand no mercado de computação científica, que tinha sido desenvolvido pela NSA",
+     "confianca": 0.8
+    }
+   ]
+  }
+ ]
+}

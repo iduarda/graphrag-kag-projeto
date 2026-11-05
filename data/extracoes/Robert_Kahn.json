@@ -1,0 +1,184 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 2454784,
+    "titulo": "Robert Kahn",
+    "url": "https://pt.wikipedia.org/wiki/Robert_Kahn",
+    "categoria": "Pessoa",
+    "wikidata_id": "Q62843"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:29:03+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "pessoa:robert_kahn",
+  "chunks": [
+    {
+      "id": "2454784_0",
+      "ordem": 0,
+      "texto": "Robert Elliot Kahn (Nova Iorque, 23 de dezembro de 1938) é um informático estadunidense.\nFoi laureado com o Prêmio Turing de 2004, juntamente com Vint Cerf, por desenvolverem o Transmission Control Protocol (TCP), atual transmissor de dados da Internet.\nEm 2013 Kahn foi um dos cinco pioneiros da Internet e da Web que receberam o prêmio inaugural Prêmio de Engenharia Rainha Elizabeth."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "pessoa:robert_kahn",
+      "nome": "Robert Kahn",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Robert Elliot Kahn",
+        "Kahn"
+      ],
+      "descricao": "Informático estadunidense, laureado com o Prêmio Turing de 2004.",
+      "propriedades": {
+        "ano_nascimento": 1938
+      },
+      "chunk_ids": [
+        "2454784_0"
+      ]
+    },
+    {
+      "id": "pessoa:vint_cerf",
+      "nome": "Vint Cerf",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Vinton Gray Cerf",
+        "Vinton Cerf",
+        "Cerf"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "2454784_0"
+      ]
+    },
+    {
+      "id": "local:nova_iorque",
+      "nome": "Nova Iorque",
+      "tipo": "Local",
+      "aliases": [
+        "Nova York",
+        "New York"
+      ],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "2454784_0"
+      ]
+    },
+    {
+      "id": "premio:premio_turing",
+      "nome": "Prêmio Turing",
+      "tipo": "Premio",
+      "aliases": [
+        "Turing Award",
+        "Prémio Turing",
+        "A. M. Turing Award",
+        "Prêmio Alan Turing"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "2454784_0"
+      ]
+    },
+    {
+      "id": "tecnologia:transmission_control_protocol",
+      "nome": "Transmission Control Protocol",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "TCP"
+      ],
+      "propriedades": {
+        "tipo": "protocolo"
+      },
+      "chunk_ids": [
+        "2454784_0"
+      ]
+    },
+    {
+      "id": "tecnologia:internet",
+      "nome": "Internet",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "rede"
+      },
+      "chunk_ids": [
+        "2454784_0"
+      ]
+    },
+    {
+      "id": "premio:premio_de_engenharia_rainha_elizabeth",
+      "nome": "Prêmio de Engenharia Rainha Elizabeth",
+      "tipo": "Premio",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "2454784_0"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:robert_kahn",
+      "tipo": "NASCEU_EM",
+      "destino": "local:nova_iorque",
+      "propriedades": {},
+      "chunk_id": "2454784_0",
+      "evidencia": "Robert Elliot Kahn (Nova Iorque, 23 de dezembro de 1938)",
+      "confianca": 0.75
+    },
+    {
+      "origem": "pessoa:robert_kahn",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_turing",
+      "propriedades": {
+        "ano": 2004
+      },
+      "chunk_id": "2454784_0",
+      "evidencia": "Foi laureado com o Prêmio Turing de 2004",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:robert_kahn",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:vint_cerf",
+      "propriedades": {
+        "contexto": "desenvolvimento do TCP"
+      },
+      "chunk_id": "2454784_0",
+      "evidencia": "juntamente com Vint Cerf, por desenvolverem o Transmission Control Protocol (TCP)",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:robert_kahn",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:transmission_control_protocol",
+      "propriedades": {},
+      "chunk_id": "2454784_0",
+      "evidencia": "juntamente com Vint Cerf, por desenvolverem o Transmission Control Protocol (TCP)",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:vint_cerf",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:transmission_control_protocol",
+      "propriedades": {},
+      "chunk_id": "2454784_0",
+      "evidencia": "juntamente com Vint Cerf, por desenvolverem o Transmission Control Protocol (TCP)",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:robert_kahn",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_de_engenharia_rainha_elizabeth",
+      "propriedades": {
+        "ano": 2013
+      },
+      "chunk_id": "2454784_0",
+      "evidencia": "Em 2013 Kahn foi um dos cinco pioneiros da Internet e da Web que receberam o prêmio inaugural Prêmio de Engenharia Rainha Elizabeth",
+      "confianca": 0.9
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 3866704,
+    "titulo": "Cray-1",
+    "url": "https://pt.wikipedia.org/wiki/Cray-1",
+    "categoria": "Hardware",
+    "wikidata_id": "Q1093705"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:25:22+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "hardware:cray_1",
+  "chunks": [
+    {
+      "id": "3866704_0",
+      "ordem": 0,
+      "texto": "O Cray-1 foi um supercomputador desenvolvido e manufacturado pela Cray Research.\nO primeiro Cray-1 foi desenvolvido em 1976.\nMuseus: Cray-1 está disponponível à visualisação nas seguintes localidades:\nBradbury Science Museum em Los Alamos, New Mexico\nChippewa Falls Museum of Industry and Technology em Chippewa Falls, Wisconsin\nNos escritórios da Cray Inc. do Cray Plaza em St. Paul, Minnesota\nComputer History Museum em Mountain View, California\nDigiBarn Computer Museum\nDeutsches Museum em Munique\nÉcole Polytechnique Fédérale de Lausanne em Lausanne, Suíça\nNational Center for Atmospheric Research em Boulder, Colorado\nO National Cryptologic Museum expõe um similar, ligeiramente maior Cray X-MP\nNational Air and Space Museum em Washington, D.C.\nScience Museum em Londres\nSwedish National Museum of Science and Technology em Estocolmo, Suécia"
+    }
+  ],
+  "entidades": [
+    {
+      "id": "hardware:cray_1",
+      "nome": "Cray-1",
+      "tipo": "Hardware",
+      "aliases": [],
+      "descricao": "Supercomputador desenvolvido e manufacturado pela Cray Research.",
+      "propriedades": {
+        "ano": 1976,
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "3866704_0"
+      ]
+    },
+    {
+      "id": "organizacao:cray_research",
+      "nome": "Cray Research",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "3866704_0"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "organizacao:cray_research",
+      "tipo": "DESENVOLVEU",
+      "destino": "hardware:cray_1",
+      "propriedades": {},
+      "chunk_id": "3866704_0",
+      "evidencia": "O Cray-1 foi um supercomputador desenvolvido e manufacturado pela Cray Research",
+      "confianca": 0.95
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:29:02+00:00",
+ "chunks": [
+  {
+   "chunk_id": "371591_0",
+   "entidades": [
+    {
+     "nome": "Universidade da Califórnia em Berkeley",
+     "tipo": "Organizacao",
+     "aliases": [
+      "University of California, Berkeley",
+      "UC Berkeley"
+     ],
+     "descricao": "Universidade pública, uma das mais importantes e prestigiadas do mundo.",
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Berkeley",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Universidade da Califórnia em Berkeley",
+     "tipo": "SEDIADA_EM",
+     "destino": "Berkeley",
+     "propriedades": {},
+     "evidencia": "A universidade está situada em Berkeley, Califórnia, nos Estados Unidos.",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "371591_1",
+   "entidades": [
+    {
+     "nome": "Universidade da Califórnia em Berkeley",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Berkeley"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade da Califórnia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade",
+      "ano_fundacao": 1868
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

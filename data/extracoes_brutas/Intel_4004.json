@@ -1,0 +1,382 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:18:59+00:00",
+ "chunks": [
+  {
+   "chunk_id": "228330_0",
+   "entidades": [
+    {
+     "nome": "Intel 4004",
+     "tipo": "Hardware",
+     "aliases": [
+      "4004"
+     ],
+     "descricao": "Unidade Central de Processamento de 4 bits, o primeiro microprocessador comercialmente disponível.",
+     "propriedades": {
+      "ano": 1971,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Intel Corporation"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Federico Faggin",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Faggin"
+     ],
+     "descricao": "Projetista que liderou o design do 4004 na Intel.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Busicom",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Tom Klein",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fairchild Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Intel 4004",
+     "propriedades": {
+      "ano": 1971
+     },
+     "evidencia": "Fabricado pela Intel Corporation em 1971",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Federico Faggin",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "ano_inicio": 1970
+     },
+     "evidencia": "em abril de 1970, quando Federico Faggin se juntou à Intel",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Federico Faggin",
+     "tipo": "CRIOU",
+     "destino": "Intel 4004",
+     "propriedades": {},
+     "evidencia": "O design dos chips começou em abril de 1970, quando Federico Faggin se juntou à Intel, e foi concluído sob sua liderança em janeiro de 1971",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Federico Faggin",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Fairchild Semiconductor",
+     "propriedades": {},
+     "evidencia": "desenvolvida originalmente por Federico Faggin (com Tom Klein) na Fairchild Semiconductor em 1968",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Federico Faggin",
+     "tipo": "COLABOROU_COM",
+     "destino": "Tom Klein",
+     "propriedades": {
+      "contexto": "desenvolvimento da tecnologia de porta de silício na Fairchild"
+     },
+     "evidencia": "desenvolvida originalmente por Federico Faggin (com Tom Klein) na Fairchild Semiconductor em 1968",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "228330_1",
+   "entidades": [
+    {
+     "nome": "Federico Faggin",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Faggin"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel 4004",
+     "tipo": "Hardware",
+     "aliases": [
+      "4004"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "228330_2",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Marcian Hoff",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ted Hoff"
+     ],
+     "descricao": "Contribuiu com a proposta arquitetônica do MCS-4 em 1969.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Federico Faggin",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Faggin"
+     ],
+     "descricao": "Físico nascido na Itália, líder de projeto da família MCS-4.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel 4004",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Fairchild Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Fairchild"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Federico Faggin",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "líder de projeto e projetista da família MCS-4",
+      "ano_inicio": 1970
+     },
+     "evidencia": "O projeto começou mais tarde, em abril de 1970, quando Federico Faggin, um físico nascido na Itália, se juntou a Intel como líder de projeto e projetista da família MCS-4",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Federico Faggin",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Fairchild Semiconductor",
+     "propriedades": {},
+     "evidencia": "A Intel contratou o Faggin da Fairchild onde ele tinha desenvolvido a original tecnologia de porta de silício",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Federico Faggin",
+     "tipo": "CRIOU",
+     "destino": "Intel 4004",
+     "propriedades": {},
+     "evidencia": "Faggin foi o primeiro projetista de chips que obteve sucesso integrando uma CPU em um único chip (o Intel 4004",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "228330_3",
+   "entidades": [
+    {
+     "nome": "Federico Faggin",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Faggin"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Masatoshi Shima",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Designer de lógica e software da Busicom que ajudou Faggin no desenvolvimento do MCS-4.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Busicom",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Zilog",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Primeira empresa exclusivamente dedicada a microprocessadores.",
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1974
+     }
+    },
+    {
+     "nome": "Ralph Ungermann",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Masatoshi Shima",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Busicom",
+     "propriedades": {
+      "cargo": "designer de lógica e software"
+     },
+     "evidencia": "Masatoshi Shima, um designer de lógica e software da Busicom",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Masatoshi Shima",
+     "tipo": "COLABOROU_COM",
+     "destino": "Federico Faggin",
+     "propriedades": {
+      "contexto": "desenvolvimento do MCS-4"
+     },
+     "evidencia": "ajudou ao Faggin no desenvolvimento do MCS-4",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Masatoshi Shima",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Zilog",
+     "propriedades": {},
+     "evidencia": "mais tarde se juntou a ele na Zilog",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Federico Faggin",
+     "tipo": "FUNDOU",
+     "destino": "Zilog",
+     "propriedades": {
+      "ano": 1974
+     },
+     "evidencia": "Zilog, a primeira empresa exclusivamente dedicada a microprocessadores, fundada por Federico Faggin e Ralph Ungermann ao término de 1974",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ralph Ungermann",
+     "tipo": "FUNDOU",
+     "destino": "Zilog",
+     "propriedades": {
+      "ano": 1974
+     },
+     "evidencia": "Zilog, a primeira empresa exclusivamente dedicada a microprocessadores, fundada por Federico Faggin e Ralph Ungermann ao término de 1974",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "228330_4",
+   "entidades": [
+    {
+     "nome": "Federico Faggin",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Faggin"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Masatoshi Shima",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shima"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Z80",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Microprocessador ainda em produção nos dias atuais.",
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Federico Faggin",
+     "tipo": "CRIOU",
+     "destino": "Z80",
+     "propriedades": {},
+     "evidencia": "Faggin e Shima desenvolveram juntos o microprocessador Z80",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Masatoshi Shima",
+     "tipo": "CRIOU",
+     "destino": "Z80",
+     "propriedades": {},
+     "evidencia": "Faggin e Shima desenvolveram juntos o microprocessador Z80",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Federico Faggin",
+     "tipo": "COLABOROU_COM",
+     "destino": "Masatoshi Shima",
+     "propriedades": {
+      "contexto": "desenvolvimento do microprocessador Z80"
+     },
+     "evidencia": "Faggin e Shima desenvolveram juntos o microprocessador Z80",
+     "confianca": 0.9
+    }
+   ]
+  }
+ ]
+}

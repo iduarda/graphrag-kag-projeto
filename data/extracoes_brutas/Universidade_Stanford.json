@@ -1,0 +1,269 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:24:40+00:00",
+ "chunks": [
+  {
+   "chunk_id": "93466_0",
+   "entidades": [
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Stanford University",
+      "Stanford"
+     ],
+     "propriedades": {
+      "tipo": "universidade",
+      "ano_fundacao": 1892
+     },
+     "descricao": "Universidade de pesquisa privada situada em Palo Alto, Califórnia."
+    },
+    {
+     "nome": "Palo Alto",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Califórnia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Universidade Stanford",
+     "tipo": "SEDIADA_EM",
+     "destino": "Palo Alto",
+     "propriedades": {},
+     "evidencia": "situada em Palo Alto, Califórnia, Estados Unidos",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "93466_1",
+   "entidades": [
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Stanford University",
+      "Stanford"
+     ],
+     "propriedades": {
+      "tipo": "universidade",
+      "ano_fundacao": 1892
+     },
+     "descricao": "Universidade de pesquisa privada situada em Palo Alto, Califórnia."
+    },
+    {
+     "nome": "Leland Stanford",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jane Stanford",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Califórnia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Leland Stanford",
+     "tipo": "FUNDOU",
+     "destino": "Universidade Stanford",
+     "propriedades": {},
+     "evidencia": "em memória do filho dos fundadores, o casal Leland e Jane Stanford",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Jane Stanford",
+     "tipo": "FUNDOU",
+     "destino": "Universidade Stanford",
+     "propriedades": {},
+     "evidencia": "em memória do filho dos fundadores, o casal Leland e Jane Stanford",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "93466_2",
+   "entidades": [
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Stanford University",
+      "Stanford"
+     ],
+     "propriedades": {
+      "tipo": "universidade",
+      "ano_fundacao": 1892
+     },
+     "descricao": "Universidade de pesquisa privada situada em Palo Alto, Califórnia."
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "93466_3",
+   "entidades": [
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Stanford University",
+      "Stanford"
+     ],
+     "propriedades": {
+      "tipo": "universidade",
+      "ano_fundacao": 1892
+     },
+     "descricao": "Universidade de pesquisa privada situada em Palo Alto, Califórnia."
+    },
+    {
+     "nome": "Jane Stanford",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Jane Stanford",
+     "tipo": "FUNDOU",
+     "destino": "Universidade Stanford",
+     "propriedades": {},
+     "evidencia": "Jane Stanford, co-fundadora da universidade",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "93466_4",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "93466_5",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "93466_6",
+   "entidades": [
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Stanford University",
+      "Stanford"
+     ],
+     "propriedades": {
+      "tipo": "universidade",
+      "ano_fundacao": 1892
+     },
+     "descricao": "Universidade de pesquisa privada situada em Palo Alto, Califórnia."
+    },
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "HP"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "93466_7",
+   "entidades": [
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Stanford University",
+      "Stanford"
+     ],
+     "propriedades": {
+      "tipo": "universidade",
+      "ano_fundacao": 1892
+     },
+     "descricao": "Universidade de pesquisa privada situada em Palo Alto, Califórnia."
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

@@ -1,0 +1,333 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:27:04+00:00",
+ "chunks": [
+  {
+   "chunk_id": "2284647_0",
+   "entidades": [
+    {
+     "nome": "Barbara Liskov",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Barbara Jane Huberman"
+     ],
+     "descricao": "Cientista da computação estadunidense, primeira mulher a obter um PhD em Ciência da Computação nos Estados Unidos.",
+     "propriedades": {
+      "ano_nascimento": 1939
+     }
+    },
+    {
+     "nome": "Princípio da Substituição de Liskov",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Tipo Abstrato de Dado",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "TAD"
+     ],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Los Angeles",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Barbara Liskov",
+     "tipo": "CRIOU",
+     "destino": "Princípio da Substituição de Liskov",
+     "propriedades": {},
+     "evidencia": "conhecida por criar o Princípio da Substituição de Liskov",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Barbara Liskov",
+     "tipo": "CRIOU",
+     "destino": "Tipo Abstrato de Dado",
+     "propriedades": {},
+     "evidencia": "por inventar o Tipo Abstrato de Dado (TAD)",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "2284647_1",
+   "entidades": [
+    {
+     "nome": "Barbara Liskov",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Los Angeles",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "São Francisco",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Universidade de Princeton",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Barbara Liskov",
+     "tipo": "NASCEU_EM",
+     "destino": "Los Angeles",
+     "propriedades": {},
+     "evidencia": "Barbara Liskov nascida em Los Angeles no dia 7 de Novembro de 1939",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "2284647_2",
+   "entidades": [
+    {
+     "nome": "Barbara Liskov",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Liskov"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade da Califórnia em Berkeley",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade da Califórnia, Berkeley"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade de Stanford"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "CLU",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha John von Neumann",
+     "tipo": "Premio",
+     "aliases": [
+      "Medalha John Neumann"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Barbara Liskov",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "cargo": "professora"
+     },
+     "evidencia": "É atualmente professora no Departamento de Engenharia Elétrica e Ciência da Computação no MIT.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Barbara Liskov",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade da Califórnia em Berkeley",
+     "propriedades": {
+      "curso": "matemática",
+      "ano": 1961
+     },
+     "evidencia": "Obteve seu bacharelado em matemática na Universidade da Califórnia, Berkeley, em 1961.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Barbara Liskov",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade Stanford",
+     "propriedades": {
+      "curso": "doutorado em informática",
+      "ano": 1968
+     },
+     "evidencia": "Em 1968 na Universidade de Stanford tornou-se a primeira mulher dos Estados Unidos a obter o grau de doutorado (PhD) em um departamento de informática.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Barbara Liskov",
+     "tipo": "CRIOU",
+     "destino": "CLU",
+     "propriedades": {},
+     "evidencia": "Concebeu e implementou a linguagem CLU",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Barbara Liskov",
+     "tipo": "RECEBEU",
+     "destino": "Medalha John von Neumann",
+     "propriedades": {
+      "ano": 2004
+     },
+     "evidencia": "Em 2004, Bárbara ganhou a Medalha John Neumann",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "2284647_3",
+   "entidades": [
+    {
+     "nome": "Barbara Liskov",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [
+      "Prêmio Turing da ACM"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha John von Neumann",
+     "tipo": "Premio",
+     "aliases": [
+      "Medalha John Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "ACM SIGSOFT Impact Paper Award",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ACM SIGPLAN Programming Languages Lifetime Achievement Award",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Weizmann de Mulheres na Ciência",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Association for Computing Machinery",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ACM"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto Federal de Tecnologia de Zurique",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ETH Zurich"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Barbara Liskov",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 2008
+     },
+     "evidencia": "Barbara recebeu em 2008 o Prêmio Turing da ACM",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Barbara Liskov",
+     "tipo": "RECEBEU",
+     "destino": "Medalha John von Neumann",
+     "propriedades": {
+      "ano": 2004
+     },
+     "evidencia": "2004 - Medalha John Neumann de “Contribuições Fundamentais para Linguagem de Programação, Metodologia de Programação e Computação Distribuída”.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Barbara Liskov",
+     "tipo": "RECEBEU",
+     "destino": "ACM SIGSOFT Impact Paper Award",
+     "propriedades": {
+      "ano": 2007
+     },
+     "evidencia": "2007 - ACM SIGSOFT Impact Paper Award for “Abstraction Mechanisms in CLU”.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Barbara Liskov",
+     "tipo": "RECEBEU",
+     "destino": "ACM SIGPLAN Programming Languages Lifetime Achievement Award",
+     "propriedades": {
+      "ano": 2007
+     },
+     "evidencia": "2007 - ACM SIGPLAN Programming Languages Lifetime Achievement Award.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Barbara Liskov",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Weizmann de Mulheres na Ciência",
+     "propriedades": {
+      "ano": 2015
+     },
+     "evidencia": "2015 - Prêmio Weizmann de Mulheres na Ciência",
+     "confianca": 0.95
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1130 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:22:28+00:00",
+ "chunks": [
+  {
+   "chunk_id": "34346_0",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem de programação de alto nível lançada por Guido van Rossum.",
+     "propriedades": {
+      "ano": 1991,
+      "paradigmas": [
+       "imperativo",
+       "orientado a objetos",
+       "funcional"
+      ]
+     }
+    },
+    {
+     "nome": "Guido van Rossum",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Guido",
+      "Van Rossum"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Python Software Foundation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "PSF"
+     ],
+     "descricao": "Organização sem fins lucrativos que gerencia o desenvolvimento do Python.",
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Guido van Rossum",
+     "tipo": "CRIOU",
+     "destino": "Python",
+     "propriedades": {
+      "ano": 1991
+     },
+     "evidencia": "Foi lançada por Guido van Rossum em 1991",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "34346_1",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_2",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Guido van Rossum",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Guido",
+      "Van Rossum"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Pesquisa Nacional para Matemática e Ciência da Computação",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CWI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Países Baixos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "ABC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Haskell",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Modula-3",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Perl",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Icon",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Amoeba",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema operacional com o qual Python deveria fazer interface por scripts.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Guido van Rossum",
+     "tipo": "CRIOU",
+     "destino": "Python",
+     "propriedades": {},
+     "evidencia": "O Python foi concebido no final de 1989 por Guido van Rossum",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Guido van Rossum",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Pesquisa Nacional para Matemática e Ciência da Computação",
+     "propriedades": {},
+     "evidencia": "concebido no final de 1989 por Guido van Rossum no Instituto de Pesquisa Nacional para Matemática e Ciência da Computação (CWI)",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Instituto de Pesquisa Nacional para Matemática e Ciência da Computação",
+     "tipo": "SEDIADA_EM",
+     "destino": "Países Baixos",
+     "propriedades": {},
+     "evidencia": "Instituto de Pesquisa Nacional para Matemática e Ciência da Computação (CWI), nos Países Baixos",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Instituto de Pesquisa Nacional para Matemática e Ciência da Computação",
+     "tipo": "DESENVOLVEU",
+     "destino": "ABC",
+     "propriedades": {},
+     "evidencia": "Também da CWI, a linguagem ABC",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Python",
+     "tipo": "SUCESSOR_DE",
+     "destino": "ABC",
+     "propriedades": {},
+     "evidencia": "como um sucessor da ABC",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Python",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "ABC",
+     "propriedades": {},
+     "evidencia": "Python foi feita com base na linguagem ABC",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Python",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "possui parte da sintaxe derivada do C",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Python",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Haskell",
+     "propriedades": {},
+     "evidencia": "compreensão de listas, funções anonimas e função map de Haskell",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Python",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Icon",
+     "propriedades": {},
+     "evidencia": "Os iteradores são baseados na Icon",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Python",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Modula-3",
+     "propriedades": {},
+     "evidencia": "tratamentos de exceção e módulos da Modula-3",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Python",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Perl",
+     "propriedades": {},
+     "evidencia": "expressões regulares de Perl",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "34346_3",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Guido van Rossum",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Guido",
+      "Van Rossum"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Pesquisa Nacional para Matemática e Ciência da Computação",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CWI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "CNRI",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Reston",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Modula-3",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DARPA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Guido van Rossum",
+     "tipo": "TRABALHOU_EM",
+     "destino": "CNRI",
+     "propriedades": {
+      "ano_inicio": 1995
+     },
+     "evidencia": "Em 1995, ele continuou o trabalho no CNRI em Reston, Estados Unidos",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Guido van Rossum",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Pesquisa Nacional para Matemática e Ciência da Computação",
+     "propriedades": {},
+     "evidencia": "A última versão enquanto Guido estava na CWI foi o Python 1.2",
+     "confianca": 0.75
+    },
+    {
+     "origem": "CNRI",
+     "tipo": "SEDIADA_EM",
+     "destino": "Reston",
+     "propriedades": {},
+     "evidencia": "no CNRI em Reston",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Python",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Modula-3",
+     "propriedades": {},
+     "evidencia": "Também estava presente nessa versão um sistema de módulos emprestado do Modula-3",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "34346_4",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "CNRI",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "BeOpen",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Digital Creations",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Haskell",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "SETL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Free Software Foundation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "FSF"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Python",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Haskell",
+     "propriedades": {},
+     "evidencia": "list comprehension, uma relevante funcionalidade de linguagens funcionais como SETL e Haskell",
+     "confianca": 0.65
+    },
+    {
+     "origem": "Python",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "SETL",
+     "propriedades": {},
+     "evidencia": "list comprehension, uma relevante funcionalidade de linguagens funcionais como SETL e Haskell",
+     "confianca": 0.65
+    }
+   ]
+  },
+  {
+   "chunk_id": "34346_5",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Python Software Foundation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "PSF"
+     ],
+     "propriedades": {
+      "tipo": "fundacao",
+      "ano_fundacao": 2001
+     }
+    },
+    {
+     "nome": "Apache Software Foundation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    },
+    {
+     "nome": "Icon",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Python",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Icon",
+     "propriedades": {},
+     "evidencia": "Também foi adicionado generator, inspirado em Icon",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Python",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Java",
+     "propriedades": {},
+     "evidencia": "fortemente influenciadas por Java em alguns casos",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "34346_6",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Raspberry Pi",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Criado em 2012, com nome baseado na linguagem Python.",
+     "propriedades": {
+      "ano": 2012,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Boo",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Cobra",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Go",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Boo",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Python",
+     "propriedades": {},
+     "evidencia": "Python influenciou várias linguagens, algumas delas foram Boo e Cobra",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Cobra",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Python",
+     "propriedades": {},
+     "evidencia": "Python influenciou várias linguagens, algumas delas foram Boo e Cobra",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Go",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Python",
+     "propriedades": {},
+     "evidencia": "Go, que se baseia nos princípios de desenvolvimento rápido de Python",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "34346_7",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Boo",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Cobra",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Go",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "AmigaOS 4",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "FreeBSD",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "NetBSD",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "OpenBSD",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "OS X",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Tim Peters",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Boo",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Python",
+     "propriedades": {},
+     "evidencia": "Python influenciou várias linguagens, algumas delas foram Boo e Cobra",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Cobra",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Python",
+     "propriedades": {},
+     "evidencia": "Python influenciou várias linguagens, algumas delas foram Boo e Cobra",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Go",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Python",
+     "propriedades": {},
+     "evidencia": "Go, que se baseia nos princípios de desenvolvimento rápido de Python",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "34346_8",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Guido van Rossum",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Guido",
+      "Van Rossum"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_9",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_10",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_11",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Perl",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_12",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_13",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_14",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_15",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_16",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "BASIC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fortran",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_17",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_18",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_19",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_20",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_21",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_22",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_23",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_24",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_25",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_26",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fortran",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_27",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_28",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_29",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_30",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Nokia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_31",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "NASA",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Yahoo!",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Air Canada",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Red Hat Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "34346_32",
+   "entidades": [
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Red Hat Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Industrial Light & Magic",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

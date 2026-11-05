@@ -1,0 +1,995 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:26:22+00:00",
+ "chunks": [
+  {
+   "chunk_id": "128861_0",
+   "entidades": [
+    {
+     "nome": "Walter Houser Brattain",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Brattain"
+     ],
+     "descricao": "Físico americano que compartilhou o Prêmio Nobel de Física de 1956 pela invenção do transistor de contato pontual.",
+     "propriedades": {
+      "ano_nascimento": 1902,
+      "ano_morte": 1987
+     }
+    },
+    {
+     "nome": "John Bardeen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "William Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "transistor de contato pontual"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "compartilhou o Prêmio Nobel de Física de 1956 com John Bardeen e William Shockley",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John Bardeen",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "compartilhou o Prêmio Nobel de Física de 1956 com John Bardeen e William Shockley",
+     "confianca": 0.95
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "compartilhou o Prêmio Nobel de Física de 1956 com John Bardeen e William Shockley",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "CRIOU",
+     "destino": "Transístor",
+     "propriedades": {},
+     "evidencia": "pela invenção do transistor de contato pontual",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "128861_1",
+   "entidades": [
+    {
+     "nome": "Walter Houser Brattain",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Brattain"
+     ],
+     "propriedades": {
+      "ano_nascimento": 1902
+     }
+    },
+    {
+     "nome": "Xiamen",
+     "tipo": "Local",
+     "aliases": [
+      "Amoy"
+     ],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Whitman College",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "NASCEU_EM",
+     "destino": "Xiamen",
+     "propriedades": {},
+     "evidencia": "nasceu em 10 de fevereiro de 1902, em Amoy (atual Xiamen), Fujian, China",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Whitman College",
+     "propriedades": {
+      "curso": "Física e Matemática",
+      "ano": 1924
+     },
+     "evidencia": "Ele então frequentou o Whitman College, onde estudou com Benjamin H. Brown (física) e Walter A. Bratton (matemática). Ele recebeu um Bacharelado em Ciências em 1924",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "128861_2",
+   "entidades": [
+    {
+     "nome": "Walter Houser Brattain",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Brattain"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade do Oregon",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Minnesota",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "John Hasbrouck Van Vleck",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Torrence Tate Sr.",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade do Oregon",
+     "propriedades": {
+      "curso": "Mestrado em Artes",
+      "ano": 1926
+     },
+     "evidencia": "Brattain obteve um Mestrado em Artes pela Universidade do Oregon em 1926",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Minnesota",
+     "propriedades": {
+      "curso": "Doutorado em Filosofia",
+      "ano": 1929
+     },
+     "evidencia": "um Doutorado em Filosofia pela Universidade de Minnesota em 1929",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "128861_3",
+   "entidades": [
+    {
+     "nome": "Walter Houser Brattain",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Brattain"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "National Bureau of Standards",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Bell Telephone Laboratories"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Joseph A. Becker",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Arnold Sommerfeld",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "TRABALHOU_EM",
+     "destino": "National Bureau of Standards",
+     "propriedades": {
+      "ano_inicio": 1928,
+      "ano_fim": 1929
+     },
+     "evidencia": "De 1928 a 1929, Brattain trabalhou para o National Bureau of Standards",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {
+      "cargo": "físico pesquisador",
+      "ano_inicio": 1929
+     },
+     "evidencia": "Em agosto de 1929, ele se juntou a Joseph A. Becker na Bell Telephone Laboratories como físico pesquisador",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "COLABOROU_COM",
+     "destino": "Joseph A. Becker",
+     "propriedades": {
+      "contexto": "fluxo induzido por calor de portadores de carga em retificadores de óxido de cobre"
+     },
+     "evidencia": "ele se juntou a Joseph A. Becker na Bell Telephone Laboratories como físico pesquisador. Os dois homens trabalharam no fluxo induzido por calor de portadores de carga",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "128861_4",
+   "entidades": [
+    {
+     "nome": "Walter Houser Brattain",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Brattain"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shockley",
+      "William Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Bell"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "National Defense Research Committee",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Columbia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "COLABOROU_COM",
+     "destino": "William Bradford Shockley",
+     "propriedades": {
+      "contexto": "amplificador semicondutor que usava óxido de cobre"
+     },
+     "evidencia": "Brattain trabalhou com William Shockley na ideia de um amplificador semicondutor que usava óxido de cobre",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "128861_5",
+   "entidades": [
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "John Bardeen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Bardeen"
+     ],
+     "descricao": "Físico quântico que se juntou ao grupo de estado sólido da Bell Labs.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Walter Houser Brattain",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Brattain"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Mervin Kelly",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Stanley O. Morgan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John Bardeen",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "Em 1945, a Bell Labs se reorganizou e criou um grupo especificamente para fazer pesquisa fundamental em física do estado sólido",
+     "confianca": 0.6
+    }
+   ]
+  },
+  {
+   "chunk_id": "128861_6",
+   "entidades": [
+    {
+     "nome": "Walter Houser Brattain",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Brattain"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Bardeen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Bardeen"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shockley"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "COLABOROU_COM",
+     "destino": "John Bardeen",
+     "propriedades": {
+      "contexto": "experimentos para descobrir por que o transistor de efeito de campo de Shockley não amplificava"
+     },
+     "evidencia": "Ele ordenou que Brattain e Bardeen descobrissem por que não funcionava.",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "128861_7",
+   "entidades": [
+    {
+     "nome": "Walter Houser Brattain",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Brattain"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Bardeen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Bardeen"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shockley"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "128861_8",
+   "entidades": [
+    {
+     "nome": "Walter Houser Brattain",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Brattain"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Bardeen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Bardeen"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "transistor de contato pontual"
+     ],
+     "propriedades": {
+      "ano": 1947,
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Ralph Bray",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Seymour Benzer",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Purdue",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "CRIOU",
+     "destino": "Transístor",
+     "propriedades": {
+      "ano": 1947
+     },
+     "evidencia": "Em 23 de dezembro de 1947, Brattain, Bardeen e Shockley demonstraram o primeiro transistor funcional a seus colegas na Bell Labs.",
+     "confianca": 0.85
+    },
+    {
+     "origem": "John Bardeen",
+     "tipo": "CRIOU",
+     "destino": "Transístor",
+     "propriedades": {
+      "ano": 1947
+     },
+     "evidencia": "Em 23 de dezembro de 1947, Brattain, Bardeen e Shockley demonstraram o primeiro transistor funcional a seus colegas na Bell Labs.",
+     "confianca": 0.85
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "CRIOU",
+     "destino": "Transístor",
+     "propriedades": {
+      "ano": 1947
+     },
+     "evidencia": "Em 23 de dezembro de 1947, Brattain, Bardeen e Shockley demonstraram o primeiro transistor funcional a seus colegas na Bell Labs.",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "128861_9",
+   "entidades": [
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Bardeen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Bardeen"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Walter Houser Brattain",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Brattain"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Transístor",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "128861_10",
+   "entidades": [
+    {
+     "nome": "Walter Houser Brattain",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Brattain"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "C. G. B. Garrett",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "P. J. Boddy",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Bardeen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Bardeen"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Illinois",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Shockley Semiconductor Laboratory",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "COLABOROU_COM",
+     "destino": "C. G. B. Garrett",
+     "propriedades": {
+      "contexto": "grupo de pesquisa na Bell Labs sobre propriedades superficiais dos sólidos"
+     },
+     "evidencia": "trabalhando com C. G. B. Garrett e P. J. Boddy",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "COLABOROU_COM",
+     "destino": "P. J. Boddy",
+     "propriedades": {
+      "contexto": "grupo de pesquisa na Bell Labs sobre propriedades superficiais dos sólidos"
+     },
+     "evidencia": "trabalhando com C. G. B. Garrett e P. J. Boddy",
+     "confianca": 0.9
+    },
+    {
+     "origem": "John Bardeen",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Illinois",
+     "propriedades": {
+      "ano_inicio": 1951
+     },
+     "evidencia": "Bardeen deixou a Bell Labs em 1951 para ir para a Universidade de Illinois",
+     "confianca": 0.9
+    },
+    {
+     "origem": "John Bardeen",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {
+      "ano_fim": 1951
+     },
+     "evidencia": "Bardeen deixou a Bell Labs em 1951",
+     "confianca": 0.9
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {
+      "ano_fim": 1953
+     },
+     "evidencia": "Shockley deixou a Bell Labs em 1953",
+     "confianca": 0.9
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "FUNDOU",
+     "destino": "Shockley Semiconductor Laboratory",
+     "propriedades": {},
+     "evidencia": "Shockley deixou a Bell Labs em 1953 e passou a formar o Shockley Semiconductor Laboratory.",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "128861_11",
+   "entidades": [
+    {
+     "nome": "Walter Houser Brattain",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Brattain",
+      "Walter Brattain"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Bardeen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Bardeen"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "William Bradford Shockley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shockley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Nobel de Física",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Shockley Semiconductor Laboratory",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "Em 1956, os três homens receberam conjuntamente o Prêmio Nobel de Física do Rei Gustavo VI Adolfo da Suécia",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John Bardeen",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "Em 1956, os três homens receberam conjuntamente o Prêmio Nobel de Física do Rei Gustavo VI Adolfo da Suécia",
+     "confianca": 0.95
+    },
+    {
+     "origem": "William Bradford Shockley",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Nobel de Física",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "Em 1956, os três homens receberam conjuntamente o Prêmio Nobel de Física do Rei Gustavo VI Adolfo da Suécia",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "128861_12",
+   "entidades": [
+    {
+     "nome": "Walter Houser Brattain",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Brattain"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "P. J. Boddy",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "P. N. Sawyer",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "COLABOROU_COM",
+     "destino": "P. N. Sawyer",
+     "propriedades": {
+      "contexto": "artigos sobre processos eletroquímicos na matéria viva"
+     },
+     "evidencia": "Brattain mais tarde colaborou com P. J. Boddy e P. N. Sawyer em vários artigos sobre processos eletroquímicos na matéria viva",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "128861_13",
+   "entidades": [
+    {
+     "nome": "Walter Houser Brattain",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Brattain"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "David Frasco",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Professor de química de Whitman.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Harvard",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Whitman College",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Whitman"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "COLABOROU_COM",
+     "destino": "David Frasco",
+     "propriedades": {
+      "contexto": "bicamadas de fosfolipídios como modelo da superfície de células vivas"
+     },
+     "evidencia": "Ele também colaborou com o professor de química de Whitman, David Frasco",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade Harvard",
+     "propriedades": {
+      "cargo": "professor visitante",
+      "ano_inicio": 1952
+     },
+     "evidencia": "Brattain lecionou na Universidade Harvard como professor visitante em 1952",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Whitman College",
+     "propriedades": {
+      "cargo": "professor adjunto",
+      "ano_inicio": 1962,
+      "ano_fim": 1976
+     },
+     "evidencia": "continuou a lecionar em Whitman, tornando-se professor adjunto em 1972. Ele se aposentou do ensino em 1976",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Walter Houser Brattain",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {
+      "ano_fim": 1967
+     },
+     "evidencia": "Após se aposentar formalmente da Bell Labs em 1967",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "128861_14",
+   "entidades": [
+    {
+     "nome": "Walter Houser Brattain",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Brattain"
+     ],
+     "propriedades": {
+      "ano_morte": 1987
+     }
+    },
+    {
+     "nome": "Whitman College",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Whitman"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Seattle",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

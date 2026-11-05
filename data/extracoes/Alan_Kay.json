@@ -1,0 +1,640 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 283019,
+    "titulo": "Alan Kay",
+    "url": "https://pt.wikipedia.org/wiki/Alan_Kay",
+    "categoria": "Pessoa",
+    "wikidata_id": "Q92742"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:24:40+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "pessoa:alan_kay",
+  "chunks": [
+    {
+      "id": "283019_0",
+      "ordem": 0,
+      "texto": "Alan Curtis Kay (Springfield, 17 de maio de 1940) é um informático estadunidense. É conhecido por ter sido um dos inventores da linguagem de programação Smalltalk, e um dos pais do conceito de programação orientada a objetos, que lhe valeu o Prêmio Turing em 2003. Concebeu o laptop e a arquitetura das modernas interfaces gráficas dos computadores (GUI)."
+    },
+    {
+      "id": "283019_1",
+      "ordem": 1,
+      "texto": "Concebeu o laptop e a arquitetura das modernas interfaces gráficas dos computadores (GUI).\nPrimeiros anos: Logo após o seu nascimento em Springfield, Massachusetts, sua família mudou-se para a Austrália, onde moraram por alguns anos, até que se mudaram novamente para os Estados Unidos, em função da ameaça de invasão japonesa, durante a Segunda Guerra Mundial.\nInício da vida acadêmica: Graduado em matemática e biologia molecular pela Universidade do Colorado. Anteriormente, ele havia trabalhado como guitarrista profissional de jazz.\nEnquanto estudava na Universidade de Utah, tendo começado em 1966, aprendeu sobre o inovador programa de computador chamado Sketchpad e começou a programar em Simula. Tomando emprestado os conceitos desses sistemas, como também dos seus conhecimentos em Biologia e Matemática, formulou sua \"analogia algébrico-biológica\". Kay lançou o postulado de que o computador ideal deveria funcionar como um organismo vivo, isto é, cada \"célula\" comportar-se-ia relacionando-se com outras a fim de alcançar um objetivo, contudo, funcionando de forma autônoma. As células poderiam também reagrupar-se para resolver um outro problema ou desempenhar outras funções."
+    },
+    {
+      "id": "283019_2",
+      "ordem": 2,
+      "texto": "As células poderiam também reagrupar-se para resolver um outro problema ou desempenhar outras funções.\nInfluência de Seymour Papert: No outono de 1968, Kay teve o seu primeiro encontro com Seymour Papert, no Laboratório de Inteligência Artificial do MIT, e ficou interessado na linguagem Logo, um dialeto de Lisp otimizado para uso educacional. Toda a concepção de Kay sobre o papel do computador na sociedade foi mexida, quando ele viu Papert e seus colegas ensinando crianças a programar em Logo.\nEm 1968, após visitar Seymour Papert, começa a pensar sobre um computador do tamanho de um livro que poderia ser usado para substituir o papel. Kay percebe que esse dispositivo seria especialmente útil para as crianças. Essa ideia o estimulou a construir um modelo de um computador portátil que viria a ser um laptop. Mais tarde, em 1970, Kay projetou um dispositivo, chamado por ele de \"KiddiKomp\", que era um computador portátil barato com uma tela de CRT a fim de avaliar a computação móvel."
+    },
+    {
+      "id": "283019_3",
+      "ordem": 3,
+      "texto": "Mais tarde, em 1970, Kay projetou um dispositivo, chamado por ele de \"KiddiKomp\", que era um computador portátil barato com uma tela de CRT a fim de avaliar a computação móvel.\nProjetos: Após escrever uma tese sobre orientação a objetos gráfica e receber o título de Ph.D. na Universidade de Utah, ele passou dois anos como pesquisador no Laboratório de Inteligência Artificial de Stanford. Durante este período, Kay se envolveu, entre outras coisas, com projeto de linguagem de programação. Também, passou algum tempo ensinando."
+    },
+    {
+      "id": "283019_4",
+      "ordem": 4,
+      "texto": "Também, passou algum tempo ensinando.\nEra Xerox PARC: Kay começou como consultor no centro de pesquisa de Palo Alto da Xerox PARC, em setembro de 1970, e passou a ser pesquisador da empresa em 1971. Envolveu-se com o projeto da linguagem de programação Smalltalk durante 1971 e 1972 e passou a usar Smalltalk num contexto educacional. Crianças foram postas em contato com computadores e tiveram suas reações analisadas. Junto com os seus colegas da PARC (influenciado pelas psicologias desenvolvimental e cognitiva de Jean Piaget e Jerome Bruner), Kay concluiu que as crianças aprendiam melhor através da progressão a partir de um envolvimento cinético, passando por imagens e configurações até chegar ao uso de representações abstratas e simbólicas. Foi esta pesquisa que motivo o uso intenso de gráficos e animações no desenvolvimento da linguagem Smalltalk. Algumas das crianças que tiveram contato com Smalltalk tornaram-se aptas a usá-lo e, destas, algumas chegaram a desenvolver sozinhas programas complicados.\nO projeto Smalltalk foi influenciado pela analogia de Kay baseada em princípio biológicos e algébricos. Ela idealiza entidades individuais, ou células, que se comunicam entre si pela troca de mensagens. De certa forma, a linguagem Smalltalk pode ser considerada como a mãe das linguagens orientadas a objetos."
+    },
+    {
+      "id": "283019_5",
+      "ordem": 5,
+      "texto": "De certa forma, a linguagem Smalltalk pode ser considerada como a mãe das linguagens orientadas a objetos.\nEnquanto liderava esse projeto na PARC, Kay contribuiu para o desenvolvimento da Ethernet, impressora laser e o modelo de rede cliente-servidor. Ainda envolvido com a computação portável, Kay continuou a defender o uso de um protótipo de laptop para crianças, o qual ele apelidou de \"Dynabook\". Infelizmente, naquela época, a tecnologia para criar o Dynabook ainda não existia. Em 1973, junto com Chuck Thacker criou o \"interim Dynabook\" chamado de Alto que foi considerado o primeiro computador pessoal moderno em rede.\nApós dez anos na Xerox PARC, Kay tornou-se cientista chefe da Atari por três anos."
+    },
+    {
+      "id": "283019_6",
+      "ordem": 6,
+      "texto": "Após dez anos na Xerox PARC, Kay tornou-se cientista chefe da Atari por três anos.\nEra Apple: A partir de 1984 Kay associou-se a Apple Computer até o fechamento da ATG (Advanced Technology Group), uma das divisões de pesquisa e desenvolvimento da empresa. Ele então associou-se a Walt Disney Imagineering. Após a Disney, ele fundou em 2001 o Viewpoints Research Institute, uma organização sem fins lucrativos dedicada às crianças, ao aprendizado e ao desenvolvimento de software avançado.\nPosteriormente, trabalhou com um time da Applied Minds e então tornou-se pesquisador da Hewlett-Packard até que a empresa fechou o time de pesquisa em 2005."
+    },
+    {
+      "id": "283019_7",
+      "ordem": 7,
+      "texto": "Posteriormente, trabalhou com um time da Applied Minds e então tornou-se pesquisador da Hewlett-Packard até que a empresa fechou o time de pesquisa em 2005.\nVida pessoal: Kay é também um tecladista e guitarrista. Ele possui um interesse especial por teclados como o órgão de tubos e guitarras antigas. Já foi um guitarrista de jazz e rock and roll profissional. É casado com Bonnie MacBird, uma escritora, atriz, artista e produtora de televisão, com quem compartilha o interesse pela música."
+    },
+    {
+      "id": "283019_8",
+      "ordem": 8,
+      "texto": "É casado com Bonnie MacBird, uma escritora, atriz, artista e produtora de televisão, com quem compartilha o interesse pela música.\nCitações: A melhor forma de prever o futuro é inventá-lo\nA coisa mais desastrosa que você pode aprender é a sua primeira linguagem de programação.\nSe você não falha em pelo menos 90% das vezes, seus objetivos não foram ambiciosos o suficiente.\nAs coisas simples devem ser simples e as coisas complexas, possíveis."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "pessoa:alan_kay",
+      "nome": "Alan Kay",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Alan Curtis Kay",
+        "Kay"
+      ],
+      "descricao": "Informático estadunidense, um dos inventores do Smalltalk.",
+      "propriedades": {
+        "ano_nascimento": 1940
+      },
+      "chunk_ids": [
+        "283019_0",
+        "283019_1",
+        "283019_3",
+        "283019_4",
+        "283019_5",
+        "283019_6",
+        "283019_7"
+      ]
+    },
+    {
+      "id": "linguagem:smalltalk",
+      "nome": "Smalltalk",
+      "tipo": "Linguagem",
+      "aliases": [
+        "Smalltalk-80"
+      ],
+      "descricao": "Linguagem considerada a mãe das linguagens orientadas a objetos.",
+      "propriedades": {},
+      "chunk_ids": [
+        "283019_0",
+        "283019_4"
+      ]
+    },
+    {
+      "id": "premio:premio_turing",
+      "nome": "Prêmio Turing",
+      "tipo": "Premio",
+      "aliases": [
+        "Turing Award",
+        "Prémio Turing",
+        "A. M. Turing Award",
+        "Prêmio Alan Turing"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "283019_0"
+      ]
+    },
+    {
+      "id": "tecnologia:interface_grafica_do_utilizador",
+      "nome": "Interface gráfica do utilizador",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "GUI",
+        "Interface gráfica de usuário",
+        "interface gráfica"
+      ],
+      "propriedades": {
+        "tipo": "conceito"
+      },
+      "chunk_ids": [
+        "283019_0"
+      ]
+    },
+    {
+      "id": "local:springfield",
+      "nome": "Springfield",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "283019_1"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_do_colorado",
+      "nome": "Universidade do Colorado",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "283019_1"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_de_utah",
+      "nome": "Universidade de Utah",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "283019_1",
+        "283019_3"
+      ]
+    },
+    {
+      "id": "linguagem:simula",
+      "nome": "Simula",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "283019_1"
+      ]
+    },
+    {
+      "id": "local:estados_unidos",
+      "nome": "Estados Unidos",
+      "tipo": "Local",
+      "aliases": [
+        "EUA",
+        "Estados Unidos da América",
+        "USA"
+      ],
+      "propriedades": {
+        "tipo": "pais"
+      },
+      "chunk_ids": [
+        "283019_1"
+      ]
+    },
+    {
+      "id": "pessoa:seymour_papert",
+      "nome": "Seymour Papert",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "283019_2"
+      ]
+    },
+    {
+      "id": "organizacao:instituto_de_tecnologia_de_massachusetts",
+      "nome": "Instituto de Tecnologia de Massachusetts",
+      "tipo": "Organizacao",
+      "aliases": [
+        "MIT",
+        "Massachusetts Institute of Technology"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "283019_2"
+      ]
+    },
+    {
+      "id": "linguagem:logo",
+      "nome": "Logo",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "descricao": "Dialeto de Lisp otimizado para uso educacional.",
+      "propriedades": {},
+      "chunk_ids": [
+        "283019_2"
+      ]
+    },
+    {
+      "id": "linguagem:lisp",
+      "nome": "Lisp",
+      "tipo": "Linguagem",
+      "aliases": [
+        "LISP"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "283019_2"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_stanford",
+      "nome": "Universidade Stanford",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Universidade de Stanford",
+        "Stanford University",
+        "Stanford"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "283019_3"
+      ]
+    },
+    {
+      "id": "organizacao:xerox_parc",
+      "nome": "Xerox PARC",
+      "tipo": "Organizacao",
+      "aliases": [
+        "PARC",
+        "Xerox Palo Alto Research Center",
+        "Palo Alto Research Center"
+      ],
+      "propriedades": {
+        "tipo": "laboratorio"
+      },
+      "chunk_ids": [
+        "283019_4",
+        "283019_5"
+      ]
+    },
+    {
+      "id": "pessoa:jean_piaget",
+      "nome": "Jean Piaget",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "283019_4"
+      ]
+    },
+    {
+      "id": "pessoa:jerome_bruner",
+      "nome": "Jerome Bruner",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "283019_4"
+      ]
+    },
+    {
+      "id": "pessoa:chuck_thacker",
+      "nome": "Chuck Thacker",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "283019_5"
+      ]
+    },
+    {
+      "id": "hardware:xerox_alto",
+      "nome": "Xerox Alto",
+      "tipo": "Hardware",
+      "aliases": [
+        "Alto"
+      ],
+      "descricao": "Computador pessoal em rede criado como o 'interim Dynabook'.",
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "283019_5"
+      ]
+    },
+    {
+      "id": "organizacao:atari",
+      "nome": "Atari",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "283019_5"
+      ]
+    },
+    {
+      "id": "tecnologia:ethernet",
+      "nome": "Ethernet",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "rede"
+      },
+      "chunk_ids": [
+        "283019_5"
+      ]
+    },
+    {
+      "id": "organizacao:apple",
+      "nome": "Apple",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Apple Inc.",
+        "Apple Inc",
+        "Apple Computer",
+        "Apple Computer, Inc."
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "283019_6"
+      ]
+    },
+    {
+      "id": "organizacao:walt_disney_imagineering",
+      "nome": "Walt Disney Imagineering",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "283019_6"
+      ]
+    },
+    {
+      "id": "organizacao:viewpoints_research_institute",
+      "nome": "Viewpoints Research Institute",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "descricao": "Organização sem fins lucrativos dedicada às crianças, ao aprendizado e ao desenvolvimento de software avançado.",
+      "propriedades": {
+        "tipo": "fundacao",
+        "ano_fundacao": 2001
+      },
+      "chunk_ids": [
+        "283019_6"
+      ]
+    },
+    {
+      "id": "organizacao:applied_minds",
+      "nome": "Applied Minds",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "283019_6",
+        "283019_7"
+      ]
+    },
+    {
+      "id": "organizacao:hewlett_packard",
+      "nome": "Hewlett-Packard",
+      "tipo": "Organizacao",
+      "aliases": [
+        "HP",
+        "Hewlett-Packard Company"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "283019_6",
+        "283019_7"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:alan_kay",
+      "tipo": "CRIOU",
+      "destino": "linguagem:smalltalk",
+      "propriedades": {},
+      "chunk_id": "283019_0",
+      "evidencia": "um dos inventores da linguagem de programação Smalltalk",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:alan_kay",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_turing",
+      "propriedades": {
+        "ano": 2003
+      },
+      "chunk_id": "283019_0",
+      "evidencia": "que lhe valeu o Prêmio Turing em 2003",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:alan_kay",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:interface_grafica_do_utilizador",
+      "propriedades": {},
+      "chunk_id": "283019_0",
+      "evidencia": "Concebeu o laptop e a arquitetura das modernas interfaces gráficas dos computadores (GUI)",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:alan_kay",
+      "tipo": "NASCEU_EM",
+      "destino": "local:springfield",
+      "propriedades": {},
+      "chunk_id": "283019_1",
+      "evidencia": "Logo após o seu nascimento em Springfield, Massachusetts",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:alan_kay",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:universidade_do_colorado",
+      "propriedades": {
+        "curso": "matemática e biologia molecular"
+      },
+      "chunk_id": "283019_1",
+      "evidencia": "Graduado em matemática e biologia molecular pela Universidade do Colorado",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:alan_kay",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:universidade_de_utah",
+      "propriedades": {
+        "ano": 1966
+      },
+      "chunk_id": "283019_1",
+      "evidencia": "Enquanto estudava na Universidade de Utah, tendo começado em 1966",
+      "confianca": 0.9
+    },
+    {
+      "origem": "linguagem:logo",
+      "tipo": "INFLUENCIADA_POR",
+      "destino": "linguagem:lisp",
+      "propriedades": {},
+      "chunk_id": "283019_2",
+      "evidencia": "Logo, um dialeto de Lisp otimizado para uso educacional",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:alan_kay",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:universidade_de_utah",
+      "propriedades": {
+        "curso": "Ph.D."
+      },
+      "chunk_id": "283019_3",
+      "evidencia": "receber o título de Ph.D. na Universidade de Utah",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:alan_kay",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:universidade_stanford",
+      "propriedades": {
+        "cargo": "pesquisador"
+      },
+      "chunk_id": "283019_3",
+      "evidencia": "passou dois anos como pesquisador no Laboratório de Inteligência Artificial de Stanford",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:alan_kay",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:xerox_parc",
+      "propriedades": {
+        "cargo": "consultor",
+        "ano_inicio": 1970
+      },
+      "chunk_id": "283019_4",
+      "evidencia": "Kay começou como consultor no centro de pesquisa de Palo Alto da Xerox PARC, em setembro de 1970",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:alan_kay",
+      "tipo": "CRIOU",
+      "destino": "hardware:xerox_alto",
+      "propriedades": {
+        "ano": 1973
+      },
+      "chunk_id": "283019_5",
+      "evidencia": "Em 1973, junto com Chuck Thacker criou o \"interim Dynabook\" chamado de Alto",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:chuck_thacker",
+      "tipo": "CRIOU",
+      "destino": "hardware:xerox_alto",
+      "propriedades": {
+        "ano": 1973
+      },
+      "chunk_id": "283019_5",
+      "evidencia": "Em 1973, junto com Chuck Thacker criou o \"interim Dynabook\" chamado de Alto",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:alan_kay",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:chuck_thacker",
+      "propriedades": {
+        "contexto": "criação do Alto"
+      },
+      "chunk_id": "283019_5",
+      "evidencia": "Em 1973, junto com Chuck Thacker criou o \"interim Dynabook\" chamado de Alto",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:alan_kay",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:atari",
+      "propriedades": {
+        "cargo": "cientista chefe"
+      },
+      "chunk_id": "283019_5",
+      "evidencia": "Kay tornou-se cientista chefe da Atari por três anos",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:alan_kay",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:apple",
+      "propriedades": {
+        "ano_inicio": 1984
+      },
+      "chunk_id": "283019_6",
+      "evidencia": "A partir de 1984 Kay associou-se a Apple Computer",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:alan_kay",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:walt_disney_imagineering",
+      "propriedades": {},
+      "chunk_id": "283019_6",
+      "evidencia": "Ele então associou-se a Walt Disney Imagineering",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:alan_kay",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:viewpoints_research_institute",
+      "propriedades": {
+        "ano": 2001
+      },
+      "chunk_id": "283019_6",
+      "evidencia": "ele fundou em 2001 o Viewpoints Research Institute",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:alan_kay",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:applied_minds",
+      "propriedades": {},
+      "chunk_id": "283019_6",
+      "evidencia": "trabalhou com um time da Applied Minds",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:alan_kay",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:hewlett_packard",
+      "propriedades": {
+        "cargo": "pesquisador",
+        "ano_fim": 2005
+      },
+      "chunk_id": "283019_6",
+      "evidencia": "tornou-se pesquisador da Hewlett-Packard até que a empresa fechou o time de pesquisa em 2005",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:alan_kay",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:applied_minds",
+      "propriedades": {},
+      "chunk_id": "283019_7",
+      "evidencia": "trabalhou com um time da Applied Minds",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:alan_kay",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:hewlett_packard",
+      "propriedades": {
+        "cargo": "pesquisador",
+        "ano_fim": 2005
+      },
+      "chunk_id": "283019_7",
+      "evidencia": "tornou-se pesquisador da Hewlett-Packard até que a empresa fechou o time de pesquisa em 2005",
+      "confianca": 0.9
+    }
+  ]
+}

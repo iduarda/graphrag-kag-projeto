@@ -1,0 +1,354 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 113671,
+    "titulo": "Charles Antony Richard Hoare",
+    "url": "https://pt.wikipedia.org/wiki/Charles_Antony_Richard_Hoare",
+    "categoria": "Pessoa",
+    "wikidata_id": "Q92602"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:27:04+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "pessoa:charles_antony_richard_hoare",
+  "chunks": [
+    {
+      "id": "113671_0",
+      "ordem": 0,
+      "texto": "Charles Antony Richard Hoare, também conhecido como Tony Hoare ou C. A. R. Hoare (Colombo, 11 de janeiro de 1934 – 5 de março de 2026), foi um cientista da computação britânico.\nConhecido pelo desenvolvimento do Quicksort em 1960, o algoritmo de ordenação mais utilizado no mundo, e muito provavelmente o algoritmo mais usado dentre todos os tipos existentes. Ele também desenvolveu a Lógica de Hoare e a linguagem formal CSP, usada para especificar interações entre processos concorrentes e que serviu de inspiração para a linguagem de programação Occam.\nNascido em Colombo, Sri Lanka, de pais nascidos no Reino Unido, graduou-se Bacharel pela Universidade de Oxford em 1956. Ele permaneceu ainda um ano em Oxford estudando Estatística em nível de graduação, e em seguida estudou tradução computacional de linguagens humanas na Universidade de Moscou, na Rússia. Em 1960 começou a trabalhar na Elliot Brothers, Ltd, uma pequena firma de desenvolvimento de programas, onde implementou a ALGOL 60 e começou a trabalhar inicialmente desenvolvendo algoritmos. Tornou-se professor de Ciência da Computação na Queen's University, em Belfast (Irlanda do Norte) em 1968, e em 1977 mudou-se para Oxford, também para trabalhar como professor. Hoje ocupa o cargo de Professor lá, e também é um dos pesquisadores mais antigos do centro de pesquisas da Microsoft em Cambridge, na Inglaterra."
+    },
+    {
+      "id": "113671_1",
+      "ordem": 1,
+      "texto": "Hoje ocupa o cargo de Professor lá, e também é um dos pesquisadores mais antigos do centro de pesquisas da Microsoft em Cambridge, na Inglaterra.\nRecebeu o Prêmio Turing da ACM de 1980, por \"suas contribuições fundamentais para a definição e projeto de linguagens de programação\". O prêmio lhe foi entregue na Conferência Anual da ACM em Nashville, Tennessee, em 27 de outubro de 1980, por Walter Carlson, presidente do comitê de premiação.\nEm 1985 foi eleito fellow da Royal Society. Em 2005 foi eleito também fellow da Royal Academy of Engineering.\nMorreu em 5 de março de 2026 aos seus 92 anos."
+    },
+    {
+      "id": "113671_2",
+      "ordem": 2,
+      "texto": "Morreu em 5 de março de 2026 aos seus 92 anos.\nLivros: O.-J. Dahl, E. W. Dijkstra e C. A. R. Hoare (1972). Structured Programming. [S.l.]: Academic Press. ISBN 0-12-200550-3\nC. A. R. Hoare (1985). Communicating Sequential Processes. (available online at http://www.usingcsp.com/ in PDF format). [S.l.]: Prentice Hall International Series in Computer Science. ISBN 0-13-153271-5 hardback or ISBN 0-13-153289-8 paperback\nC. A. R. Hoare e M. J. C. Gordon (1992). Mechanised Reasoning and Hardware Design. [S.l.]: Prentice Hall International Series in Computer Science. ISBN 0-13-572405-8\nC. A. R. Hoare e He Jifeng (1998). Unifying Theories of Programming. [S.l.]: Prentice Hall International Series in Computer Science. ISBN 0-13-458761-8"
+    }
+  ],
+  "entidades": [
+    {
+      "id": "pessoa:charles_antony_richard_hoare",
+      "nome": "Charles Antony Richard Hoare",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Tony Hoare",
+        "C. A. R. Hoare",
+        "Hoare"
+      ],
+      "descricao": "Cientista da computação britânico conhecido pelo Quicksort, pela Lógica de Hoare e pela linguagem formal CSP.",
+      "propriedades": {
+        "ano_nascimento": 1934,
+        "ano_morte": 2026
+      },
+      "chunk_ids": [
+        "113671_0",
+        "113671_1",
+        "113671_2"
+      ]
+    },
+    {
+      "id": "tecnologia:quicksort",
+      "nome": "Quicksort",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "conceito",
+        "ano": 1960
+      },
+      "chunk_ids": [
+        "113671_0"
+      ]
+    },
+    {
+      "id": "tecnologia:logica_de_hoare",
+      "nome": "Lógica de Hoare",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "conceito"
+      },
+      "chunk_ids": [
+        "113671_0"
+      ]
+    },
+    {
+      "id": "tecnologia:csp",
+      "nome": "CSP",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "descricao": "Linguagem formal usada para especificar interações entre processos concorrentes.",
+      "propriedades": {
+        "tipo": "conceito"
+      },
+      "chunk_ids": [
+        "113671_0"
+      ]
+    },
+    {
+      "id": "linguagem:occam",
+      "nome": "Occam",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "113671_0"
+      ]
+    },
+    {
+      "id": "local:colombo",
+      "nome": "Colombo",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "113671_0"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_de_oxford",
+      "nome": "Universidade de Oxford",
+      "tipo": "Organizacao",
+      "aliases": [
+        "University of Oxford",
+        "Oxford"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "113671_0"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_de_moscou",
+      "nome": "Universidade de Moscou",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "113671_0"
+      ]
+    },
+    {
+      "id": "organizacao:elliot_brothers_ltd",
+      "nome": "Elliot Brothers, Ltd",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "113671_0"
+      ]
+    },
+    {
+      "id": "organizacao:queen_s_university",
+      "nome": "Queen's University",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "113671_0"
+      ]
+    },
+    {
+      "id": "organizacao:microsoft",
+      "nome": "Microsoft",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Microsoft Corporation"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "113671_0"
+      ]
+    },
+    {
+      "id": "linguagem:algol",
+      "nome": "ALGOL",
+      "tipo": "Linguagem",
+      "aliases": [
+        "ALGOL 60"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "113671_0"
+      ]
+    },
+    {
+      "id": "premio:premio_turing",
+      "nome": "Prêmio Turing",
+      "tipo": "Premio",
+      "aliases": [
+        "Turing Award",
+        "Prémio Turing",
+        "A. M. Turing Award",
+        "Prêmio Alan Turing",
+        "Prêmio Turing da ACM"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "113671_1"
+      ]
+    },
+    {
+      "id": "organizacao:association_for_computing_machinery",
+      "nome": "Association for Computing Machinery",
+      "tipo": "Organizacao",
+      "aliases": [
+        "ACM"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "113671_1"
+      ]
+    },
+    {
+      "id": "pessoa:edsger_dijkstra",
+      "nome": "Edsger Dijkstra",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Edsger Wybe Dijkstra",
+        "Dijkstra",
+        "E. W. Dijkstra"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "113671_2"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:charles_antony_richard_hoare",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:quicksort",
+      "propriedades": {
+        "ano": 1960
+      },
+      "chunk_id": "113671_0",
+      "evidencia": "Conhecido pelo desenvolvimento do Quicksort em 1960",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:charles_antony_richard_hoare",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:logica_de_hoare",
+      "propriedades": {},
+      "chunk_id": "113671_0",
+      "evidencia": "Ele também desenvolveu a Lógica de Hoare e a linguagem formal CSP",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:charles_antony_richard_hoare",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:csp",
+      "propriedades": {},
+      "chunk_id": "113671_0",
+      "evidencia": "Ele também desenvolveu a Lógica de Hoare e a linguagem formal CSP",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:charles_antony_richard_hoare",
+      "tipo": "NASCEU_EM",
+      "destino": "local:colombo",
+      "propriedades": {},
+      "chunk_id": "113671_0",
+      "evidencia": "Nascido em Colombo, Sri Lanka",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:charles_antony_richard_hoare",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:universidade_de_oxford",
+      "propriedades": {
+        "ano": 1956
+      },
+      "chunk_id": "113671_0",
+      "evidencia": "graduou-se Bacharel pela Universidade de Oxford em 1956",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:charles_antony_richard_hoare",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:universidade_de_moscou",
+      "propriedades": {
+        "curso": "tradução computacional de linguagens humanas"
+      },
+      "chunk_id": "113671_0",
+      "evidencia": "estudou tradução computacional de linguagens humanas na Universidade de Moscou",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:charles_antony_richard_hoare",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:elliot_brothers_ltd",
+      "propriedades": {
+        "ano_inicio": 1960
+      },
+      "chunk_id": "113671_0",
+      "evidencia": "Em 1960 começou a trabalhar na Elliot Brothers, Ltd",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:charles_antony_richard_hoare",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:queen_s_university",
+      "propriedades": {
+        "cargo": "professor de Ciência da Computação",
+        "ano_inicio": 1968
+      },
+      "chunk_id": "113671_0",
+      "evidencia": "Tornou-se professor de Ciência da Computação na Queen's University, em Belfast (Irlanda do Norte) em 1968",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:charles_antony_richard_hoare",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:universidade_de_oxford",
+      "propriedades": {
+        "cargo": "Professor",
+        "ano_inicio": 1977
+      },
+      "chunk_id": "113671_0",
+      "evidencia": "em 1977 mudou-se para Oxford, também para trabalhar como professor",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:charles_antony_richard_hoare",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:microsoft",
+      "propriedades": {
+        "cargo": "pesquisador"
+      },
+      "chunk_id": "113671_0",
+      "evidencia": "também é um dos pesquisadores mais antigos do centro de pesquisas da Microsoft em Cambridge",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:charles_antony_richard_hoare",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_turing",
+      "propriedades": {
+        "ano": 1980
+      },
+      "chunk_id": "113671_1",
+      "evidencia": "Recebeu o Prêmio Turing da ACM de 1980",
+      "confianca": 0.95
+    }
+  ]
+}

@@ -1,0 +1,585 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:26:13+00:00",
+ "chunks": [
+  {
+   "chunk_id": "929749_0",
+   "entidades": [
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Station X"
+     ],
+     "descricao": "Antiga instalação militar secreta onde funcionou a Government Code and Cypher School e onde se decifraram códigos alemães na Segunda Guerra Mundial.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Government Code and Cypher School",
+     "tipo": "Organizacao",
+     "aliases": [
+      "GC&CS"
+     ],
+     "descricao": "Escola de códigos que funcionou em Bletchley Park.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Matemático inglês que atuou como criptoanalista em Bletchley Park.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Bombe",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Londres",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bletchley Park",
+     "propriedades": {
+      "cargo": "criptoanalista"
+     },
+     "evidencia": "Em Bletchley Park o matemático inglês Alan Turing desenvolveu a sua atividade de criptoanalista",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Alan Turing",
+     "tipo": "CRIOU",
+     "destino": "Bombe",
+     "propriedades": {},
+     "evidencia": "Alan Turing desenvolveu o computador conhecido como bombe",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "929749_1",
+   "entidades": [
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Government Code and Cypher School",
+     "tipo": "Organizacao",
+     "aliases": [
+      "GC&CS"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Hugh Sinclair",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Almirante, chefe do Serviço de Inteligência Secreta britânico, que comprou a mansão de Bletchley Park.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Serviço de Inteligência Secreta",
+     "tipo": "Organizacao",
+     "aliases": [
+      "SIS",
+      "MI6"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Hugh Sinclair",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Serviço de Inteligência Secreta",
+     "propriedades": {
+      "cargo": "chefe"
+     },
+     "evidencia": "o almirante Sir Hugh Sinclair, chefe do Serviço de Inteligência Secreta britânico (SIS ou MI6)",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "929749_2",
+   "entidades": [
+    {
+     "nome": "Universidade de Oxford",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Cambridge",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Londres",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Manchester",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "929749_3",
+   "entidades": [
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [
+      "B.P.",
+      "Estação X"
+     ],
+     "descricao": "Local onde aproximadamente 10 mil pessoas, 75% mulheres, trabalhavam no apogeu da Segunda Guerra Mundial.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "929749_4",
+   "entidades": [
+    {
+     "nome": "John Cairncross",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Espião que trabalhava para os soviéticos e forneceu informações ultra-secretas ao governo soviético.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Winston Churchill",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "929749_5",
+   "entidades": [
+    {
+     "nome": "Alastair Denniston",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Comandante, chefe operacional da GC&CS.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Government Code and Cypher School",
+     "tipo": "Organizacao",
+     "aliases": [
+      "GC & CS"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Tiltman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dillwyn Knox",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Dilly Knox"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Josh Cooper",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Nigel de Gray",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Parque Bletchley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Cambridge",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Oxford",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alastair Denniston",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Government Code and Cypher School",
+     "propriedades": {
+      "cargo": "chefe operacional",
+      "ano_inicio": 1919,
+      "ano_fim": 1942
+     },
+     "evidencia": "O Comandante Alastair Denniston foi chefe operacional da GC & CS de 1919 a 1942",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John Tiltman",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Government Code and Cypher School",
+     "propriedades": {
+      "cargo": "criptanalista"
+     },
+     "evidencia": "Os principais criptanalistas GC & CS que se mudaram de Londres para o Parque Bletchley incluíram John Tiltman",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Dillwyn Knox",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Government Code and Cypher School",
+     "propriedades": {
+      "cargo": "criptanalista"
+     },
+     "evidencia": "Os principais criptanalistas GC & CS que se mudaram de Londres para o Parque Bletchley incluíram John Tiltman, Dillwyn \"Dilly\" Knox",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Josh Cooper",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Government Code and Cypher School",
+     "propriedades": {
+      "cargo": "criptanalista"
+     },
+     "evidencia": "Os principais criptanalistas GC & CS que se mudaram de Londres para o Parque Bletchley incluíram John Tiltman, Dillwyn \"Dilly\" Knox, Josh Cooper",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Nigel de Gray",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Government Code and Cypher School",
+     "propriedades": {
+      "cargo": "criptanalista"
+     },
+     "evidencia": "Os principais criptanalistas GC & CS que se mudaram de Londres para o Parque Bletchley incluíram John Tiltman, Dillwyn \"Dilly\" Knox, Josh Cooper e Nigel de Gray",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "929749_6",
+   "entidades": [
+    {
+     "nome": "Peter Twinn",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Government Code and Cypher School",
+     "tipo": "Organizacao",
+     "aliases": [
+      "GC & CS"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Gordon Welchman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Max Newman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bill Tutte",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Oxford",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Peter Twinn",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Government Code and Cypher School",
+     "propriedades": {
+      "ano_inicio": 1939
+     },
+     "evidencia": "Peter Twinn de Oxford juntou-se à GC & CS em fevereiro de 1939",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "929749_7",
+   "entidades": [
+    {
+     "nome": "Joan Clarke",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Uma das poucas mulheres empregadas em Bletchley como criptanalista de pleno direito.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Bletchley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Winston Churchill",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alastair Denniston",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Denniston"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Joan Clarke",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bletchley Park",
+     "propriedades": {
+      "cargo": "criptanalista"
+     },
+     "evidencia": "Joan Clarke (eventualmente, vice-chefe da Hut 8) foi uma das poucas mulheres empregadas em Bletchley como um criptanalista de pleno direito",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "929749_8",
+   "entidades": [
+    {
+     "nome": "John Tiltman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "929749_9",
+   "entidades": [
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [
+      "computadores Colossus"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Eleanor Ireland",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Mavis Lever",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Keith Batey",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Margaret Rock",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Bletchley"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "929749_10",
+   "entidades": [
+    {
+     "nome": "Rozanne Colchester",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Tradutora que trabalhou em Bletchley principalmente para a seção de forças aéreas italianas.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Bletchley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Cicely Mayhew",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ruth Briggs",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Rozanne Colchester",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bletchley Park",
+     "propriedades": {
+      "cargo": "tradutora",
+      "ano_inicio": 1942,
+      "ano_fim": 1945
+     },
+     "evidencia": "Rozanne Colchester foi uma tradutora que trabalhou em Bletchley de abril de 1942 até janeiro de 1945",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "929749_11",
+   "entidades": [
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Bletchley"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "929749_12",
+   "entidades": [
+    {
+     "nome": "John Cairncross",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jock Colville",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Secretário Privado Assistente de Winston Churchill.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Winston Churchill",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "929749_13",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

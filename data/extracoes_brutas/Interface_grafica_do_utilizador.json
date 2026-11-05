@@ -1,0 +1,781 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:23:15+00:00",
+ "chunks": [
+  {
+   "chunk_id": "36424_0",
+   "entidades": [
+    {
+     "nome": "Interface gráfica do utilizador",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "GUI",
+      "interface gráfica de usuário"
+     ],
+     "descricao": "Forma de interface de usuário que permite interagir com dispositivos eletrônicos por meio de ícones gráficos e indicadores visuais.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Xerox PARC",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Xerox Palo Alto Research Center"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "36424_1",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "36424_2",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "36424_3",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "36424_4",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "36424_5",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "36424_6",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Android",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "iOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "36424_7",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "36424_8",
+   "entidades": [
+    {
+     "nome": "Ivan Sutherland",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Stanford Research Institute",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Douglas Engelbart",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "On-Line System",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "NLS"
+     ],
+     "descricao": "Sistema que utilizava hiperlinks baseados em texto manipulados com o mouse.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Rato",
+     "tipo": "Hardware",
+     "aliases": [
+      "mouse"
+     ],
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Xerox PARC",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Alan Kay",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Smalltalk",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Xerox Alto",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1973,
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Douglas Engelbart",
+     "tipo": "CRIOU",
+     "destino": "On-Line System",
+     "propriedades": {},
+     "evidencia": "investigadores do Stanford Research Institute, liderados por Douglas Engelbart, desenvolveram o On-Line System (NLS)",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Stanford Research Institute",
+     "tipo": "DESENVOLVEU",
+     "destino": "On-Line System",
+     "propriedades": {},
+     "evidencia": "investigadores do Stanford Research Institute, liderados por Douglas Engelbart, desenvolveram o On-Line System (NLS)",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Douglas Engelbart",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Stanford Research Institute",
+     "propriedades": {},
+     "evidencia": "investigadores do Stanford Research Institute, liderados por Douglas Engelbart",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Alan Kay",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Xerox PARC",
+     "propriedades": {},
+     "evidencia": "pesquisadores do Xerox PARC e, especificamente, Alan Kay",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Smalltalk",
+     "tipo": "EXECUTA_EM",
+     "destino": "Xerox Alto",
+     "propriedades": {},
+     "evidencia": "a linguagem de programação Smalltalk, que rodava no computador Xerox Alto",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "36424_9",
+   "entidades": [
+    {
+     "nome": "Xerox PARC",
+     "tipo": "Organizacao",
+     "aliases": [
+      "PARC"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "David Canfield Smith",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Kay",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Kay"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Xerox Alto",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro computador com uma GUI, de 1973.",
+     "propriedades": {
+      "ano": 1973,
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "36424_10",
+   "entidades": [
+    {
+     "nome": "Xerox Alto",
+     "tipo": "Hardware",
+     "aliases": [
+      "Alto"
+     ],
+     "propriedades": {
+      "ano": 1973,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PERQ",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro computador comercialmente disponível com uma GUI.",
+     "propriedades": {
+      "ano": 1979,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Three Rivers Computer Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Xerox PARC",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Xerox",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Xerox Star",
+     "tipo": "Hardware",
+     "aliases": [
+      "Xerox 8010 Information System"
+     ],
+     "propriedades": {
+      "ano": 1981,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple Lisa",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1983,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [
+      "Apple Macintosh 128K"
+     ],
+     "propriedades": {
+      "ano": 1984,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Atari ST",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1985,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Commodore Amiga",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1985,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Digital Research",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "GEM",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "GUI da Digital Research.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Visi On",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Three Rivers Computer Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "PERQ",
+     "propriedades": {
+      "ano": 1979
+     },
+     "evidencia": "a estação de trabalho PERQ de 1979, fabricada pela Three Rivers Computer Corporation",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Xerox",
+     "tipo": "DESENVOLVEU",
+     "destino": "Xerox Star",
+     "propriedades": {
+      "ano": 1981
+     },
+     "evidencia": "Em 1981, a Xerox comercializou finalmente as ideias do Alto sob a forma de um sistema novo e melhorado – o Xerox 8010 Information System – mais conhecido como Xerox Star",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Xerox Star",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Xerox Alto",
+     "propriedades": {},
+     "evidencia": "a Xerox comercializou finalmente as ideias do Alto sob a forma de um sistema novo e melhorado",
+     "confianca": 0.65
+    }
+   ]
+  },
+  {
+   "chunk_id": "36424_11",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Digital Research",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "36424_12",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Apple Lisa",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1983,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1984,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Atari ST",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1985,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "GEM",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Digital Research",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Amiga 1000",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Workbench",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Ambiente de trabalho gráfico do Amiga 1000.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "Macintosh",
+     "propriedades": {
+      "ano": 1984
+     },
+     "evidencia": "Em 1984, a Apple introduziu o Macintosh",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Digital Research",
+     "tipo": "DESENVOLVEU",
+     "destino": "GEM",
+     "propriedades": {},
+     "evidencia": "O Atari ST de 1985 foi lançado com a GUI GEM da Digital Research",
+     "confianca": 0.85
+    },
+    {
+     "origem": "GEM",
+     "tipo": "EXECUTA_EM",
+     "destino": "Atari ST",
+     "propriedades": {},
+     "evidencia": "O Atari ST de 1985 foi lançado com a GUI GEM da Digital Research",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Workbench",
+     "tipo": "EXECUTA_EM",
+     "destino": "Amiga 1000",
+     "propriedades": {},
+     "evidencia": "O Amiga 1000 foi lançado no mesmo ano, embora não estivesse amplamente disponível até 1986, com o ambiente de trabalho gráfico Workbench",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "36424_13",
+   "entidades": [
+    {
+     "nome": "Windows 95",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Windows"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "X Window System",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Android",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "iOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "36424_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "36424_15",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "36424_16",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "36424_17",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "36424_18",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "36424_19",
+   "entidades": [
+    {
+     "nome": "Hillcrest Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Sun"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Project Looking Glass",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Sun Microsystems",
+     "tipo": "DESENVOLVEU",
+     "destino": "Project Looking Glass",
+     "propriedades": {},
+     "evidencia": "o Project Looking Glass da Sun",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "36424_20",
+   "entidades": [
+    {
+     "nome": "Silicon Graphics",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "File System Navigator",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Gerenciador de arquivos 3D da Silicon Graphics para sistemas Unix.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "William Gibson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Neal Stephenson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Silicon Graphics",
+     "tipo": "DESENVOLVEU",
+     "destino": "File System Navigator",
+     "propriedades": {},
+     "evidencia": "o gerenciador de arquivos 3D da Silicon Graphics, o File System Navigator",
+     "confianca": 0.85
+    }
+   ]
+  }
+ ]
+}

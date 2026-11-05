@@ -1,0 +1,332 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 612636,
+    "titulo": "Objective-C",
+    "url": "https://pt.wikipedia.org/wiki/Objective-C",
+    "categoria": "Linguagem",
+    "wikidata_id": "Q188531"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:25:31+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "linguagem:objective_c",
+  "chunks": [
+    {
+      "id": "612636_0",
+      "ordem": 0,
+      "texto": "Objective-C, denominado frequentemente de ObjC ou mais raramente de Objective C ou Obj-C, é uma linguagem de programação reflexiva orientada a objecto que adiciona transmissão de mensagens no estilo Smalltalk para o C.\nHoje em dia, é utilizada principalmente no Mac OS X e GNUstep, dois ambientes baseados no padrão OpenStep e é a principal linguagem utilizada nos aplicativos estruturais NeXTSTEP, OPENSTEP e Cocoa. Programas genéricos em Objective-C que não façam uso destas bibliotecas também podem ser compilados por qualquer sistema suportado pelo gcc, que inclui um compilador Objective-C."
+    },
+    {
+      "id": "612636_1",
+      "ordem": 1,
+      "texto": "Programas genéricos em Objective-C que não façam uso destas bibliotecas também podem ser compilados por qualquer sistema suportado pelo gcc, que inclui um compilador Objective-C.\nHistórico: O ObjC foi criado principalmente por Brad Cox e Tom Love no início da década de 1980 na empresa deles, a Stepstone. Brad havia tido seu interesse despertado por problemas de reusabilidade em projecto de software e programação. Para demonstrar que progresso real podia ser feito, Cox provou que componentes de software necessitavam apenas de umas poucas mudanças práticas nas ferramentas existentes. Especificamente, eles precisavam dar suporte a objetos de modo flexível, possuir um conjunto de bibliotecas funcionais e permitir que fossem empacotados num único formato multiplataforma.\nA principal descrição do Objective-C em sua forma original foi publicada no livro de Cox, Object-Oriented Programming, An Evolutionary Approach, de 1986. O autor teve o cuidado de ressaltar que o problema é mais da reusabilidade do que da linguagem, embora, apesar disso, o sistema freqüentemente seja comparado numa base característica-por-característica com outras linguagens."
+    },
+    {
+      "id": "612636_2",
+      "ordem": 2,
+      "texto": "O autor teve o cuidado de ressaltar que o problema é mais da reusabilidade do que da linguagem, embora, apesar disso, o sistema freqüentemente seja comparado numa base característica-por-característica com outras linguagens.\nPopularização através do NeXT: Em 1988, a NeXT de Steve Jobs licenciou o Objective-C da StepStone (a dona da marca registrada Objective-C) e liberou sua própria versão do compilador e das bibliotecas da linguagem nas quais a interface do usuário e da estrutura NeXTstep eram baseadas. O sucesso das ferramentas e a qualidade do sistema operativo resultante ajudaram a NeXT a ocupar um nicho de provedor de workstations bastante popular.\nO projeto GNU começou a trabalhar em seu clone livre do NeXTStep baseado no padrão OpenStep, o GNUstep. Dennis Glatting escreveu o primeiro runtime do gnu-objc em 1992, e Richard Stallman criou o segundo pouco depois. O runtime do GNU Objective-C que tem estado em uso desde 1993 é aquele desenvolvido por Kresten Krab Thorup, quando ele era estudante universitário na Dinamarca. Kresten também trabalhou para a NeXT por algum tempo.\nDepois de adquirir a NeXT em 1996, a Apple usou o OPENSTEP como base para seu principal sistema operativo, o Mac OS X. Isto inclui o Objective-C e a ferramenta de desenvolvimento NeXT's Objective-C, o Project Builder (mais tarde substituído pelo Xcode), bem como sua ferramenta de projeto de interface, Interface Builder.\nA maior parte da presente API Cocoa da Apple está baseada na interface de objetos OpenStep, e este é o mais significativo ambiente Objective-C sendo usado para desenvolvimento ativo."
+    },
+    {
+      "id": "612636_3",
+      "ordem": 3,
+      "texto": "A maior parte da presente API Cocoa da Apple está baseada na interface de objetos OpenStep, e este é o mais significativo ambiente Objective-C sendo usado para desenvolvimento ativo.\nSintaxe: O Objective-C é uma camada muito fina construída sobre a linguagem C e constitui-se num superconjunto estrito de C. Ou seja, é possível compilar qualquer programa C com um compilador Objective-C. O Objective-C deriva sua sintaxe tanto do C quanto do Smalltalk. A maior parte de sua sintaxe (incluindo pré-processamento, expressões, declaração e chamadas de funções) foi herdada da linguagem C, enquanto a sintaxe para os aspectos orientados a objetos foi criada para habilitar passagem de mensagens no estilo  Smalltalk."
+    },
+    {
+      "id": "612636_4",
+      "ordem": 4,
+      "texto": "A maior parte de sua sintaxe (incluindo pré-processamento, expressões, declaração e chamadas de funções) foi herdada da linguagem C, enquanto a sintaxe para os aspectos orientados a objetos foi criada para habilitar passagem de mensagens no estilo  Smalltalk.\nMensagens: O modelo de orientação a objeto do Objective-C é baseado na passagem de mensagens para instâncias de objeto.No Objective-C, não simplesmente se chama um objeto, envia-se uma mensagem. Diferente do modelo de programação estilo Simula usado por C++.A diferença entre estes dois conceitos está na forma como o código referenciado pelo nome de mensagem ou método é executado.Em uma linguagem estilo Simula, o nome do método é na maioria dos casos, ligados a uma seção de código na classe de alvo pelo compilador. Em Smalltalk e Objective-C, o alvo de uma mensagem é resolvido em tempo de execução, com o objetivo de receber-se interpretar a mensagem.Um método é identificado por um seletor ou SEL - uma string terminada em NUL representando o seu nome - e converte-se a um ponteiro de método C , implementando-o: um IMP.Uma consequência disto é que o sistema de transmissão de mensagens não tem nenhuma verificação de tipo. O objeto ao qual a mensagem é dirigida - o receptor - não é garantido que responda a uma mensagem, e se isso não acontecer, ele simplesmente gera uma exceção.\nEnviando a mensagem metodo para o objeto apontado pelo ponteiro obj exigiria o seguinte código no C++:\nEm Objective-C o mesmo código fica:"
+    },
+    {
+      "id": "612636_5",
+      "ordem": 5,
+      "texto": "Em Objective-C o mesmo código fica:\nAmbos os estilos de programação têm seus pontos fortes e fracos. Programação orientada a objetos no estilo Simula permite herança múltipla e execução mais rápida, usando associação em tempo de compilação sempre que possível, mas ele não suporta associação em tempo de execução por padrão.Também força todos os métodos a ter uma implementação correspondente a menos que seja Método abstrato. No estilo de programação Smalltalk se permite que mensagens não sejam  implementadas com a resolução de métodos em tempo de execução. Por exemplo, uma mensagem pode ser enviada para uma coleção de objetos, em que somente se espera que alguns respondam, sem medo de gerar erros de execução.Passagem de mensagens também não exige que um objeto seja definido em tempo de compilação. Uma implementação ainda é necessária para que o método seja chamado no objeto derivado."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "linguagem:objective_c",
+      "nome": "Objective-C",
+      "tipo": "Linguagem",
+      "aliases": [
+        "ObjC",
+        "Obj-C",
+        "Objective C"
+      ],
+      "descricao": "Linguagem reflexiva orientada a objeto que adiciona transmissão de mensagens no estilo Smalltalk para o C.",
+      "propriedades": {},
+      "chunk_ids": [
+        "612636_0",
+        "612636_1",
+        "612636_2",
+        "612636_3",
+        "612636_4",
+        "612636_5"
+      ]
+    },
+    {
+      "id": "linguagem:c",
+      "nome": "C",
+      "tipo": "Linguagem",
+      "aliases": [
+        "C (linguagem de programação)"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "612636_0",
+        "612636_3"
+      ]
+    },
+    {
+      "id": "linguagem:smalltalk",
+      "nome": "Smalltalk",
+      "tipo": "Linguagem",
+      "aliases": [
+        "Smalltalk-80"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "612636_0",
+        "612636_3",
+        "612636_4",
+        "612636_5"
+      ]
+    },
+    {
+      "id": "pessoa:brad_cox",
+      "nome": "Brad Cox",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "612636_1"
+      ]
+    },
+    {
+      "id": "pessoa:tom_love",
+      "nome": "Tom Love",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "612636_1"
+      ]
+    },
+    {
+      "id": "organizacao:stepstone",
+      "nome": "Stepstone",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "612636_1",
+        "612636_2"
+      ]
+    },
+    {
+      "id": "organizacao:next",
+      "nome": "NeXT",
+      "tipo": "Organizacao",
+      "aliases": [
+        "NeXT, Inc.",
+        "NeXT Computer",
+        "NeXT Computer, Inc.",
+        "NeXT Software"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "612636_2"
+      ]
+    },
+    {
+      "id": "pessoa:steve_jobs",
+      "nome": "Steve Jobs",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Steven Paul Jobs",
+        "Jobs"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "612636_2"
+      ]
+    },
+    {
+      "id": "tecnologia:projeto_gnu",
+      "nome": "Projeto GNU",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "GNU"
+      ],
+      "propriedades": {
+        "tipo": "conceito"
+      },
+      "chunk_ids": [
+        "612636_2"
+      ]
+    },
+    {
+      "id": "pessoa:dennis_glatting",
+      "nome": "Dennis Glatting",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "612636_2"
+      ]
+    },
+    {
+      "id": "pessoa:richard_stallman",
+      "nome": "Richard Stallman",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Richard Matthew Stallman",
+        "rms",
+        "Stallman"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "612636_2"
+      ]
+    },
+    {
+      "id": "pessoa:kresten_krab_thorup",
+      "nome": "Kresten Krab Thorup",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "612636_2"
+      ]
+    },
+    {
+      "id": "organizacao:apple",
+      "nome": "Apple",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Apple Inc.",
+        "Apple Inc",
+        "Apple Computer",
+        "Apple Computer, Inc."
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "612636_2"
+      ]
+    },
+    {
+      "id": "linguagem:simula",
+      "nome": "Simula",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "612636_4"
+      ]
+    },
+    {
+      "id": "linguagem:cpp",
+      "nome": "C++",
+      "tipo": "Linguagem",
+      "aliases": [
+        "C plus plus"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "612636_4"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "linguagem:objective_c",
+      "tipo": "INFLUENCIADA_POR",
+      "destino": "linguagem:smalltalk",
+      "propriedades": {},
+      "chunk_id": "612636_0",
+      "evidencia": "adiciona transmissão de mensagens no estilo Smalltalk para o C",
+      "confianca": 0.85
+    },
+    {
+      "origem": "linguagem:objective_c",
+      "tipo": "INFLUENCIADA_POR",
+      "destino": "linguagem:c",
+      "propriedades": {},
+      "chunk_id": "612636_0",
+      "evidencia": "adiciona transmissão de mensagens no estilo Smalltalk para o C",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:brad_cox",
+      "tipo": "CRIOU",
+      "destino": "linguagem:objective_c",
+      "propriedades": {},
+      "chunk_id": "612636_1",
+      "evidencia": "O ObjC foi criado principalmente por Brad Cox e Tom Love no início da década de 1980 na empresa deles, a Stepstone",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:tom_love",
+      "tipo": "CRIOU",
+      "destino": "linguagem:objective_c",
+      "propriedades": {},
+      "chunk_id": "612636_1",
+      "evidencia": "O ObjC foi criado principalmente por Brad Cox e Tom Love no início da década de 1980 na empresa deles, a Stepstone",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:brad_cox",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:stepstone",
+      "propriedades": {},
+      "chunk_id": "612636_1",
+      "evidencia": "O ObjC foi criado principalmente por Brad Cox e Tom Love no início da década de 1980 na empresa deles, a Stepstone",
+      "confianca": 0.65
+    },
+    {
+      "origem": "pessoa:tom_love",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:stepstone",
+      "propriedades": {},
+      "chunk_id": "612636_1",
+      "evidencia": "O ObjC foi criado principalmente por Brad Cox e Tom Love no início da década de 1980 na empresa deles, a Stepstone",
+      "confianca": 0.65
+    },
+    {
+      "origem": "pessoa:kresten_krab_thorup",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:next",
+      "propriedades": {},
+      "chunk_id": "612636_2",
+      "evidencia": "Kresten também trabalhou para a NeXT por algum tempo",
+      "confianca": 0.85
+    },
+    {
+      "origem": "linguagem:objective_c",
+      "tipo": "INFLUENCIADA_POR",
+      "destino": "linguagem:c",
+      "propriedades": {},
+      "chunk_id": "612636_3",
+      "evidencia": "O Objective-C deriva sua sintaxe tanto do C quanto do Smalltalk",
+      "confianca": 0.9
+    },
+    {
+      "origem": "linguagem:objective_c",
+      "tipo": "INFLUENCIADA_POR",
+      "destino": "linguagem:smalltalk",
+      "propriedades": {},
+      "chunk_id": "612636_3",
+      "evidencia": "O Objective-C deriva sua sintaxe tanto do C quanto do Smalltalk",
+      "confianca": 0.9
+    }
+  ]
+}

@@ -1,0 +1,1704 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:22:55+00:00",
+ "chunks": [
+  {
+   "chunk_id": "11456_0",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Google LLC",
+      "Google Inc."
+     ],
+     "descricao": "Empresa multinacional de softwares e serviços online fundada em 1998.",
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1998
+     }
+    },
+    {
+     "nome": "Larry Page",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Co-fundador do Google.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Sergey Brin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Co-fundador do Google.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Alphabet Inc.",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Alphabet Inc"
+     ],
+     "descricao": "Empresa da qual o Google é a principal subsidiária.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Mountain View",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Larry Page",
+     "tipo": "FUNDOU",
+     "destino": "Google",
+     "propriedades": {
+      "ano": 1998
+     },
+     "evidencia": "A empresa foi fundada por Larry Page e Sergey Brin",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Sergey Brin",
+     "tipo": "FUNDOU",
+     "destino": "Google",
+     "propriedades": {
+      "ano": 1998
+     },
+     "evidencia": "A empresa foi fundada por Larry Page e Sergey Brin",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Larry Page",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade Stanford",
+     "propriedades": {
+      "curso": "doutoramento"
+     },
+     "evidencia": "enquanto os dois estavam frequentando a Universidade Stanford como estudantes de doutoramento",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Sergey Brin",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade Stanford",
+     "propriedades": {
+      "curso": "doutoramento"
+     },
+     "evidencia": "enquanto os dois estavam frequentando a Universidade Stanford como estudantes de doutoramento",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Google",
+     "tipo": "SEDIADA_EM",
+     "destino": "Mountain View",
+     "propriedades": {},
+     "evidencia": "Em 2006, a empresa mudou-se para sua atual sede, em Mountain View",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "11456_1",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Android",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema operacional móvel para smartphones liderado pelo Google.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Google",
+     "tipo": "DESENVOLVEU",
+     "destino": "Android",
+     "propriedades": {},
+     "evidencia": "o Google também lidera o desenvolvimento do sistema operacional móvel para smartphones Android",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "11456_2",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Android",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Google",
+     "tipo": "DESENVOLVEU",
+     "destino": "Android",
+     "propriedades": {},
+     "evidencia": "o Google também lidera o desenvolvimento do sistema operacional móvel para smartphones Android",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "11456_3",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Larry Page",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sergey Brin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "PageRank",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema que determina a relevância de um site pelo número e importância das páginas que ligam a ele.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Robin Li",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Li"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Baidu",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Larry Page",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade Stanford",
+     "propriedades": {
+      "curso": "doutorado"
+     },
+     "evidencia": "quando ambos eram estudantes de doutorado na Universidade Stanford",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Sergey Brin",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade Stanford",
+     "propriedades": {
+      "curso": "doutorado"
+     },
+     "evidencia": "quando ambos eram estudantes de doutorado na Universidade Stanford",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Larry Page",
+     "tipo": "CRIOU",
+     "destino": "PageRank",
+     "propriedades": {},
+     "evidencia": "os dois teorizaram sobre um sistema melhor que analisava as relações entre os sites. Eles chamaram esta tecnologia de PageRank",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Sergey Brin",
+     "tipo": "CRIOU",
+     "destino": "PageRank",
+     "propriedades": {},
+     "evidencia": "os dois teorizaram sobre um sistema melhor que analisava as relações entre os sites. Eles chamaram esta tecnologia de PageRank",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Robin Li",
+     "tipo": "FUNDOU",
+     "destino": "Baidu",
+     "propriedades": {},
+     "evidencia": "usada mais tarde por Li, quando fundou a Baidu na China",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "11456_4",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Larry Page",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sergey Brin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Menlo Park",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Susan Wojcicki",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Craig Silverstein",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Colega de doutorado em Stanford contratado como primeiro funcionário do Google.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Google",
+     "tipo": "SEDIADA_EM",
+     "destino": "Menlo Park",
+     "propriedades": {},
+     "evidencia": "No início, sua sede ficava na garagem de uma amiga (Susan Wojcicki) em Menlo Park, Califórnia",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Craig Silverstein",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade Stanford",
+     "propriedades": {
+      "curso": "doutorado"
+     },
+     "evidencia": "Craig Silverstein, um colega de doutorado estudante em Stanford, foi contratado como o primeiro funcionário",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Craig Silverstein",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Google",
+     "propriedades": {
+      "cargo": "primeiro funcionário"
+     },
+     "evidencia": "Craig Silverstein, um colega de doutorado estudante em Stanford, foi contratado como o primeiro funcionário",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "11456_5",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Larry Page",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sergey Brin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Andy Bechtolsheim",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Co-fundador da Sun Microsystems que deu o primeiro financiamento ao Google.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Andy Bechtolsheim",
+     "tipo": "FUNDOU",
+     "destino": "Sun Microsystems",
+     "propriedades": {},
+     "evidencia": "Andy Bechtolsheim, co-fundador da Sun Microsystems",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "11456_6",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Yahoo!",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_7",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Larry Page",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sergey Brin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Sergey Brin",
+     "tipo": "FUNDOU",
+     "destino": "Google",
+     "propriedades": {},
+     "evidencia": "os co-fundadores Sergey Brin e Larry Page",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Larry Page",
+     "tipo": "FUNDOU",
+     "destino": "Google",
+     "propriedades": {},
+     "evidencia": "os co-fundadores Sergey Brin e Larry Page",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "11456_8",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_9",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Palo Alto",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Yahoo!",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Google",
+     "tipo": "SEDIADA_EM",
+     "destino": "Palo Alto",
+     "propriedades": {},
+     "evidencia": "Em março de 1999, a empresa mudou sua sede para Palo Alto, Califórnia",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "11456_10",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Mountain View",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Google",
+     "tipo": "SEDIADA_EM",
+     "destino": "Mountain View",
+     "propriedades": {},
+     "evidencia": "a empresa arrendou seu atual complexo da Silicon Graphics na 1600 Amphitheatre Parkway, em Mountain View, Califórnia",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "11456_11",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_12",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_13",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_15",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_16",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Motorola",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_17",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Google Inc.",
+      "Google LLC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Alphabet Inc.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Holding criada em 2015 que tem a Google Inc. como principal subsidiária.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Larry Page",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Eric Schmidt",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sergey Brin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sundar Pichai",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Larry Page",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Google",
+     "propriedades": {
+      "cargo": "CEO",
+      "ano_inicio": 2011
+     },
+     "evidencia": "Em 20 de janeiro de 2011, a empresa anunciou que Larry Page se tornaria o novo CEO a partir de 4 de abril",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Eric Schmidt",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Google",
+     "propriedades": {
+      "cargo": "diretor executivo"
+     },
+     "evidencia": "Eric Schmidt, deixaria o cargo depois de 10 anos para assumir a diretoria executiva",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Sundar Pichai",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Google",
+     "propriedades": {
+      "cargo": "CEO",
+      "ano_inicio": 2015
+     },
+     "evidencia": "Em 10 de agosto de 2015, a empresa reorganizou suas diversas áreas em uma holding, a Alphabet Inc., que tem a Google Inc. como principal subsidiária. Como parte da reestruturação, Sundar Pichai foi promovido ao cargo de CEO da Google.",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "11456_18",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_19",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_20",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_21",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Yahoo!",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_22",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_23",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_24",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_25",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_26",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_27",
+   "entidades": [
+    {
+     "nome": "Steve Ballmer",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "CEO da Microsoft.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Ballmer",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Microsoft",
+     "propriedades": {
+      "cargo": "CEO"
+     },
+     "evidencia": "Steve Ballmer (CEO da Microsoft)",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "11456_28",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_29",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_30",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_31",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Vint Cerf",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "São Francisco",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Mountain View",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Vint Cerf",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Google",
+     "propriedades": {
+      "cargo": "chefe"
+     },
+     "evidencia": "o chefe do Google, Vint Cerf culpou tais táticas",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Google",
+     "tipo": "SEDIADA_EM",
+     "destino": "Mountain View",
+     "propriedades": {},
+     "evidencia": "O Google oferece atualmente acesso wi-fi gratuito em sua cidade natal, Mountain View na Califórnia",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "11456_32",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Mountain View",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Android",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema operacional para dispositivos móveis lançado como projeto de código aberto sob a licença Apache 2.0.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Apple Inc."
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Nexus One",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Telefone Android lançado pelo Google sob o seu próprio nome.",
+     "propriedades": {
+      "ano": 2010
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Google",
+     "tipo": "SEDIADA_EM",
+     "destino": "Mountain View",
+     "propriedades": {},
+     "evidencia": "O Google oferece atualmente acesso wi-fi gratuito em sua cidade natal, Mountain View na Califórnia",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Google",
+     "tipo": "DESENVOLVEU",
+     "destino": "Nexus One",
+     "propriedades": {
+      "ano": 2010
+     },
+     "evidencia": "em 5 de janeiro de 2010, o Google lançou um telefone Android sob o seu próprio nome chamado de Nexus One",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "11456_33",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Nexus One",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 2010
+     }
+    },
+    {
+     "nome": "Chrome OS",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Google Chrome OS",
+      "ChromeOS"
+     ],
+     "descricao": "Sistema operacional de código aberto baseado no Linux que inclui apenas um navegador de web.",
+     "propriedades": {
+      "tipo": "sistema",
+      "ano": 2009
+     }
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Google",
+     "tipo": "DESENVOLVEU",
+     "destino": "Nexus One",
+     "propriedades": {
+      "ano": 2010
+     },
+     "evidencia": "em 5 de janeiro de 2010, o Google lançou um telefone Android sob o seu próprio nome chamado de Nexus One",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Google",
+     "tipo": "DESENVOLVEU",
+     "destino": "Chrome OS",
+     "propriedades": {
+      "ano": 2009
+     },
+     "evidencia": "em 7 de julho de 2009, o Google anunciou o Google Chrome OS, um sistema operacional de código aberto baseado no Linux",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "11456_34",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_35",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_36",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Mountain View",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Google",
+     "tipo": "SEDIADA_EM",
+     "destino": "Mountain View",
+     "propriedades": {},
+     "evidencia": "A sede do Google em Mountain View, Califórnia",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "11456_37",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Nova Iorque",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Universidade Carnegie Mellon",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_38",
+   "entidades": [
+    {
+     "nome": "R. J. Widlar",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Engenheiro que originou a ideia de aparar gramados usando cabras.",
+     "propriedades": {}
+    },
+    {
+     "nome": "National Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "R. J. Widlar",
+     "tipo": "TRABALHOU_EM",
+     "destino": "National Semiconductor",
+     "propriedades": {
+      "cargo": "engenheiro"
+     },
+     "evidencia": "R. J. Widlar, um engenheiro que trabalhava para a National Semiconductor",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "11456_39",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Larry Page",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Eric Schmidt",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sergey Brin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Larry Page",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Google",
+     "propriedades": {
+      "cargo": "CEO",
+      "ano_inicio": 2011
+     },
+     "evidencia": "Em 4 de abril de 2011, Larry Page tornou-se CEO e Eric Schmidt se tornou presidente executivo da Google",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Eric Schmidt",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Google",
+     "propriedades": {
+      "cargo": "presidente executivo",
+      "ano_inicio": 2011
+     },
+     "evidencia": "Em 4 de abril de 2011, Larry Page tornou-se CEO e Eric Schmidt se tornou presidente executivo da Google",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "11456_40",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Larry Page",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Eric Schmidt",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Marissa Mayer",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Vice-presidente de Produtos Pesquisa e Experiência do Usuário do Google.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Larry Page",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Google",
+     "propriedades": {
+      "cargo": "CEO",
+      "ano_inicio": 2011
+     },
+     "evidencia": "Em 4 de abril de 2011, Larry Page tornou-se CEO e Eric Schmidt se tornou presidente executivo da Google",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Eric Schmidt",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Google",
+     "propriedades": {
+      "cargo": "presidente executivo",
+      "ano_inicio": 2011
+     },
+     "evidencia": "Em 4 de abril de 2011, Larry Page tornou-se CEO e Eric Schmidt se tornou presidente executivo da Google",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Marissa Mayer",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Google",
+     "propriedades": {
+      "cargo": "vice-presidente de Produtos Pesquisa e Experiência do Usuário"
+     },
+     "evidencia": "Marissa Mayer, vice-presidente de Produtos Pesquisa e Experiência do Usuário do Google",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "11456_41",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_42",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_43",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Larry Brilliant",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Megan Smith",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Larry Brilliant",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Google",
+     "propriedades": {
+      "cargo": "diretor executivo do programa",
+      "ano_inicio": 2004
+     },
+     "evidencia": "O Google contratou o Dr. Larry Brilliant como diretor executivo do programa em 2004",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "11456_44",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Vint Cerf",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Protocolo de Internet",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "IP"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Vint Cerf",
+     "tipo": "CRIOU",
+     "destino": "Protocolo de Internet",
+     "propriedades": {},
+     "evidencia": "Vint Cerf, co-inventor do protocolo de Internet (IP)",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Vint Cerf",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Google",
+     "propriedades": {
+      "cargo": "vice-presidente e Chief Internet Evangelist"
+     },
+     "evidencia": "Vint Cerf, co-inventor do protocolo de Internet (IP), e vice-presidente atual e \"Chief Internet Evangelist\" no Google",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "11456_45",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Eric Schmidt",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Eric Schmidt",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Google",
+     "propriedades": {
+      "cargo": "chefe-executivo"
+     },
+     "evidencia": "Eric Schmidt, chefe-executivo do Google",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "11456_46",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_47",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_48",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_49",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_50",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_51",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Andy Rubin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Referido como o pai do Android.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Android",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Andy Rubin",
+     "tipo": "CRIOU",
+     "destino": "Android",
+     "propriedades": {},
+     "evidencia": "Como o Google protege Andy Rubin, o pai do Android",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "11456_52",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Android",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_53",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Android",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_54",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_55",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_56",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_57",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_58",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Android",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Chrome OS",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "ChromeOS"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Google",
+     "tipo": "DESENVOLVEU",
+     "destino": "Android",
+     "propriedades": {},
+     "evidencia": "O Google desenvolve o sistema operacional móvel Android",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Google",
+     "tipo": "DESENVOLVEU",
+     "destino": "Chrome OS",
+     "propriedades": {},
+     "evidencia": "A empresa também desenvolve o navegador web Google Chrome, o ChromeOS, um sistema operacional baseado no Chrome",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "11456_59",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Chrome OS",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "ChromeOS"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Nexus One",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 2010
+     }
+    },
+    {
+     "nome": "Chromebook",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 2011,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Chromecast",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Acessório que permite transmitir conteúdo de smartphones para televisores.",
+     "propriedades": {
+      "ano": 2013,
+      "tipo": "periferico"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Google",
+     "tipo": "DESENVOLVEU",
+     "destino": "Chrome OS",
+     "propriedades": {},
+     "evidencia": "A empresa também desenvolve o navegador web Google Chrome, o ChromeOS, um sistema operacional baseado no Chrome",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Google",
+     "tipo": "DESENVOLVEU",
+     "destino": "Nexus One",
+     "propriedades": {
+      "ano": 2010
+     },
+     "evidencia": "Em janeiro de 2010, o Google lançou o Nexus One, o primeiro telefone Android sob sua própria marca",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Chrome OS",
+     "tipo": "EXECUTA_EM",
+     "destino": "Chromebook",
+     "propriedades": {},
+     "evidencia": "Em 2011, foi apresentado o Chromebook, que roda o ChromeOS",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Google",
+     "tipo": "DESENVOLVEU",
+     "destino": "Chromecast",
+     "propriedades": {
+      "ano": 2013
+     },
+     "evidencia": "Em julho de 2013, o Google apresentou o Chromecast",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "11456_60",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_61",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11456_62",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

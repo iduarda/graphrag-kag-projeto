@@ -1,0 +1,442 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:25:31+00:00",
+ "chunks": [
+  {
+   "chunk_id": "45651_0",
+   "entidades": [
+    {
+     "nome": "Motorola",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Motorola, Inc."
+     ],
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1928
+     },
+     "descricao": "Empresa de telecomunicações multinacional estadunidense."
+    },
+    {
+     "nome": "Schaumburg",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Illinois",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Motorola Mobility",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Motorola Solutions",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     },
+     "descricao": "Considerada a sucessora direta da Motorola, Inc."
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Motorola",
+     "tipo": "SEDIADA_EM",
+     "destino": "Schaumburg",
+     "propriedades": {},
+     "evidencia": "baseada em Schaumburg, Illinois",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Motorola Solutions",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Motorola",
+     "propriedades": {},
+     "evidencia": "A Motorola Solutions é considerada a sucessora direta da Motorola, Inc.",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "45651_1",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Larry Page",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Motorola Mobility",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Lenovo",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Larry Page",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Google",
+     "propriedades": {
+      "cargo": "CEO"
+     },
+     "evidencia": "o CEO da Google Larry Page",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "45651_2",
+   "entidades": [
+    {
+     "nome": "Motorola",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Motorola, Inc."
+     ],
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1928
+     },
+     "descricao": "Empresa de telecomunicações multinacional estadunidense."
+    },
+    {
+     "nome": "Chicago",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Paul V. Galvin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Joseph E. Galvin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Motorola",
+     "tipo": "SEDIADA_EM",
+     "destino": "Chicago",
+     "propriedades": {},
+     "evidencia": "A Motorola iniciou suas atividades em Chicago, Illinois",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "45651_3",
+   "entidades": [
+    {
+     "nome": "Motorola",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Motorola, Inc."
+     ],
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1928
+     },
+     "descricao": "Empresa de telecomunicações multinacional estadunidense."
+    },
+    {
+     "nome": "Schaumburg",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Chicago",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Paul V. Galvin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Motorola",
+     "tipo": "SEDIADA_EM",
+     "destino": "Schaumburg",
+     "propriedades": {},
+     "evidencia": "A empresa é baseada em Schaumburg, Illinois, um subúrbio de Chicago",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "45651_4",
+   "entidades": [
+    {
+     "nome": "Motorola",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Motorola, Inc."
+     ],
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1928
+     },
+     "descricao": "Empresa de telecomunicações multinacional estadunidense."
+    },
+    {
+     "nome": "Paul V. Galvin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert W. Galvin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Neil Armstrong",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "MC6800",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador",
+      "ano": 1974
+     },
+     "descricao": "Primeiro microprocessador de 8 bits da Motorola."
+    },
+    {
+     "nome": "Schaumburg",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Paul V. Galvin",
+     "tipo": "FUNDOU",
+     "destino": "Motorola",
+     "propriedades": {},
+     "evidencia": "Paul V. Galvin, fundador da empresa",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Robert W. Galvin",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Motorola",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_inicio": 1956
+     },
+     "evidencia": "Robert W. Galvin filho de Paul V. Galvin, fundador da empresa, torna-se presidente da Motorola Inc.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Motorola",
+     "tipo": "DESENVOLVEU",
+     "destino": "MC6800",
+     "propriedades": {
+      "ano": 1974
+     },
+     "evidencia": "Em 1974, a Motorola apresentou seu primeiro microprocessador, o 8-bit MC6800",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Motorola",
+     "tipo": "SEDIADA_EM",
+     "destino": "Schaumburg",
+     "propriedades": {},
+     "evidencia": "Em 1976 Motorola mudou sua sede para Schaumburg, Illinois",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "45651_5",
+   "entidades": [
+    {
+     "nome": "Motorola",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Motorola, Inc."
+     ],
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1928
+     },
+     "descricao": "Empresa de telecomunicações multinacional estadunidense."
+    },
+    {
+     "nome": "Schaumburg",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Medalha Nacional de Tecnologia e Inovação",
+     "tipo": "Premio",
+     "aliases": [
+      "Medalha Nacional de Tecnologia"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Motorola",
+     "tipo": "SEDIADA_EM",
+     "destino": "Schaumburg",
+     "propriedades": {},
+     "evidencia": "Em 1976 Motorola mudou sua sede para Schaumburg, Illinois",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "45651_6",
+   "entidades": [
+    {
+     "nome": "Motorola",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Motorola, Inc."
+     ],
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1928
+     },
+     "descricao": "Empresa de telecomunicações multinacional estadunidense."
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Motorola Mobility",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Lenovo",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "45651_7",
+   "entidades": [
+    {
+     "nome": "Motorola",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Motorola, Inc."
+     ],
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1928
+     },
+     "descricao": "Empresa de telecomunicações multinacional estadunidense."
+    },
+    {
+     "nome": "Lenovo",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

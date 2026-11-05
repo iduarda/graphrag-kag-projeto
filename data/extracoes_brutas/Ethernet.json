@@ -1,0 +1,878 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:22:15+00:00",
+ "chunks": [
+  {
+   "chunk_id": "12700_0",
+   "entidades": [
+    {
+     "nome": "Ethernet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Família de tecnologias de rede de computadores com fio, introduzida comercialmente em 1980 e padronizada em 1983 como IEEE 802.3.",
+     "propriedades": {
+      "tipo": "rede",
+      "ano": 1980
+     }
+    },
+    {
+     "nome": "Token ring",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "FDDI",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Arcnet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Ethernet",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Token ring",
+     "propriedades": {},
+     "evidencia": "a Ethernet substituiu amplamente as tecnologias de LAN com fio concorrentes, como Token ring, FDDI e Arcnet",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Ethernet",
+     "tipo": "SUCESSOR_DE",
+     "destino": "FDDI",
+     "propriedades": {},
+     "evidencia": "a Ethernet substituiu amplamente as tecnologias de LAN com fio concorrentes, como Token ring, FDDI e Arcnet",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Ethernet",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Arcnet",
+     "propriedades": {},
+     "evidencia": "a Ethernet substituiu amplamente as tecnologias de LAN com fio concorrentes, como Token ring, FDDI e Arcnet",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "12700_1",
+   "entidades": [
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Ethernet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "12700_2",
+   "entidades": [
+    {
+     "nome": "Ethernet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Desenvolvida na Xerox PARC entre 1973 e 1974.",
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Xerox PARC",
+     "tipo": "Organizacao",
+     "aliases": [
+      "PARC"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Xerox",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Robert Metcalfe",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Metcalfe"
+     ],
+     "descricao": "Escreveu o memorando que documentou a ideia da Ethernet e a nomeou.",
+     "propriedades": {}
+    },
+    {
+     "nome": "David Boggs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Boggs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Chuck Thacker",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Butler Lampson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Yogen Dalal",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ron Crane",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bob Garner",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Roy Ogus",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Xerox PARC",
+     "tipo": "DESENVOLVEU",
+     "destino": "Ethernet",
+     "propriedades": {},
+     "evidencia": "A Ethernet foi desenvolvida na Xerox PARC entre 1973 e 1974",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Robert Metcalfe",
+     "tipo": "CRIOU",
+     "destino": "Ethernet",
+     "propriedades": {},
+     "evidencia": "a Xerox apresentou um pedido de patente listando Metcalfe, David Boggs, Chuck Thacker e Butler Lampson como inventores",
+     "confianca": 0.7
+    },
+    {
+     "origem": "David Boggs",
+     "tipo": "CRIOU",
+     "destino": "Ethernet",
+     "propriedades": {},
+     "evidencia": "a Xerox apresentou um pedido de patente listando Metcalfe, David Boggs, Chuck Thacker e Butler Lampson como inventores",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Chuck Thacker",
+     "tipo": "CRIOU",
+     "destino": "Ethernet",
+     "propriedades": {},
+     "evidencia": "a Xerox apresentou um pedido de patente listando Metcalfe, David Boggs, Chuck Thacker e Butler Lampson como inventores",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Butler Lampson",
+     "tipo": "CRIOU",
+     "destino": "Ethernet",
+     "propriedades": {},
+     "evidencia": "a Xerox apresentou um pedido de patente listando Metcalfe, David Boggs, Chuck Thacker e Butler Lampson como inventores",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "12700_3",
+   "entidades": [
+    {
+     "nome": "Robert Metcalfe",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Metcalfe"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Xerox",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "3Com",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Empresa formada por Metcalfe.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Ethernet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Yogen Dalal",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ron Crane",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bob Garner",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Roy Ogus",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Robert Metcalfe",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Xerox",
+     "propriedades": {
+      "ano_fim": 1979
+     },
+     "evidencia": "Metcalfe deixou a Xerox em junho de 1979 para formar a 3Com",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Robert Metcalfe",
+     "tipo": "FUNDOU",
+     "destino": "3Com",
+     "propriedades": {},
+     "evidencia": "Metcalfe deixou a Xerox em junho de 1979 para formar a 3Com",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "12700_4",
+   "entidades": [
+    {
+     "nome": "3Com",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [
+      "VAXes"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Token ring",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Ethernet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "12700_5",
+   "entidades": [
+    {
+     "nome": "Ethernet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "12700_6",
+   "entidades": [
+    {
+     "nome": "Institute of Electrical and Electronics Engineers",
+     "tipo": "Organizacao",
+     "aliases": [
+      "IEEE",
+      "Instituto de Engenheiros Eletricistas e Eletrônicos"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Gary Robinson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Phil Arst",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bob Printis",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Xerox",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "General Motors",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Gary Robinson",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Digital Equipment Corporation",
+     "propriedades": {},
+     "evidencia": "Gary Robinson (DEC), Phil Arst (Intel) e Bob Printis (Xerox)",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Phil Arst",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {},
+     "evidencia": "Gary Robinson (DEC), Phil Arst (Intel) e Bob Printis (Xerox)",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Bob Printis",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Xerox",
+     "propriedades": {},
+     "evidencia": "Gary Robinson (DEC), Phil Arst (Intel) e Bob Printis (Xerox)",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "12700_7",
+   "entidades": [
+    {
+     "nome": "David Liddle",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Metcalfe",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Metcalfe"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fritz Röscheisen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ingrid Fromm",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Fromm"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Xerox",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "3Com",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Siemens",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "ECMA",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Institute of Electrical and Electronics Engineers",
+     "tipo": "Organizacao",
+     "aliases": [
+      "IEEE"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "David Liddle",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Xerox",
+     "propriedades": {
+      "cargo": "Gerente Geral"
+     },
+     "evidencia": "David Liddle (Gerente Geral, Xerox Office Systems)",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Robert Metcalfe",
+     "tipo": "TRABALHOU_EM",
+     "destino": "3Com",
+     "propriedades": {},
+     "evidencia": "Metcalfe (3Com)",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Ingrid Fromm",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Siemens",
+     "propriedades": {
+      "cargo": "representante no IEEE 802"
+     },
+     "evidencia": "Ingrid Fromm, representante da Siemens no IEEE 802",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "12700_8",
+   "entidades": [
+    {
+     "nome": "Institute of Electrical and Electronics Engineers",
+     "tipo": "Organizacao",
+     "aliases": [
+      "IEEE"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ingrid Fromm",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Fromm"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Comissão Eletrotécnica Internacional",
+     "tipo": "Organizacao",
+     "aliases": [
+      "IEC"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Organização Internacional de Normalização",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ISO"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "12700_9",
+   "entidades": [
+    {
+     "nome": "Ethernet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "12700_10",
+   "entidades": [
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Protocolo de Internet"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "12700_11",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "12700_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "12700_13",
+   "entidades": [
+    {
+     "nome": "Xerox",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Token ring",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "12700_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "12700_15",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "12700_16",
+   "entidades": [
+    {
+     "nome": "SynOptics",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "12700_17",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "12700_18",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "12700_19",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "12700_20",
+   "entidades": [
+    {
+     "nome": "Motorola",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Motorola Codex"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Kalpana",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "12700_21",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "12700_22",
+   "entidades": [
+    {
+     "nome": "Ethernet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "InfiniBand",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Ethernet",
+     "tipo": "SUCESSOR_DE",
+     "destino": "InfiniBand",
+     "propriedades": {},
+     "evidencia": "Em 2016, a Ethernet substituiu o InfiniBand como o sistema de interconexão mais popular dos supercomputadores TOP500.",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "12700_23",
+   "entidades": [
+    {
+     "nome": "Ethernet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "InfiniBand",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Ethernet",
+     "tipo": "SUCESSOR_DE",
+     "destino": "InfiniBand",
+     "propriedades": {},
+     "evidencia": "Em 2016, a Ethernet substituiu o InfiniBand como o sistema de interconexão mais popular dos supercomputadores TOP500.",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "12700_24",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "12700_25",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "12700_26",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "12700_27",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "12700_28",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:26:22+00:00",
+ "chunks": [
+  {
+   "chunk_id": "214438_0",
+   "entidades": [
+    {
+     "nome": "Universidade de Princeton",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Princeton University",
+      "Colégio de Nova Jérsei"
+     ],
+     "descricao": "Universidade privada de pesquisa da Ivy League, a quarta instituição de ensino superior mais antiga dos Estados Unidos.",
+     "propriedades": {
+      "tipo": "universidade",
+      "ano_fundacao": 1746
+     }
+    },
+    {
+     "nome": "Princeton",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Nova Jérsei",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Elizabeth",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Newark",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Universidade de Princeton",
+     "tipo": "SEDIADA_EM",
+     "destino": "Princeton",
+     "propriedades": {},
+     "evidencia": "universidade privada de pesquisa da Ivy League em Princeton, Nova Jérsei",
+     "confianca": 0.9
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,836 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:24:12+00:00",
+ "chunks": [
+  {
+   "chunk_id": "31790_0",
+   "entidades": [
+    {
+     "nome": "Máquina de Turing",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "máquina universal"
+     ],
+     "descricao": "Dispositivo teórico, modelo abstrato de um computador, restrito aos aspectos lógicos do seu funcionamento.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "descricao": "Matemático britânico que concebeu a máquina de Turing.",
+     "propriedades": {
+      "ano_nascimento": 1912,
+      "ano_morte": 1954
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "CRIOU",
+     "destino": "Máquina de Turing",
+     "propriedades": {},
+     "evidencia": "que foi concebido pelo matemático britânico Alan Turing (1912-1954)",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "31790_1",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina de Turing",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "31790_2",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "31790_3",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "31790_4",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "31790_5",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "31790_6",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "31790_7",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "31790_8",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "31790_9",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "31790_10",
+   "entidades": [
+    {
+     "nome": "Andrew Hodges",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Biógrafo de Turing.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "31790_11",
+   "entidades": [
+    {
+     "nome": "Andrew Hodges",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "31790_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "31790_13",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "31790_14",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina de Turing",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "31790_15",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "31790_16",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "31790_17",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "31790_18",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "31790_19",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Publicou um doodle em forma de máquina de Turing em 23 de junho de 2012.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Karl Scherer",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Matemático que construiu uma máquina de Turing mecânica em 1986.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Heidelberg",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Alemanha",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Universidade de Heidelberg",
+     "tipo": "SEDIADA_EM",
+     "destino": "Alemanha",
+     "propriedades": {},
+     "evidencia": "Departamento de Ciência de Computadores da Universidade de Heidelberg, na Alemanha",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "31790_20",
+   "entidades": [
+    {
+     "nome": "Universidade de Heidelberg",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Alemanha",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Universidade de Heidelberg",
+     "tipo": "SEDIADA_EM",
+     "destino": "Alemanha",
+     "propriedades": {},
+     "evidencia": "Departamento de Ciência de Computadores da Universidade de Heidelberg, na Alemanha",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "31790_21",
+   "entidades": [
+    {
+     "nome": "Robin Gandy",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Estudante e amigo de Alan Turing que traça a linhagem da noção de máquina de calcular.",
+     "propriedades": {
+      "ano_nascimento": 1919,
+      "ano_morte": 1995
+     }
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {
+      "ano_nascimento": 1912,
+      "ano_morte": 1954
+     }
+    },
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Babbage"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [
+      "Máquina Analítica"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Percy Ludgate",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Leonardo Torres y Quevedo",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Maurice d'Ocagne",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Louis Couffignal",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Vannevar Bush",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Howard Aiken",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Charles Babbage",
+     "tipo": "CRIOU",
+     "destino": "Máquina analítica",
+     "propriedades": {},
+     "evidencia": "A análise de Gandy da Máquina Analítica de Babbage",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "31790_22",
+   "entidades": [
+    {
+     "nome": "David Hilbert",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Hilbert"
+     ],
+     "descricao": "Matemático que propôs os problemas de Hilbert em 1900.",
+     "propriedades": {}
+    },
+    {
+     "nome": "H. Behmann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Behmann"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "31790_23",
+   "entidades": [
+    {
+     "nome": "David Hilbert",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Hilbert"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "H. Behmann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Behmann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Kurt Gödel",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gödel"
+     ],
+     "descricao": "Respondeu em 1930 às duas primeiras questões de Hilbert.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "31790_24",
+   "entidades": [
+    {
+     "nome": "Kurt Gödel",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gödel"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alonzo Church",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Church"
+     ],
+     "descricao": "Professor de Princeton cujo artigo mostrou que o Entscheidungsproblem era indecidível.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Princeton",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Princeton"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Emil Post",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Post"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Stephen Kleene",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "J. B. Rosser",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alonzo Church",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Princeton",
+     "propriedades": {
+      "cargo": "professor"
+     },
+     "evidencia": "o professor de Princeton Alonzo Church",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "31790_25",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alonzo Church",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Church"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Emil Post",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Post"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "31790_26",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Kings College Cambridge",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Reino Unido",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "M. H. A. Newman",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Newman"
+     ],
+     "descricao": "Lógico cujas palestras estimularam Turing.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Kurt Gödel",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gödel"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robin Gandy",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gandy"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Kings College Cambridge",
+     "propriedades": {
+      "curso": "mestrado",
+      "ano": 1935
+     },
+     "evidencia": "Na primavera de 1935, Turing como aluno de mestrado em Kings College Cambridge",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Kings College Cambridge",
+     "tipo": "SEDIADA_EM",
+     "destino": "Reino Unido",
+     "propriedades": {},
+     "evidencia": "Kings College Cambridge, Reino Unido",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "31790_27",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Princeton",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Princeton"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Robin Gandy",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gandy"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Andrew Hodges",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Hodges"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Princeton",
+     "propriedades": {
+      "curso": "PhD"
+     },
+     "evidencia": "Enquanto em Princeton em busca de seu PhD, Turing construiu um multiplicador com lógica booleana",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "31790_28",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Reino Unido",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "ACE",
+     "tipo": "Hardware",
+     "aliases": [
+      "Automatic Computing Engine"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "EDVAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Stephen Kleene",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Kleene"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "CRIOU",
+     "destino": "ACE",
+     "propriedades": {},
+     "evidencia": "ele também se envolveu no projeto da ACE ( Automatic Computing Engine )",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "31790_29",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Princeton",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Princeton"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Konrad Zuse",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Howard Aiken",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "George Stibitz",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Hao Wang",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Marvin Minsky",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Martin Davis",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alemanha",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Princeton",
+     "propriedades": {
+      "curso": "doutorado",
+      "ano": 1937
+     },
+     "evidencia": "Em 1937, enquanto em Princeton trabalhando em sua tese de doutorado, Turing construiu um multiplicador",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "31790_30",
+   "entidades": [
+    {
+     "nome": "Marvin Minsky",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Minsky"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina de Turing",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "31790_31",
+   "entidades": [
+    {
+     "nome": "Máquina de Turing",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Von Neumann"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

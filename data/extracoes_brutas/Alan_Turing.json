@@ -1,0 +1,2466 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:23:21+00:00",
+ "chunks": [
+  {
+   "chunk_id": "26201_0",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Alan Mathison Turing",
+      "Turing"
+     ],
+     "descricao": "Matemático, cientista da computação, lógico, criptoanalista, filósofo e biólogo teórico britânico, considerado o pai da ciência da computação teórica e da inteligência artificial.",
+     "propriedades": {
+      "ano_nascimento": 1912,
+      "ano_morte": 1954
+     }
+    },
+    {
+     "nome": "Londres",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Máquina de Turing",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "máquina de Turing"
+     ],
+     "descricao": "Modelo que formaliza os conceitos de algoritmo e computação e pode ser considerado um modelo de um computador de uso geral.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Reino Unido",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "NASCEU_EM",
+     "destino": "Londres",
+     "propriedades": {},
+     "evidencia": "Alan Mathison Turing (Londres, 23 de junho de 1912",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Alan Turing",
+     "tipo": "CRIOU",
+     "destino": "Máquina de Turing",
+     "propriedades": {},
+     "evidencia": "proporcionando uma formalização dos conceitos de algoritmo e computação com a máquina de Turing",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_1",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Centro britânico de criptoanálise durante a Segunda Guerra Mundial.",
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Escola de Código e Cifras do Governo",
+     "tipo": "Organizacao",
+     "aliases": [
+      "GC&CS"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bletchley Park",
+     "propriedades": {},
+     "evidencia": "Turing trabalhou para a Escola de Código e Cifras do Governo (GC&CS) em Bletchley Park",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Alan Turing",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Escola de Código e Cifras do Governo",
+     "propriedades": {},
+     "evidencia": "Turing trabalhou para a Escola de Código e Cifras do Governo (GC&CS) em Bletchley Park",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_2",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Laboratório Nacional de Física",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Automatic Computing Engine",
+     "tipo": "Hardware",
+     "aliases": [
+      "ACE",
+      "Mecanismo de Computação Automática"
+     ],
+     "descricao": "Um dos primeiros projetos para um computador de programa armazenado.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Universidade de Manchester",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Victoria University de Manchester"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Max Newman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Laboratório Nacional de Física",
+     "propriedades": {},
+     "evidencia": "Após a guerra Turing trabalhou no Laboratório Nacional de Física",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Alan Turing",
+     "tipo": "CRIOU",
+     "destino": "Automatic Computing Engine",
+     "propriedades": {},
+     "evidencia": "onde projetou o Mecanismo de Computação Automática, um dos primeiros projetos para um computador de programa armazenado",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Alan Turing",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Manchester",
+     "propriedades": {
+      "ano_inicio": 1948
+     },
+     "evidencia": "Em 1948 Turing ingressou no Laboratório de Máquinas de Computação de Max Newman, na Victoria University de Manchester",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_3",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {
+      "ano_morte": 1954
+     }
+    },
+    {
+     "nome": "Reino Unido",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Gordon Brown",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Primeiro-ministro britânico que pediu desculpas públicas a Turing em 2009.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Elizabeth II",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Rainha que concedeu a Turing um perdão póstumo em 2013.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_4",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Londres",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Países Baixos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Índia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "NASCEU_EM",
+     "destino": "Londres",
+     "propriedades": {},
+     "evidencia": "Turing nasceu em Maida Vale, Londres",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_5",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Reino Unido",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Índia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_6",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Hazelhurst Preparatory School",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Escola independente na vila de Frant, em Sussex.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Sherborne School",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Internado independente na cidade de Sherborne, em Dorset.",
+     "propriedades": {}
+    },
+    {
+     "nome": "St. Michael's",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Escola diurna em St. Leonards-on-Sea.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "ESTUDOU_EM",
+     "destino": "St. Michael's",
+     "propriedades": {},
+     "evidencia": "Seus pais o matricularam na St. Michael's, uma escola diurna em Charles Road, 20, St. Leonards-on-Sea, aos seis anos de idade",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Alan Turing",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Hazelhurst Preparatory School",
+     "propriedades": {},
+     "evidencia": "Turing foi educado na Hazelhurst Preparatory School, uma escola independente na vila de Frant em Sussex",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Alan Turing",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Sherborne School",
+     "propriedades": {
+      "ano": 1926
+     },
+     "evidencia": "Em 1926, aos 13 anos, ingressou na Sherborne School, um internato independente na cidade comercial de Sherborne, em Dorset",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_7",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sherborne School",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Albert Einstein",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_8",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Albert Einstein",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Christopher Morcom",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Christopher Collan Morcom"
+     ],
+     "descricao": "Colega de Turing em Sherborne, descrito como o seu primeiro amor.",
+     "propriedades": {
+      "ano_nascimento": 1911,
+      "ano_morte": 1930
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_9",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Christopher Morcom",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_10",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Christopher Morcom",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_11",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "King's College, Cambridge",
+     "tipo": "Organizacao",
+     "aliases": [
+      "King's College"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Jarl Waldemar Lindeberg",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "ESTUDOU_EM",
+     "destino": "King's College, Cambridge",
+     "propriedades": {
+      "curso": "matemática"
+     },
+     "evidencia": "Turing estudou de 1931 a 1934 no King's College, Cambridge, onde foi agraciado com honras de primeira classe em matemática",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_12",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alonzo Church",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Church"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina de Turing",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "máquina universal de Turing"
+     ],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Cálculo lambda",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Formalismo de Alonzo Church equivalente às máquinas de Turing quanto ao que é computável.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "CRIOU",
+     "destino": "Máquina de Turing",
+     "propriedades": {},
+     "evidencia": "Também incluía a noção de uma \"Máquina Universal\" (agora conhecida como máquina universal de Turing)",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Alonzo Church",
+     "tipo": "CRIOU",
+     "destino": "Cálculo lambda",
+     "propriedades": {},
+     "evidencia": "prova equivalente de Alonzo Church usando seu cálculo lambda",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_13",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Princeton",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Princeton"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Reino Unido",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Máquina de Turing",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "máquinas de Turing"
+     ],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Princeton",
+     "propriedades": {
+      "curso": "Matemática",
+      "ano": 1938
+     },
+     "evidencia": "Em junho de 1938, ele obteve seu PhD no Departamento de Matemática de Princeton",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_14",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ludwig Wittgenstein",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Wittgenstein"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_15",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Escola de Código e Cifras do Governo",
+     "tipo": "Organizacao",
+     "aliases": [
+      "GC&CS",
+      "Escola de Código e Cifra do Governo"
+     ],
+     "descricao": "Organização britânica de quebra de códigos.",
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Dilly Knox",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Criptoanalista sênior do GC&CS.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Asa Briggs",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alemanha",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Escola de Código e Cifras do Governo",
+     "propriedades": {
+      "ano_inicio": 1938
+     },
+     "evidencia": "Desde setembro de 1938, Turing trabalhou em período parcial na Escola de Código e Cifra do Governo (GC&CS)",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Alan Turing",
+     "tipo": "COLABOROU_COM",
+     "destino": "Dilly Knox",
+     "propriedades": {
+      "contexto": "análise criptográfica da máquina Enigma"
+     },
+     "evidencia": "Ele se concentrou na análise criptográfica da máquina de cifra Enigma usada pela Alemanha Nazista, junto com Dilly Knox",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_16",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Escola de Código e Cifras do Governo",
+     "tipo": "Organizacao",
+     "aliases": [
+      "GC&CS"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "GCHQ",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Sucessor do GC&CS.",
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Reino Unido",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Alemanha",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "GCHQ",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Escola de Código e Cifras do Governo",
+     "propriedades": {},
+     "evidencia": "para o GC&CS e seu sucessor, o GCHQ",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_17",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Jack Good",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Criptoanalista que trabalhou com Turing.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Peter Hilton",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ronald Lewin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "COLABOROU_COM",
+     "destino": "Jack Good",
+     "propriedades": {
+      "contexto": "criptoanálise em Bletchley Park"
+     },
+     "evidencia": "Jack Good, um criptoanalista que trabalhou com Turing",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Alan Turing",
+     "tipo": "COLABOROU_COM",
+     "destino": "Peter Hilton",
+     "propriedades": {
+      "contexto": "trabalho na Hut 8"
+     },
+     "evidencia": "Peter Hilton relatou sua experiência trabalhando com Turing na Hut 8",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_18",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Peter Hilton",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Hilton"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "COLABOROU_COM",
+     "destino": "Peter Hilton",
+     "propriedades": {
+      "contexto": "trabalho na Hut 8"
+     },
+     "evidencia": "Peter Hilton relatou sua experiência trabalhando com Turing na Hut 8",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_19",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Londres",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Jorge VI",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ordem do Império Britânico",
+     "tipo": "Premio",
+     "aliases": [
+      "OBE"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "RECEBEU",
+     "destino": "Ordem do Império Britânico",
+     "propriedades": {
+      "ano": 1946
+     },
+     "evidencia": "Em 1946, Turing foi nomeado oficial da Ordem do Império Britânico (OBE) pelo rei Jorge VI por seus serviços de guerra",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_20",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ordem do Império Britânico",
+     "tipo": "Premio",
+     "aliases": [
+      "OBE"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jorge VI",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Gordon Welchman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Matemático que sugeriu uma melhoria para a bomba.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "RECEBEU",
+     "destino": "Ordem do Império Britânico",
+     "propriedades": {
+      "ano": 1946
+     },
+     "evidencia": "Em 1946, Turing foi nomeado oficial da Ordem do Império Britânico (OBE) pelo rei Jorge VI por seus serviços de guerra",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_21",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Gordon Welchman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Hugh Alexander",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Stuart Milner-Barry",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "COLABOROU_COM",
+     "destino": "Gordon Welchman",
+     "propriedades": {
+      "contexto": "descriptografia dos sinais da Enigma"
+     },
+     "evidencia": "Turing e seus colegas criptoanalistas Gordon Welchman, Hugh Alexander e Stuart Milner-Barry estavam frustrados",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Alan Turing",
+     "tipo": "COLABOROU_COM",
+     "destino": "Hugh Alexander",
+     "propriedades": {
+      "contexto": "descriptografia dos sinais da Enigma"
+     },
+     "evidencia": "Turing e seus colegas criptoanalistas Gordon Welchman, Hugh Alexander e Stuart Milner-Barry estavam frustrados",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Alan Turing",
+     "tipo": "COLABOROU_COM",
+     "destino": "Stuart Milner-Barry",
+     "propriedades": {
+      "contexto": "descriptografia dos sinais da Enigma"
+     },
+     "evidencia": "Turing e seus colegas criptoanalistas Gordon Welchman, Hugh Alexander e Stuart Milner-Barry estavam frustrados",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_22",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Winston Churchill",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Churchill"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Andrew Hodges",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Biógrafo de Turing.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Stuart Milner-Barry",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Milner-Barry"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_23",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Banburismus",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Técnica estatística sequencial para ajudar a quebrar o Enigma naval.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Abraham Wald",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "CRIOU",
+     "destino": "Banburismus",
+     "propriedades": {},
+     "evidencia": "ele também concebeu a ideia do Banburismus, uma técnica estatística sequencial",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_24",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Hugh Alexander",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Alexander"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "Durante essa viagem, também ajudou no Bell Labs no desenvolvimento de dispositivos de fala seguros",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_25",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Hugh Alexander",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Alexander"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Gordon Welchman",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Welchman"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_26",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Turingery",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Turingismus"
+     ],
+     "descricao": "Método de quebrar a roda, usado contra as mensagens cifradas de Lorenz.",
+     "propriedades": {
+      "tipo": "conceito",
+      "ano": 1942
+     }
+    },
+    {
+     "nome": "Tommy Flowers",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Max Newman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Colossus",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro computador eletrônico digital programável do mundo, segundo o texto.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Heath Robinson",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Máquina anterior e mais simples substituída pelo Colossus.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Banburismus",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "CRIOU",
+     "destino": "Turingery",
+     "propriedades": {
+      "ano": 1942
+     },
+     "evidencia": "Em julho de 1942, Turing desenvolveu uma técnica denominada Turingery",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Tommy Flowers",
+     "tipo": "CRIOU",
+     "destino": "Colossus",
+     "propriedades": {},
+     "evidencia": "Tommy Flowers, que, sob a orientação de Max Newman, construiu o computador Colossus",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Colossus",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Heath Robinson",
+     "propriedades": {},
+     "evidencia": "que substituiu uma máquina anterior mais simples (a Heath Robinson)",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_27",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Serviço de Segurança de Rádio",
+     "tipo": "Organizacao",
+     "aliases": [
+      "HMGCC"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Donald Bayley",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Engenheiro que assistiu Turing no projeto e construção da máquina Delilah.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Winston Churchill",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "Após seu trabalho no Bell Labs nos Estados Unidos",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Alan Turing",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Serviço de Segurança de Rádio",
+     "propriedades": {},
+     "evidencia": "ele se mudou para trabalhar para o Serviço de Segurança de Rádio do Serviço Secreto (mais tarde HMGCC)",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Alan Turing",
+     "tipo": "COLABOROU_COM",
+     "destino": "Donald Bayley",
+     "propriedades": {
+      "contexto": "projeto e construção da máquina de voz Delilah"
+     },
+     "evidencia": "desenvolveu ainda mais seus conhecimentos de eletrônica com a assistência do engenheiro Donald Bayley",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_28",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Automatic Computing Engine",
+     "tipo": "Hardware",
+     "aliases": [
+      "ACE",
+      "Mecanismo de Computação Automática"
+     ],
+     "descricao": "Computador projetado por Turing no Laboratório Nacional de Física, primeiro projeto detalhado de um computador capaz de armazenar um programa.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Laboratório Nacional de Física",
+     "tipo": "Organizacao",
+     "aliases": [
+      "NPL"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "John von Neumann",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Von Neumann"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "EDVAC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "John R. Womersley",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Londres",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Laboratório Nacional de Física",
+     "propriedades": {
+      "ano_inicio": 1945,
+      "ano_fim": 1947
+     },
+     "evidencia": "Entre 1945 e 1947, Turing viveu em Hampton, Londres, enquanto trabalhava no projeto do computador ACE (Automatic Computing Engine) no Laboratório Nacional de Física",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Alan Turing",
+     "tipo": "CRIOU",
+     "destino": "Automatic Computing Engine",
+     "propriedades": {},
+     "evidencia": "enquanto trabalhava no projeto do computador ACE (Automatic Computing Engine) no Laboratório Nacional de Física",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_29",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Konrad Zuse",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Heinz Billing",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Pioneiro alemão da computação do Instituto Max Planck de Física.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto Max Planck de Física",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Heinz Billing",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto Max Planck de Física",
+     "propriedades": {},
+     "evidencia": "pioneiro alemão da computação Heinz Billing, do Instituto Max Planck de Física",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_30",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Manchester",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade Victoria de Manchester"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Konrad Zuse",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Heinz Billing",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto Max Planck de Física",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Manchester Mark I",
+     "tipo": "Hardware",
+     "aliases": [
+      "Manchester Mark 1"
+     ],
+     "descricao": "Um dos primeiros computadores com programas armazenados.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Ferranti",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Ferranti Mark 1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Máquina comercial da Ferranti.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Teste de Turing",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "teste de Turing"
+     ],
+     "descricao": "Experimento proposto por Turing para definir um padrão para uma máquina ser chamada de inteligente.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Manchester",
+     "propriedades": {
+      "cargo": "reader",
+      "ano_inicio": 1948
+     },
+     "evidencia": "Em 1948, Turing foi nomeado reader no Departamento de Matemática da Universidade Victoria de Manchester",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Alan Turing",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Ferranti",
+     "propriedades": {
+      "cargo": "consultor"
+     },
+     "evidencia": "foi recrutado por Ferranti como consultor no desenvolvimento de sua máquina comercial, a Ferranti Mark 1",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Ferranti",
+     "tipo": "DESENVOLVEU",
+     "destino": "Ferranti Mark 1",
+     "propriedades": {},
+     "evidencia": "consultor no desenvolvimento de sua máquina comercial, a Ferranti Mark 1",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Alan Turing",
+     "tipo": "CRIOU",
+     "destino": "Teste de Turing",
+     "propriedades": {},
+     "evidencia": "Turing abordou o problema da inteligência artificial e propôs um experimento que ficou conhecido como teste de Turing",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_31",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Teste de Turing",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "teste de Turing"
+     ],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "D. G. Champernowne",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Ex-colega de graduação de Turing.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Ferranti Mark 1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Garry Kasparov",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alick Glennie",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "COLABOROU_COM",
+     "destino": "D. G. Champernowne",
+     "propriedades": {
+      "contexto": "programa de xadrez Turochamp"
+     },
+     "evidencia": "Turing, trabalhando com seu ex-colega de graduação, D. G. Champernowne, começou a escrever um programa de xadrez",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_32",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_33",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Boris Belousov",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Bioquímico russo que realizou experimentos com resultados semelhantes.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_34",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "James Murray",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_35",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Joan Clarke",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Colega de Turing no Hut 8, matemática e criptoanalista.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Arnold Murray",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Murray"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Manchester",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_36",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Arnold Murray",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Murray"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Reino Unido",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_37",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "GCHQ",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Sede de Comunicações do Governo"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Escola de Código e Cifras do Governo",
+     "tipo": "Organizacao",
+     "aliases": [
+      "GC&CS"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "TRABALHOU_EM",
+     "destino": "GCHQ",
+     "propriedades": {
+      "cargo": "consultor de criptografia"
+     },
+     "evidencia": "impedindo-o de continuar a ser consultor de criptografia para a Sede de Comunicações do Governo (GCHQ)",
+     "confianca": 0.8
+    },
+    {
+     "origem": "GCHQ",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Escola de Código e Cifras do Governo",
+     "propriedades": {},
+     "evidencia": "a agência de inteligência de sinais britânica que havia evoluído do GC&CS em 1946",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_38",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {
+      "ano_morte": 1954
+     }
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Andrew Hodges",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "David Leavitt",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_39",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jack Copeland",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Andrew Hodges",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_40",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_41",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Alan"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_42",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Graham-Cumming",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Programador britânico que iniciou em 2009 uma petição pedindo desculpas do governo a Turing.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Gordon Brown",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "William Jones",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Leech",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_43",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Leech",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lord McNally",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Manchester",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_44",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lord McNally",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Leech",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_45",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Leech",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Leech"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Stephen Hawking",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Reino Unido",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_46",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Stephen Hawking",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "David Cameron",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lord Rees",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Paul Nurse",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lord Sharkey",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_47",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Elizabeth II",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "David Cameron",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Chris Grayling",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Peter Tatchell",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Christopher Chope",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_48",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Peter Tatchell",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Tatchell"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_49",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ordem do Império Britânico",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Manchester",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Universidade de Manchester",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "RECEBEU",
+     "destino": "Ordem do Império Britânico",
+     "propriedades": {
+      "ano": 1946
+     },
+     "evidencia": "Turing foi nomeado oficial da Ordem do Império Britânico em 1946",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "26201_50",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina de Turing",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "máquina de Turing"
+     ],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Bertrand Russell",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_51",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina de Turing",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "máquina de Turing"
+     ],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Universidade de Manchester",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Cambridge",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "S. Barry Cooper",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Barry Cooper"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Dermot Turing",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "26201_52",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Manchester",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Cambridge",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Bletchley Park",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "King's College, Cambridge",
+     "tipo": "Organizacao",
+     "aliases": [
+      "King's College"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Antony Gormley",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Benedict Cumberbatch",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

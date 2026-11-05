@@ -1,0 +1,790 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:23:21+00:00",
+ "chunks": [
+  {
+   "chunk_id": "73789_0",
+   "entidades": [
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem de programação multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET.",
+     "propriedades": {
+      "paradigmas": [
+       "multiparadigma",
+       "orientada a objetos"
+      ]
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Object Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "C#",
+     "propriedades": {},
+     "evidencia": "C# é uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET",
+     "confianca": 0.95
+    },
+    {
+     "origem": "C#",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C++",
+     "propriedades": {},
+     "evidencia": "A sua sintaxe orientada a objetos foi baseada no C++",
+     "confianca": 0.9
+    },
+    {
+     "origem": "C#",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Object Pascal",
+     "propriedades": {},
+     "evidencia": "mas inclui muitas influências de outras linguagens de programação, como Object Pascal e, principalmente, Java",
+     "confianca": 0.9
+    },
+    {
+     "origem": "C#",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Java",
+     "propriedades": {},
+     "evidencia": "mas inclui muitas influências de outras linguagens de programação, como Object Pascal e, principalmente, Java",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "73789_1",
+   "entidades": [
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_2",
+   "entidades": [
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_3",
+   "entidades": [
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Anders Hejlsberg",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Anders"
+     ],
+     "descricao": "Escolhido pela Microsoft para desenvolver a linguagem C#; arquiteto de compiladores da Borland.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Borland",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Simple Managed C",
+     "tipo": "Linguagem",
+     "aliases": [
+      "SMC"
+     ],
+     "descricao": "Linguagem em que as bibliotecas da plataforma .NET foram originalmente escritas.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Cool",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Nome inicial da linguagem que foi renomeada e apresentada como C#.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Free Software Foundation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Novell",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Anders Hejlsberg",
+     "tipo": "CRIOU",
+     "destino": "C#",
+     "propriedades": {},
+     "evidencia": "A criação da linguagem, embora tenha sido feita por vários programadores, é atribuída principalmente a Anders",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Anders Hejlsberg",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Microsoft",
+     "propriedades": {
+      "cargo": "Distinguished Engineer"
+     },
+     "evidencia": "Anders, hoje um Distinguished Engineer na Microsoft",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Anders Hejlsberg",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Borland",
+     "propriedades": {
+      "cargo": "arquiteto de compiladores"
+     },
+     "evidencia": "Ele fora o arquiteto de alguns compiladores da Borland",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "73789_4",
+   "entidades": [
+    {
+     "nome": "Free Software Foundation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Novell",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_5",
+   "entidades": [
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Visual Basic",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_6",
+   "entidades": [
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_7",
+   "entidades": [
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "C#",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "O C# tem raízes em C, C++ e Java",
+     "confianca": 0.9
+    },
+    {
+     "origem": "C#",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C++",
+     "propriedades": {},
+     "evidencia": "O C# tem raízes em C, C++ e Java",
+     "confianca": 0.9
+    },
+    {
+     "origem": "C#",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Java",
+     "propriedades": {},
+     "evidencia": "O C# tem raízes em C, C++ e Java",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "73789_8",
+   "entidades": [
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Visual Basic",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_9",
+   "entidades": [
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_10",
+   "entidades": [
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_11",
+   "entidades": [
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_12",
+   "entidades": [
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_13",
+   "entidades": [
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_15",
+   "entidades": [
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [
+      "C #"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_16",
+   "entidades": [
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [
+      "C #"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_17",
+   "entidades": [
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_18",
+   "entidades": [
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_19",
+   "entidades": [
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_20",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_21",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_22",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_23",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_24",
+   "entidades": [
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_25",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_26",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_27",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_28",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_29",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_30",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_31",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_32",
+   "entidades": [
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_33",
+   "entidades": [
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_34",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_35",
+   "entidades": [
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fortran",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_36",
+   "entidades": [
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_37",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_38",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_39",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_40",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Microsoft Corporation"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Intel Corporation"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Ecma International",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ECMA"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_41",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "73789_42",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

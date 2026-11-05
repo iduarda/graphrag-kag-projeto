@@ -1,0 +1,60 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:25:22+00:00",
+ "chunks": [
+  {
+   "chunk_id": "170654_0",
+   "entidades": [
+    {
+     "nome": "Intel 8080",
+     "tipo": "Hardware",
+     "aliases": [
+      "8080",
+      "8080a"
+     ],
+     "descricao": "Microprocessador de 8 bits lançado em abril de 1974, com 6000 transistores.",
+     "propriedades": {
+      "ano": 1974,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel 8008",
+     "tipo": "Hardware",
+     "aliases": [
+      "8008"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Intel 8080",
+     "propriedades": {},
+     "evidencia": "foram criados pela Intel",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Intel 8080",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Intel 8008",
+     "propriedades": {},
+     "evidencia": "sucedendo ao microprocessador 8008",
+     "confianca": 0.95
+    }
+   ]
+  }
+ ]
+}

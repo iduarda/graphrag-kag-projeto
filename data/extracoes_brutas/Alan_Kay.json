@@ -1,0 +1,584 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:24:40+00:00",
+ "chunks": [
+  {
+   "chunk_id": "283019_0",
+   "entidades": [
+    {
+     "nome": "Alan Kay",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Alan Curtis Kay",
+      "Kay"
+     ],
+     "propriedades": {
+      "ano_nascimento": 1940
+     },
+     "descricao": "Informático estadunidense, um dos inventores do Smalltalk."
+    },
+    {
+     "nome": "Smalltalk",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {},
+     "descricao": "Linguagem considerada a mãe das linguagens orientadas a objetos."
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Interface gráfica do utilizador",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "GUI"
+     ],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Kay",
+     "tipo": "CRIOU",
+     "destino": "Smalltalk",
+     "propriedades": {},
+     "evidencia": "um dos inventores da linguagem de programação Smalltalk",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Alan Kay",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 2003
+     },
+     "evidencia": "que lhe valeu o Prêmio Turing em 2003",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Alan Kay",
+     "tipo": "CRIOU",
+     "destino": "Interface gráfica do utilizador",
+     "propriedades": {},
+     "evidencia": "Concebeu o laptop e a arquitetura das modernas interfaces gráficas dos computadores (GUI)",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "283019_1",
+   "entidades": [
+    {
+     "nome": "Alan Kay",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Alan Curtis Kay",
+      "Kay"
+     ],
+     "propriedades": {
+      "ano_nascimento": 1940
+     },
+     "descricao": "Informático estadunidense, um dos inventores do Smalltalk."
+    },
+    {
+     "nome": "Springfield",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Universidade do Colorado",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Utah",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Simula",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Kay",
+     "tipo": "NASCEU_EM",
+     "destino": "Springfield",
+     "propriedades": {},
+     "evidencia": "Logo após o seu nascimento em Springfield, Massachusetts",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Alan Kay",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade do Colorado",
+     "propriedades": {
+      "curso": "matemática e biologia molecular"
+     },
+     "evidencia": "Graduado em matemática e biologia molecular pela Universidade do Colorado",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Alan Kay",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Utah",
+     "propriedades": {
+      "ano": 1966
+     },
+     "evidencia": "Enquanto estudava na Universidade de Utah, tendo começado em 1966",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "283019_2",
+   "entidades": [
+    {
+     "nome": "Seymour Papert",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Logo",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {},
+     "descricao": "Dialeto de Lisp otimizado para uso educacional."
+    },
+    {
+     "nome": "Lisp",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Logo",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Lisp",
+     "propriedades": {},
+     "evidencia": "Logo, um dialeto de Lisp otimizado para uso educacional",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "283019_3",
+   "entidades": [
+    {
+     "nome": "Alan Kay",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Alan Curtis Kay",
+      "Kay"
+     ],
+     "propriedades": {
+      "ano_nascimento": 1940
+     },
+     "descricao": "Informático estadunidense, um dos inventores do Smalltalk."
+    },
+    {
+     "nome": "Universidade de Utah",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Kay",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Utah",
+     "propriedades": {
+      "curso": "Ph.D."
+     },
+     "evidencia": "receber o título de Ph.D. na Universidade de Utah",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Alan Kay",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade Stanford",
+     "propriedades": {
+      "cargo": "pesquisador"
+     },
+     "evidencia": "passou dois anos como pesquisador no Laboratório de Inteligência Artificial de Stanford",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "283019_4",
+   "entidades": [
+    {
+     "nome": "Alan Kay",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Alan Curtis Kay",
+      "Kay"
+     ],
+     "propriedades": {
+      "ano_nascimento": 1940
+     },
+     "descricao": "Informático estadunidense, um dos inventores do Smalltalk."
+    },
+    {
+     "nome": "Xerox PARC",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Smalltalk",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {},
+     "descricao": "Linguagem considerada a mãe das linguagens orientadas a objetos."
+    },
+    {
+     "nome": "Jean Piaget",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jerome Bruner",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Kay",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Xerox PARC",
+     "propriedades": {
+      "cargo": "consultor",
+      "ano_inicio": 1970
+     },
+     "evidencia": "Kay começou como consultor no centro de pesquisa de Palo Alto da Xerox PARC, em setembro de 1970",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "283019_5",
+   "entidades": [
+    {
+     "nome": "Alan Kay",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Alan Curtis Kay",
+      "Kay"
+     ],
+     "propriedades": {
+      "ano_nascimento": 1940
+     },
+     "descricao": "Informático estadunidense, um dos inventores do Smalltalk."
+    },
+    {
+     "nome": "Xerox PARC",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Chuck Thacker",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Xerox Alto",
+     "tipo": "Hardware",
+     "aliases": [
+      "Alto"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     },
+     "descricao": "Computador pessoal em rede criado como o 'interim Dynabook'."
+    },
+    {
+     "nome": "Atari",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Ethernet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Kay",
+     "tipo": "CRIOU",
+     "destino": "Xerox Alto",
+     "propriedades": {
+      "ano": 1973
+     },
+     "evidencia": "Em 1973, junto com Chuck Thacker criou o \"interim Dynabook\" chamado de Alto",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Chuck Thacker",
+     "tipo": "CRIOU",
+     "destino": "Xerox Alto",
+     "propriedades": {
+      "ano": 1973
+     },
+     "evidencia": "Em 1973, junto com Chuck Thacker criou o \"interim Dynabook\" chamado de Alto",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Alan Kay",
+     "tipo": "COLABOROU_COM",
+     "destino": "Chuck Thacker",
+     "propriedades": {
+      "contexto": "criação do Alto"
+     },
+     "evidencia": "Em 1973, junto com Chuck Thacker criou o \"interim Dynabook\" chamado de Alto",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Alan Kay",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Atari",
+     "propriedades": {
+      "cargo": "cientista chefe"
+     },
+     "evidencia": "Kay tornou-se cientista chefe da Atari por três anos",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "283019_6",
+   "entidades": [
+    {
+     "nome": "Alan Kay",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Alan Curtis Kay",
+      "Kay"
+     ],
+     "propriedades": {
+      "ano_nascimento": 1940
+     },
+     "descricao": "Informático estadunidense, um dos inventores do Smalltalk."
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Apple Computer"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Walt Disney Imagineering",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Viewpoints Research Institute",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "fundacao",
+      "ano_fundacao": 2001
+     },
+     "descricao": "Organização sem fins lucrativos dedicada às crianças, ao aprendizado e ao desenvolvimento de software avançado."
+    },
+    {
+     "nome": "Applied Minds",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Kay",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Apple",
+     "propriedades": {
+      "ano_inicio": 1984
+     },
+     "evidencia": "A partir de 1984 Kay associou-se a Apple Computer",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Alan Kay",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Walt Disney Imagineering",
+     "propriedades": {},
+     "evidencia": "Ele então associou-se a Walt Disney Imagineering",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Alan Kay",
+     "tipo": "FUNDOU",
+     "destino": "Viewpoints Research Institute",
+     "propriedades": {
+      "ano": 2001
+     },
+     "evidencia": "ele fundou em 2001 o Viewpoints Research Institute",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Alan Kay",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Applied Minds",
+     "propriedades": {},
+     "evidencia": "trabalhou com um time da Applied Minds",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Alan Kay",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Hewlett-Packard",
+     "propriedades": {
+      "cargo": "pesquisador",
+      "ano_fim": 2005
+     },
+     "evidencia": "tornou-se pesquisador da Hewlett-Packard até que a empresa fechou o time de pesquisa em 2005",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "283019_7",
+   "entidades": [
+    {
+     "nome": "Alan Kay",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Alan Curtis Kay",
+      "Kay"
+     ],
+     "propriedades": {
+      "ano_nascimento": 1940
+     },
+     "descricao": "Informático estadunidense, um dos inventores do Smalltalk."
+    },
+    {
+     "nome": "Applied Minds",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Kay",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Applied Minds",
+     "propriedades": {},
+     "evidencia": "trabalhou com um time da Applied Minds",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Alan Kay",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Hewlett-Packard",
+     "propriedades": {
+      "cargo": "pesquisador",
+      "ano_fim": 2005
+     },
+     "evidencia": "tornou-se pesquisador da Hewlett-Packard até que a empresa fechou o time de pesquisa em 2005",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "283019_8",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

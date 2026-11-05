@@ -1,0 +1,582 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:22:06+00:00",
+ "chunks": [
+  {
+   "chunk_id": "9242_0",
+   "entidades": [
+    {
+     "nome": "Haskell",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem de programação puramente funcional, de propósito geral.",
+     "propriedades": {
+      "paradigmas": [
+       "funcional"
+      ]
+     }
+    },
+    {
+     "nome": "Haskell Curry",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Lógico em cuja homenagem Haskell foi nomeada.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Miranda",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ML",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Haskell",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Miranda",
+     "propriedades": {},
+     "evidencia": "derivada de outras linguagens funcionais, como por exemplo Miranda e ML",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Haskell",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "ML",
+     "propriedades": {},
+     "evidencia": "derivada de outras linguagens funcionais, como por exemplo Miranda e ML",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "9242_1",
+   "entidades": [
+    {
+     "nome": "Haskell",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Arquitetura de von Neumann",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Miranda",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem funcional lançada em 1985, não estava em domínio público.",
+     "propriedades": {
+      "ano": 1985
+     }
+    },
+    {
+     "nome": "Lazy ML",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Orwell",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Clean",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lisp",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9242_2",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9242_3",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9242_4",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9242_5",
+   "entidades": [
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9242_6",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9242_7",
+   "entidades": [
+    {
+     "nome": "Gofer",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Versão educacional do Haskell.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Mark Jones",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Mark Jones",
+     "tipo": "CRIOU",
+     "destino": "Gofer",
+     "propriedades": {},
+     "evidencia": "Uma versão educacional do Haskell chamada Gofer, foi desenvolvida por Mark Jones",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "9242_8",
+   "entidades": [
+    {
+     "nome": "Haskell",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lambda Cálculo",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9242_9",
+   "entidades": [
+    {
+     "nome": "Haskell Curry",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9242_10",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9242_11",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9242_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9242_13",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9242_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9242_15",
+   "entidades": [
+    {
+     "nome": "Haskell",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Audrey Tang",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Perl",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Linspire GNU/Linux",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Linspire GNU / Linux"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "X Window System",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bluespec SystemVerilog",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem feita como uma extensão do Haskell.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bluespec SystemVerilog",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Haskell",
+     "propriedades": {},
+     "evidencia": "Bluespec SystemVerilog é uma linguagem feita como uma extensão do Haskell",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "9242_16",
+   "entidades": [
+    {
+     "nome": "Facebook",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Swift Navigation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Fabricante de GPS de alta precisão.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Bluespec Inc.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Bluespec SystemVerilog",
+     "tipo": "Linguagem",
+     "aliases": [
+      "BSV"
+     ],
+     "descricao": "Linguagem para design de semicondutores com extensão em Haskell.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Haskell",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9242_17",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9242_18",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "9242_19",
+   "entidades": [
+    {
+     "nome": "Helium",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Novo dialeto do Haskell, com foco na facilidade de aprendizado.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Haskell",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Helium",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Haskell",
+     "propriedades": {},
+     "evidencia": "Helium é um novo dialeto do Haskell",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "9242_20",
+   "entidades": [
+    {
+     "nome": "Jan-Wilem Maessen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Simon Peyton Jones",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Utrecht",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Helium",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Universidade de Utrecht",
+     "tipo": "DESENVOLVEU",
+     "destino": "Helium",
+     "propriedades": {},
+     "evidencia": "pesquisadores da Universidade de Utrecht desenvolveram um interpretador moderno chamado de Helium",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "9242_21",
+   "entidades": [
+    {
+     "nome": "Universidade de Utrecht",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Helium",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bem Lippmeier",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Disciple",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Dialeto de Haskell estrito por padrão.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Haskell",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Harper",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Standard ML",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Universidade de Utrecht",
+     "tipo": "DESENVOLVEU",
+     "destino": "Helium",
+     "propriedades": {},
+     "evidencia": "pesquisadores da Universidade de Utrecht desenvolveram um interpretador moderno chamado de Helium",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Bem Lippmeier",
+     "tipo": "CRIOU",
+     "destino": "Disciple",
+     "propriedades": {},
+     "evidencia": "Bem Lippmeier criou o Disciple como um dialeto estrito por padrão",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Disciple",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Haskell",
+     "propriedades": {},
+     "evidencia": "Disciple como um dialeto estrito por padrão (preguiçosa por notação explícita) de Haskell",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Robert Harper",
+     "tipo": "CRIOU",
+     "destino": "Standard ML",
+     "propriedades": {},
+     "evidencia": "Robert Harper, um dos autores do Standard ML",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "9242_22",
+   "entidades": [
+    {
+     "nome": "Haskell",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Clean",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Idris",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem funcional de propósito geral com tipos dependentes.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de St Andrews",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Curry",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem funcional/lógica baseada em Haskell.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Universidade de St Andrews",
+     "tipo": "DESENVOLVEU",
+     "destino": "Idris",
+     "propriedades": {},
+     "evidencia": "Idris, uma linguagem funcional de propósito geral com tipos dependentes, desenvolvido pela Universidade de St Andrews",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Curry",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Haskell",
+     "propriedades": {},
+     "evidencia": "Curry, uma linguagem funcional/lógica baseada em Haskell",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "9242_23",
+   "entidades": [
+    {
+     "nome": "Disciple",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Haskell",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Disciple",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Haskell",
+     "propriedades": {},
+     "evidencia": "Disciple, um dialeto estrito por padrão de Haskell",
+     "confianca": 0.8
+    }
+   ]
+  }
+ ]
+}

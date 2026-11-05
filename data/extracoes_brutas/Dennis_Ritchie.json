@@ -1,0 +1,1049 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:17:34+00:00",
+ "chunks": [
+  {
+   "chunk_id": "24850_0",
+   "entidades": [
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Dennis MacAlistair Ritchie",
+      "Ritchie"
+     ],
+     "descricao": "Cientista da computação norte-americano que criou o Unix e as linguagens B e C com Ken Thompson.",
+     "propriedades": {
+      "ano_nascimento": 1941,
+      "ano_morte": 2011
+     }
+    },
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "B",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Association for Computing Machinery",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ACM"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha IEEE Richard W. Hamming",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Institute of Electrical and Electronics Engineers",
+     "tipo": "Organizacao",
+     "aliases": [
+      "IEEE"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha Nacional de Tecnologia e Inovação",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lucent Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "CRIOU",
+     "destino": "Unix",
+     "propriedades": {},
+     "evidencia": "Criou, em colaboração com o seu amigo de longa data Ken Thompson, o sistema operacional Unix",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "CRIOU",
+     "destino": "B",
+     "propriedades": {},
+     "evidencia": "Criou, em colaboração com o seu amigo de longa data Ken Thompson, o sistema operacional Unix, e as linguagens de programação B e C",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "CRIOU",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "Criou, em colaboração com o seu amigo de longa data Ken Thompson, o sistema operacional Unix, e as linguagens de programação B e C",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "CRIOU",
+     "destino": "Unix",
+     "propriedades": {},
+     "evidencia": "Criou, em colaboração com o seu amigo de longa data Ken Thompson, o sistema operacional Unix",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "COLABOROU_COM",
+     "destino": "Ken Thompson",
+     "propriedades": {
+      "contexto": "criação do Unix e das linguagens B e C"
+     },
+     "evidencia": "Criou, em colaboração com o seu amigo de longa data Ken Thompson",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 1983
+     },
+     "evidencia": "Dennis Ritchie e Ken Thompson receberam o Prêmio Turing da Association for Computing Machinery (ACM) em 1983",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 1983
+     },
+     "evidencia": "Dennis Ritchie e Ken Thompson receberam o Prêmio Turing da Association for Computing Machinery (ACM) em 1983",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "RECEBEU",
+     "destino": "Medalha IEEE Richard W. Hamming",
+     "propriedades": {
+      "ano": 1990
+     },
+     "evidencia": "a Medalha IEEE Richard W. Hamming do Institute of Electrical and Electronics Engineers (IEEE) em 1990",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "RECEBEU",
+     "destino": "Medalha IEEE Richard W. Hamming",
+     "propriedades": {
+      "ano": 1990
+     },
+     "evidencia": "a Medalha IEEE Richard W. Hamming do Institute of Electrical and Electronics Engineers (IEEE) em 1990",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Nacional de Tecnologia e Inovação",
+     "propriedades": {
+      "ano": 1999
+     },
+     "evidencia": "a Medalha Nacional de Tecnologia e Inovação, concedida pelo presidente Bill Clinton em 1999",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Nacional de Tecnologia e Inovação",
+     "propriedades": {
+      "ano": 1999
+     },
+     "evidencia": "a Medalha Nacional de Tecnologia e Inovação, concedida pelo presidente Bill Clinton em 1999",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Lucent Technologies",
+     "propriedades": {
+      "cargo": "chefe do Departamento de Pesquisa em Software de Sistemas",
+      "ano_fim": 2007
+     },
+     "evidencia": "Dennis Ritchie ocupava o cargo de chefe do Departamento de Pesquisa em Software de Sistemas da Lucent Technologies quando se aposentou, em 2007.",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "24850_1",
+   "entidades": [
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lucent Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Bronxville",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Universidade Harvard",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Lucent Technologies",
+     "propriedades": {
+      "cargo": "chefe do Departamento de Pesquisa em Software de Sistemas",
+      "ano_fim": 2007
+     },
+     "evidencia": "Dennis Ritchie ocupava o cargo de chefe do Departamento de Pesquisa em Software de Sistemas da Lucent Technologies quando se aposentou, em 2007.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "NASCEU_EM",
+     "destino": "Bronxville",
+     "propriedades": {},
+     "evidencia": "Dennis Ritchie nasceu em Bronxville, Nova York",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade Harvard",
+     "propriedades": {
+      "curso": "Física e Matemática Aplicada",
+      "ano": 1963
+     },
+     "evidencia": "Formou-se na Universidade Harvard em 1963, com diplomas em Física e Matemática Aplicada",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "24850_2",
+   "entidades": [
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ritchie"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Harvard",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Bell Labs Computing Science Research Center"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Thompson"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Multics",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "PDP-7",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Brian Kernighan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "B",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {
+      "ano_inicio": 1967
+     },
+     "evidencia": "Em 1967, Dennis Ritchie iniciou as suas atividades no Bell Labs Computing Science Research Center",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "COLABOROU_COM",
+     "destino": "Ken Thompson",
+     "propriedades": {
+      "contexto": "trabalho no Multics e desenvolvimento do Unix"
+     },
+     "evidencia": "Ritchie e Ken Thompson trabalharam no sistema operacional Multics nos Bell Labs",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "Ritchie e Ken Thompson trabalharam no sistema operacional Multics nos Bell Labs",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "CRIOU",
+     "destino": "B",
+     "propriedades": {},
+     "evidencia": "Thompson criou B",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "CRIOU",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "B foi substituído por C, criado por Ritchie",
+     "confianca": 0.95
+    },
+    {
+     "origem": "C",
+     "tipo": "SUCESSOR_DE",
+     "destino": "B",
+     "propriedades": {},
+     "evidencia": "B foi substituído por C",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "24850_3",
+   "entidades": [
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ritchie"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "James Reeds",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Morris",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Lucent Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "COLABOROU_COM",
+     "destino": "James Reeds",
+     "propriedades": {
+      "contexto": "ataque com texto cifrado à máquina de cifra M-209"
+     },
+     "evidencia": "Ritchie colaborou com James Reeds e Robert Morris em um ataque apenas com texto cifrado na máquina de cifra americana M-209",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "COLABOROU_COM",
+     "destino": "Robert Morris",
+     "propriedades": {
+      "contexto": "ataque com texto cifrado à máquina de cifra M-209"
+     },
+     "evidencia": "Ritchie colaborou com James Reeds e Robert Morris em um ataque apenas com texto cifrado na máquina de cifra americana M-209",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {},
+     "evidencia": "Como parte de uma reestruturação da AT&T em meados da década de 1990, Ritchie foi transferido para a Lucent Technologies",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Lucent Technologies",
+     "propriedades": {
+      "cargo": "chefe do Departamento de Pesquisa de Software de Sistema",
+      "ano_fim": 2007
+     },
+     "evidencia": "Ritchie foi transferido para a Lucent Technologies, onde se aposentou em 2007 como chefe do Departamento de Pesquisa de Software de Sistema",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "24850_4",
+   "entidades": [
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ritchie"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lucent Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Brian Kernighan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Thompson"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Lucent Technologies",
+     "propriedades": {
+      "cargo": "chefe do Departamento de Pesquisa de Software de Sistema",
+      "ano_fim": 2007
+     },
+     "evidencia": "Ritchie foi transferido para a Lucent Technologies, onde se aposentou em 2007 como chefe do Departamento de Pesquisa de Software de Sistema",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "CRIOU",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "Ritchie criou a linguagem de programação C",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "CRIOU",
+     "destino": "Unix",
+     "propriedades": {},
+     "evidencia": "foi um dos desenvolvedores do sistema operacional Unix",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "COLABOROU_COM",
+     "destino": "Brian Kernighan",
+     "propriedades": {
+      "contexto": "coautoria do livro The C Programming Language"
+     },
+     "evidencia": "Com Brian Kernighan, ele coescreveu o livro The C Programming Language",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "COLABOROU_COM",
+     "destino": "Ken Thompson",
+     "propriedades": {
+      "contexto": "desenvolvimento do Unix"
+     },
+     "evidencia": "Ritchie trabalhou junto com Ken Thompson, que é creditado com escrever a versão original do Unix",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "24850_5",
+   "entidades": [
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Objective-C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ritchie"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Thompson"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "C++",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "C influenciou várias outras linguagens e derivados, como C++, Objective-C usado pela Apple, C# usado pela Microsoft, e Java",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Objective-C",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "C influenciou várias outras linguagens e derivados, como C++, Objective-C usado pela Apple, C# usado pela Microsoft, e Java",
+     "confianca": 0.85
+    },
+    {
+     "origem": "C#",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "C influenciou várias outras linguagens e derivados, como C++, Objective-C usado pela Apple, C# usado pela Microsoft, e Java",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Java",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "C influenciou várias outras linguagens e derivados, como C++, Objective-C usado pela Apple, C# usado pela Microsoft, e Java",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Unix",
+     "tipo": "ESCRITO_EM",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "Ritchie e Thompson usaram C para escrever o Unix",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "24850_6",
+   "entidades": [
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ritchie",
+      "DMR"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Thompson"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha IEEE Richard W. Hamming",
+     "tipo": "Premio",
+     "aliases": [
+      "Medalha Richard W. Hamming"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha Nacional de Tecnologia e Inovação",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 1983
+     },
+     "evidencia": "Em 1983, Ritchie e Thompson receberam o Prêmio Turing",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 1983
+     },
+     "evidencia": "Em 1983, Ritchie e Thompson receberam o Prêmio Turing",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "RECEBEU",
+     "destino": "Medalha IEEE Richard W. Hamming",
+     "propriedades": {
+      "ano": 1990
+     },
+     "evidencia": "Em 1990, ambos Ritchie e Thompson receberam a Medalha Richard W. Hamming",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "RECEBEU",
+     "destino": "Medalha IEEE Richard W. Hamming",
+     "propriedades": {
+      "ano": 1990
+     },
+     "evidencia": "Em 1990, ambos Ritchie e Thompson receberam a Medalha Richard W. Hamming",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Nacional de Tecnologia e Inovação",
+     "propriedades": {
+      "ano": 1999
+     },
+     "evidencia": "Em 21 de abril de 1999, Thompson e Ritchie receberam juntamente a Medalha Nacional de Tecnologia e Inovação",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Nacional de Tecnologia e Inovação",
+     "propriedades": {
+      "ano": 1999
+     },
+     "evidencia": "Em 21 de abril de 1999, Thompson e Ritchie receberam juntamente a Medalha Nacional de Tecnologia e Inovação",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "24850_7",
+   "entidades": [
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ritchie"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Thompson"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio de Conquista",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Japão de Comunicação e Informação",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio de Conquista",
+     "propriedades": {
+      "ano": 2005
+     },
+     "evidencia": "Em 2005, o Instituto de Pesquisa Industrial premiou Ritchie com sua medalha de Prêmio de Conquista",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Japão de Comunicação e Informação",
+     "propriedades": {
+      "ano": 2011
+     },
+     "evidencia": "Em 2011, Ritchie, juntamente com Thompson, recebeu o Prêmio Japão de Comunicação e Informação",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Japão de Comunicação e Informação",
+     "propriedades": {
+      "ano": 2011
+     },
+     "evidencia": "Em 2011, Ritchie, juntamente com Thompson, recebeu o Prêmio Japão de Comunicação e Informação",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "24850_8",
+   "entidades": [
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ritchie"
+     ],
+     "propriedades": {
+      "ano_morte": 2011
+     }
+    },
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Thompson"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Japão de Comunicação e Informação",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Japão de Comunicação e Informação",
+     "propriedades": {
+      "ano": 2011
+     },
+     "evidencia": "Em 2011, Ritchie, juntamente com Thompson, recebeu o Prêmio Japão de Comunicação e Informação",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Japão de Comunicação e Informação",
+     "propriedades": {
+      "ano": 2011
+     },
+     "evidencia": "Em 2011, Ritchie, juntamente com Thompson, recebeu o Prêmio Japão de Comunicação e Informação",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "24850_9",
+   "entidades": [
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ritchie"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Brian Kernighan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "24850_10",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ritchie"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "24850_11",
+   "entidades": [
+    {
+     "nome": "B",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "24850_12",
+   "entidades": [
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ritchie"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Brian Kernighan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "COLABOROU_COM",
+     "destino": "Brian Kernighan",
+     "propriedades": {
+      "contexto": "livro The C Programming Language (1978)"
+     },
+     "evidencia": "The C Programming Language (as vezes referida como K&R; 1978 com Brian Kernighan)",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Dennis Ritchie",
+     "tipo": "COLABOROU_COM",
+     "destino": "Ken Thompson",
+     "propriedades": {
+      "contexto": "artigo The UNIX time-sharing system"
+     },
+     "evidencia": "The UNIX time-sharing system, DM Ritchie, K Thompson",
+     "confianca": 0.7
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,372 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:24:03+00:00",
+ "chunks": [
+  {
+   "chunk_id": "191994_0",
+   "entidades": [
+    {
+     "nome": "B",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem imperativa desenvolvida no Bell Laboratories, predecessora da linguagem C.",
+     "propriedades": {
+      "ano": 1969,
+      "paradigmas": [
+       "imperativo"
+      ]
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Bell Laboratories"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Thompson"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ritchie"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Murray Hill",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bell Labs",
+     "tipo": "DESENVOLVEU",
+     "destino": "B",
+     "propriedades": {
+      "ano": 1969
+     },
+     "evidencia": "foi desenvolvida no Bell Laboratories de 1969",
+     "confianca": 0.9
+    },
+    {
+     "origem": "C",
+     "tipo": "SUCESSOR_DE",
+     "destino": "B",
+     "propriedades": {},
+     "evidencia": "foi a predecessora da linguagem de programação C",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "CRIOU",
+     "destino": "B",
+     "propriedades": {},
+     "evidencia": "Foi majoritariamente um trabalho de Ken Thompson com contribuições de Dennis Ritchie",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "COLABOROU_COM",
+     "destino": "Dennis Ritchie",
+     "propriedades": {
+      "contexto": "linguagem B"
+     },
+     "evidencia": "um trabalho de Ken Thompson com contribuições de Dennis Ritchie",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "191994_1",
+   "entidades": [
+    {
+     "nome": "B",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "BCPL",
+     "tipo": "Linguagem",
+     "aliases": [
+      "Basic Combined Programming Language"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Thompson"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "PDP-7",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "UNIX"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "B",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "BCPL",
+     "propriedades": {},
+     "evidencia": "B foi essencialmente uma simplificação da linguagem BCPL",
+     "confianca": 0.95
+    },
+    {
+     "origem": "B",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-7",
+     "propriedades": {},
+     "evidencia": "As primeiras implementações foram para os minicomputadores PDP-7 e PDP-11",
+     "confianca": 0.9
+    },
+    {
+     "origem": "B",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-11",
+     "propriedades": {},
+     "evidencia": "As primeiras implementações foram para os minicomputadores PDP-7 e PDP-11",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "191994_2",
+   "entidades": [
+    {
+     "nome": "B",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "PDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DEC"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dennis Ritchie",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ritchie"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "UNIX"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Alan Snyder",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Mike Lesk",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "B",
+     "tipo": "EXECUTA_EM",
+     "destino": "PDP-11",
+     "propriedades": {},
+     "evidencia": "A linguagem B foi implementada no PDP-11",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Digital Equipment Corporation",
+     "tipo": "DESENVOLVEU",
+     "destino": "PDP-11",
+     "propriedades": {},
+     "evidencia": "PDP-11, que foi uma máquina da DEC",
+     "confianca": 0.85
+    },
+    {
+     "origem": "C",
+     "tipo": "SUCESSOR_DE",
+     "destino": "B",
+     "propriedades": {},
+     "evidencia": "B evoluiu primeiro em Novo B (New B, NB) e depois em C",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Unix",
+     "tipo": "ESCRITO_EM",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "o núcleo do UNIX para o PDP-11 fosse reescrito em C",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "191994_3",
+   "entidades": [
+    {
+     "nome": "B",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Mike Lesk",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "191994_4",
+   "entidades": [
+    {
+     "nome": "B",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "BCPL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bon",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem mais antiga e não relacionada com B, desenhada por Thompson para uso no Multics.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Thompson"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Multics",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "B",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "BCPL",
+     "propriedades": {},
+     "evidencia": "B teve uma enorme influência de BCPL",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "CRIOU",
+     "destino": "Bon",
+     "propriedades": {},
+     "evidencia": "a linguagem de programação Bon, uma linguagem mais antiga e não relacionada com B, desenhada por Thompson",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "191994_5",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

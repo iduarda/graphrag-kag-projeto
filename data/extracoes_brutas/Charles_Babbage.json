@@ -1,0 +1,269 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:23:43+00:00",
+ "chunks": [
+  {
+   "chunk_id": "47932_0",
+   "entidades": [
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Babbage"
+     ],
+     "descricao": "Cientista, matemático e inventor inglês que projetou a máquina analítica.",
+     "propriedades": {
+      "ano_nascimento": 1791,
+      "ano_morte": 1871
+     }
+    },
+    {
+     "nome": "Ada Lovelace",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Condessa de Lovelace",
+      "Augusta Ada King"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro computador de uso geral projetado por Babbage, com partes mecânicas; nunca foi construído.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Máquina diferencial",
+     "tipo": "Hardware",
+     "aliases": [
+      "máquina diferencial 2"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Museu de Ciência de Londres",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    },
+    {
+     "nome": "Londres",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Charles Babbage",
+     "tipo": "COLABOROU_COM",
+     "destino": "Ada Lovelace",
+     "propriedades": {
+      "contexto": "conceito de um computador programável"
+     },
+     "evidencia": "originou o conceito de um computador programável junto à Condessa de Lovelace, Augusta Ada King",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Charles Babbage",
+     "tipo": "CRIOU",
+     "destino": "Máquina analítica",
+     "propriedades": {},
+     "evidencia": "o inventor que projetou o primeiro computador de uso geral, utilizando apenas partes mecânicas, a máquina analítica",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Museu de Ciência de Londres",
+     "tipo": "DESENVOLVEU",
+     "destino": "Máquina diferencial",
+     "propriedades": {
+      "ano": 1991
+     },
+     "evidencia": "entre 1985 e 1991, o Museu de Ciência de Londres construiu outra de suas invenções inacabadas, a máquina diferencial 2",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Charles Babbage",
+     "tipo": "CRIOU",
+     "destino": "Máquina diferencial",
+     "propriedades": {},
+     "evidencia": "outra de suas invenções inacabadas, a máquina diferencial 2",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "47932_1",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "47932_2",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "47932_3",
+   "entidades": [
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Babbage"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Cambridge",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Cambridge"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Analytical Society",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Sociedade formada no Trinity College, em Cambridge.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Peterhouse",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "John Herschel",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Herschel"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "George Peacock",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Peacock"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Charles Babbage",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Cambridge",
+     "propriedades": {},
+     "evidencia": "Charles Babbage estudou no Trinity College, em Cambridge",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Charles Babbage",
+     "tipo": "FUNDOU",
+     "destino": "Analytical Society",
+     "propriedades": {
+      "ano": 1812
+     },
+     "evidencia": "ele, John Herschel, George Peacock, e vários outros amigos formaram a Analytical Society do Trinity College, em Cambridge em 1812",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Charles Babbage",
+     "tipo": "COLABOROU_COM",
+     "destino": "John Herschel",
+     "propriedades": {
+      "contexto": "formação da Analytical Society"
+     },
+     "evidencia": "ele, John Herschel, George Peacock, e vários outros amigos formaram a Analytical Society",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Charles Babbage",
+     "tipo": "COLABOROU_COM",
+     "destino": "George Peacock",
+     "propriedades": {
+      "contexto": "formação da Analytical Society"
+     },
+     "evidencia": "ele, John Herschel, George Peacock, e vários outros amigos formaram a Analytical Society",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Charles Babbage",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Peterhouse",
+     "propriedades": {
+      "ano": 1812
+     },
+     "evidencia": "Em 1812 Babbage transferido para Peterhouse, Cambridge",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "47932_4",
+   "entidades": [
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Babbage"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Cambridge",
+     "tipo": "Organizacao",
+     "aliases": [
+      "University of Cambridge"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Charles Babbage",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Cambridge",
+     "propriedades": {
+      "cargo": "professor de matemática",
+      "ano_inicio": 1828,
+      "ano_fim": 1839
+     },
+     "evidencia": "era professor de matemática na University of Cambridge (1828-1839)",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "47932_5",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:27:47+00:00",
+ "chunks": [
+  {
+   "chunk_id": "1020657_0",
+   "entidades": [
+    {
+     "nome": "IBM 704",
+     "tipo": "Hardware",
+     "aliases": [
+      "UCAE"
+     ],
+     "descricao": "Computador desenvolvido para cálculos de larga escala, primordialmente para fins comerciais.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM 650",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "IBM 704",
+     "tipo": "SUCESSOR_DE",
+     "destino": "IBM 650",
+     "propriedades": {},
+     "evidencia": "Foi o sucessor dos modelos pertencentes às séries IBM 650 e IBM 700.",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "1020657_1",
+   "entidades": [
+    {
+     "nome": "IBM 704",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM 650",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM 701",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM 702",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1020657_2",
+   "entidades": [
+    {
+     "nome": "IBM 704",
+     "tipo": "Hardware",
+     "aliases": [
+      "704"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Fortran",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

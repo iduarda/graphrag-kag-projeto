@@ -1,0 +1,1847 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:24:12+00:00",
+ "chunks": [
+  {
+   "chunk_id": "7788524_0",
+   "entidades": [
+    {
+     "nome": "Intel 8086",
+     "tipo": "Hardware",
+     "aliases": [
+      "8086",
+      "iAPX 86"
+     ],
+     "descricao": "Microprocessador de 16 bits lançado pela Intel em 8 de junho de 1978.",
+     "propriedades": {
+      "ano": 1978,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel 8088",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Chip ligeiramente modificado do 8086, com barramento de dados externo de 8 bits.",
+     "propriedades": {
+      "ano": 1979,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel Core i7-8086K",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "CPU de edição limitada lançada para comemorar o 40º aniversário do Intel 8086.",
+     "propriedades": {
+      "ano": 2018,
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Intel 8086",
+     "propriedades": {
+      "ano": 1978
+     },
+     "evidencia": "é um chip microprocessador de 16 bits lançado pela Intel em 8 de junho de 1978",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Intel 8088",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Intel 8086",
+     "propriedades": {},
+     "evidencia": "Foi sucedido pelo Intel 8088 em 1979",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Intel Core i7-8086K",
+     "propriedades": {
+      "ano": 2018
+     },
+     "evidencia": "Em 5 de junho de 2018, a Intel lançou uma CPU de edição limitada para comemorar o 40º aniversário do Intel 8086, chamada Intel Core i7-8086K",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "7788524_1",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel 8086",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel Core i7-8086K",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 2018,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8008",
+     "tipo": "Hardware",
+     "aliases": [
+      "8008"
+     ],
+     "descricao": "Primeiro microprocessador de 8 bits da Intel.",
+     "propriedades": {
+      "ano": 1972,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Datapoint Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Intel Core i7-8086K",
+     "propriedades": {
+      "ano": 2018
+     },
+     "evidencia": "Em 5 de junho de 2018, a Intel lançou uma CPU de edição limitada para comemorar o 40º aniversário do Intel 8086, chamada Intel Core i7-8086K",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Intel 8008",
+     "propriedades": {
+      "ano": 1972
+     },
+     "evidencia": "Em 1972, a Intel lançou o 8008, o primeiro microprocessador de 8 bits da Intel",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "7788524_2",
+   "entidades": [
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel 8080",
+     "tipo": "Hardware",
+     "aliases": [
+      "8080"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8008",
+     "tipo": "Hardware",
+     "aliases": [
+      "8008"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8085",
+     "tipo": "Hardware",
+     "aliases": [
+      "8085"
+     ],
+     "propriedades": {
+      "ano": 1977,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Motorola 6800",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1974,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "MOS Technology 6502",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1975,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Zilog Z80",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1976,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Motorola 6809",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1978,
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Intel 8085",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Intel 8080",
+     "propriedades": {},
+     "evidencia": "O dispositivo 8080 foi eventualmente substituído pelo 8085 (1977)",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "7788524_3",
+   "entidades": [
+    {
+     "nome": "Intel 8086",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "iAPX 432",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Motorola",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Zilog",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "National Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel 8008",
+     "tipo": "Hardware",
+     "aliases": [
+      "8008"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8080",
+     "tipo": "Hardware",
+     "aliases": [
+      "8080"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8085",
+     "tipo": "Hardware",
+     "aliases": [
+      "8085"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "ALGOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "PL/M",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Stephen P. Morse",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Arquiteto principal do 8086.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel 8087",
+     "tipo": "Hardware",
+     "aliases": [
+      "8087"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8089",
+     "tipo": "Hardware",
+     "aliases": [
+      "8089"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7788524_4",
+   "entidades": [
+    {
+     "nome": "Intel 8086",
+     "tipo": "Hardware",
+     "aliases": [
+      "8086"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "HMOS",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "High Performance MOS"
+     ],
+     "descricao": "Processo de fabricação nMOS refinado, desenvolvido originalmente para memória RAM estática de alta velocidade.",
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Intel 8087",
+     "tipo": "Hardware",
+     "aliases": [
+      "8087"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8089",
+     "tipo": "Hardware",
+     "aliases": [
+      "8089"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "HMOS",
+     "propriedades": {},
+     "evidencia": "chamado HMOS (sigla em inglês para High Performance MOS), que a Intel desenvolveu originalmente",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "7788524_5",
+   "entidades": [
+    {
+     "nome": "Intel 8086",
+     "tipo": "Hardware",
+     "aliases": [
+      "8086"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Stephen P. Morse",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bruce Ravenel",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Arquiteto do 8087.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel 8087",
+     "tipo": "Hardware",
+     "aliases": [
+      "8087"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Jim McKevitt",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Projetista lógico do 8086.",
+     "propriedades": {}
+    },
+    {
+     "nome": "John Bayliss",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bill Pohlman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Gerente do projeto do 8086.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel 286",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 386",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Stephen P. Morse",
+     "tipo": "CRIOU",
+     "destino": "Intel 8086",
+     "propriedades": {},
+     "evidencia": "A arquitetura foi definida por Stephen P. Morse",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Bruce Ravenel",
+     "tipo": "CRIOU",
+     "destino": "Intel 8087",
+     "propriedades": {},
+     "evidencia": "Bruce Ravenel (o arquiteto do 8087)",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "7788524_6",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7788524_7",
+   "entidades": [
+    {
+     "nome": "Intel 8087",
+     "tipo": "Hardware",
+     "aliases": [
+      "8087"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8089",
+     "tipo": "Hardware",
+     "aliases": [
+      "8089"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7788524_8",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7788524_9",
+   "entidades": [
+    {
+     "nome": "Intel 8086",
+     "tipo": "Hardware",
+     "aliases": [
+      "8086"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8080",
+     "tipo": "Hardware",
+     "aliases": [
+      "8080"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8085",
+     "tipo": "Hardware",
+     "aliases": [
+      "8085"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "PDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "VAX",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "PL/M",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7788524_10",
+   "entidades": [
+    {
+     "nome": "Intel 80186",
+     "tipo": "Hardware",
+     "aliases": [
+      "80186"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 80286",
+     "tipo": "Hardware",
+     "aliases": [
+      "80286"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 80386",
+     "tipo": "Hardware",
+     "aliases": [
+      "80386"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7788524_11",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7788524_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7788524_13",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7788524_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7788524_15",
+   "entidades": [
+    {
+     "nome": "Intel 80386",
+     "tipo": "Hardware",
+     "aliases": [
+      "80386"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7788524_16",
+   "entidades": [
+    {
+     "nome": "Intel 8086",
+     "tipo": "Hardware",
+     "aliases": [
+      "8086"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "DOS"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "CP/M",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7788524_17",
+   "entidades": [
+    {
+     "nome": "Intel 8086",
+     "tipo": "Hardware",
+     "aliases": [
+      "8086"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "CP/M",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7788524_18",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7788524_19",
+   "entidades": [
+    {
+     "nome": "ALGOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7788524_20",
+   "entidades": [
+    {
+     "nome": "Intel 8086",
+     "tipo": "Hardware",
+     "aliases": [
+      "8086"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8080",
+     "tipo": "Hardware",
+     "aliases": [
+      "8080"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8085",
+     "tipo": "Hardware",
+     "aliases": [
+      "8085"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 80186",
+     "tipo": "Hardware",
+     "aliases": [
+      "80186"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 80286",
+     "tipo": "Hardware",
+     "aliases": [
+      "80286"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7788524_21",
+   "entidades": [
+    {
+     "nome": "Intel 8080",
+     "tipo": "Hardware",
+     "aliases": [
+      "8080"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8085",
+     "tipo": "Hardware",
+     "aliases": [
+      "8085"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8088",
+     "tipo": "Hardware",
+     "aliases": [
+      "8088"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "IBM PC",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8088",
+     "propriedades": {},
+     "evidencia": "o 8088 (usado no IBM PC)",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "7788524_22",
+   "entidades": [
+    {
+     "nome": "Intel 80186",
+     "tipo": "Hardware",
+     "aliases": [
+      "80186"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 80286",
+     "tipo": "Hardware",
+     "aliases": [
+      "80286"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7788524_23",
+   "entidades": [
+    {
+     "nome": "Intel 8086",
+     "tipo": "Hardware",
+     "aliases": [
+      "8086"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8088",
+     "tipo": "Hardware",
+     "aliases": [
+      "8088"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8087",
+     "tipo": "Hardware",
+     "aliases": [
+      "8087"
+     ],
+     "descricao": "Coprocessador matemático padrão para o 8086 e 8088, operando em números de 80 bits.",
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Cyrix",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Weitek",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel 80186",
+     "tipo": "Hardware",
+     "aliases": [
+      "80186"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 80286",
+     "tipo": "Hardware",
+     "aliases": [
+      "80286"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7788524_24",
+   "entidades": [
+    {
+     "nome": "Intel 8086",
+     "tipo": "Hardware",
+     "aliases": [
+      "8086"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 80186",
+     "tipo": "Hardware",
+     "aliases": [
+      "80186"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 80C86",
+     "tipo": "Hardware",
+     "aliases": [
+      "80C86"
+     ],
+     "descricao": "Versão CMOS do 8086.",
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "GridPad",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Toshiba T1200",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "HP 110",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Intel 80186",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Intel 8086",
+     "propriedades": {},
+     "evidencia": "embora seu sucessor, o 80186/80188 (que inclui alguns periféricos no chip), tenha sido mais popular para uso embarcado",
+     "confianca": 0.75
+    },
+    {
+     "origem": "GridPad",
+     "tipo": "UTILIZA",
+     "destino": "Intel 80C86",
+     "propriedades": {},
+     "evidencia": "O 80C86, a versão CMOS do 8086, foi usado em muitos computadores portáteis e sistemas embarcados, incluindo o GridPad, Toshiba T1200, HP 110",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Toshiba T1200",
+     "tipo": "UTILIZA",
+     "destino": "Intel 80C86",
+     "propriedades": {},
+     "evidencia": "O 80C86, a versão CMOS do 8086, foi usado em muitos computadores portáteis e sistemas embarcados, incluindo o GridPad, Toshiba T1200, HP 110",
+     "confianca": 0.85
+    },
+    {
+     "origem": "HP 110",
+     "tipo": "UTILIZA",
+     "destino": "Intel 80C86",
+     "propriedades": {},
+     "evidencia": "O 80C86, a versão CMOS do 8086, foi usado em muitos computadores portáteis e sistemas embarcados, incluindo o GridPad, Toshiba T1200, HP 110",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "7788524_25",
+   "entidades": [
+    {
+     "nome": "Intel 8086",
+     "tipo": "Hardware",
+     "aliases": [
+      "8086"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Fujitsu",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Harris/Intersil",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "OKI",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Siemens",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "NEC",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Mitsubishi",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "NEC V20",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "NEC V30",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "μPD8088D",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "μPD8086D",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "K1810VM86",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Chip soviético compatível a nível binário e de pinagem com o 8086.",
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "União Soviética",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "NEC",
+     "tipo": "DESENVOLVEU",
+     "destino": "μPD8086D",
+     "propriedades": {},
+     "evidencia": "a NEC tenha feito clones originais da Intel, o μPD8088D e o μPD8086D respectivamente",
+     "confianca": 0.8
+    },
+    {
+     "origem": "NEC",
+     "tipo": "DESENVOLVEU",
+     "destino": "μPD8088D",
+     "propriedades": {},
+     "evidencia": "a NEC tenha feito clones originais da Intel, o μPD8088D e o μPD8086D respectivamente",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "7788524_26",
+   "entidades": [
+    {
+     "nome": "Intel 8086",
+     "tipo": "Hardware",
+     "aliases": [
+      "i8086"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8088",
+     "tipo": "Hardware",
+     "aliases": [
+      "i8088"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "EC1831",
+     "tipo": "Hardware",
+     "aliases": [
+      "IZOT 1036C"
+     ],
+     "descricao": "Primeiro computador compatível com PC com dimensionamento de barramento dinâmico.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "EC1832",
+     "tipo": "Hardware",
+     "aliases": [
+      "IZOT 1037C"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM PS/2",
+     "tipo": "Hardware",
+     "aliases": [
+      "PS/2"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Bulgária",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "EC1831",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8086",
+     "propriedades": {},
+     "evidencia": "Os i8086 e i8088 eram, respectivamente, os núcleos dos desktops EC1831 e EC1832",
+     "confianca": 0.9
+    },
+    {
+     "origem": "EC1832",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8088",
+     "propriedades": {},
+     "evidencia": "Os i8086 e i8088 eram, respectivamente, os núcleos dos desktops EC1831 e EC1832",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "7788524_27",
+   "entidades": [
+    {
+     "nome": "IBM PS/2",
+     "tipo": "Hardware",
+     "aliases": [
+      "PS/2"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Intel 8237",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Controlador de acesso direto à memória (DMA).",
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Intel 8251",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Receptor/transmissor síncrono/assíncrono universal.",
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Intel 8253",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Temporizador de intervalo programável.",
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Intel 8255",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Interface periférica programável.",
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Intel 8259",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Controlador de interrupção programável.",
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Intel 8279",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Controlador de teclado/tela.",
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Intel 8284",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Gerador de clock.",
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Intel 8288",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Controlador de barramento.",
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Intel 8289",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Árbitro de barramento.",
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "NEC μPD765",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Controlador de disquete.",
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Intel 8272A",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Controlador de disquete.",
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "7788524_28",
+   "entidades": [
+    {
+     "nome": "Intel 8086",
+     "tipo": "Hardware",
+     "aliases": [
+      "8086"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel ISBC 86/12",
+     "tipo": "Hardware",
+     "aliases": [
+      "ISBC 86/12"
+     ],
+     "descricao": "Computador de placa única compatível com Intel Multibus, anunciado em 1978.",
+     "propriedades": {
+      "ano": 1978,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Xerox NoteTaker",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Um dos primeiros designs de computador portátil, em 1978; nunca entrou em produção comercial.",
+     "propriedades": {
+      "ano": 1978,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Seattle Computer Products",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "SCP200B",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Mycron 2000",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Compaq Deskpro",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM PC XT",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Xerox NoteTaker",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8086",
+     "propriedades": {},
+     "evidencia": "usou três chips 8086 (como CPU, processador gráfico e processador de E/S)",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Compaq Deskpro",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8086",
+     "propriedades": {},
+     "evidencia": "O primeiro Compaq Deskpro usava um 8086 rodando a 7,16 MHz",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Seattle Computer Products",
+     "tipo": "DESENVOLVEU",
+     "destino": "SCP200B",
+     "propriedades": {},
+     "evidencia": "A Seattle Computer Products lançou sistemas 8086 baseados em barramento S-100 (SCP200B)",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "7788524_29",
+   "entidades": [
+    {
+     "nome": "Intel 8086",
+     "tipo": "Hardware",
+     "aliases": [
+      "8086"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "AT&T 6300",
+     "tipo": "Hardware",
+     "aliases": [
+      "PC AT&T 6300",
+      "M24",
+      "PC 6300"
+     ],
+     "descricao": "Microcomputador desktop compatível com IBM PC, construído pela Olivetti.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Olivetti",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Olivetti M24SP",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM PS/2",
+     "tipo": "Hardware",
+     "aliases": [
+      "PS/2"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Amstrad PC1512",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Amstrad PC1640",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Amstrad PC2086",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Amstrad PC3086",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Amstrad PC5086",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "NEC PC-9801",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Tandy 1000",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM Displaywriter",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Wang Professional Computer",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Wang Laboratories",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "NASA",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "AT&T 6300",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8086",
+     "propriedades": {},
+     "evidencia": "Um 8086-2 de 8 MHz foi usado no PC AT&T 6300",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Olivetti",
+     "tipo": "DESENVOLVEU",
+     "destino": "AT&T 6300",
+     "propriedades": {},
+     "evidencia": "PC AT&T 6300 (construído pela Olivetti e conhecido globalmente por várias marcas e números de modelo)",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Olivetti M24SP",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8086",
+     "propriedades": {},
+     "evidencia": "O Olivetti M24SP posterior apresentava um 8086-2 rodando no máximo de 10 MHz",
+     "confianca": 0.9
+    },
+    {
+     "origem": "IBM PS/2",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8086",
+     "propriedades": {},
+     "evidencia": "Os modelos 25 e 30 do IBM PS/2 foram construídos com um 8086 de 8 MHz",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Amstrad PC1512",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8086",
+     "propriedades": {},
+     "evidencia": "O Amstrad PC1512, PC1640, PC2086, PC3086 e PC5086 usaram CPUs 8086 a 8 MHz",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Amstrad PC1640",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8086",
+     "propriedades": {},
+     "evidencia": "O Amstrad PC1512, PC1640, PC2086, PC3086 e PC5086 usaram CPUs 8086 a 8 MHz",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Amstrad PC2086",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8086",
+     "propriedades": {},
+     "evidencia": "O Amstrad PC1512, PC1640, PC2086, PC3086 e PC5086 usaram CPUs 8086 a 8 MHz",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Amstrad PC3086",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8086",
+     "propriedades": {},
+     "evidencia": "O Amstrad PC1512, PC1640, PC2086, PC3086 e PC5086 usaram CPUs 8086 a 8 MHz",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Amstrad PC5086",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8086",
+     "propriedades": {},
+     "evidencia": "O Amstrad PC1512, PC1640, PC2086, PC3086 e PC5086 usaram CPUs 8086 a 8 MHz",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Tandy 1000",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8086",
+     "propriedades": {},
+     "evidencia": "As máquinas Tandy 1000 da série SL e RL usavam CPUs 8086 de 9,47 MHz",
+     "confianca": 0.9
+    },
+    {
+     "origem": "IBM Displaywriter",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8086",
+     "propriedades": {},
+     "evidencia": "O sistema de processamento de texto IBM Displaywriter e o Wang Professional Computer, fabricado pela Wang Laboratories, também usaram o 8086",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Wang Professional Computer",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8086",
+     "propriedades": {},
+     "evidencia": "O sistema de processamento de texto IBM Displaywriter e o Wang Professional Computer, fabricado pela Wang Laboratories, também usaram o 8086",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Wang Laboratories",
+     "tipo": "DESENVOLVEU",
+     "destino": "Wang Professional Computer",
+     "propriedades": {},
+     "evidencia": "o Wang Professional Computer, fabricado pela Wang Laboratories",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "7788524_30",
+   "entidades": [
+    {
+     "nome": "Intel 8086",
+     "tipo": "Hardware",
+     "aliases": [
+      "8086"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8088",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Versão do 8086 com barramento de dados de 8 bits.",
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Um dos microcomputadores mais influentes de todos os tempos.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Tektronix 4170",
+     "tipo": "Hardware",
+     "aliases": [
+      "Tektronix 4170 Local Graphics Processing Unit"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "CP/M-86",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "IBM PC",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8088",
+     "propriedades": {},
+     "evidencia": "o IBM PC, usava o Intel 8088, uma versão do 8086 com barramento de dados de 8 bits",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Tektronix 4170",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8086",
+     "propriedades": {},
+     "evidencia": "O Tektronix 4170 Local Graphics Processing Unit usou o SO CP/M-86 e CPU 8086",
+     "confianca": 0.85
+    },
+    {
+     "origem": "CP/M-86",
+     "tipo": "EXECUTA_EM",
+     "destino": "Intel 8086",
+     "propriedades": {},
+     "evidencia": "usou o SO CP/M-86 e CPU 8086",
+     "confianca": 0.6
+    }
+   ]
+  }
+ ]
+}

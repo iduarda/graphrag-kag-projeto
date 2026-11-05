@@ -1,0 +1,416 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 3787,
+    "titulo": "Pascal (linguagem de programação)",
+    "url": "https://pt.wikipedia.org/wiki/Pascal_(linguagem_de_programa%C3%A7%C3%A3o)",
+    "categoria": "Linguagem",
+    "wikidata_id": "Q81571"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:23:02+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "linguagem:pascal",
+  "chunks": [
+    {
+      "id": "3787_0",
+      "ordem": 0,
+      "texto": "Pascal, é uma linguagem de programação orientada por objetos, que recebeu este nome em homenagem ao matemático e físico Blaise Pascal. Foi criada em 1970 pelo suíço Niklaus Wirth, tendo em mente encorajar o uso de código estruturado.\nO próprio, Niklaus Wirth, diz que a linguagem Pascal foi criada simultaneamente para ensinar programação estruturada e para ser utilizada na sua fábrica de software. Simultaneamente, a linguagem reflete a libertação pessoal de Wirth das restrições impostas após seu envolvimento com a especificação de ALGOL 68, e sua sugestão para essa especificação, o ALGOL W.\nPascal originou uma enorme gama de dialetos, podendo também ser considerada uma família de linguagens de programação. Grande parte de seu sucesso se deve a criação, na década de 1980, da linguagem Turbo Pascal, inicialmente disponível para computadores baseados na arquitetura 8086 (com versões para 8080 no seu início).\nPascal é normalmente uma das linguagens de escolha para ensinar programação, junto com Scheme, C e Fortran. Comercialmente, a linguagem foi sucedida pela criação da linguagem Object Pascal, atualmente utilizada nos IDEs Embarcadero Delphi (Object Pascal), Kylix e Lazarus. Academicamente, seus sucessores são as linguagens subsequentes de Niklaus Wirth: Modula-2 e Oberon. A partir da versão 2005, o Delphi passou a se referir a sua linguagem de programação como Delphi Language."
+    },
+    {
+      "id": "3787_1",
+      "ordem": 1,
+      "texto": "A partir da versão 2005, o Delphi passou a se referir a sua linguagem de programação como Delphi Language.\nAssim como a linguagem C, que foi padronizado pela ANSI (ANSI C), o Pascal possui padrões pela ISO, como o Pascal Standard e o Advanced Pascal.\nImplementações: O primeiro compilador Pascal foi desenvolvido em Zurique para a família de computadores CDC 6000, sendo lançado em 1970. Também em 1970 foi desenvolvido o primeiro compilador Pascal norte americano, na Universidade de Illinois por Donald B. Gillies, que gerava código de máquina nativo para o mini-computador PDP-11.\nPensando-se em propagar rapidamente o uso da linguagem, foi criado, em Zurique, um \"kit de conversão\" que incluia um compilador que gerava código intermediário, e um simulador para ele. Esse kit foi batizado de p-System, e foi utilizado, entre outras coisas, para criar um sistema operacional para mini-computadores chamado UCSD p-System, desenvolvido pelo Instituto de Sistemas de Informação da Universidade da Califórnia em San Diego. Segundo o próprio Niklaus Wirth, o p-System e o UCSD foram instrumentais na popularização do Pascal. No padrão UCSD, as Strings passaram a ser tipos pré definidos (no Pascal padrão era utilizados packed-arrays)."
+    },
+    {
+      "id": "3787_2",
+      "ordem": 2,
+      "texto": "No padrão UCSD, as Strings passaram a ser tipos pré definidos (no Pascal padrão era utilizados packed-arrays).\nNos anos 80, Anders Hejlsberg desenvolveu o compilador Blue Label Pascal o Nascom-2. Depois, ele foi trabalhar na Borland e reescreveu seu compilador transformando-o no Turbo Pascal para a plataforma IBM PC (e também CP/M 80), que era vendido a US$ 49,95, muito mais barato do que o Blue Label. Uma característica muito importante é que o Turbo Pascal é uma linguagem compilada, que gera código de máquina real para a arquitetura Intel 8088, tornando-a muito mais rápida do que as linguagens interpretadas.\nPor ser mais barato, o Turbo Pascal passou a ter uma grande influência na comunidade Pascal, que começou a se concentrar na plataforma IBM PC no fim dos anos 80. Muitos usuários de PC da época migraram para o Turbo Pascal, em busca de uma linguagem estruturada que não fosse interpretada, para substituir, por exemplo, o BASIC. Pode se afirmar que o sucesso comercial de Turbo Pascal foi definitivo para a ampla divulgação da linguagem Pascal.\nOutra variante era o Super Pascal, que adicionava labels não numéricas, o comando return e expressões como nomes de tipos.\nDurante os anos 90, compiladores que podiam ser modificados para trabalhar com arquiteturas diferentes tiveram grande destaque, incluindo nessa lista o Pascal."
+    },
+    {
+      "id": "3787_3",
+      "ordem": 3,
+      "texto": "Durante os anos 90, compiladores que podiam ser modificados para trabalhar com arquiteturas diferentes tiveram grande destaque, incluindo nessa lista o Pascal.\nO próximo grande passo para a linguagem, foi a implementação da orientação a objeto (OO ou OOP em inglês) na sua estrutura, começando com a versão 5.5 do Turbo Pascal. Mais tarde, ao projetar o Delphi, querendo funcionalidades mais elaboradas da orientação a objeto, a Borland utilizou o conceito Object Pascal criado pela Apple Inc., utilizando-o como base para uma nova linguagem, que nas versões iniciais era chamado de Object Pascal mas foi rebatizado como Delphi Programming Language nas versões posteriores. As maiores diferenças em relação às implementações OO das versões mais antigas foram a adição do conceito de objetos por referência, construtores, destrutores e propriedades, entre outros."
+    },
+    {
+      "id": "3787_4",
+      "ordem": 4,
+      "texto": "As maiores diferenças em relação às implementações OO das versões mais antigas foram a adição do conceito de objetos por referência, construtores, destrutores e propriedades, entre outros.\nPadrões/Normas: Em 1983, a linguagem foi padronizada, na norma internacional ISO / IEC 7185, assim como vários padrões locais específicos de cada país, incluindo a norma americana ANSI/IEEE770X3.97-1983, e ISO 7185:1983. A diferença entre as duas normas é que a padrão ISO possui o “nível 1”, extensão do arrays conformantes, enquanto a ANSI não permitiu esta extensão à linguagem original (versão Wirth). Em 1989, foi revista a ISO 7185 (ISO 7185:1990) para corrigir vários erros e ambiguidades encontradas no documento original\nEm 1990, foi criado uma norma ISO / IEC 10206 padronizando o Pascal. Em 1993, o padrão ANSI foi substituído com um \"ponteiro\" para a norma ISO 7185:1990, que termina efetivamente o seu estatuto como um padrão diferente.\nA norma ISO 7185 foi indicada para ser uma clarificação de Wirth da linguagem como detalhado em 1974 no Manual do Usuário/Utilizador e Relatório [Jensen e Wirth], mas também foi notável pela inclusão de \"Parâmetros de array conformantes\" como um nível 1 da norma, sendo nível 0 Pascal sem Conformantes Arrays.\nNote que o próprio Niklaus Wirth se refere à linguagem 1974 como “o padrão”, por exemplo, para diferenciá-la das características específicas de implementação em nível de máquina do compilador CDC 6000. Esta linguagem foi documentada em \"The Pascal Report\", a segunda parte do \"Pascal users manual and report\"."
+    },
+    {
+      "id": "3787_5",
+      "ordem": 5,
+      "texto": "Esta linguagem foi documentada em \"The Pascal Report\", a segunda parte do \"Pascal users manual and report\".\nNas grandes máquinas (mainframes e minicomputadores) eram seguidos padrões gerais. Na IBM-PC, não eram. No IBM-PC, o Turbo Pascal e Delphi, padrão Borland, tem o maior número de usuários. Assim, é de extrema importância entender se uma determinada aplicação corresponde à linguagem original Pascal, Borland ou um dialeto do mesmo.\nAs versões da linguagem do IBM-PC começaram a divergir com a vinda da UCSD Pascal, uma aplicação que implementou várias prorrogações para a linguagem, juntamente com várias omissões e mudanças. Muitas características da linguagem UCSD sobrevivem atualmente, inclusive em linguagens Borlands."
+    },
+    {
+      "id": "3787_6",
+      "ordem": 6,
+      "texto": "Muitas características da linguagem UCSD sobrevivem atualmente, inclusive em linguagens Borlands.\nSintaxe: A linguagem Pascal foi criada para incentivar a programação modular e estruturada, facilitando a criação de procedimentos com baixo acoplamento e alta coesão. Um programa em Pascal é composto de constantes e variáveis globais, procedimentos e funções re-entrantes e um programa principal.\nProcedimentos não retornam valores, funções sim. Tanto em procedimentos quanto em funções os parâmetros podem ser passados por referência ou por valor. É possível passar vetores e matrizes com o tamanho, mas não a quantidade de dimensões, especificado no tempo de execução.\nProcedimentos e funções podem conter, dentro de seu escopo, novos procedimentos e funções. Dentro de qualquer parte do programa também podem ser criados blocos com os comandos BEGIN e END, que também possuem seu próprio escopo. Nas versões originais, as variáveis só podiam ser declaradas em posições específicas e não ao decorrer do programa, o que limitava a regra de escopo.\nO conjunto de procedimentos e funções pré-definidos é fixo e inclui as funções read, readln, write e writeln, para realizar E/S."
+    },
+    {
+      "id": "3787_7",
+      "ordem": 7,
+      "texto": "O conjunto de procedimentos e funções pré-definidos é fixo e inclui as funções read, readln, write e writeln, para realizar E/S.\nExemplos de código: Nota importante: Os programas foram desenvolvidos com o Turbo Pascal (Borland). Para funcionarem com outros compiladores, devem ser feitas as seguintes alterações:\nLinha inicial passa de program name; para program name (input,output);\nA instrução readkey desaparece\nA directiva uses desaparece porque é própria do Turbo Pascal, bem como a biblioteca crt\nA instrução clrscr desaparece porque faz parte da biblioteca crt\nA declaração string passa para array [1..255] of char (supondo que iriam ser usados até 255 caracteres) já que o Pascal não suporta strings nativamente.\nAs instruções readln para ler cadeias de caracteres, têm de estar todas dentro de ciclos, para ler um caracter de cada vez."
+    },
+    {
+      "id": "3787_8",
+      "ordem": 8,
+      "texto": "As instruções readln para ler cadeias de caracteres, têm de estar todas dentro de ciclos, para ler um caracter de cada vez.\nRepetição: Soma dos números pares.\njogo simples: nave contra fantasma.\nCompiladores Gratuitos: Há vários compiladores Pascal gratuitos, como por exemplo:\n«Chrome». é a próxima geração do Object Pascal para as plataformas .NET e Mono, desenvolvida pela RemObjects Software\n«Free Pascal». é um poderoso compilador escrito em Pascal, distribuido sob a licença de uso GNU GPL. Pode ser utilizado em conjunto com código escrito em Turbo Pascal ou Delphi, e pode ser usado em várias plataformas e sistemas operacionais\n«GNU Pascal Compiler (GPC)». é o compilador padrão da GNU Compiler Collection (GCC). O compilador foi escrito em C, mas a maior parte da biblioteca de funções da linguagem é escrita em Pascal. Ele segue os padrões ANSI/ISO e grande parte dos padrões Borland/Turbo Pascal. O suporte ao Delphi ainda é limitado\n«Kylix». é uma versão do Delphi para o sistema operacional Linux, sendo que seu compilador e sua interface de desenvolvimento são gratuitas para uso não comercial, mas sua biblioteca de componentes não. Espera-se que o código-fonte do compilador seja aberto em breve\n«P4 compiler». , utilizado para o desenvolvimento de vários compiladores Pascal escritos em Pascal, incluindo o UCSD p-System\nO Pascalzim é um compilador gratuito que foi desenvolvido na Universidade de Brasília e é utilizado em várias disciplinas de introdução a programação na UnB e outras universidades."
+    },
+    {
+      "id": "3787_9",
+      "ordem": 9,
+      "texto": "O Pascalzim é um compilador gratuito que foi desenvolvido na Universidade de Brasília e é utilizado em várias disciplinas de introdução a programação na UnB e outras universidades.\nTurbo Pascal era o principal compilador Pascal para PCs durante os anos 80 e início dos anos 90, devendo sua popularidade ao seu grande poder e pequeno tempo de compilação. Hoje em dia, suas versões mais antigas (até a versão 5.5) podem ser baixadas gratuitamente no site da Borland (exige registro)\n«Virtual Pascal». foi criado por Vitaly Miryanov em 1995 como um compilador nativo para OS/2, compatível com a sintaxe do Pascal da Borland. Mais tarde foi comercialmente lançado pela fPrint, adicionando a ele suporte para Win32, tornando-se um freeware em 2000. Atualmente, ele pode ser compilado para as plataformas Win32, OS/2 e Linux, sendo compatível em grande parte com o Pascal da Borland e o Delphi\nUma extensa lista de compiladores pode ser encontrada na Pascaland. O site é escrito em francês, mas isso não faz muita diferença, já que é apenas uma lista de URLs para os compiladores."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "linguagem:pascal",
+      "nome": "Pascal",
+      "tipo": "Linguagem",
+      "aliases": [
+        "Pascal (linguagem de programação)"
+      ],
+      "descricao": "Linguagem criada em 1970 por Niklaus Wirth para encorajar o uso de código estruturado.",
+      "propriedades": {
+        "ano": 1970
+      },
+      "chunk_ids": [
+        "3787_0",
+        "3787_1",
+        "3787_2",
+        "3787_3",
+        "3787_4",
+        "3787_5",
+        "3787_6",
+        "3787_7",
+        "3787_8",
+        "3787_9"
+      ]
+    },
+    {
+      "id": "pessoa:niklaus_wirth",
+      "nome": "Niklaus Wirth",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "descricao": "Suíço criador do Pascal.",
+      "propriedades": {},
+      "chunk_ids": [
+        "3787_0"
+      ]
+    },
+    {
+      "id": "pessoa:blaise_pascal",
+      "nome": "Blaise Pascal",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "descricao": "Matemático e físico que deu nome à linguagem Pascal.",
+      "propriedades": {},
+      "chunk_ids": [
+        "3787_0"
+      ]
+    },
+    {
+      "id": "linguagem:turbo_pascal",
+      "nome": "Turbo Pascal",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "descricao": "Linguagem cuja criação foi responsável por grande parte do sucesso do Pascal.",
+      "propriedades": {},
+      "chunk_ids": [
+        "3787_0",
+        "3787_2"
+      ]
+    },
+    {
+      "id": "linguagem:modula_2",
+      "nome": "Modula-2",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "3787_0"
+      ]
+    },
+    {
+      "id": "linguagem:oberon",
+      "nome": "Oberon",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "3787_0"
+      ]
+    },
+    {
+      "id": "linguagem:object_pascal",
+      "nome": "Object Pascal",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "descricao": "Conceito criado pela Apple Inc. e usado pela Borland como base para o Delphi.",
+      "propriedades": {},
+      "chunk_ids": [
+        "3787_0",
+        "3787_3"
+      ]
+    },
+    {
+      "id": "hardware:intel_8086",
+      "nome": "Intel 8086",
+      "tipo": "Hardware",
+      "aliases": [
+        "8086",
+        "iAPX 86"
+      ],
+      "propriedades": {
+        "tipo": "processador"
+      },
+      "chunk_ids": [
+        "3787_0"
+      ]
+    },
+    {
+      "id": "hardware:pdp_11",
+      "nome": "PDP-11",
+      "tipo": "Hardware",
+      "aliases": [],
+      "descricao": "Mini-computador para o qual o primeiro compilador Pascal norte-americano gerava código nativo.",
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "3787_1"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_da_california_em_san_diego",
+      "nome": "Universidade da Califórnia em San Diego",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "descricao": "Universidade cujo Instituto de Sistemas de Informação desenvolveu o UCSD p-System.",
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "3787_1"
+      ]
+    },
+    {
+      "id": "tecnologia:ucsd_p_system",
+      "nome": "UCSD p-System",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "descricao": "Sistema operacional para mini-computadores baseado no p-System.",
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "3787_1"
+      ]
+    },
+    {
+      "id": "pessoa:anders_hejlsberg",
+      "nome": "Anders Hejlsberg",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "descricao": "Desenvolveu o compilador Blue Label Pascal e depois o Turbo Pascal.",
+      "propriedades": {},
+      "chunk_ids": [
+        "3787_2"
+      ]
+    },
+    {
+      "id": "organizacao:borland",
+      "nome": "Borland",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "descricao": "Empresa onde Anders Hejlsberg trabalhou e que vendeu o Turbo Pascal.",
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "3787_2",
+        "3787_3"
+      ]
+    },
+    {
+      "id": "hardware:ibm_pc",
+      "nome": "IBM PC",
+      "tipo": "Hardware",
+      "aliases": [
+        "IBM 5150",
+        "IBM Personal Computer"
+      ],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "3787_2"
+      ]
+    },
+    {
+      "id": "hardware:intel_8088",
+      "nome": "Intel 8088",
+      "tipo": "Hardware",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "processador"
+      },
+      "chunk_ids": [
+        "3787_2"
+      ]
+    },
+    {
+      "id": "organizacao:apple",
+      "nome": "Apple",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Apple Inc.",
+        "Apple Inc",
+        "Apple Computer",
+        "Apple Computer, Inc."
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "3787_3"
+      ]
+    },
+    {
+      "id": "linguagem:delphi",
+      "nome": "Delphi",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "descricao": "Linguagem da Borland, inicialmente chamada Object Pascal e depois Delphi Programming Language.",
+      "propriedades": {},
+      "chunk_ids": [
+        "3787_3"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:niklaus_wirth",
+      "tipo": "CRIOU",
+      "destino": "linguagem:pascal",
+      "propriedades": {
+        "ano": 1970
+      },
+      "chunk_id": "3787_0",
+      "evidencia": "Foi criada em 1970 pelo suíço Niklaus Wirth",
+      "confianca": 0.95
+    },
+    {
+      "origem": "linguagem:modula_2",
+      "tipo": "SUCESSOR_DE",
+      "destino": "linguagem:pascal",
+      "propriedades": {},
+      "chunk_id": "3787_0",
+      "evidencia": "Academicamente, seus sucessores são as linguagens subsequentes de Niklaus Wirth: Modula-2 e Oberon.",
+      "confianca": 0.8
+    },
+    {
+      "origem": "linguagem:oberon",
+      "tipo": "SUCESSOR_DE",
+      "destino": "linguagem:pascal",
+      "propriedades": {},
+      "chunk_id": "3787_0",
+      "evidencia": "Academicamente, seus sucessores são as linguagens subsequentes de Niklaus Wirth: Modula-2 e Oberon.",
+      "confianca": 0.8
+    },
+    {
+      "origem": "linguagem:object_pascal",
+      "tipo": "SUCESSOR_DE",
+      "destino": "linguagem:pascal",
+      "propriedades": {},
+      "chunk_id": "3787_0",
+      "evidencia": "Comercialmente, a linguagem foi sucedida pela criação da linguagem Object Pascal",
+      "confianca": 0.9
+    },
+    {
+      "origem": "linguagem:turbo_pascal",
+      "tipo": "EXECUTA_EM",
+      "destino": "hardware:intel_8086",
+      "propriedades": {},
+      "chunk_id": "3787_0",
+      "evidencia": "inicialmente disponível para computadores baseados na arquitetura 8086",
+      "confianca": 0.7
+    },
+    {
+      "origem": "organizacao:universidade_da_california_em_san_diego",
+      "tipo": "DESENVOLVEU",
+      "destino": "tecnologia:ucsd_p_system",
+      "propriedades": {},
+      "chunk_id": "3787_1",
+      "evidencia": "desenvolvido pelo Instituto de Sistemas de Informação da Universidade da Califórnia em San Diego",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:anders_hejlsberg",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:borland",
+      "propriedades": {},
+      "chunk_id": "3787_2",
+      "evidencia": "Depois, ele foi trabalhar na Borland",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:anders_hejlsberg",
+      "tipo": "CRIOU",
+      "destino": "linguagem:turbo_pascal",
+      "propriedades": {},
+      "chunk_id": "3787_2",
+      "evidencia": "reescreveu seu compilador transformando-o no Turbo Pascal",
+      "confianca": 0.75
+    },
+    {
+      "origem": "linguagem:turbo_pascal",
+      "tipo": "EXECUTA_EM",
+      "destino": "hardware:ibm_pc",
+      "propriedades": {},
+      "chunk_id": "3787_2",
+      "evidencia": "transformando-o no Turbo Pascal para a plataforma IBM PC",
+      "confianca": 0.85
+    },
+    {
+      "origem": "linguagem:turbo_pascal",
+      "tipo": "EXECUTA_EM",
+      "destino": "hardware:intel_8088",
+      "propriedades": {},
+      "chunk_id": "3787_2",
+      "evidencia": "gera código de máquina real para a arquitetura Intel 8088",
+      "confianca": 0.75
+    },
+    {
+      "origem": "organizacao:apple",
+      "tipo": "DESENVOLVEU",
+      "destino": "linguagem:object_pascal",
+      "propriedades": {},
+      "chunk_id": "3787_3",
+      "evidencia": "utilizou o conceito Object Pascal criado pela Apple Inc.",
+      "confianca": 0.8
+    },
+    {
+      "origem": "organizacao:borland",
+      "tipo": "DESENVOLVEU",
+      "destino": "linguagem:delphi",
+      "propriedades": {},
+      "chunk_id": "3787_3",
+      "evidencia": "ao projetar o Delphi, querendo funcionalidades mais elaboradas da orientação a objeto, a Borland utilizou",
+      "confianca": 0.7
+    },
+    {
+      "origem": "linguagem:delphi",
+      "tipo": "INFLUENCIADA_POR",
+      "destino": "linguagem:object_pascal",
+      "propriedades": {},
+      "chunk_id": "3787_3",
+      "evidencia": "utilizando-o como base para uma nova linguagem",
+      "confianca": 0.7
+    }
+  ]
+}

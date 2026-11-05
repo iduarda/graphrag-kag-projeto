@@ -1,0 +1,400 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:24:25+00:00",
+ "chunks": [
+  {
+   "chunk_id": "24802_0",
+   "entidades": [
+    {
+     "nome": "Fortran",
+     "tipo": "Linguagem",
+     "aliases": [
+      "FORTRAN"
+     ],
+     "descricao": "Linguagem de programação voltada para computação científica e técnica.",
+     "propriedades": {
+      "paradigmas": [
+       "procedural",
+       "orientada a objetos"
+      ]
+     }
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "24802_1",
+   "entidades": [
+    {
+     "nome": "Fortran",
+     "tipo": "Linguagem",
+     "aliases": [
+      "FORTRAN"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM 704",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "John Backus",
+     "tipo": "Pessoa",
+     "aliases": [
+      "John W. Backus"
+     ],
+     "descricao": "Chefiou a equipe da IBM que desenvolveu o primeiro compilador de FORTRAN.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "IBM",
+     "tipo": "DESENVOLVEU",
+     "destino": "Fortran",
+     "propriedades": {},
+     "evidencia": "O primeiro compilador de FORTRAN foi desenvolvido para o IBM 704 entre os anos de 1954-57, por uma equipe da IBM chefiada por John W. Backus",
+     "confianca": 0.7
+    },
+    {
+     "origem": "John Backus",
+     "tipo": "CRIOU",
+     "destino": "Fortran",
+     "propriedades": {},
+     "evidencia": "O primeiro compilador de FORTRAN foi desenvolvido para o IBM 704 entre os anos de 1954-57, por uma equipe da IBM chefiada por John W. Backus",
+     "confianca": 0.65
+    },
+    {
+     "origem": "Fortran",
+     "tipo": "EXECUTA_EM",
+     "destino": "IBM 704",
+     "propriedades": {},
+     "evidencia": "O primeiro compilador de FORTRAN foi desenvolvido para o IBM 704",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "24802_2",
+   "entidades": [
+    {
+     "nome": "Fortran",
+     "tipo": "Linguagem",
+     "aliases": [
+      "FORTRAN"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "24802_3",
+   "entidades": [
+    {
+     "nome": "Fortran",
+     "tipo": "Linguagem",
+     "aliases": [
+      "FORTRAN"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM 704",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Fortran",
+     "tipo": "EXECUTA_EM",
+     "destino": "IBM 704",
+     "propriedades": {},
+     "evidencia": "Em Abril de 1957 o compilador foi concluído e distribuído para todos os clientes do IBM 704",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "24802_4",
+   "entidades": [
+    {
+     "nome": "Fortran",
+     "tipo": "Linguagem",
+     "aliases": [
+      "FORTRAN"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM 704",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "24802_5",
+   "entidades": [
+    {
+     "nome": "Fortran",
+     "tipo": "Linguagem",
+     "aliases": [
+      "FORTRAN"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM 704",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "24802_6",
+   "entidades": [
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "24802_7",
+   "entidades": [
+    {
+     "nome": "American Standards Association",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ASA"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "24802_8",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "24802_9",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "24802_10",
+   "entidades": [
+    {
+     "nome": "Fortran",
+     "tipo": "Linguagem",
+     "aliases": [
+      "FORTRAN"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ada",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "24802_11",
+   "entidades": [
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ada",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "24802_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "24802_13",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "24802_14",
+   "entidades": [
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "24802_15",
+   "entidades": [
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Universidade de Waterloo",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Canadá",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Universidade de Waterloo",
+     "tipo": "SEDIADA_EM",
+     "destino": "Canadá",
+     "propriedades": {},
+     "evidencia": "desenvolvida na Universidade de Waterloo, Canadá",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "24802_16",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "24802_17",
+   "entidades": [
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "24802_18",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

@@ -1,0 +1,617 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 17663,
+    "titulo": "Steve Wozniak",
+    "url": "https://pt.wikipedia.org/wiki/Steve_Wozniak",
+    "categoria": "Pessoa",
+    "wikidata_id": "Q483382"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:26:13+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "pessoa:steve_wozniak",
+  "chunks": [
+    {
+      "id": "17663_0",
+      "ordem": 0,
+      "texto": "Stephen Gary \"Steve\" Wozniak (São José, 11 de agosto de 1950) é um inventor, engenheiro eletrônico e programador de computadores norte-americano, cofundador da Apple ao lado de Steve Jobs e Ronald Wayne. É reconhecido por seu papel pioneiro no desenvolvimento dos computadores pessoais, contribuindo para tornar a tecnologia acessível ao consumidor comum."
+    },
+    {
+      "id": "17663_1",
+      "ordem": 1,
+      "texto": "É reconhecido por seu papel pioneiro no desenvolvimento dos computadores pessoais, contribuindo para tornar a tecnologia acessível ao consumidor comum.\nInspiração e primeiros passos: As primeiras inspirações de Wozniak vieram de seu pai, que foi um engenheiro da Lockheed, e de um personagem de ficção literário: Tom Swift. Seu pai contaminou-o com a fascinação por eletrônica e frequentemente participava das criações do jovem Woz. Tom Swift, por outro lado, foi para Woz um exemplo da liberdade de criação, conhecimento científico e da habilidade de encontrar soluções para problemas. Tom Swift ainda iria ilustrar os grandes prêmios que o inventor receberia. Hoje, Wozniak retorna aos livros de Tom Swift e os lê para crianças como uma forma de inspiração.\nOs valores de Woz foram moldados durante anos pela sua família: filosofia cristã, ética de radioamadores (ajudando pessoas em emergências), livros (a atitude utilitária e humanitária) e outros.\nComo um último impulso para sua vida, Wozniak adorava todos os projetos que requeriam grande esforço mental. Ele aprendeu as bases da matemática e da eletrônica com seu pai. Quando Woz tinha 11 anos, construiu a sua própria estação de radioamador e obteve uma licença de radioamador. Aos 13 anos, foi eleito presidente do clube de eletrônica de sua escola, e ganhou o primeiro prêmio em uma feira de ciências por uma calculadora baseada em transístores. Ainda aos 13 anos, construiu seu primeiro computador que foi a base técnica para o seu sucesso posterior."
+    },
+    {
+      "id": "17663_2",
+      "ordem": 2,
+      "texto": "Ainda aos 13 anos, construiu seu primeiro computador que foi a base técnica para o seu sucesso posterior.\nJuntamente com John Draper, construiu Blue Boxes (caixas azuis), dispositivos com os quais era possível burlar o sistema telefônico da AT&T ao emular pulsos (veja phreaking). Com Steve Jobs, que ele conheceu trabalhando como um empregado de verão na HP, ele vendia estas caixas.\nInício: Em 1975, Woz deixou a Universidade da Califórnia e construiu um computador que eventualmente se tornaria bem sucedido em todo o seu país. Entretanto, ele estava intensamente envolvido no trabalho do Homebrew Computer Club em Palo Alto, um grupo local de hobistas de eletrônica. Seu projeto não tinha ambições maiores."
+    },
+    {
+      "id": "17663_3",
+      "ordem": 3,
+      "texto": "Seu projeto não tinha ambições maiores.\nNo clube de Palo Alto, Woz encontrou Steve Jobs, cinco anos mais novo que ele, e que tinha saído do Reed College em 1972. Jobs e Wozniak concluíram que um computador completamente montado e barato estava a caminho. Eles venderam alguns de seus bens (e.g. a calculadora científica da HP de Woz e a mini-van Volkswagen de Jobs), obtendo 1 300 dólares, na história contada e recontada por todos eles montaram o primeiro protótipo na (entre aspas) \"garagem de Jobs\", pois em 2014 Wozniak acabou revelando que a garagem de Jobs era uma farsa em nome do marketing da Apple e que ela nunca serviu como ponto de partida para o início da Apple. O primeiro computador era inexpressivo para os padrões de hoje, mas em 1975 ele era uma surpreendente invenção. Na simplicidade do uso ele estava anos à frente do Altair, que começou a ser comercializado no início de 1975. O Altair não tinha monitor e nem memória interna. Ele recebia comandos através de um conjunto de chaves e um programa simples necessitava de milhares de ligações sem um erro para funcionar. A saída do Altair era apresentada na forma de luzes que piscavam. O Altair era ótimo para verdadeiros geeks, mas ele não era utilizável por um grande público. Ele vinha em um kit para montagem."
+    },
+    {
+      "id": "17663_4",
+      "ordem": 4,
+      "texto": "Ele vinha em um kit para montagem.\nO computador de Woz, por outro lado, denominado Apple I, era uma unidade totalmente montada e funcional que continha um microprocessador de 25 dólares e uma única placa de circuito impresso com memória ROM. Em 1 de abril de 1976, Jobs e Wozniak formaram a Apple Computer, Inc.. Wozniak deixou seu trabalho na Hewlett-Packard e tornou-se vice-presidente com a responsabilidade de pesquisa e desenvolvimento na Apple. O Apple I custava US$ 666,66 (Wozniak disse mais tarde que o valor não tinha relação com o número da besta, e o atribuiu porque gostava de números repetidos). Jobs e Wozniak venderam os primeiros 25 computadores a um comprador local.\nWozniak pode então se concentrar o tempo todo em melhorar e consertar as deficiências do Apple I e adicionar novas funcionalidades. O Apple I levou à companhia perto de um milhão de dólares. Seu novo projeto era manter as mais importantes características: simplicidade e usabilidade. Woz introduziu um monitor de alta resolução gráfica no Apple II. Seu computador passou a ser capaz de mostrar figuras no lugar de apenas letras: \"Eu integrei a alta resolução. São apenas dois chips. Eu não sei se as pessoas utilizarão isto\". Em 1978, projetou um drive de disquete de baixo custo. Ele e Randy Wigginton escreveram um sistema operacional simples."
+    },
+    {
+      "id": "17663_5",
+      "ordem": 5,
+      "texto": "Ele e Randy Wigginton escreveram um sistema operacional simples.\nAlém de suas habilidades com o hardware, Wozniak escreveu muitos dos programas que executavam no Apple.  Ele escreveu um interpretador Basic, um jogo de Breakout (que foi também uma razão para adicionar som ao computador), o código necessário para controlar o drive de disquetes, e muito mais. Com relação aos programas, o Apple II se tornou mais atrativo para os usuários empresariais devido à famosa e pioneira planilha eletrônica Visicalc de Dan Bricklin e Bob Frankston. Em 1980, a Apple se tornou pública e fez de Jobs e Wozniak milionários. Com 27 anos, Jobs foi o mais jovem a aparecer no Fortune 500 em 1982, um caso raro antes da era ponto-com.\nCasualmente, em 1978, quando a companhia baixou o preço do Apple II, ela ajudou a lançar um outra carreira meteórica, de Mitch Kapor. Kapor conseguiu dinheiro suficiente para comprar o seu próprio Apple. Inspirado pelo VisiCalc e encontrando com seus inventores, ele acabou por desenvolver o Lotus 1-2-3 e dominou o mercado de planilhas eletrônicas por vários anos."
+    },
+    {
+      "id": "17663_6",
+      "ordem": 6,
+      "texto": "Inspirado pelo VisiCalc e encontrando com seus inventores, ele acabou por desenvolver o Lotus 1-2-3 e dominou o mercado de planilhas eletrônicas por vários anos.\nDeclínio: Durante anos o Apple II foi a principal fonte de receita da Apple que garantiu a sobrevivência da companhia, quando a sua direção se responsabilizou pela criação de aventuras menos rentáveis como o mal sucedido Apple III e o Lisa, que durou pouco tempo. Foi devido aos grandes lucros do Apple II que a Apple foi capaz de desenvolver o Macintosh, vendê-lo, e gradualmente torná-lo em uma máquina que está agora no centro dos produtos da Apple. Neste sentido, Wozniak pode ser considerado como o financiador principal do Mac.\nEm fevereiro de 1981, Steve Wozniak sofreu um acidente com o seu aeroplano. Como resultado, ele teve uma perda temporária da memória de curto prazo. Ele não se lembrava do acidente e, por um tempo, nem mesmo sabia que se tinha envolvido num acidente. Ele começou a juntar os fatos de conversas com as outras pessoas. Ele perguntou então a sua esposa se ele se tinha envolvido em algum tipo de acidente. Quando ela lhe contou sobre o sucedido, a sua memória de curto prazo restabeleceu-se."
+    },
+    {
+      "id": "17663_7",
+      "ordem": 7,
+      "texto": "Quando ela lhe contou sobre o sucedido, a sua memória de curto prazo restabeleceu-se.\nWoz ficou menos entusiasmado com seu trabalho na Apple. Ele casou-se e retornou para a Universidade de Berkeley com o nome de \"Rocky Clark\" para obter sua graduação em 1982 em ciência da computação, bem como engenheiro eletricista. Em 1983, decidiu retornar ao centro de desenvolvimento da Apple. Entretanto, queria ser mais do que apenas um engenheiro, e sim um fator motivacional para os trabalhadores da Apple."
+    },
+    {
+      "id": "17663_8",
+      "ordem": 8,
+      "texto": "Entretanto, queria ser mais do que apenas um engenheiro, e sim um fator motivacional para os trabalhadores da Apple.\nO fim de uma era: Woz deixou a Apple definitivamente em 6 de fevereiro de 1985, nove anos após ter fundado a companhia. Wozniak fundou então uma empresa de curta duração, chamada CL9, que desenvolvia aparelhos de controle remoto. Rancoroso, Jobs ameaçou seus fornecedores da perda de negócios com a Apple se fizessem negócios com Wozniak. Wozniak pôde encontrar outros fornecedores, mas ficou desapontado com o comportamento amargo de seu antigo amigo.\nMais tarde, Jobs foi obrigado a deixar a Apple por causa de lutas pelo poder. Wozniak e Jobs são orgulhosos de terem originado uma ética anticorporativista no meio dos grandes do mercado de computadores. Jobs orientou-se à sua inovadora visão com o NeXT, enquanto Woz dedicou-se ao ensino (ensinava estudantes de 5º ano) e a atividades caritativas no campo da Educação."
+    },
+    {
+      "id": "17663_9",
+      "ordem": 9,
+      "texto": "Jobs orientou-se à sua inovadora visão com o NeXT, enquanto Woz dedicou-se ao ensino (ensinava estudantes de 5º ano) e a atividades caritativas no campo da Educação.\nReconhecimento e homenagem a Steve Jobs: Steve Wozniak recebeu a Medalha Nacional de Tecnologia e Inovação em 1985. Em setembro de 2000, foi incluído na National Inventors Hall of Fame.\nComo um tributo para Steve Jobs após sua morte (falecido dia 5 de outubro de 2011), Wozniak acampou durante 20 horas em frente a uma loja da Apple Inc. na Califórnia, de forma a ser o primeiro cliente do estabelecimento a comprar o iPhone 4S."
+    },
+    {
+      "id": "17663_10",
+      "ordem": 10,
+      "texto": "Como um tributo para Steve Jobs após sua morte (falecido dia 5 de outubro de 2011), Wozniak acampou durante 20 horas em frente a uma loja da Apple Inc. na Califórnia, de forma a ser o primeiro cliente do estabelecimento a comprar o iPhone 4S.\nInvenções: Wozniak está listado como o único inventor nas seguintes patentes da Apple:\nPatente dos EUA nº. 4 136 359: \"Microcomputador para uso com exibição de vídeo\" — pelo qual ele foi introduzido no National Inventors Hall of Fame\nPatente dos EUA nº 4 210 959: \"Controlador para disco magnético, gravador ou similar\"\nPatente dos EUA nº 4 217 604: \"Aparelho para controlar digitalmente a tela colorida PAL\"\nPatente dos EUA nº 4 278 972: \"Meios de geração de sinal de cor controlados digitalmente para uso com display\""
+    },
+    {
+      "id": "17663_11",
+      "ordem": 11,
+      "texto": "Patente dos EUA nº 4 278 972: \"Meios de geração de sinal de cor controlados digitalmente para uso com display\"\nOpiniões sobre superinteligência artificial: Em março de 2015, Wozniak afirmou que, embora originalmente tenha rejeitado a opinião de Ray Kurzweil de que a inteligência da máquina ultrapassaria a inteligência humana em várias décadas, Wozniak mudou de ideia:\nWozniak afirmou que começou a identificar um pressentimento contraditório sobre a inteligência artificial, embora ainda apoiasse o avanço da tecnologia. Em junho de 2015, Wozniak mudou de ideia novamente, afirmando que uma aquisição de superinteligência seria boa para os humanos:\nEm 2016, Wozniak mudou de ideia novamente, afirmando que não estava mais preocupado com a possibilidade de superinteligência emergir porque é cético de que os computadores sejam capazes de competir com a \"intuição\" humana: \"Um computador poderia descobrir uma decisão lógica de ponto final, mas não é assim que a inteligência funciona nos humanos\". Wozniak acrescentou que, se os computadores se tornarem superinteligentes, \"eles serão parceiros dos humanos sobre todas as outras espécies para sempre\". Em entrevista à BBC em maio de 2023, Wozniak disse que a IA pode tornar os golpes mais difíceis de detectar, observando que \"a IA é tão inteligente que está aberta aos jogadores ruins, aqueles que querem enganá-lo sobre quem eles são\". ==Referências=="
+    }
+  ],
+  "entidades": [
+    {
+      "id": "pessoa:steve_wozniak",
+      "nome": "Steve Wozniak",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Stephen Gary Wozniak",
+        "Wozniak",
+        "Woz"
+      ],
+      "descricao": "Inventor, engenheiro eletrônico e programador norte-americano, cofundador da Apple.",
+      "propriedades": {
+        "ano_nascimento": 1950
+      },
+      "chunk_ids": [
+        "17663_0",
+        "17663_1",
+        "17663_2",
+        "17663_3",
+        "17663_4",
+        "17663_5",
+        "17663_6",
+        "17663_7",
+        "17663_8",
+        "17663_9",
+        "17663_10",
+        "17663_11"
+      ]
+    },
+    {
+      "id": "organizacao:apple",
+      "nome": "Apple",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Apple Inc.",
+        "Apple Inc",
+        "Apple Computer",
+        "Apple Computer, Inc."
+      ],
+      "propriedades": {
+        "tipo": "empresa",
+        "ano_fundacao": 1976
+      },
+      "chunk_ids": [
+        "17663_0",
+        "17663_3",
+        "17663_4",
+        "17663_5",
+        "17663_6",
+        "17663_7",
+        "17663_8",
+        "17663_9",
+        "17663_10"
+      ]
+    },
+    {
+      "id": "pessoa:steve_jobs",
+      "nome": "Steve Jobs",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Steven Paul Jobs",
+        "Jobs"
+      ],
+      "propriedades": {
+        "ano_morte": 2011
+      },
+      "chunk_ids": [
+        "17663_0",
+        "17663_2",
+        "17663_3",
+        "17663_4",
+        "17663_5",
+        "17663_8",
+        "17663_9",
+        "17663_10"
+      ]
+    },
+    {
+      "id": "pessoa:ronald_wayne",
+      "nome": "Ronald Wayne",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "17663_0"
+      ]
+    },
+    {
+      "id": "local:sao_jose",
+      "nome": "São José",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "17663_0"
+      ]
+    },
+    {
+      "id": "pessoa:john_draper",
+      "nome": "John Draper",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "17663_2"
+      ]
+    },
+    {
+      "id": "organizacao:at_t",
+      "nome": "AT&T",
+      "tipo": "Organizacao",
+      "aliases": [
+        "AT&T Inc.",
+        "American Telephone and Telegraph Company",
+        "American Telephone & Telegraph"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "17663_2"
+      ]
+    },
+    {
+      "id": "organizacao:hewlett_packard",
+      "nome": "Hewlett-Packard",
+      "tipo": "Organizacao",
+      "aliases": [
+        "HP",
+        "Hewlett-Packard Company"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "17663_2",
+        "17663_4"
+      ]
+    },
+    {
+      "id": "organizacao:homebrew_computer_club",
+      "nome": "Homebrew Computer Club",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "descricao": "Grupo local de hobistas de eletrônica em Palo Alto.",
+      "propriedades": {},
+      "chunk_ids": [
+        "17663_2"
+      ]
+    },
+    {
+      "id": "local:palo_alto",
+      "nome": "Palo Alto",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "17663_2"
+      ]
+    },
+    {
+      "id": "hardware:altair_8800",
+      "nome": "Altair 8800",
+      "tipo": "Hardware",
+      "aliases": [
+        "Altair"
+      ],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "17663_3"
+      ]
+    },
+    {
+      "id": "organizacao:reed_college",
+      "nome": "Reed College",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "17663_3"
+      ]
+    },
+    {
+      "id": "hardware:apple_i",
+      "nome": "Apple I",
+      "tipo": "Hardware",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "17663_4"
+      ]
+    },
+    {
+      "id": "hardware:apple_ii",
+      "nome": "Apple II",
+      "tipo": "Hardware",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "17663_4",
+        "17663_5",
+        "17663_6"
+      ]
+    },
+    {
+      "id": "pessoa:randy_wigginton",
+      "nome": "Randy Wigginton",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "17663_4",
+        "17663_5"
+      ]
+    },
+    {
+      "id": "pessoa:mitch_kapor",
+      "nome": "Mitch Kapor",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "17663_5"
+      ]
+    },
+    {
+      "id": "hardware:macintosh",
+      "nome": "Macintosh",
+      "tipo": "Hardware",
+      "aliases": [
+        "Mac"
+      ],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "17663_6"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_da_california_em_berkeley",
+      "nome": "Universidade da Califórnia em Berkeley",
+      "tipo": "Organizacao",
+      "aliases": [
+        "UC Berkeley",
+        "Berkeley",
+        "University of California, Berkeley",
+        "Universidade de Berkeley"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "17663_7"
+      ]
+    },
+    {
+      "id": "organizacao:cl9",
+      "nome": "CL9",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "descricao": "Empresa de curta duração que desenvolvia aparelhos de controle remoto.",
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "17663_8"
+      ]
+    },
+    {
+      "id": "organizacao:next",
+      "nome": "NeXT",
+      "tipo": "Organizacao",
+      "aliases": [
+        "NeXT, Inc.",
+        "NeXT Computer",
+        "NeXT Computer, Inc.",
+        "NeXT Software"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "17663_8"
+      ]
+    },
+    {
+      "id": "premio:medalha_nacional_de_tecnologia_e_inovacao",
+      "nome": "Medalha Nacional de Tecnologia e Inovação",
+      "tipo": "Premio",
+      "aliases": [
+        "National Medal of Technology",
+        "Medalha Nacional de Tecnologia"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "17663_9"
+      ]
+    },
+    {
+      "id": "premio:national_inventors_hall_of_fame",
+      "nome": "National Inventors Hall of Fame",
+      "tipo": "Premio",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "17663_9",
+        "17663_10"
+      ]
+    },
+    {
+      "id": "pessoa:ray_kurzweil",
+      "nome": "Ray Kurzweil",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "17663_11"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:steve_wozniak",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:apple",
+      "propriedades": {},
+      "chunk_id": "17663_0",
+      "evidencia": "cofundador da Apple ao lado de Steve Jobs e Ronald Wayne",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:steve_jobs",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:apple",
+      "propriedades": {},
+      "chunk_id": "17663_0",
+      "evidencia": "cofundador da Apple ao lado de Steve Jobs e Ronald Wayne",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:ronald_wayne",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:apple",
+      "propriedades": {},
+      "chunk_id": "17663_0",
+      "evidencia": "cofundador da Apple ao lado de Steve Jobs e Ronald Wayne",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:steve_jobs",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:steve_wozniak",
+      "propriedades": {
+        "contexto": "cofundação da Apple"
+      },
+      "chunk_id": "17663_0",
+      "evidencia": "cofundador da Apple ao lado de Steve Jobs e Ronald Wayne",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:steve_wozniak",
+      "tipo": "NASCEU_EM",
+      "destino": "local:sao_jose",
+      "propriedades": {},
+      "chunk_id": "17663_0",
+      "evidencia": "Stephen Gary \"Steve\" Wozniak (São José, 11 de agosto de 1950)",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:john_draper",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:steve_wozniak",
+      "propriedades": {
+        "contexto": "construção de Blue Boxes"
+      },
+      "chunk_id": "17663_2",
+      "evidencia": "Juntamente com John Draper, construiu Blue Boxes (caixas azuis)",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:steve_wozniak",
+      "tipo": "CRIOU",
+      "destino": "hardware:apple_i",
+      "propriedades": {},
+      "chunk_id": "17663_4",
+      "evidencia": "O computador de Woz, por outro lado, denominado Apple I",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:steve_wozniak",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:apple",
+      "propriedades": {
+        "ano": 1976
+      },
+      "chunk_id": "17663_4",
+      "evidencia": "Em 1 de abril de 1976, Jobs e Wozniak formaram a Apple Computer, Inc.",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:steve_jobs",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:apple",
+      "propriedades": {
+        "ano": 1976
+      },
+      "chunk_id": "17663_4",
+      "evidencia": "Em 1 de abril de 1976, Jobs e Wozniak formaram a Apple Computer, Inc.",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:steve_wozniak",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:hewlett_packard",
+      "propriedades": {},
+      "chunk_id": "17663_4",
+      "evidencia": "Wozniak deixou seu trabalho na Hewlett-Packard",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:steve_wozniak",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:apple",
+      "propriedades": {
+        "cargo": "vice-presidente de pesquisa e desenvolvimento"
+      },
+      "chunk_id": "17663_4",
+      "evidencia": "tornou-se vice-presidente com a responsabilidade de pesquisa e desenvolvimento na Apple",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:steve_wozniak",
+      "tipo": "CRIOU",
+      "destino": "hardware:apple_ii",
+      "propriedades": {},
+      "chunk_id": "17663_4",
+      "evidencia": "Woz introduziu um monitor de alta resolução gráfica no Apple II",
+      "confianca": 0.7
+    },
+    {
+      "origem": "pessoa:randy_wigginton",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:steve_wozniak",
+      "propriedades": {
+        "contexto": "escreveram um sistema operacional simples"
+      },
+      "chunk_id": "17663_4",
+      "evidencia": "Ele e Randy Wigginton escreveram um sistema operacional simples",
+      "confianca": 0.85
+    },
+    {
+      "origem": "organizacao:apple",
+      "tipo": "DESENVOLVEU",
+      "destino": "hardware:macintosh",
+      "propriedades": {},
+      "chunk_id": "17663_6",
+      "evidencia": "Foi devido aos grandes lucros do Apple II que a Apple foi capaz de desenvolver o Macintosh",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:steve_wozniak",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:universidade_da_california_em_berkeley",
+      "propriedades": {
+        "curso": "ciência da computação",
+        "ano": 1982
+      },
+      "chunk_id": "17663_7",
+      "evidencia": "retornou para a Universidade de Berkeley com o nome de \"Rocky Clark\" para obter sua graduação em 1982 em ciência da computação",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:steve_wozniak",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:apple",
+      "propriedades": {
+        "ano_inicio": 1983
+      },
+      "chunk_id": "17663_7",
+      "evidencia": "Em 1983, decidiu retornar ao centro de desenvolvimento da Apple",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:steve_wozniak",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:apple",
+      "propriedades": {
+        "ano_fim": 1985
+      },
+      "chunk_id": "17663_8",
+      "evidencia": "Woz deixou a Apple definitivamente em 6 de fevereiro de 1985",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:steve_wozniak",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:cl9",
+      "propriedades": {},
+      "chunk_id": "17663_8",
+      "evidencia": "Wozniak fundou então uma empresa de curta duração, chamada CL9, que desenvolvia aparelhos de controle remoto",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:steve_wozniak",
+      "tipo": "RECEBEU",
+      "destino": "premio:medalha_nacional_de_tecnologia_e_inovacao",
+      "propriedades": {
+        "ano": 1985
+      },
+      "chunk_id": "17663_9",
+      "evidencia": "Steve Wozniak recebeu a Medalha Nacional de Tecnologia e Inovação em 1985",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:steve_wozniak",
+      "tipo": "RECEBEU",
+      "destino": "premio:national_inventors_hall_of_fame",
+      "propriedades": {
+        "ano": 2000
+      },
+      "chunk_id": "17663_9",
+      "evidencia": "Em setembro de 2000, foi incluído na National Inventors Hall of Fame",
+      "confianca": 0.8
+    }
+  ]
+}

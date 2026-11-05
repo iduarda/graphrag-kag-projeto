@@ -1,0 +1,340 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 712378,
+    "titulo": "Xerox Alto",
+    "url": "https://pt.wikipedia.org/wiki/Xerox_Alto",
+    "categoria": "Hardware",
+    "wikidata_id": "Q1140061"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:22:28+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "hardware:xerox_alto",
+  "chunks": [
+    {
+      "id": "712378_0",
+      "ordem": 0,
+      "texto": "O Xerox Alto foi um microcomputador (computador pessoal) pioneiro desenvolvido no setor de pesquisa Xerox PARC, da empresa Xerox Corporation em 1973. Foi o primeiro a utilizar a metáfora da \"mesa de trabalho\" (do inglês desktop), tendo uma interface gráfica de usuário (GUI, na sigla em inglês), mouse de três botões, ligação com impressora e uso de e-mail.\nEmbora seja citado como o primeiro computador pessoal, alguns sistemas anteriores, como o Datapoint 2200 também se encaixam no termo, porém o Alto nunca foi planejado para ser um produto de fabricação em massa. Mas foi o primeiro a ter uma interface gráfica."
+    },
+    {
+      "id": "712378_1",
+      "ordem": 1,
+      "texto": "Mas foi o primeiro a ter uma interface gráfica.\nHistória: O Alto foi idealizado em 1972 num memorando escrito por Butler Lampson, e projetado principalmente por Chuck Thacker. De maior influência foi o sistema educacional PLATO desenvolvido no Education Research Laboratory na Universidade de Illinois. Sendo apenas demonstrado para a diretoria da companhia Xerox, que decidiu manter a estratégia, focada em impressão e sem comercialização. Apenas foi instalado no escritórios da própria companhia e no governo americano e do exército.\nEle tinha 128 KiB (expansíveis até 512 KiB) de memória principal e um cartucho removível com capacidade de 2,5 MiB, tudo isso incluído em um gabinete do tamanho de um pequeno refrigerador. A UCP do Alto era um processador inovador que usava microcódigo para a maioria das funções de E/S em vez de usar hardware. O processador de microcódigo possuía 16 tarefas, uma das quais executava o conjunto de instruções normais (semelhante ao do Data General Nova), e as demais usadas para vídeo, atualização da memória, disco, rede, e outras funções de entrada e saída. Por exemplo, o controlador de vídeo em bitmap era um pouco mais do que um registrador de deslocamento de 16 bits; o microcódigo era usado para buscar os dados na memória principal e colocá-los no registrador de deslocamento."
+    },
+    {
+      "id": "712378_2",
+      "ordem": 2,
+      "texto": "Por exemplo, o controlador de vídeo em bitmap era um pouco mais do que um registrador de deslocamento de 16 bits; o microcódigo era usado para buscar os dados na memória principal e colocá-los no registrador de deslocamento.\nAlém de uma conexão Ethernet o único outro dispositivo comum de saída do Alto era um monitor de vídeo CRT comum (preto e branco), montado em modo vertical (\"retrato\"), diferentemente da orientação horizontal mais comum (\"paisagem\"). Seus dispositivos de entrada eram um teclado customizado, um mouse de três botões e um chorded keyset opcional de cinco teclas. Os dois últimos foram tomados de empréstimo ao SRI's On-Line System; o mouse tornou-se um sucesso instantâneo entre os usuários do Alto, o chorded keyset nunca se tornou popular.\nO mouse tinha 3 botões. Os primeiros mouses eram mecânicos e usavam dois discos perpendiculares (logo substituídos pelos mouses de bolinha, inventados por Bill English) e os botões eram barras estreitas dispostos de cima para baixo em vez de lado a lado."
+    },
+    {
+      "id": "712378_3",
+      "ordem": 3,
+      "texto": "Os primeiros mouses eram mecânicos e usavam dois discos perpendiculares (logo substituídos pelos mouses de bolinha, inventados por Bill English) e os botões eram barras estreitas dispostos de cima para baixo em vez de lado a lado.\nCada tecla do teclado representava um bit em separado num conjunto de registradores. Esta característica era usada para mudar de onde o Alto deveria inicializar o sistema. Os registradores de teclado eram usados como endereço no disco de inicialização, e pressionando-se determinadas teclas ao pressionar o botão de boot, diferentes microcódigos e SOs podiam ser carregados. Isto deu origem à expressão \"nose boot\", (\"inicializar com o nariz\"), onde a quantidade de teclas necessárias para inicializar um sistema operacional de teste era maior do que os dedos disponíveis. Os \"nose boots\" tornaram-se obsoletos com o advento do programa \"move2keys\" (\"mexa duas teclas\"), que mudavam arquivos no disco para que uma sequência específica de teclas pudesse ser usada.\nVários outros dispositivos de E/S estavam disponíveis para o Alto, incluindo uma câmera de TV, uma impressora margarida Hy-Type e uma porta paralela, embora não fossem muito comuns. O Alto podia inclusive controlar discos externos e atuar como um servidor de arquivos. Esta era uma aplicação comum para a máquina."
+    },
+    {
+      "id": "712378_4",
+      "ordem": 4,
+      "texto": "Esta era uma aplicação comum para a máquina.\nSoftware: Inicialmente os programas para o Alto foram escritos na linguagem de programação BCPL, e posteriormente na linguagem Mesa, que não foi muito utilizada fora do PARC, mas, mais tarde,  influenciou várias outras linguagens, como por exemplo a Modula. O teclado do Alto não possuía o caractere \"_\", o qual era substituído pelo caractere de \"seta para a esquerda\" usado na linguagem como operador de atribuição. Esta característica do teclado do Alto pode ter sido a fonte do estilo CamelCase para identificadores compostos. Outra característica do Alto era seu modo programável ao nível de microcódigo pelo usuário.\nO Alto ajudou a popularizar o uso de modelos de gráficos raster para todas as saídas, incluindo textos e gráficos. Ele também introduziu o conceito de transferência de blocos de bit, ou Bit blit, como a interface fundamental de programação de tela. A despeito de sua memória reduzida, um bom número de programas inovadores foram escritos para o Alto, incluindo o Bravo, primeiro processador de texto WYSIWYG (\"What You See Is What You Get\") e o Gypsy, editor de dados gráficos (bitmaps, placas de circuito impresso, CIs, etc), as primeiras versões de ambiente Smalltalk, e um dos primeiros jogos em rede multiplayer (o Alto Trek, de Gene Ball)."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "hardware:xerox_alto",
+      "nome": "Xerox Alto",
+      "tipo": "Hardware",
+      "aliases": [],
+      "descricao": "Microcomputador pioneiro desenvolvido no Xerox PARC, com interface gráfica e mouse de três botões.",
+      "propriedades": {
+        "ano": 1973,
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "712378_0",
+        "712378_1",
+        "712378_2",
+        "712378_4"
+      ]
+    },
+    {
+      "id": "organizacao:xerox_parc",
+      "nome": "Xerox PARC",
+      "tipo": "Organizacao",
+      "aliases": [
+        "PARC",
+        "Xerox Palo Alto Research Center",
+        "Palo Alto Research Center"
+      ],
+      "descricao": "Setor de pesquisa da Xerox.",
+      "propriedades": {
+        "tipo": "laboratorio"
+      },
+      "chunk_ids": [
+        "712378_0"
+      ]
+    },
+    {
+      "id": "organizacao:xerox",
+      "nome": "Xerox",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Xerox Corporation"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "712378_0",
+        "712378_1"
+      ]
+    },
+    {
+      "id": "tecnologia:interface_grafica_do_utilizador",
+      "nome": "Interface gráfica do utilizador",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "GUI",
+        "Interface gráfica de usuário",
+        "interface gráfica"
+      ],
+      "propriedades": {
+        "tipo": "conceito"
+      },
+      "chunk_ids": [
+        "712378_0"
+      ]
+    },
+    {
+      "id": "hardware:rato",
+      "nome": "Rato",
+      "tipo": "Hardware",
+      "aliases": [
+        "mouse",
+        "Rato (informática)"
+      ],
+      "propriedades": {
+        "tipo": "periferico"
+      },
+      "chunk_ids": [
+        "712378_0",
+        "712378_2"
+      ]
+    },
+    {
+      "id": "hardware:datapoint_2200",
+      "nome": "Datapoint 2200",
+      "tipo": "Hardware",
+      "aliases": [],
+      "descricao": "Sistema anterior que também se encaixa no termo computador pessoal.",
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "712378_0"
+      ]
+    },
+    {
+      "id": "pessoa:butler_lampson",
+      "nome": "Butler Lampson",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "descricao": "Escreveu o memorando que idealizou o Alto.",
+      "propriedades": {},
+      "chunk_ids": [
+        "712378_1"
+      ]
+    },
+    {
+      "id": "pessoa:chuck_thacker",
+      "nome": "Chuck Thacker",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "descricao": "Projetou principalmente o Alto.",
+      "propriedades": {},
+      "chunk_ids": [
+        "712378_1"
+      ]
+    },
+    {
+      "id": "tecnologia:plato",
+      "nome": "PLATO",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "descricao": "Sistema educacional que teve grande influência sobre o Alto.",
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "712378_1"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_de_illinois",
+      "nome": "Universidade de Illinois",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "712378_1"
+      ]
+    },
+    {
+      "id": "tecnologia:ethernet",
+      "nome": "Ethernet",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "rede"
+      },
+      "chunk_ids": [
+        "712378_2"
+      ]
+    },
+    {
+      "id": "pessoa:bill_english",
+      "nome": "Bill English",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "descricao": "Inventor dos mouses de bolinha.",
+      "propriedades": {},
+      "chunk_ids": [
+        "712378_2"
+      ]
+    },
+    {
+      "id": "linguagem:bcpl",
+      "nome": "BCPL",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "712378_4"
+      ]
+    },
+    {
+      "id": "linguagem:mesa",
+      "nome": "Mesa",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "descricao": "Linguagem usada no Alto, pouco utilizada fora do PARC.",
+      "propriedades": {},
+      "chunk_ids": [
+        "712378_4"
+      ]
+    },
+    {
+      "id": "linguagem:modula",
+      "nome": "Modula",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "712378_4"
+      ]
+    },
+    {
+      "id": "linguagem:smalltalk",
+      "nome": "Smalltalk",
+      "tipo": "Linguagem",
+      "aliases": [
+        "Smalltalk-80"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "712378_4"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "organizacao:xerox_parc",
+      "tipo": "DESENVOLVEU",
+      "destino": "hardware:xerox_alto",
+      "propriedades": {
+        "ano": 1973
+      },
+      "chunk_id": "712378_0",
+      "evidencia": "desenvolvido no setor de pesquisa Xerox PARC, da empresa Xerox Corporation em 1973",
+      "confianca": 0.9
+    },
+    {
+      "origem": "organizacao:xerox",
+      "tipo": "DESENVOLVEU",
+      "destino": "hardware:xerox_alto",
+      "propriedades": {
+        "ano": 1973
+      },
+      "chunk_id": "712378_0",
+      "evidencia": "desenvolvido no setor de pesquisa Xerox PARC, da empresa Xerox Corporation em 1973",
+      "confianca": 0.75
+    },
+    {
+      "origem": "pessoa:chuck_thacker",
+      "tipo": "CRIOU",
+      "destino": "hardware:xerox_alto",
+      "propriedades": {},
+      "chunk_id": "712378_1",
+      "evidencia": "projetado principalmente por Chuck Thacker",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:butler_lampson",
+      "tipo": "CRIOU",
+      "destino": "hardware:xerox_alto",
+      "propriedades": {},
+      "chunk_id": "712378_1",
+      "evidencia": "O Alto foi idealizado em 1972 num memorando escrito por Butler Lampson",
+      "confianca": 0.7
+    },
+    {
+      "origem": "organizacao:universidade_de_illinois",
+      "tipo": "DESENVOLVEU",
+      "destino": "tecnologia:plato",
+      "propriedades": {},
+      "chunk_id": "712378_1",
+      "evidencia": "sistema educacional PLATO desenvolvido no Education Research Laboratory na Universidade de Illinois",
+      "confianca": 0.7
+    },
+    {
+      "origem": "linguagem:modula",
+      "tipo": "INFLUENCIADA_POR",
+      "destino": "linguagem:mesa",
+      "propriedades": {},
+      "chunk_id": "712378_4",
+      "evidencia": "Mesa, que não foi muito utilizada fora do PARC, mas, mais tarde,  influenciou várias outras linguagens, como por exemplo a Modula",
+      "confianca": 0.75
+    },
+    {
+      "origem": "linguagem:bcpl",
+      "tipo": "EXECUTA_EM",
+      "destino": "hardware:xerox_alto",
+      "propriedades": {},
+      "chunk_id": "712378_4",
+      "evidencia": "Inicialmente os programas para o Alto foram escritos na linguagem de programação BCPL",
+      "confianca": 0.65
+    },
+    {
+      "origem": "linguagem:mesa",
+      "tipo": "EXECUTA_EM",
+      "destino": "hardware:xerox_alto",
+      "propriedades": {},
+      "chunk_id": "712378_4",
+      "evidencia": "posteriormente na linguagem Mesa",
+      "confianca": 0.65
+    },
+    {
+      "origem": "linguagem:smalltalk",
+      "tipo": "EXECUTA_EM",
+      "destino": "hardware:xerox_alto",
+      "propriedades": {},
+      "chunk_id": "712378_4",
+      "evidencia": "as primeiras versões de ambiente Smalltalk",
+      "confianca": 0.6
+    }
+  ]
+}

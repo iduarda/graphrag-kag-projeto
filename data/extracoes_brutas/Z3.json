@@ -1,0 +1,40 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:19:56+00:00",
+ "chunks": [
+  {
+   "chunk_id": "1494085_0",
+   "entidades": [
+    {
+     "nome": "Z3",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeira máquina de computação totalmente automática e programável do mundo, criada em 1941.",
+     "propriedades": {
+      "ano": 1941,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Konrad Zuse",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Alemão que criou o computador Z3.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Konrad Zuse",
+     "tipo": "CRIOU",
+     "destino": "Z3",
+     "propriedades": {
+      "ano": 1941
+     },
+     "evidencia": "criado em 1941 pelo alemão Konrad Zuse",
+     "confianca": 0.95
+    }
+   ]
+  }
+ ]
+}

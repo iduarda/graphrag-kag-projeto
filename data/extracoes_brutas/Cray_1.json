@@ -1,0 +1,39 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:25:22+00:00",
+ "chunks": [
+  {
+   "chunk_id": "3866704_0",
+   "entidades": [
+    {
+     "nome": "Cray-1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Supercomputador desenvolvido e manufacturado pela Cray Research.",
+     "propriedades": {
+      "ano": 1976,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Cray Research",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Cray Research",
+     "tipo": "DESENVOLVEU",
+     "destino": "Cray-1",
+     "propriedades": {},
+     "evidencia": "O Cray-1 foi um supercomputador desenvolvido e manufacturado pela Cray Research",
+     "confianca": 0.95
+    }
+   ]
+  }
+ ]
+}

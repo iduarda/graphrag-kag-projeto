@@ -1,0 +1,675 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:22:06+00:00",
+ "chunks": [
+  {
+   "chunk_id": "51165_0",
+   "entidades": [
+    {
+     "nome": "Ada",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem de programação de alto nível estruturada, de tipagem estática, imperativa e orientada a objetos.",
+     "propriedades": {
+      "paradigmas": [
+       "estruturada",
+       "imperativa",
+       "orientada a objetos"
+      ]
+     }
+    },
+    {
+     "nome": "Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jean Ichbiah",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Cientista da computação francês que liderou a equipe de projeto do Ada.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Honeywell",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Departamento de Defesa dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DoD"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Ada Lovelace",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Considerada a primeira programadora de computadores da história.",
+     "propriedades": {
+      "ano_nascimento": 1815,
+      "ano_morte": 1852
+     }
+    },
+    {
+     "nome": "Organização Internacional de Normalização",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ISO"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Comissão Eletrotécnica Internacional",
+     "tipo": "Organizacao",
+     "aliases": [
+      "IEC"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Ada",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Pascal",
+     "propriedades": {},
+     "evidencia": "inspirada por Pascal e outras linguagens",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Jean Ichbiah",
+     "tipo": "CRIOU",
+     "destino": "Ada",
+     "propriedades": {},
+     "evidencia": "O Ada foi projetado originalmente por uma equipe liderada pelo cientista da computação francês Jean Ichbiah, da Honeywell",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Jean Ichbiah",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Honeywell",
+     "propriedades": {},
+     "evidencia": "Jean Ichbiah, da Honeywell",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "51165_1",
+   "entidades": [
+    {
+     "nome": "Ada",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ada Lovelace",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {
+      "ano_nascimento": 1815,
+      "ano_morte": 1852
+     }
+    },
+    {
+     "nome": "S. Tucker Taft",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Intermetrics",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "S. Tucker Taft",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intermetrics",
+     "propriedades": {},
+     "evidencia": "projetada por S. Tucker Taft da Intermetrics",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "51165_2",
+   "entidades": [
+    {
+     "nome": "Ada",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "51165_3",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "51165_4",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "51165_5",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "51165_6",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "51165_7",
+   "entidades": [
+    {
+     "nome": "Ada",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Departamento de Defesa dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DoD"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "51165_8",
+   "entidades": [
+    {
+     "nome": "Departamento de Defesa dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "51165_9",
+   "entidades": [
+    {
+     "nome": "Ada",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Intermetrics",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Benjamin Brosgol",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Honeywell",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Jean Ichbiah",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "SofTech",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "John Goodenough",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "SRI International",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jay Spitzen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ada Lovelace",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Augusta Ada King, Condessa de Lovelace"
+     ],
+     "propriedades": {
+      "ano_nascimento": 1815
+     }
+    },
+    {
+     "nome": "LIS",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Charles Antony Richard Hoare",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Tony Hoare"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Benjamin Brosgol",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intermetrics",
+     "propriedades": {},
+     "evidencia": "Red (Intermetrics, liderada por Benjamin Brosgol)",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Jean Ichbiah",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Honeywell",
+     "propriedades": {},
+     "evidencia": "a proposta Green, projetada por Jean Ichbiah na Honeywell",
+     "confianca": 0.9
+    },
+    {
+     "origem": "John Goodenough",
+     "tipo": "TRABALHOU_EM",
+     "destino": "SofTech",
+     "propriedades": {},
+     "evidencia": "Blue (SofTech, liderada por John Goodenough)",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Jay Spitzen",
+     "tipo": "TRABALHOU_EM",
+     "destino": "SRI International",
+     "propriedades": {},
+     "evidencia": "Yellow (SRI International, liderada por Jay Spitzen)",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Jean Ichbiah",
+     "tipo": "CRIOU",
+     "destino": "Ada",
+     "propriedades": {},
+     "evidencia": "a proposta Green, projetada por Jean Ichbiah na Honeywell, foi escolhida e recebeu o nome de Ada",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Ada",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "LIS",
+     "propriedades": {},
+     "evidencia": "Essa proposta foi influenciada pela linguagem LIS que Ichbiah e seu grupo haviam desenvolvido na década de 1970",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Jean Ichbiah",
+     "tipo": "CRIOU",
+     "destino": "LIS",
+     "propriedades": {},
+     "evidencia": "linguagem LIS que Ichbiah e seu grupo haviam desenvolvido na década de 1970",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Charles Antony Richard Hoare",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 1981
+     },
+     "evidencia": "Em 1981, Tony Hoare aproveitou seu discurso do Prêmio Turing",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "51165_10",
+   "entidades": [
+    {
+     "nome": "Charles Antony Richard Hoare",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Tony Hoare"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ada",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jean Ichbiah",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ichbiah"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lisp",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Charles Antony Richard Hoare",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 1981
+     },
+     "evidencia": "Em 1981, Tony Hoare aproveitou seu discurso do Prêmio Turing",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "51165_11",
+   "entidades": [
+    {
+     "nome": "Ada",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Cray Research",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Digital Equipment Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Departamento de Defesa dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Departamento de Defesa dos EUA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Canadá",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Alemanha",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "51165_12",
+   "entidades": [
+    {
+     "nome": "Canadá",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Alemanha",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "51165_13",
+   "entidades": [
+    {
+     "nome": "Reino Unido",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "51165_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "51165_15",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "51165_16",
+   "entidades": [
+    {
+     "nome": "SPARK",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ada",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "SPARK",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Ada",
+     "propriedades": {},
+     "evidencia": "A tecnologia SPARK baseada em Ada",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "51165_17",
+   "entidades": [
+    {
+     "nome": "Ada",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ALGOL",
+     "tipo": "Linguagem",
+     "aliases": [
+      "ALGOL 60"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Ada",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "ALGOL",
+     "propriedades": {},
+     "evidencia": "O Ada é uma linguagem de programação do tipo ALGOL",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Ada",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Pascal",
+     "propriedades": {},
+     "evidencia": "Tais construções foram em parte herdadas ou inspiradas no Pascal",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "51165_18",
+   "entidades": [
+    {
+     "nome": "Ada",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Ada",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Pascal",
+     "propriedades": {},
+     "evidencia": "Tais construções foram em parte herdadas ou inspiradas no Pascal",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "51165_19",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "51165_20",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "51165_21",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "51165_22",
+   "entidades": [
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

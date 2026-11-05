@@ -1,0 +1,577 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:23:02+00:00",
+ "chunks": [
+  {
+   "chunk_id": "8332_0",
+   "entidades": [
+    {
+     "nome": "Universidade de Cambridge",
+     "tipo": "Organizacao",
+     "aliases": [
+      "University of Cambridge"
+     ],
+     "descricao": "Instituição de ensino superior pública do Reino Unido, fundada em 1209, a terceira universidade mais antiga em operação contínua.",
+     "propriedades": {
+      "tipo": "universidade",
+      "ano_fundacao": 1209
+     }
+    },
+    {
+     "nome": "Reino Unido",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Universidade de Oxford",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Oxford"
+     ],
+     "descricao": "Antiga universidade inglesa, frequentemente referida em conjunto com Cambridge como Oxbridge.",
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Universidade de Cambridge",
+     "tipo": "SEDIADA_EM",
+     "destino": "Reino Unido",
+     "propriedades": {},
+     "evidencia": "que localiza-se na cidade de Cambridge (Reino Unido)",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "8332_1",
+   "entidades": [
+    {
+     "nome": "Universidade de Cambridge",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Henrique III",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Rei que concedeu a carta régia à Universidade de Cambridge em 1231.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_2",
+   "entidades": [
+    {
+     "nome": "Universidade de Cambridge",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Francis Bacon",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lord Byron",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Oliver Cromwell",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Charles Darwin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Stephen Hawking",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Maynard Keynes",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Milton",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Vladimir Nabokov",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jawaharlal Nehru",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Isaac Newton",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bertrand Russell",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ludwig Wittgenstein",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Oxford",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "University College London",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Imperial College London",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "London School of Economics",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Francis Bacon",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Cambridge",
+     "propriedades": {},
+     "evidencia": "incluindo Francis Bacon, Lord Byron, Oliver Cromwell, Charles Darwin, Stephen Hawking, John Maynard Keynes, John Milton, Vladimir Nabokov, Jawaharlal Nehru, Isaac Newton, Bertrand Russell, Alan Turing",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Lord Byron",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Cambridge",
+     "propriedades": {},
+     "evidencia": "incluindo Francis Bacon, Lord Byron, Oliver Cromwell, Charles Darwin, Stephen Hawking, John Maynard Keynes, John Milton, Vladimir Nabokov, Jawaharlal Nehru, Isaac Newton, Bertrand Russell, Alan Turing",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Oliver Cromwell",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Cambridge",
+     "propriedades": {},
+     "evidencia": "incluindo Francis Bacon, Lord Byron, Oliver Cromwell, Charles Darwin, Stephen Hawking, John Maynard Keynes, John Milton, Vladimir Nabokov, Jawaharlal Nehru, Isaac Newton, Bertrand Russell, Alan Turing",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Charles Darwin",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Cambridge",
+     "propriedades": {},
+     "evidencia": "incluindo Francis Bacon, Lord Byron, Oliver Cromwell, Charles Darwin, Stephen Hawking, John Maynard Keynes, John Milton, Vladimir Nabokov, Jawaharlal Nehru, Isaac Newton, Bertrand Russell, Alan Turing",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Stephen Hawking",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Cambridge",
+     "propriedades": {},
+     "evidencia": "incluindo Francis Bacon, Lord Byron, Oliver Cromwell, Charles Darwin, Stephen Hawking, John Maynard Keynes, John Milton, Vladimir Nabokov, Jawaharlal Nehru, Isaac Newton, Bertrand Russell, Alan Turing",
+     "confianca": 0.75
+    },
+    {
+     "origem": "John Maynard Keynes",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Cambridge",
+     "propriedades": {},
+     "evidencia": "incluindo Francis Bacon, Lord Byron, Oliver Cromwell, Charles Darwin, Stephen Hawking, John Maynard Keynes, John Milton, Vladimir Nabokov, Jawaharlal Nehru, Isaac Newton, Bertrand Russell, Alan Turing",
+     "confianca": 0.75
+    },
+    {
+     "origem": "John Milton",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Cambridge",
+     "propriedades": {},
+     "evidencia": "incluindo Francis Bacon, Lord Byron, Oliver Cromwell, Charles Darwin, Stephen Hawking, John Maynard Keynes, John Milton, Vladimir Nabokov, Jawaharlal Nehru, Isaac Newton, Bertrand Russell, Alan Turing",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Vladimir Nabokov",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Cambridge",
+     "propriedades": {},
+     "evidencia": "incluindo Francis Bacon, Lord Byron, Oliver Cromwell, Charles Darwin, Stephen Hawking, John Maynard Keynes, John Milton, Vladimir Nabokov, Jawaharlal Nehru, Isaac Newton, Bertrand Russell, Alan Turing",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Jawaharlal Nehru",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Cambridge",
+     "propriedades": {},
+     "evidencia": "incluindo Francis Bacon, Lord Byron, Oliver Cromwell, Charles Darwin, Stephen Hawking, John Maynard Keynes, John Milton, Vladimir Nabokov, Jawaharlal Nehru, Isaac Newton, Bertrand Russell, Alan Turing",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Isaac Newton",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Cambridge",
+     "propriedades": {},
+     "evidencia": "incluindo Francis Bacon, Lord Byron, Oliver Cromwell, Charles Darwin, Stephen Hawking, John Maynard Keynes, John Milton, Vladimir Nabokov, Jawaharlal Nehru, Isaac Newton, Bertrand Russell, Alan Turing",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Bertrand Russell",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Cambridge",
+     "propriedades": {},
+     "evidencia": "incluindo Francis Bacon, Lord Byron, Oliver Cromwell, Charles Darwin, Stephen Hawking, John Maynard Keynes, John Milton, Vladimir Nabokov, Jawaharlal Nehru, Isaac Newton, Bertrand Russell, Alan Turing",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Alan Turing",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Cambridge",
+     "propriedades": {},
+     "evidencia": "incluindo Francis Bacon, Lord Byron, Oliver Cromwell, Charles Darwin, Stephen Hawking, John Maynard Keynes, John Milton, Vladimir Nabokov, Jawaharlal Nehru, Isaac Newton, Bertrand Russell, Alan Turing",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "8332_3",
+   "entidades": [
+    {
+     "nome": "Universidade de Cambridge",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Oxford",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "University College London",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Imperial College London",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "London School of Economics",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "David Sainsbury",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Barão Sainsbury de Turville"
+     ],
+     "descricao": "Chanceler da Universidade de Cambridge no momento do texto.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Leszek Borysiewicz",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Imunologista, Vice-Chanceler da Universidade de Cambridge no momento do texto.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "David Sainsbury",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Cambridge",
+     "propriedades": {
+      "cargo": "Chanceler"
+     },
+     "evidencia": "O Chanceler (atualmente David Sainsbury, Barão Sainsbury de Turville) é o chefe constitucional da universidade",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Leszek Borysiewicz",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Cambridge",
+     "propriedades": {
+      "cargo": "Vice-Chanceler"
+     },
+     "evidencia": "O atual Vice-Chanceler é o imunologista Leszek Borysiewicz",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "8332_4",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_5",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_6",
+   "entidades": [
+    {
+     "nome": "Universidade de Oxford",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_7",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_8",
+   "entidades": [
+    {
+     "nome": "Universidade de Cambridge",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Oxford",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_9",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_10",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_11",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_13",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_15",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_16",
+   "entidades": [
+    {
+     "nome": "Universidade de Oxford",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Dublin",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_17",
+   "entidades": [
+    {
+     "nome": "Universidade de Oxford",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Dublin",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_18",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_19",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_20",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_21",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_22",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_23",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_24",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_25",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_26",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_27",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_28",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_29",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_30",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "8332_31",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

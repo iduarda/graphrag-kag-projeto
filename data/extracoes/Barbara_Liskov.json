@@ -1,0 +1,412 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 2284647,
+    "titulo": "Barbara Liskov",
+    "url": "https://pt.wikipedia.org/wiki/Barbara_Liskov",
+    "categoria": "Pessoa",
+    "wikidata_id": "Q16080922"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:27:04+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "pessoa:barbara_liskov",
+  "chunks": [
+    {
+      "id": "2284647_0",
+      "ordem": 0,
+      "texto": "Barbara Liskov, nascida Barbara Jane Huberman (Los Angeles, 7 de novembro de 1939[2]), é uma cientista da computação estadunidense conhecida por criar o Princípio da Substituição de Liskov, por ser a primeira mulher a obter um PhD em Ciência da Computação nos Estados Unidos e por inventar o Tipo Abstrato de Dado (TAD)."
+    },
+    {
+      "id": "2284647_1",
+      "ordem": 1,
+      "texto": "História: Barbara Liskov nascida em Los Angeles no dia 7 de Novembro de 1939, cresceu em San Francisco filha de Jane e Moses Huberman. Não ingressou diretamente na universidade, trabalhando antes alguns anos. Devido ao fato de não encontrar trabalho como matemática, ela obteve um emprego como programadora, o que a direcionou para o campo da ciência da computação.\nChegou a se inscrever no programa de Pós-Graduação da Universidade de Princeton, mas foi rejeitada pois a instituição não admitia mulheres na época."
+    },
+    {
+      "id": "2284647_2",
+      "ordem": 2,
+      "texto": "Chegou a se inscrever no programa de Pós-Graduação da Universidade de Princeton, mas foi rejeitada pois a instituição não admitia mulheres na época.\nCarreira: É atualmente professora no Departamento de Engenharia Elétrica e Ciência da Computação no MIT. Obteve seu bacharelado em matemática na Universidade da Califórnia, Berkeley, em 1961. Em 1968 na Universidade de Stanford tornou-se a primeira mulher dos Estados Unidos a obter o grau de doutorado (PhD) em um departamento de informática. O tema de sua tese de doutorado foi um programa de computador para jogar finais de jogos de xadrez.\nLiskov liderou muitos projetos significativos, incluindo o sistema operacional Vénus, um sistema interativo pequeno, de baixo custo e compartilhado. Concebeu e implementou a linguagem CLU,[6] entre outras.\nÉ autora de mais de 140 artigos científicos.[8]\nLiskov é membro da Academia Nacional de Engenharia (NAE), da Academia Nacional de Ciências, parceira da Academia Americana de Artes e Ciência e da associação de Maquinário para Computação (ACM).\nEm 2002, ela foi reconhecida como uma das maiores professoras pelo MIT e integrante dos 50 maiores professores de ciência dos Estados Unidos.\nEm 2004, Bárbara ganhou a Medalha John Neumann de “Contribuições Fundamentais para Linguagem de Programação, Metodologia de Programação e Computação Distribuída”."
+    },
+    {
+      "id": "2284647_3",
+      "ordem": 3,
+      "texto": "Em 2004, Bárbara ganhou a Medalha John Neumann de “Contribuições Fundamentais para Linguagem de Programação, Metodologia de Programação e Computação Distribuída”.\nBarbara recebeu em 2008 o Prêmio Turing da ACM por seu trabalho na concepção de linguagens de programação e de metodologia de software que levaram ao desenvolvimento da programação orientada para objetos.\nÉ autora de mais de 140 artigos científicos.\nPrêmios e condecorações: 1996 - Considerada uma das 100 maiores mulheres na área de Computação pela Open Computing Magazine.\n2002 - Uma das maiores professoras do MIT.\n2002 - Uma dos 50 maiores docentes de Ciência dos Estados Unidos pela Discover Magazine.\n2004 - Medalha John Neumann de “Contribuições Fundamentais para Linguagem de Programação, Metodologia de Programação e Computação Distribuída”.\n2005 - Honoris causa pela ETH Zurich IEEE.\n2007 - ACM SIGSOFT Impact Paper Award for “Abstraction Mechanisms in CLU”.\n2007 - ACM SIGPLAN Programming Languages Lifetime Achievement Award.\n2008 - Prêmio Turing da ACM.\n2012 - Incluída no National Inventors Hall of Fame (Hall da Fama de Inventores dos Estados Unidos).\n2015 - Prêmio Weizmann de Mulheres na Ciência\nPublicações: Abstraction, Specification and Object-Oriented. (1986)\nDistributed Systems: Methods and Tools for Specification. An Advanced Course.(1985)\nCLU Reference Manual (1979)\nProgram development in Java: Abstraction, Specification and Object-Oriented. (2001)"
+    }
+  ],
+  "entidades": [
+    {
+      "id": "pessoa:barbara_liskov",
+      "nome": "Barbara Liskov",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Barbara Jane Huberman",
+        "Liskov"
+      ],
+      "descricao": "Cientista da computação estadunidense, primeira mulher a obter um PhD em Ciência da Computação nos Estados Unidos.",
+      "propriedades": {
+        "ano_nascimento": 1939
+      },
+      "chunk_ids": [
+        "2284647_0",
+        "2284647_1",
+        "2284647_2",
+        "2284647_3"
+      ]
+    },
+    {
+      "id": "tecnologia:principio_da_substituicao_de_liskov",
+      "nome": "Princípio da Substituição de Liskov",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "conceito"
+      },
+      "chunk_ids": [
+        "2284647_0"
+      ]
+    },
+    {
+      "id": "tecnologia:tipo_abstrato_de_dado",
+      "nome": "Tipo Abstrato de Dado",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "TAD"
+      ],
+      "propriedades": {
+        "tipo": "conceito"
+      },
+      "chunk_ids": [
+        "2284647_0"
+      ]
+    },
+    {
+      "id": "local:los_angeles",
+      "nome": "Los Angeles",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "2284647_0",
+        "2284647_1"
+      ]
+    },
+    {
+      "id": "local:sao_francisco",
+      "nome": "São Francisco",
+      "tipo": "Local",
+      "aliases": [
+        "San Francisco"
+      ],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "2284647_1"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_de_princeton",
+      "nome": "Universidade de Princeton",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Princeton University",
+        "Princeton"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "2284647_1"
+      ]
+    },
+    {
+      "id": "organizacao:instituto_de_tecnologia_de_massachusetts",
+      "nome": "Instituto de Tecnologia de Massachusetts",
+      "tipo": "Organizacao",
+      "aliases": [
+        "MIT",
+        "Massachusetts Institute of Technology"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "2284647_2"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_da_california_em_berkeley",
+      "nome": "Universidade da Califórnia em Berkeley",
+      "tipo": "Organizacao",
+      "aliases": [
+        "UC Berkeley",
+        "Berkeley",
+        "University of California, Berkeley",
+        "Universidade da Califórnia, Berkeley"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "2284647_2"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_stanford",
+      "nome": "Universidade Stanford",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Universidade de Stanford",
+        "Stanford University",
+        "Stanford"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "2284647_2"
+      ]
+    },
+    {
+      "id": "linguagem:clu",
+      "nome": "CLU",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "2284647_2"
+      ]
+    },
+    {
+      "id": "premio:medalha_john_von_neumann",
+      "nome": "Medalha John von Neumann",
+      "tipo": "Premio",
+      "aliases": [
+        "Medalha John Neumann"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "2284647_2",
+        "2284647_3"
+      ]
+    },
+    {
+      "id": "premio:premio_turing",
+      "nome": "Prêmio Turing",
+      "tipo": "Premio",
+      "aliases": [
+        "Turing Award",
+        "Prémio Turing",
+        "A. M. Turing Award",
+        "Prêmio Alan Turing",
+        "Prêmio Turing da ACM"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "2284647_3"
+      ]
+    },
+    {
+      "id": "premio:acm_sigsoft_impact_paper_award",
+      "nome": "ACM SIGSOFT Impact Paper Award",
+      "tipo": "Premio",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "2284647_3"
+      ]
+    },
+    {
+      "id": "premio:acm_sigplan_programming_languages_lifetime_achievement_award",
+      "nome": "ACM SIGPLAN Programming Languages Lifetime Achievement Award",
+      "tipo": "Premio",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "2284647_3"
+      ]
+    },
+    {
+      "id": "premio:premio_weizmann_de_mulheres_na_ciencia",
+      "nome": "Prêmio Weizmann de Mulheres na Ciência",
+      "tipo": "Premio",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "2284647_3"
+      ]
+    },
+    {
+      "id": "organizacao:association_for_computing_machinery",
+      "nome": "Association for Computing Machinery",
+      "tipo": "Organizacao",
+      "aliases": [
+        "ACM"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "2284647_3"
+      ]
+    },
+    {
+      "id": "organizacao:instituto_federal_de_tecnologia_de_zurique",
+      "nome": "Instituto Federal de Tecnologia de Zurique",
+      "tipo": "Organizacao",
+      "aliases": [
+        "ETH Zurique",
+        "ETH Zurich",
+        "ETH"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "2284647_3"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:barbara_liskov",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:principio_da_substituicao_de_liskov",
+      "propriedades": {},
+      "chunk_id": "2284647_0",
+      "evidencia": "conhecida por criar o Princípio da Substituição de Liskov",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:barbara_liskov",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:tipo_abstrato_de_dado",
+      "propriedades": {},
+      "chunk_id": "2284647_0",
+      "evidencia": "por inventar o Tipo Abstrato de Dado (TAD)",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:barbara_liskov",
+      "tipo": "NASCEU_EM",
+      "destino": "local:los_angeles",
+      "propriedades": {},
+      "chunk_id": "2284647_1",
+      "evidencia": "Barbara Liskov nascida em Los Angeles no dia 7 de Novembro de 1939",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:barbara_liskov",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:instituto_de_tecnologia_de_massachusetts",
+      "propriedades": {
+        "cargo": "professora"
+      },
+      "chunk_id": "2284647_2",
+      "evidencia": "É atualmente professora no Departamento de Engenharia Elétrica e Ciência da Computação no MIT.",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:barbara_liskov",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:universidade_da_california_em_berkeley",
+      "propriedades": {
+        "curso": "matemática",
+        "ano": 1961
+      },
+      "chunk_id": "2284647_2",
+      "evidencia": "Obteve seu bacharelado em matemática na Universidade da Califórnia, Berkeley, em 1961.",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:barbara_liskov",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:universidade_stanford",
+      "propriedades": {
+        "curso": "doutorado em informática",
+        "ano": 1968
+      },
+      "chunk_id": "2284647_2",
+      "evidencia": "Em 1968 na Universidade de Stanford tornou-se a primeira mulher dos Estados Unidos a obter o grau de doutorado (PhD) em um departamento de informática.",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:barbara_liskov",
+      "tipo": "CRIOU",
+      "destino": "linguagem:clu",
+      "propriedades": {},
+      "chunk_id": "2284647_2",
+      "evidencia": "Concebeu e implementou a linguagem CLU",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:barbara_liskov",
+      "tipo": "RECEBEU",
+      "destino": "premio:medalha_john_von_neumann",
+      "propriedades": {
+        "ano": 2004
+      },
+      "chunk_id": "2284647_2",
+      "evidencia": "Em 2004, Bárbara ganhou a Medalha John Neumann",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:barbara_liskov",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_turing",
+      "propriedades": {
+        "ano": 2008
+      },
+      "chunk_id": "2284647_3",
+      "evidencia": "Barbara recebeu em 2008 o Prêmio Turing da ACM",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:barbara_liskov",
+      "tipo": "RECEBEU",
+      "destino": "premio:medalha_john_von_neumann",
+      "propriedades": {
+        "ano": 2004
+      },
+      "chunk_id": "2284647_3",
+      "evidencia": "2004 - Medalha John Neumann de “Contribuições Fundamentais para Linguagem de Programação, Metodologia de Programação e Computação Distribuída”.",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:barbara_liskov",
+      "tipo": "RECEBEU",
+      "destino": "premio:acm_sigsoft_impact_paper_award",
+      "propriedades": {
+        "ano": 2007
+      },
+      "chunk_id": "2284647_3",
+      "evidencia": "2007 - ACM SIGSOFT Impact Paper Award for “Abstraction Mechanisms in CLU”.",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:barbara_liskov",
+      "tipo": "RECEBEU",
+      "destino": "premio:acm_sigplan_programming_languages_lifetime_achievement_award",
+      "propriedades": {
+        "ano": 2007
+      },
+      "chunk_id": "2284647_3",
+      "evidencia": "2007 - ACM SIGPLAN Programming Languages Lifetime Achievement Award.",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:barbara_liskov",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_weizmann_de_mulheres_na_ciencia",
+      "propriedades": {
+        "ano": 2015
+      },
+      "chunk_id": "2284647_3",
+      "evidencia": "2015 - Prêmio Weizmann de Mulheres na Ciência",
+      "confianca": 0.95
+    }
+  ]
+}

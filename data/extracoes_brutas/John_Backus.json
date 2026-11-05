@@ -1,0 +1,274 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:27:47+00:00",
+ "chunks": [
+  {
+   "chunk_id": "298596_0",
+   "entidades": [
+    {
+     "nome": "John Backus",
+     "tipo": "Pessoa",
+     "aliases": [
+      "John Warner Backus",
+      "Backus"
+     ],
+     "descricao": "Cientista da computação estadunidense, conhecido por criar o Fortran e a notação BNF.",
+     "propriedades": {
+      "ano_nascimento": 1924,
+      "ano_morte": 2007
+     }
+    },
+    {
+     "nome": "Fortran",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Primeira linguagem de programação de alto nível, segundo o texto.",
+     "propriedades": {}
+    },
+    {
+     "nome": "BNF",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "notação BNF"
+     ],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John Backus",
+     "tipo": "CRIOU",
+     "destino": "Fortran",
+     "propriedades": {},
+     "evidencia": "Conhecido por criar a primeira linguagem de programação de alto nível - o Fortran",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John Backus",
+     "tipo": "CRIOU",
+     "destino": "BNF",
+     "propriedades": {},
+     "evidencia": "a notação BNF e o conceito de programação em nível de funções",
+     "confianca": 0.85
+    },
+    {
+     "origem": "John Backus",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 1977
+     },
+     "evidencia": "Recebeu em 1977 o Prêmio Turing",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "298596_1",
+   "entidades": [
+    {
+     "nome": "John Backus",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Backus"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Filadélfia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Universidade da Virginia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Columbia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "SSEC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Speedcoding",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Primeira linguagem de alto nível criada para um computador IBM.",
+     "propriedades": {
+      "ano": 1953
+     }
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John Backus",
+     "tipo": "NASCEU_EM",
+     "destino": "Filadélfia",
+     "propriedades": {},
+     "evidencia": "Backus nasceu em Filadélfia, Pensilvânia",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John Backus",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade da Virginia",
+     "propriedades": {
+      "curso": "química"
+     },
+     "evidencia": "entrar na Universidade da Virginia para estudar química",
+     "confianca": 0.9
+    },
+    {
+     "origem": "John Backus",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Columbia",
+     "propriedades": {
+      "curso": "matemática",
+      "ano": 1949
+     },
+     "evidencia": "Graduou-se na Universidade de Columbia em matemática em 1949",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John Backus",
+     "tipo": "TRABALHOU_EM",
+     "destino": "IBM",
+     "propriedades": {},
+     "evidencia": "Graduou-se na Universidade de Columbia em matemática em 1949, e entrou na IBM no ano seguinte.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "John Backus",
+     "tipo": "CRIOU",
+     "destino": "Speedcoding",
+     "propriedades": {
+      "ano": 1953
+     },
+     "evidencia": "Em 1953 Backus desenvolveu a linguagem Speedcoding",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John Backus",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 1977
+     },
+     "evidencia": "Recebeu em 1977 o Prêmio Turing",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "298596_2",
+   "entidades": [
+    {
+     "nome": "John Backus",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Backus"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Speedcoding",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1953
+     }
+    },
+    {
+     "nome": "Fortran",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM 704",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "ALGOL",
+     "tipo": "Linguagem",
+     "aliases": [
+      "ALGOL 58",
+      "ALGOL 60"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John Backus",
+     "tipo": "CRIOU",
+     "destino": "Speedcoding",
+     "propriedades": {
+      "ano": 1953
+     },
+     "evidencia": "Em 1953 Backus desenvolveu a linguagem Speedcoding",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John Backus",
+     "tipo": "CRIOU",
+     "destino": "Fortran",
+     "propriedades": {},
+     "evidencia": "em 1954 Backus montou uma equipe para definir e desenvolver o Fortran para o IBM 704",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Fortran",
+     "tipo": "EXECUTA_EM",
+     "destino": "IBM 704",
+     "propriedades": {},
+     "evidencia": "desenvolver o Fortran para o IBM 704",
+     "confianca": 0.9
+    }
+   ]
+  }
+ ]
+}

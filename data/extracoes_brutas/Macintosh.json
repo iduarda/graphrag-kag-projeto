@@ -1,0 +1,1277 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:26:22+00:00",
+ "chunks": [
+  {
+   "chunk_id": "45540_0",
+   "entidades": [
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [
+      "Mac",
+      "Apple Macintosh"
+     ],
+     "descricao": "Linha de computadores pessoais da Apple, a primeira a popularizar a interface gráfica, tela incorporada e mouse.",
+     "propriedades": {
+      "ano": 1984,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Jef Raskin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Commodore 64",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [
+      "IBM Personal Computer"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Rato",
+     "tipo": "Hardware",
+     "aliases": [
+      "mouse"
+     ],
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Macintosh LC II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Color Classic",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "Macintosh",
+     "propriedades": {
+      "ano": 1984
+     },
+     "evidencia": "fabricados e comercializados pela empresa Apple desde janeiro de 1984",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Macintosh",
+     "tipo": "UTILIZA",
+     "destino": "Rato",
+     "propriedades": {},
+     "evidencia": "O Apple Macintosh foi o primeiro computador pessoal a popularizar a interface gráfica, tela incorporada e mouse.",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "Macintosh LC II",
+     "propriedades": {},
+     "evidencia": "a Apple introduziu o Macintosh LC II e o Color Classic",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "Color Classic",
+     "propriedades": {},
+     "evidencia": "a Apple introduziu o Macintosh LC II e o Color Classic",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "45540_1",
+   "entidades": [
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Pentium",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Motorola 68040",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "PowerPC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Compaq",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Power Macintosh G3",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "iMac",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PowerBook G3",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "iBook",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Macintosh",
+     "tipo": "UTILIZA",
+     "destino": "Motorola 68040",
+     "propriedades": {},
+     "evidencia": "o Motorola 68040 que era o principal processador dos Macintoshes",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Intel",
+     "tipo": "DESENVOLVEU",
+     "destino": "Pentium",
+     "propriedades": {},
+     "evidencia": "do processador Pentium da Intel",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Steve Jobs",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Apple",
+     "propriedades": {},
+     "evidencia": "Após seu retorno à empresa, Steve Jobs levou a Apple a encurtar a linha de quase vinte modelos Macintosh",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "45540_2",
+   "entidades": [
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [
+      "Mac"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Apple M1",
+     "tipo": "Hardware",
+     "aliases": [
+      "chip M1"
+     ],
+     "propriedades": {
+      "ano": 2020,
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "MacBook Air",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "MacBook Pro",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Mac mini",
+     "tipo": "Hardware",
+     "aliases": [
+      "Mac Mini"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "macOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "FreeBSD",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "PowerMac G5",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "MacBook Air",
+     "tipo": "UTILIZA",
+     "destino": "Apple M1",
+     "propriedades": {},
+     "evidencia": "quando o chip M1 foi introduzido no MacBook Air, MacBook Pro e Mac mini",
+     "confianca": 0.85
+    },
+    {
+     "origem": "MacBook Pro",
+     "tipo": "UTILIZA",
+     "destino": "Apple M1",
+     "propriedades": {},
+     "evidencia": "quando o chip M1 foi introduzido no MacBook Air, MacBook Pro e Mac mini",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Mac mini",
+     "tipo": "UTILIZA",
+     "destino": "Apple M1",
+     "propriedades": {},
+     "evidencia": "quando o chip M1 foi introduzido no MacBook Air, MacBook Pro e Mac mini",
+     "confianca": 0.85
+    },
+    {
+     "origem": "macOS",
+     "tipo": "EXECUTA_EM",
+     "destino": "Macintosh",
+     "propriedades": {},
+     "evidencia": "Os Macintosh funcionam normalmente com o sistema operacional macOS",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Linux",
+     "tipo": "EXECUTA_EM",
+     "destino": "Macintosh",
+     "propriedades": {},
+     "evidencia": "outros sistemas também são disponíveis, como o Linux ou FreeBSD",
+     "confianca": 0.7
+    },
+    {
+     "origem": "FreeBSD",
+     "tipo": "EXECUTA_EM",
+     "destino": "Macintosh",
+     "propriedades": {},
+     "evidencia": "outros sistemas também são disponíveis, como o Linux ou FreeBSD",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "45540_3",
+   "entidades": [
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Jef Raskin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Idealizou um computador fácil de utilizar e barato para o consumidor comum.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Bill Atkinson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Burrell Smith",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Técnico contratado pela Apple que projetou o primeiro protótipo do Macintosh.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Apple Lisa",
+     "tipo": "Hardware",
+     "aliases": [
+      "Lisa"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Jef Raskin",
+     "tipo": "CRIOU",
+     "destino": "Macintosh",
+     "propriedades": {
+      "ano": 1979
+     },
+     "evidencia": "O projeto Macintosh começou a ser desenvolvido no princípio de 1979",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Burrell Smith",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Apple",
+     "propriedades": {
+      "cargo": "técnico"
+     },
+     "evidencia": "Burrell Smith, um técnico que acabara de ser contratado pela Apple naquele ano",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "45540_4",
+   "entidades": [
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Burrell Smith",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jef Raskin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Motorola",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Motorola 6805E",
+     "tipo": "Hardware",
+     "aliases": [
+      "6805E"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Motorola 68000",
+     "tipo": "Hardware",
+     "aliases": [
+      "68000"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Apple Lisa",
+     "tipo": "Hardware",
+     "aliases": [
+      "Lisa"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Bud Tribble",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Burrell Smith",
+     "tipo": "CRIOU",
+     "destino": "Macintosh",
+     "propriedades": {},
+     "evidencia": "O primeiro protótipo produzido por Burrell Smith obedecia às especificações de Jef Raskin",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Motorola",
+     "tipo": "DESENVOLVEU",
+     "destino": "Motorola 6805E",
+     "propriedades": {},
+     "evidencia": "utilizava o lento microprocessador 6805E da Motorola",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Macintosh",
+     "tipo": "UTILIZA",
+     "destino": "Motorola 6805E",
+     "propriedades": {},
+     "evidencia": "utilizava o lento microprocessador 6805E da Motorola",
+     "confianca": 0.6
+    },
+    {
+     "origem": "Apple Lisa",
+     "tipo": "UTILIZA",
+     "destino": "Motorola 68000",
+     "propriedades": {},
+     "evidencia": "integrar o processador Motorola 68000 do Lisa ao Macintosh",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Macintosh",
+     "tipo": "UTILIZA",
+     "destino": "Motorola 68000",
+     "propriedades": {},
+     "evidencia": "Burrell Smith desenvolveu uma placa que continha não somente um processador 68000",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "45540_5",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple Lisa",
+     "tipo": "Hardware",
+     "aliases": [
+      "Lisa"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Motorola 68000",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "John Sculley",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Xerox",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Xerox PARC",
+     "tipo": "Organizacao",
+     "aliases": [
+      "PARC",
+      "Palo Alto Research Center"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Palo Alto",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Macintosh",
+     "tipo": "UTILIZA",
+     "destino": "Motorola 68000",
+     "propriedades": {},
+     "evidencia": "Jobs reprojetou o Macintosh para utilizar o mesmo processador do lisa, o Motorola 68000",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Xerox PARC",
+     "tipo": "SEDIADA_EM",
+     "destino": "Palo Alto",
+     "propriedades": {},
+     "evidencia": "laboratórios de desenvolvimento da Xerox em Palo Alto, Califórnia (Palo Alto Research Center, o PARC)",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "45540_6",
+   "entidades": [
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [
+      "Macintosh 128k"
+     ],
+     "propriedades": {
+      "ano": 1984,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "System 1",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema operacional original do Macintosh, mais tarde chamado de Mac OS.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Mac OS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "System 1",
+     "tipo": "EXECUTA_EM",
+     "destino": "Macintosh",
+     "propriedades": {},
+     "evidencia": "rodava com o Sistema Operacional System 1",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "45540_7",
+   "entidades": [
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PowerPC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Série de processadores com arquitetura RISC anunciada pela aliança AIM.",
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Apple Computer"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Motorola",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Motorola 68000",
+     "tipo": "Hardware",
+     "aliases": [
+      "68000"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Mac OS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "PowerPC",
+     "propriedades": {},
+     "evidencia": "a aliança AIM Apple Computer-IBM-Motorola anuncia a série de processadores PowerPC com arquitetura RISC",
+     "confianca": 0.8
+    },
+    {
+     "origem": "IBM",
+     "tipo": "DESENVOLVEU",
+     "destino": "PowerPC",
+     "propriedades": {},
+     "evidencia": "a aliança AIM Apple Computer-IBM-Motorola anuncia a série de processadores PowerPC com arquitetura RISC",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Motorola",
+     "tipo": "DESENVOLVEU",
+     "destino": "PowerPC",
+     "propriedades": {},
+     "evidencia": "a aliança AIM Apple Computer-IBM-Motorola anuncia a série de processadores PowerPC com arquitetura RISC",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Macintosh",
+     "tipo": "UTILIZA",
+     "destino": "PowerPC",
+     "propriedades": {},
+     "evidencia": "Os primeiros Macintosh utilizando o PowerPC surgiram em 1994.",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "45540_8",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Umax",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Power Computing",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "45540_9",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Mac OS 8",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1997,
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "PowerPC G3",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "Mac OS 8",
+     "propriedades": {
+      "ano": 1997
+     },
+     "evidencia": "Em 1997, a Apple lançou uma nova versão de seu sistema operacional, o Mac OS 8",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "45540_10",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PowerPC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel Core Duo",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "MacBook Pro",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 2006,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "iMac",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "PowerBook G4",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "iMac G5",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "MacBook Pro",
+     "tipo": "UTILIZA",
+     "destino": "Intel Core Duo",
+     "propriedades": {},
+     "evidencia": "o MacBook Pro e o iMac, ambos equipados com o processador Intel Core Duo",
+     "confianca": 0.95
+    },
+    {
+     "origem": "iMac",
+     "tipo": "UTILIZA",
+     "destino": "Intel Core Duo",
+     "propriedades": {},
+     "evidencia": "o MacBook Pro e o iMac, ambos equipados com o processador Intel Core Duo",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "45540_11",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [
+      "Mac"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "45540_12",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Mac OS",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "System OS"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Mac OS X",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sucessor moderno e mais seguro do Mac OS, baseado no Unix.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Mac OS X",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Mac OS",
+     "propriedades": {},
+     "evidencia": "a Apple introduziu um sucessor moderno e mais seguro, baseado no sistema operacional Unix, o Mac OS X",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "Mac OS X",
+     "propriedades": {},
+     "evidencia": "a Apple introduziu um sucessor moderno e mais seguro, baseado no sistema operacional Unix, o Mac OS X",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "45540_13",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Motorola",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Sony",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PowerPC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Power Macintosh 6100",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1994,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "FireWire",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "IEEE 1394",
+      "iLink"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "Universal Serial Bus",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "USB"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "HyperCard",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ethernet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "FireWire",
+     "propriedades": {},
+     "evidencia": "FireWire, também conhecido como IEEE 1394, um standard desenvolvido pela Apple",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "PowerPC",
+     "propriedades": {},
+     "evidencia": "Arquitetura RISC na forma do processador PowerPC, desenvolvido conjuntamente pela Apple, IBM e Motorola",
+     "confianca": 0.9
+    },
+    {
+     "origem": "IBM",
+     "tipo": "DESENVOLVEU",
+     "destino": "PowerPC",
+     "propriedades": {},
+     "evidencia": "Arquitetura RISC na forma do processador PowerPC, desenvolvido conjuntamente pela Apple, IBM e Motorola",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Motorola",
+     "tipo": "DESENVOLVEU",
+     "destino": "PowerPC",
+     "propriedades": {},
+     "evidencia": "Arquitetura RISC na forma do processador PowerPC, desenvolvido conjuntamente pela Apple, IBM e Motorola",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Power Macintosh 6100",
+     "tipo": "UTILIZA",
+     "destino": "PowerPC",
+     "propriedades": {},
+     "evidencia": "Arquitetura RISC na forma do processador PowerPC, desenvolvido conjuntamente pela Apple, IBM e Motorola (Power Macintosh 6100, 1994)",
+     "confianca": 0.65
+    }
+   ]
+  },
+  {
+   "chunk_id": "45540_14",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "PowerPC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Mac OS Lion",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Mac OS X Lion",
+      "10.7"
+     ],
+     "propriedades": {
+      "ano": 2011,
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

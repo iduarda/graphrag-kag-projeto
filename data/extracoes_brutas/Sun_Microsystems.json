@@ -1,0 +1,879 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:24:26+00:00",
+ "chunks": [
+  {
+   "chunk_id": "78836_0",
+   "entidades": [
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Sun"
+     ],
+     "descricao": "Fabricante de computadores, semicondutores e software, adquirida pela Oracle Corporation em 2009.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Oracle Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Santa Clara",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Califórnia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "SPARC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Opteron",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Solaris",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "NFS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Stanford University"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Sun Microsystems",
+     "tipo": "SEDIADA_EM",
+     "destino": "Santa Clara",
+     "propriedades": {},
+     "evidencia": "com sede em Santa Clara, Califórnia",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "78836_1",
+   "entidades": [
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Sun"
+     ],
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1982
+     }
+    },
+    {
+     "nome": "Oracle Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade de Stanford"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Palo Alto",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Vinod Khosla",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Scott McNealy",
+     "tipo": "Pessoa",
+     "aliases": [
+      "McNealy"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bill Joy",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Desenvolvedor de software de BSD Unix e cofundador da Sun.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Andy Bechtolsheim",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Bechtolsheim"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Gilmore",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "James Gosling",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Liderou a equipe que desenvolveu a linguagem Java.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "UNIX"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "TCP/IP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "NFS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Vinod Khosla",
+     "tipo": "FUNDOU",
+     "destino": "Sun Microsystems",
+     "propriedades": {
+      "ano": 1982
+     },
+     "evidencia": "A companhia foi fundada em 1982 e entrou em bolsa em 1986. Seus fundadores foram Vinod Khosla, Scott McNealy, Bill Joy (um desenvolvedor de software de BSD Unix) e Andy Bechtolsheim",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Scott McNealy",
+     "tipo": "FUNDOU",
+     "destino": "Sun Microsystems",
+     "propriedades": {
+      "ano": 1982
+     },
+     "evidencia": "A companhia foi fundada em 1982 e entrou em bolsa em 1986. Seus fundadores foram Vinod Khosla, Scott McNealy, Bill Joy (um desenvolvedor de software de BSD Unix) e Andy Bechtolsheim",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Bill Joy",
+     "tipo": "FUNDOU",
+     "destino": "Sun Microsystems",
+     "propriedades": {
+      "ano": 1982
+     },
+     "evidencia": "A companhia foi fundada em 1982 e entrou em bolsa em 1986. Seus fundadores foram Vinod Khosla, Scott McNealy, Bill Joy (um desenvolvedor de software de BSD Unix) e Andy Bechtolsheim",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Andy Bechtolsheim",
+     "tipo": "FUNDOU",
+     "destino": "Sun Microsystems",
+     "propriedades": {
+      "ano": 1982
+     },
+     "evidencia": "A companhia foi fundada em 1982 e entrou em bolsa em 1986. Seus fundadores foram Vinod Khosla, Scott McNealy, Bill Joy (um desenvolvedor de software de BSD Unix) e Andy Bechtolsheim",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Scott McNealy",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Sun Microsystems",
+     "propriedades": {},
+     "evidencia": "McNealy e Bechtolsheim continuam na Sun até hoje",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Andy Bechtolsheim",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Sun Microsystems",
+     "propriedades": {},
+     "evidencia": "McNealy e Bechtolsheim continuam na Sun até hoje",
+     "confianca": 0.9
+    },
+    {
+     "origem": "John Gilmore",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Sun Microsystems",
+     "propriedades": {},
+     "evidencia": "Outros expoentes da Sun incluem os primeiros empregados John Gilmore e James Gosling",
+     "confianca": 0.9
+    },
+    {
+     "origem": "James Gosling",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Sun Microsystems",
+     "propriedades": {},
+     "evidencia": "Outros expoentes da Sun incluem os primeiros empregados John Gilmore e James Gosling",
+     "confianca": 0.9
+    },
+    {
+     "origem": "James Gosling",
+     "tipo": "CRIOU",
+     "destino": "Java",
+     "propriedades": {},
+     "evidencia": "James Gosling liderou a equipe que desenvolveu a linguagem de programação Java.",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Universidade Stanford",
+     "tipo": "SEDIADA_EM",
+     "destino": "Palo Alto",
+     "propriedades": {},
+     "evidencia": "Universidade de Stanford em Palo Alto, Califórnia",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "78836_2",
+   "entidades": [
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Sun"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Vaughan Pratt",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade de Stanford"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Motorola 68000",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "SPARC",
+     "tipo": "Hardware",
+     "aliases": [
+      "Sparc"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Solaris",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "SunOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "UNIX"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Vaughan Pratt",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade Stanford",
+     "propriedades": {
+      "cargo": "professor"
+     },
+     "evidencia": "pelo professor Vaughan Pratt, também da Universidade de Stanford",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Sun Microsystems",
+     "tipo": "DESENVOLVEU",
+     "destino": "SPARC",
+     "propriedades": {},
+     "evidencia": "A Sun desenvolveu diversas gerações da arquitetura Sparc",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "78836_3",
+   "entidades": [
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Sun"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Sun 386i",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Intel 80386",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Sun Enterprise 10000",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Sun Enterprise 450",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Cray CS-6400",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Silicon Graphics",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Cray Research",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Solaris",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "SunOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Sun 386i",
+     "tipo": "UTILIZA",
+     "destino": "Intel 80386",
+     "propriedades": {},
+     "evidencia": "a Sun comercializou um computador baseado no Intel 80386, o Sun 386i",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Sun Enterprise 10000",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Cray CS-6400",
+     "propriedades": {},
+     "evidencia": "A linha de servidores Cray CS-6400 foi transformada nos mainframes Sun Enterprise 10000 e Sun Enterprise 450",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Sun Enterprise 450",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Cray CS-6400",
+     "propriedades": {},
+     "evidencia": "A linha de servidores Cray CS-6400 foi transformada nos mainframes Sun Enterprise 10000 e Sun Enterprise 450",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "78836_4",
+   "entidades": [
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Sun"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Oracle Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Larry Ellison",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Diba",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Cobalt Networks",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Larry Ellison",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Oracle Corporation",
+     "propriedades": {
+      "cargo": "presidente"
+     },
+     "evidencia": "presidente da Oracle Corporation, Larry Ellison",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "78836_5",
+   "entidades": [
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Sun"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Oracle Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "78836_6",
+   "entidades": [
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Sun"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "78836_7",
+   "entidades": [
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Sun"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Andy Bechtolsheim",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Kaelia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Fujitsu",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Opteron",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Andy Bechtolsheim",
+     "tipo": "FUNDOU",
+     "destino": "Kaelia",
+     "propriedades": {},
+     "evidencia": "Kaelia, uma start-up fundada pelo fundador da Sun Andy Bechtolsheim",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "78836_8",
+   "entidades": [
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Sun"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Solaris",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "78836_9",
+   "entidades": [
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Sun"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Solaris",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema",
+      "ano": 1992
+     }
+    },
+    {
+     "nome": "SunOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "UNIX"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Sun Microsystems",
+     "tipo": "DESENVOLVEU",
+     "destino": "SunOS",
+     "propriedades": {},
+     "evidencia": "No final de 1982 Sun forneceu um UNIX 4.1BSD adaptado chamado SunOS como sistema operacional para suas estações de trabalho",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Sun Microsystems",
+     "tipo": "DESENVOLVEU",
+     "destino": "Solaris",
+     "propriedades": {
+      "ano": 1992
+     },
+     "evidencia": "Em 1992, junto com AT&T, integrou BSD UNIX e System V no Solaris",
+     "confianca": 0.85
+    },
+    {
+     "origem": "AT&T",
+     "tipo": "DESENVOLVEU",
+     "destino": "Solaris",
+     "propriedades": {
+      "ano": 1992
+     },
+     "evidencia": "Em 1992, junto com AT&T, integrou BSD UNIX e System V no Solaris",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "78836_10",
+   "entidades": [
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Sun"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1995,
+      "paradigmas": [
+       "orientada a objetos"
+      ]
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "78836_11",
+   "entidades": [
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Sun"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Star Division",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

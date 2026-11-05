@@ -1,0 +1,641 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:23:02+00:00",
+ "chunks": [
+  {
+   "chunk_id": "1923_0",
+   "entidades": [
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Rede Mundial de Computadores",
+      "WWW",
+      "Web"
+     ],
+     "descricao": "Sistema de documentos em hipermídia interligados e executados na Internet.",
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Google Chrome"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Mozilla",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Mozilla Firefox"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Microsoft Edge"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1923_1",
+   "entidades": [
+    {
+     "nome": "Tim Berners-Lee",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Berners-Lee"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Organização Europeia para a Investigação Nuclear",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CERN"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Suíça",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "ENQUIRE",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Projeto de compartilhamento de documentos de pesquisa, precursor de ideias da Web.",
+     "propriedades": {
+      "ano": 1980,
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Web"
+     ],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Robert Cailliau",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "NeXTcube",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Computador usado como primeiro servidor web.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "WorldWideWeb",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Primeiro navegador, escrito por Berners-Lee em 1990.",
+     "propriedades": {
+      "ano": 1990,
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "CRIOU",
+     "destino": "ENQUIRE",
+     "propriedades": {
+      "ano": 1980
+     },
+     "evidencia": "As ideias por trás da Web podem ser identificadas ainda em 1980, no CERN (Organização Europeia para a Investigação Nuclear), na Suíça, quando Tim Berners-Lee construiu o ENQUIRE",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "COLABOROU_COM",
+     "destino": "Robert Cailliau",
+     "propriedades": {
+      "contexto": "proposta formal para a World Wide Web"
+     },
+     "evidencia": "Com a ajuda de Robert Cailliau, ele publicou uma proposta mais formal para a World Wide Web no final de 1990.",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "CRIOU",
+     "destino": "WorldWideWeb",
+     "propriedades": {
+      "ano": 1990
+     },
+     "evidencia": "foi usado por Berners-Lee como primeiro servidor web e também para escrever o primeiro navegador, o WorldWideWeb, em 1990",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "1923_2",
+   "entidades": [
+    {
+     "nome": "Tim Berners-Lee",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Tim"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Web"
+     ],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "CRIOU",
+     "destino": "World Wide Web",
+     "propriedades": {},
+     "evidencia": "A ideia revolucionária de Tim foi unir o hipertexto e a Internet.",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "1923_3",
+   "entidades": [
+    {
+     "nome": "Organização Europeia para a Investigação Nuclear",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CERN"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "WWW"
+     ],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Mosaic",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Navegador gráfico de 1993 considerado a grande virada da WWW.",
+     "propriedades": {
+      "ano": 1993,
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Universidade de Illinois em Urbana-Champaign",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "World Wide Web Consortium",
+     "tipo": "Organizacao",
+     "aliases": [
+      "W3C"
+     ],
+     "propriedades": {
+      "ano_fundacao": 1994
+     }
+    },
+    {
+     "nome": "Tim Berners-Lee",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Universidade de Illinois em Urbana-Champaign",
+     "tipo": "DESENVOLVEU",
+     "destino": "Mosaic",
+     "propriedades": {
+      "ano": 1993
+     },
+     "evidencia": "a introdução do navegador Mosaic em 1993, um navegador gráfico desenvolvido por uma equipe de desenvolvedores universitários da Universidade de Illinois em Urbana-Champaign",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Organização Europeia para a Investigação Nuclear",
+     "propriedades": {
+      "ano_fim": 1994
+     },
+     "evidencia": "foi fundada em outubro de 1994, após Tim Berners-Lee sair do instituto CERN",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "1923_4",
+   "entidades": [
+    {
+     "nome": "World Wide Web Consortium",
+     "tipo": "Organizacao",
+     "aliases": [
+      "W3C"
+     ],
+     "propriedades": {
+      "ano_fundacao": 1994
+     }
+    },
+    {
+     "nome": "Tim Berners-Lee",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Organização Europeia para a Investigação Nuclear",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CERN"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "TCP/IP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1923_5",
+   "entidades": [
+    {
+     "nome": "HTTP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Protocolo que especifica como o navegador e o servidor web comunicam entre si.",
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1923_6",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1923_7",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1923_8",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1923_9",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1923_10",
+   "entidades": [
+    {
+     "nome": "WorldWideWeb",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Primeiro navegador desenvolvido no CERN, para a plataforma NeXTSTEP.",
+     "propriedades": {
+      "ano": 1990,
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Tim Berners-Lee",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Organização Europeia para a Investigação Nuclear",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CERN"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Viola",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Navegador de 1992.",
+     "propriedades": {
+      "ano": 1992,
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Pei Wei",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Marc Andreessen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Andreessen"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "NCSA",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Mosaic",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Mosaic para X"
+     ],
+     "propriedades": {
+      "ano": 1993,
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Netscape",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Mosaic Communications Corporation",
+      "Netscape Communications"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "WWW"
+     ],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "CRIOU",
+     "destino": "WorldWideWeb",
+     "propriedades": {
+      "ano": 1990
+     },
+     "evidencia": "O primeiro navegador desenvolvido no CERN foi o WorldWideWeb, pelo próprio Tim Berners-Lee, para a plataforma NeXTSTEP em 1990.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Pei Wei",
+     "tipo": "CRIOU",
+     "destino": "Viola",
+     "propriedades": {
+      "ano": 1992
+     },
+     "evidencia": "surgiram outros navegadores, como o Viola, da Pei Wei, em 1992",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Marc Andreessen",
+     "tipo": "TRABALHOU_EM",
+     "destino": "NCSA",
+     "propriedades": {},
+     "evidencia": "Marc Andreessen, da NCSA lançou um navegador chamado \"Mosaic para X\" em 1993",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Marc Andreessen",
+     "tipo": "CRIOU",
+     "destino": "Mosaic",
+     "propriedades": {
+      "ano": 1993
+     },
+     "evidencia": "Marc Andreessen, da NCSA lançou um navegador chamado \"Mosaic para X\" em 1993",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Marc Andreessen",
+     "tipo": "FUNDOU",
+     "destino": "Netscape",
+     "propriedades": {},
+     "evidencia": "Andreessen fundou a Mosaic Communications Corporation (hoje Netscape Communications)",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "1923_11",
+   "entidades": [
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [
+      "plataforma Java"
+     ],
+     "descricao": "Plataforma que permite embutir applets em páginas web.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Sun"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Sun Microsystems",
+     "tipo": "DESENVOLVEU",
+     "destino": "Java",
+     "propriedades": {},
+     "evidencia": "Um avanço significativo da web foi a plataforma Java, desenvolvida pela Sun Microsystems.",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "1923_12",
+   "entidades": [
+    {
+     "nome": "JavaScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem interpretada desenvolvida originalmente para páginas web, padronizada como ECMAScript.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Netscape",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Netscape",
+     "tipo": "DESENVOLVEU",
+     "destino": "JavaScript",
+     "propriedades": {},
+     "evidencia": "o JavaScript foi desenvolvido pela Netscape",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "1923_13",
+   "entidades": [
+    {
+     "nome": "JavaScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1923_14",
+   "entidades": [
+    {
+     "nome": "Macromedia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Adobe",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1923_15",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

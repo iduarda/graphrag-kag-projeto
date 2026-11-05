@@ -1,0 +1,2244 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:23:33+00:00",
+ "chunks": [
+  {
+   "chunk_id": "18590_0",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Steven Paul Jobs",
+      "Jobs"
+     ],
+     "descricao": "Inventor e empresário norte-americano, cofundador da Apple.",
+     "propriedades": {
+      "ano_nascimento": 1955,
+      "ano_morte": 2011
+     }
+    },
+    {
+     "nome": "São Francisco",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Palo Alto",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Apple Inc."
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Pixar",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Empresa de animação por computação gráfica.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "The Walt Disney Company",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Mike Markkula",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Uma das primeiras linhas de computadores pessoais de sucesso.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Interface gráfica do utilizador",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "interface gráfica do usuário"
+     ],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Jobs",
+     "tipo": "NASCEU_EM",
+     "destino": "São Francisco",
+     "propriedades": {},
+     "evidencia": "Steven Paul Jobs (São Francisco, 24 de fevereiro de 1955",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Steve Jobs",
+     "tipo": "FUNDOU",
+     "destino": "Apple",
+     "propriedades": {},
+     "evidencia": "Notabilizou-se como cofundador, presidente e diretor-executivo da Apple Inc.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Steve Jobs",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Apple",
+     "propriedades": {
+      "cargo": "presidente e diretor-executivo"
+     },
+     "evidencia": "cofundador, presidente e diretor-executivo da Apple Inc.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Steve Jobs",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Pixar",
+     "propriedades": {
+      "cargo": "diretor-executivo"
+     },
+     "evidencia": "foi diretor-executivo da empresa de animação por computação gráfica Pixar",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Steve Jobs",
+     "tipo": "CRIOU",
+     "destino": "Apple II",
+     "propriedades": {},
+     "evidencia": "Jobs, em parceria com Steve Wozniak e Mike Markkula, entre outros, desenvolveu e comercializou uma das primeiras linhas de computadores pessoais de sucesso, a série Apple II",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "CRIOU",
+     "destino": "Apple II",
+     "propriedades": {},
+     "evidencia": "Jobs, em parceria com Steve Wozniak e Mike Markkula, entre outros, desenvolveu e comercializou uma das primeiras linhas de computadores pessoais de sucesso, a série Apple II",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "18590_1",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Apple Inc."
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "NeXT",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Companhia de desenvolvimento de plataformas para educação superior e administração.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Tim Cook",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [
+      "Apple Macintosh"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "iMac G3",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Jobs",
+     "tipo": "FUNDOU",
+     "destino": "NeXT",
+     "propriedades": {},
+     "evidencia": "Jobs foi demitido da Apple e fundou a NeXT",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Steve Jobs",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Apple",
+     "propriedades": {
+      "cargo": "CEO",
+      "ano_inicio": 1997,
+      "ano_fim": 2011
+     },
+     "evidencia": "sendo então seu CEO de 1997 a 2011",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Steve Jobs",
+     "tipo": "FUNDOU",
+     "destino": "Apple",
+     "propriedades": {},
+     "evidencia": "à companhia que ele ajudara a fundar",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "18590_2",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Steven Paul Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "São Francisco",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Joanne Schieble Jandali Simpson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Joanne"
+     ],
+     "descricao": "Mãe biológica de Steve Jobs, nascida em Wisconsin.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Abdulfattah Jandali",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jandali"
+     ],
+     "descricao": "Pai biológico de Steve Jobs, de família síria.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Síria",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Universidade de Wisconsin",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Jobs",
+     "tipo": "NASCEU_EM",
+     "destino": "São Francisco",
+     "propriedades": {},
+     "evidencia": "Steven Paul Jobs nasceu em São Francisco",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "18590_3",
+   "entidades": [
+    {
+     "nome": "Jandali",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Síria",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "São Francisco",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18590_4",
+   "entidades": [
+    {
+     "nome": "Paul Reinhold Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Paul Jobs"
+     ],
+     "descricao": "Mecânico e ex-membro da guarda costeira, pai adotivo de Steve Jobs.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Clara Hagopian Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Clara Jobs"
+     ],
+     "descricao": "Filha de imigrantes armênios, mãe adotiva de Steve Jobs.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Mona Simpson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Filha de Joanne e Jandali.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18590_5",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Steven Paul Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Mountain View",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Palo Alto",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Paul Reinhold Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Paul Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Clara Hagopian Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Clara Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Patty Jobs",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Irmã adotiva de Steve Jobs.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18590_6",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs",
+      "Steve"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Palo Alto",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Larry Lang",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Engenheiro que introduziu Jobs no Clube do Explorador da Hewlett-Packard.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "John McCollum",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Professor das aulas de eletrônica frequentadas por Jobs.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Stephen \"Steve\" Wozniak"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Jobs",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Hewlett-Packard",
+     "propriedades": {},
+     "evidencia": "Em pouco tempo, Jobs conseguiu um emprego na empresa",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "18590_7",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Wozniak"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Jobs",
+     "tipo": "COLABOROU_COM",
+     "destino": "Steve Wozniak",
+     "propriedades": {
+      "contexto": "Caixa Azul (Blue Box)"
+     },
+     "evidencia": "A dupla de amigos começou a vender o equipamento a 150 dólares.",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "18590_8",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Wozniak",
+      "Woz"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18590_9",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs",
+      "Steve"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Reed College",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Universidade em Portland, Oregon, onde Jobs assistiu aulas como observador.",
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Portland",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Jobs",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Reed College",
+     "propriedades": {
+      "curso": "caligrafia"
+     },
+     "evidencia": "ingressou na universidade Reed College em Portland, Oregon",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "18590_10",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Atari",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Wozniak"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Palo Alto",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Jobs",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Atari",
+     "propriedades": {
+      "ano_inicio": 1974
+     },
+     "evidencia": "Em 1974, Jobs conseguiu um emprego na Atari.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Hewlett-Packard",
+     "propriedades": {},
+     "evidencia": "Wozniak — que na época trabalhava na Hewlett-Packard",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "18590_11",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Apple Computer Inc"
+     ],
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1976
+     }
+    },
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Wozniak"
+     ],
+     "descricao": "Criou o computador pessoal que deu origem à Apple.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple I",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "CRIOU",
+     "destino": "Apple I",
+     "propriedades": {},
+     "evidencia": "para comercializar um computador pessoal criado por Wozniak poucos meses antes",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "18590_12",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Wozniak",
+      "Wosniak"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ronald Wayne",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Wayne"
+     ],
+     "descricao": "Sócio mais velho da Apple, criou o primeiro logotipo da Apple e o manual do Apple I.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Apple Computers"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Atari",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Apple I",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Byte Shop",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Paul Terell",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Dono da loja de informática Byte Shop.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Jobs",
+     "tipo": "FUNDOU",
+     "destino": "Apple",
+     "propriedades": {},
+     "evidencia": "Para tanto, decidiram abrir uma empresa, juntando um elemento mais velho e experiente chamado Ronald Wayne",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "FUNDOU",
+     "destino": "Apple",
+     "propriedades": {},
+     "evidencia": "Para tanto, decidiram abrir uma empresa, juntando um elemento mais velho e experiente chamado Ronald Wayne",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Ronald Wayne",
+     "tipo": "FUNDOU",
+     "destino": "Apple",
+     "propriedades": {},
+     "evidencia": "Para tanto, decidiram abrir uma empresa, juntando um elemento mais velho e experiente chamado Ronald Wayne",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Ronald Wayne",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Atari",
+     "propriedades": {},
+     "evidencia": "Ronald Wayne, colega de Wosniak na Atari",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "18590_13",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Apple Inc",
+      "Apple Computer Co."
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Apple II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Computador pessoal mais bem sucedido da história, com quase seis milhões de unidades vendidas em dezesseis anos.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Wozniak"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Mike Markkula",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Ofereceu uma linha de crédito de 250 mil dólares para viabilizar o Apple II.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Rod Holt",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Holt"
+     ],
+     "descricao": "Engenheiro que construiu a fonte de alimentação comutável do Apple II.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Atari",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "Apple II",
+     "propriedades": {},
+     "evidencia": "O próximo projeto da Apple Inc se tornaria o computador pessoal mais bem sucedido da história",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Steve Jobs",
+     "tipo": "CRIOU",
+     "destino": "Apple II",
+     "propriedades": {},
+     "evidencia": "Jobs e Wozniak planejavam um computador com \"excelente invólucro, teclado incorporado e ser integrado de ponta a ponta",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "CRIOU",
+     "destino": "Apple II",
+     "propriedades": {},
+     "evidencia": "Jobs e Wozniak planejavam um computador com \"excelente invólucro, teclado incorporado e ser integrado de ponta a ponta",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Rod Holt",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Atari",
+     "propriedades": {},
+     "evidencia": "engenheiro Rod Holt da Atari",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "18590_14",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Ronald Wayne",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jerry Manock",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Consultor que produziu a versão final do invólucro do Apple II.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Mizushima Satoshi",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Fabricante de tecidos japonês, primeiro revendedor da Apple no Japão.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18590_15",
+   "entidades": [
+    {
+     "nome": "Apple III",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Computador da Apple considerado um fracasso.",
+     "propriedades": {
+      "ano": 1980,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Randy Wigginton",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Mizushima Satoshi",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18590_16",
+   "entidades": [
+    {
+     "nome": "Apple Lisa",
+     "tipo": "Hardware",
+     "aliases": [
+      "Lisa"
+     ],
+     "descricao": "Primeiro computador da Apple a utilizar a interface gráfica, baseado na tecnologia do Xerox Alto.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Xerox Alto",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [
+      "projeto Annie"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Interface gráfica do utilizador",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "interface gráfica"
+     ],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "Apple Lisa",
+     "propriedades": {},
+     "evidencia": "Foi o primeiro computador da Apple a utilizar a interface gráfica",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Steve Jobs",
+     "tipo": "CRIOU",
+     "destino": "Macintosh",
+     "propriedades": {},
+     "evidencia": "saiu dele para criar o projeto \"Annie\" que mais tarde seria rebatizado para Macintosh",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "18590_17",
+   "entidades": [
+    {
+     "nome": "Apple Lisa",
+     "tipo": "Hardware",
+     "aliases": [
+      "Lisa"
+     ],
+     "descricao": "Computador revolucionário mas fracasso comercial, custava 9 999 dólares e foi descontinuado em 1989.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple Lisa 2",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Macintosh XL",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [
+      "Mac"
+     ],
+     "descricao": "Computador que revolucionou a indústria da informática e foi um sucesso em vendas.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Walter Isaacson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Jobs",
+     "tipo": "CRIOU",
+     "destino": "Macintosh",
+     "propriedades": {},
+     "evidencia": "empenhou-se no desenvolvimento de um computador que revolucionou a indústria da informática, o Macintosh",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "18590_18",
+   "entidades": [
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [
+      "Annie"
+     ],
+     "descricao": "Projeto nascido em 1979 do desejo de Jef Raskin de criar um computador simples e barato.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Jef Raskin",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Raskin"
+     ],
+     "descricao": "Engenheiro idealizador do projeto Annie, depois Macintosh.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Apple Lisa",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Jef Raskin",
+     "tipo": "CRIOU",
+     "destino": "Macintosh",
+     "propriedades": {},
+     "evidencia": "O projeto Annie nasceu em 1979, fruto do desejo do engenheiro Jef Raskin de criar um equipamento simples",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "18590_19",
+   "entidades": [
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple Lisa",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Steve Capps",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Engenheiro do Macintosh.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "iMac",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "Macintosh",
+     "propriedades": {},
+     "evidencia": "O Macintosh foi o primeiro produto da Apple a integrar a filosofia de desenvolvimento",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "18590_20",
+   "entidades": [
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [
+      "Mac"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "iMac",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18590_21",
+   "entidades": [
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [
+      "Mac"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple Lisa",
+     "tipo": "Hardware",
+     "aliases": [
+      "Lisa"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Walter Isaacson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18590_22",
+   "entidades": [
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [
+      "Mac"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18590_23",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Sculley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Sculley"
+     ],
+     "descricao": "Presidente da Apple que inicialmente apoiou Jobs e depois o afastou.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [
+      "Mac"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple Lisa",
+     "tipo": "Hardware",
+     "aliases": [
+      "Lisa"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John Sculley",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Apple",
+     "propriedades": {
+      "cargo": "presidente"
+     },
+     "evidencia": "John Sculley, presidente da Apple",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "18590_24",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "NeXT",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Empresa criada por Jobs após sua saída da Apple, voltada ao mercado educacional.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Jobs",
+     "tipo": "FUNDOU",
+     "destino": "NeXT",
+     "propriedades": {},
+     "evidencia": "Após sua saída da Apple, Jobs mirou no mercado educacional criando a NeXT.",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "18590_25",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "NeXT",
+     "tipo": "Organizacao",
+     "aliases": [
+      "NeXT Computer"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "NEXTSTEP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema operacional da NeXT usado pela Apple como base de seu novo sistema operacional.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Jobs",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Apple",
+     "propriedades": {
+      "cargo": "consultor",
+      "ano_inicio": 1997
+     },
+     "evidencia": "Jobs retornou para a Apple em 1997 como consultor",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "18590_26",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "iMac",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro computador introduzido no mercado com várias características avançadas, com design em plástico translúcido e colorido.",
+     "propriedades": {
+      "ano": 1998,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Mac OS 9",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "iMac",
+     "propriedades": {
+      "ano": 1998
+     },
+     "evidencia": "introduzindo o iMac em 1998",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Mac OS 9",
+     "tipo": "EXECUTA_EM",
+     "destino": "iMac",
+     "propriedades": {},
+     "evidencia": "introduzindo o iMac em 1998 com o novo sistema operacional, o Mac OS 9",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "18590_27",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Mac OS X",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "MacOS X"
+     ],
+     "descricao": "Plataforma que uniu a estabilidade do Unix com a praticidade do Mac OS.",
+     "propriedades": {
+      "ano": 2000,
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Mac OS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "iMac",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Jobs",
+     "tipo": "CRIOU",
+     "destino": "Mac OS X",
+     "propriedades": {
+      "ano": 2000
+     },
+     "evidencia": "Jobs preparou uma nova revolução, a de refazer o famoso Mac OS, criando uma nova e poderosa plataforma",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Mac OS X",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Mac OS",
+     "propriedades": {},
+     "evidencia": "a de refazer o famoso Mac OS, criando uma nova e poderosa plataforma",
+     "confianca": 0.65
+    }
+   ]
+  },
+  {
+   "chunk_id": "18590_28",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Mac OS X",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18590_29",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18590_30",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Phil Schiller",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Vice-presidente de marketing de produtos da Apple, palestrante oficial da MacWorld 2009.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Phil Schiller",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Apple",
+     "propriedades": {
+      "cargo": "vice-presidente de marketing de produtos"
+     },
+     "evidencia": "Phil Schiller, vice-presidente de marketing de produtos da Apple na época",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "18590_31",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bill Gates",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Ex-presidente e principal acionista da Microsoft, rival e amigo de Jobs.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Walter Isaacson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bill Gates",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Microsoft",
+     "propriedades": {
+      "cargo": "presidente"
+     },
+     "evidencia": "Bill Gates, ex-presidente e principal acionista da Microsoft",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Steve Jobs",
+     "tipo": "COLABOROU_COM",
+     "destino": "Bill Gates",
+     "propriedades": {
+      "contexto": "acordos entre Apple e Microsoft"
+     },
+     "evidencia": "ambos firmaram acordos milionários",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "18590_32",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Pixar",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Pixar Studios"
+     ],
+     "descricao": "Estúdio de computação gráfica comprado por Jobs da Lucasfilm em 1986.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Lucasfilm",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "The Walt Disney Company",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Disney",
+      "Walt Disney"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18590_33",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Pixar",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "The Walt Disney Company",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Disney",
+      "Walt Disney"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18590_34",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18590_35",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18590_36",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18590_37",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Paramahansa Yogananda",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18590_38",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Tim Cook",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18590_39",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {
+      "ano_morte": 2011
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Apple Inc."
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Tim Cook",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Palo Alto",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Jobs",
+     "tipo": "FUNDOU",
+     "destino": "Apple",
+     "propriedades": {},
+     "evidencia": "A empresa da qual ele foi fundador e CEO, a Apple Inc.",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "18590_40",
+   "entidades": [
+    {
+     "nome": "Palo Alto",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18590_41",
+   "entidades": [
+    {
+     "nome": "Nova Iorque",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18590_42",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18590_43",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18590_44",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bill Gates",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Adam Osborne",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Computador pessoal que se tornou padrão e porta de entrada para uma geração no mundo digital.",
+     "propriedades": {
+      "ano": 1977,
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "18590_45",
+   "entidades": [
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha Nacional de Tecnologia e Inovação",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jefferson Award",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Grammy Trustees Award",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Jobs",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Nacional de Tecnologia e Inovação",
+     "propriedades": {
+      "ano": 1985
+     },
+     "evidencia": "1985: Medalha Nacional de Tecnologia e Inovação (com Steve Wozniak).",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Nacional de Tecnologia e Inovação",
+     "propriedades": {
+      "ano": 1985
+     },
+     "evidencia": "1985: Medalha Nacional de Tecnologia e Inovação (com Steve Wozniak).",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Steve Jobs",
+     "tipo": "RECEBEU",
+     "destino": "Jefferson Award",
+     "propriedades": {
+      "ano": 1987
+     },
+     "evidencia": "1987: Jefferson Award para \"serviço público\".",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Steve Jobs",
+     "tipo": "RECEBEU",
+     "destino": "Grammy Trustees Award",
+     "propriedades": {
+      "ano": 2012
+     },
+     "evidencia": "2012: Grammy Trustees Award, um prêmio para aqueles que têm influenciado a indústria da música",
+     "confianca": 0.9
+    }
+   ]
+  }
+ ]
+}

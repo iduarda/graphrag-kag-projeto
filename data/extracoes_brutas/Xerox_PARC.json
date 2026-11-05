@@ -1,0 +1,346 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:29:05+00:00",
+ "chunks": [
+  {
+   "chunk_id": "181356_0",
+   "entidades": [
+    {
+     "nome": "Xerox PARC",
+     "tipo": "Organizacao",
+     "aliases": [
+      "PARC",
+      "Xerox Palo Alto Research Center"
+     ],
+     "descricao": "Importante divisão de pesquisa da Xerox Corporation, fundada em 1970.",
+     "propriedades": {
+      "tipo": "laboratorio",
+      "ano_fundacao": 1970
+     }
+    },
+    {
+     "nome": "Xerox",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Xerox Corporation"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Palo Alto",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Interface gráfica do utilizador",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "GUI"
+     ],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Apple Computer"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Xerox PARC",
+     "tipo": "SEDIADA_EM",
+     "destino": "Palo Alto",
+     "propriedades": {},
+     "evidencia": "baseada em Palo Alto, Califórnia",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "181356_1",
+   "entidades": [
+    {
+     "nome": "Xerox PARC",
+     "tipo": "Organizacao",
+     "aliases": [
+      "PARC"
+     ],
+     "descricao": "Incubador de vários elementos dos computadores atuais.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Xerox Alto",
+     "tipo": "Hardware",
+     "aliases": [
+      "Alto"
+     ],
+     "descricao": "Primeiro computador pessoal, que incluía mouse, gráficos em cores e Ethernet.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Rato",
+     "tipo": "Hardware",
+     "aliases": [
+      "mouse"
+     ],
+     "propriedades": {
+      "tipo": "periferico"
+     }
+    },
+    {
+     "nome": "Ethernet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Smalltalk",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Kay",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Butler W. Lampson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Lampson"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bob Taylor",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Charles P. Thacker",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Thacker"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Charles Stark Draper",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Xerox PARC",
+     "tipo": "DESENVOLVEU",
+     "destino": "Xerox Alto",
+     "propriedades": {},
+     "evidencia": "Xerox PARC foi o incubador de vários elementos dos computadores atuais. Vários já faziam parte do primeiro computador pessoal, o Alto",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Alan Kay",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Xerox PARC",
+     "propriedades": {},
+     "evidencia": "Entre os distintos pesquisadores do PARC encontravam-se dois ganhadores do Prêmio Turing: Butler W. Lampson (1992) e Alan Kay (2003)",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Butler W. Lampson",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Xerox PARC",
+     "propriedades": {},
+     "evidencia": "Entre os distintos pesquisadores do PARC encontravam-se dois ganhadores do Prêmio Turing: Butler W. Lampson (1992) e Alan Kay (2003)",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Butler W. Lampson",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 1992
+     },
+     "evidencia": "dois ganhadores do Prêmio Turing: Butler W. Lampson (1992) e Alan Kay (2003)",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Alan Kay",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 2003
+     },
+     "evidencia": "dois ganhadores do Prêmio Turing: Butler W. Lampson (1992) e Alan Kay (2003)",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Butler W. Lampson",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Charles Stark Draper",
+     "propriedades": {
+      "ano": 2004
+     },
+     "evidencia": "Lampson, Kay, Bob Taylor e Charles P. Thacker receberam o prestigiado prêmio Charles Stark Draper da National Academy of Engineering en 2004",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Alan Kay",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Charles Stark Draper",
+     "propriedades": {
+      "ano": 2004
+     },
+     "evidencia": "Lampson, Kay, Bob Taylor e Charles P. Thacker receberam o prestigiado prêmio Charles Stark Draper da National Academy of Engineering en 2004",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Bob Taylor",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Charles Stark Draper",
+     "propriedades": {
+      "ano": 2004
+     },
+     "evidencia": "Lampson, Kay, Bob Taylor e Charles P. Thacker receberam o prestigiado prêmio Charles Stark Draper da National Academy of Engineering en 2004",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Charles P. Thacker",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Charles Stark Draper",
+     "propriedades": {
+      "ano": 2004
+     },
+     "evidencia": "Lampson, Kay, Bob Taylor e Charles P. Thacker receberam o prestigiado prêmio Charles Stark Draper da National Academy of Engineering en 2004",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "181356_2",
+   "entidades": [
+    {
+     "nome": "Xerox PARC",
+     "tipo": "Organizacao",
+     "aliases": [
+      "PARC"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Xerox",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Xerox Alto",
+     "tipo": "Hardware",
+     "aliases": [
+      "Alto"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Interface gráfica do utilizador",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "GUI"
+     ],
+     "descricao": "Desenvolvida inicialmente no PARC para o Alto.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [
+      "Apple Macintosh"
+     ],
+     "descricao": "Primeira GUI com sucesso comercial.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Job"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Xerox PARC",
+     "tipo": "DESENVOLVEU",
+     "destino": "Interface gráfica do utilizador",
+     "propriedades": {},
+     "evidencia": "a GUI, desenvolvida inicialmente no PARC para o \"Alto\"",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "181356_3",
+   "entidades": [
+    {
+     "nome": "Xerox PARC",
+     "tipo": "Organizacao",
+     "aliases": [
+      "PARC"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Xerox",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

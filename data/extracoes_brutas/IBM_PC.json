@@ -1,0 +1,712 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:22:27+00:00",
+ "chunks": [
+  {
+   "chunk_id": "11231_0",
+   "entidades": [
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [
+      "IBM 5150",
+      "IBM Personal Computer"
+     ],
+     "descricao": "Computador pessoal lançado em 1981 utilizando o sistema operacional MS-DOS.",
+     "propriedades": {
+      "ano": 1981,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [
+      "International Business Machines Corporation"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Don Estridge",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Dirigiu a equipe que desenvolveu o IBM PC.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Xerox Alto",
+     "tipo": "Hardware",
+     "aliases": [
+      "Alto"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Xerox PARC",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Xerox",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Xerox Corporation"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "IBM",
+     "tipo": "DESENVOLVEU",
+     "destino": "IBM PC",
+     "propriedades": {},
+     "evidencia": "desenvolvido por uma equipe sob a direção de Don Estridge no setor IBM Entry Systems Division da empresa norte-americana International Business Machines Corporation",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Don Estridge",
+     "tipo": "CRIOU",
+     "destino": "IBM PC",
+     "propriedades": {},
+     "evidencia": "desenvolvido por uma equipe sob a direção de Don Estridge",
+     "confianca": 0.7
+    },
+    {
+     "origem": "MS-DOS",
+     "tipo": "EXECUTA_EM",
+     "destino": "IBM PC",
+     "propriedades": {},
+     "evidencia": "um computador do tipo pessoal ou doméstico lançado em 1981, utilizando o sistema operacional MS-DOS",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Xerox PARC",
+     "tipo": "DESENVOLVEU",
+     "destino": "Xerox Alto",
+     "propriedades": {},
+     "evidencia": "o microcomputador Alto da Xerox PARC",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "11231_1",
+   "entidades": [
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [
+      "IBM 5150"
+     ],
+     "descricao": "Tentativa da IBM de entrar no mercado de computadores domésticos, lançado em 12 de agosto de 1981.",
+     "propriedades": {
+      "ano": 1981,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Apple II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Apple Inc"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM 5100",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11231_2",
+   "entidades": [
+    {
+     "nome": "Don Estridge",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Encabeçou o grupo de 12 pessoas que desenvolveu o PC.",
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [
+      "PC"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Don Estridge",
+     "tipo": "CRIOU",
+     "destino": "IBM PC",
+     "propriedades": {},
+     "evidencia": "O grupo consistia de apenas 12 pessoas, encabeçado por Don Estridge. Eles foram bem-sucedidos — o desenvolvimento do PC levou cerca de um ano.",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "11231_3",
+   "entidades": [
+    {
+     "nome": "Don Estridge",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM 801",
+     "tipo": "Hardware",
+     "aliases": [
+      "processador 801",
+      "801"
+     ],
+     "descricao": "Precursor dos microprocessadores RISC, projetado por John Cocke e seu grupo.",
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "John Cocke",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel 8088",
+     "tipo": "Hardware",
+     "aliases": [
+      "8088"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "MS-DOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Columbia Data Products",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "MPC",
+     "tipo": "Hardware",
+     "aliases": [
+      "Multi Personal Computer"
+     ],
+     "descricao": "Primeiro IBM PC compatível, lançado em junho de 1982.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Compaq",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John Cocke",
+     "tipo": "CRIOU",
+     "destino": "IBM 801",
+     "propriedades": {},
+     "evidencia": "o 801 foi um precursor dos microprocessadores RISC, projetado por John Cocke e seu grupo",
+     "confianca": 0.9
+    },
+    {
+     "origem": "IBM",
+     "tipo": "DESENVOLVEU",
+     "destino": "IBM 801",
+     "propriedades": {},
+     "evidencia": "o processador 801 e respectivo sistema operacional, que haviam sido desenvolvidos no laboratório de pesquisa da IBM em Yorktown Heights",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "MS-DOS",
+     "propriedades": {},
+     "evidencia": "o MS-DOS da Microsoft",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Columbia Data Products",
+     "tipo": "DESENVOLVEU",
+     "destino": "MPC",
+     "propriedades": {
+      "ano": 1982
+     },
+     "evidencia": "Em junho de 1982, a Columbia Data Products lançou o primeiro IBM PC compatível, o MPC (Multi Personal Computer)",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "11231_4",
+   "entidades": [
+    {
+     "nome": "Compaq",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11231_5",
+   "entidades": [
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro IBM PC lançado em 12 de agosto de 1981, com preço-base de US$ 1 565.",
+     "propriedades": {
+      "ano": 1981,
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11231_6",
+   "entidades": [
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [
+      "PC original"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Intel 8088",
+     "tipo": "Hardware",
+     "aliases": [
+      "8088"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AMD",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "IBM PC",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8088",
+     "propriedades": {},
+     "evidencia": "O processador era um Intel 8088",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "11231_7",
+   "entidades": [
+    {
+     "nome": "IBM PC XT",
+     "tipo": "Hardware",
+     "aliases": [
+      "IBM PC-XT",
+      "IBM PC/XT"
+     ],
+     "descricao": "Modelo seguinte ao IBM PC, projetado para uso comercial, com HD de 10 Megabytes.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Intel 8088",
+     "tipo": "Hardware",
+     "aliases": [
+      "8088"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "IBM PC XT",
+     "tipo": "SUCESSOR_DE",
+     "destino": "IBM PC",
+     "propriedades": {},
+     "evidencia": "O modelo seguinte, o IBM PC XT foi uma máquina avançada",
+     "confianca": 0.75
+    },
+    {
+     "origem": "IBM PC XT",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8088",
+     "propriedades": {},
+     "evidencia": "O processador contudo, ainda era o Intel 8088 original rodando a 4,77 MHz.",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "11231_8",
+   "entidades": [
+    {
+     "nome": "IBM PC XT",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Intel 8088",
+     "tipo": "Hardware",
+     "aliases": [
+      "8088"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "IBM PC/AT",
+     "tipo": "Hardware",
+     "aliases": [
+      "IBM PC/AT (286')"
+     ],
+     "descricao": "Computador lançado em agosto de 1984 com processador Intel 80286.",
+     "propriedades": {
+      "ano": 1984,
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Intel 80286",
+     "tipo": "Hardware",
+     "aliases": [
+      "80286"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Computer Memories International",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CMI"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "IBM PC XT",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8088",
+     "propriedades": {},
+     "evidencia": "O processador contudo, ainda era o Intel 8088 original rodando a 4,77 MHz.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "IBM PC/AT",
+     "tipo": "UTILIZA",
+     "destino": "Intel 80286",
+     "propriedades": {},
+     "evidencia": "foi lançado o IBM PC/AT, que utilizava um processador Intel 80286",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "11231_9",
+   "entidades": [
+    {
+     "nome": "IBM Convertible",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM Portable",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM PCjr",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM PS/2",
+     "tipo": "Hardware",
+     "aliases": [
+      "PS/2",
+      "IBM Personal System/2"
+     ],
+     "descricao": "Modelos de segunda geração dos computadores pessoais IBM.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11231_10",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11231_11",
+   "entidades": [
+    {
+     "nome": "IBM PC/AT",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Intel 80286",
+     "tipo": "Hardware",
+     "aliases": [
+      "80286"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8086",
+     "tipo": "Hardware",
+     "aliases": [
+      "8086"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel 8088",
+     "tipo": "Hardware",
+     "aliases": [
+      "8088"
+     ],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "IBM PC/AT",
+     "tipo": "UTILIZA",
+     "destino": "Intel 80286",
+     "propriedades": {},
+     "evidencia": "O IBM PC/AT usava um processador Intel 80286",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "11231_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11231_13",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11231_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11231_15",
+   "entidades": [
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM Convertible",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM PS/2",
+     "tipo": "Hardware",
+     "aliases": [
+      "PS/2"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "11231_16",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

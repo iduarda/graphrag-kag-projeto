@@ -1,0 +1,16 @@
+{
+  "documento": {
+    "id": 2454784,
+    "titulo": "Robert Kahn",
+    "url": "https://pt.wikipedia.org/wiki/Robert_Kahn",
+    "categoria": "Pessoa",
+    "wikidata_id": "Q62843"
+  },
+  "chunks": [
+    {
+      "id": "2454784_0",
+      "ordem": 0,
+      "texto": "Robert Elliot Kahn (Nova Iorque, 23 de dezembro de 1938) é um informático estadunidense.\nFoi laureado com o Prêmio Turing de 2004, juntamente com Vint Cerf, por desenvolverem o Transmission Control Protocol (TCP), atual transmissor de dados da Internet.\nEm 2013 Kahn foi um dos cinco pioneiros da Internet e da Web que receberam o prêmio inaugural Prêmio de Engenharia Rainha Elizabeth."
+    }
+  ]
+}

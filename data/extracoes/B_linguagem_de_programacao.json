@@ -1,0 +1,398 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 191994,
+    "titulo": "B (linguagem de programação)",
+    "url": "https://pt.wikipedia.org/wiki/B_(linguagem_de_programa%C3%A7%C3%A3o)",
+    "categoria": "Linguagem",
+    "wikidata_id": "Q797302"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:24:03+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "linguagem:b",
+  "chunks": [
+    {
+      "id": "191994_0",
+      "ordem": 0,
+      "texto": "B é uma linguagem de programação que pertence ao paradigma imperativo e que foi desenvolvida no Bell Laboratories de 1969. Apesar de já ter se tornado obsoleta, foi a predecessora da linguagem de programação C, que até hoje é uma das mais populares. Foi majoritariamente um trabalho de Ken Thompson com contribuições de Dennis Ritchie, projetada e implementada na cidade de Murray Hill, nos Estados Unidos.\nA linguagem foi projetada para ser recursiva, não-numérica e de aplicação independente da máquina."
+    },
+    {
+      "id": "191994_1",
+      "ordem": 1,
+      "texto": "A linguagem foi projetada para ser recursiva, não-numérica e de aplicação independente da máquina.\nHistória: B foi essencialmente uma simplificação da linguagem BCPL (Basic Combined Programming Language), quitando qualquer componente que Thompson considerasse prescindível de modo a caber na memória dos microcomputadores da época. Também se realizaram algumas mudanças segundo as preferências de Thompson (a maioria das quais eram para reduzir o número de caracteres em um programa típico).\nComo BCPL, B só tinha um tipo de dado, que correspondia com uma palavra de máquina. A maioria dos operadores o manipulavam como um inteiro; por exemplo + (adição), - (subtracção), * (multiplicação) ou / (divisão).  O sistema de tipos empregado em B se caracteriza por tipagem fraca, dinâmica e também implícita.\nOutros operadores o manipulavam como um endereço de memória ao qual faziam referência: um Ponteiro. B oferecia operadores que permitiam obter o endereço duma determinada variável, ou escrever no endereço apontado por uma variável apontadora ou ponteiro.\nAs primeiras implementações foram para os minicomputadores PDP-7 e PDP-11 executando versões antigas do UNIX; e para os mainframes de 36 bits Honeywell executando o sistema GCOS."
+    },
+    {
+      "id": "191994_2",
+      "ordem": 2,
+      "texto": "As primeiras implementações foram para os minicomputadores PDP-7 e PDP-11 executando versões antigas do UNIX; e para os mainframes de 36 bits Honeywell executando o sistema GCOS.\nEvolução: A natureza sem tipos — isto é, com um só tipo correspondente à palavra de máquina — de B tinha sentido no Honeywell, no PDP-7 e noutros computadores antigos, mas foi um problema no PDP-11 já que era difícil aceder a caracteres individuais, um novo tipo de dado que ofertava o PDP-11 assim como a maioria dos computadores modernos.\nComeçando no 1971, Ritchie fez mudanças à linguagem ao mesmo tempo que convertia o seu compilador para produzir linguagem de máquina de forma nativa. A mais notável foi a adição de tipos de dado diferentes para as variáveis. A linguagem B foi implementada no PDP-11, que foi uma máquina da DEC usada para fazer o primeiro arcade operado por moedas, com o Jogo Galaxy.Predefinição:Citação requerida\nDurante 1971 e 1972, B evoluiu primeiro em Novo B (New B, NB) e depois em C. Mais tarde, começando 1973, foi adicionado um pré-processador, a pedido de Alan Snyder. O esforço foi o suficiente neste ano como para que durante o verão o núcleo do UNIX para o PDP-11 fosse reescrito em C.\nDurante o período 1972-1973 foi preciso portá-lo ao Honeywell 635 e ao IBM 360/370, razão pela qual Mike Lesk escreveu o pacote de entrada/saída portável que se trocaria na conhecida E/S padrão (standard I/O ou stdio) da linguagem C."
+    },
+    {
+      "id": "191994_3",
+      "ordem": 3,
+      "texto": "Durante o período 1972-1973 foi preciso portá-lo ao Honeywell 635 e ao IBM 360/370, razão pela qual Mike Lesk escreveu o pacote de entrada/saída portável que se trocaria na conhecida E/S padrão (standard I/O ou stdio) da linguagem C.\nB seguiu-se a utilizar até os anos 1990 nos mainframes Honeywell e em certos sistemas embarcados por uma variedade de razões, incluindo o uso de hardware limitado nesses sistemas; bibliotecas, ferramentas, problemas de custos excessivos; ou simplesmente porque era o suficientemente bom como para fazer o trabalho.\nO AberMUD, de muita influência, foi escrito em B."
+    },
+    {
+      "id": "191994_4",
+      "ordem": 4,
+      "texto": "O AberMUD, de muita influência, foi escrito em B.\nNome: B teve uma enorme influência de BCPL, e o seu nome foi provavelmente uma contracção de BCPL. Porém, é possível que o seu nome baseara-se no da linguagem de programação Bon, uma linguagem mais antiga e não relacionada com B, desenhada por Thompson para usar-se no Multics.\nExemplos: Um exemplo simples, chamado de programa Olá Mundo.\nOu, equivalente:\nPrograma que imprime os N primeiros números perfeitos, onde N é a entrada do usuário:\nA seguinte função de exemplo foi extraída de Users' Reference to B, de Ken Thompson:\nFunção que substitui cada letra maiúscula de uma string de entrada s, por uma letra minúscula correspondente.\nEste programa de exemplo em B emprega a função anterior para somar três números imprimindo no ecrã o resultado."
+    },
+    {
+      "id": "191994_5",
+      "ordem": 5,
+      "texto": "Este programa de exemplo em B emprega a função anterior para somar três números imprimindo no ecrã o resultado.\nCompilando: Algumas versões do Unix possuem o compilador de B. Para compilar e executar um código B, basta digitar estes comandos no shell, desde que, claro, seu sistema operacional possua o compilador.\nSYSTEM? filsys cf bsource,b/1,100/\nSYSTEM? filsys cf bhs,b/6,6/,m/r/\nSYSTEM? ./bj (w) bsource bhs\nSYSTEM? /bhs"
+    }
+  ],
+  "entidades": [
+    {
+      "id": "linguagem:b",
+      "nome": "B",
+      "tipo": "Linguagem",
+      "aliases": [
+        "B (linguagem de programação)"
+      ],
+      "descricao": "Linguagem imperativa desenvolvida no Bell Laboratories, predecessora da linguagem C.",
+      "propriedades": {
+        "ano": 1969,
+        "paradigmas": [
+          "imperativo"
+        ]
+      },
+      "chunk_ids": [
+        "191994_0",
+        "191994_1",
+        "191994_2",
+        "191994_3",
+        "191994_4"
+      ]
+    },
+    {
+      "id": "organizacao:bell_labs",
+      "nome": "Bell Labs",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Laboratórios Bell",
+        "Bell Laboratories",
+        "Nokia Bell Labs",
+        "Bell Telephone Laboratories",
+        "AT&T Bell Laboratories"
+      ],
+      "propriedades": {
+        "tipo": "laboratorio"
+      },
+      "chunk_ids": [
+        "191994_0"
+      ]
+    },
+    {
+      "id": "linguagem:c",
+      "nome": "C",
+      "tipo": "Linguagem",
+      "aliases": [
+        "C (linguagem de programação)"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "191994_0",
+        "191994_2",
+        "191994_3"
+      ]
+    },
+    {
+      "id": "pessoa:ken_thompson",
+      "nome": "Ken Thompson",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Kenneth Thompson",
+        "Thompson"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "191994_0",
+        "191994_1",
+        "191994_4"
+      ]
+    },
+    {
+      "id": "pessoa:dennis_ritchie",
+      "nome": "Dennis Ritchie",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Dennis MacAlistair Ritchie",
+        "Ritchie"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "191994_0",
+        "191994_2"
+      ]
+    },
+    {
+      "id": "local:murray_hill",
+      "nome": "Murray Hill",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "191994_0"
+      ]
+    },
+    {
+      "id": "local:estados_unidos",
+      "nome": "Estados Unidos",
+      "tipo": "Local",
+      "aliases": [
+        "EUA",
+        "Estados Unidos da América",
+        "USA"
+      ],
+      "propriedades": {
+        "tipo": "pais"
+      },
+      "chunk_ids": [
+        "191994_0"
+      ]
+    },
+    {
+      "id": "linguagem:bcpl",
+      "nome": "BCPL",
+      "tipo": "Linguagem",
+      "aliases": [
+        "Basic Combined Programming Language"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "191994_1",
+        "191994_4"
+      ]
+    },
+    {
+      "id": "hardware:pdp_7",
+      "nome": "PDP-7",
+      "tipo": "Hardware",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "191994_1"
+      ]
+    },
+    {
+      "id": "hardware:pdp_11",
+      "nome": "PDP-11",
+      "tipo": "Hardware",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "191994_1",
+        "191994_2"
+      ]
+    },
+    {
+      "id": "tecnologia:unix",
+      "nome": "Unix",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "UNIX"
+      ],
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "191994_1",
+        "191994_2"
+      ]
+    },
+    {
+      "id": "organizacao:digital_equipment_corporation",
+      "nome": "Digital Equipment Corporation",
+      "tipo": "Organizacao",
+      "aliases": [
+        "DEC"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "191994_2"
+      ]
+    },
+    {
+      "id": "pessoa:alan_snyder",
+      "nome": "Alan Snyder",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "191994_2"
+      ]
+    },
+    {
+      "id": "pessoa:mike_lesk",
+      "nome": "Mike Lesk",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "191994_2",
+        "191994_3"
+      ]
+    },
+    {
+      "id": "linguagem:bon",
+      "nome": "Bon",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "descricao": "Linguagem mais antiga e não relacionada com B, desenhada por Thompson para uso no Multics.",
+      "propriedades": {},
+      "chunk_ids": [
+        "191994_4"
+      ]
+    },
+    {
+      "id": "tecnologia:multics",
+      "nome": "Multics",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "Multiplexed Information and Computing Service"
+      ],
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "191994_4"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "organizacao:bell_labs",
+      "tipo": "DESENVOLVEU",
+      "destino": "linguagem:b",
+      "propriedades": {
+        "ano": 1969
+      },
+      "chunk_id": "191994_0",
+      "evidencia": "foi desenvolvida no Bell Laboratories de 1969",
+      "confianca": 0.9
+    },
+    {
+      "origem": "linguagem:c",
+      "tipo": "SUCESSOR_DE",
+      "destino": "linguagem:b",
+      "propriedades": {},
+      "chunk_id": "191994_0",
+      "evidencia": "foi a predecessora da linguagem de programação C",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:ken_thompson",
+      "tipo": "CRIOU",
+      "destino": "linguagem:b",
+      "propriedades": {},
+      "chunk_id": "191994_0",
+      "evidencia": "Foi majoritariamente um trabalho de Ken Thompson com contribuições de Dennis Ritchie",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:dennis_ritchie",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:ken_thompson",
+      "propriedades": {
+        "contexto": "linguagem B"
+      },
+      "chunk_id": "191994_0",
+      "evidencia": "um trabalho de Ken Thompson com contribuições de Dennis Ritchie",
+      "confianca": 0.85
+    },
+    {
+      "origem": "linguagem:b",
+      "tipo": "INFLUENCIADA_POR",
+      "destino": "linguagem:bcpl",
+      "propriedades": {},
+      "chunk_id": "191994_1",
+      "evidencia": "B foi essencialmente uma simplificação da linguagem BCPL",
+      "confianca": 0.95
+    },
+    {
+      "origem": "linguagem:b",
+      "tipo": "EXECUTA_EM",
+      "destino": "hardware:pdp_7",
+      "propriedades": {},
+      "chunk_id": "191994_1",
+      "evidencia": "As primeiras implementações foram para os minicomputadores PDP-7 e PDP-11",
+      "confianca": 0.9
+    },
+    {
+      "origem": "linguagem:b",
+      "tipo": "EXECUTA_EM",
+      "destino": "hardware:pdp_11",
+      "propriedades": {},
+      "chunk_id": "191994_1",
+      "evidencia": "As primeiras implementações foram para os minicomputadores PDP-7 e PDP-11",
+      "confianca": 0.9
+    },
+    {
+      "origem": "linguagem:b",
+      "tipo": "EXECUTA_EM",
+      "destino": "hardware:pdp_11",
+      "propriedades": {},
+      "chunk_id": "191994_2",
+      "evidencia": "A linguagem B foi implementada no PDP-11",
+      "confianca": 0.9
+    },
+    {
+      "origem": "organizacao:digital_equipment_corporation",
+      "tipo": "DESENVOLVEU",
+      "destino": "hardware:pdp_11",
+      "propriedades": {},
+      "chunk_id": "191994_2",
+      "evidencia": "PDP-11, que foi uma máquina da DEC",
+      "confianca": 0.85
+    },
+    {
+      "origem": "linguagem:c",
+      "tipo": "SUCESSOR_DE",
+      "destino": "linguagem:b",
+      "propriedades": {},
+      "chunk_id": "191994_2",
+      "evidencia": "B evoluiu primeiro em Novo B (New B, NB) e depois em C",
+      "confianca": 0.9
+    },
+    {
+      "origem": "tecnologia:unix",
+      "tipo": "ESCRITO_EM",
+      "destino": "linguagem:c",
+      "propriedades": {},
+      "chunk_id": "191994_2",
+      "evidencia": "o núcleo do UNIX para o PDP-11 fosse reescrito em C",
+      "confianca": 0.85
+    },
+    {
+      "origem": "linguagem:b",
+      "tipo": "INFLUENCIADA_POR",
+      "destino": "linguagem:bcpl",
+      "propriedades": {},
+      "chunk_id": "191994_4",
+      "evidencia": "B teve uma enorme influência de BCPL",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:ken_thompson",
+      "tipo": "CRIOU",
+      "destino": "linguagem:bon",
+      "propriedades": {},
+      "chunk_id": "191994_4",
+      "evidencia": "a linguagem de programação Bon, uma linguagem mais antiga e não relacionada com B, desenhada por Thompson",
+      "confianca": 0.85
+    }
+  ]
+}

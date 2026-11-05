@@ -1,0 +1,785 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 1147,
+    "titulo": "Linus Torvalds",
+    "url": "https://pt.wikipedia.org/wiki/Linus_Torvalds",
+    "categoria": "Pessoa",
+    "wikidata_id": "Q34253"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:23:28+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "pessoa:linus_torvalds",
+  "chunks": [
+    {
+      "id": "1147_0",
+      "ordem": 0,
+      "texto": "Linus Benedict Torvalds (Helsínquia, 28 de dezembro de 1969) é um engenheiro de software, nascido na Finlândia e naturalizado estado-unidense em 2010, criador, e por muito tempo o desenvolvedor mais importante do núcleo Linux, sendo utilizado em importantes sistemas Linux, Android e Chrome OS. É também o criador do Git, sistema de controle de versão amplamente utilizado, e o aplicativo para planejamento e registro de mergulho, Subsurface.\nJunto ao médico Shinya Yamanaka, foi honrado pela Academia de Tecnologia da Finlândia, em 2012, com o Prêmio de Tecnologia do Milênio “em reconhecimento à sua criação de um novo núcleo de sistema operacional para computadores, que levou ao extensivamente utilizado, núcleo Linux”. Torvalds também notoriamente recebeu os prêmios: Pioneiro da Computação da IEEE Computer Society, e o IEEE Masaru Ibuka Consumer Electronics Award, patrocinado pela Sony."
+    },
+    {
+      "id": "1147_1",
+      "ordem": 1,
+      "texto": "Torvalds também notoriamente recebeu os prêmios: Pioneiro da Computação da IEEE Computer Society, e o IEEE Masaru Ibuka Consumer Electronics Award, patrocinado pela Sony.\nBiografia: Torvalds nasceu em Helsínquia, na Finlândia. É filho dos jornalistas Anna e Nils Torvalds, e neto do estatístico Leo Törnqvist e do poeta Ole Torvalds. Seus pais eram radicais do campus da Universidade de Helsínquia, na década de 1960. Sua família pertence à minoria de língua sueca (5,5 % da população da Finlândia). Seu interesse por computadores começou com um Commodore VIC-20. Nessa época, ele fica conhecido por ter escrito um clone do Pac-Man chamado Cool Man.[carece de fontes]?\nLinus Torvalds é casado com Tove Torvalds (Monni, de nascimento) — hexacampeã nacional de karatê na Finlândia — a qual ele conheceu no outono de 1993. Linus passava exercícios introdutórios no laboratório de informática para os alunos, e solicitou aos participantes do curso que lhe enviassem um e-mail como teste, no qual ela o convidou para saírem em um primeiro encontro. Mais tarde, Linus e Tove se casaram e tiveram três filhas: Patricia Miranda (nascida em 1996), Daniela Yolanda (nascida em 1998), e Celeste Amanda (nascida em 2000), das quais duas nasceram nos Estados Unidos da América. Linus usa suas datas de nascimento (em hexadecimal) como aceitáveis números mágicos na chamada de reinicialização do núcleo (reboot)."
+    },
+    {
+      "id": "1147_2",
+      "ordem": 2,
+      "texto": "Linus usa suas datas de nascimento (em hexadecimal) como aceitáveis números mágicos na chamada de reinicialização do núcleo (reboot).\nLinus define-se como sendo “completamente ateísta religioso”, adicionando: “acredito que as pessoas parecem pensar que a religião traz moral e apreciação a natureza. Penso que esta afasta de ambos. Dando as pessoas a desculpa para dizer: ‘Oh, a natureza foi apenas criada’. E assim, o ato da criação é visto como algo miraculoso. Eu aprecio o fato que: ‘Uau, é incrível que algo assim primeiramente tenha acontecido’”. Mais tarde comentou que, enquanto na Europa, religião é basicamente uma questão pessoal, nos Estados Unidos, ela se torna algo bastante politizado.\nDiscutindo a questão da separação entre Estado e Igreja, Torvalds disse: “É um tanto irônico que em tantos países europeus, exista, na verdade um tipo de ligação legal entre o Estado e a religião do Estado”.\nEm 2010, Torvalds tornou-se cidadão estado-unidense, e se registrou para votar no país. Não é afiliado a nenhum partido político do país, acrescentando: “Em parte tenho demasiado orgulho pessoal para querer me associar a qualquer um deles, francamente”."
+    },
+    {
+      "id": "1147_3",
+      "ordem": 3,
+      "texto": "Não é afiliado a nenhum partido político do país, acrescentando: “Em parte tenho demasiado orgulho pessoal para querer me associar a qualquer um deles, francamente”.\nCarreira: Torvalds frequentou a Universidade de Helsínquia, entre 1988 e 1996, obtendo um Mestrado em Ciência da Computação a partir do grupo de pesquisa NODES. Sua carreira acadêmica foi interrompida após seu primeiro ano de estudo universitário, quando ele se juntou ao Exército da Finlândia. Lá, ocupa o posto de Segundo Tenente, com o papel de um oficial de cálculo balístico. Em 1990, retoma seus estudos universitários e é exposto ao sistema operacional Unix pela primeira vez, através de um computador DEC MicroVAX com o SO ULTRIX. Sua Dissertação de Mestrado intitula-se Linux: um sistema operacional portátil.\nEntrementes, em 1983, Richard Stallman cria a ideia do Sistema Operacional GNU, juntamente com a criação do Projeto GNU (que começou o seu desenvolvimento em janeiro de 1984). O Projeto GNU cresceu bastante a ponto de se fazer necessária a criação de uma fundação que desse apoio ao Projeto GNU, que se chamou Free Software Foundation (FSF), criada em 1985. Em 1986, Marice J. Bach publica Design of the Unix Operating System."
+    },
+    {
+      "id": "1147_4",
+      "ordem": 4,
+      "texto": "Bach publica Design of the Unix Operating System.\nEm 1988, Linus foi admitido na Universidade de Helsinki. No mesmo ano, Andy Tanenbaum traz a público o SO MINIX, um derivativo do Unix para fins didáticos que rodava em computadores pessoais (PCs). No fim dos anos 1980, Linus toma contato com os PCs. Em 1990, Torvalds começa a aprender a linguagem de programação C em seus estudos. Em 1991, Linus compra um PC com um processador Intel 80386. Em 5 de janeiro de 1991, ele compra um Intel 80386-IBM PC antes de receber sua cópia MINIX, que, por sua vez, lhe permitiu começar a trabalhar no que se tornaria o Linux."
+    },
+    {
+      "id": "1147_5",
+      "ordem": 5,
+      "texto": "Em 5 de janeiro de 1991, ele compra um Intel 80386-IBM PC antes de receber sua cópia MINIX, que, por sua vez, lhe permitiu começar a trabalhar no que se tornaria o Linux.\nCom 21 anos, sendo cinco já de experiência em programação (em C), toma contato com o SO Unix da Universidade (SunOS, atualmente Solaris) e desejava usar a versão de Tannenbaum, o Minix, no seu recém adquirido 80386. Entretanto, descontente com os recursos do Minix, especialmente em relação ao seu emulador de terminal que ele utilizaria para conectar remotamente ao Unix da universidade, começa a desenvolver seu próprio emulador de terminal que não rodaria sobre o Minix, mas sim diretamente no hardware do PC com 80386. Esse projeto pessoal foi sendo modificado gradualmente e adquirindo características de um sistema operacional independente do Minix. Esse é o início do desenvolvimento do núcleo Linux, relatado pelo próprio Linus Torvalds em seu livro Just for fun. O projeto do Linux foi lançado em 1991 em uma famosa mensagem para a Usenet, em que divulga que estava disposto a disponibilizar o código-fonte e contar com a colaboração de outros programadores. Desde os primeiros dias de liberação do Linux à comunidade, recebe ajuda de hackers do Minix, e hoje recebe contribuições de milhares de programadores dos mais diversos locais do mundo."
+    },
+    {
+      "id": "1147_6",
+      "ordem": 6,
+      "texto": "Desde os primeiros dias de liberação do Linux à comunidade, recebe ajuda de hackers do Minix, e hoje recebe contribuições de milhares de programadores dos mais diversos locais do mundo.\nEm 1997, Linus Torvalds recebe os prêmios \"1997 Nokia Foundation Award'y\" e \"Lifetime Achievement Award at Uniforum Pictures\". No mesmo ano, finaliza os estudos superiores (1988-1997), tendo passado 10 anos como estudante e pesquisador na Universidade de Helsínquia, coordenando o desenvolvimento do núcleo do sistema operacional desde 1992.\nTorvalds trabalhou na Transmeta (fabricante de processadores para portáteis) entre 1997 e 2003, e neste ano juntou-se à Open Source Development Labs (OSDL), fundação criada para ajudar no desenvolvimento do núcleo Linux, como OSDL fellow. Contribuem para essa fundação várias grandes empresas do ramo da informática, como IBM, Oracle e HP.\nTorvalds possui a marca registrada \"Linux\" e supervisiona esse uso por meio da organização sem fins lucrativos Linux International, dirigida por Jon Hall.\nEm entrevista a Embedded Linux Conference, Torvalds afirmou: \"O Desktop realmente não abraçou completamente o mundo Linux ainda para usuários finais, mas hoje vemos muito mais empresas aderindo ao Linux para esta finalidade. Hoje vejo o desktop Linux tão desenvolvido quanto nunca. Em 25 anos, eu e meus colegas e todos os colaboradores conseguimos colocar o Linux em quase que literalmente todos os lugares, tenho pelo menos mais 25 anos para conquistar o Desktop e eu vou fazê-lo!\"."
+    },
+    {
+      "id": "1147_7",
+      "ordem": 7,
+      "texto": "Em 25 anos, eu e meus colegas e todos os colaboradores conseguimos colocar o Linux em quase que literalmente todos os lugares, tenho pelo menos mais 25 anos para conquistar o Desktop e eu vou fazê-lo!\".\nLinux: Os primeiros protótipos do Linux foram publicados ainda em 1991, e a versão 1.0, em 14 de março de 1994. A convite de seu colega que também fala sueco, estudante de ciências da computação, Lars Wirzenius, Linus participa de uma palestra gratuita em 1991, do renomado ativista de software livre, Richard Stallman, conhecendo assim, o Projeto GNU, e publicando mais tarde o núcleo Linux sob licença GNU General Public License, versão 2 (GPLv2)."
+    },
+    {
+      "id": "1147_8",
+      "ordem": 8,
+      "texto": "Conexão entre os nomes Linus e Linux: Inicialmente Linus Torvalds nomeou seu sistema freax, combinação da palavra free (livre, em inglês) ou freak (diferente/estranho, em inglês) e o x do UNIX, mas Ari Lemmke, administrador do servidor FTP onde o código estava disponível, renomeou o diretório para linux para dar mais clareza."
+    },
+    {
+      "id": "1147_9",
+      "ordem": 9,
+      "texto": "Reconhecimento público: A revista Time o reconheceu diversas vezes:\nEm 2000, foi ranqueado como 17.º na  Time 100: The Most Important People of the Century. Em 2004, nomeado como uma das mais influentes pessoas do mundo. Em 2006, a versão europeia o nomeou como um dos heróis revolucionários dos últimos sessenta anos.\nInfoWorld lhe concedeu o Prêmio pelas Realizações Industriais de 2000.\nNo verão de 2004, os telespectadores da YLE (a companhia de transmissão pública da Finlândia), colocaram Torvalds em 16º, entre os 100 maiores finlandeses.\nEm uma pesquisa da BusinessWeek de 2005, Torvalds aparece como um dos “melhores gerentes”.\nEm 2006, a Business 2.0 o nomeou uma das “10 pessoas que não importam”, pelo crescimento do Linux, Torvalds possui um impacto individual não muito significante.\nEm 2010, como parte da série, “o guia Britannica das pessoas mais influentes do mundo”, Torvalds foi listado entre um dos “100 inventores mais influentes de todos os tempos”.\nEm 11 de outubro de 2017, a companhia SUSE fez uma música chamada: Linus Said (Linus disse, em inglês)."
+    },
+    {
+      "id": "1147_10",
+      "ordem": 10,
+      "texto": "Em 11 de outubro de 2017, a companhia SUSE fez uma música chamada: Linus Said (Linus disse, em inglês).\nNo Brasil: Embora tenha sido convidado inúmeras vezes, Linus Torvalds nunca compareceu ao maior evento de Software Livre do Brasil e um dos maiores do mundo, o FISL, realizado anualmente em Porto Alegre desde 1999. Mas isso não significa que Linus nunca tenha vindo ao Brasil. Ele participou, nos dias 17 e 18 de novembro de 2011, no LinuxCon Brasil, em São Paulo, que aconteceu no São Paulo Expo Norte. Inclusive foi durante essa visita que, em entrevista para o G1, que Linus admitiu que programar era apenas um hobby “Era apenas um hobby. Ainda é um hobby, na verdade”, também afirmou “O fato de que também é meu trabalho é, para mim, secundário. Eu ainda desenvolvo o Linux não porque me pagam, mas porque é a coisa mais interessante que eu me imagino fazendo.”[1]"
+    }
+  ],
+  "entidades": [
+    {
+      "id": "pessoa:linus_torvalds",
+      "nome": "Linus Torvalds",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Linus Benedict Torvalds",
+        "Torvalds"
+      ],
+      "descricao": "Engenheiro de software finlandês, criador do núcleo Linux.",
+      "propriedades": {
+        "ano_nascimento": 1969
+      },
+      "chunk_ids": [
+        "1147_0",
+        "1147_1",
+        "1147_2",
+        "1147_3",
+        "1147_4",
+        "1147_5",
+        "1147_6",
+        "1147_7",
+        "1147_8",
+        "1147_9",
+        "1147_10"
+      ]
+    },
+    {
+      "id": "local:helsinque",
+      "nome": "Helsinque",
+      "tipo": "Local",
+      "aliases": [
+        "Helsínquia",
+        "Helsinki"
+      ],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "1147_0",
+        "1147_1"
+      ]
+    },
+    {
+      "id": "local:finlandia",
+      "nome": "Finlândia",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "pais"
+      },
+      "chunk_ids": [
+        "1147_0",
+        "1147_1",
+        "1147_9"
+      ]
+    },
+    {
+      "id": "local:estados_unidos",
+      "nome": "Estados Unidos",
+      "tipo": "Local",
+      "aliases": [
+        "EUA",
+        "Estados Unidos da América",
+        "USA"
+      ],
+      "propriedades": {
+        "tipo": "pais"
+      },
+      "chunk_ids": [
+        "1147_0",
+        "1147_1",
+        "1147_2"
+      ]
+    },
+    {
+      "id": "tecnologia:linux",
+      "nome": "Linux",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "núcleo Linux",
+        "kernel Linux",
+        "Linux kernel",
+        "Linux (núcleo)"
+      ],
+      "descricao": "Núcleo de sistema operacional criado por Linus Torvalds.",
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "1147_0",
+        "1147_3",
+        "1147_4",
+        "1147_5",
+        "1147_6",
+        "1147_7",
+        "1147_8"
+      ]
+    },
+    {
+      "id": "tecnologia:android",
+      "nome": "Android",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "1147_0"
+      ]
+    },
+    {
+      "id": "tecnologia:chrome_os",
+      "nome": "Chrome OS",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "1147_0"
+      ]
+    },
+    {
+      "id": "pessoa:shinya_yamanaka",
+      "nome": "Shinya Yamanaka",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1147_0"
+      ]
+    },
+    {
+      "id": "organizacao:academia_de_tecnologia_da_finlandia",
+      "nome": "Academia de Tecnologia da Finlândia",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1147_0"
+      ]
+    },
+    {
+      "id": "premio:premio_de_tecnologia_do_milenio",
+      "nome": "Prêmio de Tecnologia do Milênio",
+      "tipo": "Premio",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1147_0"
+      ]
+    },
+    {
+      "id": "premio:pioneiro_da_computacao_da_ieee_computer_society",
+      "nome": "Pioneiro da Computação da IEEE Computer Society",
+      "tipo": "Premio",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1147_0"
+      ]
+    },
+    {
+      "id": "premio:ieee_masaru_ibuka_consumer_electronics_award",
+      "nome": "IEEE Masaru Ibuka Consumer Electronics Award",
+      "tipo": "Premio",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1147_0"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_de_helsinque",
+      "nome": "Universidade de Helsinque",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Universidade de Helsínquia",
+        "University of Helsinki",
+        "Universidade de Helsinki"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "1147_1",
+        "1147_3",
+        "1147_4",
+        "1147_6"
+      ]
+    },
+    {
+      "id": "hardware:commodore_vic_20",
+      "nome": "Commodore VIC-20",
+      "tipo": "Hardware",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "1147_1"
+      ]
+    },
+    {
+      "id": "organizacao:exercito_da_finlandia",
+      "nome": "Exército da Finlândia",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "agencia"
+      },
+      "chunk_ids": [
+        "1147_3"
+      ]
+    },
+    {
+      "id": "tecnologia:unix",
+      "nome": "Unix",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "UNIX"
+      ],
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "1147_3",
+        "1147_4",
+        "1147_5"
+      ]
+    },
+    {
+      "id": "pessoa:richard_stallman",
+      "nome": "Richard Stallman",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Richard Matthew Stallman",
+        "rms",
+        "Stallman"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "1147_3"
+      ]
+    },
+    {
+      "id": "tecnologia:projeto_gnu",
+      "nome": "Projeto GNU",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "GNU"
+      ],
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "1147_3"
+      ]
+    },
+    {
+      "id": "organizacao:free_software_foundation",
+      "nome": "Free Software Foundation",
+      "tipo": "Organizacao",
+      "aliases": [
+        "FSF",
+        "Fundação Software Livre"
+      ],
+      "propriedades": {
+        "tipo": "fundacao"
+      },
+      "chunk_ids": [
+        "1147_3"
+      ]
+    },
+    {
+      "id": "hardware:dec_microvax",
+      "nome": "DEC MicroVAX",
+      "tipo": "Hardware",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "1147_3"
+      ]
+    },
+    {
+      "id": "pessoa:andy_tanenbaum",
+      "nome": "Andy Tanenbaum",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Tannenbaum"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "1147_4",
+        "1147_5"
+      ]
+    },
+    {
+      "id": "tecnologia:minix",
+      "nome": "MINIX",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "descricao": "Derivativo do Unix para fins didáticos que rodava em PCs.",
+      "propriedades": {
+        "ano": 1988,
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "1147_4",
+        "1147_5"
+      ]
+    },
+    {
+      "id": "linguagem:c",
+      "nome": "C",
+      "tipo": "Linguagem",
+      "aliases": [
+        "C (linguagem de programação)"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "1147_4"
+      ]
+    },
+    {
+      "id": "hardware:intel_80386",
+      "nome": "Intel 80386",
+      "tipo": "Hardware",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "processador"
+      },
+      "chunk_ids": [
+        "1147_4",
+        "1147_5"
+      ]
+    },
+    {
+      "id": "tecnologia:sunos",
+      "nome": "SunOS",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "1147_5"
+      ]
+    },
+    {
+      "id": "tecnologia:solaris",
+      "nome": "Solaris",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "1147_5"
+      ]
+    },
+    {
+      "id": "premio:nokia_foundation_award",
+      "nome": "Nokia Foundation Award",
+      "tipo": "Premio",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1147_6"
+      ]
+    },
+    {
+      "id": "premio:lifetime_achievement_award_at_uniforum_pictures",
+      "nome": "Lifetime Achievement Award at Uniforum Pictures",
+      "tipo": "Premio",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1147_6"
+      ]
+    },
+    {
+      "id": "organizacao:transmeta",
+      "nome": "Transmeta",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1147_6"
+      ]
+    },
+    {
+      "id": "organizacao:open_source_development_labs",
+      "nome": "Open Source Development Labs",
+      "tipo": "Organizacao",
+      "aliases": [
+        "OSDL"
+      ],
+      "propriedades": {
+        "tipo": "fundacao"
+      },
+      "chunk_ids": [
+        "1147_6"
+      ]
+    },
+    {
+      "id": "organizacao:ibm",
+      "nome": "IBM",
+      "tipo": "Organizacao",
+      "aliases": [
+        "International Business Machines",
+        "International Business Machines Corporation"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1147_6"
+      ]
+    },
+    {
+      "id": "organizacao:oracle_corporation",
+      "nome": "Oracle Corporation",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Oracle"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1147_6"
+      ]
+    },
+    {
+      "id": "organizacao:hewlett_packard",
+      "nome": "Hewlett-Packard",
+      "tipo": "Organizacao",
+      "aliases": [
+        "HP",
+        "Hewlett-Packard Company"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1147_6"
+      ]
+    },
+    {
+      "id": "organizacao:linux_international",
+      "nome": "Linux International",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "fundacao"
+      },
+      "chunk_ids": [
+        "1147_6"
+      ]
+    },
+    {
+      "id": "pessoa:jon_hall",
+      "nome": "Jon Hall",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1147_6"
+      ]
+    },
+    {
+      "id": "pessoa:ari_lemmke",
+      "nome": "Ari Lemmke",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1147_8"
+      ]
+    },
+    {
+      "id": "premio:premio_pelas_realizacoes_industriais",
+      "nome": "Prêmio pelas Realizações Industriais",
+      "tipo": "Premio",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "1147_9"
+      ]
+    },
+    {
+      "id": "organizacao:infoworld",
+      "nome": "InfoWorld",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "1147_9"
+      ]
+    },
+    {
+      "id": "local:brasil",
+      "nome": "Brasil",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "pais"
+      },
+      "chunk_ids": [
+        "1147_10"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:linus_torvalds",
+      "tipo": "NASCEU_EM",
+      "destino": "local:helsinque",
+      "propriedades": {},
+      "chunk_id": "1147_0",
+      "evidencia": "Linus Benedict Torvalds (Helsínquia, 28 de dezembro de 1969)",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:linus_torvalds",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:linux",
+      "propriedades": {},
+      "chunk_id": "1147_0",
+      "evidencia": "criador, e por muito tempo o desenvolvedor mais importante do núcleo Linux",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:linus_torvalds",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_de_tecnologia_do_milenio",
+      "propriedades": {
+        "ano": 2012
+      },
+      "chunk_id": "1147_0",
+      "evidencia": "foi honrado pela Academia de Tecnologia da Finlândia, em 2012, com o Prêmio de Tecnologia do Milênio",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:shinya_yamanaka",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_de_tecnologia_do_milenio",
+      "propriedades": {
+        "ano": 2012
+      },
+      "chunk_id": "1147_0",
+      "evidencia": "Junto ao médico Shinya Yamanaka, foi honrado pela Academia de Tecnologia da Finlândia, em 2012, com o Prêmio de Tecnologia do Milênio",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:linus_torvalds",
+      "tipo": "RECEBEU",
+      "destino": "premio:pioneiro_da_computacao_da_ieee_computer_society",
+      "propriedades": {},
+      "chunk_id": "1147_0",
+      "evidencia": "Torvalds também notoriamente recebeu os prêmios: Pioneiro da Computação da IEEE Computer Society, e o IEEE Masaru Ibuka Consumer Electronics Award",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:linus_torvalds",
+      "tipo": "RECEBEU",
+      "destino": "premio:ieee_masaru_ibuka_consumer_electronics_award",
+      "propriedades": {},
+      "chunk_id": "1147_0",
+      "evidencia": "Torvalds também notoriamente recebeu os prêmios: Pioneiro da Computação da IEEE Computer Society, e o IEEE Masaru Ibuka Consumer Electronics Award",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:linus_torvalds",
+      "tipo": "NASCEU_EM",
+      "destino": "local:helsinque",
+      "propriedades": {},
+      "chunk_id": "1147_1",
+      "evidencia": "Torvalds nasceu em Helsínquia, na Finlândia",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:linus_torvalds",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:universidade_de_helsinque",
+      "propriedades": {
+        "curso": "Ciência da Computação"
+      },
+      "chunk_id": "1147_3",
+      "evidencia": "Torvalds frequentou a Universidade de Helsínquia, entre 1988 e 1996, obtendo um Mestrado em Ciência da Computação",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:linus_torvalds",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:exercito_da_finlandia",
+      "propriedades": {
+        "cargo": "Segundo Tenente"
+      },
+      "chunk_id": "1147_3",
+      "evidencia": "ele se juntou ao Exército da Finlândia",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:richard_stallman",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:projeto_gnu",
+      "propriedades": {
+        "ano": 1983
+      },
+      "chunk_id": "1147_3",
+      "evidencia": "em 1983, Richard Stallman cria a ideia do Sistema Operacional GNU, juntamente com a criação do Projeto GNU",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:linus_torvalds",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:universidade_de_helsinque",
+      "propriedades": {
+        "ano": 1988
+      },
+      "chunk_id": "1147_4",
+      "evidencia": "Em 1988, Linus foi admitido na Universidade de Helsinki",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:andy_tanenbaum",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:minix",
+      "propriedades": {
+        "ano": 1988
+      },
+      "chunk_id": "1147_4",
+      "evidencia": "Andy Tanenbaum traz a público o SO MINIX, um derivativo do Unix para fins didáticos",
+      "confianca": 0.75
+    },
+    {
+      "origem": "pessoa:linus_torvalds",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:linux",
+      "propriedades": {},
+      "chunk_id": "1147_5",
+      "evidencia": "Esse é o início do desenvolvimento do núcleo Linux, relatado pelo próprio Linus Torvalds em seu livro Just for fun",
+      "confianca": 0.75
+    },
+    {
+      "origem": "pessoa:linus_torvalds",
+      "tipo": "RECEBEU",
+      "destino": "premio:nokia_foundation_award",
+      "propriedades": {
+        "ano": 1997
+      },
+      "chunk_id": "1147_6",
+      "evidencia": "Em 1997, Linus Torvalds recebe os prêmios \"1997 Nokia Foundation Award'y\" e \"Lifetime Achievement Award at Uniforum Pictures",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:linus_torvalds",
+      "tipo": "RECEBEU",
+      "destino": "premio:lifetime_achievement_award_at_uniforum_pictures",
+      "propriedades": {
+        "ano": 1997
+      },
+      "chunk_id": "1147_6",
+      "evidencia": "Em 1997, Linus Torvalds recebe os prêmios \"1997 Nokia Foundation Award'y\" e \"Lifetime Achievement Award at Uniforum Pictures",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:linus_torvalds",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:transmeta",
+      "propriedades": {
+        "ano_inicio": 1997,
+        "ano_fim": 2003
+      },
+      "chunk_id": "1147_6",
+      "evidencia": "Torvalds trabalhou na Transmeta (fabricante de processadores para portáteis) entre 1997 e 2003",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:linus_torvalds",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:open_source_development_labs",
+      "propriedades": {
+        "cargo": "OSDL fellow",
+        "ano_inicio": 2003
+      },
+      "chunk_id": "1147_6",
+      "evidencia": "neste ano juntou-se à Open Source Development Labs (OSDL), fundação criada para ajudar no desenvolvimento do núcleo Linux, como OSDL fellow",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:linus_torvalds",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_pelas_realizacoes_industriais",
+      "propriedades": {
+        "ano": 2000
+      },
+      "chunk_id": "1147_9",
+      "evidencia": "InfoWorld lhe concedeu o Prêmio pelas Realizações Industriais de 2000",
+      "confianca": 0.8
+    }
+  ]
+}

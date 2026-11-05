@@ -1,0 +1,335 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:21:12+00:00",
+ "chunks": [
+  {
+   "chunk_id": "49099_0",
+   "entidades": [
+    {
+     "nome": "Prolog",
+     "tipo": "Linguagem",
+     "aliases": [
+      "Prolog (Programação Lógica)"
+     ],
+     "descricao": "Linguagem de programação de uso geral do paradigma de Programação em Lógica Matemática, associada à inteligência artificial e à linguística computacional.",
+     "propriedades": {
+      "paradigmas": [
+       "Programação em Lógica Matemática"
+      ]
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_1",
+   "entidades": [
+    {
+     "nome": "Prolog",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Nome escolhido por Philippe Roussel como abreviação de PROgrammation en LOGique.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Alain Colmerauer",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Co-criador do Prolog em meados de 1972.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Philippe Roussel",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Co-criador do Prolog, escolheu o nome da linguagem.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Kowalski",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Autor do conceito da interpretação procedimental das cláusulas de Horn.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alain Colmerauer",
+     "tipo": "CRIOU",
+     "destino": "Prolog",
+     "propriedades": {
+      "ano": 1972
+     },
+     "evidencia": "Foi criada em meados de 1972 por Alain Colmerauer e Philippe Roussel",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Philippe Roussel",
+     "tipo": "CRIOU",
+     "destino": "Prolog",
+     "propriedades": {
+      "ano": 1972
+     },
+     "evidencia": "Foi criada em meados de 1972 por Alain Colmerauer e Philippe Roussel",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "49099_2",
+   "entidades": [
+    {
+     "nome": "Prolog",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Marselha",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Universidade onde nasceu o projeto que resultou no Prolog.",
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Alain Colmerauer",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Pasero",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jean Trudel",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Philippe Roussel",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Kowalski",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alain Colmerauer",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Marselha",
+     "propriedades": {},
+     "evidencia": "Na Universidade de Marselha, Alain Colmerauer e Robert Pasero trabalhavam na parte de linguagem natural",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Robert Pasero",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Marselha",
+     "propriedades": {},
+     "evidencia": "Na Universidade de Marselha, Alain Colmerauer e Robert Pasero trabalhavam na parte de linguagem natural",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Jean Trudel",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Marselha",
+     "propriedades": {},
+     "evidencia": "Na Universidade de Marselha, Alain Colmerauer e Robert Pasero trabalhavam na parte de linguagem natural e Jean Trudel e Philippe Roussel trabalhavam na parte de dedução do projeto.",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Philippe Roussel",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Marselha",
+     "propriedades": {},
+     "evidencia": "Na Universidade de Marselha, Alain Colmerauer e Robert Pasero trabalhavam na parte de linguagem natural e Jean Trudel e Philippe Roussel trabalhavam na parte de dedução do projeto.",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "49099_3",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_4",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_5",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_6",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_7",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_8",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_9",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_10",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_11",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_13",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_15",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_16",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_17",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_18",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_19",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_20",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_21",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_22",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_23",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_24",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_25",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_26",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "49099_27",
+   "entidades": [
+    {
+     "nome": "Visual Prolog",
+     "tipo": "Linguagem",
+     "aliases": [
+      "PDC Prolog",
+      "Turbo Prolog"
+     ],
+     "descricao": "Dialeto de Prolog fortemente tipado, consideravelmente diferente do Prolog padrão.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Borland",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prolog Development Center",
+     "tipo": "Organizacao",
+     "aliases": [
+      "PDC",
+      "Danish PDC"
+     ],
+     "descricao": "Empresa dinamarquesa que criou e hoje desenvolve o Visual Prolog.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Borland",
+     "tipo": "DESENVOLVEU",
+     "destino": "Visual Prolog",
+     "propriedades": {},
+     "evidencia": "Foi desenvolvido e divulgado como Turbo Prolog enquanto sob controle da Borland",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Prolog Development Center",
+     "tipo": "DESENVOLVEU",
+     "destino": "Visual Prolog",
+     "propriedades": {},
+     "evidencia": "hoje é desenvolvido pela empresa Danish PDC (Prolog Development Center) que foi quem o criou",
+     "confianca": 0.85
+    }
+   ]
+  }
+ ]
+}

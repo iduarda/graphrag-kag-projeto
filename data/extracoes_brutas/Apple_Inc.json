@@ -1,0 +1,672 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:22:03+00:00",
+ "chunks": [
+  {
+   "chunk_id": "10124_0",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Apple Computer"
+     ],
+     "descricao": "Empresa multinacional norte-americana que projeta e comercializa produtos eletrônicos de consumo, software e computadores pessoais.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "macOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema operacional da Apple.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "iOS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema operacional móvel da Apple.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "Macintosh",
+     "propriedades": {},
+     "evidencia": "Os produtos de hardware mais conhecidos da empresa incluem a linha de computadores Macintosh",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "macOS",
+     "propriedades": {},
+     "evidencia": "Os softwares incluem o sistema operacional macOS",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "iOS",
+     "propriedades": {},
+     "evidencia": "e o iOS, um sistema operacional móvel",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "10124_1",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "10124_2",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Apple Computer"
+     ],
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1976
+     }
+    },
+    {
+     "nome": "Cupertino",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Califórnia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple",
+     "tipo": "SEDIADA_EM",
+     "destino": "Cupertino",
+     "propriedades": {},
+     "evidencia": "Fundada em 1 de abril de 1976 em Cupertino, Califórnia",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "10124_3",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Apple Computers",
+      "Apple Computer"
+     ],
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1976
+     }
+    },
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ronald Wayne",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple I",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Primeiro protótipo da Apple, demonstrado no Homebrew Computer Club.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "FUNDOU",
+     "destino": "Apple",
+     "propriedades": {
+      "ano": 1976
+     },
+     "evidencia": "A Apple foi fundada em 1 de abril de 1976 por Steve Wozniak, Steve Jobs e Ronald Wayne",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Steve Jobs",
+     "tipo": "FUNDOU",
+     "destino": "Apple",
+     "propriedades": {
+      "ano": 1976
+     },
+     "evidencia": "A Apple foi fundada em 1 de abril de 1976 por Steve Wozniak, Steve Jobs e Ronald Wayne",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ronald Wayne",
+     "tipo": "FUNDOU",
+     "destino": "Apple",
+     "propriedades": {
+      "ano": 1976
+     },
+     "evidencia": "A Apple foi fundada em 1 de abril de 1976 por Steve Wozniak, Steve Jobs e Ronald Wayne",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "Apple I",
+     "propriedades": {},
+     "evidencia": "O primeiro protótipo da empresa foi o Apple I",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "10124_4",
+   "entidades": [
+    {
+     "nome": "Apple II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Jerry Manock",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Jerry Manock",
+     "tipo": "CRIOU",
+     "destino": "Apple II",
+     "propriedades": {},
+     "evidencia": "o produto foi desenhado por Jerry Manock",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "10124_5",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Apple Lisa",
+     "tipo": "Hardware",
+     "aliases": [
+      "Lisa"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "Apple Lisa",
+     "propriedades": {},
+     "evidencia": "Apple Lisa: O projeto do Lisa começou em 1978 com o intuito de criar uma máquina mais moderna e poderosa.",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "10124_6",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [
+      "Macintosh 128K"
+     ],
+     "propriedades": {
+      "tipo": "computador",
+      "ano": 1984
+     }
+    },
+    {
+     "nome": "Apple II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Wozniak"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "NeXT",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "CL 9",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "Macintosh",
+     "propriedades": {},
+     "evidencia": "A Apple anunciou o Macintosh 128K em outubro de 1983",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "Apple II",
+     "propriedades": {},
+     "evidencia": "A empresa continuou produzindo novos modelos da linha Apple II e do Macintosh.",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Steve Jobs",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Apple",
+     "propriedades": {
+      "ano_fim": 1985
+     },
+     "evidencia": "Em 1985 Jobs e Wozniak saem da empresa",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Apple",
+     "propriedades": {
+      "ano_fim": 1985
+     },
+     "evidencia": "Em 1985 Jobs e Wozniak saem da empresa",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Steve Jobs",
+     "tipo": "FUNDOU",
+     "destino": "NeXT",
+     "propriedades": {},
+     "evidencia": "Jobs fundou a empresa NeXT",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "FUNDOU",
+     "destino": "CL 9",
+     "propriedades": {},
+     "evidencia": "Wozniak fundou a CL 9",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "10124_7",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "10124_8",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "10124_9",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Mac OS X",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema",
+      "ano": 2001
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "Mac OS X",
+     "propriedades": {
+      "ano": 2001
+     },
+     "evidencia": "Em 2001 lança o sistema operacional Mac OS X",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "10124_10",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {
+      "ano_morte": 2011
+     }
+    },
+    {
+     "nome": "Tim Cook",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tim Cook",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Apple",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_inicio": 2011
+     },
+     "evidencia": "em janeiro de 2011 Jobs se ausenta mais uma vez para tratamento de saúde, Tim Cook assume o cargo de presidente da empresa",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "10124_11",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "10124_12",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Apple Computer"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Cupertino",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple",
+     "tipo": "SEDIADA_EM",
+     "destino": "Cupertino",
+     "propriedades": {},
+     "evidencia": "sediada em Cupertino, na Califórnia, a Apple desenvolve, vende e oferece suporte",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "10124_13",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {
+      "ano_morte": 2011
+     }
+    },
+    {
+     "nome": "Tim Cook",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Cook"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Ternus",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John Ternus",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Tim Cook",
+     "propriedades": {},
+     "evidencia": "Em 1 de setembro de 2026, Cook foi sucedido por John Ternus como CEO da empresa.",
+     "confianca": 0.85
+    },
+    {
+     "origem": "John Ternus",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Apple",
+     "propriedades": {
+      "cargo": "CEO",
+      "ano_inicio": 2026
+     },
+     "evidencia": "Em 1 de setembro de 2026, Cook foi sucedido por John Ternus como CEO da empresa.",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "10124_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "10124_15",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "10124_16",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Cupertino",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple",
+     "tipo": "SEDIADA_EM",
+     "destino": "Cupertino",
+     "propriedades": {},
+     "evidencia": "A sede corporativa mundial da Apple está localizada no centro do Vale do Silício, no 1-6 Infinite Loop, em Cupertino, Califórnia.",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "10124_17",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "10124_18",
+   "entidades": [
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Cork",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple",
+     "tipo": "SEDIADA_EM",
+     "destino": "Cork",
+     "propriedades": {},
+     "evidencia": "A sede da Apple na Europa, Oriente Médio e África (EMEA) está localizada em Cork, no sul da Irlanda.",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "10124_19",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "10124_20",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "10124_21",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "10124_22",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "10124_23",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "10124_24",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

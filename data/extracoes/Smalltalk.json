@@ -1,0 +1,423 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 112766,
+    "titulo": "Smalltalk",
+    "url": "https://pt.wikipedia.org/wiki/Smalltalk",
+    "categoria": "Linguagem",
+    "wikidata_id": "Q235086"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:26:13+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "linguagem:smalltalk",
+  "chunks": [
+    {
+      "id": "112766_0",
+      "ordem": 0,
+      "texto": "Smalltalk-80, ou simplesmente Smalltalk, é uma linguagem de programação orientada a objeto dinamicamente tipada.\nEm Smalltalk tudo é objeto: os números, as classes, os métodos, blocos de código, etc. Não há tipos primitivos, ao contrário de outras linguagens orientadas a objeto; strings, números e caracteres são implementados como classes em Smalltalk, por isso esta linguagem é considerada puramente orientada a objetos. Tecnicamente, todo elemento de Smalltalk é um objeto de primeira ordem.\nOs programadores definem classes de objetos em suas aplicações para imitar (ou simular) o mundo real. Estas classes de objeto são organizadas hierarquicamente, de modo que seja possível fazer novos objetos com características de outros objetos, com poucas mudanças.\nSmalltalk é relativamente fácil de aprender comparado a linguagens como C++ e ADA. O código-fonte Smalltalk é fácil de ler, o que o torna a linguagem de programação ideal para iniciantes."
+    },
+    {
+      "id": "112766_1",
+      "ordem": 1,
+      "texto": "O código-fonte Smalltalk é fácil de ler, o que o torna a linguagem de programação ideal para iniciantes.\nHistória: O Smalltalk evoluiu através de várias iterações. Do Smalltalk-71 (que parecia um pouco com o Logo) e Smalltalk-72 (na qual muitas das funcionalidades de mídia foram implementadas, da capacidade de desenhar até programas de música e linguagens de programação icônicas) para chegar no Smalltalk-76, que foi o primeiro Smalltalk moderno. Dan Ingalls foi o principal implementador nessa época, e o criador do Smalltalk-76. Ted Kaehler foi outro implementador do equipe original do Learning Research Group, desenvolvendo o sistema de música para o Smalltalk-72, uma versão da tartaruga do Logo para Smalltalk, além da estrutura de memória orientada a objetos.\nO Smalltalk-80 foi lançado para computadores de diversas companhias (Hewlett-Packard, DEC, Apple, IBM, Tektronix) como um teste de portabilidade do ambiente. Foi implementado como um compilador de bytecode. O código era de fato compilado, porém não para a linguagem de máquina nativa do computador que executava aplicação e, sim, compilado para uma linguagem de máquina de um computador que não existia: a máquina virtual. A vantagem desse esquema que foi criado com o Smalltalk-80 é que ele tornou-se extremamente portável."
+    },
+    {
+      "id": "112766_2",
+      "ordem": 2,
+      "texto": "A vantagem desse esquema que foi criado com o Smalltalk-80 é que ele tornou-se extremamente portável.\nO Smalltalk-80 tornou-se um padrão para as diversas versões de Smalltalk. Depois disso, a Xerox resolveu criar uma empresa chamada ParcPlace para cuidar do desenvolvimento do Smalltalk, gerando novas versões como ObjectWorks e, posteriormente, VisualWorks. Outras versões foram criadas por outras companhias, tais como: Smalltalk/V da Digitalk e o SmalltalkAgents da Quasar; todos com sintaxe e estruturas semelhantes, porém o código da interface gráfica era radicalmente diferente."
+    },
+    {
+      "id": "112766_3",
+      "ordem": 3,
+      "texto": "Outras versões foram criadas por outras companhias, tais como: Smalltalk/V da Digitalk e o SmalltalkAgents da Quasar; todos com sintaxe e estruturas semelhantes, porém o código da interface gráfica era radicalmente diferente.\nSintaxe: A sintaxe de Smalltalk-80 é bastante diferente das linguagens tradicionais.\nAo invés do que é usado na maioria das linguagens tradicionais, em Smalltalk utiliza-se sempre a ordem <objeto recebedor> <mensagem>.\nNo exemplo abaixo, o método publish é formado de uma linha, onde se envia a mensagem show para o objeto Transcript, com o parâmetro Hello, world (que é um objeto)."
+    },
+    {
+      "id": "112766_4",
+      "ordem": 4,
+      "texto": "No exemplo abaixo, o método publish é formado de uma linha, onde se envia a mensagem show para o objeto Transcript, com o parâmetro Hello, world (que é um objeto).\nPolimorfismo: Em Smalltalk não há o Polimorfismo Universal Paramétrico nem o Ad-Hoc por Coerção. Sendo assim só há implementado o Universal por Inclusão e o Ad-Hoc por Sobrecarga.\nExemplos:\nInclusão:\nSobrecarga:\nRegras básicas da linguagem: Tudo é representado como objetos. (De longe, a regra mais importante em Smalltalk).\nToda computação é disparada pelo envio de mensagens. Uma mensagem é enviada para um objeto fazer alguma coisa.\nQuase todas as expressões são da forma <recebedor> <mensagem>.\nMensagens fazem com que métodos sejam executados, sendo que o mapeamento de mensagens para métodos é determinado pelo objeto recebedor. Os métodos são as unidades de código em Smalltalk, equivalente a funções ou procedimentos em outras linguagens.\nTodo objeto é uma instância de alguma classe. 12 é uma instância da classe SmallInteger. 'abc' é uma instância da classe String. A classe determina o comportamento e os dados de suas instâncias.\nToda classe tem uma classe mãe, exceto a classe Object. A classe mãe define os dados e comportamento que são herdados por suas classes filhas. A classe mãe é chamada de superclasse e suas filhas, subclasses."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "linguagem:smalltalk",
+      "nome": "Smalltalk",
+      "tipo": "Linguagem",
+      "aliases": [
+        "Smalltalk-80"
+      ],
+      "descricao": "Linguagem de programação orientada a objeto dinamicamente tipada, considerada puramente orientada a objetos.",
+      "propriedades": {
+        "paradigmas": [
+          "orientada a objetos"
+        ]
+      },
+      "chunk_ids": [
+        "112766_0",
+        "112766_1",
+        "112766_2",
+        "112766_3",
+        "112766_4"
+      ]
+    },
+    {
+      "id": "linguagem:cpp",
+      "nome": "C++",
+      "tipo": "Linguagem",
+      "aliases": [
+        "C plus plus"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "112766_0"
+      ]
+    },
+    {
+      "id": "linguagem:ada",
+      "nome": "Ada",
+      "tipo": "Linguagem",
+      "aliases": [
+        "Ada (linguagem de programação)"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "112766_0"
+      ]
+    },
+    {
+      "id": "linguagem:smalltalk_71",
+      "nome": "Smalltalk-71",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "112766_1"
+      ]
+    },
+    {
+      "id": "linguagem:smalltalk_72",
+      "nome": "Smalltalk-72",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "112766_1"
+      ]
+    },
+    {
+      "id": "linguagem:smalltalk_76",
+      "nome": "Smalltalk-76",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "descricao": "Primeiro Smalltalk moderno.",
+      "propriedades": {},
+      "chunk_ids": [
+        "112766_1"
+      ]
+    },
+    {
+      "id": "pessoa:dan_ingalls",
+      "nome": "Dan Ingalls",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "descricao": "Principal implementador e criador do Smalltalk-76.",
+      "propriedades": {},
+      "chunk_ids": [
+        "112766_1"
+      ]
+    },
+    {
+      "id": "pessoa:ted_kaehler",
+      "nome": "Ted Kaehler",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "112766_1"
+      ]
+    },
+    {
+      "id": "organizacao:learning_research_group",
+      "nome": "Learning Research Group",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "laboratorio"
+      },
+      "chunk_ids": [
+        "112766_1"
+      ]
+    },
+    {
+      "id": "organizacao:hewlett_packard",
+      "nome": "Hewlett-Packard",
+      "tipo": "Organizacao",
+      "aliases": [
+        "HP",
+        "Hewlett-Packard Company"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "112766_1"
+      ]
+    },
+    {
+      "id": "organizacao:digital_equipment_corporation",
+      "nome": "Digital Equipment Corporation",
+      "tipo": "Organizacao",
+      "aliases": [
+        "DEC"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "112766_1"
+      ]
+    },
+    {
+      "id": "organizacao:apple",
+      "nome": "Apple",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Apple Inc.",
+        "Apple Inc",
+        "Apple Computer",
+        "Apple Computer, Inc."
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "112766_1"
+      ]
+    },
+    {
+      "id": "organizacao:ibm",
+      "nome": "IBM",
+      "tipo": "Organizacao",
+      "aliases": [
+        "International Business Machines",
+        "International Business Machines Corporation"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "112766_1"
+      ]
+    },
+    {
+      "id": "organizacao:tektronix",
+      "nome": "Tektronix",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "112766_1"
+      ]
+    },
+    {
+      "id": "organizacao:xerox",
+      "nome": "Xerox",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Xerox Corporation"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "112766_2"
+      ]
+    },
+    {
+      "id": "organizacao:parcplace",
+      "nome": "ParcPlace",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "112766_2"
+      ]
+    },
+    {
+      "id": "linguagem:objectworks",
+      "nome": "ObjectWorks",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "112766_2"
+      ]
+    },
+    {
+      "id": "linguagem:visualworks",
+      "nome": "VisualWorks",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "112766_2"
+      ]
+    },
+    {
+      "id": "organizacao:digitalk",
+      "nome": "Digitalk",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "112766_2",
+        "112766_3"
+      ]
+    },
+    {
+      "id": "linguagem:smalltalk_v",
+      "nome": "Smalltalk/V",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "112766_2",
+        "112766_3"
+      ]
+    },
+    {
+      "id": "organizacao:quasar",
+      "nome": "Quasar",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "112766_2",
+        "112766_3"
+      ]
+    },
+    {
+      "id": "linguagem:smalltalkagents",
+      "nome": "SmalltalkAgents",
+      "tipo": "Linguagem",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "112766_2",
+        "112766_3"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:dan_ingalls",
+      "tipo": "CRIOU",
+      "destino": "linguagem:smalltalk_76",
+      "propriedades": {},
+      "chunk_id": "112766_1",
+      "evidencia": "Dan Ingalls foi o principal implementador nessa época, e o criador do Smalltalk-76.",
+      "confianca": 0.95
+    },
+    {
+      "origem": "linguagem:smalltalk_76",
+      "tipo": "SUCESSOR_DE",
+      "destino": "linguagem:smalltalk_72",
+      "propriedades": {},
+      "chunk_id": "112766_1",
+      "evidencia": "Smalltalk-72 (na qual muitas das funcionalidades de mídia foram implementadas, da capacidade de desenhar até programas de música e linguagens de programação icônicas) para chegar no Smalltalk-76",
+      "confianca": 0.75
+    },
+    {
+      "origem": "linguagem:smalltalk_72",
+      "tipo": "SUCESSOR_DE",
+      "destino": "linguagem:smalltalk_71",
+      "propriedades": {},
+      "chunk_id": "112766_1",
+      "evidencia": "Do Smalltalk-71 (que parecia um pouco com o Logo) e Smalltalk-72",
+      "confianca": 0.7
+    },
+    {
+      "origem": "pessoa:ted_kaehler",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:learning_research_group",
+      "propriedades": {},
+      "chunk_id": "112766_1",
+      "evidencia": "Ted Kaehler foi outro implementador do equipe original do Learning Research Group",
+      "confianca": 0.85
+    },
+    {
+      "origem": "organizacao:parcplace",
+      "tipo": "DESENVOLVEU",
+      "destino": "linguagem:objectworks",
+      "propriedades": {},
+      "chunk_id": "112766_2",
+      "evidencia": "a Xerox resolveu criar uma empresa chamada ParcPlace para cuidar do desenvolvimento do Smalltalk, gerando novas versões como ObjectWorks e, posteriormente, VisualWorks",
+      "confianca": 0.75
+    },
+    {
+      "origem": "organizacao:parcplace",
+      "tipo": "DESENVOLVEU",
+      "destino": "linguagem:visualworks",
+      "propriedades": {},
+      "chunk_id": "112766_2",
+      "evidencia": "a Xerox resolveu criar uma empresa chamada ParcPlace para cuidar do desenvolvimento do Smalltalk, gerando novas versões como ObjectWorks e, posteriormente, VisualWorks",
+      "confianca": 0.75
+    },
+    {
+      "origem": "linguagem:visualworks",
+      "tipo": "SUCESSOR_DE",
+      "destino": "linguagem:objectworks",
+      "propriedades": {},
+      "chunk_id": "112766_2",
+      "evidencia": "gerando novas versões como ObjectWorks e, posteriormente, VisualWorks",
+      "confianca": 0.7
+    },
+    {
+      "origem": "organizacao:digitalk",
+      "tipo": "DESENVOLVEU",
+      "destino": "linguagem:smalltalk_v",
+      "propriedades": {},
+      "chunk_id": "112766_2",
+      "evidencia": "Smalltalk/V da Digitalk e o SmalltalkAgents da Quasar",
+      "confianca": 0.85
+    },
+    {
+      "origem": "organizacao:quasar",
+      "tipo": "DESENVOLVEU",
+      "destino": "linguagem:smalltalkagents",
+      "propriedades": {},
+      "chunk_id": "112766_2",
+      "evidencia": "Smalltalk/V da Digitalk e o SmalltalkAgents da Quasar",
+      "confianca": 0.85
+    },
+    {
+      "origem": "organizacao:digitalk",
+      "tipo": "DESENVOLVEU",
+      "destino": "linguagem:smalltalk_v",
+      "propriedades": {},
+      "chunk_id": "112766_3",
+      "evidencia": "Smalltalk/V da Digitalk e o SmalltalkAgents da Quasar",
+      "confianca": 0.85
+    },
+    {
+      "origem": "organizacao:quasar",
+      "tipo": "DESENVOLVEU",
+      "destino": "linguagem:smalltalkagents",
+      "propriedades": {},
+      "chunk_id": "112766_3",
+      "evidencia": "Smalltalk/V da Digitalk e o SmalltalkAgents da Quasar",
+      "confianca": 0.85
+    }
+  ]
+}

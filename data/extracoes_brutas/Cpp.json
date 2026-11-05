@@ -1,0 +1,979 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:22:55+00:00",
+ "chunks": [
+  {
+   "chunk_id": "43168_0",
+   "entidades": [
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [
+      "C with Classes"
+     ],
+     "descricao": "Linguagem de programação compilada, multi-paradigma e de uso geral, desenvolvida como adicional à linguagem C.",
+     "propriedades": {
+      "ano": 1983,
+      "paradigmas": [
+       "imperativo",
+       "orientado a objetos",
+       "genérico"
+      ]
+     }
+    },
+    {
+     "nome": "Bjarne Stroustrup",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Desenvolveu o C++ no Bell Labs.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bjarne Stroustrup",
+     "tipo": "CRIOU",
+     "destino": "C++",
+     "propriedades": {
+      "ano": 1983
+     },
+     "evidencia": "Bjarne Stroustrup desenvolveu o C++ (originalmente com o nome C with Classes, que significa C com classes em português) em 1983 no Bell Labs",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Bjarne Stroustrup",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "Bjarne Stroustrup desenvolveu o C++ (originalmente com o nome C with Classes, que significa C com classes em português) em 1983 no Bell Labs",
+     "confianca": 0.85
+    },
+    {
+     "origem": "C++",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "em 1983 no Bell Labs como um adicional à linguagem C",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "43168_1",
+   "entidades": [
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bjarne Stroustrup",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Stroustrup"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Simula",
+     "tipo": "Linguagem",
+     "aliases": [
+      "Simula 67"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "BCPL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ALGOL",
+     "tipo": "Linguagem",
+     "aliases": [
+      "ALGOL 68"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ada",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "CLU",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ML",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bjarne Stroustrup",
+     "tipo": "CRIOU",
+     "destino": "C++",
+     "propriedades": {},
+     "evidencia": "O C++ foi inicialmente desenvolvido por Bjarne Stroustrup dos Bell Labs, durante a década de 1980",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Bjarne Stroustrup",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "O C++ foi inicialmente desenvolvido por Bjarne Stroustrup dos Bell Labs",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Unix",
+     "tipo": "ESCRITO_EM",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "Como o Unix era escrito em C",
+     "confianca": 0.95
+    },
+    {
+     "origem": "C++",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Simula",
+     "propriedades": {},
+     "evidencia": "começou a acrescentar elementos do Simula 67 no C, especialmente os recursos de criação e manipulação de objetos",
+     "confianca": 0.9
+    },
+    {
+     "origem": "C++",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "O C foi escolhido como base de desenvolvimento da nova linguagem",
+     "confianca": 0.9
+    },
+    {
+     "origem": "C++",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "ALGOL",
+     "propriedades": {},
+     "evidencia": "Algumas outras linguagens que também serviram de inspiração para o cientista da computação foram ALGOL 68, Ada, CLU e ML.",
+     "confianca": 0.85
+    },
+    {
+     "origem": "C++",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Ada",
+     "propriedades": {},
+     "evidencia": "Algumas outras linguagens que também serviram de inspiração para o cientista da computação foram ALGOL 68, Ada, CLU e ML.",
+     "confianca": 0.85
+    },
+    {
+     "origem": "C++",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "CLU",
+     "propriedades": {},
+     "evidencia": "Algumas outras linguagens que também serviram de inspiração para o cientista da computação foram ALGOL 68, Ada, CLU e ML.",
+     "confianca": 0.85
+    },
+    {
+     "origem": "C++",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "ML",
+     "propriedades": {},
+     "evidencia": "Algumas outras linguagens que também serviram de inspiração para o cientista da computação foram ALGOL 68, Ada, CLU e ML.",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "43168_2",
+   "entidades": [
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [
+      "C with Classes"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "ALGOL",
+     "tipo": "Linguagem",
+     "aliases": [
+      "ALGOL 68"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ada",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "CLU",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ML",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bjarne Stroustrup",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Stroustrup"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "C++",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "ALGOL",
+     "propriedades": {},
+     "evidencia": "Algumas outras linguagens que também serviram de inspiração para o cientista da computação foram ALGOL 68, Ada, CLU e ML.",
+     "confianca": 0.85
+    },
+    {
+     "origem": "C++",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Ada",
+     "propriedades": {},
+     "evidencia": "Algumas outras linguagens que também serviram de inspiração para o cientista da computação foram ALGOL 68, Ada, CLU e ML.",
+     "confianca": 0.85
+    },
+    {
+     "origem": "C++",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "CLU",
+     "propriedades": {},
+     "evidencia": "Algumas outras linguagens que também serviram de inspiração para o cientista da computação foram ALGOL 68, Ada, CLU e ML.",
+     "confianca": 0.85
+    },
+    {
+     "origem": "C++",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "ML",
+     "propriedades": {},
+     "evidencia": "Algumas outras linguagens que também serviram de inspiração para o cientista da computação foram ALGOL 68, Ada, CLU e ML.",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "43168_3",
+   "entidades": [
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alexander Stepanov",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Criou a Standard Template Library na HP.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "HP"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Andrew Koenig",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alexander Stepanov",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Hewlett-Packard",
+     "propriedades": {},
+     "evidencia": "Criada primordialmente na HP por Alexander Stepanov no início da década de 1990",
+     "confianca": 0.75
+    },
+    {
+     "origem": "C++",
+     "tipo": "SUCESSOR_DE",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "C++ foi a única linguagem entre tantas outras que obteve sucesso como uma sucessora à linguagem C",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Java",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C++",
+     "propriedades": {},
+     "evidencia": "inclusive servindo de inspiração para outras linguagens como Java, a IDL de CORBA e C#",
+     "confianca": 0.85
+    },
+    {
+     "origem": "C#",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C++",
+     "propriedades": {},
+     "evidencia": "inclusive servindo de inspiração para outras linguagens como Java, a IDL de CORBA e C#",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "43168_4",
+   "entidades": [
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Rick Mascitti",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "A ele é creditado o termo C++.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "C++",
+     "tipo": "SUCESSOR_DE",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "C++ foi a única linguagem entre tantas outras que obteve sucesso como uma sucessora à linguagem C",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Java",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C++",
+     "propriedades": {},
+     "evidencia": "inclusive servindo de inspiração para outras linguagens como Java, a IDL de CORBA e C#",
+     "confianca": 0.85
+    },
+    {
+     "origem": "C#",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C++",
+     "propriedades": {},
+     "evidencia": "inclusive servindo de inspiração para outras linguagens como Java, a IDL de CORBA e C#",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "43168_5",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_6",
+   "entidades": [
+    {
+     "nome": "Herb Sutter",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Secretário do comitê oficial do C++.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_7",
+   "entidades": [
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bjarne Stroustrup",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Stanley B. Lippman",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Lippman"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Stanley B. Lippman",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "Lippman trabalhou implementando e mantendo o C-front, a implementação original do C++ nos Bell Labs",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "43168_8",
+   "entidades": [
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Stanley B. Lippman",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Lippman"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Bjarne Stroustrup",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Stroustrup"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Brian Kernighan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Stanley B. Lippman",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "Lippman trabalhou implementando e mantendo o C-front, a implementação original do C++ nos Bell Labs",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "43168_9",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_10",
+   "entidades": [
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "HP"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_11",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_13",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_15",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_16",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_17",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_18",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_19",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_20",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_21",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_22",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_23",
+   "entidades": [
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C#",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_24",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_25",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_26",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_27",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_28",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_29",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_30",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_31",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_32",
+   "entidades": [
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "C++",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "O C++ herdou a funcionalidade de ponteiros do C",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "43168_33",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_34",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_35",
+   "entidades": [
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_36",
+   "entidades": [
+    {
+     "nome": "Bjarne Stroustrup",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Stroutrup"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_37",
+   "entidades": [
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Oracle Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Visual Basic",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Sun Microsystems",
+     "tipo": "DESENVOLVEU",
+     "destino": "Java",
+     "propriedades": {},
+     "evidencia": "Java — Sun Microsystems",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "Visual Basic",
+     "propriedades": {},
+     "evidencia": "Visual Basic — Microsoft",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "43168_38",
+   "entidades": [
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Oracle Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Visual Basic",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Sun Microsystems",
+     "tipo": "DESENVOLVEU",
+     "destino": "Java",
+     "propriedades": {},
+     "evidencia": "Java — Sun Microsystems",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "Visual Basic",
+     "propriedades": {},
+     "evidencia": "Visual Basic — Microsoft",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "43168_39",
+   "entidades": [
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bjarne Stroustrup",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Andrew Koenig",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Scott Meyers",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Herb Sutter",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Andrei Alexandrescu",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alexander Stepanov",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bjarne Stroustrup",
+     "tipo": "CRIOU",
+     "destino": "C++",
+     "propriedades": {},
+     "evidencia": "o próprio Bjarne Stroustrup, criador da linguagem e de seu primeiro compilador",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "43168_40",
+   "entidades": [
+    {
+     "nome": "Alexander Stepanov",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "43168_41",
+   "entidades": [
+    {
+     "nome": "Bjarne Stroustrup",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

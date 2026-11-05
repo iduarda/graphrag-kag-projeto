@@ -1,0 +1,348 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:26:13+00:00",
+ "chunks": [
+  {
+   "chunk_id": "1097_0",
+   "entidades": [
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [
+      "Oak"
+     ],
+     "descricao": "Linguagem de programação de propósito geral, baseada em classes e orientada a objetos, apresentada publicamente em 1995.",
+     "propriedades": {
+      "ano": 1995,
+      "paradigmas": [
+       "orientada a objetos"
+      ]
+     }
+    },
+    {
+     "nome": "James Gosling",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Oracle Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Oracle"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Java Virtual Machine",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "JVM",
+      "máquina virtual Java"
+     ],
+     "descricao": "Máquina virtual que executa o bytecode Java.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Sun Microsystems",
+     "tipo": "DESENVOLVEU",
+     "destino": "Java",
+     "propriedades": {
+      "ano": 1991
+     },
+     "evidencia": "desenvolvida por uma equipe liderada por James Gosling na Sun Microsystems a partir de 1991",
+     "confianca": 0.9
+    },
+    {
+     "origem": "James Gosling",
+     "tipo": "CRIOU",
+     "destino": "Java",
+     "propriedades": {
+      "ano": 1991
+     },
+     "evidencia": "desenvolvida por uma equipe liderada por James Gosling na Sun Microsystems a partir de 1991",
+     "confianca": 0.9
+    },
+    {
+     "origem": "James Gosling",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Sun Microsystems",
+     "propriedades": {
+      "ano_inicio": 1991
+     },
+     "evidencia": "desenvolvida por uma equipe liderada por James Gosling na Sun Microsystems a partir de 1991",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "1097_1",
+   "entidades": [
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [
+      "Oak"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "James Gosling",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Mike Sheridan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Patrick Naughton",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Star-7",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Dispositivo portátil com interface gráfica sensível ao toque, protótipo do projeto.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Sun Microsystems",
+     "tipo": "DESENVOLVEU",
+     "destino": "Java",
+     "propriedades": {
+      "ano": 1991
+     },
+     "evidencia": "O desenvolvimento de Java começou em 1991, na Sun Microsystems, com o Green Project.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "James Gosling",
+     "tipo": "CRIOU",
+     "destino": "Java",
+     "propriedades": {},
+     "evidencia": "A equipe central incluía James Gosling, Mike Sheridan e Patrick Naughton.",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Mike Sheridan",
+     "tipo": "CRIOU",
+     "destino": "Java",
+     "propriedades": {},
+     "evidencia": "A equipe central incluía James Gosling, Mike Sheridan e Patrick Naughton.",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Patrick Naughton",
+     "tipo": "CRIOU",
+     "destino": "Java",
+     "propriedades": {},
+     "evidencia": "A equipe central incluía James Gosling, Mike Sheridan e Patrick Naughton.",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "1097_2",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1097_3",
+   "entidades": [
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1097_4",
+   "entidades": [
+    {
+     "nome": "Oracle Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Oracle"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1097_5",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1097_6",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1097_7",
+   "entidades": [
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1097_8",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1097_9",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1097_10",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1097_11",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1097_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1097_13",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1097_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1097_15",
+   "entidades": [
+    {
+     "nome": "JetBrains",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Oracle Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Oracle"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Borland",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1097_16",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1097_17",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1097_18",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

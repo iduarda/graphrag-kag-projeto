@@ -1,0 +1,859 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:21:15+00:00",
+ "chunks": [
+  {
+   "chunk_id": "384372_0",
+   "entidades": [
+    {
+     "nome": "Grace Hopper",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Almirante e analista de sistemas da Marinha dos Estados Unidos.",
+     "propriedades": {
+      "ano_nascimento": 1906,
+      "ano_morte": 1992
+     }
+    },
+    {
+     "nome": "FLOW-MATIC",
+     "tipo": "Linguagem",
+     "aliases": [
+      "Flow-Matic"
+     ],
+     "descricao": "Linguagem de programação de alto nível criada por Hopper.",
+     "propriedades": {}
+    },
+    {
+     "nome": "COBOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Harvard Mark I",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Marinha dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Marinha"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Nova Iorque",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Grace Hopper",
+     "tipo": "CRIOU",
+     "destino": "FLOW-MATIC",
+     "propriedades": {},
+     "evidencia": "criadora da linguagem de programação de alto nível Flow-Matic",
+     "confianca": 0.95
+    },
+    {
+     "origem": "COBOL",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "FLOW-MATIC",
+     "propriedades": {},
+     "evidencia": "Flow-Matic (em desuso) — base para a criação do COBOL",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "384372_1",
+   "entidades": [
+    {
+     "nome": "Grace Hopper",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Yale",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Yale University",
+      "Universidade de Yale"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Vassar College",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Faculdade Vassar",
+      "Vassar"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Howard H. Aiken",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Harvard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Harvard University"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Eckert-Mauchly Computer Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Eckert-Mauchly Computer"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "UNIVAC I",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "COBOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "William Selden",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Gertrude Tierney",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jean E. Sammet",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Howard Bromberg",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Howard Discount",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Vernon Reeves",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "RCA",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Sylvania Electric Products",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Grace Hopper",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade Yale",
+     "propriedades": {
+      "curso": "matemática"
+     },
+     "evidencia": "conquistou o Ph.D. em matemática na Universidade de Yale",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Grace Hopper",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Vassar College",
+     "propriedades": {
+      "cargo": "professora de matemática"
+     },
+     "evidencia": "foi professora de matemática na Faculdade Vassar",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Grace Hopper",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Eckert-Mauchly Computer Corporation",
+     "propriedades": {
+      "ano_inicio": 1949
+     },
+     "evidencia": "Em 1949, ela passou a participar do Eckert-Mauchly Computer Corporation",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Grace Hopper",
+     "tipo": "CRIOU",
+     "destino": "UNIVAC I",
+     "propriedades": {},
+     "evidencia": "fez parte do time que desenvolveu o computador UNIVAC I",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "384372_2",
+   "entidades": [
+    {
+     "nome": "Grace Hopper",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "COBOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "FLOW-MATIC",
+     "tipo": "Linguagem",
+     "aliases": [
+      "Flow-Matic"
+     ],
+     "descricao": "Linguagem de programação de alto nível criada por Hopper.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "384372_3",
+   "entidades": [
+    {
+     "nome": "Grace Hopper",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha Nacional de Tecnologia e Inovação",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha Presidencial de Liberdade",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Yale",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Cray XE6",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Grace Hopper",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Nacional de Tecnologia e Inovação",
+     "propriedades": {
+      "ano": 1991
+     },
+     "evidencia": "Em 1991 recebeu uma Medalha Nacional de Tecnologia",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Grace Hopper",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Presidencial de Liberdade",
+     "propriedades": {
+      "ano": 2016
+     },
+     "evidencia": "no dia 22 de Novembro de 2016 foi postumamente premiada com a Medalha Presidencial de Liberdade",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "384372_4",
+   "entidades": [
+    {
+     "nome": "Grace Hopper",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha Nacional de Tecnologia e Inovação",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha Presidencial de Liberdade",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Nova Iorque",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Vassar College",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Faculdade Vassar",
+      "Vassar"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade Yale",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Yale University",
+      "Universidade de Yale"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Grace Hopper",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Nacional de Tecnologia e Inovação",
+     "propriedades": {
+      "ano": 1991
+     },
+     "evidencia": "Em 1991 recebeu uma Medalha Nacional de Tecnologia",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Grace Hopper",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Presidencial de Liberdade",
+     "propriedades": {
+      "ano": 2016
+     },
+     "evidencia": "no dia 22 de Novembro de 2016 foi postumamente premiada com a Medalha Presidencial de Liberdade",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Grace Hopper",
+     "tipo": "NASCEU_EM",
+     "destino": "Nova Iorque",
+     "propriedades": {},
+     "evidencia": "Grace Murray nasceu na cidade de Nova Iorque",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Grace Hopper",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Vassar College",
+     "propriedades": {},
+     "evidencia": "Foi inicialmente rejeitada no processo de admissão no Vassar College aos 16 anos (suas notas em latim eram baixas), sendo admitida no ano seguinte",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Grace Hopper",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade Yale",
+     "propriedades": {
+      "curso": "Matemática",
+      "ano": 1934
+     },
+     "evidencia": "Em 1934, também na Yale University, conquistou seu Ph.D. em Matemática sob a orientação de Øystein Ore",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Grace Hopper",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Vassar College",
+     "propriedades": {
+      "ano_inicio": 1931
+     },
+     "evidencia": "Começou a ensinar Matemática no Vassar em 1931",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "384372_5",
+   "entidades": [
+    {
+     "nome": "Grace Hopper",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Vassar College",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Faculdade Vassar",
+      "Vassar"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Marinha dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Marinha"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Universidade Harvard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Harvard University"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Grace Hopper",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Vassar College",
+     "propriedades": {
+      "ano_inicio": 1931
+     },
+     "evidencia": "Começou a ensinar Matemática no Vassar em 1931",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Grace Hopper",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Marinha dos Estados Unidos",
+     "propriedades": {
+      "ano_inicio": 1943
+     },
+     "evidencia": "Em 1943, Grace tirou uma licença de Vassar e foi empossada na Marinha dos Estados Unidos",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Grace Hopper",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade Harvard",
+     "propriedades": {
+      "cargo": "tenente júnior",
+      "ano_inicio": 1944
+     },
+     "evidencia": "foi designada para a Bureau of Ships Computation Project da Harvard University como tenente júnior",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "384372_6",
+   "entidades": [
+    {
+     "nome": "Grace Hopper",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Howard H. Aiken",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Harvard Mark I",
+     "tipo": "Hardware",
+     "aliases": [
+      "Mark I",
+      "Calculadora Automática Controlada por Sequência"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Laboratório de Computação de Harvard",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Vassar College",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Faculdade Vassar",
+      "Vassar"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Grace Hopper",
+     "tipo": "COLABOROU_COM",
+     "destino": "Howard H. Aiken",
+     "propriedades": {
+      "contexto": "três artigos sobre o Mark I"
+     },
+     "evidencia": "Hopper e Aiken escreveram três artigos sobre o Mark I",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Grace Hopper",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Laboratório de Computação de Harvard",
+     "propriedades": {
+      "ano_fim": 1949
+     },
+     "evidencia": "permaneceu no Laboratório de Computação de Harvard até 1949",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "384372_7",
+   "entidades": [
+    {
+     "nome": "Grace Hopper",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Eckert-Mauchly Computer Corporation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Eckert-Mauchly Computer"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "UNIVAC I",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Remington Rand",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Harvard Mark I",
+     "tipo": "Hardware",
+     "aliases": [
+      "Mark I"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Grace Hopper",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Eckert-Mauchly Computer Corporation",
+     "propriedades": {
+      "cargo": "matemática sénior",
+      "ano_inicio": 1949
+     },
+     "evidencia": "Em 1949, Grace Hopper tornou-se empregada da corporação Eckert-Mauchly Computer como matemática sénior",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Grace Hopper",
+     "tipo": "CRIOU",
+     "destino": "UNIVAC I",
+     "propriedades": {},
+     "evidencia": "compôs a equipa de desenvolvimento UNIVAC I",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Grace Hopper",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Remington Rand",
+     "propriedades": {
+      "cargo": "diretora"
+     },
+     "evidencia": "Ela também serviu como diretora do UNIVAC de Desenvolvimento Automático de Programação para Remington Rand",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "384372_8",
+   "entidades": [
+    {
+     "nome": "Grace Hopper",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ARITH-MATIC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "MATH-MATIC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "FLOW-MATIC",
+     "tipo": "Linguagem",
+     "aliases": [
+      "Flow-Matic"
+     ],
+     "descricao": "Linguagem de programação de alto nível criada por Hopper.",
+     "propriedades": {}
+    },
+    {
+     "nome": "COBOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "384372_9",
+   "entidades": [
+    {
+     "nome": "Grace Hopper",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "COBOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "FLOW-MATIC",
+     "tipo": "Linguagem",
+     "aliases": [
+      "Flow-Matic"
+     ],
+     "descricao": "Linguagem de programação de alto nível criada por Hopper.",
+     "propriedades": {}
+    },
+    {
+     "nome": "COMTRAN",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem equivalente da IBM estendida pelo COBOL.",
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jean E. Sammet",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Mount Holyoke College",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Marinha dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Marinha"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "COBOL",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "FLOW-MATIC",
+     "propriedades": {},
+     "evidencia": "A nova linguagem estendeu a linguagem FLOW-MATIC de Hopper com algumas da equivalente da IBM, o COMTRAN",
+     "confianca": 0.85
+    },
+    {
+     "origem": "COBOL",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "COMTRAN",
+     "propriedades": {},
+     "evidencia": "A nova linguagem estendeu a linguagem FLOW-MATIC de Hopper com algumas da equivalente da IBM, o COMTRAN",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Jean E. Sammet",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Mount Holyoke College",
+     "propriedades": {},
+     "evidencia": "o ex-aluno Jean E. Sammet da faculdade Mount Holyoke College",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Grace Hopper",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Marinha dos Estados Unidos",
+     "propriedades": {
+      "cargo": "diretora do Grupo de Linguagens de Programação",
+      "ano_inicio": 1967,
+      "ano_fim": 1977
+     },
+     "evidencia": "De 1967 até 1977, Hopper trabalhou como diretora do Grupo de Linguagens de Programação da Marinha",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "384372_10",
+   "entidades": [
+    {
+     "nome": "Grace Hopper",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fortran",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "COBOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "384372_11",
+   "entidades": [
+    {
+     "nome": "Grace Hopper",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Marinha dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Marinha"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

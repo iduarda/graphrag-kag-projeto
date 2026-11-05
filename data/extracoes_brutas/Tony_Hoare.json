@@ -1,0 +1,275 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:27:04+00:00",
+ "chunks": [
+  {
+   "chunk_id": "113671_0",
+   "entidades": [
+    {
+     "nome": "Charles Antony Richard Hoare",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Tony Hoare",
+      "C. A. R. Hoare"
+     ],
+     "descricao": "Cientista da computação britânico conhecido pelo Quicksort, pela Lógica de Hoare e pela linguagem formal CSP.",
+     "propriedades": {
+      "ano_nascimento": 1934,
+      "ano_morte": 2026
+     }
+    },
+    {
+     "nome": "Quicksort",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito",
+      "ano": 1960
+     }
+    },
+    {
+     "nome": "Lógica de Hoare",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "CSP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Linguagem formal usada para especificar interações entre processos concorrentes.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Occam",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Colombo",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Universidade de Oxford",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Oxford"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Moscou",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Elliot Brothers, Ltd",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Queen's University",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "ALGOL",
+     "tipo": "Linguagem",
+     "aliases": [
+      "ALGOL 60"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Charles Antony Richard Hoare",
+     "tipo": "CRIOU",
+     "destino": "Quicksort",
+     "propriedades": {
+      "ano": 1960
+     },
+     "evidencia": "Conhecido pelo desenvolvimento do Quicksort em 1960",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Charles Antony Richard Hoare",
+     "tipo": "CRIOU",
+     "destino": "Lógica de Hoare",
+     "propriedades": {},
+     "evidencia": "Ele também desenvolveu a Lógica de Hoare e a linguagem formal CSP",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Charles Antony Richard Hoare",
+     "tipo": "CRIOU",
+     "destino": "CSP",
+     "propriedades": {},
+     "evidencia": "Ele também desenvolveu a Lógica de Hoare e a linguagem formal CSP",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Charles Antony Richard Hoare",
+     "tipo": "NASCEU_EM",
+     "destino": "Colombo",
+     "propriedades": {},
+     "evidencia": "Nascido em Colombo, Sri Lanka",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Charles Antony Richard Hoare",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Oxford",
+     "propriedades": {
+      "ano": 1956
+     },
+     "evidencia": "graduou-se Bacharel pela Universidade de Oxford em 1956",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Charles Antony Richard Hoare",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Moscou",
+     "propriedades": {
+      "curso": "tradução computacional de linguagens humanas"
+     },
+     "evidencia": "estudou tradução computacional de linguagens humanas na Universidade de Moscou",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Charles Antony Richard Hoare",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Elliot Brothers, Ltd",
+     "propriedades": {
+      "ano_inicio": 1960
+     },
+     "evidencia": "Em 1960 começou a trabalhar na Elliot Brothers, Ltd",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Charles Antony Richard Hoare",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Queen's University",
+     "propriedades": {
+      "cargo": "professor de Ciência da Computação",
+      "ano_inicio": 1968
+     },
+     "evidencia": "Tornou-se professor de Ciência da Computação na Queen's University, em Belfast (Irlanda do Norte) em 1968",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Charles Antony Richard Hoare",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Oxford",
+     "propriedades": {
+      "cargo": "Professor",
+      "ano_inicio": 1977
+     },
+     "evidencia": "em 1977 mudou-se para Oxford, também para trabalhar como professor",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Charles Antony Richard Hoare",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Microsoft",
+     "propriedades": {
+      "cargo": "pesquisador"
+     },
+     "evidencia": "também é um dos pesquisadores mais antigos do centro de pesquisas da Microsoft em Cambridge",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "113671_1",
+   "entidades": [
+    {
+     "nome": "Charles Antony Richard Hoare",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Tony Hoare"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [
+      "Prêmio Turing da ACM"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Association for Computing Machinery",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ACM"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Charles Antony Richard Hoare",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 1980
+     },
+     "evidencia": "Recebeu o Prêmio Turing da ACM de 1980",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "113671_2",
+   "entidades": [
+    {
+     "nome": "Edsger Dijkstra",
+     "tipo": "Pessoa",
+     "aliases": [
+      "E. W. Dijkstra"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Charles Antony Richard Hoare",
+     "tipo": "Pessoa",
+     "aliases": [
+      "C. A. R. Hoare"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

@@ -1,0 +1,674 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:26:13+00:00",
+ "chunks": [
+  {
+   "chunk_id": "17663_0",
+   "entidades": [
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Stephen Gary Wozniak",
+      "Woz"
+     ],
+     "descricao": "Inventor, engenheiro eletrônico e programador norte-americano, cofundador da Apple.",
+     "propriedades": {
+      "ano_nascimento": 1950
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ronald Wayne",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "São José",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "FUNDOU",
+     "destino": "Apple",
+     "propriedades": {},
+     "evidencia": "cofundador da Apple ao lado de Steve Jobs e Ronald Wayne",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Steve Jobs",
+     "tipo": "FUNDOU",
+     "destino": "Apple",
+     "propriedades": {},
+     "evidencia": "cofundador da Apple ao lado de Steve Jobs e Ronald Wayne",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Ronald Wayne",
+     "tipo": "FUNDOU",
+     "destino": "Apple",
+     "propriedades": {},
+     "evidencia": "cofundador da Apple ao lado de Steve Jobs e Ronald Wayne",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "COLABOROU_COM",
+     "destino": "Steve Jobs",
+     "propriedades": {
+      "contexto": "cofundação da Apple"
+     },
+     "evidencia": "cofundador da Apple ao lado de Steve Jobs e Ronald Wayne",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "NASCEU_EM",
+     "destino": "São José",
+     "propriedades": {},
+     "evidencia": "Stephen Gary \"Steve\" Wozniak (São José, 11 de agosto de 1950)",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "17663_1",
+   "entidades": [
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Woz",
+      "Wozniak"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "17663_2",
+   "entidades": [
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Woz"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Draper",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [
+      "HP"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Homebrew Computer Club",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Grupo local de hobistas de eletrônica em Palo Alto.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Palo Alto",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "COLABOROU_COM",
+     "destino": "John Draper",
+     "propriedades": {
+      "contexto": "construção de Blue Boxes"
+     },
+     "evidencia": "Juntamente com John Draper, construiu Blue Boxes (caixas azuis)",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "17663_3",
+   "entidades": [
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Woz"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Altair 8800",
+     "tipo": "Hardware",
+     "aliases": [
+      "Altair"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Reed College",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "17663_4",
+   "entidades": [
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Woz"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple I",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Apple Computer, Inc."
+     ],
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1976
+     }
+    },
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Randy Wigginton",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "CRIOU",
+     "destino": "Apple I",
+     "propriedades": {},
+     "evidencia": "O computador de Woz, por outro lado, denominado Apple I",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "FUNDOU",
+     "destino": "Apple",
+     "propriedades": {
+      "ano": 1976
+     },
+     "evidencia": "Em 1 de abril de 1976, Jobs e Wozniak formaram a Apple Computer, Inc.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Steve Jobs",
+     "tipo": "FUNDOU",
+     "destino": "Apple",
+     "propriedades": {
+      "ano": 1976
+     },
+     "evidencia": "Em 1 de abril de 1976, Jobs e Wozniak formaram a Apple Computer, Inc.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Hewlett-Packard",
+     "propriedades": {},
+     "evidencia": "Wozniak deixou seu trabalho na Hewlett-Packard",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Apple",
+     "propriedades": {
+      "cargo": "vice-presidente de pesquisa e desenvolvimento"
+     },
+     "evidencia": "tornou-se vice-presidente com a responsabilidade de pesquisa e desenvolvimento na Apple",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "CRIOU",
+     "destino": "Apple II",
+     "propriedades": {},
+     "evidencia": "Woz introduziu um monitor de alta resolução gráfica no Apple II",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "COLABOROU_COM",
+     "destino": "Randy Wigginton",
+     "propriedades": {
+      "contexto": "escreveram um sistema operacional simples"
+     },
+     "evidencia": "Ele e Randy Wigginton escreveram um sistema operacional simples",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "17663_5",
+   "entidades": [
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Wozniak"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Randy Wigginton",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Mitch Kapor",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "17663_6",
+   "entidades": [
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Wozniak"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple II",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Macintosh",
+     "tipo": "Hardware",
+     "aliases": [
+      "Mac"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "Macintosh",
+     "propriedades": {},
+     "evidencia": "Foi devido aos grandes lucros do Apple II que a Apple foi capaz de desenvolver o Macintosh",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "17663_7",
+   "entidades": [
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Woz"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade da Califórnia em Berkeley",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade de Berkeley"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade da Califórnia em Berkeley",
+     "propriedades": {
+      "curso": "ciência da computação",
+      "ano": 1982
+     },
+     "evidencia": "retornou para a Universidade de Berkeley com o nome de \"Rocky Clark\" para obter sua graduação em 1982 em ciência da computação",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Apple",
+     "propriedades": {
+      "ano_inicio": 1983
+     },
+     "evidencia": "Em 1983, decidiu retornar ao centro de desenvolvimento da Apple",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "17663_8",
+   "entidades": [
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Woz"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Jobs"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "CL9",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Empresa de curta duração que desenvolvia aparelhos de controle remoto.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "NeXT",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Apple",
+     "propriedades": {
+      "ano_fim": 1985
+     },
+     "evidencia": "Woz deixou a Apple definitivamente em 6 de fevereiro de 1985",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "FUNDOU",
+     "destino": "CL9",
+     "propriedades": {},
+     "evidencia": "Wozniak fundou então uma empresa de curta duração, chamada CL9, que desenvolvia aparelhos de controle remoto",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "17663_9",
+   "entidades": [
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Wozniak"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {
+      "ano_morte": 2011
+     }
+    },
+    {
+     "nome": "Medalha Nacional de Tecnologia e Inovação",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "National Inventors Hall of Fame",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Apple Inc."
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Nacional de Tecnologia e Inovação",
+     "propriedades": {
+      "ano": 1985
+     },
+     "evidencia": "Steve Wozniak recebeu a Medalha Nacional de Tecnologia e Inovação em 1985",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Steve Wozniak",
+     "tipo": "RECEBEU",
+     "destino": "National Inventors Hall of Fame",
+     "propriedades": {
+      "ano": 2000
+     },
+     "evidencia": "Em setembro de 2000, foi incluído na National Inventors Hall of Fame",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "17663_10",
+   "entidades": [
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Wozniak"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Steve Jobs",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Apple Inc."
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "National Inventors Hall of Fame",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "17663_11",
+   "entidades": [
+    {
+     "nome": "Steve Wozniak",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Wozniak"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ray Kurzweil",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

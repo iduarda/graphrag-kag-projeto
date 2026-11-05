@@ -1,0 +1,497 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:24:26+00:00",
+ "chunks": [
+  {
+   "chunk_id": "60287_0",
+   "entidades": [
+    {
+     "nome": "Ada Lovelace",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Augusta Ada Byron King, Condessa de Lovelace",
+      "Lovelace"
+     ],
+     "descricao": "Matemática e escritora inglesa, considerada a primeira programadora da história.",
+     "propriedades": {
+      "ano_nascimento": 1815,
+      "ano_morte": 1852
+     }
+    },
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Babbage"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Charles Babbage",
+     "tipo": "CRIOU",
+     "destino": "Máquina analítica",
+     "propriedades": {},
+     "evidencia": "a máquina analítica de Charles Babbage",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Ada Lovelace",
+     "tipo": "COLABOROU_COM",
+     "destino": "Charles Babbage",
+     "propriedades": {
+      "contexto": "projeto da máquina analítica"
+     },
+     "evidencia": "Durante o período em que esteve envolvida com o projeto de Babbage",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "60287_1",
+   "entidades": [
+    {
+     "nome": "Ada Lovelace",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Lovelace"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Babbage"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [
+      "Máquina Analítica"
+     ],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Luigi Federico Menabrea",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Ada Lovelace",
+     "tipo": "COLABOROU_COM",
+     "destino": "Charles Babbage",
+     "propriedades": {
+      "contexto": "trabalho sobre a Máquina Analítica"
+     },
+     "evidencia": "uma relação de trabalho e de amizade com o colega matemático britânico Charles Babbage",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "60287_2",
+   "entidades": [
+    {
+     "nome": "Ada Lovelace",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Augusta Ada Byron"
+     ],
+     "propriedades": {
+      "ano_nascimento": 1815
+     }
+    },
+    {
+     "nome": "Londres",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Ada Lovelace",
+     "tipo": "NASCEU_EM",
+     "destino": "Londres",
+     "propriedades": {},
+     "evidencia": "Ada Lovelace nasceu Augusta Ada Byron em 10 de dezembro de 1815, em Londres, na Inglaterra.",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "60287_3",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "60287_4",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "60287_5",
+   "entidades": [
+    {
+     "nome": "Ada Lovelace",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "60287_6",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "60287_7",
+   "entidades": [
+    {
+     "nome": "Ada Lovelace",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Mary Somerville",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "60287_8",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "60287_9",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "60287_10",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "60287_11",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "60287_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "60287_13",
+   "entidades": [
+    {
+     "nome": "Ada Lovelace",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Lovelace"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Charles Babbage",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Babbage"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Luigi Menabrea",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Luigi Federico Menabrea"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Turim",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Ada Lovelace",
+     "tipo": "COLABOROU_COM",
+     "destino": "Charles Babbage",
+     "propriedades": {
+      "contexto": "tradução e anotações sobre a máquina analítica"
+     },
+     "evidencia": "Babbage pediu a Lovelace para traduzir o artigo de Menabrea para o inglês",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "60287_14",
+   "entidades": [
+    {
+     "nome": "Ada Lovelace",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Lovelace"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Máquina analítica",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Máquina diferencial",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Allan G. Bromley",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Bromley"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Doron Swade",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Sydney",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Máquina analítica",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Máquina diferencial",
+     "propriedades": {},
+     "evidencia": "a máquina analítica de Babbage jamais foi construída, tendo apenas a sua precursora a máquina diferencial sido montada",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Allan G. Bromley",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Sydney",
+     "propriedades": {
+      "cargo": "professor"
+     },
+     "evidencia": "Allan G. Bromley professor da Universidade de Sydney",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Allan G. Bromley",
+     "tipo": "COLABOROU_COM",
+     "destino": "Doron Swade",
+     "propriedades": {
+      "contexto": "montagem da máquina diferencial"
+     },
+     "evidencia": "Allan G. Bromley professor da Universidade de Sydney junto com Doron Swade",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "60287_15",
+   "entidades": [
+    {
+     "nome": "Ada",
+     "tipo": "Linguagem",
+     "aliases": [
+      "linguagem de programação Ada"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ada Lovelace",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Departamento de Defesa dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Prêmio Ada Lovelace",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha Lovelace",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ada College",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Londres",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Departamento de Defesa dos Estados Unidos",
+     "tipo": "DESENVOLVEU",
+     "destino": "Ada",
+     "propriedades": {},
+     "evidencia": "A linguagem de programação Ada foi criada em homenagem à Ada Lovelace pelo Departamento de Defesa dos Estados Unidos.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Ada College",
+     "tipo": "SEDIADA_EM",
+     "destino": "Londres",
+     "propriedades": {},
+     "evidencia": "A Ada College é uma escola extra-curricular focada em tecnologia localizada em Tottenham Hale, Londres.",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "60287_16",
+   "entidades": [
+    {
+     "nome": "Ada College",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Londres",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Ada Developers Academy",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Seattle",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Ada Initiative",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Ada College",
+     "tipo": "SEDIADA_EM",
+     "destino": "Londres",
+     "propriedades": {},
+     "evidencia": "A Ada College é uma escola extra-curricular focada em tecnologia localizada em Tottenham Hale, Londres.",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Ada Developers Academy",
+     "tipo": "SEDIADA_EM",
+     "destino": "Seattle",
+     "propriedades": {},
+     "evidencia": "A Ada Developers Academy em Seattle é uma academia sem fins lucrativos",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "60287_17",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

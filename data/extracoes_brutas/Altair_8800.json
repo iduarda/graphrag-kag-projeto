@@ -1,0 +1,494 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:23:52+00:00",
+ "chunks": [
+  {
+   "chunk_id": "101890_0",
+   "entidades": [
+    {
+     "nome": "Altair 8800",
+     "tipo": "Hardware",
+     "aliases": [
+      "MITS Altair 8800",
+      "Altair"
+     ],
+     "propriedades": {
+      "tipo": "computador",
+      "ano": 1975
+     },
+     "descricao": "Computador pessoal projetado em 1975, baseado na CPU Intel 8080, vendido como kit."
+    },
+    {
+     "nome": "Intel 8080",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Altair BASIC",
+     "tipo": "Linguagem",
+     "aliases": [
+      "MITS 4K BASIC"
+     ],
+     "propriedades": {},
+     "descricao": "Primeira linguagem de programação para o Altair 8800."
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Altair 8800",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8080",
+     "propriedades": {},
+     "evidencia": "computador pessoal projetado em 1975, baseado na CPU Intel 8080",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Altair BASIC",
+     "tipo": "EXECUTA_EM",
+     "destino": "Altair 8800",
+     "propriedades": {},
+     "evidencia": "a primeira linguagem de programação para a máquina foi o Altair BASIC",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "101890_1",
+   "entidades": [
+    {
+     "nome": "Ed Roberts",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Forrest M. Mims III",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Stan Cagle",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Zaller",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "MITS",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Micro Instrumentation Telemetry Systems"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     },
+     "descricao": "Micro Instrumentation Telemetry Systems, criada para vender kits para modelismo de foguetes."
+    },
+    {
+     "nome": "Albuquerque",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Novo México",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Texas Instruments",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Ed Roberts",
+     "tipo": "FUNDOU",
+     "destino": "MITS",
+     "propriedades": {},
+     "evidencia": "Junto com Stan Cagle e Robert Zaller, criaram a MITS",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Forrest M. Mims III",
+     "tipo": "FUNDOU",
+     "destino": "MITS",
+     "propriedades": {},
+     "evidencia": "Junto com Stan Cagle e Robert Zaller, criaram a MITS",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Stan Cagle",
+     "tipo": "FUNDOU",
+     "destino": "MITS",
+     "propriedades": {},
+     "evidencia": "Junto com Stan Cagle e Robert Zaller, criaram a MITS",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Robert Zaller",
+     "tipo": "FUNDOU",
+     "destino": "MITS",
+     "propriedades": {},
+     "evidencia": "Junto com Stan Cagle e Robert Zaller, criaram a MITS",
+     "confianca": 0.8
+    },
+    {
+     "origem": "MITS",
+     "tipo": "SEDIADA_EM",
+     "destino": "Albuquerque",
+     "propriedades": {},
+     "evidencia": "criaram a MITS (Micro Instrumentation Telemetry Systems) na garagem de Roberts em Albuquerque",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "101890_2",
+   "entidades": [
+    {
+     "nome": "Mark-8",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     },
+     "descricao": "Kit de microcomputador de Jonathan Titus baseado no 8008."
+    },
+    {
+     "nome": "Jonathan Titus",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel 8008",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador",
+      "ano": 1972
+     }
+    },
+    {
+     "nome": "Intel 8080",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Jonathan Titus",
+     "tipo": "CRIOU",
+     "destino": "Mark-8",
+     "propriedades": {},
+     "evidencia": "o bem pensado Mark-8 de Jonathan Titus, baseado no 8008",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Mark-8",
+     "tipo": "UTILIZA",
+     "destino": "Intel 8008",
+     "propriedades": {},
+     "evidencia": "o bem pensado Mark-8 de Jonathan Titus, baseado no 8008",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "101890_3",
+   "entidades": [
+    {
+     "nome": "Altair 8800",
+     "tipo": "Hardware",
+     "aliases": [
+      "MITS Altair 8800",
+      "Altair"
+     ],
+     "propriedades": {
+      "tipo": "computador",
+      "ano": 1975
+     },
+     "descricao": "Computador pessoal projetado em 1975, baseado na CPU Intel 8080, vendido como kit."
+    },
+    {
+     "nome": "Ed Roberts",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bill Yates",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bill Gates",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Ed Roberts",
+     "tipo": "CRIOU",
+     "destino": "Altair 8800",
+     "propriedades": {},
+     "evidencia": "Após Roberts ter desenhado o Altair, com a ajuda de Bill Yates",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Ed Roberts",
+     "tipo": "COLABOROU_COM",
+     "destino": "Bill Yates",
+     "propriedades": {
+      "contexto": "design do Altair"
+     },
+     "evidencia": "Após Roberts ter desenhado o Altair, com a ajuda de Bill Yates",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "101890_4",
+   "entidades": [
+    {
+     "nome": "Intel 8080",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "IBM System/360",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Ed Roberts",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Altair 8800",
+     "tipo": "Hardware",
+     "aliases": [
+      "MITS Altair 8800",
+      "Altair"
+     ],
+     "propriedades": {
+      "tipo": "computador",
+      "ano": 1975
+     },
+     "descricao": "Computador pessoal projetado em 1975, baseado na CPU Intel 8080, vendido como kit."
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "101890_5",
+   "entidades": [
+    {
+     "nome": "Altair 8800",
+     "tipo": "Hardware",
+     "aliases": [
+      "MITS Altair 8800",
+      "Altair"
+     ],
+     "propriedades": {
+      "tipo": "computador",
+      "ano": 1975
+     },
+     "descricao": "Computador pessoal projetado em 1975, baseado na CPU Intel 8080, vendido como kit."
+    },
+    {
+     "nome": "IMSAI 8080",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "MITS",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Micro Instrumentation Telemetry Systems"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     },
+     "descricao": "Micro Instrumentation Telemetry Systems, criada para vender kits para modelismo de foguetes."
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "101890_6",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "101890_7",
+   "entidades": [
+    {
+     "nome": "Intel 8080",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "101890_8",
+   "entidades": [
+    {
+     "nome": "Intel 8080",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "101890_9",
+   "entidades": [
+    {
+     "nome": "Ed Roberts",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bill Gates",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Paul Allen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Altair BASIC",
+     "tipo": "Linguagem",
+     "aliases": [
+      "MITS 4K BASIC"
+     ],
+     "propriedades": {},
+     "descricao": "Primeira linguagem de programação para o Altair 8800."
+    },
+    {
+     "nome": "Seattle",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bill Gates",
+     "tipo": "CRIOU",
+     "destino": "Altair BASIC",
+     "propriedades": {},
+     "evidencia": "os dois começaram a trabalhar em seu interpretador BASIC usando um simulador feito por conta própria para o 8080",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Paul Allen",
+     "tipo": "CRIOU",
+     "destino": "Altair BASIC",
+     "propriedades": {},
+     "evidencia": "os dois começaram a trabalhar em seu interpretador BASIC usando um simulador feito por conta própria para o 8080",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Bill Gates",
+     "tipo": "COLABOROU_COM",
+     "destino": "Paul Allen",
+     "propriedades": {
+      "contexto": "desenvolvimento do Altair BASIC"
+     },
+     "evidencia": "Bill Gates e Paul Allen da área de Boston",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Bill Gates",
+     "tipo": "FUNDOU",
+     "destino": "Microsoft",
+     "propriedades": {},
+     "evidencia": "Gates logo se juntou a Roberts para formar a Microsoft",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Ed Roberts",
+     "tipo": "FUNDOU",
+     "destino": "Microsoft",
+     "propriedades": {},
+     "evidencia": "Gates logo se juntou a Roberts para formar a Microsoft",
+     "confianca": 0.6
+    }
+   ]
+  }
+ ]
+}

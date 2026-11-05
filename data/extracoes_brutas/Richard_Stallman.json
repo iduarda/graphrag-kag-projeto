@@ -1,0 +1,564 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:24:59+00:00",
+ "chunks": [
+  {
+   "chunk_id": "1644_0",
+   "entidades": [
+    {
+     "nome": "Richard Stallman",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Richard Matthew Stallman",
+      "rms"
+     ],
+     "descricao": "Ativista, programador e fundador do movimento software livre, do projeto GNU e da FSF.",
+     "propriedades": {
+      "ano_nascimento": 1953
+     }
+    },
+    {
+     "nome": "Free Software Foundation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "FSF"
+     ],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    },
+    {
+     "nome": "Projeto GNU",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "GNU"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Universidade Harvard",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Richard Stallman",
+     "tipo": "FUNDOU",
+     "destino": "Free Software Foundation",
+     "propriedades": {},
+     "evidencia": "fundador do movimento software livre, do projeto GNU, e da FSF",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Richard Stallman",
+     "tipo": "CRIOU",
+     "destino": "Projeto GNU",
+     "propriedades": {},
+     "evidencia": "fundador do movimento software livre, do projeto GNU, e da FSF",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Richard Stallman",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade Harvard",
+     "propriedades": {
+      "curso": "física",
+      "ano": 1974
+     },
+     "evidencia": "Em 1971, ainda calouro na Universidade Harvard - onde se graduou em física em 1974",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Richard Stallman",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "cargo": "programador",
+      "ano_inicio": 1971
+     },
+     "evidencia": "Stallman era programador do laboratório de IA do Instituto de Tecnologia de Massachusetts (MIT)",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "1644_1",
+   "entidades": [
+    {
+     "nome": "Richard Stallman",
+     "tipo": "Pessoa",
+     "aliases": [
+      "rms"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Harvard",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Nova Iorque",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Rockefeller University",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Richard Stallman",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "cargo": "programador",
+      "ano_inicio": 1971
+     },
+     "evidencia": "Stallman era programador do laboratório de IA do Instituto de Tecnologia de Massachusetts (MIT)",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Richard Stallman",
+     "tipo": "NASCEU_EM",
+     "destino": "Nova Iorque",
+     "propriedades": {},
+     "evidencia": "Richard Matthew Stallman nasceu em Nova Iorque",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Richard Stallman",
+     "tipo": "TRABALHOU_EM",
+     "destino": "IBM",
+     "propriedades": {},
+     "evidencia": "Empregado pelo Centro Científico da IBM em Nova Iorque",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Richard Stallman",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Rockefeller University",
+     "propriedades": {
+      "cargo": "assistente voluntário"
+     },
+     "evidencia": "Stallman era simultaneamente assistente voluntário do laboratório do departamento de Biologia na Rockefeller University",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "1644_2",
+   "entidades": [
+    {
+     "nome": "Richard Stallman",
+     "tipo": "Pessoa",
+     "aliases": [
+      "rms"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Richard Greenblatt",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lisp Machines Incorporated",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1980
+     }
+    },
+    {
+     "nome": "Tom Knight",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Russ Noftsker",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Symbolics",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Richard Greenblatt",
+     "tipo": "FUNDOU",
+     "destino": "Lisp Machines Incorporated",
+     "propriedades": {
+      "ano": 1980
+     },
+     "evidencia": "Em 1980, Richard Greenblatt, um companheiro hacker do laboratório, fundou a Lisp Machines Incorporated",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "1644_3",
+   "entidades": [
+    {
+     "nome": "Richard Stallman",
+     "tipo": "Pessoa",
+     "aliases": [
+      "rms"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Symbolics",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Lisp Machines Incorporated",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Richard Greenblatt",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1644_4",
+   "entidades": [
+    {
+     "nome": "Richard Stallman",
+     "tipo": "Pessoa",
+     "aliases": [
+      "rms"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Projeto GNU",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "GNU"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Richard Stallman",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "ano_fim": 1984
+     },
+     "evidencia": "em janeiro 1984, parou seu trabalho no MIT para trabalhar em tempo integral no projeto do GNU",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "1644_5",
+   "entidades": [
+    {
+     "nome": "Richard Stallman",
+     "tipo": "Pessoa",
+     "aliases": [
+      "rms"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Projeto GNU",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "GNU"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Free Software Foundation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "FSF"
+     ],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "GNU Hurd",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Núcleo do sistema GNU iniciado em 1990.",
+     "propriedades": {
+      "ano": 1990,
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Richard Stallman",
+     "tipo": "CRIOU",
+     "destino": "Projeto GNU",
+     "propriedades": {},
+     "evidencia": "Stallman publicou o manifesto GNU, que estabeleceu sua motivação para criar um sistema livre chamado GNU (GNU is not Unix)",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Richard Stallman",
+     "tipo": "FUNDOU",
+     "destino": "Free Software Foundation",
+     "propriedades": {},
+     "evidencia": "Logo após, criou a Free Software Foundation FSF (Fundação Software Livre)",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "1644_6",
+   "entidades": [
+    {
+     "nome": "Richard Stallman",
+     "tipo": "Pessoa",
+     "aliases": [
+      "rms"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Linus Torvalds",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Projeto GNU",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "GNU"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Finlândia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Linus Torvalds",
+     "tipo": "CRIOU",
+     "destino": "Linux",
+     "propriedades": {
+      "ano": 1991
+     },
+     "evidencia": "um projeto independente iniciado pelo estudante finlandês Linus Torvalds produziu o Linux",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Richard Stallman",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "cargo": "pesquisador"
+     },
+     "evidencia": "Sua posição de pesquisador no MIT não é remunerada",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "1644_7",
+   "entidades": [
+    {
+     "nome": "Richard Stallman",
+     "tipo": "Pessoa",
+     "aliases": [
+      "rms"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1644_8",
+   "entidades": [
+    {
+     "nome": "Richard Stallman",
+     "tipo": "Pessoa",
+     "aliases": [
+      "rms"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Marvin Minsky",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jeffrey Epstein",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1644_9",
+   "entidades": [
+    {
+     "nome": "Richard Stallman",
+     "tipo": "Pessoa",
+     "aliases": [
+      "rms"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

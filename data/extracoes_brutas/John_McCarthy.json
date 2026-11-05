@@ -1,0 +1,163 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:27:28+00:00",
+ "chunks": [
+  {
+   "chunk_id": "395275_0",
+   "entidades": [
+    {
+     "nome": "John McCarthy",
+     "tipo": "Pessoa",
+     "aliases": [
+      "McCarthy"
+     ],
+     "descricao": "Cientista da computação estadunidense, criador da linguagem Lisp.",
+     "propriedades": {
+      "ano_nascimento": 1927,
+      "ano_morte": 2011
+     }
+    },
+    {
+     "nome": "Lisp",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ALGOL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Boston",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Universidade Stanford",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade de Stanford"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha Nacional de Ciências dos Estados Unidos",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John McCarthy",
+     "tipo": "NASCEU_EM",
+     "destino": "Boston",
+     "propriedades": {},
+     "evidencia": "John McCarthy (Boston, 4 de setembro de 1927",
+     "confianca": 0.75
+    },
+    {
+     "origem": "John McCarthy",
+     "tipo": "CRIOU",
+     "destino": "Lisp",
+     "propriedades": {},
+     "evidencia": "por ser o criador da linguagem de programação Lisp",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John McCarthy",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade Stanford",
+     "propriedades": {},
+     "evidencia": "McCarthy passou a maior parte de sua carreira na Universidade de Stanford",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John McCarthy",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 1972
+     },
+     "evidencia": "Recebeu o Prêmio Turing de 1972",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John McCarthy",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Nacional de Ciências dos Estados Unidos",
+     "propriedades": {
+      "ano": 1991
+     },
+     "evidencia": "a Medalha Nacional de Ciências dos Estados Unidos de 1991",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "395275_1",
+   "entidades": [
+    {
+     "nome": "John McCarthy",
+     "tipo": "Pessoa",
+     "aliases": [
+      "McCarthy"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha Nacional de Ciências dos Estados Unidos",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John McCarthy",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 1972
+     },
+     "evidencia": "Recebeu o Prêmio Turing de 1972",
+     "confianca": 0.95
+    },
+    {
+     "origem": "John McCarthy",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Nacional de Ciências dos Estados Unidos",
+     "propriedades": {
+      "ano": 1991
+     },
+     "evidencia": "Medalha Nacional de Ciências dos Estados Unidos de 1991",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "395275_2",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

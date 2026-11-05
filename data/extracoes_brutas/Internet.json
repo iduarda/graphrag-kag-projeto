@@ -1,0 +1,2124 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:23:02+00:00",
+ "chunks": [
+  {
+   "chunk_id": "1008_0",
+   "entidades": [
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Net"
+     ],
+     "descricao": "Sistema global de redes de computadores interligadas que utilizam o conjunto de protocolos TCP/IP.",
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "TCP/IP",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Internet Protocol Suite"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "WWW"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_1",
+   "entidades": [
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "WWW"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Reino Unido",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "França",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Fundação Nacional da Ciência",
+     "tipo": "Organizacao",
+     "aliases": [
+      "NSF"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_2",
+   "entidades": [
+    {
+     "nome": "VoIP",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "protocolo de Internet de voz"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "IPTV",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "protocolo de Internet de televisão"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_3",
+   "entidades": [
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ICANN",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Corporação da Internet para Atribuição de Nomes e Números"
+     ],
+     "descricao": "Organização que mantém os espaços de nomes de endereçamento IP e do Domain Name System.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Internet Engineering Task Force",
+     "tipo": "Organizacao",
+     "aliases": [
+      "IETF"
+     ],
+     "descricao": "Organização sem fins lucrativos responsável pela padronização dos protocolos de núcleo IPv4 e IPv6.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Domain Name System",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "DNS"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "IPv4",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "IPv6",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_4",
+   "entidades": [
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Net"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_5",
+   "entidades": [
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Web"
+     ],
+     "descricao": "Coleção de documentos interligados e outros recursos, ligados por hiperlinks e URLs; um dos serviços que funcionam dentro da Internet.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_6",
+   "entidades": [
+    {
+     "nome": "ARPANET",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Rede de comutação de pacotes que levou ao desenvolvimento de protocolos para internetworking.",
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "CYCLADES",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Merit Network",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Tymnet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Telenet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Leonard Kleinrock",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Douglas Engelbart",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "SRI International",
+     "tipo": "Organizacao",
+     "aliases": [
+      "SRI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Menlo Park",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Universidade da Califórnia em Santa Bárbara",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Utah",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "SRI International",
+     "tipo": "SEDIADA_EM",
+     "destino": "Menlo Park",
+     "propriedades": {},
+     "evidencia": "sistema NLS de Douglas Engelbart no SRI International (SRI), em Menlo Park, Califórnia",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "1008_7",
+   "entidades": [
+    {
+     "nome": "ARPANET",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Vint Cerf",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Vinton Cerf"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Yogen Dalal",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Carl Sunshine",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fundação Nacional da Ciência",
+     "tipo": "Organizacao",
+     "aliases": [
+      "NSF"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Computer Science Network",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "CSNET"
+     ],
+     "propriedades": {
+      "tipo": "rede",
+      "ano": 1981
+     }
+    },
+    {
+     "nome": "TCP/IP",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Internet Protocol Suite"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "National Science Foundation Network",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "NSFNET"
+     ],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Fundação Nacional da Ciência",
+     "tipo": "DESENVOLVEU",
+     "destino": "Computer Science Network",
+     "propriedades": {
+      "ano": 1981
+     },
+     "evidencia": "quando a Fundação Nacional da Ciência (NSF), desenvolvido a Computer Science Network (CSNET)",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Vint Cerf",
+     "tipo": "COLABOROU_COM",
+     "destino": "Yogen Dalal",
+     "propriedades": {
+      "contexto": "RFC 675"
+     },
+     "evidencia": "RFC 675 - Specification of Internet Transmission Control Program, de Vinton Cerf, Yogen Dalal e Carl Sunshine",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Vint Cerf",
+     "tipo": "COLABOROU_COM",
+     "destino": "Carl Sunshine",
+     "propriedades": {
+      "contexto": "RFC 675"
+     },
+     "evidencia": "RFC 675 - Specification of Internet Transmission Control Program, de Vinton Cerf, Yogen Dalal e Carl Sunshine",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Yogen Dalal",
+     "tipo": "COLABOROU_COM",
+     "destino": "Carl Sunshine",
+     "propriedades": {
+      "contexto": "RFC 675"
+     },
+     "evidencia": "RFC 675 - Specification of Internet Transmission Control Program, de Vinton Cerf, Yogen Dalal e Carl Sunshine",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "1008_8",
+   "entidades": [
+    {
+     "nome": "National Science Foundation Network",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "NSFNET"
+     ],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Organização Europeia para a Investigação Nuclear",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CERN"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Web"
+     ],
+     "descricao": "Invenção do CERN, proposta por Tim Berners-Lee como projeto de hipertexto; disponibilizada mundialmente no Verão de 1991.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Tim Berners-Lee",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Responsável pela invenção da World Wide Web, formado na Universidade de Oxford em 1976.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Oxford",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Organização Europeia para a Investigação Nuclear",
+     "tipo": "DESENVOLVEU",
+     "destino": "World Wide Web",
+     "propriedades": {},
+     "evidencia": "A Organização Europeia para a Investigação Nuclear (CERN) foi a responsável pela invenção da World Wide Web",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "CRIOU",
+     "destino": "World Wide Web",
+     "propriedades": {},
+     "evidencia": "O responsável pela invenção chama-se Tim Berners-Lee",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Oxford",
+     "propriedades": {
+      "ano": 1976
+     },
+     "evidencia": "construiu o seu primeiro computador na Universidade de Oxford, onde se formou em 1976",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Organização Europeia para a Investigação Nuclear",
+     "propriedades": {
+      "cargo": "consultor de engenharia de software"
+     },
+     "evidencia": "tornava-se consultor de engenharia de software no CERN",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "1008_9",
+   "entidades": [
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_10",
+   "entidades": [
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_11",
+   "entidades": [
+    {
+     "nome": "Brasil",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Comitê Gestor da Internet",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Órgão responsável por estabelecer as diretrizes estratégicas para a navegação na Internet do Brasil.",
+     "propriedades": {}
+    },
+    {
+     "nome": "NIC.br",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Entidade criada pelo Comitê Gestor da Internet, responsável pelos registros de domínios .br.",
+     "propriedades": {}
+    },
+    {
+     "nome": "FAPESP",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_12",
+   "entidades": [
+    {
+     "nome": "Brasil",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Internet Engineering Task Force",
+     "tipo": "Organizacao",
+     "aliases": [
+      "IETF"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "ICANN",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IPv4",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "IPv6",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_13",
+   "entidades": [
+    {
+     "nome": "ICANN",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Coordena a atribuição de identificadores exclusivos para uso na Internet, como nomes de domínio e endereços IP.",
+     "propriedades": {}
+    },
+    {
+     "nome": "AfriNIC",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Centro Africano de Informação de Rede"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "ARIN",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Registro Americano de Números de Internet"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "APNIC",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Centro de Informação de Rede Ásia-Pacífico"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "LACNIC",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Registro de Endereços de Internet da América Latina e Caribe"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "RIPE NCC",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Réseaux IP Européens – Centro de Coordenação de Rede"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Internet Society",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ISOC"
+     ],
+     "propriedades": {
+      "ano_fundacao": 1992
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_14",
+   "entidades": [
+    {
+     "nome": "Internet Society",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ISOC"
+     ],
+     "propriedades": {
+      "ano_fundacao": 1992
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_15",
+   "entidades": [
+    {
+     "nome": "IPv4",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_16",
+   "entidades": [
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "GEANT",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "GLORIAD",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Internet2",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Rede Abilene"
+     ],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "JANET",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "A Rede Nacional de Pesquisa e Educação do Reino Unido"
+     ],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Reino Unido",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_17",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_18",
+   "entidades": [
+    {
+     "nome": "Wi-Fi",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_19",
+   "entidades": [
+    {
+     "nome": "Nova Iorque",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Londres",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "São Francisco",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Filadélfia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Wi-Fi",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_20",
+   "entidades": [
+    {
+     "nome": "União Internacional de Telecomunicações",
+     "tipo": "Organizacao",
+     "aliases": [
+      "UIT"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_21",
+   "entidades": [
+    {
+     "nome": "Mozilla",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Orange",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Chatham House",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Colômbia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_22",
+   "entidades": [
+    {
+     "nome": "Colômbia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_23",
+   "entidades": [
+    {
+     "nome": "TCP/IP",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "conjunto de protocolos da Internet"
+     ],
+     "descricao": "Conjunto de protocolos ordenados em quatro camadas conceituais de acordo com o escopo de sua operação.",
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "Hypertext Transfer Protocol",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "HTTP"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "HyperText Markup Language",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "HTML"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_24",
+   "entidades": [
+    {
+     "nome": "Hypertext Transfer Protocol",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "HTTP"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "HyperText Markup Language",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "HTML"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Protocolo de Controle de Transmissão",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "TCP"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "Protocolo de Datagrama do Usuário",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "UDP"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "Protocolo da Internet",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Protocolo Internet",
+      "IP"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "Wi-Fi",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "Ethernet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "DSL",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_25",
+   "entidades": [
+    {
+     "nome": "Wi-Fi",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "Ethernet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "DSL",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Protocolo da Internet",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "IP"
+     ],
+     "descricao": "Componente mais proeminente do modelo da Internet, que permite a interconexão de redes.",
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "IPv4",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "IPv6",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "DHCP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "Domain Name System",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "DNS",
+      "Sistema de Nomes de Domínio"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_26",
+   "entidades": [
+    {
+     "nome": "Domain Name System",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "DNS",
+      "Sistema de Nomes de Domínio"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "IPv4",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Versão inicial do Protocolo da Internet, que define um endereço IP como um número de 32 bits.",
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_27",
+   "entidades": [
+    {
+     "nome": "IPv4",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "IPv6",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Nova versão do IP que usa 128 bits para o endereço IP.",
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "IPv6",
+     "tipo": "SUCESSOR_DE",
+     "destino": "IPv4",
+     "propriedades": {},
+     "evidencia": "Devido ao crescimento da Internet e ao esgotamento dos endereços IPv4 disponíveis, uma nova versão do IP, o IPv6, foi desenvolvida",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "1008_28",
+   "entidades": [
+    {
+     "nome": "IPv6",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_29",
+   "entidades": [
+    {
+     "nome": "Border Gateway Protocol",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_30",
+   "entidades": [
+    {
+     "nome": "Internet Engineering Task Force",
+     "tipo": "Organizacao",
+     "aliases": [
+      "IETF"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_31",
+   "entidades": [
+    {
+     "nome": "Internet Engineering Task Force",
+     "tipo": "Organizacao",
+     "aliases": [
+      "IETF"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_32",
+   "entidades": [
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Hypertext Transfer Protocol",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "HTTP"
+     ],
+     "descricao": "Principal protocolo de acesso da World Wide Web.",
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_33",
+   "entidades": [
+    {
+     "nome": "Hypertext Transfer Protocol",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "HTTP"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Yahoo!",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_34",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_35",
+   "entidades": [
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "VoIP",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "voz sobre Internet"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_36",
+   "entidades": [
+    {
+     "nome": "File Transfer Protocol",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "FTP"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "Netflix",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_37",
+   "entidades": [
+    {
+     "nome": "YouTube",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Site líder em streaming de vídeo gratuito, fundado em 15 de fevereiro de 2005.",
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 2005
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_38",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_39",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "YouTube",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_40",
+   "entidades": [
+    {
+     "nome": "China",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Índia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Centro de Informação da Rede de Internet da China",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Autoridade reguladora da Internet da China.",
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_41",
+   "entidades": [
+    {
+     "nome": "American Standard Code for Information Interchange",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "ASCII"
+     ],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_42",
+   "entidades": [
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_43",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_44",
+   "entidades": [
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_45",
+   "entidades": [
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_46",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_47",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_48",
+   "entidades": [
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_49",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_50",
+   "entidades": [
+    {
+     "nome": "Peninsula Business Services",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Nicholas G. Carr",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Carr"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Reino Unido",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_51",
+   "entidades": [
+    {
+     "nome": "Nicholas G. Carr",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Carr"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "International Data Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Oxford Economics",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_52",
+   "entidades": [
+    {
+     "nome": "Andrew Keen",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Keen"
+     ],
+     "descricao": "Autor, crítico de longa data das transformações sociais causadas pela Internet.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Institute for Local Self-Reliance",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Amazon",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Airbnb",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Hilton Worldwide",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Uber",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Avis Rent a Car",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "The Hertz Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_53",
+   "entidades": [
+    {
+     "nome": "Uber",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Avis Rent a Car",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "The Hertz Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_54",
+   "entidades": [
+    {
+     "nome": "Escritório de Marcas e Patentes dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_55",
+   "entidades": [
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Howard Dean",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "The New York Times",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_56",
+   "entidades": [
+    {
+     "nome": "DonorsChoose",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "GlobalGiving",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Kiva",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_57",
+   "entidades": [
+    {
+     "nome": "Kiva",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Symantec",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_58",
+   "entidades": [
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_59",
+   "entidades": [
+    {
+     "nome": "NSA",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "GCHQ",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "FBI",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Siemens AG",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Nokia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_60",
+   "entidades": [
+    {
+     "nome": "Siemens AG",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Nokia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Barack Obama",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Repórteres Sem Fronteiras",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_61",
+   "entidades": [
+    {
+     "nome": "Coreia do Norte",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Cuba",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_62",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_63",
+   "entidades": [
+    {
+     "nome": "Organização das Nações Unidas",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ONU"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_64",
+   "entidades": [
+    {
+     "nome": "Journalists' Union of Athens Daily Newspapers",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ESIEA"
+     ],
+     "descricao": "Associação de jornalistas gregos.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Grécia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_65",
+   "entidades": [
+    {
+     "nome": "Bielorrússia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Valyantsina Razhanets",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Associação Bielorrussa de Jornalistas",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Comitê para a Proteção dos Jornalistas",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CPJ"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Nova Iorque",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Comitê para a Proteção dos Jornalistas",
+     "tipo": "SEDIADA_EM",
+     "destino": "Nova Iorque",
+     "propriedades": {},
+     "evidencia": "o Comitê para a Proteção dos Jornalistas (CPJ), com sede em Nova Iorque",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "1008_66",
+   "entidades": [
+    {
+     "nome": "Associação Bielorrussa de Jornalistas",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Comitê para a Proteção dos Jornalistas",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CPJ"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Nova Iorque",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Nina Ognianova",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Aleksandr Lukashenko",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Comitê para a Proteção dos Jornalistas",
+     "tipo": "SEDIADA_EM",
+     "destino": "Nova Iorque",
+     "propriedades": {},
+     "evidencia": "o Comitê para a Proteção dos Jornalistas (CPJ), com sede em Nova Iorque",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Nina Ognianova",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Comitê para a Proteção dos Jornalistas",
+     "propriedades": {
+      "cargo": "Coordenadora do Programa para a Europa e Ásia Central"
+     },
+     "evidencia": "A Coordenadora do Programa do CPJ para a Europa e Ásia Central, Nina Ognianova",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "1008_67",
+   "entidades": [
+    {
+     "nome": "Venezuela",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Nicolás Maduro",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Comissão Interamericana de Direitos Humanos",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CIDH"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_68",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_69",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_70",
+   "entidades": [
+    {
+     "nome": "Índia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "China",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_71",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1008_72",
+   "entidades": [
+    {
+     "nome": "The Shift Project",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Think tank francês financiado por patrocinadores empresariais.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 1494085,
+    "titulo": "Z3",
+    "url": "https://pt.wikipedia.org/wiki/Z3",
+    "categoria": "Hardware",
+    "wikidata_id": "Q222419"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:19:56+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "hardware:z3",
+  "chunks": [
+    {
+      "id": "1494085_0",
+      "ordem": 0,
+      "texto": "O computador Z3 foi a primeira máquina de computação totalmente automática e programável do mundo, criado em 1941 pelo alemão Konrad Zuse. Foi utilizado pelo Instituto de pesquisa aeronáutica alemão a fim de realizar análises estatísticas em projetos de asas de novas aeronaves.\nSua construção se deu durante a segunda guerra mundial e tinha como objetivo a codificação de mensagens, por uma equipe de 15 pessoas em um anexo da fábrica de aviões Henschel. Tinha uma memória que armazenava 64 números de 22 bits. Seus cálculos eram realizados em aritmética binária de ponto flutuante e já calculava raízes quadradas e realizava uma multiplicação em cerca de 5 segundos. Foi a primeira máquina de calcular com controle automático de operações. Foi destruído, junto com a casa de Zuse, em Berlim, por um bombardeio."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "hardware:z3",
+      "nome": "Z3",
+      "tipo": "Hardware",
+      "aliases": [],
+      "descricao": "Primeira máquina de computação totalmente automática e programável do mundo, criada em 1941.",
+      "propriedades": {
+        "ano": 1941,
+        "tipo": "computador"
+      },
+      "chunk_ids": [
+        "1494085_0"
+      ]
+    },
+    {
+      "id": "pessoa:konrad_zuse",
+      "nome": "Konrad Zuse",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Konrad Ernst Otto Zuse",
+        "Zuse"
+      ],
+      "descricao": "Alemão que criou o computador Z3.",
+      "propriedades": {},
+      "chunk_ids": [
+        "1494085_0"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:konrad_zuse",
+      "tipo": "CRIOU",
+      "destino": "hardware:z3",
+      "propriedades": {
+        "ano": 1941
+      },
+      "chunk_id": "1494085_0",
+      "evidencia": "criado em 1941 pelo alemão Konrad Zuse",
+      "confianca": 0.95
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:23:02+00:00",
+ "chunks": [
+  {
+   "chunk_id": "3787_0",
+   "entidades": [
+    {
+     "nome": "Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1970
+     },
+     "descricao": "Linguagem criada em 1970 por Niklaus Wirth para encorajar o uso de código estruturado."
+    },
+    {
+     "nome": "Niklaus Wirth",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {},
+     "descricao": "Suíço criador do Pascal."
+    },
+    {
+     "nome": "Blaise Pascal",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {},
+     "descricao": "Matemático e físico que deu nome à linguagem Pascal."
+    },
+    {
+     "nome": "Turbo Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {},
+     "descricao": "Linguagem cuja criação foi responsável por grande parte do sucesso do Pascal."
+    },
+    {
+     "nome": "Modula-2",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Oberon",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Object Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel 8086",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Niklaus Wirth",
+     "tipo": "CRIOU",
+     "destino": "Pascal",
+     "propriedades": {
+      "ano": 1970
+     },
+     "evidencia": "Foi criada em 1970 pelo suíço Niklaus Wirth",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Modula-2",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Pascal",
+     "propriedades": {},
+     "evidencia": "Academicamente, seus sucessores são as linguagens subsequentes de Niklaus Wirth: Modula-2 e Oberon.",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Oberon",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Pascal",
+     "propriedades": {},
+     "evidencia": "Academicamente, seus sucessores são as linguagens subsequentes de Niklaus Wirth: Modula-2 e Oberon.",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Object Pascal",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Pascal",
+     "propriedades": {},
+     "evidencia": "Comercialmente, a linguagem foi sucedida pela criação da linguagem Object Pascal",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Turbo Pascal",
+     "tipo": "EXECUTA_EM",
+     "destino": "Intel 8086",
+     "propriedades": {},
+     "evidencia": "inicialmente disponível para computadores baseados na arquitetura 8086",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "3787_1",
+   "entidades": [
+    {
+     "nome": "PDP-11",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     },
+     "descricao": "Mini-computador para o qual o primeiro compilador Pascal norte-americano gerava código nativo."
+    },
+    {
+     "nome": "Universidade da Califórnia em San Diego",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     },
+     "descricao": "Universidade cujo Instituto de Sistemas de Informação desenvolveu o UCSD p-System."
+    },
+    {
+     "nome": "UCSD p-System",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     },
+     "descricao": "Sistema operacional para mini-computadores baseado no p-System."
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Universidade da Califórnia em San Diego",
+     "tipo": "DESENVOLVEU",
+     "destino": "UCSD p-System",
+     "propriedades": {},
+     "evidencia": "desenvolvido pelo Instituto de Sistemas de Informação da Universidade da Califórnia em San Diego",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "3787_2",
+   "entidades": [
+    {
+     "nome": "Anders Hejlsberg",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {},
+     "descricao": "Desenvolveu o compilador Blue Label Pascal e depois o Turbo Pascal."
+    },
+    {
+     "nome": "Borland",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     },
+     "descricao": "Empresa onde Anders Hejlsberg trabalhou e que vendeu o Turbo Pascal."
+    },
+    {
+     "nome": "Turbo Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {},
+     "descricao": "Pascal compilado, vendido a US$ 49,95."
+    },
+    {
+     "nome": "IBM PC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Intel 8088",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Anders Hejlsberg",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Borland",
+     "propriedades": {},
+     "evidencia": "Depois, ele foi trabalhar na Borland",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Anders Hejlsberg",
+     "tipo": "CRIOU",
+     "destino": "Turbo Pascal",
+     "propriedades": {},
+     "evidencia": "reescreveu seu compilador transformando-o no Turbo Pascal",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Turbo Pascal",
+     "tipo": "EXECUTA_EM",
+     "destino": "IBM PC",
+     "propriedades": {},
+     "evidencia": "transformando-o no Turbo Pascal para a plataforma IBM PC",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Turbo Pascal",
+     "tipo": "EXECUTA_EM",
+     "destino": "Intel 8088",
+     "propriedades": {},
+     "evidencia": "gera código de máquina real para a arquitetura Intel 8088",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "3787_3",
+   "entidades": [
+    {
+     "nome": "Borland",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Apple",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Object Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {},
+     "descricao": "Conceito criado pela Apple Inc. e usado pela Borland como base para o Delphi."
+    },
+    {
+     "nome": "Delphi",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {},
+     "descricao": "Linguagem da Borland, inicialmente chamada Object Pascal e depois Delphi Programming Language."
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Apple",
+     "tipo": "DESENVOLVEU",
+     "destino": "Object Pascal",
+     "propriedades": {},
+     "evidencia": "utilizou o conceito Object Pascal criado pela Apple Inc.",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Borland",
+     "tipo": "DESENVOLVEU",
+     "destino": "Delphi",
+     "propriedades": {},
+     "evidencia": "ao projetar o Delphi, querendo funcionalidades mais elaboradas da orientação a objeto, a Borland utilizou",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Delphi",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Object Pascal",
+     "propriedades": {},
+     "evidencia": "utilizando-o como base para uma nova linguagem",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "3787_4",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3787_5",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3787_6",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3787_7",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3787_8",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3787_9",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

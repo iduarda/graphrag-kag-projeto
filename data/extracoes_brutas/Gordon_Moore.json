@@ -1,0 +1,390 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:28:24+00:00",
+ "chunks": [
+  {
+   "chunk_id": "184245_0",
+   "entidades": [
+    {
+     "nome": "Gordon Moore",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Gordon Earle Moore",
+      "Moore"
+     ],
+     "descricao": "Empresário e engenheiro estadunidense.",
+     "propriedades": {
+      "ano_nascimento": 1929,
+      "ano_morte": 2023
+     }
+    },
+    {
+     "nome": "São Francisco",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Universidade da Califórnia em Berkeley",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia da Califórnia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade Estadual de San Jose",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Colégio Estadual de San Jose"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade Johns Hopkins",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Laboratórios Bell"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Gordon Moore",
+     "tipo": "NASCEU_EM",
+     "destino": "São Francisco",
+     "propriedades": {},
+     "evidencia": "Gordon Earle Moore (São Francisco, 3 de janeiro de 1929",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Gordon Moore",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade da Califórnia em Berkeley",
+     "propriedades": {
+      "curso": "química",
+      "ano": 1950
+     },
+     "evidencia": "Fez bacharel em química pela Universidade da Califórnia em Berkeley em 1950",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Gordon Moore",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Instituto de Tecnologia da Califórnia",
+     "propriedades": {
+      "curso": "química e física",
+      "ano": 1954
+     },
+     "evidencia": "Ph.D. em química e física pelo Instituto de Tecnologia da Califórnia em 1954",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Gordon Moore",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade Estadual de San Jose",
+     "propriedades": {},
+     "evidencia": "Ele estudou no Colégio Estadual de San Jose (atual Universidade Estadual de San Jose)",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Gordon Moore",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade Johns Hopkins",
+     "propriedades": {},
+     "evidencia": "Trabalhou no Laboratório de Física Aplicada da Universidade Johns Hopkins, em Maryland",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Gordon Moore",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Bell Labs",
+     "propriedades": {},
+     "evidencia": "numa divisão da Costa Oeste dos Laboratórios Bell",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "184245_1",
+   "entidades": [
+    {
+     "nome": "Gordon Moore",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Moore"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Noyce",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Noyce"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fairchild Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Fairchild Semiconductor Corp."
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Integrated Electronics Corp."
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Lei de Moore",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Shockley Semiconductor",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Gordon Moore",
+     "tipo": "FUNDOU",
+     "destino": "Fairchild Semiconductor",
+     "propriedades": {
+      "ano": 1957
+     },
+     "evidencia": "em 1957, Moore e Robert Noyce se juntaram a outros investidores e, com US$500 cada um, mais um aporte de US$1,3 milhão do pioneiro da aviação Sherman Fairchild, formaram a Fairchild Semiconductor Corp.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Robert Noyce",
+     "tipo": "FUNDOU",
+     "destino": "Fairchild Semiconductor",
+     "propriedades": {
+      "ano": 1957
+     },
+     "evidencia": "em 1957, Moore e Robert Noyce se juntaram a outros investidores e, com US$500 cada um, mais um aporte de US$1,3 milhão do pioneiro da aviação Sherman Fairchild, formaram a Fairchild Semiconductor Corp.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Gordon Moore",
+     "tipo": "FUNDOU",
+     "destino": "Intel",
+     "propriedades": {
+      "ano": 1968
+     },
+     "evidencia": "Em 1968, Moore e Noyce decidiram formar sua própria empresa com foco na memória dos semicondutores. Com capital de US$2,5 milhões, fundaram a Integrated Electronics Corp., mais tarde abreviada para Intel.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Robert Noyce",
+     "tipo": "FUNDOU",
+     "destino": "Intel",
+     "propriedades": {
+      "ano": 1968
+     },
+     "evidencia": "Em 1968, Moore e Noyce decidiram formar sua própria empresa com foco na memória dos semicondutores. Com capital de US$2,5 milhões, fundaram a Integrated Electronics Corp., mais tarde abreviada para Intel.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Gordon Moore",
+     "tipo": "COLABOROU_COM",
+     "destino": "Robert Noyce",
+     "propriedades": {
+      "contexto": "fundação da Fairchild Semiconductor e da Intel"
+     },
+     "evidencia": "Em 1968, Moore e Noyce decidiram formar sua própria empresa",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Gordon Moore",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Intel",
+     "propriedades": {
+      "cargo": "CEO",
+      "ano_inicio": 1975,
+      "ano_fim": 1987
+     },
+     "evidencia": "Foi CEO da Intel de 1975 a 1987 e permaneceu como presidente até 1997.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Gordon Moore",
+     "tipo": "CRIOU",
+     "destino": "Lei de Moore",
+     "propriedades": {
+      "ano": 1965
+     },
+     "evidencia": "Moore é autor da Lei de Moore (publicada na Electronics Magazine em um artigo de 19 de abril de 1965)",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "184245_2",
+   "entidades": [
+    {
+     "nome": "Gordon Moore",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Moore"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha Nacional de Tecnologia e Inovação",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio W. Wallace McDowell",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha John Fritz",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha Fundadores IEEE",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha Perkin",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Medalha de Honra IEEE",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Dan David",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Gordon Moore",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio W. Wallace McDowell",
+     "propriedades": {
+      "ano": 1978
+     },
+     "evidencia": "1978: Prêmio W. Wallace McDowell",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Gordon Moore",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Nacional de Tecnologia e Inovação",
+     "propriedades": {
+      "ano": 1990
+     },
+     "evidencia": "1990: Medalha Nacional de Tecnologia e Inovação",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Gordon Moore",
+     "tipo": "RECEBEU",
+     "destino": "Medalha John Fritz",
+     "propriedades": {
+      "ano": 1993
+     },
+     "evidencia": "1993: Medalha John Fritz",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Gordon Moore",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Fundadores IEEE",
+     "propriedades": {
+      "ano": 1997
+     },
+     "evidencia": "1997: Medalha Fundadores IEEE",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Gordon Moore",
+     "tipo": "RECEBEU",
+     "destino": "Medalha Perkin",
+     "propriedades": {
+      "ano": 2004
+     },
+     "evidencia": "2004: Medalha Perkin",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Gordon Moore",
+     "tipo": "RECEBEU",
+     "destino": "Medalha de Honra IEEE",
+     "propriedades": {
+      "ano": 2008
+     },
+     "evidencia": "2008: Medalha de Honra IEEE",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Gordon Moore",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Dan David",
+     "propriedades": {
+      "ano": 2010
+     },
+     "evidencia": "2010: Prêmio Dan David.",
+     "confianca": 0.95
+    }
+   ]
+  }
+ ]
+}

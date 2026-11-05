@@ -1,0 +1,126 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:23:22+00:00",
+ "chunks": [
+  {
+   "chunk_id": "329655_0",
+   "entidades": [
+    {
+     "nome": "Modula-2",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {},
+     "descricao": "Linguagem projetada e criada por Niklaus Wirth no ETH, descendente de Modula e Pascal."
+    },
+    {
+     "nome": "Niklaus Wirth",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto Federal de Tecnologia de Zurique",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ETH"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Modula",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {},
+     "descricao": "Linguagem da qual o Modula-2 herdou o nome e o conceito de módulos."
+    },
+    {
+     "nome": "Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Niklaus Wirth",
+     "tipo": "CRIOU",
+     "destino": "Modula-2",
+     "propriedades": {},
+     "evidencia": "projetada e criada por Niklaus Wirth no Instituto Federal de Tecnologia de Zurique (ETH)",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Niklaus Wirth",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto Federal de Tecnologia de Zurique",
+     "propriedades": {},
+     "evidencia": "projetada e criada por Niklaus Wirth no Instituto Federal de Tecnologia de Zurique (ETH)",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Modula-2",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Modula",
+     "propriedades": {},
+     "evidencia": "É descendente, principalmente, de duas outras linguagens: o Modula e o Pascal.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Modula-2",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Pascal",
+     "propriedades": {},
+     "evidencia": "É descendente, principalmente, de duas outras linguagens: o Modula e o Pascal.",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "329655_1",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "329655_2",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "329655_3",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "329655_4",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "329655_5",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "329655_6",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "329655_7",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "329655_8",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "329655_9",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

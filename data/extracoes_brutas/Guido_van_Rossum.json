@@ -1,0 +1,299 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:28:24+00:00",
+ "chunks": [
+  {
+   "chunk_id": "5848_0",
+   "entidades": [
+    {
+     "nome": "Guido van Rossum",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Van Rossum",
+      "Rossum"
+     ],
+     "descricao": "Matemático e programador holandês, autor da linguagem Python.",
+     "propriedades": {
+      "ano_nascimento": 1956
+     }
+    },
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Haarlem",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Guido van Rossum",
+     "tipo": "CRIOU",
+     "destino": "Python",
+     "propriedades": {},
+     "evidencia": "mais conhecido por ser o autor da linguagem de programação Python",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Guido van Rossum",
+     "tipo": "NASCEU_EM",
+     "destino": "Haarlem",
+     "propriedades": {},
+     "evidencia": "Guido van Rossum (Haarlem, 31 de janeiro de 1956 )",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "5848_1",
+   "entidades": [
+    {
+     "nome": "Guido van Rossum",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Van Rossum"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Amsterdã",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Centrum Wiskunde & Informatica",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CWI"
+     ],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "National Institute of Standards and Technology",
+     "tipo": "Organizacao",
+     "aliases": [
+      "NIST"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Corporation for National Research Initiatives",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CNRI"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "ABC",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Simula",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ALGOL",
+     "tipo": "Linguagem",
+     "aliases": [
+      "ALGOL 60"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fortran",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DARPA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Guido van Rossum",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Amsterdã",
+     "propriedades": {
+      "curso": "matemática",
+      "ano": 1982
+     },
+     "evidencia": "Guido van Rossum estudou matemática na Universidade de Amsterdã",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Guido van Rossum",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Centrum Wiskunde & Informatica",
+     "propriedades": {},
+     "evidencia": "trabalhou em vários institutos de pesquisa, incluindo  o Centrum Wiskunde & Informatica (CWI), em Amsterdã",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Guido van Rossum",
+     "tipo": "TRABALHOU_EM",
+     "destino": "National Institute of Standards and Technology",
+     "propriedades": {},
+     "evidencia": "o National Institute of Standards and Technology (NIST), em Gaithersburg (Maryland)",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Guido van Rossum",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Corporation for National Research Initiatives",
+     "propriedades": {},
+     "evidencia": "a Corporation for National Research Initiatives  (CNRI), em Reston (Virgínia)",
+     "confianca": 0.9
+    },
+    {
+     "origem": "ABC",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Simula",
+     "propriedades": {},
+     "evidencia": "linguagem de programação ABC,  descendente da linguagem Simula",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "5848_2",
+   "entidades": [
+    {
+     "nome": "Guido van Rossum",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Van Rossum",
+      "Guido"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio por Avanços em Software Livre",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Free Software Foundation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "FSF"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Dropbox",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Guido van Rossum",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio por Avanços em Software Livre",
+     "propriedades": {
+      "ano": 2002
+     },
+     "evidencia": "Em 2002, Guido recebeu o Prêmio por Avanços em Software Livre de 2001 concedido pela FSF",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Guido van Rossum",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Google",
+     "propriedades": {
+      "ano_inicio": 2005,
+      "ano_fim": 2012
+     },
+     "evidencia": "De 2005 a 2012, Van Rossum foi empregado do Google",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Guido van Rossum",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Dropbox",
+     "propriedades": {
+      "ano_inicio": 2013
+     },
+     "evidencia": "Em janeiro de 2013, Van Rossum começou a trabalhar na área de armazenamento em nuvem na empresa Dropbox.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Guido van Rossum",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Microsoft",
+     "propriedades": {
+      "cargo": "Engenheiro Ilustre",
+      "ano_inicio": 2020
+     },
+     "evidencia": "Van Rossum anunciou que estava saindo da aposentadoria para se juntar à Divisão de Desenvolvedores da Microsoft",
+     "confianca": 0.9
+    }
+   ]
+  }
+ ]
+}

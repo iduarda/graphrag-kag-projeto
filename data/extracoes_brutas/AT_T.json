@@ -1,0 +1,2884 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:24:28+00:00",
+ "chunks": [
+  {
+   "chunk_id": "71454_0",
+   "entidades": [
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [
+      "AT&T Inc.",
+      "American Telephone and Telegraph Company"
+     ],
+     "descricao": "Empresa multinacional norte-americana de telecomunicações com sede em Dallas, Texas.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Dallas",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Texas",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "T-Mobile",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Verizon",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "AT&T",
+     "tipo": "SEDIADA_EM",
+     "destino": "Dallas",
+     "propriedades": {},
+     "evidencia": "com sede na Whitacre Tower, no centro de Dallas, Texas",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "71454_1",
+   "entidades": [
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "AT&T Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Empresa original fundada em 1885, de que a AT&T atual reivindica a origem.",
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1885
+     }
+    },
+    {
+     "nome": "American Bell Telephone",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Southwestern Bell Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Empresa que deu origem à AT&T atual em 1984, depois chamada SBC Communications.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "SBC Communications",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Bell System",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "DirecTV",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "71454_2",
+   "entidades": [
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Departamento de Justiça dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Bell System",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "SBC Communications",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "American District Telegraph Company",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Pacific Telesis",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Ameritech",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Lucent Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AT&T Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "BellSouth",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Cingular Wireless",
+     "tipo": "Organizacao",
+     "aliases": [
+      "AT&T Mobility"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "DirecTV",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Time Warner",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "TPG Inc.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "WarnerMedia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Discovery, Inc.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Warner Bros. Discovery",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "71454_3",
+   "entidades": [
+    {
+     "nome": "Alexander Graham Bell",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Bell"
+     ],
+     "descricao": "Patenteou o telefone e fundou a Bell Telephone Company.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Thomas A. Watson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Sócio de Alexander Graham Bell na fundação da Bell Telephone Company.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Gardiner Greene Hubbard",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Sócio de Alexander Graham Bell na fundação da Bell Telephone Company.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Thomas A. Sanders",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Sócio de Alexander Graham Bell na fundação da Bell Telephone Company.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Bell Telephone Company",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Empresa fundada em 1877 que construiu centrais telefônicas locais.",
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1877
+     }
+    },
+    {
+     "nome": "Western Union",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Principal empresa de telegrafia e proprietária da Western Electric.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Western Electric",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Fabricante de equipamentos comprada pela Bell em 1881.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "New Haven",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Connecticut",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alexander Graham Bell",
+     "tipo": "FUNDOU",
+     "destino": "Bell Telephone Company",
+     "propriedades": {
+      "ano": 1877
+     },
+     "evidencia": "Alexander Graham Bell e seus sócios, entre eles Thomas A. Watson, Gardiner Greene Hubbard e Thomas A. Sanders, fundaram a Bell Telephone Company em 9 de julho de 1877",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Thomas A. Watson",
+     "tipo": "FUNDOU",
+     "destino": "Bell Telephone Company",
+     "propriedades": {
+      "ano": 1877
+     },
+     "evidencia": "Alexander Graham Bell e seus sócios, entre eles Thomas A. Watson, Gardiner Greene Hubbard e Thomas A. Sanders, fundaram a Bell Telephone Company em 9 de julho de 1877",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Gardiner Greene Hubbard",
+     "tipo": "FUNDOU",
+     "destino": "Bell Telephone Company",
+     "propriedades": {
+      "ano": 1877
+     },
+     "evidencia": "Alexander Graham Bell e seus sócios, entre eles Thomas A. Watson, Gardiner Greene Hubbard e Thomas A. Sanders, fundaram a Bell Telephone Company em 9 de julho de 1877",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Thomas A. Sanders",
+     "tipo": "FUNDOU",
+     "destino": "Bell Telephone Company",
+     "propriedades": {
+      "ano": 1877
+     },
+     "evidencia": "Alexander Graham Bell e seus sócios, entre eles Thomas A. Watson, Gardiner Greene Hubbard e Thomas A. Sanders, fundaram a Bell Telephone Company em 9 de julho de 1877",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "71454_4",
+   "entidades": [
+    {
+     "nome": "Theodore Newton Vail",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Vail"
+     ],
+     "descricao": "Primeiro presidente da AT&T, que voltou à presidência em 1907.",
+     "propriedades": {}
+    },
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "American Bell Telephone",
+     "tipo": "Organizacao",
+     "aliases": [
+      "American Bell"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Western Electric",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Western Union",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Bell System",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Northern Electric",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Bell Canada",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Departamento de Justiça dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Departamento de Justiça"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Rio de Janeiro",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Brasil",
+     "tipo": "Local",
+     "aliases": [
+      "Brasil"
+     ],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Theodore Newton Vail",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "presidente"
+     },
+     "evidencia": "Theodore Newton Vail foi o primeiro presidente da empresa",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "71454_5",
+   "entidades": [
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Departamento de Justiça dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Departamento de Justiça"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Bell System",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Western Electric",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Rio de Janeiro",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Brasil",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "71454_6",
+   "entidades": [
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Southwestern Bell Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "SBC Communications",
+     "tipo": "Organizacao",
+     "aliases": [
+      "SBC Communications Inc."
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "MCI",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Sprint",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Metromedia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Pacific Telesis",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Ameritech",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "C. Michael Armstrong",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Assumiu o cargo de diretor executivo da AT&T no início de 1997.",
+     "propriedades": {}
+    },
+    {
+     "nome": "John Zeglis",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Zeglis"
+     ],
+     "descricao": "Presidente da AT&T nomeado em 1997, depois dirigente da AT&T Wireless.",
+     "propriedades": {}
+    },
+    {
+     "nome": "AT&T Wireless",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "C. Michael Armstrong",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "diretor executivo",
+      "ano_inicio": 1997
+     },
+     "evidencia": "C. Michael Armstrong assumiu o cargo de diretor executivo no início de 1997",
+     "confianca": 0.7
+    },
+    {
+     "origem": "John Zeglis",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T Wireless",
+     "propriedades": {
+      "cargo": "presidente do conselho e diretor executivo",
+      "ano_inicio": 1999,
+      "ano_fim": 2004
+     },
+     "evidencia": "Zeglis assumiu a presidência do conselho e a direção executiva da AT&T Wireless, em 1999",
+     "confianca": 0.8
+    },
+    {
+     "origem": "John Zeglis",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "presidente",
+      "ano_inicio": 1997,
+      "ano_fim": 2001
+     },
+     "evidencia": "Zeglis deixou a presidência da AT&T em 2001",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "71454_7",
+   "entidades": [
+    {
+     "nome": "John Zeglis",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Zeglis"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [
+      "AT&T Inc."
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "AT&T Wireless",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "SBC Communications",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Comprou a AT&T Corporation em 2005 e adotou o nome AT&T.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AT&T Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "SEC",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "T-Mobile",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John Zeglis",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T Wireless",
+     "propriedades": {
+      "ano_fim": 2004
+     },
+     "evidencia": "Zeglis deixou a presidência da AT&T em 2001 e os cargos na AT&T Wireless em 2004",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "71454_8",
+   "entidades": [
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "T-Mobile",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "América Móvil",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Frontier Communications",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Connecticut",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "BellSouth",
+     "tipo": "Organizacao",
+     "aliases": [
+      "BellSouth Corporation"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Cingular Wireless",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Comissão Federal de Comunicações dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "71454_9",
+   "entidades": [
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Iusacell",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Operadora mexicana comprada pela AT&T no fim de 2014.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "NII Holdings",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AT&T Mexico",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "DirecTV",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "DirecTV Latin America",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Sky Brasil",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Time Warner",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "WarnerMedia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Makan Delrahim",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Procurador-geral adjunto que entrou com ação para barrar a fusão AT&T e Time Warner.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Richard J. Leon",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Juiz federal que autorizou a compra da Time Warner pela AT&T.",
+     "propriedades": {}
+    },
+    {
+     "nome": "México",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Brasil",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "71454_10",
+   "entidades": [
+    {
+     "nome": "WarnerMedia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Warner Bros.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "HBO",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Xandr",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Vrio",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Vrio Corp."
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "DirecTV",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "DirecTV Latin America",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "México",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "71454_11",
+   "entidades": [
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Elliott Management",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Investidor ativista que comprou US$ 3,2 bilhões em ações da AT&T.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "John Stankey",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Diretor de operações da AT&T que substituiu Randall L. Stephenson como diretor executivo.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Randall L. Stephenson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Stephenson"
+     ],
+     "descricao": "Diretor executivo da AT&T substituído por John Stankey em 2020.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Warner Bros. Interactive Entertainment",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "DirecTV",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "John Stankey",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "diretor de operações"
+     },
+     "evidencia": "seu diretor de operações, John Stankey, substituiria Randall L. Stephenson como diretor executivo em 1.º de julho",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Randall L. Stephenson",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "diretor executivo"
+     },
+     "evidencia": "John Stankey, substituiria Randall L. Stephenson como diretor executivo em 1.º de julho",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "71454_12",
+   "entidades": [
+    {
+     "nome": "Crunchyroll",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Funimation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Sony",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "DirecTV",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "TPG Capital",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Electronic Arts",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Playdemic",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Fox Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "WarnerMedia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Discovery, Inc.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Warner Bros. Discovery",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Xandr",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AppNexus",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "71454_13",
+   "entidades": [
+    {
+     "nome": "TPG Capital",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "DirecTV",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Gigs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Klarna",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "OnePay",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Walmart",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Snowflake Inc.",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Salt Typhoon",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Grupo de ameaça persistente avançada ligado ao governo chinês que atacou a AT&T.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "71454_14",
+   "entidades": [
+    {
+     "nome": "Lumen Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "US West",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "71454_15",
+   "entidades": [
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dallas",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Plano",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Southwestern Bell Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "St. Louis",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "San Antonio",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "AT&T Mobility",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Atlanta",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Iusacell",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Nextel Mexico",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AT&T Mexico",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "AT&T",
+     "tipo": "SEDIADA_EM",
+     "destino": "Dallas",
+     "propriedades": {},
+     "evidencia": "A sede mundial da AT&T fica na Whitacre Tower, em Dallas, desde 2008",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Southwestern Bell Corporation",
+     "tipo": "SEDIADA_EM",
+     "destino": "San Antonio",
+     "propriedades": {},
+     "evidencia": "A Southwestern Bell Corporation transferiu sua sede de St. Louis para San Antonio em 1992",
+     "confianca": 0.9
+    },
+    {
+     "origem": "AT&T Mobility",
+     "tipo": "SEDIADA_EM",
+     "destino": "Atlanta",
+     "propriedades": {},
+     "evidencia": "A AT&T Mobility tem sede em Atlanta, na Geórgia",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "71454_16",
+   "entidades": [
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "AT&T Mexico",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "William Kennard",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Presidente do conselho de administração da AT&T em fevereiro de 2026.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Scott T. Ford",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Glenn Hutchins",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Stephen J. Luczo",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Marissa Mayer",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Michael McCallister",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Beth E. Mooney",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Matthew K. Rose",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Stankey",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Diretor executivo da AT&T em 2026.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Cynthia B. Taylor",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Luis Ubiñas",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Thaddeus Arroyo",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Pascal Desroches",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ed Gillespie",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Kellyn Smith Kenny",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lori Lee",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jeremy Legg",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "David R. McAtee II",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Jeff McElfresh",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "William Kennard",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "presidente do conselho de administração"
+     },
+     "evidencia": "o conselho de administração era formado por William Kennard, seu presidente",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Scott T. Ford",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "membro do conselho de administração"
+     },
+     "evidencia": "o conselho de administração era formado por William Kennard, seu presidente, Scott T. Ford, Glenn Hutchins, Stephen J. Luczo, Marissa Mayer, Michael McCallister, Beth E. Mooney, Matthew K. Rose, John Stankey",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Glenn Hutchins",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "membro do conselho de administração"
+     },
+     "evidencia": "o conselho de administração era formado por William Kennard, seu presidente, Scott T. Ford, Glenn Hutchins, Stephen J. Luczo, Marissa Mayer, Michael McCallister, Beth E. Mooney, Matthew K. Rose, John Stankey",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Stephen J. Luczo",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "membro do conselho de administração"
+     },
+     "evidencia": "o conselho de administração era formado por William Kennard, seu presidente, Scott T. Ford, Glenn Hutchins, Stephen J. Luczo, Marissa Mayer, Michael McCallister, Beth E. Mooney, Matthew K. Rose, John Stankey",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Marissa Mayer",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "membro do conselho de administração"
+     },
+     "evidencia": "o conselho de administração era formado por William Kennard, seu presidente, Scott T. Ford, Glenn Hutchins, Stephen J. Luczo, Marissa Mayer, Michael McCallister, Beth E. Mooney, Matthew K. Rose, John Stankey",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Michael McCallister",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "membro do conselho de administração"
+     },
+     "evidencia": "o conselho de administração era formado por William Kennard, seu presidente, Scott T. Ford, Glenn Hutchins, Stephen J. Luczo, Marissa Mayer, Michael McCallister, Beth E. Mooney, Matthew K. Rose, John Stankey",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Beth E. Mooney",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "membro do conselho de administração"
+     },
+     "evidencia": "o conselho de administração era formado por William Kennard, seu presidente, Scott T. Ford, Glenn Hutchins, Stephen J. Luczo, Marissa Mayer, Michael McCallister, Beth E. Mooney, Matthew K. Rose, John Stankey",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Matthew K. Rose",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "membro do conselho de administração"
+     },
+     "evidencia": "o conselho de administração era formado por William Kennard, seu presidente, Scott T. Ford, Glenn Hutchins, Stephen J. Luczo, Marissa Mayer, Michael McCallister, Beth E. Mooney, Matthew K. Rose, John Stankey",
+     "confianca": 0.8
+    },
+    {
+     "origem": "John Stankey",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "diretor executivo"
+     },
+     "evidencia": "A direção executiva tinha John Stankey como diretor executivo",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Thaddeus Arroyo",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "diretor de estratégia e desenvolvimento"
+     },
+     "evidencia": "Thaddeus Arroyo como diretor de estratégia e desenvolvimento",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Pascal Desroches",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "vice-presidente executivo sênior e diretor financeiro"
+     },
+     "evidencia": "Pascal Desroches como vice-presidente executivo sênior e diretor financeiro",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Ed Gillespie",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "vice-presidente executivo sênior de assuntos externos e legislativos"
+     },
+     "evidencia": "Ed Gillespie como vice-presidente executivo sênior de assuntos externos e legislativos",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Kellyn Smith Kenny",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "diretora de marketing e crescimento"
+     },
+     "evidencia": "Kellyn Smith Kenny como diretora de marketing e crescimento",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Lori Lee",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "diretora executiva da AT&T Latin America e de marketing mundial"
+     },
+     "evidencia": "Lori Lee como diretora executiva da AT&T Latin America e de marketing mundial",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Jeremy Legg",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "diretor de tecnologia da AT&T Services"
+     },
+     "evidencia": "Jeremy Legg como diretor de tecnologia da AT&T Services",
+     "confianca": 0.85
+    },
+    {
+     "origem": "David R. McAtee II",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "vice-presidente executivo sênior e diretor jurídico"
+     },
+     "evidencia": "David R. McAtee II como vice-presidente executivo sênior e diretor jurídico",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Jeff McElfresh",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "diretor de operações"
+     },
+     "evidencia": "Jeff McElfresh como diretor de operações",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "71454_17",
+   "entidades": [
+    {
+     "nome": "Ameritech",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "SBC Communications",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Southwestern Bell"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AT&T Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "BellSouth",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Pacific Telesis",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Lumen Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "US West",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "71454_18",
+   "entidades": [
+    {
+     "nome": "Lumen Technologies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "US West",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "71454_19",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "71454_20",
+   "entidades": [
+    {
+     "nome": "Woodbury Telephone",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Southern New England Telephone",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Frontier Communications",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Frontier"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Ameritech",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "CenturyTel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "BellSouth",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "MebTel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "US West",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Lynch Communications",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Pacific Telecom",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Verizon",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "FairPoint Communications",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "71454_21",
+   "entidades": [
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Bill Leahy",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Representante da AT&T no conselho de empresas privadas da ALEC.",
+     "propriedades": {}
+    },
+    {
+     "nome": "American Legislative Exchange Council",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ALEC"
+     ],
+     "descricao": "Organização sem fins lucrativos de legisladores estaduais conservadores e representantes do setor privado.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Tim McKone",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Vice-presidente executivo de relações federais da AT&T.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Comissão Federal de Comunicações dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [
+      "FCC"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "George W. Bush",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bill Leahy",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "representante"
+     },
+     "evidencia": "Bill Leahy, representante da AT&T",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Tim McKone",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "vice-presidente executivo de relações federais"
+     },
+     "evidencia": "Tim McKone, vice-presidente executivo de relações federais da AT&T",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "71454_22",
+   "entidades": [
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Tim McKone",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Essential Consultants",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Firma criada por Michael Cohen que recebeu US$ 600 mil da AT&T.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Michael Cohen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Advogado do presidente Donald Trump que criou a Essential Consultants.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Donald Trump",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ajit Pai",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Comissão Federal de Comunicações dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [
+      "FCC"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Robert Mueller",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Time Warner",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "The Washington Post",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tim McKone",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "vice-presidente executivo de relações federais"
+     },
+     "evidencia": "Tim McKone, vice-presidente executivo de relações federais da AT&T",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Michael Cohen",
+     "tipo": "FUNDOU",
+     "destino": "Essential Consultants",
+     "propriedades": {},
+     "evidencia": "A firma havia sido criada por Michael Cohen, advogado do presidente Donald Trump",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Ajit Pai",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Comissão Federal de Comunicações dos Estados Unidos",
+     "propriedades": {
+      "cargo": "presidente"
+     },
+     "evidencia": "O presidente da FCC, Ajit Pai",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "71454_23",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "71454_24",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "71454_25",
+   "entidades": [
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Agência de Repressão às Drogas",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Escritório de Política Nacional de Controle de Drogas",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "71454_26",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "71454_27",
+   "entidades": [
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Electronic Frontier Foundation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    },
+    {
+     "nome": "Agência de Segurança Nacional",
+     "tipo": "Organizacao",
+     "aliases": [
+      "NSA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Mark Klein",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Ex-técnico da AT&T que apresentou declaração juramentada em apoio à acusação.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Departamento de Justiça dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Departamento de Justiça"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "USA Today",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Verizon",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "SBC Communications",
+     "tipo": "Organizacao",
+     "aliases": [
+      "SBC"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "BellSouth",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Mark Klein",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "técnico"
+     },
+     "evidencia": "o ex-técnico da companhia Mark Klein",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "71454_28",
+   "entidades": [
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Mike McConnell",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Diretor de Inteligência Nacional que confirmou o auxílio da AT&T ao programa de interceptação.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Mark Klein",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "MSNBC",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Agência de Segurança Nacional",
+     "tipo": "Organizacao",
+     "aliases": [
+      "NSA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "San Francisco",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Edward Snowden",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Facebook",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Electronic Frontier Foundation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "71454_29",
+   "entidades": [
+    {
+     "nome": "Electronic Frontier Foundation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "71454_30",
+   "entidades": [
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "CAN-TV",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Serviço de acesso público de televisão de Chicago.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Barbara Popovic",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Chicago",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Comissão de Serviços Públicos da Califórnia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Sue Buske",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Buske Group",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Alliance for Community Media",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Barbara Popovic",
+     "tipo": "TRABALHOU_EM",
+     "destino": "CAN-TV",
+     "propriedades": {
+      "cargo": "diretora executiva"
+     },
+     "evidencia": "Barbara Popovic, diretora executiva do serviço de acesso público CAN-TV, de Chicago",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Sue Buske",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Buske Group",
+     "propriedades": {
+      "cargo": "presidente"
+     },
+     "evidencia": "Sue Buske, presidente da consultoria Buske Group",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Sue Buske",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Alliance for Community Media",
+     "propriedades": {
+      "cargo": "dirigente"
+     },
+     "evidencia": "ex-dirigente da Alliance for Community Media",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "71454_31",
+   "entidades": [
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sue Buske",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Buske Group",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Alliance for Community Media",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Goatse Security",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Gawker Media",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Praetorian Security Group",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Comissão Federal de Comunicações dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [
+      "FCC"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Sue Buske",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Buske Group",
+     "propriedades": {
+      "cargo": "presidente"
+     },
+     "evidencia": "Sue Buske, presidente da consultoria Buske Group",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Sue Buske",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Alliance for Community Media",
+     "propriedades": {
+      "cargo": "dirigente"
+     },
+     "evidencia": "ex-dirigente da Alliance for Community Media",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "71454_32",
+   "entidades": [
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Comissão Federal de Comunicações dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [
+      "FCC"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "71454_33",
+   "entidades": [
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Aaron Slator",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Slator"
+     ],
+     "descricao": "Presidente de conteúdo e venda de publicidade da AT&T, demitido em 2015.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Knoyme King",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Randall L. Stephenson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Randall Stephenson"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "DirecTV",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Dallas",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Los Angeles",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Aaron Slator",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "presidente de conteúdo e venda de publicidade",
+      "ano_fim": 2015
+     },
+     "evidencia": "Em 28 de abril de 2015, a AT&T demitiu Aaron Slator, presidente de conteúdo e venda de publicidade",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Randall L. Stephenson",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T",
+     "propriedades": {
+      "cargo": "diretor executivo"
+     },
+     "evidencia": "casa do diretor executivo Randall Stephenson",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "71454_34",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "71454_35",
+   "entidades": [
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Reuters",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "One America News Network",
+     "tipo": "Organizacao",
+     "aliases": [
+      "OAN"
+     ],
+     "descricao": "Canal de extrema-direita que veiculava teorias da conspiração.",
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Robert Herring Sr.",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fox News",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Derrick Johnson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "NAACP",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Oliver",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Robert Herring Sr.",
+     "tipo": "FUNDOU",
+     "destino": "One America News Network",
+     "propriedades": {},
+     "evidencia": "Robert Herring Sr., fundador do canal",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Derrick Johnson",
+     "tipo": "TRABALHOU_EM",
+     "destino": "NAACP",
+     "propriedades": {
+      "cargo": "presidente"
+     },
+     "evidencia": "Derrick Johnson, presidente da NAACP",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "71454_36",
+   "entidades": [
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Derrick Johnson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "NAACP",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Oliver",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "SEC",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Derrick Johnson",
+     "tipo": "TRABALHOU_EM",
+     "destino": "NAACP",
+     "propriedades": {
+      "cargo": "presidente"
+     },
+     "evidencia": "Derrick Johnson, presidente da NAACP",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "71454_37",
+   "entidades": [
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Michael J. Madigan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Paul La Schiazza",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "AT&T Illinois",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Paul La Schiazza",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T Illinois",
+     "propriedades": {
+      "cargo": "presidente"
+     },
+     "evidencia": "Paul La Schiazza, ex-presidente da AT&T Illinois",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "71454_38",
+   "entidades": [
+    {
+     "nome": "AT&T",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Paul La Schiazza",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "AT&T Illinois",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "FBI",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Departamento de Segurança Interna",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Comissão Federal de Comunicações dos Estados Unidos",
+     "tipo": "Organizacao",
+     "aliases": [
+      "FCC"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Comissão Federal de Comércio",
+     "tipo": "Organizacao",
+     "aliases": [
+      "FTC"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Paul La Schiazza",
+     "tipo": "TRABALHOU_EM",
+     "destino": "AT&T Illinois",
+     "propriedades": {
+      "cargo": "presidente"
+     },
+     "evidencia": "Paul La Schiazza, ex-presidente da AT&T Illinois",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "71454_39",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "71454_40",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "71454_41",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

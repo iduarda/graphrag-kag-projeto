@@ -1,0 +1,160 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:24:38+00:00",
+ "chunks": [
+  {
+   "chunk_id": "1140_0",
+   "entidades": [
+    {
+     "nome": "Lei de Moore",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Observação sobre a tendência de aumento do número de transistores dos chips a cada dois anos.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Gordon Moore",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Moore",
+      "Gordon E. Moore"
+     ],
+     "descricao": "Químico estadunidense cofundador da Intel.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Gordon Moore",
+     "tipo": "CRIOU",
+     "destino": "Lei de Moore",
+     "propriedades": {
+      "ano": 1965
+     },
+     "evidencia": "observação feita por Gordon Moore (químico estadunidense cofundador da Intel) em 1965",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Gordon Moore",
+     "tipo": "FUNDOU",
+     "destino": "Intel",
+     "propriedades": {},
+     "evidencia": "Gordon Moore (químico estadunidense cofundador da Intel)",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "1140_1",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Gordon Moore",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Moore"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Caver Mead",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lei de Moore",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1140_2",
+   "entidades": [
+    {
+     "nome": "Lei de Moore",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1140_3",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "1140_4",
+   "entidades": [
+    {
+     "nome": "Carl Anderson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Anderson"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Lei de Moore",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Carl Anderson",
+     "tipo": "TRABALHOU_EM",
+     "destino": "IBM",
+     "propriedades": {
+      "cargo": "pesquisador"
+     },
+     "evidencia": "Carl Anderson, pesquisador da área de concepção de computadores da IBM",
+     "confianca": 0.9
+    }
+   ]
+  }
+ ]
+}

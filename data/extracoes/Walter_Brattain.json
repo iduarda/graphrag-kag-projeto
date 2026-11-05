@@ -1,0 +1,846 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 128861,
+    "titulo": "Walter Houser Brattain",
+    "url": "https://pt.wikipedia.org/wiki/Walter_Houser_Brattain",
+    "categoria": "Pessoa",
+    "wikidata_id": "Q184577"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:26:22+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "pessoa:walter_houser_brattain",
+  "chunks": [
+    {
+      "id": "128861_0",
+      "ordem": 0,
+      "texto": "Walter Houser Brattain ([ˈbræt.n] BRAT-n; 10 de fevereiro de 1902 – 13 de outubro de 1987) foi um físico americano que compartilhou o Prêmio Nobel de Física de 1956 com John Bardeen e William Shockley pela invenção do transistor de contato pontual. Brattain dedicou grande parte de sua vida à pesquisa sobre estados de superfície."
+    },
+    {
+      "id": "128861_1",
+      "ordem": 1,
+      "texto": "Brattain dedicou grande parte de sua vida à pesquisa sobre estados de superfície.\nPrimeiros anos e educação: Walter Houser Brattain nasceu em 10 de fevereiro de 1902, em Amoy (atual Xiamen), Fujian, China, filho de pais americanos, Ottilie (nascida Houser) e Ross R. Brattain. Seu pai era de descendência escocesa, enquanto os pais de sua mãe eram ambos imigrantes de Stuttgart, Alemanha. Ross era professor no Instituto Ting-Wen, uma escola particular para meninos chineses. Ottilie era uma matemática talentosa. Ambos eram formados pelo Whitman College. Ottilie e o bebê Walter retornaram aos Estados Unidos em 1903, e Ross os seguiu logo depois. A família viveu por vários anos em Spokane, Washington, depois se estabeleceu em um rancho de gado perto de Tonasket, Washington, em 1911.\nBrattain frequentou o ensino médio em Washington, passando um ano na Queen Anne High School, dois anos na Tonasket High School e um ano na Moran School for Boys. Ele então frequentou o Whitman College, onde estudou com Benjamin H. Brown (física) e Walter A. Bratton (matemática). Ele recebeu um Bacharelado em Ciências em 1924 com dupla especialização em Física e Matemática. Brattain e seus colegas de classe Walker Bleakney, Vladimir Rojansky e E. John Workman todos seguiriam carreiras distintas, mais tarde ficando conhecidos como \"os quatro cavaleiros da física\". O irmão de Brattain, Robert, que o seguiu no Whitman College, também se tornou físico."
+    },
+    {
+      "id": "128861_2",
+      "ordem": 2,
+      "texto": "O irmão de Brattain, Robert, que o seguiu no Whitman College, também se tornou físico.\nBrattain obteve um Mestrado em Artes pela Universidade do Oregon em 1926 e um Doutorado em Filosofia pela Universidade de Minnesota em 1929. Em Minnesota, ele teve a oportunidade de estudar o novo campo da mecânica quântica sob John Hasbrouck Van Vleck. Sua tese de doutorado, orientada por John Torrence Tate Sr., foi intitulada Efficiency of Excitation by Electron Impact and Anomalous Scattering in Mercury Vapor."
+    },
+    {
+      "id": "128861_3",
+      "ordem": 3,
+      "texto": "Sua tese de doutorado, orientada por John Torrence Tate Sr., foi intitulada Efficiency of Excitation by Electron Impact and Anomalous Scattering in Mercury Vapor.\nCarreira e pesquisa: De 1928 a 1929, Brattain trabalhou para o National Bureau of Standards em Washington, D.C., onde ajudou a desenvolver padrões de frequência piezoelétricos. Em agosto de 1929, ele se juntou a Joseph A. Becker na Bell Telephone Laboratories como físico pesquisador. Os dois homens trabalharam no fluxo induzido por calor de portadores de carga em retificadores de óxido de cobre. Brattain conseguiu assistir a uma palestra de Arnold Sommerfeld. Alguns de seus experimentos subsequentes sobre emissão termiônica forneceram validação experimental para a teoria de Sommerfeld.  Eles também trabalharam no estado de superfície e função trabalho do tungstênio e na adsorção de átomos de tório. Através de seus estudos de retificação e fotoefeitos nas superfícies semicondutoras de óxido cuproso e silício, Brattain descobriu o fotoefeito na superfície livre de um semicondutor. Este trabalho foi considerado pelo Comitê Nobel como uma de suas principais contribuições para a física do estado sólido."
+    },
+    {
+      "id": "128861_4",
+      "ordem": 4,
+      "texto": "Este trabalho foi considerado pelo Comitê Nobel como uma de suas principais contribuições para a física do estado sólido.\nNa época, a indústria telefônica era fortemente dependente do uso de válvulas eletrônicas para controlar o fluxo de elétrons e amplificar corrente. As válvulas eletrônicas não eram nem confiáveis nem eficientes, e a Bell Labs queria desenvolver uma tecnologia alternativa.  Já na década de 1930, Brattain trabalhou com William Shockley na ideia de um amplificador semicondutor que usava óxido de cobre, uma tentativa inicial e malsucedida de criar um transistor de efeito de campo.  Outros pesquisadores na Bell e em outros lugares também estavam experimentando semicondutores, usando materiais como germânio e silício, mas o esforço de pesquisa pré-guerra era um tanto aleatório e carecia de uma base teórica sólida.\nDurante a Segunda Guerra Mundial, tanto Brattain quanto Shockley estiveram separadamente envolvidos em pesquisas sobre detecção magnética de submarinos com o National Defense Research Committee na Universidade Columbia. O grupo de Brattain desenvolveu magnetômetros sensíveis o suficiente para detectar anomalias no campo magnético terrestre causadas por submarinos. Como resultado deste trabalho, em 1944, Brattain patenteou um projeto para uma cabeça de magnetômetro."
+    },
+    {
+      "id": "128861_5",
+      "ordem": 5,
+      "texto": "Como resultado deste trabalho, em 1944, Brattain patenteou um projeto para uma cabeça de magnetômetro.\nEm 1945, a Bell Labs se reorganizou e criou um grupo especificamente para fazer pesquisa fundamental em física do estado sólido, relacionada a tecnologias de comunicações. A criação do subdepartamento foi autorizada pelo vice-presidente de pesquisa, Mervin Kelly. Um grupo interdisciplinar, foi co-liderado por Shockley e Stanley O. Morgan. O novo grupo logo recebeu John Bardeen. Bardeen era um amigo próximo do irmão de Brattain, Robert, que havia apresentado John e Walter na década de 1930. Eles frequentemente jogavam bridge e golfe juntos. Bardeen era um físico quântico, Brattain um experimentador talentoso em ciência dos materiais, e Shockley, o líder de sua equipe, era um especialista em física do estado sólido."
+    },
+    {
+      "id": "128861_6",
+      "ordem": 6,
+      "texto": "Bardeen era um físico quântico, Brattain um experimentador talentoso em ciência dos materiais, e Shockley, o líder de sua equipe, era um especialista em física do estado sólido.\nInvenção do transistor: De acordo com as teorias da época, o transistor de efeito de campo de Shockley, um cilindro finamente revestido com silício e montado próximo a uma placa de metal, deveria ter funcionado. Ele ordenou que Brattain e Bardeen descobrissem por que não funcionava. Durante novembro e dezembro, os dois homens realizaram uma variedade de experimentos, tentando determinar por que o dispositivo de Shockley não amplificava. Bardeen era um teórico brilhante; Brattain, igualmente importante, \"tinha um feeling intuitivo para o que se podia fazer em semicondutores\".  Bardeen teorizou que a falha em conduzir poderia ser o resultado de variações locais no estado de superfície que prendiam os portadores de carga.  Brattain e Bardeen eventualmente conseguiram criar um pequeno nível de amplificação empurrando uma ponta de metal de ouro para dentro do silício e cercando-a com água destilada. Substituir o silício por germânio aumentou a amplificação, mas apenas para correntes de baixa frequência."
+    },
+    {
+      "id": "128861_7",
+      "ordem": 7,
+      "texto": "Substituir o silício por germânio aumentou a amplificação, mas apenas para correntes de baixa frequência.\nEm 16 de dezembro, Brattain idealizou um método de colocar dois contatos de folha de ouro próximos um do outro em uma superfície de germânio. Brattain relatou: \"Usando este contato de ponto duplo, o contato foi feito em uma superfície de germânio que havia sido anodizada a 90 volts, o eletrólito lavado em H2O e então alguns pontos de ouro evaporados sobre ela. Os contatos de ouro foram pressionados contra a superfície nua. Ambos os contatos de ouro com a superfície retificaram bem... Um ponto foi usado como grade e o outro ponto como placa. A polarização (C.C.) na grade tinha que ser positiva para obter amplificação.\"\nComo descrito por Bardeen, \"Os experimentos iniciais com o ponto de ouro sugeriram imediatamente que lacunas estavam sendo introduzidas no bloco de germânio, aumentando a concentração de lacunas perto da superfície.  Os nomes emissor e coletor foram escolhidos para descrever este fenômeno.  A única questão era como a carga das lacunas adicionadas era compensada.  Nosso primeiro pensamento foi que a carga era compensada por estados de superfície. Shockley mais tarde sugeriu que a carga era compensada por elétrons no volume e sugeriu a geometria do transistor de junção... Experimentos posteriores realizados por Brattain e eu mostraram que muito provavelmente ambos ocorrem no transistor de contato por ponto.\""
+    },
+    {
+      "id": "128861_8",
+      "ordem": 8,
+      "texto": "Experimentos posteriores realizados por Brattain e eu mostraram que muito provavelmente ambos ocorrem no transistor de contato por ponto.\"\nEm 23 de dezembro de 1947, Brattain, Bardeen e Shockley demonstraram o primeiro transistor funcional a seus colegas na Bell Labs. Amplificando pequenos sinais elétricos e suportando o processamento de informações digitais, o transistor é \"o principal facilitador da eletrônica moderna\".\nConvencida pela demonstração de 1947 de que um grande avanço estava sendo feito, a Bell Labs concentrou-se intensamente no que agora chamava de Surface States Project.  Inicialmente, foi observado sigilo estrito. Conferências internas cuidadosamente restritas dentro da Bell Labs compartilhavam informações sobre o trabalho de Brattain, Bardeen, Shockley e outros que estavam engajados em pesquisas relacionadas. Patentes foram registradas, registrando a invenção do transistor de contato pontual por Bardeen e Brattain. Havia considerável ansiedade sobre se Ralph Bray e Seymour Benzer, estudando resistência em germânio na Universidade Purdue, poderiam fazer uma descoberta semelhante e publicar antes da Bell Labs."
+    },
+    {
+      "id": "128861_9",
+      "ordem": 9,
+      "texto": "Havia considerável ansiedade sobre se Ralph Bray e Seymour Benzer, estudando resistência em germânio na Universidade Purdue, poderiam fazer uma descoberta semelhante e publicar antes da Bell Labs.\nEm 30 de junho de 1948, a Bell Labs realizou uma coletiva de imprensa para anunciar publicamente sua descoberta. Eles também adotaram uma política aberta na qual o novo conhecimento era livremente compartilhado com outras instituições. Ao fazer isso, evitaram a classificação do trabalho como segredo militar e possibilitaram ampla pesquisa e desenvolvimento da tecnologia de transistores. A Bell Labs organizou vários simpósios, abertos a participantes universitários, industriais e militares, que foram frequentados por centenas de cientistas em setembro de 1951, abril de 1952 e 1956. Representantes de empresas internacionais e domésticas compareceram.\nShockley acreditava e afirmava que deveria ter recebido todo o crédito pela invenção do transistor. Ele ativamente excluiu Bardeen e Brattain de novas áreas de pesquisa, em particular o transistor de junção, que Shockley patenteou. A teoria de Shockley do transistor de junção foi uma \"conquista impressionante\", apontando o caminho para a futura eletrônica de estado sólido, mas levaria vários anos antes que sua construção se tornasse praticamente possível."
+    },
+    {
+      "id": "128861_10",
+      "ordem": 10,
+      "texto": "A teoria de Shockley do transistor de junção foi uma \"conquista impressionante\", apontando o caminho para a futura eletrônica de estado sólido, mas levaria vários anos antes que sua construção se tornasse praticamente possível.\nBrattain transferiu-se para outro grupo de pesquisa dentro da Bell Labs, trabalhando com C. G. B. Garrett e P. J. Boddy.  Ele continuou a estudar as propriedades superficiais dos sólidos e o \"efeito transistor\", para melhor compreender os vários fatores subjacentes ao comportamento dos semicondutores. Descrevendo-a como \"uma situação intolerável\", Bardeen deixou a Bell Labs em 1951 para ir para a Universidade de Illinois,  onde eventualmente ganhou um segundo Prêmio Nobel por sua teoria da supercondutividade.  Shockley deixou a Bell Labs em 1953 e passou a formar o Shockley Semiconductor Laboratory."
+    },
+    {
+      "id": "128861_11",
+      "ordem": 11,
+      "texto": "Shockley deixou a Bell Labs em 1953 e passou a formar o Shockley Semiconductor Laboratory.\nEm 1956, os três homens receberam conjuntamente o Prêmio Nobel de Física do Rei Gustavo VI Adolfo da Suécia \"por suas pesquisas sobre semicondutores e sua descoberta do efeito transistor\". Bardeen e Brattain foram incluídos pela descoberta do transistor de contato por ponto; Shockley pelo desenvolvimento do transistor de junção. Walter Brattain é creditado por ter dito, quando informado do prêmio: \"Eu certamente aprecio a honra. É uma grande satisfação ter feito algo na vida e ter sido reconhecido por isso desta forma. No entanto, grande parte da minha boa fortuna vem de estar no lugar certo, na hora certa e ter o tipo certo de pessoas para trabalhar\". Cada um dos três deu uma palestra.  Brattain falou sobre Surface Properties of Semiconductors, Bardeen sobre Semiconductor Research Leading to the Point Contact Transistor,  e Shockley sobre Transistor Technology Evokes New Physics."
+    },
+    {
+      "id": "128861_12",
+      "ordem": 12,
+      "texto": "Brattain falou sobre Surface Properties of Semiconductors, Bardeen sobre Semiconductor Research Leading to the Point Contact Transistor,  e Shockley sobre Transistor Technology Evokes New Physics.\nOutros trabalhos: Brattain mais tarde colaborou com P. J. Boddy e P. N. Sawyer em vários artigos sobre processos eletroquímicos na matéria viva. Ele se interessou pela coagulação sanguínea depois que seu filho precisou de cirurgia cardíaca. Ele também colaborou com o professor de química de Whitman, David Frasco, usando bicamadas de fosfolipídios como modelo para estudar a superfície de células vivas e seus processos de absorção."
+    },
+    {
+      "id": "128861_13",
+      "ordem": 13,
+      "texto": "Ele também colaborou com o professor de química de Whitman, David Frasco, usando bicamadas de fosfolipídios como modelo para estudar a superfície de células vivas e seus processos de absorção.\nEnsino: Brattain lecionou na Universidade Harvard como professor visitante em 1952 e no Whitman College como professor visitante em 1962 e 1963, e professor visitante a partir de 1963.  Após se aposentar formalmente da Bell Labs em 1967, ele continuou a lecionar em Whitman, tornando-se professor adjunto em 1972. Ele se aposentou do ensino em 1976, mas continuou a ser consultor em Whitman.\nEm Whitman, as Bolsas Walter Brattain são concedidas com base no mérito a \"alunos ingressantes que alcançaram alta excelência acadêmica em seu trabalho preparatório para a faculdade.\" Todos os candidatos à admissão são considerados para a bolsa, que é potencialmente renovável por quatro anos."
+    },
+    {
+      "id": "128861_14",
+      "ordem": 14,
+      "texto": "Em Whitman, as Bolsas Walter Brattain são concedidas com base no mérito a \"alunos ingressantes que alcançaram alta excelência acadêmica em seu trabalho preparatório para a faculdade.\" Todos os candidatos à admissão são considerados para a bolsa, que é potencialmente renovável por quatro anos.\nVida pessoal e morte: Brattain casou-se duas vezes. Sua primeira esposa foi a química Keren Gilmore. Eles se casaram em 1935 e tiveram um filho, William, em 1943. Keren morreu em 10 de abril de 1957. No ano seguinte, Brattain casou-se com Emma Jane (Kirsch) Miller, mãe de três filhos.\nBrattain morreu de doença de Alzheimer em 13 de outubro de 1987, em Seattle, aos 85 anos.  Ele está enterrado no City Cemetery em Pomeroy, Washington."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "pessoa:walter_houser_brattain",
+      "nome": "Walter Houser Brattain",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Walter Brattain",
+        "Brattain"
+      ],
+      "descricao": "Físico americano que compartilhou o Prêmio Nobel de Física de 1956 pela invenção do transistor de contato pontual.",
+      "propriedades": {
+        "ano_nascimento": 1902,
+        "ano_morte": 1987
+      },
+      "chunk_ids": [
+        "128861_0",
+        "128861_1",
+        "128861_2",
+        "128861_3",
+        "128861_4",
+        "128861_5",
+        "128861_6",
+        "128861_7",
+        "128861_8",
+        "128861_9",
+        "128861_10",
+        "128861_11",
+        "128861_12",
+        "128861_13",
+        "128861_14"
+      ]
+    },
+    {
+      "id": "pessoa:john_bardeen",
+      "nome": "John Bardeen",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Bardeen"
+      ],
+      "descricao": "Físico quântico que se juntou ao grupo de estado sólido da Bell Labs.",
+      "propriedades": {},
+      "chunk_ids": [
+        "128861_0",
+        "128861_5",
+        "128861_6",
+        "128861_7",
+        "128861_8",
+        "128861_9",
+        "128861_10",
+        "128861_11"
+      ]
+    },
+    {
+      "id": "pessoa:william_bradford_shockley",
+      "nome": "William Bradford Shockley",
+      "tipo": "Pessoa",
+      "aliases": [
+        "William Shockley",
+        "Shockley"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "128861_0",
+        "128861_4",
+        "128861_5",
+        "128861_6",
+        "128861_7",
+        "128861_8",
+        "128861_9",
+        "128861_10",
+        "128861_11"
+      ]
+    },
+    {
+      "id": "premio:premio_nobel_de_fisica",
+      "nome": "Prêmio Nobel de Física",
+      "tipo": "Premio",
+      "aliases": [
+        "Nobel de Física",
+        "Prémio Nobel de Física"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "128861_0",
+        "128861_11"
+      ]
+    },
+    {
+      "id": "tecnologia:transistor",
+      "nome": "Transístor",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "Transistor",
+        "transistores",
+        "transístores",
+        "transistor de contato pontual"
+      ],
+      "propriedades": {
+        "tipo": "invencao",
+        "ano": 1947
+      },
+      "chunk_ids": [
+        "128861_0",
+        "128861_8",
+        "128861_9"
+      ]
+    },
+    {
+      "id": "local:xiamen",
+      "nome": "Xiamen",
+      "tipo": "Local",
+      "aliases": [
+        "Amoy"
+      ],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "128861_1"
+      ]
+    },
+    {
+      "id": "organizacao:whitman_college",
+      "nome": "Whitman College",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Whitman"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "128861_1",
+        "128861_13",
+        "128861_14"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_do_oregon",
+      "nome": "Universidade do Oregon",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "128861_2"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_de_minnesota",
+      "nome": "Universidade de Minnesota",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "128861_2"
+      ]
+    },
+    {
+      "id": "pessoa:john_hasbrouck_van_vleck",
+      "nome": "John Hasbrouck Van Vleck",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128861_2"
+      ]
+    },
+    {
+      "id": "pessoa:john_torrence_tate_sr",
+      "nome": "John Torrence Tate Sr.",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128861_2"
+      ]
+    },
+    {
+      "id": "organizacao:national_bureau_of_standards",
+      "nome": "National Bureau of Standards",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "agencia"
+      },
+      "chunk_ids": [
+        "128861_3"
+      ]
+    },
+    {
+      "id": "organizacao:bell_labs",
+      "nome": "Bell Labs",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Laboratórios Bell",
+        "Bell Laboratories",
+        "Nokia Bell Labs",
+        "Bell Telephone Laboratories",
+        "AT&T Bell Laboratories",
+        "Bell"
+      ],
+      "propriedades": {
+        "tipo": "laboratorio"
+      },
+      "chunk_ids": [
+        "128861_3",
+        "128861_4",
+        "128861_5",
+        "128861_8",
+        "128861_9",
+        "128861_10",
+        "128861_11",
+        "128861_13"
+      ]
+    },
+    {
+      "id": "pessoa:joseph_a_becker",
+      "nome": "Joseph A. Becker",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128861_3"
+      ]
+    },
+    {
+      "id": "pessoa:arnold_sommerfeld",
+      "nome": "Arnold Sommerfeld",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128861_3"
+      ]
+    },
+    {
+      "id": "organizacao:national_defense_research_committee",
+      "nome": "National Defense Research Committee",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128861_4"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_columbia",
+      "nome": "Universidade Columbia",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "128861_4"
+      ]
+    },
+    {
+      "id": "pessoa:mervin_kelly",
+      "nome": "Mervin Kelly",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128861_5"
+      ]
+    },
+    {
+      "id": "pessoa:stanley_o_morgan",
+      "nome": "Stanley O. Morgan",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128861_5"
+      ]
+    },
+    {
+      "id": "pessoa:ralph_bray",
+      "nome": "Ralph Bray",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128861_8"
+      ]
+    },
+    {
+      "id": "pessoa:seymour_benzer",
+      "nome": "Seymour Benzer",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128861_8"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_purdue",
+      "nome": "Universidade Purdue",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "128861_8"
+      ]
+    },
+    {
+      "id": "pessoa:c_g_b_garrett",
+      "nome": "C. G. B. Garrett",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128861_10"
+      ]
+    },
+    {
+      "id": "pessoa:p_j_boddy",
+      "nome": "P. J. Boddy",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128861_10",
+        "128861_12"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_de_illinois",
+      "nome": "Universidade de Illinois",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "128861_10"
+      ]
+    },
+    {
+      "id": "organizacao:shockley_semiconductor_laboratory",
+      "nome": "Shockley Semiconductor Laboratory",
+      "tipo": "Organizacao",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "laboratorio"
+      },
+      "chunk_ids": [
+        "128861_10",
+        "128861_11"
+      ]
+    },
+    {
+      "id": "pessoa:p_n_sawyer",
+      "nome": "P. N. Sawyer",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "128861_12"
+      ]
+    },
+    {
+      "id": "pessoa:david_frasco",
+      "nome": "David Frasco",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "descricao": "Professor de química de Whitman.",
+      "propriedades": {},
+      "chunk_ids": [
+        "128861_13"
+      ]
+    },
+    {
+      "id": "organizacao:universidade_harvard",
+      "nome": "Universidade Harvard",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Universidade de Harvard",
+        "Harvard University",
+        "Harvard"
+      ],
+      "propriedades": {
+        "tipo": "universidade"
+      },
+      "chunk_ids": [
+        "128861_13"
+      ]
+    },
+    {
+      "id": "local:seattle",
+      "nome": "Seattle",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "128861_14"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:walter_houser_brattain",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_nobel_de_fisica",
+      "propriedades": {
+        "ano": 1956
+      },
+      "chunk_id": "128861_0",
+      "evidencia": "compartilhou o Prêmio Nobel de Física de 1956 com John Bardeen e William Shockley",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:john_bardeen",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_nobel_de_fisica",
+      "propriedades": {
+        "ano": 1956
+      },
+      "chunk_id": "128861_0",
+      "evidencia": "compartilhou o Prêmio Nobel de Física de 1956 com John Bardeen e William Shockley",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_nobel_de_fisica",
+      "propriedades": {
+        "ano": 1956
+      },
+      "chunk_id": "128861_0",
+      "evidencia": "compartilhou o Prêmio Nobel de Física de 1956 com John Bardeen e William Shockley",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:walter_houser_brattain",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:transistor",
+      "propriedades": {},
+      "chunk_id": "128861_0",
+      "evidencia": "pela invenção do transistor de contato pontual",
+      "confianca": 0.7
+    },
+    {
+      "origem": "pessoa:walter_houser_brattain",
+      "tipo": "NASCEU_EM",
+      "destino": "local:xiamen",
+      "propriedades": {},
+      "chunk_id": "128861_1",
+      "evidencia": "nasceu em 10 de fevereiro de 1902, em Amoy (atual Xiamen), Fujian, China",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:walter_houser_brattain",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:whitman_college",
+      "propriedades": {
+        "curso": "Física e Matemática",
+        "ano": 1924
+      },
+      "chunk_id": "128861_1",
+      "evidencia": "Ele então frequentou o Whitman College, onde estudou com Benjamin H. Brown (física) e Walter A. Bratton (matemática). Ele recebeu um Bacharelado em Ciências em 1924",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:walter_houser_brattain",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:universidade_do_oregon",
+      "propriedades": {
+        "curso": "Mestrado em Artes",
+        "ano": 1926
+      },
+      "chunk_id": "128861_2",
+      "evidencia": "Brattain obteve um Mestrado em Artes pela Universidade do Oregon em 1926",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:walter_houser_brattain",
+      "tipo": "ESTUDOU_EM",
+      "destino": "organizacao:universidade_de_minnesota",
+      "propriedades": {
+        "curso": "Doutorado em Filosofia",
+        "ano": 1929
+      },
+      "chunk_id": "128861_2",
+      "evidencia": "um Doutorado em Filosofia pela Universidade de Minnesota em 1929",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:walter_houser_brattain",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:national_bureau_of_standards",
+      "propriedades": {
+        "ano_inicio": 1928,
+        "ano_fim": 1929
+      },
+      "chunk_id": "128861_3",
+      "evidencia": "De 1928 a 1929, Brattain trabalhou para o National Bureau of Standards",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:walter_houser_brattain",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:bell_labs",
+      "propriedades": {
+        "cargo": "físico pesquisador",
+        "ano_inicio": 1929
+      },
+      "chunk_id": "128861_3",
+      "evidencia": "Em agosto de 1929, ele se juntou a Joseph A. Becker na Bell Telephone Laboratories como físico pesquisador",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:joseph_a_becker",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:walter_houser_brattain",
+      "propriedades": {
+        "contexto": "fluxo induzido por calor de portadores de carga em retificadores de óxido de cobre"
+      },
+      "chunk_id": "128861_3",
+      "evidencia": "ele se juntou a Joseph A. Becker na Bell Telephone Laboratories como físico pesquisador. Os dois homens trabalharam no fluxo induzido por calor de portadores de carga",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:walter_houser_brattain",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:william_bradford_shockley",
+      "propriedades": {
+        "contexto": "amplificador semicondutor que usava óxido de cobre"
+      },
+      "chunk_id": "128861_4",
+      "evidencia": "Brattain trabalhou com William Shockley na ideia de um amplificador semicondutor que usava óxido de cobre",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:john_bardeen",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:bell_labs",
+      "propriedades": {},
+      "chunk_id": "128861_5",
+      "evidencia": "Em 1945, a Bell Labs se reorganizou e criou um grupo especificamente para fazer pesquisa fundamental em física do estado sólido",
+      "confianca": 0.6
+    },
+    {
+      "origem": "pessoa:john_bardeen",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:walter_houser_brattain",
+      "propriedades": {
+        "contexto": "experimentos para descobrir por que o transistor de efeito de campo de Shockley não amplificava"
+      },
+      "chunk_id": "128861_6",
+      "evidencia": "Ele ordenou que Brattain e Bardeen descobrissem por que não funcionava.",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:walter_houser_brattain",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:transistor",
+      "propriedades": {
+        "ano": 1947
+      },
+      "chunk_id": "128861_8",
+      "evidencia": "Em 23 de dezembro de 1947, Brattain, Bardeen e Shockley demonstraram o primeiro transistor funcional a seus colegas na Bell Labs.",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:john_bardeen",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:transistor",
+      "propriedades": {
+        "ano": 1947
+      },
+      "chunk_id": "128861_8",
+      "evidencia": "Em 23 de dezembro de 1947, Brattain, Bardeen e Shockley demonstraram o primeiro transistor funcional a seus colegas na Bell Labs.",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:transistor",
+      "propriedades": {
+        "ano": 1947
+      },
+      "chunk_id": "128861_8",
+      "evidencia": "Em 23 de dezembro de 1947, Brattain, Bardeen e Shockley demonstraram o primeiro transistor funcional a seus colegas na Bell Labs.",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:c_g_b_garrett",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:walter_houser_brattain",
+      "propriedades": {
+        "contexto": "grupo de pesquisa na Bell Labs sobre propriedades superficiais dos sólidos"
+      },
+      "chunk_id": "128861_10",
+      "evidencia": "trabalhando com C. G. B. Garrett e P. J. Boddy",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:p_j_boddy",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:walter_houser_brattain",
+      "propriedades": {
+        "contexto": "grupo de pesquisa na Bell Labs sobre propriedades superficiais dos sólidos"
+      },
+      "chunk_id": "128861_10",
+      "evidencia": "trabalhando com C. G. B. Garrett e P. J. Boddy",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:john_bardeen",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:universidade_de_illinois",
+      "propriedades": {
+        "ano_inicio": 1951
+      },
+      "chunk_id": "128861_10",
+      "evidencia": "Bardeen deixou a Bell Labs em 1951 para ir para a Universidade de Illinois",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:john_bardeen",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:bell_labs",
+      "propriedades": {
+        "ano_fim": 1951
+      },
+      "chunk_id": "128861_10",
+      "evidencia": "Bardeen deixou a Bell Labs em 1951",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:bell_labs",
+      "propriedades": {
+        "ano_fim": 1953
+      },
+      "chunk_id": "128861_10",
+      "evidencia": "Shockley deixou a Bell Labs em 1953",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:shockley_semiconductor_laboratory",
+      "propriedades": {},
+      "chunk_id": "128861_10",
+      "evidencia": "Shockley deixou a Bell Labs em 1953 e passou a formar o Shockley Semiconductor Laboratory.",
+      "confianca": 0.75
+    },
+    {
+      "origem": "pessoa:walter_houser_brattain",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_nobel_de_fisica",
+      "propriedades": {
+        "ano": 1956
+      },
+      "chunk_id": "128861_11",
+      "evidencia": "Em 1956, os três homens receberam conjuntamente o Prêmio Nobel de Física do Rei Gustavo VI Adolfo da Suécia",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:john_bardeen",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_nobel_de_fisica",
+      "propriedades": {
+        "ano": 1956
+      },
+      "chunk_id": "128861_11",
+      "evidencia": "Em 1956, os três homens receberam conjuntamente o Prêmio Nobel de Física do Rei Gustavo VI Adolfo da Suécia",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:william_bradford_shockley",
+      "tipo": "RECEBEU",
+      "destino": "premio:premio_nobel_de_fisica",
+      "propriedades": {
+        "ano": 1956
+      },
+      "chunk_id": "128861_11",
+      "evidencia": "Em 1956, os três homens receberam conjuntamente o Prêmio Nobel de Física do Rei Gustavo VI Adolfo da Suécia",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:p_n_sawyer",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:walter_houser_brattain",
+      "propriedades": {
+        "contexto": "artigos sobre processos eletroquímicos na matéria viva"
+      },
+      "chunk_id": "128861_12",
+      "evidencia": "Brattain mais tarde colaborou com P. J. Boddy e P. N. Sawyer em vários artigos sobre processos eletroquímicos na matéria viva",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:david_frasco",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:walter_houser_brattain",
+      "propriedades": {
+        "contexto": "bicamadas de fosfolipídios como modelo da superfície de células vivas"
+      },
+      "chunk_id": "128861_13",
+      "evidencia": "Ele também colaborou com o professor de química de Whitman, David Frasco",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:walter_houser_brattain",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:universidade_harvard",
+      "propriedades": {
+        "cargo": "professor visitante",
+        "ano_inicio": 1952
+      },
+      "chunk_id": "128861_13",
+      "evidencia": "Brattain lecionou na Universidade Harvard como professor visitante em 1952",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:walter_houser_brattain",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:whitman_college",
+      "propriedades": {
+        "cargo": "professor adjunto",
+        "ano_inicio": 1962,
+        "ano_fim": 1976
+      },
+      "chunk_id": "128861_13",
+      "evidencia": "continuou a lecionar em Whitman, tornando-se professor adjunto em 1972. Ele se aposentou do ensino em 1976",
+      "confianca": 0.8
+    },
+    {
+      "origem": "pessoa:walter_houser_brattain",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:bell_labs",
+      "propriedades": {
+        "ano_fim": 1967
+      },
+      "chunk_id": "128861_13",
+      "evidencia": "Após se aposentar formalmente da Bell Labs em 1967",
+      "confianca": 0.9
+    }
+  ]
+}

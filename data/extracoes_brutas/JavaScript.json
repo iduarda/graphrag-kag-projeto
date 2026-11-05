@@ -1,0 +1,1199 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:24:28+00:00",
+ "chunks": [
+  {
+   "chunk_id": "21978_0",
+   "entidades": [
+    {
+     "nome": "JavaScript",
+     "tipo": "Linguagem",
+     "aliases": [
+      "JS"
+     ],
+     "descricao": "Linguagem de programação interpretada, de script em alto nível, multiparadigma, principal linguagem client-side em navegadores web.",
+     "propriedades": {
+      "paradigmas": [
+       "protótipos",
+       "orientado a objeto",
+       "imperativo",
+       "funcional"
+      ]
+     }
+    },
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Node.js",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "node.js"
+     ],
+     "descricao": "Ambiente que permite usar JavaScript do lado do servidor.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_1",
+   "entidades": [
+    {
+     "nome": "JavaScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Self",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Scheme",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ECMAScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ecma International",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Ecma international"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "JavaScript",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Self",
+     "propriedades": {},
+     "evidencia": "JavaScript foi influenciado por linguagens de programação como Self e Scheme",
+     "confianca": 0.95
+    },
+    {
+     "origem": "JavaScript",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Scheme",
+     "propriedades": {},
+     "evidencia": "JavaScript foi influenciado por linguagens de programação como Self e Scheme",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "21978_2",
+   "entidades": [
+    {
+     "nome": "Netscape",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Mosaic Communications",
+      "Netscape Communications"
+     ],
+     "descricao": "Empresa fundada em 1994 como Mosaic Communications em Mountain View, que criou o Netscape Navigator.",
+     "propriedades": {
+      "tipo": "empresa",
+      "ano_fundacao": 1994
+     }
+    },
+    {
+     "nome": "Centro Nacional de Aplicações de Supercomputação",
+     "tipo": "Organizacao",
+     "aliases": [
+      "NCSA"
+     ],
+     "descricao": "Unidade da Universidade de Illinois em Urbana-Champaign que lançou o NCSA Mosaic.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Illinois em Urbana-Champaign",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "NeXTSTEP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Mountain View",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Califórnia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Netscape",
+     "tipo": "SEDIADA_EM",
+     "destino": "Mountain View",
+     "propriedades": {},
+     "evidencia": "uma empresa chamada Mosaic Communications foi fundada em Mountain View, na Califórnia",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "21978_3",
+   "entidades": [
+    {
+     "nome": "Netscape",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Netscape Communications"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Marc Andreessen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Fundador da Netscape Communications.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Brendan Eich",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Eich"
+     ],
+     "descricao": "Recrutado pela Netscape em 1995, escreveu o protótipo do JavaScript em 10 dias.",
+     "propriedades": {}
+    },
+    {
+     "nome": "JavaScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Scheme",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Sun Microsystems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Perl",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "TCL",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Marc Andreessen",
+     "tipo": "FUNDOU",
+     "destino": "Netscape",
+     "propriedades": {},
+     "evidencia": "Marc Andreessen, o fundador da empresa",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Brendan Eich",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Netscape",
+     "propriedades": {
+      "ano_inicio": 1995
+     },
+     "evidencia": "Em 1995, a Netscape Communications recrutou Brendan Eich",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Brendan Eich",
+     "tipo": "CRIOU",
+     "destino": "JavaScript",
+     "propriedades": {
+      "ano": 1995
+     },
+     "evidencia": "Para defender a ideia do JavaScript contra propostas concorrentes, a empresa precisava de um protótipo. Eich escreveu um em 10 dias, em maio de 1995.",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "21978_4",
+   "entidades": [
+    {
+     "nome": "Brendan Eich",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Eich"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "JavaScript",
+     "tipo": "Linguagem",
+     "aliases": [
+      "Mocha",
+      "LiveScript"
+     ],
+     "descricao": "Desenvolvida sob o nome Mocha, chamada LiveScript em 1995 e depois renomeada para JavaScript.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Netscape",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Nombas",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Cmm",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Nombas",
+     "tipo": "DESENVOLVEU",
+     "destino": "Cmm",
+     "propriedades": {},
+     "evidencia": "linguagem de script de página da Web desenvolvida pelo Nombas chamada Cmm",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "21978_5",
+   "entidades": [
+    {
+     "nome": "Nombas",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Cmm",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "JavaScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Netscape",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Node.js",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Node.js"
+     ],
+     "propriedades": {
+      "tipo": "sistema",
+      "ano": 2009
+     }
+    },
+    {
+     "nome": "TypeScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Linguagem que adiciona tipagem ao JavaScript.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_6",
+   "entidades": [
+    {
+     "nome": "TypeScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "JavaScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "VBScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {
+      "ano": 1996
+     }
+    },
+    {
+     "nome": "JScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "descricao": "Implementação de engenharia reversa do JavaScript da Netscape, lançada pela Microsoft em 1996.",
+     "propriedades": {
+      "ano": 1996
+     }
+    },
+    {
+     "nome": "Netscape",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "VBScript",
+     "propriedades": {
+      "ano": 1996
+     },
+     "evidencia": "As tecnologias de script da Microsoft, incluindo VBScript e JScript, foram lançadas em 1996",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Microsoft",
+     "tipo": "DESENVOLVEU",
+     "destino": "JScript",
+     "propriedades": {
+      "ano": 1996
+     },
+     "evidencia": "As tecnologias de script da Microsoft, incluindo VBScript e JScript, foram lançadas em 1996",
+     "confianca": 0.8
+    },
+    {
+     "origem": "JScript",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "JavaScript",
+     "propriedades": {},
+     "evidencia": "JScript, uma implementação de engenharia reversa do JavaScript da Netscape",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "21978_7",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "JavaScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Netscape",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Ecma International",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ECMA International"
+     ],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    },
+    {
+     "nome": "ECMAScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ActionScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "JScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "JScript .NET",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Waldemar Horwat",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Waldemar Horwat",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Netscape",
+     "propriedades": {},
+     "evidencia": "liderado por Waldemar Horwat (então na Netscape, agora no Google)",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Waldemar Horwat",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Google",
+     "propriedades": {},
+     "evidencia": "liderado por Waldemar Horwat (então na Netscape, agora no Google)",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "21978_8",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "JScript .NET",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ECMAScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Brendan Eich",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Mozilla",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ecma International",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "BEA Systems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Crossgain",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Macromedia",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Adobe Systems",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "ActionScript",
+     "tipo": "Linguagem",
+     "aliases": [
+      "ActionScript 3"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_9",
+   "entidades": [
+    {
+     "nome": "Douglas Crockford",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Yahoo!",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Jesse James Garrett",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ajax",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Conjunto de tecnologias, com o JavaScript como backbone, para aplicativos da Web com dados carregados em segundo plano.",
+     "propriedades": {
+      "tipo": "conceito",
+      "ano": 2005
+     }
+    },
+    {
+     "nome": "JavaScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ECMAScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Oslo",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Douglas Crockford",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Yahoo!",
+     "propriedades": {},
+     "evidencia": "Douglas Crockford — então no Yahoo!",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Jesse James Garrett",
+     "tipo": "CRIOU",
+     "destino": "Ajax",
+     "propriedades": {
+      "ano": 2005
+     },
+     "evidencia": "Jesse James Garrett lançou um white paper no qual cunhou o termo Ajax e descreveu um conjunto de tecnologias",
+     "confianca": 0.75
+    }
+   ]
+  },
+  {
+   "chunk_id": "21978_10",
+   "entidades": [
+    {
+     "nome": "ECMAScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_11",
+   "entidades": [
+    {
+     "nome": "JavaScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Oracle Corporation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Netscape",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Netscape Communications"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Mozilla Foundation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Fundação Mozilla"
+     ],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Netscape",
+     "tipo": "DESENVOLVEU",
+     "destino": "JavaScript",
+     "propriedades": {},
+     "evidencia": "tecnologia inventada e implementada pela Netscape Communications",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "21978_12",
+   "entidades": [
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "JavaScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_13",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_15",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_16",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_17",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_18",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_19",
+   "entidades": [
+    {
+     "nome": "Mozilla Foundation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    },
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ECMAScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_20",
+   "entidades": [
+    {
+     "nome": "ECMAScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_21",
+   "entidades": [
+    {
+     "nome": "JavaScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Brendan Eich",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Netscape",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Netscape Communications Corporation"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Norris Boyd",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Criador principal da implementação Rhino de JavaScript, ex-empregado da Netscape.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Java",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Brendan Eich",
+     "tipo": "CRIOU",
+     "destino": "JavaScript",
+     "propriedades": {},
+     "evidencia": "A primeira implementação JavaScript foi criada por Brendan Eich na Netscape Communications Corporation",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Brendan Eich",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Netscape",
+     "propriedades": {},
+     "evidencia": "A primeira implementação JavaScript foi criada por Brendan Eich na Netscape Communications Corporation",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Norris Boyd",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Netscape",
+     "propriedades": {},
+     "evidencia": "Norris Boyd (ex-empregado da Netscape; agora no Google)",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Norris Boyd",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Google",
+     "propriedades": {},
+     "evidencia": "Norris Boyd (ex-empregado da Netscape; agora no Google)",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "21978_22",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_23",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_24",
+   "entidades": [
+    {
+     "nome": "World Wide Web Consortium",
+     "tipo": "Organizacao",
+     "aliases": [
+      "W3C"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_25",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_26",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_27",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_28",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_29",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_30",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_31",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_32",
+   "entidades": [
+    {
+     "nome": "Azer Koçulu",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_33",
+   "entidades": [
+    {
+     "nome": "Azer Koçulu",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_34",
+   "entidades": [
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_35",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_36",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_37",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_38",
+   "entidades": [
+    {
+     "nome": "Douglas Crockford",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Desenvolveu o JSLint e escreveu extensivamente sobre JavaScript.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Khan Academy",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "21978_39",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "JScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "ECMAScript",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Khan Academy",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

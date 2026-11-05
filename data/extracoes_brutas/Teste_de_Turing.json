@@ -1,0 +1,608 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:22:14+00:00",
+ "chunks": [
+  {
+   "chunk_id": "100768_0",
+   "entidades": [
+    {
+     "nome": "Teste de Turing",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Teste da capacidade de um computador de ter comportamento inteligente semelhante ao do humano.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_1",
+   "entidades": [
+    {
+     "nome": "Teste de Turing",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Teste introduzido por Alan Turing em seu artigo de 1950.",
+     "propriedades": {
+      "tipo": "conceito",
+      "ano": 1950
+     }
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "descricao": "Introduziu o teste em seu artigo de 1950.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Alan Turing",
+     "tipo": "CRIOU",
+     "destino": "Teste de Turing",
+     "propriedades": {
+      "ano": 1950
+     },
+     "evidencia": "O teste foi introduzido por Alan Turing em seu artigo de 1950",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "100768_2",
+   "entidades": [
+    {
+     "nome": "René Descartes",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Descartes"
+     ],
+     "descricao": "Antecipou aspectos do Teste de Turing no escrito Discurso sobre o Método.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Denis Diderot",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Diderot"
+     ],
+     "descricao": "Formulou em seu Pensees Philosophiques um critério de Teste de Turing.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_3",
+   "entidades": [
+    {
+     "nome": "Alfred Ayer",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ayer"
+     ],
+     "descricao": "Filósofo que sugeriu um protocolo para distinguir um homem consciente de uma máquina inconsciente.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_4",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "descricao": "Membro do Ratio Club, a quem o teste foi nomeado.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Reino Unido",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_5",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "descricao": "Propôs uma terceira versão do teste em 1952, discutida na rádio BBC.",
+     "propriedades": {}
+    },
+    {
+     "nome": "BBC",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_6",
+   "entidades": [
+    {
+     "nome": "Joseph Weizenbaum",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Weizenbaum"
+     ],
+     "descricao": "Criou em 1966 um programa que aparentava passar no Teste de Turing.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Teste de Turing",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_7",
+   "entidades": [
+    {
+     "nome": "John Searle",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Searle"
+     ],
+     "descricao": "Propôs o experimento mental Sala chinesa e argumentou que o Teste de Turing não poderia determinar se uma máquina pensava.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Teste de Turing",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_8",
+   "entidades": [
+    {
+     "nome": "Hugh Loebner",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Loebner"
+     ],
+     "descricao": "Assina o Prêmio de Loebner.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Cambridge Center for Behavioral Studies",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Organizou os prêmios até 2003.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Massachusetts",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Cambridge Center for Behavioral Studies",
+     "tipo": "SEDIADA_EM",
+     "destino": "Massachusetts",
+     "propriedades": {},
+     "evidencia": "O Cambridge Center for Behavioral Studies em Massachusetts, Estados Unidos organizou os prêmios até 2003",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "100768_9",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_10",
+   "entidades": [
+    {
+     "nome": "Universidade de Surrey",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Kevin Warwick",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Warwick"
+     ],
+     "descricao": "Organizador do Prêmio de Loebner em 2008.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Huma Shah",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shah"
+     ],
+     "descricao": "Coordenadora do Prêmio de Loebner em 2008.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_11",
+   "entidades": [
+    {
+     "nome": "Brighton",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Reino Unido",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_12",
+   "entidades": [
+    {
+     "nome": "Saul Traiger",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Traiger"
+     ],
+     "descricao": "Argumentou que há ao menos três versões para o Teste de Turing.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Huma Shah",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shah"
+     ],
+     "descricao": "Argumenta que o jogo de imitação poderia ser praticado de dois modos.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_13",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "descricao": "Propôs o jogo da imitação original.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_14",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_15",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_16",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_17",
+   "entidades": [
+    {
+     "nome": "Ayse Saygin",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Saygin"
+     ],
+     "descricao": "Sugeriu que o jogo original é um meio de propor um design experimental menos tendencioso.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_18",
+   "entidades": [
+    {
+     "nome": "Ayse Saygin",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Saygin"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Peter Swirski",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Swirski"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_19",
+   "entidades": [
+    {
+     "nome": "Ayse Saygin",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Saygin"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Huma Shah",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shah"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Kevin Warwick",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Warwick"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Reading University",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_20",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_21",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John Haugeland",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Haugeland"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_22",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_23",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_24",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_25",
+   "entidades": [
+    {
+     "nome": "John Searle",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Searle"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_26",
+   "entidades": [
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Huma Shah",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shah"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Kevin Warwick",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Warwick"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_27",
+   "entidades": [
+    {
+     "nome": "Michael Shermer",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Micheal Shermer",
+      "Shermer"
+     ],
+     "descricao": "Aponta que humanos tendem a considerar objetos não-humanos como humanos, erro chamado falácia antropomórfica.",
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_28",
+   "entidades": [
+    {
+     "nome": "Stuart Russell",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Russell"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Peter Norvig",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Norvig"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "100768_29",
+   "entidades": [
+    {
+     "nome": "Stuart Russell",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Russell"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Peter Norvig",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Norvig"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "John McCarthy",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Turing",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Turing"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

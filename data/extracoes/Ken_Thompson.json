@@ -1,0 +1,283 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 24846,
+    "titulo": "Ken Thompson",
+    "url": "https://pt.wikipedia.org/wiki/Ken_Thompson",
+    "categoria": "Pessoa",
+    "wikidata_id": "Q1107006"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:25:22+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "pessoa:ken_thompson",
+  "chunks": [
+    {
+      "id": "24846_0",
+      "ordem": 0,
+      "texto": "Kenneth Thompson (Nova Orleães, 4 de fevereiro de 1943) é um cientista da computação, conhecido pela sua influência na criação do sistema operacional UNIX, pela invenção da linguagem de programação B, antecessora da linguagem de programação C.\nOriginalmente contratado em 1966 para trabalhar no projeto Multics da Bell Labs, Thompson conheceu Dennis Ritchie e trabalhou junto com Ritchie para criar o sistema operacional UNIX. Thompson também criou a linguagem de programação B, uma precursora da linguagem C de Dennis Ritchie.\nThompson também é conhecido por outros trabalhos, como o sistema operacional Plan 9, suas contribuições na definição da codificação de caracteres UTF-8, tabelas finais e a máquina de xadrez Belle.\nDesde 2006, está trabalhando na empresa Google, onde co-inventou a linguagem de programação Go."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "pessoa:ken_thompson",
+      "nome": "Ken Thompson",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Kenneth Thompson",
+        "Thompson"
+      ],
+      "descricao": "Cientista da computação conhecido pela influência na criação do UNIX e pela invenção da linguagem B.",
+      "propriedades": {
+        "ano_nascimento": 1943
+      },
+      "chunk_ids": [
+        "24846_0"
+      ]
+    },
+    {
+      "id": "local:nova_orleaes",
+      "nome": "Nova Orleães",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "24846_0"
+      ]
+    },
+    {
+      "id": "tecnologia:unix",
+      "nome": "Unix",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "UNIX"
+      ],
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "24846_0"
+      ]
+    },
+    {
+      "id": "linguagem:b",
+      "nome": "B",
+      "tipo": "Linguagem",
+      "aliases": [
+        "B (linguagem de programação)"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "24846_0"
+      ]
+    },
+    {
+      "id": "linguagem:c",
+      "nome": "C",
+      "tipo": "Linguagem",
+      "aliases": [
+        "C (linguagem de programação)"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "24846_0"
+      ]
+    },
+    {
+      "id": "organizacao:bell_labs",
+      "nome": "Bell Labs",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Laboratórios Bell",
+        "Bell Laboratories",
+        "Nokia Bell Labs",
+        "Bell Telephone Laboratories",
+        "AT&T Bell Laboratories"
+      ],
+      "propriedades": {
+        "tipo": "laboratorio"
+      },
+      "chunk_ids": [
+        "24846_0"
+      ]
+    },
+    {
+      "id": "tecnologia:multics",
+      "nome": "Multics",
+      "tipo": "Tecnologia",
+      "aliases": [
+        "Multiplexed Information and Computing Service"
+      ],
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "24846_0"
+      ]
+    },
+    {
+      "id": "pessoa:dennis_ritchie",
+      "nome": "Dennis Ritchie",
+      "tipo": "Pessoa",
+      "aliases": [
+        "Dennis MacAlistair Ritchie",
+        "Ritchie"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "24846_0"
+      ]
+    },
+    {
+      "id": "tecnologia:plan_9",
+      "nome": "Plan 9",
+      "tipo": "Tecnologia",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "sistema"
+      },
+      "chunk_ids": [
+        "24846_0"
+      ]
+    },
+    {
+      "id": "organizacao:google",
+      "nome": "Google",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Google LLC",
+        "Google Inc."
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "24846_0"
+      ]
+    },
+    {
+      "id": "linguagem:go",
+      "nome": "Go",
+      "tipo": "Linguagem",
+      "aliases": [
+        "Go (linguagem de programação)"
+      ],
+      "propriedades": {},
+      "chunk_ids": [
+        "24846_0"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "pessoa:ken_thompson",
+      "tipo": "NASCEU_EM",
+      "destino": "local:nova_orleaes",
+      "propriedades": {},
+      "chunk_id": "24846_0",
+      "evidencia": "Kenneth Thompson (Nova Orleães, 4 de fevereiro de 1943)",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:ken_thompson",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:bell_labs",
+      "propriedades": {
+        "ano_inicio": 1966
+      },
+      "chunk_id": "24846_0",
+      "evidencia": "Originalmente contratado em 1966 para trabalhar no projeto Multics da Bell Labs",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:ken_thompson",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:google",
+      "propriedades": {
+        "ano_inicio": 2006
+      },
+      "chunk_id": "24846_0",
+      "evidencia": "Desde 2006, está trabalhando na empresa Google",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:dennis_ritchie",
+      "tipo": "COLABOROU_COM",
+      "destino": "pessoa:ken_thompson",
+      "propriedades": {
+        "contexto": "criação do UNIX"
+      },
+      "chunk_id": "24846_0",
+      "evidencia": "Thompson conheceu Dennis Ritchie e trabalhou junto com Ritchie para criar o sistema operacional UNIX",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:ken_thompson",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:unix",
+      "propriedades": {},
+      "chunk_id": "24846_0",
+      "evidencia": "trabalhou junto com Ritchie para criar o sistema operacional UNIX",
+      "confianca": 0.9
+    },
+    {
+      "origem": "pessoa:dennis_ritchie",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:unix",
+      "propriedades": {},
+      "chunk_id": "24846_0",
+      "evidencia": "trabalhou junto com Ritchie para criar o sistema operacional UNIX",
+      "confianca": 0.75
+    },
+    {
+      "origem": "pessoa:ken_thompson",
+      "tipo": "CRIOU",
+      "destino": "linguagem:b",
+      "propriedades": {},
+      "chunk_id": "24846_0",
+      "evidencia": "Thompson também criou a linguagem de programação B",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:dennis_ritchie",
+      "tipo": "CRIOU",
+      "destino": "linguagem:c",
+      "propriedades": {},
+      "chunk_id": "24846_0",
+      "evidencia": "uma precursora da linguagem C de Dennis Ritchie",
+      "confianca": 0.8
+    },
+    {
+      "origem": "linguagem:c",
+      "tipo": "SUCESSOR_DE",
+      "destino": "linguagem:b",
+      "propriedades": {},
+      "chunk_id": "24846_0",
+      "evidencia": "pela invenção da linguagem de programação B, antecessora da linguagem de programação C",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:ken_thompson",
+      "tipo": "CRIOU",
+      "destino": "tecnologia:plan_9",
+      "propriedades": {},
+      "chunk_id": "24846_0",
+      "evidencia": "Thompson também é conhecido por outros trabalhos, como o sistema operacional Plan 9",
+      "confianca": 0.7
+    },
+    {
+      "origem": "pessoa:ken_thompson",
+      "tipo": "CRIOU",
+      "destino": "linguagem:go",
+      "propriedades": {},
+      "chunk_id": "24846_0",
+      "evidencia": "onde co-inventou a linguagem de programação Go",
+      "confianca": 0.95
+    }
+  ]
+}

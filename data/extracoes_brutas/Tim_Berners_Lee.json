@@ -1,0 +1,1184 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:24:26+00:00",
+ "chunks": [
+  {
+   "chunk_id": "12150_0",
+   "entidades": [
+    {
+     "nome": "Tim Berners-Lee",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Timothy John Berners-Lee",
+      "TimBL",
+      "Berners-Lee"
+     ],
+     "descricao": "Cientista da computação inglês que criou a World Wide Web.",
+     "propriedades": {
+      "ano_nascimento": 1955
+     }
+    },
+    {
+     "nome": "Londres",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "HTML",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "invencao"
+     }
+    },
+    {
+     "nome": "HTTP",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "Universidade de Oxford",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "W3C",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "descricao": "Organização que acompanha o desenvolvimento da Web.",
+     "propriedades": {}
+    },
+    {
+     "nome": "World Wide Web Foundation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    },
+    {
+     "nome": "Rosemary Leith",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "NASCEU_EM",
+     "destino": "Londres",
+     "propriedades": {},
+     "evidencia": "Sir Timothy John Berners-Lee (Londres, 8 de junho de 1955)",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "CRIOU",
+     "destino": "World Wide Web",
+     "propriedades": {},
+     "evidencia": "que criou a World Wide Web, o HTML, o sistema de URLs e o HTTP",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "CRIOU",
+     "destino": "HTML",
+     "propriedades": {},
+     "evidencia": "que criou a World Wide Web, o HTML, o sistema de URLs e o HTTP",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "CRIOU",
+     "destino": "HTTP",
+     "propriedades": {},
+     "evidencia": "que criou a World Wide Web, o HTML, o sistema de URLs e o HTTP",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Oxford",
+     "propriedades": {
+      "cargo": "professor emérito"
+     },
+     "evidencia": "É professor emérito da Universidade de Oxford e do Instituto de Tecnologia de Massachusetts (MIT)",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "cargo": "professor emérito"
+     },
+     "evidencia": "É professor emérito da Universidade de Oxford e do Instituto de Tecnologia de Massachusetts (MIT)",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "FUNDOU",
+     "destino": "W3C",
+     "propriedades": {},
+     "evidencia": "Fundou o W3C, organização que acompanha o desenvolvimento da Web",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "FUNDOU",
+     "destino": "World Wide Web Foundation",
+     "propriedades": {},
+     "evidencia": "Com Rosemary Leith, cofundou a World Wide Web Foundation",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Rosemary Leith",
+     "tipo": "FUNDOU",
+     "destino": "World Wide Web Foundation",
+     "propriedades": {},
+     "evidencia": "Com Rosemary Leith, cofundou a World Wide Web Foundation",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "12150_1",
+   "entidades": [
+    {
+     "nome": "Tim Berners-Lee",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Berners-Lee"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Open Data Institute",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Reino Unido",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "cargo": "pesquisador sênior"
+     },
+     "evidencia": "Foi pesquisador sênior e ocupou a cátedra de fundadores da 3Com no Laboratório de Ciência da Computação e Inteligência Artificial do MIT (CSAIL)",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "FUNDOU",
+     "destino": "Open Data Institute",
+     "propriedades": {},
+     "evidencia": "Fundou o Open Data Institute, do qual é presidente",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 2016
+     },
+     "evidencia": "Ganhou o Prêmio Turing de 2016 pela criação da World Wide Web",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "12150_2",
+   "entidades": [
+    {
+     "nome": "Tim Berners-Lee",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Berners-Lee"
+     ],
+     "propriedades": {
+      "ano_nascimento": 1955
+     }
+    },
+    {
+     "nome": "Londres",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Emanuel School",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Oxford",
+     "tipo": "Organizacao",
+     "aliases": [
+      "The Queen's College"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Ferranti Mark 1",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "NASCEU_EM",
+     "destino": "Londres",
+     "propriedades": {},
+     "evidencia": "Berners-Lee nasceu em Londres em 8 de junho de 1955",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Oxford",
+     "propriedades": {
+      "curso": "física",
+      "ano": 1976
+     },
+     "evidencia": "Em 1976, formou-se em física com honras de primeira classe no The Queen's College, da Universidade de Oxford",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "12150_3",
+   "entidades": [
+    {
+     "nome": "Tim Berners-Lee",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Berners-Lee"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Plessey",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "D. G. Nash",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Organização Europeia para a Investigação Nuclear",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CERN"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Image Computer Systems",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Image Computer Systems, Ltd."
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Genebra",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "TCP/IP",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "TCP"
+     ],
+     "propriedades": {
+      "tipo": "protocolo"
+     }
+    },
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Plessey",
+     "propriedades": {
+      "cargo": "engenheiro"
+     },
+     "evidencia": "trabalhou como engenheiro na empresa de telecomunicações Plessey",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "TRABALHOU_EM",
+     "destino": "D. G. Nash",
+     "propriedades": {
+      "ano_inicio": 1978
+     },
+     "evidencia": "Em 1978, entrou na D. G. Nash",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Organização Europeia para a Investigação Nuclear",
+     "propriedades": {
+      "cargo": "contratado independente",
+      "ano_inicio": 1980,
+      "ano_fim": 1980
+     },
+     "evidencia": "Entre junho e dezembro de 1980, prestou serviços ao CERN como contratado independente",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Image Computer Systems",
+     "propriedades": {},
+     "evidencia": "passou a trabalhar na Image Computer Systems, Ltd.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Organização Europeia para a Investigação Nuclear",
+     "propriedades": {
+      "cargo": "pesquisador",
+      "ano_inicio": 1984
+     },
+     "evidencia": "Em 1984, voltou ao CERN como pesquisador",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "12150_4",
+   "entidades": [
+    {
+     "nome": "Tim Berners-Lee",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Berners-Lee"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Cailliau",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Organização Europeia para a Investigação Nuclear",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CERN"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "COLABOROU_COM",
+     "destino": "Robert Cailliau",
+     "propriedades": {
+      "contexto": "proposta e criação da World Wide Web"
+     },
+     "evidencia": "Robert Cailliau aderiu ao projeto em 1990, ajudou a obter apoio no CERN e assinou com Berners-Lee uma nova proposta naquele ano.",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "12150_5",
+   "entidades": [
+    {
+     "nome": "Tim Berners-Lee",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Berners-Lee"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "W3C",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Organização Europeia para a Investigação Nuclear",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CERN"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "World Wide Web",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "FUNDOU",
+     "destino": "W3C",
+     "propriedades": {
+      "ano": 1994
+     },
+     "evidencia": "Em 1994, Berners-Lee fundou o W3C no Instituto de Tecnologia de Massachusetts.",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "12150_6",
+   "entidades": [
+    {
+     "nome": "Tim Berners-Lee",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Berners-Lee"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Southampton",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Southampton",
+     "propriedades": {
+      "cargo": "cátedra de ciência da computação",
+      "ano_inicio": 2004
+     },
+     "evidencia": "Em 2004, aceitou uma cátedra de ciência da computação na Escola de Eletrônica e Ciência da Computação da Universidade de Southampton",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "12150_7",
+   "entidades": [
+    {
+     "nome": "Tim Berners-Lee",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Berners-Lee"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Nigel Shadbolt",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "World Wide Web Foundation",
+     "tipo": "Organizacao",
+     "aliases": [
+      "WWWF"
+     ],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "COLABOROU_COM",
+     "destino": "Nigel Shadbolt",
+     "propriedades": {
+      "contexto": "desenvolvimento do portal data.gov.uk"
+     },
+     "evidencia": "Berners-Lee havia ajudado a desenvolver o portal data.gov.uk com Nigel Shadbolt",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "FUNDOU",
+     "destino": "World Wide Web Foundation",
+     "propriedades": {
+      "ano": 2009
+     },
+     "evidencia": "Em novembro de 2009, lançou a World Wide Web Foundation (WWWF).",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "12150_8",
+   "entidades": [
+    {
+     "nome": "Tim Berners-Lee",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Berners-Lee"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Nigel Shadbolt",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Shadbolt"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Open Data Institute",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "ano_fundacao": 2012
+     }
+    },
+    {
+     "nome": "State.com",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Londres",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "cidade"
+     }
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "FUNDOU",
+     "destino": "Open Data Institute",
+     "propriedades": {
+      "ano": 2012
+     },
+     "evidencia": "tornou-se presidente do Open Data Institute, que fundou com Shadbolt naquele ano",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Nigel Shadbolt",
+     "tipo": "FUNDOU",
+     "destino": "Open Data Institute",
+     "propriedades": {
+      "ano": 2012
+     },
+     "evidencia": "tornou-se presidente do Open Data Institute, que fundou com Shadbolt naquele ano",
+     "confianca": 0.85
+    },
+    {
+     "origem": "State.com",
+     "tipo": "SEDIADA_EM",
+     "destino": "Londres",
+     "propriedades": {},
+     "evidencia": "empresa State.com, sediada em Londres",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "12150_9",
+   "entidades": [
+    {
+     "nome": "Tim Berners-Lee",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Berners-Lee"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Universidade de Oxford",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Instituto de Tecnologia de Massachusetts",
+     "propriedades": {
+      "cargo": "cátedra de fundadores em ciência da computação"
+     },
+     "evidencia": "Berners-Lee ocupou a cátedra de fundadores em ciência da computação no Instituto de Tecnologia de Massachusetts",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade de Oxford",
+     "propriedades": {
+      "cargo": "pesquisador com título de professor",
+      "ano_inicio": 2016
+     },
+     "evidencia": "Em 2016, passou a trabalhar no Departamento de Ciência da Computação da Universidade de Oxford como pesquisador com título de professor",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "12150_10",
+   "entidades": [
+    {
+     "nome": "Tim Berners-Lee",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Berners-Lee"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "W3C",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Free Software Foundation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    },
+    {
+     "nome": "Inrupt",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Open Data Institute",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "TRABALHOU_EM",
+     "destino": "W3C",
+     "propriedades": {
+      "cargo": "diretor"
+     },
+     "evidencia": "Como diretor do W3C, aprovou a especificação final em julho de 2017.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "FUNDOU",
+     "destino": "Inrupt",
+     "propriedades": {
+      "ano": 2018
+     },
+     "evidencia": "Em 30 de setembro de 2018, anunciou a empresa de código aberto Inrupt",
+     "confianca": 0.65
+    }
+   ]
+  },
+  {
+   "chunk_id": "12150_11",
+   "entidades": [
+    {
+     "nome": "Tim Berners-Lee",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Berners-Lee"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "World Wide Web Foundation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    },
+    {
+     "nome": "Open Data Institute",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "12150_12",
+   "entidades": [
+    {
+     "nome": "Tim Berners-Lee",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Berners-Lee"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ordem do Império Britânico",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ordem de Mérito",
+     "tipo": "Premio",
+     "aliases": [
+      "OM"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Manchester Mark I",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Universidade Harvard",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "RECEBEU",
+     "destino": "Ordem do Império Britânico",
+     "propriedades": {
+      "ano": 2004
+     },
+     "evidencia": "Berners-Lee recebeu o título de cavaleiro da Ordem do Império Britânico na lista de condecorações do Ano-Novo de 2004",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "RECEBEU",
+     "destino": "Ordem de Mérito",
+     "propriedades": {
+      "ano": 2007
+     },
+     "evidencia": "Em 13 de junho de 2007, foi nomeado membro da Ordem de Mérito (OM)",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "12150_13",
+   "entidades": [
+    {
+     "nome": "Tim Berners-Lee",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Berners-Lee"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Louis Pouzin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Robert Kahn",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Vint Cerf",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Marc Andreessen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio de Engenharia Rainha Elizabeth",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio Turing",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Prêmio de Tecnologia do Milênio",
+     "tipo": "Premio",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Association for Computing Machinery",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio de Engenharia Rainha Elizabeth",
+     "propriedades": {
+      "ano": 2013
+     },
+     "evidencia": "Em 2013, Berners-Lee recebeu, com Louis Pouzin, Robert Kahn, Vint Cerf e Marc Andreessen, a primeira edição do Prêmio de Engenharia Rainha Elizabeth",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Louis Pouzin",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio de Engenharia Rainha Elizabeth",
+     "propriedades": {
+      "ano": 2013
+     },
+     "evidencia": "Em 2013, Berners-Lee recebeu, com Louis Pouzin, Robert Kahn, Vint Cerf e Marc Andreessen, a primeira edição do Prêmio de Engenharia Rainha Elizabeth",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Robert Kahn",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio de Engenharia Rainha Elizabeth",
+     "propriedades": {
+      "ano": 2013
+     },
+     "evidencia": "Em 2013, Berners-Lee recebeu, com Louis Pouzin, Robert Kahn, Vint Cerf e Marc Andreessen, a primeira edição do Prêmio de Engenharia Rainha Elizabeth",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Vint Cerf",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio de Engenharia Rainha Elizabeth",
+     "propriedades": {
+      "ano": 2013
+     },
+     "evidencia": "Em 2013, Berners-Lee recebeu, com Louis Pouzin, Robert Kahn, Vint Cerf e Marc Andreessen, a primeira edição do Prêmio de Engenharia Rainha Elizabeth",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Marc Andreessen",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio de Engenharia Rainha Elizabeth",
+     "propriedades": {
+      "ano": 2013
+     },
+     "evidencia": "Em 2013, Berners-Lee recebeu, com Louis Pouzin, Robert Kahn, Vint Cerf e Marc Andreessen, a primeira edição do Prêmio de Engenharia Rainha Elizabeth",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio Turing",
+     "propriedades": {
+      "ano": 2016
+     },
+     "evidencia": "foi anunciado como vencedor do Prêmio Turing de 2016, concedido pela Association for Computing Machinery",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Tim Berners-Lee",
+     "tipo": "RECEBEU",
+     "destino": "Prêmio de Tecnologia do Milênio",
+     "propriedades": {
+      "ano": 2004
+     },
+     "evidencia": "Em 2004, recebeu o Prêmio de Tecnologia do Milênio",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "12150_14",
+   "entidades": [
+    {
+     "nome": "Rosemary Leith",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Leith"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "World Wide Web Foundation",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "fundacao"
+     }
+    },
+    {
+     "nome": "Plessey",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Organização Europeia para a Investigação Nuclear",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CERN"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Rosemary Leith",
+     "tipo": "FUNDOU",
+     "destino": "World Wide Web Foundation",
+     "propriedades": {},
+     "evidencia": "Leith é uma empresária canadense dos setores de Internet e finanças e diretora fundadora da World Wide Web Foundation",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "12150_15",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "12150_16",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "12150_17",
+   "entidades": [
+    {
+     "nome": "Organização Europeia para a Investigação Nuclear",
+     "tipo": "Organizacao",
+     "aliases": [
+      "CERN"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

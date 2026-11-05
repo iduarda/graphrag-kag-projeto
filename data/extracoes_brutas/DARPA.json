@@ -1,0 +1,970 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:26:44+00:00",
+ "chunks": [
+  {
+   "chunk_id": "3706498_0",
+   "entidades": [
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DARPA",
+      "ARPA",
+      "Defense Advanced Research Projects Agency"
+     ],
+     "descricao": "Agência de pesquisa e desenvolvimento do Departamento de Defesa dos Estados Unidos responsável pelo desenvolvimento de tecnologias emergentes para as Forças Armadas.",
+     "propriedades": {
+      "tipo": "agencia",
+      "ano_fundacao": 1958
+     }
+    },
+    {
+     "nome": "Dwight D. Eisenhower",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Eisenhower"
+     ],
+     "descricao": "Presidente que criou a agência.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Dwight D. Eisenhower",
+     "tipo": "FUNDOU",
+     "destino": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "propriedades": {
+      "ano": 1958
+     },
+     "evidencia": "Criada em 7 de fevereiro de 1958 pelo presidente Dwight D. Eisenhower",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "DESENVOLVEU",
+     "destino": "Internet",
+     "propriedades": {},
+     "evidencia": "o computador pessoal e a Internet entre as inovações pelas quais a agência tem parte do crédito",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "3706498_1",
+   "entidades": [
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DARPA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Stephen Winchell",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Stephen Winchell",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "propriedades": {
+      "cargo": "diretor",
+      "ano_inicio": 2025
+     },
+     "evidencia": "Stephen Winchell assumiu a direção em maio de 2025.",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "3706498_2",
+   "entidades": [
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ARPA",
+      "DARPA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Stephen Winchell",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Dwight D. Eisenhower",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Eisenhower"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Roy Johnson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Johnson"
+     ],
+     "descricao": "Primeiro diretor da ARPA.",
+     "propriedades": {}
+    },
+    {
+     "nome": "General Electric",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Herbert York",
+     "tipo": "Pessoa",
+     "aliases": [
+      "York"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Laboratório Nacional Lawrence Livermore",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Stephen Winchell",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "propriedades": {
+      "cargo": "diretor",
+      "ano_inicio": 2025
+     },
+     "evidencia": "Stephen Winchell assumiu a direção em maio de 2025.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Dwight D. Eisenhower",
+     "tipo": "FUNDOU",
+     "destino": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "propriedades": {
+      "ano": 1958
+     },
+     "evidencia": "Eisenhower autorizou formalmente a ARPA em 1958",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Roy Johnson",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "propriedades": {
+      "cargo": "primeiro diretor"
+     },
+     "evidencia": "Roy Johnson, seu primeiro diretor",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Roy Johnson",
+     "tipo": "TRABALHOU_EM",
+     "destino": "General Electric",
+     "propriedades": {
+      "cargo": "gestão"
+     },
+     "evidencia": "deixou um cargo de gestão na General Electric",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Herbert York",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "propriedades": {
+      "cargo": "assistente científico"
+     },
+     "evidencia": "Herbert York, do Laboratório Nacional Lawrence Livermore, foi contratado como seu assistente científico.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Herbert York",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Laboratório Nacional Lawrence Livermore",
+     "propriedades": {},
+     "evidencia": "Herbert York, do Laboratório Nacional Lawrence Livermore",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "3706498_3",
+   "entidades": [
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ARPA",
+      "DARPA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Herbert York",
+     "tipo": "Pessoa",
+     "aliases": [
+      "York"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Laboratório Nacional Lawrence Livermore",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "Roy Johnson",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Johnson"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "NASA",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Austin W. Betts",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Brigadeiro-general, segundo diretor da ARPA.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Jack Ruina",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Ruina"
+     ],
+     "descricao": "Primeiro cientista a dirigir a ARPA.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Joseph Carl Robnett Licklider",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Primeiro administrador do Information Processing Techniques Office.",
+     "propriedades": {}
+    },
+    {
+     "nome": "ARPANET",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Herbert York",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "propriedades": {
+      "cargo": "assistente científico"
+     },
+     "evidencia": "Herbert York, do Laboratório Nacional Lawrence Livermore, foi contratado como seu assistente científico.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Austin W. Betts",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "propriedades": {
+      "cargo": "segundo diretor",
+      "ano_fim": 1961
+     },
+     "evidencia": "O segundo diretor, o brigadeiro-general Austin W. Betts, renunciou no início de 1961.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Jack Ruina",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "propriedades": {
+      "cargo": "diretor",
+      "ano_fim": 1963
+     },
+     "evidencia": "Seu sucessor, Jack Ruina, permaneceu no cargo até 1963.",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Joseph Carl Robnett Licklider",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "propriedades": {
+      "cargo": "primeiro administrador do Information Processing Techniques Office"
+     },
+     "evidencia": "Também contratou Joseph Carl Robnett Licklider como primeiro administrador do Information Processing Techniques Office",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "3706498_4",
+   "entidades": [
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ARPA",
+      "DARPA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "NASA",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Transit",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "NavSat"
+     ],
+     "descricao": "Primeiro sistema de posicionamento por satélite, antecessor do GPS.",
+     "propriedades": {
+      "ano": 1959,
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Sistema de Posicionamento Global",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "GPS"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Universidade Johns Hopkins",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Richard Kirschner",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "DESENVOLVEU",
+     "destino": "Transit",
+     "propriedades": {
+      "ano": 1959
+     },
+     "evidencia": "Em 1959, a ARPA participou do desenvolvimento inicial do Transit, também chamado de NavSat",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Sistema de Posicionamento Global",
+     "tipo": "SUCESSOR_DE",
+     "destino": "Transit",
+     "propriedades": {},
+     "evidencia": "Transit, também chamado de NavSat, antecessor do Sistema de Posicionamento Global, o GPS",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Richard Kirschner",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Universidade Johns Hopkins",
+     "propriedades": {
+      "cargo": "diretor do desenvolvimento do Transit"
+     },
+     "evidencia": "Financiado pela Marinha e desenvolvido sob a direção de Richard Kirschner na Universidade Johns Hopkins",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "3706498_5",
+   "entidades": [
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "ARPA",
+      "DARPA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Multics",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Sistema cujos conceitos são empregados nos sistemas operacionais modernos.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Bell Labs",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    },
+    {
+     "nome": "General Electric",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Transit",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Bell Labs",
+     "tipo": "DESENVOLVEU",
+     "destino": "Multics",
+     "propriedades": {},
+     "evidencia": "Os sistemas operacionais modernos empregam conceitos criados para o Multics, desenvolvido em conjunto pelos Bell Labs, pela General Electric e pelo Instituto de Tecnologia de Massachusetts, o MIT.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "General Electric",
+     "tipo": "DESENVOLVEU",
+     "destino": "Multics",
+     "propriedades": {},
+     "evidencia": "Os sistemas operacionais modernos empregam conceitos criados para o Multics, desenvolvido em conjunto pelos Bell Labs, pela General Electric e pelo Instituto de Tecnologia de Massachusetts, o MIT.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "DESENVOLVEU",
+     "destino": "Multics",
+     "propriedades": {},
+     "evidencia": "Os sistemas operacionais modernos empregam conceitos criados para o Multics, desenvolvido em conjunto pelos Bell Labs, pela General Electric e pelo Instituto de Tecnologia de Massachusetts, o MIT.",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "3706498_6",
+   "entidades": [
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DARPA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "ARPANET",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Primeira rede de longa distância com comutação de pacotes.",
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Internet",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "internet"
+     ],
+     "propriedades": {
+      "tipo": "rede"
+     }
+    },
+    {
+     "nome": "Douglas Engelbart",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "NLS",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "descricao": "Um dos dois primeiros sistemas de hipertexto.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Instituto de Tecnologia de Massachusetts",
+     "tipo": "Organizacao",
+     "aliases": [
+      "MIT"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "DESENVOLVEU",
+     "destino": "ARPANET",
+     "propriedades": {},
+     "evidencia": "A agência apoiou o desenvolvimento da ARPANET, a primeira rede de longa distância com comutação de pacotes",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Douglas Engelbart",
+     "tipo": "CRIOU",
+     "destino": "NLS",
+     "propriedades": {},
+     "evidencia": "Financiou um dos dois primeiros sistemas de hipertexto, o NLS, de Douglas Engelbart",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "3706498_7",
+   "entidades": [
+    {
+     "nome": "Xerox PARC",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "laboratorio"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_8",
+   "entidades": [
+    {
+     "nome": "Robert McGhee",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Kenneth Waldron",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade Estadual de Ohio",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_9",
+   "entidades": [
+    {
+     "nome": "Edward Snowden",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_10",
+   "entidades": [
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DARPA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Victoria Coleman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Victoria Coleman",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "propriedades": {
+      "cargo": "diretora",
+      "ano_inicio": 2020
+     },
+     "evidencia": "Victoria Coleman assumiu a direção da DARPA em setembro de 2020.",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "3706498_11",
+   "entidades": [
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DARPA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Victoria Coleman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Victoria Coleman",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "propriedades": {
+      "cargo": "diretora",
+      "ano_inicio": 2020
+     },
+     "evidencia": "Victoria Coleman assumiu a direção da DARPA em setembro de 2020.",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "3706498_12",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_13",
+   "entidades": [
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DARPA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Arati Prabhakar",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Arati Prabhakar",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "propriedades": {
+      "cargo": "diretora"
+     },
+     "evidencia": "Foi criado em abril de 2014 pela diretora Arati Prabhakar",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "3706498_14",
+   "entidades": [
+    {
+     "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "tipo": "Organizacao",
+     "aliases": [
+      "DARPA"
+     ],
+     "propriedades": {
+      "tipo": "agencia"
+     }
+    },
+    {
+     "nome": "Arati Prabhakar",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Regina Dugan",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Arati Prabhakar",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "propriedades": {
+      "cargo": "diretora"
+     },
+     "evidencia": "Foi criado em abril de 2014 pela diretora Arati Prabhakar",
+     "confianca": 0.8
+    },
+    {
+     "origem": "Regina Dugan",
+     "tipo": "TRABALHOU_EM",
+     "destino": "Agência de Projetos de Pesquisa Avançada de Defesa",
+     "propriedades": {
+      "cargo": "diretora"
+     },
+     "evidencia": "foi criado em 2009 pela diretora Regina Dugan",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "3706498_15",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_16",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_17",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_18",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_19",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_20",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_21",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_22",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_23",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_24",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_25",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_26",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_27",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_28",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_29",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_30",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_31",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_32",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_33",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_34",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_35",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_36",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_37",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_38",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_39",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_40",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_41",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_42",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_43",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_44",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_45",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "3706498_46",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

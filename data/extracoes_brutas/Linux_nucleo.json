@@ -1,0 +1,1682 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:23:33+00:00",
+ "chunks": [
+  {
+   "chunk_id": "80326_0",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "núcleo Linux",
+      "kernel Linux"
+     ],
+     "descricao": "Núcleo monolítico livre usado em servidores, computadores pessoais e sistemas embarcados.",
+     "propriedades": {
+      "ano": 1991,
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linus Torvalds",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Criador do núcleo Linux.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Projeto GNU",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "GNU"
+     ],
+     "descricao": "Projeto que ajudou Linus Torvalds, criando o GNU/Linux.",
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Linus Torvalds",
+     "tipo": "CRIOU",
+     "destino": "Linux",
+     "propriedades": {
+      "ano": 1991
+     },
+     "evidencia": "O núcleo (kernel) Linux foi concebido e criado em 1991 por Linus Torvalds",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "80326_1",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "núcleo Linux"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linus Torvalds",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Helsinque",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade de Helsinki"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Finlândia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Linus Torvalds",
+     "tipo": "CRIOU",
+     "destino": "Linux",
+     "propriedades": {
+      "ano": 1991
+     },
+     "evidencia": "O Linux foi concebido pelo estudante do Departamento de Ciência da Computação da Universidade de Helsinki na Finlândia, Linus Torvalds com ajuda de vários programadores voluntários e por meio de um grupo de discussão da Usenet em 1991.",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Linus Torvalds",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Helsinque",
+     "propriedades": {
+      "curso": "Ciência da Computação"
+     },
+     "evidencia": "estudante do Departamento de Ciência da Computação da Universidade de Helsinki na Finlândia, Linus Torvalds",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Universidade de Helsinque",
+     "tipo": "SEDIADA_EM",
+     "destino": "Finlândia",
+     "propriedades": {},
+     "evidencia": "Universidade de Helsinki na Finlândia",
+     "confianca": 0.85
+    }
+   ]
+  },
+  {
+   "chunk_id": "80326_2",
+   "entidades": [
+    {
+     "nome": "Linus Torvalds",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Torvalds"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Universidade de Helsinque",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade de Helsínquia"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Finlândia",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "Minix",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "MINIX"
+     ],
+     "descricao": "Pequeno sistema UNIX desenvolvido com fins educacionais.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Andrew S. Tanenbaum",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "descricao": "Professor que desenvolveu o Minix.",
+     "propriedades": {}
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Intel 80386",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Microsoft Windows 3.0"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "AIX",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "AIX 3.0"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "GNU Hurd",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Linus Torvalds",
+     "tipo": "ESTUDOU_EM",
+     "destino": "Universidade de Helsinque",
+     "propriedades": {},
+     "evidencia": "Linus Torvalds, um estudante com 21 anos de idade na Universidade de Helsínquia, Finlândia",
+     "confianca": 0.95
+    },
+    {
+     "origem": "Andrew S. Tanenbaum",
+     "tipo": "CRIOU",
+     "destino": "Minix",
+     "propriedades": {},
+     "evidencia": "Minix, um pequeno sistema UNIX desenvolvido pelo professor Andrew S. Tanenbaum com fins educacionais",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "80326_3",
+   "entidades": [
+    {
+     "nome": "Projeto GNU",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "GNU"
+     ],
+     "propriedades": {
+      "tipo": "conceito"
+     }
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linus Torvalds",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Torvalds"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "BSD",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Universidade de Helsinque",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Universidade de Helsínquia"
+     ],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_4",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Sistema de Janelas X",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "X"
+     ],
+     "descricao": "Ambiente gráfico portado para o Linux.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_5",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linus Torvalds",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Torvalds"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_6",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linus Torvalds",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_7",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linus Torvalds",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Cox",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_8",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linus Torvalds",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [
+      "EUA"
+     ],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_9",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linus Torvalds",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Richard Stallman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_10",
+   "entidades": [
+    {
+     "nome": "Richard Stallman",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Stallman"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Debian",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "projeto Debian"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_11",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linus Torvalds",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    },
+    {
+     "nome": "William Della Croce Jr",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Della Croce"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_12",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "SCO",
+     "tipo": "Organizacao",
+     "aliases": [
+      "Grupo SCO"
+     ],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Novell",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "DaimlerChrysler",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "AutoZone",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Red Hat",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_13",
+   "entidades": [
+    {
+     "nome": "SCO",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Novell",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Unix",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Estados Unidos",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_14",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Stephen Hemminger",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Vyatta",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_15",
+   "entidades": [
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_16",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Microsoft Windows",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_17",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Andrew S. Tanenbaum",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Tanenbaum"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Linus Torvalds",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Torvalds"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_18",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Perl",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Python",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "C++",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Fortran",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Linux",
+     "tipo": "ESCRITO_EM",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "O Linux é escrito na versão da linguagem de programação C suportada pelo GCC",
+     "confianca": 0.95
+    }
+   ]
+  },
+  {
+   "chunk_id": "80326_19",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_20",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_21",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "iPAQ",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Computador de mão.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM System z9",
+     "tipo": "Hardware",
+     "aliases": [
+      "System z9"
+     ],
+     "descricao": "Servidor mainframe da IBM capaz de executar centenas e até milhares de instâncias do Linux.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "Blue Gene",
+     "tipo": "Hardware",
+     "aliases": [],
+     "descricao": "Supercomputadores da IBM que têm o Linux como principal sistema operacional.",
+     "propriedades": {
+      "tipo": "computador"
+     }
+    },
+    {
+     "nome": "IBM",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Android",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Google Android"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Linux",
+     "tipo": "EXECUTA_EM",
+     "destino": "iPAQ",
+     "propriedades": {},
+     "evidencia": "o núcleo Linux pode ser executado em uma gama extremamente grande de arquiteturas, indo desde um computador de mão iPAQ",
+     "confianca": 0.85
+    },
+    {
+     "origem": "Linux",
+     "tipo": "EXECUTA_EM",
+     "destino": "IBM System z9",
+     "propriedades": {},
+     "evidencia": "a um servidor mainframe System z9 da IBM, que é capaz de executar centenas e até milhares de instâncias do Linux simultâneas",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Linux",
+     "tipo": "EXECUTA_EM",
+     "destino": "Blue Gene",
+     "propriedades": {},
+     "evidencia": "O Linux é o principal sistema operacional dos supercomputadores Blue Gene da IBM",
+     "confianca": 0.9
+    },
+    {
+     "origem": "IBM",
+     "tipo": "DESENVOLVEU",
+     "destino": "Blue Gene",
+     "propriedades": {},
+     "evidencia": "supercomputadores Blue Gene da IBM",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "80326_22",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Android",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "Google Android"
+     ],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Intel",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_23",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_24",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_25",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_26",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_27",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_28",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_29",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_30",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_31",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_32",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Universidade de Oviedo",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "universidade"
+     }
+    },
+    {
+     "nome": "Espanha",
+     "tipo": "Local",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "pais"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_33",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "PA-RISC",
+     "tipo": "Hardware",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "processador"
+     }
+    },
+    {
+     "nome": "Hewlett-Packard",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Microsoft",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Linux",
+     "tipo": "EXECUTA_EM",
+     "destino": "PA-RISC",
+     "propriedades": {},
+     "evidencia": "Ele também incluía suporte ao processador PA-RISC da Hewlett-Packard.",
+     "confianca": 0.7
+    },
+    {
+     "origem": "Hewlett-Packard",
+     "tipo": "DESENVOLVEU",
+     "destino": "PA-RISC",
+     "propriedades": {},
+     "evidencia": "processador PA-RISC da Hewlett-Packard",
+     "confianca": 0.8
+    }
+   ]
+  },
+  {
+   "chunk_id": "80326_34",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_35",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_36",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_37",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_38",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_39",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_40",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_41",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linus Torvalds",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Torvalds"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_42",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Greg Kroah-Hartman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Chris Wright",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Red Hat",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Debian",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_43",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linus Torvalds",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Torvalds"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_44",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Adrian Bunk",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_45",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Andrew Morton",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Stephen Rothwell",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_46",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linus Torvalds",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Torvalds"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Greg Kroah-Hartman",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_47",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Robert Love",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ingo Molnár",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "David S. Miller",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Hans Peter Anvin",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_48",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_49",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linus Torvalds",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Torvalds"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Git",
+     "tipo": "Tecnologia",
+     "aliases": [
+      "git"
+     ],
+     "descricao": "Sistema de controle de versões escrito por Linus Torvalds e outros.",
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "BitKeeper",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Andrew Tridgell",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "BitMover",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Linus Torvalds",
+     "tipo": "CRIOU",
+     "destino": "Git",
+     "propriedades": {},
+     "evidencia": "Linus Torvalds e outros, escreveram um novo sistema de controle de versões para a tarefa, chamado Git",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "80326_50",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_51",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_52",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linus Torvalds",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Torvalds"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_53",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Con Kolivas",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Cox",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_54",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linus Torvalds",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Torvalds"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "David Weinehal",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Alan Cox",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Marc-Christian Petersen",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Marcelo Tosatti",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Willy Tarreau",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Andrew Morton",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Adrian Bunk",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "80326_55",
+   "entidades": [
+    {
+     "nome": "Linux",
+     "tipo": "Tecnologia",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "sistema"
+     }
+    },
+    {
+     "nome": "Linus Torvalds",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Torvalds"
+     ],
+     "propriedades": {}
+    },
+    {
+     "nome": "Larry Ewing",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": []
+  }
+ ]
+}

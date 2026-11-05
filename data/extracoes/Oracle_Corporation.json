@@ -1,0 +1,208 @@
+{
+  "versao_formato": "1.0",
+  "documento": {
+    "id": 43408,
+    "titulo": "Oracle Corporation",
+    "url": "https://pt.wikipedia.org/wiki/Oracle_Corporation",
+    "categoria": "Organização",
+    "wikidata_id": "Q19900"
+  },
+  "extracao": {
+    "modelo_llm": "claude-sonnet-5-5",
+    "data": "2026-11-04T23:29:03+00:00",
+    "prompt": "prompts/extracao.md",
+    "confianca_minima": 0.6
+  },
+  "entidade_principal": "organizacao:oracle_corporation",
+  "chunks": [
+    {
+      "id": "43408_0",
+      "ordem": 0,
+      "texto": "A Oracle Corporation é uma multinacional norte-americana de tecnologia com sede em Austin, Texas. Cofundada em 1977 em Santa Clara, Califórnia, por Larry Ellison (que ainda atua como presidente executivo), a Oracle é a quarta maior empresa de software do mundo em capitalização de mercado em 2025. Seu valor de mercado era de aproximadamente US$ 922 bilhões em 10 de setembro de 2025. Em 2025, a empresa ocupa a 66ª posição no ranking Forbes Global 2000. Em 2020 a Oracle foi relacionada pelo Great Place to Work Institute na lista das 150 melhores empresas para se trabalhar no Brasil.\nA empresa vende software de banco de dados (especialmente o Oracle Database), bem como software e hardware de computação em nuvem. O software de aplicação principal da Oracle é um pacote de produtos de software empresarial que inclui: planejamento de recursos empresariais (ERP), gestão de capital humano (HCM), gestão de relacionamento com o cliente (CRM), gestão de desempenho empresarial (EPM), Customer Experience Commerce (CX Commerce) e software de gestão da cadeia de suprimentos (SCM)."
+    },
+    {
+      "id": "43408_1",
+      "ordem": 1,
+      "texto": "História: A companhia foi fundada em 1977 por Larry Ellison, Bob Miner e Ed Oates com o nome de Software Development Laboratories como uma empresa especializada em sistema de gestão de banco de dados relacional (RDBMS) como uma solução alternativa ao IBM System R, em 1979 a companhia mudou o nome para Relational Software, Inc (RSI), a partir de 1982 passou a usar o nome Oracle para se relacionar ao seu produto Oracle\nEm dezembro de 2020 a Oracle anunciou que estava transferindo a sua sede para Austin, no estado do Texas. A antiga sede, em Redwood Shores (Califórnia) continuará sendo um polo importante para a empresa, que está \"implementando uma política de local de trabalho mais flexível para os funcionários\".\nAquisições: Em 20 de abril de 2009, a Sun Microsystems aceitou a oferta de US$ 7,4 bilhões feita pela Oracle, após as negociações da empresa com a IBM terem fracassado."
+    }
+  ],
+  "entidades": [
+    {
+      "id": "organizacao:oracle_corporation",
+      "nome": "Oracle Corporation",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Oracle"
+      ],
+      "descricao": "Multinacional norte-americana de tecnologia, uma das maiores empresas de software do mundo.",
+      "propriedades": {
+        "tipo": "empresa",
+        "ano_fundacao": 1977
+      },
+      "chunk_ids": [
+        "43408_0",
+        "43408_1"
+      ]
+    },
+    {
+      "id": "pessoa:larry_ellison",
+      "nome": "Larry Ellison",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "43408_0",
+        "43408_1"
+      ]
+    },
+    {
+      "id": "local:austin",
+      "nome": "Austin",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "43408_0",
+        "43408_1"
+      ]
+    },
+    {
+      "id": "local:santa_clara",
+      "nome": "Santa Clara",
+      "tipo": "Local",
+      "aliases": [],
+      "propriedades": {
+        "tipo": "cidade"
+      },
+      "chunk_ids": [
+        "43408_0"
+      ]
+    },
+    {
+      "id": "pessoa:bob_miner",
+      "nome": "Bob Miner",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "43408_1"
+      ]
+    },
+    {
+      "id": "pessoa:ed_oates",
+      "nome": "Ed Oates",
+      "tipo": "Pessoa",
+      "aliases": [],
+      "propriedades": {},
+      "chunk_ids": [
+        "43408_1"
+      ]
+    },
+    {
+      "id": "organizacao:sun_microsystems",
+      "nome": "Sun Microsystems",
+      "tipo": "Organizacao",
+      "aliases": [
+        "Sun"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "43408_1"
+      ]
+    },
+    {
+      "id": "organizacao:ibm",
+      "nome": "IBM",
+      "tipo": "Organizacao",
+      "aliases": [
+        "International Business Machines",
+        "International Business Machines Corporation"
+      ],
+      "propriedades": {
+        "tipo": "empresa"
+      },
+      "chunk_ids": [
+        "43408_1"
+      ]
+    }
+  ],
+  "relacoes": [
+    {
+      "origem": "organizacao:oracle_corporation",
+      "tipo": "SEDIADA_EM",
+      "destino": "local:austin",
+      "propriedades": {},
+      "chunk_id": "43408_0",
+      "evidencia": "multinacional norte-americana de tecnologia com sede em Austin, Texas",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:larry_ellison",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:oracle_corporation",
+      "propriedades": {
+        "ano": 1977
+      },
+      "chunk_id": "43408_0",
+      "evidencia": "Cofundada em 1977 em Santa Clara, Califórnia, por Larry Ellison",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:larry_ellison",
+      "tipo": "TRABALHOU_EM",
+      "destino": "organizacao:oracle_corporation",
+      "propriedades": {
+        "cargo": "presidente executivo"
+      },
+      "chunk_id": "43408_0",
+      "evidencia": "Larry Ellison (que ainda atua como presidente executivo)",
+      "confianca": 0.85
+    },
+    {
+      "origem": "pessoa:larry_ellison",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:oracle_corporation",
+      "propriedades": {
+        "ano": 1977
+      },
+      "chunk_id": "43408_1",
+      "evidencia": "A companhia foi fundada em 1977 por Larry Ellison, Bob Miner e Ed Oates",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:bob_miner",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:oracle_corporation",
+      "propriedades": {
+        "ano": 1977
+      },
+      "chunk_id": "43408_1",
+      "evidencia": "A companhia foi fundada em 1977 por Larry Ellison, Bob Miner e Ed Oates",
+      "confianca": 0.95
+    },
+    {
+      "origem": "pessoa:ed_oates",
+      "tipo": "FUNDOU",
+      "destino": "organizacao:oracle_corporation",
+      "propriedades": {
+        "ano": 1977
+      },
+      "chunk_id": "43408_1",
+      "evidencia": "A companhia foi fundada em 1977 por Larry Ellison, Bob Miner e Ed Oates",
+      "confianca": 0.95
+    },
+    {
+      "origem": "organizacao:oracle_corporation",
+      "tipo": "SEDIADA_EM",
+      "destino": "local:austin",
+      "propriedades": {},
+      "chunk_id": "43408_1",
+      "evidencia": "a Oracle anunciou que estava transferindo a sua sede para Austin, no estado do Texas",
+      "confianca": 0.9
+    }
+  ]
+}

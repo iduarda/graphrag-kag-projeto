@@ -1,0 +1,210 @@
+{
+ "modelo_llm": "claude-sonnet-5-5",
+ "data": "2026-11-04T23:25:31+00:00",
+ "chunks": [
+  {
+   "chunk_id": "2469779_0",
+   "entidades": [
+    {
+     "nome": "Go",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {
+      "ano": 2009
+     },
+     "descricao": "Linguagem de programação compilada, criada pela Google e focada em produtividade e programação concorrente."
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Robert Griesemer",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Rob Pike",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Ken Thompson",
+     "tipo": "Pessoa",
+     "aliases": [],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Google",
+     "tipo": "DESENVOLVEU",
+     "destino": "Go",
+     "propriedades": {},
+     "evidencia": "Go é uma linguagem de programação criada pela Google",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Robert Griesemer",
+     "tipo": "CRIOU",
+     "destino": "Go",
+     "propriedades": {},
+     "evidencia": "O projeto inicial da linguagem foi feito  em setembro de 2007 por Robert Griesemer, Rob Pike e Ken Thompson",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Rob Pike",
+     "tipo": "CRIOU",
+     "destino": "Go",
+     "propriedades": {},
+     "evidencia": "O projeto inicial da linguagem foi feito  em setembro de 2007 por Robert Griesemer, Rob Pike e Ken Thompson",
+     "confianca": 0.9
+    },
+    {
+     "origem": "Ken Thompson",
+     "tipo": "CRIOU",
+     "destino": "Go",
+     "propriedades": {},
+     "evidencia": "O projeto inicial da linguagem foi feito  em setembro de 2007 por Robert Griesemer, Rob Pike e Ken Thompson",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "2469779_1",
+   "entidades": [
+    {
+     "nome": "Go",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {
+      "ano": 2009
+     },
+     "descricao": "Linguagem de programação compilada, criada pela Google e focada em produtividade e programação concorrente."
+    },
+    {
+     "nome": "Google",
+     "tipo": "Organizacao",
+     "aliases": [],
+     "propriedades": {
+      "tipo": "empresa"
+     }
+    },
+    {
+     "nome": "Francis McCabe",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Fancis McCabe",
+      "McCabe"
+     ],
+     "propriedades": {},
+     "descricao": "Desenvolvedor da linguagem Go!."
+    },
+    {
+     "nome": "Go!",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {
+      "ano": 2003
+     },
+     "descricao": "Linguagem criada por Francis McCabe em 2003."
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Francis McCabe",
+     "tipo": "CRIOU",
+     "destino": "Go!",
+     "propriedades": {
+      "ano": 2003
+     },
+     "evidencia": "McCabe criou Go! em 2003",
+     "confianca": 0.9
+    }
+   ]
+  },
+  {
+   "chunk_id": "2469779_2",
+   "entidades": [
+    {
+     "nome": "Go",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {
+      "ano": 2009
+     },
+     "descricao": "Linguagem de programação compilada, criada pela Google e focada em produtividade e programação concorrente."
+    },
+    {
+     "nome": "C",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Pascal",
+     "tipo": "Linguagem",
+     "aliases": [],
+     "propriedades": {}
+    },
+    {
+     "nome": "Charles Antony Richard Hoare",
+     "tipo": "Pessoa",
+     "aliases": [
+      "Tony Hoare"
+     ],
+     "propriedades": {}
+    }
+   ],
+   "relacoes": [
+    {
+     "origem": "Go",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "C",
+     "propriedades": {},
+     "evidencia": "A sintaxe de Go é semelhante a C",
+     "confianca": 0.75
+    },
+    {
+     "origem": "Go",
+     "tipo": "INFLUENCIADA_POR",
+     "destino": "Pascal",
+     "propriedades": {},
+     "evidencia": "suas declarações são feitas com base em Pascal limpo",
+     "confianca": 0.7
+    }
+   ]
+  },
+  {
+   "chunk_id": "2469779_3",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "2469779_4",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "2469779_5",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "2469779_6",
+   "entidades": [],
+   "relacoes": []
+  },
+  {
+   "chunk_id": "2469779_7",
+   "entidades": [],
+   "relacoes": []
+  }
+ ]
+}

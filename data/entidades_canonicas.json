@@ -1,0 +1,2038 @@
+[
+ {
+  "arquivo": "ABC_linguagem_de_programacao.json",
+  "nome": "ABC",
+  "tipo": "Linguagem",
+  "aliases": [
+   "ABC (linguagem de programação)"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q1057802"
+ },
+ {
+  "arquivo": "ALGOL.json",
+  "nome": "ALGOL",
+  "tipo": "Linguagem",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q188436"
+ },
+ {
+  "arquivo": "ARPANET.json",
+  "nome": "ARPANET",
+  "tipo": "Tecnologia",
+  "aliases": [
+   "Advanced Research Projects Agency Network"
+  ],
+  "propriedades": {
+   "tipo": "rede"
+  },
+  "wikidata_id": "Q177524"
+ },
+ {
+  "arquivo": "AT_T.json",
+  "nome": "AT&T",
+  "tipo": "Organizacao",
+  "aliases": [
+   "AT&T Inc.",
+   "American Telephone and Telegraph Company",
+   "American Telephone & Telegraph"
+  ],
+  "propriedades": {
+   "tipo": "empresa"
+  },
+  "wikidata_id": "Q35476"
+ },
+ {
+  "arquivo": "Ada_Lovelace.json",
+  "nome": "Ada Lovelace",
+  "tipo": "Pessoa",
+  "aliases": [
+   "Augusta Ada Byron King",
+   "Condessa de Lovelace",
+   "Lovelace"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q7259"
+ },
+ {
+  "arquivo": "Ada_linguagem_de_programacao.json",
+  "nome": "Ada",
+  "tipo": "Linguagem",
+  "aliases": [
+   "Ada (linguagem de programação)"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q154755"
+ },
+ {
+  "arquivo": "Alan_Kay.json",
+  "nome": "Alan Kay",
+  "tipo": "Pessoa",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q92742"
+ },
+ {
+  "arquivo": "Alan_Turing.json",
+  "nome": "Alan Turing",
+  "tipo": "Pessoa",
+  "aliases": [
+   "Alan Mathison Turing",
+   "Turing"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q7251"
+ },
+ {
+  "arquivo": "Altair_8800.json",
+  "nome": "Altair 8800",
+  "tipo": "Hardware",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q223493"
+ },
+ {
+  "arquivo": "Apple_I.json",
+  "nome": "Apple I",
+  "tipo": "Hardware",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q18981"
+ },
+ {
+  "arquivo": "Apple_II.json",
+  "nome": "Apple II",
+  "tipo": "Hardware",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q3017175"
+ },
+ {
+  "arquivo": "Apple_Inc.json",
+  "nome": "Apple",
+  "tipo": "Organizacao",
+  "aliases": [
+   "Apple Inc.",
+   "Apple Inc",
+   "Apple Computer",
+   "Apple Computer, Inc."
+  ],
+  "propriedades": {
+   "tipo": "empresa"
+  },
+  "wikidata_id": "Q312"
+ },
+ {
+  "arquivo": "Arquitetura_de_von_Neumann.json",
+  "nome": "Arquitetura de von Neumann",
+  "tipo": "Tecnologia",
+  "aliases": [
+   "modelo de von Neumann"
+  ],
+  "propriedades": {
+   "tipo": "conceito"
+  },
+  "wikidata_id": "Q189088"
+ },
+ {
+  "arquivo": "BASIC.json",
+  "nome": "BASIC",
+  "tipo": "Linguagem",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q42979"
+ },
+ {
+  "arquivo": "BCPL.json",
+  "nome": "BCPL",
+  "tipo": "Linguagem",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q810009"
+ },
+ {
+  "arquivo": "B_linguagem_de_programacao.json",
+  "nome": "B",
+  "tipo": "Linguagem",
+  "aliases": [
+   "B (linguagem de programação)"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q797302"
+ },
+ {
+  "arquivo": "Barbara_Liskov.json",
+  "nome": "Barbara Liskov",
+  "tipo": "Pessoa",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q16080922"
+ },
+ {
+  "arquivo": "Bell_Labs.json",
+  "nome": "Bell Labs",
+  "tipo": "Organizacao",
+  "aliases": [
+   "Laboratórios Bell",
+   "Bell Laboratories",
+   "Nokia Bell Labs",
+   "Bell Telephone Laboratories",
+   "AT&T Bell Laboratories"
+  ],
+  "propriedades": {
+   "tipo": "laboratorio"
+  },
+  "wikidata_id": "Q217365"
+ },
+ {
+  "arquivo": "Bill_Gates.json",
+  "nome": "Bill Gates",
+  "tipo": "Pessoa",
+  "aliases": [
+   "William Henry Gates III",
+   "Gates"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q5284"
+ },
+ {
+  "arquivo": "Bjarne_Stroustrup.json",
+  "nome": "Bjarne Stroustrup",
+  "tipo": "Pessoa",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q92620"
+ },
+ {
+  "arquivo": "Bletchley_Park.json",
+  "nome": "Bletchley Park",
+  "tipo": "Organizacao",
+  "aliases": [
+   "Station X"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q155921"
+ },
+ {
+  "arquivo": "Brian_Kernighan.json",
+  "nome": "Brian Kernighan",
+  "tipo": "Pessoa",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q92608"
+ },
+ {
+  "arquivo": "CERN.json",
+  "nome": "Organização Europeia para a Investigação Nuclear",
+  "tipo": "Organizacao",
+  "aliases": [
+   "CERN"
+  ],
+  "propriedades": {
+   "tipo": "laboratorio"
+  },
+  "wikidata_id": "Q42944"
+ },
+ {
+  "arquivo": "COBOL.json",
+  "nome": "COBOL",
+  "tipo": "Linguagem",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q131140"
+ },
+ {
+  "arquivo": "C_Sharp.json",
+  "nome": "C#",
+  "tipo": "Linguagem",
+  "aliases": [
+   "C Sharp"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q2370"
+ },
+ {
+  "arquivo": "C_linguagem_de_programacao.json",
+  "nome": "C",
+  "tipo": "Linguagem",
+  "aliases": [
+   "C (linguagem de programação)"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q15777"
+ },
+ {
+  "arquivo": "Charles_Babbage.json",
+  "nome": "Charles Babbage",
+  "tipo": "Pessoa",
+  "aliases": [
+   "Babbage"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q46633"
+ },
+ {
+  "arquivo": "Circuito_integrado.json",
+  "nome": "Circuito integrado",
+  "tipo": "Tecnologia",
+  "aliases": [
+   "CI"
+  ],
+  "propriedades": {
+   "tipo": "invencao"
+  },
+  "wikidata_id": "Q80831"
+ },
+ {
+  "arquivo": "Claude_Shannon.json",
+  "nome": "Claude Shannon",
+  "tipo": "Pessoa",
+  "aliases": [
+   "Claude Elwood Shannon"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q92760"
+ },
+ {
+  "arquivo": "Colossus_computador.json",
+  "nome": "Colossus",
+  "tipo": "Hardware",
+  "aliases": [
+   "computador Colossus",
+   "Colossus (computador)"
+  ],
+  "propriedades": {
+   "tipo": "computador"
+  },
+  "wikidata_id": "Q770597"
+ },
+ {
+  "arquivo": "Commodore_64.json",
+  "nome": "Commodore 64",
+  "tipo": "Hardware",
+  "aliases": [
+   "C64",
+   "CBM 64"
+  ],
+  "propriedades": {
+   "tipo": "computador"
+  },
+  "wikidata_id": "Q99775"
+ },
+ {
+  "arquivo": "Cpp.json",
+  "nome": "C++",
+  "tipo": "Linguagem",
+  "aliases": [
+   "C plus plus"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q2407"
+ },
+ {
+  "arquivo": "Cray_1.json",
+  "nome": "Cray-1",
+  "tipo": "Hardware",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q1093705"
+ },
+ {
+  "arquivo": "DARPA.json",
+  "nome": "Agência de Projetos de Pesquisa Avançada de Defesa",
+  "tipo": "Organizacao",
+  "aliases": [
+   "DARPA",
+   "ARPA",
+   "Defense Advanced Research Projects Agency",
+   "Advanced Research Projects Agency"
+  ],
+  "propriedades": {
+   "tipo": "agencia"
+  },
+  "wikidata_id": "Q207361"
+ },
+ {
+  "arquivo": "Dennis_Ritchie.json",
+  "nome": "Dennis Ritchie",
+  "tipo": "Pessoa",
+  "aliases": [
+   "Dennis MacAlistair Ritchie",
+   "Ritchie"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q45575"
+ },
+ {
+  "arquivo": "Digital_Equipment_Corporation.json",
+  "nome": "Digital Equipment Corporation",
+  "tipo": "Organizacao",
+  "aliases": [
+   "DEC"
+  ],
+  "propriedades": {
+   "tipo": "empresa"
+  },
+  "wikidata_id": "Q690079"
+ },
+ {
+  "arquivo": "Donald_Knuth.json",
+  "nome": "Donald Knuth",
+  "tipo": "Pessoa",
+  "aliases": [
+   "Donald Ervin Knuth",
+   "Knuth"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q17457"
+ },
+ {
+  "arquivo": "Douglas_Engelbart.json",
+  "nome": "Douglas Engelbart",
+  "tipo": "Pessoa",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q92614"
+ },
+ {
+  "arquivo": "EDVAC.json",
+  "nome": "EDVAC",
+  "tipo": "Hardware",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q834849"
+ },
+ {
+  "arquivo": "ENIAC.json",
+  "nome": "ENIAC",
+  "tipo": "Hardware",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q169399"
+ },
+ {
+  "arquivo": "Edsger_Dijkstra.json",
+  "nome": "Edsger Dijkstra",
+  "tipo": "Pessoa",
+  "aliases": [
+   "Edsger Wybe Dijkstra",
+   "Dijkstra"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q8556"
+ },
+ {
+  "arquivo": "Ethernet.json",
+  "nome": "Ethernet",
+  "tipo": "Tecnologia",
+  "aliases": [],
+  "propriedades": {
+   "tipo": "rede"
+  },
+  "wikidata_id": "Q79984"
+ },
+ {
+  "arquivo": "Fairchild_Semiconductor.json",
+  "nome": "Fairchild Semiconductor",
+  "tipo": "Organizacao",
+  "aliases": [
+   "Fairchild",
+   "Fairchild Semiconductor International"
+  ],
+  "propriedades": {
+   "tipo": "empresa"
+  },
+  "wikidata_id": "Q1096013"
+ },
+ {
+  "arquivo": "Fortran.json",
+  "nome": "Fortran",
+  "tipo": "Linguagem",
+  "aliases": [
+   "FORTRAN"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q83303"
+ },
+ {
+  "arquivo": "Free_Software_Foundation.json",
+  "nome": "Free Software Foundation",
+  "tipo": "Organizacao",
+  "aliases": [
+   "FSF",
+   "Fundação Software Livre"
+  ],
+  "propriedades": {
+   "tipo": "fundacao"
+  },
+  "wikidata_id": "Q48413"
+ },
+ {
+  "arquivo": "Go_linguagem_de_programacao.json",
+  "nome": "Go",
+  "tipo": "Linguagem",
+  "aliases": [
+   "Go (linguagem de programação)"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q37227"
+ },
+ {
+  "arquivo": "Google.json",
+  "nome": "Google",
+  "tipo": "Organizacao",
+  "aliases": [
+   "Google LLC",
+   "Google Inc."
+  ],
+  "propriedades": {
+   "tipo": "empresa"
+  },
+  "wikidata_id": "Q95"
+ },
+ {
+  "arquivo": "Gordon_Moore.json",
+  "nome": "Gordon Moore",
+  "tipo": "Pessoa",
+  "aliases": [
+   "Gordon Earle Moore"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q243969"
+ },
+ {
+  "arquivo": "Grace_Hopper.json",
+  "nome": "Grace Hopper",
+  "tipo": "Pessoa",
+  "aliases": [
+   "Grace Murray Hopper"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q11641"
+ },
+ {
+  "arquivo": "Guido_van_Rossum.json",
+  "nome": "Guido van Rossum",
+  "tipo": "Pessoa",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q30942"
+ },
+ {
+  "arquivo": "Harvard_Mark_I.json",
+  "nome": "Harvard Mark I",
+  "tipo": "Hardware",
+  "aliases": [
+   "ASCC",
+   "Automatic Sequence Controlled Calculator"
+  ],
+  "propriedades": {
+   "tipo": "computador"
+  },
+  "wikidata_id": "Q776823"
+ },
+ {
+  "arquivo": "Haskell_linguagem_de_programacao.json",
+  "nome": "Haskell",
+  "tipo": "Linguagem",
+  "aliases": [
+   "Haskell (linguagem de programação)"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q34010"
+ },
+ {
+  "arquivo": "Herman_Hollerith.json",
+  "nome": "Herman Hollerith",
+  "tipo": "Pessoa",
+  "aliases": [
+   "Hollerith"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q192145"
+ },
+ {
+  "arquivo": "Hewlett_Packard.json",
+  "nome": "Hewlett-Packard",
+  "tipo": "Organizacao",
+  "aliases": [
+   "HP",
+   "Hewlett-Packard Company"
+  ],
+  "propriedades": {
+   "tipo": "empresa"
+  },
+  "wikidata_id": "Q80978"
+ },
+ {
+  "arquivo": "IBM.json",
+  "nome": "IBM",
+  "tipo": "Organizacao",
+  "aliases": [
+   "International Business Machines",
+   "International Business Machines Corporation"
+  ],
+  "propriedades": {
+   "tipo": "empresa"
+  },
+  "wikidata_id": "Q37156"
+ },
+ {
+  "arquivo": "IBM_701.json",
+  "nome": "IBM 701",
+  "tipo": "Hardware",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q1653104"
+ },
+ {
+  "arquivo": "IBM_704.json",
+  "nome": "IBM 704",
+  "tipo": "Hardware",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q25826"
+ },
+ {
+  "arquivo": "IBM_PC.json",
+  "nome": "IBM PC",
+  "tipo": "Hardware",
+  "aliases": [
+   "IBM 5150",
+   "IBM Personal Computer"
+  ],
+  "propriedades": {
+   "tipo": "computador"
+  },
+  "wikidata_id": "Q202712"
+ },
+ {
+  "arquivo": "IBM_System_360.json",
+  "nome": "IBM System/360",
+  "tipo": "Hardware",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q609843"
+ },
+ {
+  "arquivo": "Instituto_de_Tecnologia_de_Massachusetts.json",
+  "nome": "Instituto de Tecnologia de Massachusetts",
+  "tipo": "Organizacao",
+  "aliases": [
+   "MIT",
+   "Massachusetts Institute of Technology"
+  ],
+  "propriedades": {
+   "tipo": "universidade"
+  },
+  "wikidata_id": "Q49108"
+ },
+ {
+  "arquivo": "Intel.json",
+  "nome": "Intel",
+  "tipo": "Organizacao",
+  "aliases": [
+   "Intel Corporation"
+  ],
+  "propriedades": {
+   "tipo": "empresa"
+  },
+  "wikidata_id": "Q248"
+ },
+ {
+  "arquivo": "Intel_4004.json",
+  "nome": "Intel 4004",
+  "tipo": "Hardware",
+  "aliases": [
+   "4004"
+  ],
+  "propriedades": {
+   "tipo": "processador"
+  },
+  "wikidata_id": "Q205509"
+ },
+ {
+  "arquivo": "Intel_8080.json",
+  "nome": "Intel 8080",
+  "tipo": "Hardware",
+  "aliases": [
+   "8080"
+  ],
+  "propriedades": {
+   "tipo": "processador"
+  },
+  "wikidata_id": "Q324610"
+ },
+ {
+  "arquivo": "Intel_8086.json",
+  "nome": "Intel 8086",
+  "tipo": "Hardware",
+  "aliases": [
+   "8086",
+   "iAPX 86"
+  ],
+  "propriedades": {
+   "tipo": "processador"
+  },
+  "wikidata_id": "Q207539"
+ },
+ {
+  "arquivo": "Interface_grafica_do_utilizador.json",
+  "nome": "Interface gráfica do utilizador",
+  "tipo": "Tecnologia",
+  "aliases": [
+   "GUI",
+   "Interface gráfica de usuário",
+   "interface gráfica"
+  ],
+  "propriedades": {
+   "tipo": "conceito"
+  },
+  "wikidata_id": "Q782543"
+ },
+ {
+  "arquivo": "Internet.json",
+  "nome": "Internet",
+  "tipo": "Tecnologia",
+  "aliases": [],
+  "propriedades": {
+   "tipo": "rede"
+  },
+  "wikidata_id": "Q75"
+ },
+ {
+  "arquivo": "J_Presper_Eckert.json",
+  "nome": "John Presper Eckert",
+  "tipo": "Pessoa",
+  "aliases": [
+   "J. Presper Eckert",
+   "Presper Eckert",
+   "Eckert"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q457906"
+ },
+ {
+  "arquivo": "James_Gosling.json",
+  "nome": "James Gosling",
+  "tipo": "Pessoa",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q92622"
+ },
+ {
+  "arquivo": "JavaScript.json",
+  "nome": "JavaScript",
+  "tipo": "Linguagem",
+  "aliases": [
+   "JS"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q2005"
+ },
+ {
+  "arquivo": "Java_linguagem_de_programacao.json",
+  "nome": "Java",
+  "tipo": "Linguagem",
+  "aliases": [
+   "linguagem Java",
+   "Java (linguagem de programação)"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q251"
+ },
+ {
+  "arquivo": "John_Backus.json",
+  "nome": "John Backus",
+  "tipo": "Pessoa",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q92746"
+ },
+ {
+  "arquivo": "John_Bardeen.json",
+  "nome": "John Bardeen",
+  "tipo": "Pessoa",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q949"
+ },
+ {
+  "arquivo": "John_Mauchly.json",
+  "nome": "John Mauchly",
+  "tipo": "Pessoa",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q522162"
+ },
+ {
+  "arquivo": "John_McCarthy.json",
+  "nome": "John McCarthy",
+  "tipo": "Pessoa",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q92739"
+ },
+ {
+  "arquivo": "John_von_Neumann.json",
+  "nome": "John von Neumann",
+  "tipo": "Pessoa",
+  "aliases": [
+   "von Neumann",
+   "Neumann János"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q17455"
+ },
+ {
+  "arquivo": "Ken_Thompson.json",
+  "nome": "Ken Thompson",
+  "tipo": "Pessoa",
+  "aliases": [
+   "Kenneth Thompson",
+   "Thompson"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q1107006"
+ },
+ {
+  "arquivo": "Konrad_Zuse.json",
+  "nome": "Konrad Zuse",
+  "tipo": "Pessoa",
+  "aliases": [
+   "Konrad Ernst Otto Zuse",
+   "Zuse"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q60093"
+ },
+ {
+  "arquivo": "Lei_de_Moore.json",
+  "nome": "Lei de Moore",
+  "tipo": "Tecnologia",
+  "aliases": [],
+  "propriedades": {
+   "tipo": "conceito"
+  },
+  "wikidata_id": "Q178655"
+ },
+ {
+  "arquivo": "Linus_Torvalds.json",
+  "nome": "Linus Torvalds",
+  "tipo": "Pessoa",
+  "aliases": [
+   "Linus Benedict Torvalds",
+   "Torvalds"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q34253"
+ },
+ {
+  "arquivo": "Linux_nucleo.json",
+  "nome": "Linux",
+  "tipo": "Tecnologia",
+  "aliases": [
+   "núcleo Linux",
+   "kernel Linux",
+   "Linux kernel",
+   "Linux (núcleo)"
+  ],
+  "propriedades": {
+   "tipo": "sistema"
+  },
+  "wikidata_id": "Q14579"
+ },
+ {
+  "arquivo": "Lisp.json",
+  "nome": "Lisp",
+  "tipo": "Linguagem",
+  "aliases": [
+   "LISP"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q132874"
+ },
+ {
+  "arquivo": "ML_linguagem_de_programacao.json",
+  "nome": "ML",
+  "tipo": "Linguagem",
+  "aliases": [
+   "ML (linguagem de programação)"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q860654"
+ },
+ {
+  "arquivo": "MS_DOS.json",
+  "nome": "MS-DOS",
+  "tipo": "Tecnologia",
+  "aliases": [
+   "Microsoft Disk Operating System"
+  ],
+  "propriedades": {
+   "tipo": "sistema"
+  },
+  "wikidata_id": "Q47604"
+ },
+ {
+  "arquivo": "Macintosh.json",
+  "nome": "Macintosh",
+  "tipo": "Hardware",
+  "aliases": [
+   "Mac"
+  ],
+  "propriedades": {
+   "tipo": "computador"
+  },
+  "wikidata_id": "Q75687"
+ },
+ {
+  "arquivo": "Manchester_Baby.json",
+  "nome": "Manchester Baby",
+  "tipo": "Hardware",
+  "aliases": [
+   "Small-Scale Experimental Machine",
+   "SSEM"
+  ],
+  "propriedades": {
+   "tipo": "computador"
+  },
+  "wikidata_id": "Q514818"
+ },
+ {
+  "arquivo": "Manchester_Mark_I.json",
+  "nome": "Manchester Mark I",
+  "tipo": "Hardware",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q1463814"
+ },
+ {
+  "arquivo": "Maquina_analitica.json",
+  "nome": "Máquina analítica",
+  "tipo": "Hardware",
+  "aliases": [
+   "engenho analítico"
+  ],
+  "propriedades": {
+   "tipo": "computador"
+  },
+  "wikidata_id": "Q485257"
+ },
+ {
+  "arquivo": "Maquina_de_Turing.json",
+  "nome": "Máquina de Turing",
+  "tipo": "Tecnologia",
+  "aliases": [
+   "máquina universal de Turing"
+  ],
+  "propriedades": {
+   "tipo": "conceito"
+  },
+  "wikidata_id": "Q163310"
+ },
+ {
+  "arquivo": "Maquina_diferencial.json",
+  "nome": "Máquina diferencial",
+  "tipo": "Hardware",
+  "aliases": [
+   "máquina diferencial"
+  ],
+  "propriedades": {
+   "tipo": "computador"
+  },
+  "wikidata_id": "Q628007"
+ },
+ {
+  "arquivo": "Marvin_Minsky.json",
+  "nome": "Marvin Minsky",
+  "tipo": "Pessoa",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q204815"
+ },
+ {
+  "arquivo": "Microprocessador.json",
+  "nome": "Microprocessador",
+  "tipo": "Tecnologia",
+  "aliases": [],
+  "propriedades": {
+   "tipo": "invencao"
+  },
+  "wikidata_id": "Q5297"
+ },
+ {
+  "arquivo": "Microsoft.json",
+  "nome": "Microsoft",
+  "tipo": "Organizacao",
+  "aliases": [
+   "Microsoft Corporation"
+  ],
+  "propriedades": {
+   "tipo": "empresa"
+  },
+  "wikidata_id": "Q2283"
+ },
+ {
+  "arquivo": "Microsoft_Windows.json",
+  "nome": "Microsoft Windows",
+  "tipo": "Tecnologia",
+  "aliases": [
+   "Windows"
+  ],
+  "propriedades": {
+   "tipo": "sistema"
+  },
+  "wikidata_id": "Q1406"
+ },
+ {
+  "arquivo": "Modula_2.json",
+  "nome": "Modula-2",
+  "tipo": "Linguagem",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q777358"
+ },
+ {
+  "arquivo": "Motorola.json",
+  "nome": "Motorola",
+  "tipo": "Organizacao",
+  "aliases": [
+   "Motorola, Inc."
+  ],
+  "propriedades": {
+   "tipo": "empresa"
+  },
+  "wikidata_id": "Q259011"
+ },
+ {
+  "arquivo": "Mouse.json",
+  "nome": "Rato",
+  "tipo": "Hardware",
+  "aliases": [
+   "mouse",
+   "Rato (informática)"
+  ],
+  "propriedades": {
+   "tipo": "periferico"
+  },
+  "wikidata_id": "Q7987"
+ },
+ {
+  "arquivo": "Mozilla_Foundation.json",
+  "nome": "Mozilla Foundation",
+  "tipo": "Organizacao",
+  "aliases": [
+   "Fundação Mozilla"
+  ],
+  "propriedades": {
+   "tipo": "fundacao"
+  },
+  "wikidata_id": "Q55672"
+ },
+ {
+  "arquivo": "Multics.json",
+  "nome": "Multics",
+  "tipo": "Tecnologia",
+  "aliases": [
+   "Multiplexed Information and Computing Service"
+  ],
+  "propriedades": {
+   "tipo": "sistema"
+  },
+  "wikidata_id": "Q739186"
+ },
+ {
+  "arquivo": "NeXT_Computer.json",
+  "nome": "NeXT",
+  "tipo": "Organizacao",
+  "aliases": [
+   "NeXT, Inc.",
+   "NeXT Computer",
+   "NeXT Computer, Inc.",
+   "NeXT Software"
+  ],
+  "propriedades": {
+   "tipo": "empresa"
+  },
+  "wikidata_id": "Q308993"
+ },
+ {
+  "arquivo": "Netscape_Communications.json",
+  "nome": "Netscape",
+  "tipo": "Organizacao",
+  "aliases": [
+   "Netscape Communications",
+   "Netscape Communications Corporation"
+  ],
+  "propriedades": {
+   "tipo": "empresa"
+  },
+  "wikidata_id": "Q210057"
+ },
+ {
+  "arquivo": "Niklaus_Wirth.json",
+  "nome": "Niklaus Wirth",
+  "tipo": "Pessoa",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q92604"
+ },
+ {
+  "arquivo": "Objective_C.json",
+  "nome": "Objective-C",
+  "tipo": "Linguagem",
+  "aliases": [
+   "ObjC",
+   "Obj-C",
+   "Objective C"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q188531"
+ },
+ {
+  "arquivo": "Oracle_Corporation.json",
+  "nome": "Oracle Corporation",
+  "tipo": "Organizacao",
+  "aliases": [
+   "Oracle"
+  ],
+  "propriedades": {
+   "tipo": "empresa"
+  },
+  "wikidata_id": "Q19900"
+ },
+ {
+  "arquivo": "PDP_1.json",
+  "nome": "PDP-1",
+  "tipo": "Hardware",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q1758866"
+ },
+ {
+  "arquivo": "PDP_11.json",
+  "nome": "PDP-11",
+  "tipo": "Hardware",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q1327833"
+ },
+ {
+  "arquivo": "PDP_7.json",
+  "nome": "PDP-7",
+  "tipo": "Hardware",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q1270176"
+ },
+ {
+  "arquivo": "PHP.json",
+  "nome": "PHP",
+  "tipo": "Linguagem",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q59"
+ },
+ {
+  "arquivo": "Pascal_linguagem_de_programacao.json",
+  "nome": "Pascal",
+  "tipo": "Linguagem",
+  "aliases": [
+   "Pascal (linguagem de programação)"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q81571"
+ },
+ {
+  "arquivo": "Paul_Allen.json",
+  "nome": "Paul Allen",
+  "tipo": "Pessoa",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q162005"
+ },
+ {
+  "arquivo": "Perl.json",
+  "nome": "Perl",
+  "tipo": "Linguagem",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q42478"
+ },
+ {
+  "arquivo": "Projeto_GNU.json",
+  "nome": "Projeto GNU",
+  "tipo": "Tecnologia",
+  "aliases": [
+   "GNU"
+  ],
+  "propriedades": {
+   "tipo": "sistema"
+  },
+  "wikidata_id": "Q7598"
+ },
+ {
+  "arquivo": "Prolog.json",
+  "nome": "Prolog",
+  "tipo": "Linguagem",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q163468"
+ },
+ {
+  "arquivo": "Python.json",
+  "nome": "Python",
+  "tipo": "Linguagem",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q28865"
+ },
+ {
+  "arquivo": "Python_Software_Foundation.json",
+  "nome": "Python Software Foundation",
+  "tipo": "Organizacao",
+  "aliases": [
+   "PSF"
+  ],
+  "propriedades": {
+   "tipo": "fundacao"
+  },
+  "wikidata_id": "Q83818"
+ },
+ {
+  "arquivo": "Richard_Stallman.json",
+  "nome": "Richard Stallman",
+  "tipo": "Pessoa",
+  "aliases": [
+   "Richard Matthew Stallman",
+   "rms",
+   "Stallman"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q7439"
+ },
+ {
+  "arquivo": "Robert_Kahn.json",
+  "nome": "Robert Kahn",
+  "tipo": "Pessoa",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q62843"
+ },
+ {
+  "arquivo": "Robert_Noyce.json",
+  "nome": "Robert Noyce",
+  "tipo": "Pessoa",
+  "aliases": [
+   "Robert Norton Noyce",
+   "Bob Noyce",
+   "Noyce"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q241735"
+ },
+ {
+  "arquivo": "Ruby_linguagem_de_programacao.json",
+  "nome": "Ruby",
+  "tipo": "Linguagem",
+  "aliases": [
+   "Ruby (linguagem de programação)"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q161053"
+ },
+ {
+  "arquivo": "Rust_linguagem_de_programacao.json",
+  "nome": "Rust",
+  "tipo": "Linguagem",
+  "aliases": [
+   "Rust (linguagem de programação)"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q575650"
+ },
+ {
+  "arquivo": "Simula.json",
+  "nome": "Simula",
+  "tipo": "Linguagem",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q212569"
+ },
+ {
+  "arquivo": "Smalltalk.json",
+  "nome": "Smalltalk",
+  "tipo": "Linguagem",
+  "aliases": [
+   "Smalltalk-80"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q235086"
+ },
+ {
+  "arquivo": "Steve_Jobs.json",
+  "nome": "Steve Jobs",
+  "tipo": "Pessoa",
+  "aliases": [
+   "Steven Paul Jobs",
+   "Jobs"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q19837"
+ },
+ {
+  "arquivo": "Steve_Wozniak.json",
+  "nome": "Steve Wozniak",
+  "tipo": "Pessoa",
+  "aliases": [
+   "Stephen Gary Wozniak",
+   "Wozniak",
+   "Woz"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q483382"
+ },
+ {
+  "arquivo": "Sun_Microsystems.json",
+  "nome": "Sun Microsystems",
+  "tipo": "Organizacao",
+  "aliases": [
+   "Sun"
+  ],
+  "propriedades": {
+   "tipo": "empresa"
+  },
+  "wikidata_id": "Q14647"
+ },
+ {
+  "arquivo": "Swift_linguagem_de_programacao.json",
+  "nome": "Swift",
+  "tipo": "Linguagem",
+  "aliases": [
+   "Swift (linguagem de programação)"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q17118377"
+ },
+ {
+  "arquivo": "TCP_IP.json",
+  "nome": "TCP/IP",
+  "tipo": "Tecnologia",
+  "aliases": [
+   "pilha de protocolos TCP/IP"
+  ],
+  "propriedades": {
+   "tipo": "protocolo"
+  },
+  "wikidata_id": "Q81414"
+ },
+ {
+  "arquivo": "Teste_de_Turing.json",
+  "nome": "Teste de Turing",
+  "tipo": "Tecnologia",
+  "aliases": [],
+  "propriedades": {
+   "tipo": "conceito"
+  },
+  "wikidata_id": "Q189223"
+ },
+ {
+  "arquivo": "Texas_Instruments.json",
+  "nome": "Texas Instruments",
+  "tipo": "Organizacao",
+  "aliases": [
+   "TI",
+   "Texas Instruments Incorporated"
+  ],
+  "propriedades": {
+   "tipo": "empresa"
+  },
+  "wikidata_id": "Q193412"
+ },
+ {
+  "arquivo": "Tim_Berners_Lee.json",
+  "nome": "Tim Berners-Lee",
+  "tipo": "Pessoa",
+  "aliases": [
+   "Timothy John Berners-Lee",
+   "TimBL",
+   "Berners-Lee"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q80"
+ },
+ {
+  "arquivo": "Tony_Hoare.json",
+  "nome": "Charles Antony Richard Hoare",
+  "tipo": "Pessoa",
+  "aliases": [
+   "Tony Hoare",
+   "C. A. R. Hoare",
+   "Hoare"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q92602"
+ },
+ {
+  "arquivo": "Transistor.json",
+  "nome": "Transístor",
+  "tipo": "Tecnologia",
+  "aliases": [
+   "Transistor",
+   "transistores",
+   "transístores"
+  ],
+  "propriedades": {
+   "tipo": "invencao"
+  },
+  "wikidata_id": "Q5339"
+ },
+ {
+  "arquivo": "UNIVAC_I.json",
+  "nome": "UNIVAC I",
+  "tipo": "Hardware",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q1044055"
+ },
+ {
+  "arquivo": "Universidade_Stanford.json",
+  "nome": "Universidade Stanford",
+  "tipo": "Organizacao",
+  "aliases": [
+   "Universidade de Stanford",
+   "Stanford University",
+   "Stanford"
+  ],
+  "propriedades": {
+   "tipo": "universidade"
+  },
+  "wikidata_id": "Q41506"
+ },
+ {
+  "arquivo": "Universidade_da_California_em_Berkeley.json",
+  "nome": "Universidade da Califórnia em Berkeley",
+  "tipo": "Organizacao",
+  "aliases": [
+   "UC Berkeley",
+   "Berkeley",
+   "University of California, Berkeley"
+  ],
+  "propriedades": {
+   "tipo": "universidade"
+  },
+  "wikidata_id": "Q168756"
+ },
+ {
+  "arquivo": "Universidade_da_Pensilvania.json",
+  "nome": "Universidade da Pensilvânia",
+  "tipo": "Organizacao",
+  "aliases": [
+   "Universidade de Pensilvânia",
+   "Penn",
+   "UPenn",
+   "University of Pennsylvania"
+  ],
+  "propriedades": {
+   "tipo": "universidade"
+  },
+  "wikidata_id": "Q49117"
+ },
+ {
+  "arquivo": "Universidade_de_Cambridge.json",
+  "nome": "Universidade de Cambridge",
+  "tipo": "Organizacao",
+  "aliases": [
+   "University of Cambridge",
+   "Cambridge"
+  ],
+  "propriedades": {
+   "tipo": "universidade"
+  },
+  "wikidata_id": "Q35794"
+ },
+ {
+  "arquivo": "Universidade_de_Helsinque.json",
+  "nome": "Universidade de Helsinque",
+  "tipo": "Organizacao",
+  "aliases": [
+   "Universidade de Helsínquia",
+   "University of Helsinki"
+  ],
+  "propriedades": {
+   "tipo": "universidade"
+  },
+  "wikidata_id": "Q28695"
+ },
+ {
+  "arquivo": "Universidade_de_Princeton.json",
+  "nome": "Universidade de Princeton",
+  "tipo": "Organizacao",
+  "aliases": [
+   "Princeton University",
+   "Princeton"
+  ],
+  "propriedades": {
+   "tipo": "universidade"
+  },
+  "wikidata_id": "Q21578"
+ },
+ {
+  "arquivo": "Unix.json",
+  "nome": "Unix",
+  "tipo": "Tecnologia",
+  "aliases": [
+   "UNIX"
+  ],
+  "propriedades": {
+   "tipo": "sistema"
+  },
+  "wikidata_id": "Q11368"
+ },
+ {
+  "arquivo": "VAX.json",
+  "nome": "VAX",
+  "tipo": "Hardware",
+  "aliases": [
+   "VAX/VMS"
+  ],
+  "propriedades": {
+   "tipo": "computador"
+  },
+  "wikidata_id": "Q960616"
+ },
+ {
+  "arquivo": "Vint_Cerf.json",
+  "nome": "Vint Cerf",
+  "tipo": "Pessoa",
+  "aliases": [
+   "Vinton Gray Cerf",
+   "Vinton Cerf",
+   "Cerf"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q92743"
+ },
+ {
+  "arquivo": "Walter_Brattain.json",
+  "nome": "Walter Houser Brattain",
+  "tipo": "Pessoa",
+  "aliases": [
+   "Walter Brattain",
+   "Brattain"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q184577"
+ },
+ {
+  "arquivo": "William_Shockley.json",
+  "nome": "William Bradford Shockley",
+  "tipo": "Pessoa",
+  "aliases": [
+   "William Shockley",
+   "Shockley"
+  ],
+  "propriedades": {},
+  "wikidata_id": "Q163415"
+ },
+ {
+  "arquivo": "World_Wide_Web.json",
+  "nome": "World Wide Web",
+  "tipo": "Tecnologia",
+  "aliases": [
+   "WWW",
+   "Web",
+   "Rede Mundial de Computadores"
+  ],
+  "propriedades": {
+   "tipo": "sistema"
+  },
+  "wikidata_id": "Q466"
+ },
+ {
+  "arquivo": "Xerox_Alto.json",
+  "nome": "Xerox Alto",
+  "tipo": "Hardware",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q1140061"
+ },
+ {
+  "arquivo": "Xerox_PARC.json",
+  "nome": "Xerox PARC",
+  "tipo": "Organizacao",
+  "aliases": [
+   "PARC",
+   "Xerox Palo Alto Research Center",
+   "Palo Alto Research Center"
+  ],
+  "propriedades": {
+   "tipo": "laboratorio"
+  },
+  "wikidata_id": "Q750428"
+ },
+ {
+  "arquivo": "Z3.json",
+  "nome": "Z3",
+  "tipo": "Hardware",
+  "aliases": [],
+  "propriedades": {},
+  "wikidata_id": "Q222419"
+ },
+ {
+  "arquivo": null,
+  "nome": "Prêmio Turing",
+  "tipo": "Premio",
+  "aliases": [
+   "Turing Award",
+   "Prémio Turing",
+   "A. M. Turing Award",
+   "Prêmio Alan Turing"
+  ],
+  "propriedades": {},
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Medalha Nacional de Tecnologia e Inovação",
+  "tipo": "Premio",
+  "aliases": [
+   "National Medal of Technology",
+   "Medalha Nacional de Tecnologia"
+  ],
+  "propriedades": {},
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Prêmio Nobel de Física",
+  "tipo": "Premio",
+  "aliases": [
+   "Nobel de Física",
+   "Prémio Nobel de Física"
+  ],
+  "propriedades": {},
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Medalha IEEE Richard W. Hamming",
+  "tipo": "Premio",
+  "aliases": [
+   "Medalha Richard W. Hamming",
+   "IEEE Richard W. Hamming Medal"
+  ],
+  "propriedades": {},
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Prêmio Kyoto",
+  "tipo": "Premio",
+  "aliases": [
+   "Prémio Kyoto"
+  ],
+  "propriedades": {},
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Universidade Harvard",
+  "tipo": "Organizacao",
+  "aliases": [
+   "Universidade de Harvard",
+   "Harvard University",
+   "Harvard"
+  ],
+  "propriedades": {
+   "tipo": "universidade"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Universidade de Manchester",
+  "tipo": "Organizacao",
+  "aliases": [
+   "University of Manchester",
+   "Victoria University of Manchester"
+  ],
+  "propriedades": {
+   "tipo": "universidade"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Universidade de Oxford",
+  "tipo": "Organizacao",
+  "aliases": [
+   "University of Oxford",
+   "Oxford"
+  ],
+  "propriedades": {
+   "tipo": "universidade"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Universidade Carnegie Mellon",
+  "tipo": "Organizacao",
+  "aliases": [
+   "Carnegie Mellon University",
+   "Carnegie Mellon",
+   "CMU"
+  ],
+  "propriedades": {
+   "tipo": "universidade"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Instituto Federal de Tecnologia de Zurique",
+  "tipo": "Organizacao",
+  "aliases": [
+   "ETH Zurique",
+   "ETH Zurich",
+   "ETH"
+  ],
+  "propriedades": {
+   "tipo": "universidade"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Lucent Technologies",
+  "tipo": "Organizacao",
+  "aliases": [
+   "Lucent"
+  ],
+  "propriedades": {
+   "tipo": "empresa"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Association for Computing Machinery",
+  "tipo": "Organizacao",
+  "aliases": [
+   "ACM"
+  ],
+  "propriedades": {},
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Institute of Electrical and Electronics Engineers",
+  "tipo": "Organizacao",
+  "aliases": [
+   "IEEE"
+  ],
+  "propriedades": {},
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Xerox",
+  "tipo": "Organizacao",
+  "aliases": [
+   "Xerox Corporation"
+  ],
+  "propriedades": {
+   "tipo": "empresa"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Cray Research",
+  "tipo": "Organizacao",
+  "aliases": [],
+  "propriedades": {
+   "tipo": "empresa"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Mozilla",
+  "tipo": "Organizacao",
+  "aliases": [
+   "Mozilla Corporation"
+  ],
+  "propriedades": {
+   "tipo": "empresa"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Estados Unidos",
+  "tipo": "Local",
+  "aliases": [
+   "EUA",
+   "Estados Unidos da América",
+   "USA"
+  ],
+  "propriedades": {
+   "tipo": "pais"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Reino Unido",
+  "tipo": "Local",
+  "aliases": [
+   "Grã-Bretanha"
+  ],
+  "propriedades": {
+   "tipo": "pais"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Alemanha",
+  "tipo": "Local",
+  "aliases": [],
+  "propriedades": {
+   "tipo": "pais"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Países Baixos",
+  "tipo": "Local",
+  "aliases": [
+   "Holanda"
+  ],
+  "propriedades": {
+   "tipo": "pais"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Finlândia",
+  "tipo": "Local",
+  "aliases": [],
+  "propriedades": {
+   "tipo": "pais"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Canadá",
+  "tipo": "Local",
+  "aliases": [],
+  "propriedades": {
+   "tipo": "pais"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Dinamarca",
+  "tipo": "Local",
+  "aliases": [],
+  "propriedades": {
+   "tipo": "pais"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Suíça",
+  "tipo": "Local",
+  "aliases": [],
+  "propriedades": {
+   "tipo": "pais"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Nova Iorque",
+  "tipo": "Local",
+  "aliases": [
+   "Nova York",
+   "New York"
+  ],
+  "propriedades": {
+   "tipo": "cidade"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Londres",
+  "tipo": "Local",
+  "aliases": [
+   "London"
+  ],
+  "propriedades": {
+   "tipo": "cidade"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "São Francisco",
+  "tipo": "Local",
+  "aliases": [
+   "San Francisco"
+  ],
+  "propriedades": {
+   "tipo": "cidade"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Seattle",
+  "tipo": "Local",
+  "aliases": [],
+  "propriedades": {
+   "tipo": "cidade"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Filadélfia",
+  "tipo": "Local",
+  "aliases": [
+   "Philadelphia"
+  ],
+  "propriedades": {
+   "tipo": "cidade"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Boston",
+  "tipo": "Local",
+  "aliases": [],
+  "propriedades": {
+   "tipo": "cidade"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Helsinque",
+  "tipo": "Local",
+  "aliases": [
+   "Helsínquia",
+   "Helsinki"
+  ],
+  "propriedades": {
+   "tipo": "cidade"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Redmond",
+  "tipo": "Local",
+  "aliases": [],
+  "propriedades": {
+   "tipo": "cidade"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Mountain View",
+  "tipo": "Local",
+  "aliases": [],
+  "propriedades": {
+   "tipo": "cidade"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Santa Clara",
+  "tipo": "Local",
+  "aliases": [],
+  "propriedades": {
+   "tipo": "cidade"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Palo Alto",
+  "tipo": "Local",
+  "aliases": [],
+  "propriedades": {
+   "tipo": "cidade"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Cupertino",
+  "tipo": "Local",
+  "aliases": [],
+  "propriedades": {
+   "tipo": "cidade"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Genebra",
+  "tipo": "Local",
+  "aliases": [
+   "Geneva"
+  ],
+  "propriedades": {
+   "tipo": "cidade"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Manchester",
+  "tipo": "Local",
+  "aliases": [],
+  "propriedades": {
+   "tipo": "cidade"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Cambridge (Massachusetts)",
+  "tipo": "Local",
+  "aliases": [
+   "Cambridge, Massachusetts"
+  ],
+  "propriedades": {
+   "tipo": "cidade"
+  },
+  "wikidata_id": null
+ },
+ {
+  "arquivo": null,
+  "nome": "Morgan Stanley",
+  "tipo": "Organizacao",
+  "aliases": [],
+  "propriedades": {
+   "tipo": "empresa"
+  },
+  "wikidata_id": null
+ }
+]
