@@ -1,0 +1,19 @@
+{
+  "_comentario": "Ajustes feitos a mão depois de revisar data/resolucao/fusoes.json. 'fundir': o PRIMEIRO id de cada par vira o nome canônico. 'nao_fundir': pares que nunca devem ser unidos (nem por transitividade).",
+  "fundir": [
+    ["tecnologia:tcp", "tecnologia:transmission_control_protocol"],
+    ["tecnologia:tcp", "tecnologia:protocolo_de_controle_de_transmissao"],
+    ["tecnologia:ip", "tecnologia:protocolo_de_internet"],
+    ["tecnologia:ip", "tecnologia:protocolo_da_internet"]
+  ],
+  "nao_fundir": [
+    ["hardware:harvard_mark_i", "hardware:manchester_mark_i"],
+    ["hardware:macintosh", "hardware:macintosh_128k"],
+    ["tecnologia:internet", "tecnologia:ip"],
+    ["tecnologia:internet", "tecnologia:protocolo_de_internet"],
+    ["tecnologia:internet", "tecnologia:protocolo_da_internet"],
+    ["tecnologia:tcp_ip", "tecnologia:tcp"],
+    ["tecnologia:tcp_ip", "tecnologia:ip"],
+    ["tecnologia:sunos", "tecnologia:solaris"]
+  ]
+}

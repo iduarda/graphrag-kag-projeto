@@ -1,0 +1,46 @@
+canonico,nome_canonico,removido,nome_removido,regra
+hardware:automatic_computing_engine,Automatic Computing Engine,hardware:ace,ACE,alias_igual_ao_nome
+hardware:dec_alpha,DEC Alpha,hardware:alpha,Alpha,alias_igual_ao_nome
+hardware:fairchild_channel_f,Fairchild Channel F,hardware:channel_f,Channel F,alias_igual_ao_nome
+hardware:vax,VAX,hardware:dec_vax,DEC VAX,alias_igual_ao_nome
+hardware:zilog_z80,Zilog Z80,hardware:z80,Z80,alias_igual_ao_nome
+organizacao:agencia_de_seguranca_nacional_dos_estados_unidos,Agência de Segurança Nacional dos Estados Unidos,organizacao:agencia_de_seguranca_nacional,Agência de Segurança Nacional,alias_igual_ao_nome
+organizacao:agencia_de_seguranca_nacional_dos_estados_unidos,Agência de Segurança Nacional dos Estados Unidos,organizacao:nsa,NSA,alias_igual_ao_nome
+organizacao:at_t,AT&T,organizacao:at_t_corporation,AT&T Corporation,alias_igual_ao_nome
+organizacao:cingular_wireless,Cingular Wireless,organizacao:at_t_mobility,AT&T Mobility,alias_igual_ao_nome
+organizacao:burroughs_corporation,Burroughs Corporation,organizacao:burroughs,Burroughs,alias_igual_ao_nome
+organizacao:canon_inc,Canon Inc.,organizacao:canon,Canon,alias_igual_ao_nome
+organizacao:centro_nacional_de_aplicacoes_de_supercomputacao,Centro Nacional de Aplicações de Supercomputação,organizacao:centro_nacional_de_supercomputacao_aplicada,Centro Nacional de Supercomputação Aplicada,alias_igual_ao_nome
+organizacao:centro_nacional_de_aplicacoes_de_supercomputacao,Centro Nacional de Aplicações de Supercomputação,organizacao:ncsa,NCSA,alias_igual_ao_nome
+organizacao:instituto_de_pesquisa_nacional_para_matematica_e_ciencia_da_computacao,Instituto de Pesquisa Nacional para Matemática e Ciência da Computação,organizacao:centrum_wiskunde_informatica,Centrum Wiskunde & Informatica,alias_igual_ao_nome
+organizacao:instituto_de_pesquisa_nacional_para_matematica_e_ciencia_da_computacao,Instituto de Pesquisa Nacional para Matemática e Ciência da Computação,organizacao:cwi,CWI,alias_igual_ao_nome
+organizacao:corporation_for_national_research_initiatives,Corporation for National Research Initiatives,organizacao:cnri,CNRI,alias_igual_ao_nome
+organizacao:compaq_computer_corporation,Compaq Computer Corporation,organizacao:compaq,Compaq,alias_igual_ao_nome
+organizacao:the_walt_disney_company,The Walt Disney Company,organizacao:disney,Disney,alias_igual_ao_nome
+organizacao:eckert_mauchly_computer_corporation,Eckert-Mauchly Computer Corporation,organizacao:eckertmauchly_computer_corporation,Eckert–Mauchly Computer Corporation,nome_normalizado
+organizacao:ecma_international,Ecma International,organizacao:ecma,ECMA,alias_igual_ao_nome
+organizacao:general_electric,General Electric,organizacao:ge,GE,alias_igual_ao_nome
+organizacao:instituto_de_estudos_avancados_de_princeton,Instituto de Estudos Avançados de Princeton,organizacao:instituto_de_estudos_avancados,Instituto de Estudos Avançados,alias_igual_ao_nome
+organizacao:king_s_college_cambridge,"King's College, Cambridge",organizacao:kings_college_cambridge,Kings College Cambridge,nome_normalizado
+organizacao:samsung_electronics,Samsung Electronics,organizacao:samsung,Samsung,alias_igual_ao_nome
+organizacao:world_wide_web_consortium,World Wide Web Consortium,organizacao:w3c,W3C,alias_igual_ao_nome
+pessoa:abdulfattah_jandali,Abdulfattah Jandali,pessoa:jandali,Jandali,alias_igual_ao_nome
+pessoa:benjamin_gurley,Benjamin Gurley,pessoa:ben_gurley,Ben Gurley,alias_igual_ao_nome
+pessoa:robert_russell,Robert Russell,pessoa:bob_russell,Bob Russell,alias_igual_ao_nome
+pessoa:robert_yannes,Robert Yannes,pessoa:bob_yannes,Bob Yannes,alias_igual_ao_nome
+pessoa:dillwyn_knox,Dillwyn Knox,pessoa:dilly_knox,Dilly Knox,alias_igual_ao_nome
+pessoa:frederic_calland_williams,Frederic Calland Williams,pessoa:f_c_williams,F. C. Williams,alias_igual_ao_nome
+pessoa:frank_d_yeary,Frank D. Yeary,pessoa:frank_yeary,Frank Yeary,alias_igual_ao_nome
+pessoa:irving_john_good,Irving John Good,pessoa:jack_good,Jack Good,alias_igual_ao_nome
+pessoa:luigi_federico_menabrea,Luigi Federico Menabrea,pessoa:luigi_menabrea,Luigi Menabrea,alias_igual_ao_nome
+pessoa:marcian_hoff,Marcian Hoff,pessoa:ted_hoff,Ted Hoff,alias_igual_ao_nome
+tecnologia:forma_de_backus_naur,Forma de Backus-Naur,tecnologia:bnf,BNF,alias_igual_ao_nome
+tecnologia:hypertext_markup_language,HyperText Markup Language,tecnologia:html,HTML,alias_igual_ao_nome
+tecnologia:hypertext_transfer_protocol,Hypertext Transfer Protocol,tecnologia:http,HTTP,alias_igual_ao_nome
+tecnologia:protocolo_da_internet,Protocolo da Internet,tecnologia:ip,IP,alias_igual_ao_nome
+tecnologia:protocolo_da_internet,Protocolo da Internet,tecnologia:protocolo_de_internet,Protocolo de Internet,alias_igual_ao_nome
+tecnologia:national_science_foundation_network,National Science Foundation Network,tecnologia:nsfnet,NSFNET,alias_igual_ao_nome
+tecnologia:on_line_system,On-Line System,tecnologia:nls,NLS,alias_igual_ao_nome
+tecnologia:openvms,OpenVMS,tecnologia:vms,VMS,alias_igual_ao_nome
+tecnologia:protocolo_de_controle_de_transmissao,Protocolo de Controle de Transmissão,tecnologia:tcp,TCP,alias_igual_ao_nome
+tecnologia:protocolo_de_controle_de_transmissao,Protocolo de Controle de Transmissão,tecnologia:transmission_control_protocol,Transmission Control Protocol,alias_igual_ao_nome

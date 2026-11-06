@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "graphrag-kag-projeto",
+			"path": "."
+		},
+		{
+			"name": "tests",
+			"path": "../../Downloads/pessoa3_ingestao(1)/tests"
+		}
+	],
+	"settings": {}
+}

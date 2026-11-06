@@ -1,0 +1,332 @@
+[
+  {
+    "canonico": "hardware:automatic_computing_engine",
+    "absorvido": "hardware:ace",
+    "regra": "apelido",
+    "motivo": "nome 'Automatic Computing Engine' é apelido de 'ACE'"
+  },
+  {
+    "canonico": "hardware:dec_alpha",
+    "absorvido": "hardware:alpha",
+    "regra": "apelido",
+    "motivo": "nome 'Alpha' é apelido de 'DEC Alpha'"
+  },
+  {
+    "canonico": "hardware:fairchild_channel_f",
+    "absorvido": "hardware:channel_f",
+    "regra": "apelido",
+    "motivo": "nome 'Channel F' é apelido de 'Fairchild Channel F'"
+  },
+  {
+    "canonico": "hardware:vax",
+    "absorvido": "hardware:dec_vax",
+    "regra": "apelido",
+    "motivo": "nome 'DEC VAX' é apelido de 'VAX'"
+  },
+  {
+    "canonico": "hardware:zilog_z80",
+    "absorvido": "hardware:z80",
+    "regra": "apelido",
+    "motivo": "nome 'Z80' é apelido de 'Zilog Z80'"
+  },
+  {
+    "canonico": "organizacao:at_t",
+    "absorvido": "organizacao:at_t_corporation",
+    "regra": "apelido",
+    "motivo": "nome 'AT&T Corporation' é apelido de 'AT&T'"
+  },
+  {
+    "canonico": "organizacao:burroughs_corporation",
+    "absorvido": "organizacao:burroughs",
+    "regra": "apelido",
+    "motivo": "nome 'Burroughs' é apelido de 'Burroughs Corporation'"
+  },
+  {
+    "canonico": "organizacao:canon_inc",
+    "absorvido": "organizacao:canon",
+    "regra": "apelido",
+    "motivo": "nome 'Canon' é apelido de 'Canon Inc.'"
+  },
+  {
+    "canonico": "organizacao:centro_nacional_de_aplicacoes_de_supercomputacao",
+    "absorvido": "organizacao:centro_nacional_de_supercomputacao_aplicada",
+    "regra": "apelido",
+    "motivo": "nome 'NCSA' é apelido de 'Centro Nacional de Supercomputação Aplicada' (transitivo)"
+  },
+  {
+    "canonico": "organizacao:centro_nacional_de_aplicacoes_de_supercomputacao",
+    "absorvido": "organizacao:ncsa",
+    "regra": "apelido",
+    "motivo": "nome 'NCSA' é apelido de 'Centro Nacional de Aplicações de Supercomputação'"
+  },
+  {
+    "canonico": "organizacao:cingular_wireless",
+    "absorvido": "organizacao:at_t_mobility",
+    "regra": "apelido",
+    "motivo": "nome 'AT&T Mobility' é apelido de 'Cingular Wireless'"
+  },
+  {
+    "canonico": "organizacao:compaq",
+    "absorvido": "organizacao:compaq_computer_corporation",
+    "regra": "apelido",
+    "motivo": "nome 'Compaq' é apelido de 'Compaq Computer Corporation'"
+  },
+  {
+    "canonico": "organizacao:corporation_for_national_research_initiatives",
+    "absorvido": "organizacao:cnri",
+    "regra": "apelido",
+    "motivo": "nome 'CNRI' é apelido de 'Corporation for National Research Initiatives'"
+  },
+  {
+    "canonico": "organizacao:eckert_mauchly_computer_corporation",
+    "absorvido": "organizacao:eckertmauchly_computer_corporation",
+    "regra": "fuzzy",
+    "motivo": "nomes quase iguais (98): 'Eckert-Mauchly Computer Corporation' ~ 'Eckert–Mauchly Computer Corporation'"
+  },
+  {
+    "canonico": "organizacao:ecma_international",
+    "absorvido": "organizacao:ecma",
+    "regra": "apelido",
+    "motivo": "nome 'ECMA' é apelido de 'Ecma International'"
+  },
+  {
+    "canonico": "organizacao:fundacao_nacional_de_ciencias",
+    "absorvido": "organizacao:fundacao_nacional_da_ciencia",
+    "regra": "fuzzy",
+    "motivo": "nomes quase iguais (95): 'Fundação Nacional da Ciência' ~ 'Fundação Nacional de Ciências'"
+  },
+  {
+    "canonico": "organizacao:general_electric",
+    "absorvido": "organizacao:ge",
+    "regra": "apelido",
+    "motivo": "nome 'GE' é apelido de 'General Electric'"
+  },
+  {
+    "canonico": "organizacao:instituto_de_estudos_avancados_de_princeton",
+    "absorvido": "organizacao:instituto_de_estudos_avancados",
+    "regra": "apelido",
+    "motivo": "nome 'Instituto de Estudos Avançados' é apelido de 'Instituto de Estudos Avançados de Princeton'"
+  },
+  {
+    "canonico": "organizacao:instituto_de_pesquisa_nacional_para_matematica_e_ciencia_da_computacao",
+    "absorvido": "organizacao:centrum_wiskunde_informatica",
+    "regra": "apelido",
+    "motivo": "nome 'CWI' é apelido de 'Centrum Wiskunde & Informatica' (transitivo)"
+  },
+  {
+    "canonico": "organizacao:instituto_de_pesquisa_nacional_para_matematica_e_ciencia_da_computacao",
+    "absorvido": "organizacao:cwi",
+    "regra": "apelido",
+    "motivo": "nome 'CWI' é apelido de 'Instituto de Pesquisa Nacional para Matemática e Ciência da Computação'"
+  },
+  {
+    "canonico": "organizacao:instituto_de_pesquisa_nacional_para_matematica_e_ciencia_da_computacao",
+    "absorvido": "organizacao:instituto_nacional_de_pesquisa_em_matematica_e_ciencia_da_computacao",
+    "regra": "fuzzy",
+    "motivo": "nomes quase iguais (94): 'Instituto Nacional de Pesquisa em Matemática e Ciência da Computação' ~ 'Instituto de Pesquisa Nacional para Matemática e Ciência da Computação'"
+  },
+  {
+    "canonico": "organizacao:king_s_college_cambridge",
+    "absorvido": "organizacao:kings_college_cambridge",
+    "regra": "fuzzy",
+    "motivo": "nomes quase iguais (98): 'King's College, Cambridge' ~ 'Kings College Cambridge'"
+  },
+  {
+    "canonico": "organizacao:laboratorio_de_ciencia_da_computacao_e_inteligencia_artificial_do_mit",
+    "absorvido": "organizacao:laboratorio_de_ciencia_da_computacao_e_inteligencia_artificial",
+    "regra": "fuzzy",
+    "motivo": "nomes quase iguais (95): 'Laboratório de Ciência da Computação e Inteligência Artificial' ~ 'Laboratório de Ciência da Computação e Inteligência Artificial do MIT'"
+  },
+  {
+    "canonico": "organizacao:laboratorio_nacional_de_lawrence_livermore",
+    "absorvido": "organizacao:laboratorio_nacional_lawrence_livermore",
+    "regra": "fuzzy",
+    "motivo": "nomes quase iguais (96): 'Laboratório Nacional Lawrence Livermore' ~ 'Laboratório Nacional de Lawrence Livermore'"
+  },
+  {
+    "canonico": "organizacao:nsa",
+    "absorvido": "organizacao:agencia_de_seguranca_nacional",
+    "regra": "apelido",
+    "motivo": "nome 'NSA' é apelido de 'Agência de Segurança Nacional'"
+  },
+  {
+    "canonico": "organizacao:nsa",
+    "absorvido": "organizacao:agencia_de_seguranca_nacional_dos_estados_unidos",
+    "regra": "apelido",
+    "motivo": "nome 'NSA' é apelido de 'Agência de Segurança Nacional dos Estados Unidos'"
+  },
+  {
+    "canonico": "organizacao:rand_corporation",
+    "absorvido": "organizacao:corporacao_rand",
+    "regra": "sufixo",
+    "motivo": "iguais sem sufixo corporativo: 'RAND Corporation' ~ 'Corporação RAND'"
+  },
+  {
+    "canonico": "organizacao:samsung",
+    "absorvido": "organizacao:samsung_electronics",
+    "regra": "apelido",
+    "motivo": "nome 'Samsung' é apelido de 'Samsung Electronics'"
+  },
+  {
+    "canonico": "organizacao:siemens",
+    "absorvido": "organizacao:siemens_ag",
+    "regra": "sufixo",
+    "motivo": "iguais sem sufixo corporativo: 'Siemens AG' ~ 'Siemens'"
+  },
+  {
+    "canonico": "organizacao:the_walt_disney_company",
+    "absorvido": "organizacao:disney",
+    "regra": "apelido",
+    "motivo": "nome 'Disney' é apelido de 'The Walt Disney Company'"
+  },
+  {
+    "canonico": "organizacao:world_wide_web_consortium",
+    "absorvido": "organizacao:w3c",
+    "regra": "apelido",
+    "motivo": "nome 'W3C' é apelido de 'World Wide Web Consortium'"
+  },
+  {
+    "canonico": "pessoa:abdulfattah_jandali",
+    "absorvido": "pessoa:jandali",
+    "regra": "apelido",
+    "motivo": "nome 'Jandali' é apelido de 'Abdulfattah Jandali'"
+  },
+  {
+    "canonico": "pessoa:benjamin_gurley",
+    "absorvido": "pessoa:ben_gurley",
+    "regra": "apelido",
+    "motivo": "nome 'Ben Gurley' é apelido de 'Benjamin Gurley'"
+  },
+  {
+    "canonico": "pessoa:dillwyn_knox",
+    "absorvido": "pessoa:dilly_knox",
+    "regra": "apelido",
+    "motivo": "nome 'Dilly Knox' é apelido de 'Dillwyn Knox'"
+  },
+  {
+    "canonico": "pessoa:frank_d_yeary",
+    "absorvido": "pessoa:frank_yeary",
+    "regra": "apelido",
+    "motivo": "nome 'Frank Yeary' é apelido de 'Frank D. Yeary'"
+  },
+  {
+    "canonico": "pessoa:frederic_calland_williams",
+    "absorvido": "pessoa:f_c_williams",
+    "regra": "apelido",
+    "motivo": "nome 'F. C. Williams' é apelido de 'Frederic Calland Williams'"
+  },
+  {
+    "canonico": "pessoa:jack_good",
+    "absorvido": "pessoa:irving_john_good",
+    "regra": "apelido",
+    "motivo": "nome 'Jack Good' é apelido de 'Irving John Good'"
+  },
+  {
+    "canonico": "pessoa:leonardo_torres_y_quevedo",
+    "absorvido": "pessoa:leonardo_torres_quevedo",
+    "regra": "fuzzy",
+    "motivo": "nomes quase iguais (96): 'Leonardo Torres Quevedo' ~ 'Leonardo Torres y Quevedo'"
+  },
+  {
+    "canonico": "pessoa:luigi_federico_menabrea",
+    "absorvido": "pessoa:luigi_menabrea",
+    "regra": "apelido",
+    "motivo": "nome 'Luigi Federico Menabrea' é apelido de 'Luigi Menabrea'"
+  },
+  {
+    "canonico": "pessoa:marcian_hoff",
+    "absorvido": "pessoa:ted_hoff",
+    "regra": "apelido",
+    "motivo": "nome 'Ted Hoff' é apelido de 'Marcian Hoff'"
+  },
+  {
+    "canonico": "pessoa:peter_j_weinberger",
+    "absorvido": "pessoa:peter_weinberger",
+    "regra": "fuzzy",
+    "motivo": "nomes quase iguais (94): 'Peter Weinberger' ~ 'Peter J. Weinberger'"
+  },
+  {
+    "canonico": "pessoa:robert_russell",
+    "absorvido": "pessoa:bob_russell",
+    "regra": "apelido",
+    "motivo": "nome 'Robert Russell' é apelido de 'Bob Russell'"
+  },
+  {
+    "canonico": "pessoa:robert_yannes",
+    "absorvido": "pessoa:bob_yannes",
+    "regra": "apelido",
+    "motivo": "nome 'Robert Yannes' é apelido de 'Bob Yannes'"
+  },
+  {
+    "canonico": "premio:medalha_presidencial_de_liberdade",
+    "absorvido": "premio:medalha_presidencial_da_liberdade",
+    "regra": "fuzzy",
+    "motivo": "nomes quase iguais (97): 'Medalha Presidencial da Liberdade' ~ 'Medalha Presidencial de Liberdade'"
+  },
+  {
+    "canonico": "tecnologia:forma_de_backus_naur",
+    "absorvido": "tecnologia:bnf",
+    "regra": "apelido",
+    "motivo": "nome 'BNF' é apelido de 'Forma de Backus-Naur'"
+  },
+  {
+    "canonico": "tecnologia:http",
+    "absorvido": "tecnologia:hypertext_transfer_protocol",
+    "regra": "apelido",
+    "motivo": "nome 'HTTP' é apelido de 'Hypertext Transfer Protocol'"
+  },
+  {
+    "canonico": "tecnologia:hypertext_markup_language",
+    "absorvido": "tecnologia:html",
+    "regra": "apelido",
+    "motivo": "nome 'HTML' é apelido de 'HyperText Markup Language'"
+  },
+  {
+    "canonico": "tecnologia:ip",
+    "absorvido": "tecnologia:protocolo_da_internet",
+    "regra": "manual",
+    "motivo": "definido em resolucao_manual.json"
+  },
+  {
+    "canonico": "tecnologia:ip",
+    "absorvido": "tecnologia:protocolo_de_internet",
+    "regra": "manual",
+    "motivo": "definido em resolucao_manual.json"
+  },
+  {
+    "canonico": "tecnologia:lambda_calculo",
+    "absorvido": "tecnologia:calculo_lambda",
+    "regra": "fuzzy",
+    "motivo": "nomes quase iguais (100): 'Cálculo lambda' ~ 'Lambda Cálculo'"
+  },
+  {
+    "canonico": "tecnologia:national_science_foundation_network",
+    "absorvido": "tecnologia:nsfnet",
+    "regra": "apelido",
+    "motivo": "nome 'NSFNET' é apelido de 'National Science Foundation Network'"
+  },
+  {
+    "canonico": "tecnologia:on_line_system",
+    "absorvido": "tecnologia:nls",
+    "regra": "apelido",
+    "motivo": "nome 'NLS' é apelido de 'On-Line System'"
+  },
+  {
+    "canonico": "tecnologia:openvms",
+    "absorvido": "tecnologia:vms",
+    "regra": "apelido",
+    "motivo": "nome 'VMS' é apelido de 'OpenVMS'"
+  },
+  {
+    "canonico": "tecnologia:tcp",
+    "absorvido": "tecnologia:protocolo_de_controle_de_transmissao",
+    "regra": "manual",
+    "motivo": "definido em resolucao_manual.json"
+  },
+  {
+    "canonico": "tecnologia:tcp",
+    "absorvido": "tecnologia:transmission_control_protocol",
+    "regra": "manual",
+    "motivo": "definido em resolucao_manual.json"
+  }
+]

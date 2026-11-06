@@ -3,3 +3,11 @@ requests>=2.31
 # Extração com LLM (instale só o do provedor que for usar)
 # anthropic>=0.40
 # openai>=1.50
+
+# Ingestão no Neo4j (Pessoa 3)
+neo4j>=5.26
+rapidfuzz>=3.9
+sentence-transformers>=3.0   # embeddings (multilingual-e5-base); baixa ~1 GB de modelo na primeira vez
+
+# Testes
+pytest>=8

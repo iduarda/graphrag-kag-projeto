@@ -16,7 +16,7 @@ Sistema de Geração Aumentada por Recuperação baseado em grafos de conhecimen
 |---|---|
 | _Maria Eduarda Zumbé_ | Modelagem LPG no Neo4j, repositório e coordenação do artigo |
 | _Anna Maria Albino_ | Extração de entidades e relações (NER/RE) |
-| _Nome 3_ | Pipeline de ingestão e resolução de entidades |
+| _Milena Azevêdo_ | Pipeline de ingestão e resolução de entidades |
 | _Nome 4_ | Recuperação híbrida (vetorial + Cypher) e multi-hop |
 | _Nome 5_ | Algoritmos de grafo, grounding e avaliação |
 | _Nome 6_ | Interface (Streamlit) e visualização do subgrafo |
@@ -51,6 +51,8 @@ Documentos → [1. Text-to-Graph] → [2. Neo4j LPG] → [3. Recuperação Híbr
 │   ├── chunks/               # Texto de cada página dividido em chunks
 │   ├── extracoes_brutas/     # Resposta do LLM para cada chunk (antes das checagens)
 │   ├── extracoes/            # JSON final validado (entrada da ingestão, Pessoa 3)
+│   ├── resolucao_manual.json # Ajustes manuais da resolução de entidades (fundir / nao_fundir)
+│   ├── resolucao/            # fusoes.json (log de cada fusão) e candidatos_revisao.json
 │   ├── relatorio_extracao.json   # Números da extração (para o artigo)
 │   └── avaliacao/            # Amostra de 150 relações para avaliação da precisão
 ├── docs/
@@ -69,11 +71,17 @@ Documentos → [1. Text-to-Graph] → [2. Neo4j LPG] → [3. Recuperação Híbr
 │   ├── extrair_llm.py        # Envia cada chunk ao LLM (Anthropic ou API compatível com OpenAI)
 │   ├── juntar_partes.py      # Junta extrações feitas em lotes
 │   ├── montar_extracao.py    # Checagens contra alucinação + JSON final + relatório
-│   └── validar_extracao.py   # Valida os JSONs de extração
+│   ├── validar_extracao.py   # Valida os JSONs de extração
+│   └── ingerir_neo4j.py      # Pipeline de ingestão no Neo4j (Pessoa 3)
 ├── src/
 │   ├── contrato.py           # Tipos, relações, regra de ids e validação do formato
 │   ├── chunking.py           # Regras de divisão em chunks
-│   └── montagem.py           # Normalização de nomes, checagem de evidência, junção de entidades
+│   ├── montagem.py           # Normalização de nomes, checagem de evidência, junção de entidades
+│   ├── resolucao.py          # Resolução de entidades: regras, fusões, relações reapontadas (Pessoa 3)
+│   ├── carregador.py         # Carga em lote, idempotente (MERGE), no Neo4j (Pessoa 3)
+│   ├── embeddings.py         # Embeddings E5 de chunks e entidades (Pessoa 3)
+│   └── ingestao.py           # Encadeia: validar -> resolver -> carregar -> embeddings (Pessoa 3)
+├── tests/                    # pytest (resolução, carregador, embeddings, dados reais, integração)
 ├── neo4j/
 │   └── import/               # Arquivos para importação no Neo4j
 ├── docker-compose.yml        # Banco Neo4j com APOC e GDS
@@ -210,6 +218,34 @@ python scripts/validar_extracao.py                   # 4. confere o contrato
 
 O passo 2 também funciona com qualquer API compatível com OpenAI (Gemini, Groq, Ollama local); veja o topo de `scripts/extrair_llm.py`.
 
+### Pipeline de ingestão e resolução de entidades (Pessoa 3)
+
+Lê `data/extracoes/`, valida cada JSON no contrato, resolve entidades duplicadas e carrega o grafo no Neo4j
+(com `MERGE`, então pode rodar mais de uma vez). Depois gera os embeddings de chunks e entidades.
+
+```
+pip install -r requirements.txt
+python scripts/ingerir_neo4j.py --so-resolver   # opcional: só valida e resolve, sem banco (gera os relatórios)
+python scripts/ingerir_neo4j.py                 # carga completa + embeddings (Neo4j ligado e schema criado)
+python scripts/ingerir_neo4j.py --sem-embeddings   # só o grafo
+python scripts/ingerir_neo4j.py --limpar           # apaga todo o grafo antes de carregar
+```
+
+Variáveis lidas do `.env`: `NEO4J_PASSWORD` (obrigatória), `NEO4J_URI` (padrão `bolt://localhost:7687`) e `NEO4J_USER` (padrão `neo4j`).
+
+**Resolução de entidades** (sempre dentro do mesmo tipo de entidade, do mais seguro ao mais arriscado):
+nome de uma é apelido da outra, sufixos corporativos ("AT&T Corporation" = "AT&T"), nomes quase iguais (rapidfuzz, limiar 94).
+Nomes que só diferem por número ou algarismo romano (Intel 8086 x 80286, Windows 8 x 98) **nunca** são fundidos.
+Similaridade de embedding só sugere pares em `data/resolucao/candidatos_revisao.json`, sem fundir nada.
+Toda fusão é registrada em `data/resolucao/fusoes.json`; correções feitas à mão ficam em `data/resolucao_manual.json`.
+
+### Testes
+
+```
+pytest                                          # testes unitários e dos dados reais (sem banco)
+NEO4J_TESTES_PODEM_APAGAR=sim pytest -m neo4j   # integração: usa o Neo4j real e APAGA o grafo
+```
+
 ### Comandos úteis
 
 | Ação | Comando |
@@ -243,6 +279,11 @@ _A preencher conforme o projeto avança (exigência do professor: toda bibliotec
 | [Neo4j Graph Data Science](https://neo4j.com/docs/graph-data-science/) | Algoritmos de grafo | GPLv3 |
 | [Claude Sonnet 5.5](https://www.anthropic.com/) (Anthropic) | LLM da extração de entidades e relações | serviço comercial |
 | [Anthropic Python SDK](https://github.com/anthropics/anthropic-sdk-python) / [OpenAI Python SDK](https://github.com/openai/openai-python) | Chamadas ao LLM em `scripts/extrair_llm.py` (opcional) | MIT / Apache 2.0 |
+| [neo4j (driver Python)](https://github.com/neo4j/neo4j-python-driver) | Conexão e escrita no Neo4j na ingestão | Apache 2.0 |
+| [RapidFuzz](https://github.com/rapidfuzz/RapidFuzz) | Similaridade de strings na resolução de entidades | MIT |
+| [sentence-transformers](https://www.sbert.net/) | Geração dos embeddings | Apache 2.0 |
+| [intfloat/multilingual-e5-base](https://huggingface.co/intfloat/multilingual-e5-base) | Modelo de embeddings (768 dim.) | MIT |
+| [pytest](https://docs.pytest.org/) | Testes automatizados | MIT |
 
 ---
 

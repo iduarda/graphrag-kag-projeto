@@ -1,0 +1,61 @@
+{
+  "documentos": 147,
+  "chunks": 2374,
+  "entidades_antes_da_resolucao": 2629,
+  "entidades_depois_da_resolucao": 2574,
+  "entidades_fundidas": 55,
+  "fusoes_por_regra": {
+    "apelido": 39,
+    "fuzzy": 10,
+    "manual": 4,
+    "sufixo": 2
+  },
+  "candidatos_para_revisao": 0,
+  "relacoes_de_entrada": 2772,
+  "autorreferentes_apos_fusao": 0,
+  "relacoes_agregadas": 1955,
+  "arquivos_rejeitados": [],
+  "linhas_enviadas": {
+    "documentos": 147,
+    "chunks": 2374,
+    "proximo": 2227,
+    "entidades": 2574,
+    "menciona": 8995,
+    "sobre": 147,
+    "relacoes": 1955
+  },
+  "grafo_final": {
+    "nos": {
+      "Chunk": 2374,
+      "Documento": 147,
+      "Entidade": 2574,
+      "Hardware": 381,
+      "Linguagem": 120,
+      "Local": 144,
+      "Organizacao": 739,
+      "Pessoa": 881,
+      "Premio": 74,
+      "Tecnologia": 235
+    },
+    "relacoes": {
+      "COLABOROU_COM": 96,
+      "CRIOU": 249,
+      "DESENVOLVEU": 270,
+      "ESCRITO_EM": 9,
+      "ESTUDOU_EM": 86,
+      "EXECUTA_EM": 84,
+      "FUNDOU": 124,
+      "INFLUENCIADA_POR": 77,
+      "MENCIONA": 8995,
+      "NASCEU_EM": 39,
+      "PROXIMO": 2227,
+      "RECEBEU": 190,
+      "SEDIADA_EM": 92,
+      "SOBRE": 147,
+      "SUCESSOR_DE": 80,
+      "TEM_CHUNK": 2374,
+      "TRABALHOU_EM": 493,
+      "UTILIZA": 66
+    }
+  }
+}

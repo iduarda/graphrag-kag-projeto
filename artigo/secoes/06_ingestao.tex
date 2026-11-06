@@ -2,19 +2,72 @@
 % Ingestão e Resolução de Entidades
 % Responsável: Pessoa 3
 %
-% O que cobrir:
-% - Pipeline: JSON validado -> nós e relações no Neo4j (uso de MERGE, constraints da Seção 4).
-% - Geração dos embeddings com multilingual-e5-base (prefixo 'passage: ', normalização).
-% - Resolução de entidades: como 'Turing' e 'Alan Turing' viram um nó só (aliases, fulltext, similaridade de embeddings, Wikidata).
-% - Números: quantos nós/relações antes e depois da resolução, quantas fusões feitas.
-% - Testes operacionais do pipeline (pytest).
+% Números: data/relatorio_ingestao.json (gerado por scripts/ingerir_neo4j.py).
+% Os valores abaixo vêm de `--so-resolver` nos 147 documentos e da carga
+% completa; se a extração, a resolução ou o data/resolucao_manual.json mudar,
+% rode de novo e atualize a Tabela~\ref{tab:ingestao-numeros}.
 %
-% Dicas: use \rot{Pessoa} para rótulos e \rel{CRIOU} para relações.
-% Cite com \cite{chave} (chaves em referencias.bib). Ao terminar,
-% apague o \pendente abaixo.
+% Códigos: src/ingestao.py, src/resolucao.py, src/carregador.py, src/embeddings.py.
+% Não afirme nada que o código não faça (ex.: Wikidata e fulltext NÃO decidem fusões).
 % =====================================================================
 
 \section{Ingestão e Resolução de Entidades}
 \label{sec:ingestao}
 
-\pendente{ingestão e resolução de entidades}
+Esta etapa recebe os 147 arquivos JSON validados na Seção~\ref{sec:extracao} e os transforma no grafo descrito na Seção~\ref{sec:modelagem}, pronto no Neo4j e com vetores para busca semântica. O processo é encadeado por \texttt{scripts/ingerir\_neo4j.py} em quatro passos: validar cada extração contra o contrato, resolver entidades duplicadas entre documentos, carregar nós e relações no banco e gerar os \emph{embeddings} de chunks e entidades. A mesma execução grava os relatórios de ingestão, o log de fusões e a lista de candidatos a revisão.
+
+\subsection{Pipeline de ingestão}
+
+Na validação, cada arquivo passa por \texttt{validar\_extracao} (\texttt{src/contrato.py}); um arquivo inválido é registrado em \texttt{arquivos\_rejeitados} e não entra no grafo. Na carga, as linhas são enviadas com \texttt{UNWIND} em lotes de 500 (constante \texttt{TAMANHO\_LOTE}), uma transação por lote, em vez de uma consulta por nó: isso reduz idas e voltas ao servidor e mantém a carga dos 2.374 chunks e das 2.574 entidades em poucas transações. A ordem é documentos $\rightarrow$ chunks (e seus pares \rel{PROXIMO}) $\rightarrow$ entidades $\rightarrow$ ligações \rel{MENCIONA} e \rel{SOBRE} $\rightarrow$ relações. Tudo usa \rel{MERGE} pela chave das \emph{constraints} da Seção~\ref{sec:modelagem} (\texttt{id} de cada rótulo e \texttt{url} de \rot{Documento}), então rodar a carga duas vezes não duplica nada. Rótulos e tipos de relação não podem ser parâmetros em Cypher; por isso o carregador só os insere no texto da consulta depois de conferi-los contra as listas fixas \texttt{TIPOS\_ENTIDADE} e \texttt{TIPOS\_RELACAO} do contrato, recusando qualquer valor fora delas. A camada de procedência é gravada com \rel{TEM\_CHUNK} (documento para chunk), \rel{PROXIMO} (chunk para o seguinte, na ordem de leitura), \rel{MENCIONA} (chunk para entidade) e \rel{SOBRE} (documento para sua entidade principal).
+
+\subsection{Resolução de entidades}
+
+A resolução acontece em duas camadas. A primeira é a da extração (Seção~\ref{sec:extracao}): a lista canônica de 187 nomes e a regra \texttt{gerar\_id} fazem o mesmo nome gerar o mesmo identificador em todos os documentos, o que já une a maior parte das menções. A segunda, descrita aqui, trata o que sobra entre documentos: grafias alternativas, siglas e nomes completos que receberam identificadores diferentes. Exemplos reais no corpus são \emph{NSA}, \emph{Agência de Segurança Nacional} e \emph{Agência de Segurança Nacional dos Estados Unidos}; \emph{AT\&T} e \emph{AT\&T Corporation}; e \emph{CWI}, \emph{Centrum Wiskunde \& Informatica} e \emph{Instituto de Pesquisa Nacional para Matemática e Ciência da Computação}. A agregação junta primeiro as menções por \texttt{id}; a resolução decide então quais desses ids são a mesma entidade.
+
+As regras são aplicadas sempre dentro do mesmo tipo de entidade, da mais segura para a mais arriscada: (1)~o nome de uma entidade é apelido da outra, ou os dois nomes ficam iguais após normalizar (sem acentos, caixa e pontuação); (2)~os nomes ficam iguais depois de remover sufixos corporativos como \emph{Inc.}, \emph{Corporation}, \emph{AG} e \emph{Ltda.} (\emph{AT\&T Corporation} vira \emph{AT\&T}); (3)~os nomes são quase iguais segundo \texttt{rapidfuzz} (\texttt{token\_sort\_ratio}), com limiar alto de 94 em 100, e só para nomes com pelo menos seis caracteres; (4)~ajustes manuais em \texttt{data/resolucao\_manual.json}, com pares a fundir e pares a nunca fundir. A similaridade de \emph{embedding} não entra nessa decisão: quando acionada, ela apenas sugere pares do mesmo tipo com cosseno acima de 0,93 para revisão humana, sem fundir nada. O nome canônico é escolhido, nesta ordem, pelo id preferido no arquivo manual, pela entidade dona de uma página, pela que aparece em mais documentos, pelo nome mais longo e pelo id. As formas do nó absorvido passam a \texttt{aliases} do canônico (menos a que coincide com o próprio nome canônico), e suas descrições e propriedades preenchem o que faltar.
+
+Alguns pares nunca devem ser fundidos, mesmo com nomes muito parecidos. Nomes que diferem apenas por número ou algarismo romano identificam modelos ou versões distintas: \emph{Intel 8086} e \emph{Intel 80286}, \emph{Motorola 6800} e \emph{Motorola 68000}, \emph{Windows 8} e \emph{Windows 98}, \emph{Pentium II} e \emph{Pentium III}. Por isso, antes de calcular a nota de similaridade, a regra compara os tokens numéricos dos dois nomes e só continua se eles forem iguais; nomes curtos (siglas) também ficam fora do fuzzy. Um apelido compartilhado não basta: \emph{Mark I} é apelido tanto do \emph{Harvard Mark I} quanto do \emph{Manchester Mark I}, que são máquinas diferentes, e os dois continuam separados. Além disso, pares marcados como \texttt{nao\_fundir} no arquivo manual são respeitados mesmo por transitividade: a estrutura de união de grupos recusa qualquer união que colocaria dois membros de um par bloqueado no mesmo grupo. Foi o que permitiu bloquear, por exemplo, \emph{Internet} e \emph{IP}, \emph{TCP/IP} e \emph{TCP}, e \emph{Macintosh} e \emph{Macintosh 128K}.
+
+Depois da fusão, as relações são reapontadas para os ids canônicos. Relações repetidas com a mesma origem, tipo e destino viram uma só, com todos os \texttt{chunk\_ids} acumulados em ordem de leitura; fica a maior confiança e a evidência correspondente, e as demais propriedades são preservadas quando não conflitam. Relações que viram autorreferentes (origem igual ao destino depois da fusão) são descartadas, e \rel{COLABOROU\_COM}, que é simétrica, é gravada sempre na mesma ordem para não gerar duas arestas para o mesmo fato.
+
+A resolução é conservadora de propósito: o limiar 94 deixa algumas duplicatas passarem a fim de não fundir entidades diferentes, e a decisão final sobre casos ambíguos foi manual, feita pela responsável pela etapa a partir do log \texttt{data/resolucao/fusoes.json} e registrada em \texttt{data/resolucao\_manual.json}. O identificador do Wikidata é gravado no nó, mas não participa das fusões; ele serve à avaliação, não à resolução.
+
+\subsection{Embeddings}
+
+Os \emph{embeddings} usam o modelo \texttt{multilingual-e5-base} \cite{wang2024me5}, com 768 dimensões e similaridade por cosseno, o mesmo modelo e a mesma dimensão dos dois índices vetoriais da Seção~\ref{sec:modelagem}. Como o E5 exige prefixos diferentes para indexação e consulta, ao indexar acrescenta-se \texttt{passage:} ao texto e, na busca, \texttt{query:} à pergunta; os vetores são normalizados pelo próprio modelo. Cada chunk é embutido pelo texto completo. Cada entidade é embutida pelo nome e pela descrição, no formato \texttt{nome. descrição}. Só recebem vetor os nós que ainda não têm \texttt{embedding}, salvo quando se pede recálculo explícito, e antes de gravar o pipeline confere se a dimensão declarada pelo \emph{embedder} e a configurada nos índices vetoriais são iguais a 768.
+
+\subsection{Resultados}
+
+A Tabela~\ref{tab:ingestao-numeros} resume os números. A resolução reduziu as entidades de 2.629 para 2.574, isto é, 55 fusões (2,1\%); a maioria (39) veio da regra de apelido, seguida por 10 de nomes quase iguais, 4 manuais e 2 de sufixo corporativo. Isso indica que a lista canônica e a regra de \emph{id} já resolviam a maior parte das menções, restando principalmente siglas e variações de nome entre páginas. A maior redução está nas relações: das 2.772 de entrada ficaram 1.955 (29,5\% menos), porque a agregação junta as repetições encontradas em chunks e documentos diferentes. Depois da carga completa, o grafo tem 5.095 nós (2.374 chunks, 147 documentos e 2.574 entidades) e 15.698 relações.
+
+\begin{table}[ht]
+\centering
+\caption{Números da ingestão (147 documentos).}
+\label{tab:ingestao-numeros}
+\begin{tabular}{lr}
+\hline
+\textbf{Medida} & \textbf{Valor} \\
+\hline
+Documentos & 147 \\
+Chunks & 2.374 \\
+Entidades antes da resolução & 2.629 \\
+Entidades depois da resolução & 2.574 \\
+Entidades fundidas & 55 \\
+\quad por apelido & 39 \\
+\quad por nome quase igual & 10 \\
+\quad manuais & 4 \\
+\quad por sufixo corporativo & 2 \\
+Relações de entrada & 2.772 \\
+Relações depois de agregar & 1.955 \\
+Nós no Neo4j (total) & 5.095 \\
+Relações no Neo4j (total) & 15.698 \\
+Embeddings gravados (chunks / entidades) & 2.374 / 2.574 \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Testes operacionais}
+
+Os testes somam 67 casos. Há testes unitários de resolução (22), do carregador (13) e dos embeddings (13), 12 testes que rodam a preparação sobre as 147 extrações reais e conferem invariantes do grafo (todo id aponta para entidade existente, relações só ligam tipos válidos, nenhuma relação repetida, fusões conhecidas aconteceram) e 7 de integração com o Neo4j real (constraints, idempotência, índice vetorial, fulltext). Alguns exemplos: \emph{Intel 80286 não funde com 8086} protege contra a fusão de modelos distintos; \emph{carregar duas vezes não duplica nada} protege a idempotência do \rel{MERGE}; \emph{bloqueio vale por transitividade} protege a lista \texttt{nao\_fundir}; \emph{embedding gera candidato mas nunca funde} protege a separação entre sugestão e decisão; e \emph{índice vetorial com dimensão diferente é recusado} protege a compatibilidade entre modelo e esquema.
+
+Para reproduzir, basta \texttt{pytest} na raiz do repositório, que roda os testes sem banco; a integração exige o Neo4j ligado, o schema aplicado e \texttt{NEO4J\_TESTES\_PODEM\_APAGAR=sim pytest -m neo4j}. \textbf{Atenção:} esses testes de integração apagam todo o grafo do banco antes de carregar a amostra.
