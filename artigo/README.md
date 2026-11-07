@@ -17,7 +17,7 @@ Antes da entrega, não pode sobrar nenhum.
 | `04_modelagem.tex` | 4. Modelagem do Grafo | Pessoa 1 (Maria Eduarda) | **escrita** |
 | `05_extracao.tex` | 5. Extração de Entidades e Relações | Pessoa 2 (Anna Maria Albino) | **escrita** (falta confirmar a avaliação manual) |
 | `06_ingestao.tex` | 6. Ingestão e Resolução de Entidades | Pessoa 3 (Milena Azevêdo) | pendente |
-| `07_recuperacao.tex` | 7. Recuperação Híbrida e Multi-hop | Pessoa 4 | pendente |
+| `07_recuperacao.tex` | 7. Recuperação Híbrida e Multi-hop | Pessoa 4 | Eduarda Barros |
 | `08_algoritmos_grounding.tex` | 8. Algoritmos de Grafo e Ancoragem | Pessoa 5 | pendente |
 | `09_interface.tex` | 9. Interface e Explicabilidade | Pessoa 6 | pendente |
 | `10_avaliacao.tex` | 10. Avaliação e Resultados | Pessoa 5 | pendente |
