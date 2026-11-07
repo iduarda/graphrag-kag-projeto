@@ -1,8 +1,8 @@
 % =====================================================================
 % Recuperação Híbrida e Raciocínio Multi-hop
-% Responsável: Pessoa 4
+% Responsável: Pessoa 4 (Eduarda Barros)
 %
-% O que cobrir:
+% O que cobre:
 % - Busca vetorial (índices chunk_embedding e entidade_embedding, prefixo 'query: ').
 % - Text-to-Cypher: como o LLM gera a consulta, como ela é validada antes de executar.
 % - Como a busca vetorial e a consulta Cypher são combinadas (ordem, pesos, fusão de resultados).
@@ -17,4 +17,34 @@
 \section{Recuperação Híbrida e Raciocínio Multi-hop}
 \label{sec:recuperacao}
 
-\pendente{recuperação híbrida e raciocínio multi-hop}
+A camada de recuperação do projeto foi implementada em \texttt{src/recuperacao.py} e integra busca estruturada, busca semântica e expansão do grafo para responder perguntas sobre entidades e relações do corpus. Em vez de usar uma única estratégia, o sistema combina três fontes de evidência: consulta Cypher segura ao Neo4j, busca vetorial sobre os índices \texttt{entidade\_embedding} e \texttt{chunk\_embedding} e expansão em vizinhança ou em caminhos multi-hop. Essa combinação é a base do fluxo GraphRAG/KAG do sistema, permitindo respostas que respeitam tanto a estrutura do grafo quanto o significado contextual dos textos.
+
+\subsection{Geração e validação segura de consultas}
+
+A etapa inicial do pipeline gera uma consulta Cypher a partir da pergunta do usuário. O módulo implementa geradores por regras e, quando habilitado, um caminho com LLM para transformar a pergunta em uma consulta de leitura. A geração por regras extrai a entidade mencionada na pergunta e monta uma consulta de tipo \texttt{MATCH ... RETURN ... LIMIT ...}, preservando o rótulo da entidade e as relações relevantes, como \rel{TRABALHOU\_EM}, \rel{CRIOU} e \rel{ESTUDOU\_EM}. Antes de qualquer execução, a consulta passa por uma validação que bloqueia operações de escrita e administração, como \texttt{DELETE}, \texttt{DETACH DELETE}, \texttt{CREATE}, \texttt{MERGE}, \texttt{SET} e chamadas a procedimentos proibidos como \texttt{dbms.*} ou \texttt{apoc.*}. A validação também exige que a consulta comece com \texttt{MATCH}, \texttt{OPTIONAL MATCH} ou \texttt{CALL} permitido e que exista \texttt{RETURN} explícito, garantindo que a recuperação seja estritamente de leitura.
+
+Esse mecanismo reduz o risco de consultas maliciosas ou indevidamente amplas e permite que o sistema use o grafo como fonte principal de evidência, sem comprometer a segurança do banco. Quando a saída do modelo LLM em text-to-Cypher não é válida, o sistema faz fallback para a geração por regras, preservando a integridade da consulta.
+
+\subsection{Busca vetorial e expansão do grafo}
+
+A busca vetorial usa similaridade por cosseno para comparar a pergunta codificada com os índices vetoriais do Neo4j. O módulo calcula vetores para a consulta e ordena os resultados por score, mantendo o ranking final em ordem decrescente e sem inventar candidatos quando o \emph{embedder} não está disponível. Os resultados são então convertidos em sementes, que representam nós candidatos a responder a pergunta.
+
+A partir dessas sementes, o fluxo expande o grafo por vizinhança e por travessia multi-hop. Em profundidade 1, o sistema coleta vizinhos diretos do nó; em profundidades maiores, usa uma travessia com intervalo \texttt{[*1..N]} para descobrir caminhos conectados e reunir nós e arestas relevantes. Os resultados de busca estrutural, vetorial e de expansão são unificados, deduplicados e retornados em um único objeto de resposta. Esse processo produz o contexto usado para justificar a resposta final e para medir a confiabilidade da inferência.
+
+\subsection{Bibliotecas e dependências do caso}
+
+A implementação em \texttt{src/recuperacao.py} foi desenvolvida em Python com base em bibliotecas da linguagem e em integrações opcionais com provedores de LLM. O módulo usa principalmente o pacote padrão \texttt{re} para sanitização de consultas, extração de entidades e validação de padrões em Cypher; o módulo \texttt{os} para leitura de variáveis de ambiente, como \texttt{OPENAI\_API\_KEY}, \texttt{ANTHROPIC\_API\_KEY} e flags de configuração; \texttt{json} para interpretar respostas estruturadas em JSON; \texttt{dataclasses} para a representação do objeto \texttt{RespostaGraphRAG}; e \texttt{math} e \texttt{typing} para cálculo de similaridade, tipagem e composição de estruturas de dados. Essa combinação é suficiente para implementar a lógica principal do pipeline sem depender de frameworks pesados, mantendo o código enxuto e facilmente testável.
+
+Além disso, o projeto integra a API de modelos de linguagem por meio de clientes de OpenAI e Anthropic, quando esses serviços são configurados no ambiente. A rotina de text-to-Cypher tenta gerar consultas com LLM em um formato seguro e, em caso de falha ou resposta inválida, recorre ao gerador por regras. Esse design é importante para o caso de uso, porque preserva a compatibilidade com ambientes sem credenciais configuradas e evita que a recuperação dependa sempre de um provedor externo.
+
+No lado de testes, o arquivo \texttt{tests/test\_recuperacao.py} usa a biblioteca \texttt{pytest}, que organiza casos de unidade e parametrização para verificar tanto a lógica isolada quanto a integração do fluxo híbrido. Os testes exercitam cenários com embeddings falsos, consultas Cypher maliciosas, geração por regras, fallbacks do LLM e validação da estrutura final de resposta. Essa abordagem é especialmente adequada para sistemas de recuperação híbrida, pois permite verificar a robustez do código frente a consultas inseguras, vazias, ambíguas e a erros de execução do banco.
+
+\subsection{Resposta final e confiabilidade}
+
+A resposta final é encapsulada em \texttt{RespostaGraphRAG}, que contém a resposta textual, os nós envolvidos, as arestas relevantes, a Cypher executada e um valor de confiança em $[0,1]$. A confiança combina sinais de evidência: presença de candidatos vetoriais, linhas retornadas pela consulta Cypher e grau de expansão do grafo. Esse procedimento torna a resposta mais transparente, porque a interface pode exibir não apenas a resposta em linguagem natural, mas também o subgrafo que sustentou a inferência.
+
+\subsection{Cobertura de testes}
+
+Além da implementação da recuperação, o projeto inclui testes em \texttt{tests/test\_recuperacao.py}, que validam com casos reais e artificiais os componentes centrais do módulo. Os testes cobrem: similaridade de cosseno e ordenação por score; rejeição de consultas Cypher inseguras; geração de queries por regras; fallback em LLM para text-to-Cypher; busca vetorial para entidades e chunks; vizinhança e travessia multi-hop; e o fluxo híbrido completo em um objeto padronizado. A suíte também verifica que a resposta final não inclui operações proibidas, que a consulta válida é executada e que a expansão do grafo reúne evidências sem duplicar nós ou arestas.
+
+Em conjunto, esses testes demonstram que a camada de recuperação foi implementada de forma funcional e integrada ao restante do pipeline do sistema, cobrindo não apenas a lógica de consulta, mas também a robustez contra erros e ataques de escrita em Cypher.
