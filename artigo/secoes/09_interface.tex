@@ -2,17 +2,23 @@
 % Interface e Explicabilidade
 % Responsável: Pessoa 6
 %
-% O que cobrir:
-% - Arquitetura da interface em Streamlit e fluxo de uso.
-% - Visualização do subgrafo (biblioteca usada) — incluir uma captura de tela como figura.
-% - Como a procedência é exibida: nós consultados, Cypher gerado, trechos de evidência com link para a Wikipédia, confiança.
-%
-% Dicas: use \rot{Pessoa} para rótulos e \rel{CRIOU} para relações.
-% Cite com \cite{chave} (chaves em referencias.bib). Ao terminar,
-% apague o \pendente abaixo.
+% Implementação em app.py. Falta inserir uma captura de tela da
+% interface (ver \pendente abaixo).
 % =====================================================================
 
 \section{Interface e Explicabilidade}
 \label{sec:interface}
 
-\pendente{interface e explicabilidade}
+A interface foi construída com Streamlit (\texttt{app.py}) e tem como objetivo tornar visível de onde vem cada parte da resposta. O usuário digita uma pergunta em linguagem natural e o sistema executa a busca híbrida (Seção~\ref{sec:recuperacao}), recupera os fatos e gera a resposta ancorada (Seção~\ref{sec:grounding}). A tela é organizada em cinco blocos:
+
+\begin{enumerate}
+  \item \textbf{Resposta}, com as citações \texttt{[F1]}, \texttt{[F2]}, \ldots{} no texto. Quando o sistema não encontra informação suficiente, a abstenção é destacada como aviso, e não como erro.
+  \item \textbf{Indicadores}: o índice de confiança da recuperação, quantos dos fatos recebidos foram citados e se a fundamentação foi verificada. Se o LLM citar um fato inexistente, a interface informa que a citação foi removida.
+  \item \textbf{Evidências}: para cada fato citado, a relação (origem, tipo e destino), o trecho da Wikipédia que a comprova, o documento de origem com link para a página, a confiança da extração e os identificadores dos trechos.
+  \item \textbf{Subgrafo}: desenho, gerado com Graphviz, das entidades e relações enviadas ao LLM. As relações citadas na resposta aparecem destacadas em azul, com o número do fato correspondente.
+  \item \textbf{Detalhes}: a lista completa de fatos enviados ao LLM, com a similaridade de cada um com a pergunta, as entidades encontradas pela busca híbrida e a consulta Cypher gerada.
+\end{enumerate}
+
+Na barra lateral, o usuário escolhe o número de saltos da travessia e se a resposta deve ser gerada pelo LLM. Sem um LLM configurado, a interface continua funcional no modo extrativo, listando os fatos mais relevantes com suas citações. Essa escolha de projeto garante que a explicabilidade não dependa de um serviço externo: o caminho da pergunta até a evidência é sempre exibido.
+
+\pendente{inserir captura de tela da interface respondendo a uma pergunta multi-hop, por exemplo ``Que empresa foi fundada por pessoas que trabalharam na Fairchild Semiconductor?''}

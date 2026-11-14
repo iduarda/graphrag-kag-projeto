@@ -274,6 +274,63 @@ Principais funções:
 
 Esse fluxo mantém a consulta segura, prioriza evidência do grafo e permite responder perguntas com contexto de relacionamento e profundidade variável.
 
+### Algoritmos de grafo, grounding e avaliação (Pessoa 5)
+
+**Algoritmos (Neo4j GDS)** — `src/algoritmos_grafo.py`. Rode uma vez depois da ingestão:
+
+```bash
+python scripts/rodar_algoritmos.py
+```
+
+Ele calcula o **PageRank** (importância das entidades) e as comunidades **Louvain**, grava os dois em cada entidade (`pagerank` e `comunidade`), calcula exemplos de **menor caminho** (Dijkstra) e salva tudo em `data/resultados/algoritmos.json`. O PageRank gravado é usado pelo grounding para colocar os fatos mais centrais primeiro no contexto do LLM.
+
+**Grounding** — `src/grounding.py`. Para cada pergunta, `recuperar_fatos`:
+1. escolhe as **sementes**: entidades citadas pelo nome na pergunta (ex.: "Unix", "Bell Labs") e as mais parecidas na busca vetorial;
+2. **expande** até 2 saltos, só pelas 14 relações semânticas (sem passar por chunks);
+3. **reordena** os fatos candidatos pela semelhança com a pergunta (embeddings E5) e escolhe 20, completando as cadeias de vários passos.
+
+Os fatos são numerados `[F1]`, `[F2]`... e o LLM só pode responder com eles, citando o fato de cada afirmação. As citações são conferidas: citações a fatos que não existem são removidas e a resposta é marcada como não verificada. Sem LLM configurado, a resposta lista os fatos mais relevantes, também citados.
+
+**Avaliação comparativa** — `src/avaliacao_sistema.py`. Compara o GraphRAG com um RAG só vetorial (trechos de texto, sem grafo) nas 12 perguntas de `data/avaliacao/perguntas_multihop.json`, com o mesmo LLM e as mesmas regras de citação:
+
+```bash
+python scripts/avaliar_sistema.py
+```
+
+Mede acerto, respostas fundamentadas, frases sem citação e citações inventadas. Com `data/avaliacao/julgamento_llm.json` (revisor independente), o acerto e as afirmações sem suporte vêm do julgamento. A primeira rodada, com a recuperação original, está guardada em `data/avaliacao/rodada1_recuperacao_original/`. Resultado em `data/resultados/avaliacao_sistema.json`.
+
+**Sem chave de API** (como foi feito no projeto), a avaliação roda em três passos, com os mesmos prompts:
+
+```bash
+python scripts/exportar_contextos.py   # 1. monta os prompts das 12 perguntas -> data/avaliacao/contextos_llm.json
+#                                         2. um LLM em sessão interativa responde cada prompt -> data/avaliacao/respostas_llm.json
+python scripts/pontuar_respostas.py    # 3. confere as citações e calcula as métricas
+```
+
+As respostas esperadas não vão para o arquivo de contextos, para não influenciar quem responde.
+
+### Interface (Pessoa 6)
+
+```bash
+streamlit run app.py
+```
+
+Abre em `http://localhost:8501`. Para cada pergunta, mostra a resposta com as citações, as evidências de cada fato citado (trecho, documento com link para a Wikipédia e confiança da extração), o subgrafo com as relações citadas destacadas em azul e a consulta Cypher gerada.
+
+### LLM (resposta, Text-to-Cypher e avaliação)
+
+Defina no `.env` um dos provedores abaixo. Sem LLM, o sistema continua funcionando: o Cypher é gerado por regras e a resposta lista os fatos do grafo mais relevantes, também citados. Para teste rápido da configuração: `python scripts/testar_llm.py`.
+
+```
+GRAPHRAG_LLM_PROVIDER=anthropic
+ANTHROPIC_API_KEY=sua_chave
+# ou
+GRAPHRAG_LLM_PROVIDER=openai
+OPENAI_API_KEY=sua_chave
+OPENAI_BASE_URL=...        # só para Gemini, Groq, Ollama etc.
+GRAPHRAG_LLM_MODEL=...     # opcional
+```
+
 ### Testes
 
 Os testes de recuperação foram ampliados em `tests/test_recuperacao.py` para cobrir:
@@ -327,6 +384,8 @@ _A preencher conforme o projeto avança (exigência do professor: toda bibliotec
 | [RapidFuzz](https://github.com/rapidfuzz/RapidFuzz)                                                                                       | Similaridade de strings na resolução de entidades      | MIT               |
 | [sentence-transformers](https://www.sbert.net/)                                                                                           | Geração dos embeddings                                 | Apache 2.0        |
 | [intfloat/multilingual-e5-base](https://huggingface.co/intfloat/multilingual-e5-base)                                                     | Modelo de embeddings (768 dim.)                        | MIT               |
+| [Streamlit](https://streamlit.io/)                                                                                                        | Interface web                                          | Apache 2.0        |
+| [graphviz (Python)](https://github.com/xflr6/graphviz)                                                                                    | Desenho do subgrafo na interface                       | MIT               |
 | [pytest](https://docs.pytest.org/)                                                                                                        | Testes automatizados                                   | MIT               |
 
 ---
@@ -338,8 +397,13 @@ _A preencher conforme o projeto avança (exigência do professor: toda bibliotec
   - [x] Modelo LPG conceitual
   - [x] Schema no Neo4j (constraints e índices)
   - [x] Formato JSON de entidades e relações
-- [ ] Fase 2 — Ingestão e pipeline NLP/LLM
+- [x] Fase 2 — Ingestão e pipeline NLP/LLM
   - [x] Chunking e extração de entidades e relações (147 documentos, validados)
-  - [ ] Ingestão no Neo4j e resolução de entidades
+  - [x] Ingestão no Neo4j e resolução de entidades
 - [x] Fase 3 — Algoritmos e GraphRAG/KAG
 - [ ] Fase 4 — Código final, interface, artigo (SBC/IEEE) e defesa
+  - [x] Interface com subgrafo e evidências
+  - [x] Grounding com citações verificadas
+  - [x] Avaliação comparativa (GraphRAG 62,5% × RAG vetorial 75,0% de acerto; ver Seção 10 do artigo)
+  - [ ] Artigo completo
+  - [ ] Ensaio da apresentação

@@ -2,18 +2,80 @@
 % Algoritmos de Grafo e Ancoragem das Respostas
 % Responsável: Pessoa 5
 %
-% O que cobrir:
-% - Algoritmos do Neo4j GDS usados (PageRank, Louvain/Leiden, Shortest Path) e para que cada um serve no contexto passado ao LLM.
-% - Exemplo concreto: entidades mais centrais do grafo pelo PageRank, comunidades encontradas.
-% - Grounding: como o LLM é obrigado a citar os caminhos do subgrafo e os trechos (evidências).
-% - Como o nível de confiança da resposta é calculado.
-%
-% Dicas: use \rot{Pessoa} para rótulos e \rel{CRIOU} para relações.
-% Cite com \cite{chave} (chaves em referencias.bib). Ao terminar,
-% apague o \pendente abaixo.
+% Números de data/resultados/algoritmos.json (scripts/rodar_algoritmos.py).
+% Implementação em src/algoritmos_grafo.py e src/grounding.py.
 % =====================================================================
 
 \section{Algoritmos de Grafo e Ancoragem das Respostas}
 \label{sec:grounding}
 
-\pendente{algoritmos de grafo e ancoragem das respostas}
+Esta seção descreve como a estrutura do grafo é explorada com algoritmos da biblioteca Neo4j Graph Data Science (GDS) e como as respostas do LLM são ancoradas (\emph{grounding}) em fatos do grafo, com citações verificáveis.
+
+\subsection{Algoritmos de grafo}
+
+Os algoritmos operam sobre uma projeção em memória com os 2.574 nós \rot{Entidade} e as 14 relações semânticas do modelo (Seção~\ref{sec:modelagem}), totalizando 3.910 arestas. A projeção é não direcionada: cada uma das 1.955 relações do grafo aparece nos dois sentidos, o que permite, por exemplo, encontrar caminhos que passem por uma relação \rel{ESTUDOU\_EM} no sentido inverso. Relações da camada de procedência (\rel{MENCIONA}, \rel{TEM\_CHUNK}, \rel{PROXIMO}) ficam de fora, para que os algoritmos meçam a estrutura do conhecimento e não a dos documentos.
+
+\paragraph{PageRank.} Mede a importância de cada entidade pela quantidade e pela importância das entidades ligadas a ela. O resultado é gravado em cada nó (propriedade \texttt{pagerank}). A Tabela~\ref{tab:pagerank} mostra as dez entidades mais centrais. Predominam organizações com muitas pessoas e produtos associados (Intel, DEC, Bell Labs, AT\&T) e figuras que conectam várias áreas (John von Neumann, Alan Turing), o que é coerente com o papel histórico dessas entidades.
+
+\begin{table}[ht]
+\centering
+\caption{As dez entidades mais centrais pelo PageRank.}
+\label{tab:pagerank}
+\small
+\begin{tabular}{rlr}
+\toprule
+\textbf{\#} & \textbf{Entidade} & \textbf{PageRank} \\
+\midrule
+1 & Intel & 20,86 \\
+2 & Digital Equipment Corporation & 17,42 \\
+3 & John von Neumann & 16,51 \\
+4 & Bell Labs & 13,18 \\
+5 & AT\&T & 12,06 \\
+6 & Alan Turing & 10,72 \\
+7 & Instituto de Tecnologia de Massachusetts & 9,42 \\
+8 & Microsoft & 9,39 \\
+9 & Texas Instruments & 9,31 \\
+10 & Medalha de Honra IEEE & 8,92 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Louvain.} Agrupa as entidades em comunidades densamente conectadas, gravadas na propriedade \texttt{comunidade}. Foram encontradas 1.100 comunidades; a maioria é pequena, formada por entidades citadas em poucos fatos. As maiores correspondem a núcleos históricos reconhecíveis (Tabela~\ref{tab:louvain}), o que indica que a extração e a resolução de entidades preservaram a estrutura do domínio.
+
+\begin{table}[ht]
+\centering
+\caption{As cinco maiores comunidades encontradas pelo Louvain.}
+\label{tab:louvain}
+\small
+\begin{tabularx}{\textwidth}{rX}
+\toprule
+\textbf{Entidades} & \textbf{Exemplos (ordenados por PageRank)} \\
+\midrule
+124 & Bell Labs, Dennis Ritchie, Ken Thompson, Python, C \\
+100 & Texas Instruments, Medalha de Honra IEEE, Prêmio Nobel de Física, William Shockley, Walter Brattain, John Bardeen \\
+89 & Apple, NeXT, Steve Jobs, Steve Wozniak, Macintosh, Motorola \\
+84 & Digital Equipment Corporation, PDP-11, VAX, DEC Alpha, Lisp \\
+82 & Microsoft, Paul Allen, Bill Gates, BASIC, MITS \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\paragraph{Menor caminho (Dijkstra).} Explica como duas entidades se ligam. Por exemplo, o caminho de Alan Turing a Linus Torvalds é \emph{Alan Turing -- Bell Labs -- C -- Linux -- Linus Torvalds}, e cada passo pode ser mostrado com a evidência textual da relação correspondente. Alguns caminhos, porém, passam por prêmios em comum (Dennis Ritchie -- Medalha Nacional de Tecnologia e Inovação -- Steve Jobs). Eles são corretos no grafo, mas pouco informativos, o que sugere dar peso menor às relações \rel{RECEBEU} em trabalhos futuros.
+
+\subsection{Recuperação dos fatos para o LLM}
+
+A ancoragem começa pela escolha dos fatos que o LLM poderá usar. A primeira versão do sistema reaproveitava a expansão genérica da busca híbrida (Seção~\ref{sec:recuperacao}). Como ela percorria todas as relações do grafo, inclusive as da camada de procedência, e parava em poucos caminhos por semente, os fatos relevantes frequentemente ficavam de fora, como mostra a avaliação da Seção~\ref{sec:avaliacao}. A versão final (\texttt{recuperar\_fatos}) tem três etapas:
+
+\begin{enumerate}
+  \item \textbf{Sementes}: as entidades cujo nome aparece na pergunta (por exemplo, ``Unix'' ou ``Bell Labs''), identificadas como palavra inteira, mais as três entidades mais próximas da pergunta no índice vetorial.
+  \item \textbf{Expansão}: todos os fatos a até dois saltos das sementes, percorrendo apenas as 14 relações semânticas.
+  \item \textbf{Seleção}: os fatos candidatos são ordenados pela similaridade de cosseno entre o embedding do fato (``origem, relação, destino e evidência'') e o da pergunta. Os 12 mais similares são escolhidos, e as vagas restantes, até 20, vão para fatos que continuam as cadeias a partir deles sem voltar às sementes. Essa última regra garante o segundo passo de perguntas multi-hop: em ``que empresa foi fundada por pessoas que trabalharam na Fairchild?'', o fato \emph{Robert Noyce \rel{TRABALHOU\_EM} Fairchild} puxa \emph{Robert Noyce \rel{FUNDOU} Intel}.
+\end{enumerate}
+
+\subsection{Geração ancorada e verificação das citações}
+
+Os fatos selecionados são numerados (\texttt{[F1]}, \texttt{[F2]}, \ldots) e enviados ao LLM com as instruções de usar apenas esses fatos, encerrar cada afirmação com a citação dos fatos que a sustentam, encadear e citar cada passo em perguntas de vários saltos e, se os fatos não bastarem, declarar explicitamente que não encontrou informação suficiente.
+
+A resposta passa por uma verificação automática: citações a fatos que não estavam no contexto são removidas e a resposta é marcada como não fundamentada. Assim, o usuário só vê citações que apontam para fatos reais do grafo, cada um ligado a um trecho da Wikipédia. Sem um LLM configurado, o sistema monta uma resposta extrativa com os fatos mais relevantes, também citados, e nunca exibe conteúdo que não esteja no grafo.
+
+O PageRank gravado nos nós é usado como critério de desempate na ordenação dos fatos quando não há modelo de embedding disponível. O índice de confiança exibido na interface combina três sinais da recuperação: a maior similaridade vetorial, o retorno de linhas pela consulta Cypher e a existência de relações no subgrafo. Ele mede a força da recuperação, não a correção da resposta, e é apresentado ao usuário dessa forma.

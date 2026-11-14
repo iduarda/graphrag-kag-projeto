@@ -1,0 +1,200 @@
+[
+  {
+    "id": "q01_rag_vetorial",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "A resposta afirma B, C e C++ como linguagens desenvolvidas no Bell Labs, e tudo está sustentado por C1, C2, C3 e C5."
+  },
+  {
+    "id": "q02_rag_vetorial",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "A resposta afirma Ken Thompson e Dennis Ritchie (1983) a partir de C2; os demais laureados citados também estão em C2 e C1."
+  },
+  {
+    "id": "q03_rag_vetorial",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [
+      "Esse processador foi desenvolvido pela Intel"
+    ],
+    "citacao_errada": [],
+    "comentario": "A resposta afirma Intel 8080 e Intel. Nenhum trecho diz explicitamente que a Intel desenvolveu o 8080: C1 só dá o nome 'Intel 8080' e C3 só diz que a Intel o forneceu."
+  },
+  {
+    "id": "q04_rag_vetorial",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [
+      "A Intel foi fundada por pessoas que trabalharam na Fairchild Semiconductor."
+    ],
+    "citacao_errada": [],
+    "comentario": "A primeira frase afirma Intel, mas isso não está no contexto, que só diz que fundadores da Fairchild investiram na Intel; a própria resposta depois admite que a ligação não está confirmada e se contradiz."
+  },
+  {
+    "id": "q05_rag_vetorial",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "A resposta afirma C e Dennis Ritchie, com base em C4 e C3."
+  },
+  {
+    "id": "q06_rag_vetorial",
+    "acerto": 0.5,
+    "veredito": "parcial",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "A resposta afirma o PDP-7 (C4), mas não o PDP-11, que não aparece no contexto deste item; ela declara corretamente que falta essa informação."
+  },
+  {
+    "id": "q07_rag_vetorial",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "A resposta identifica a linguagem B e afirma Ken Thompson como seu criador principal, com base em C2 e C3."
+  },
+  {
+    "id": "q08_rag_vetorial",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "A resposta afirma Robert Kahn e Vint Cerf com base em C5; o contexto de 1969/ARPA vem de C3."
+  },
+  {
+    "id": "q09_rag_vetorial",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "A resposta afirma o CERN, com base em C1 e C2; o ano de 1980 sai da conta 1976 + quatro anos, presente nos trechos."
+  },
+  {
+    "id": "q10_rag_vetorial",
+    "acerto": 0.0,
+    "veredito": "abstencao",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "A resposta declara que falta informação e não afirma nenhum dos esperados (Kernighan, Bardeen, Minsky); a menção a Shannon no IAS está sustentada por C1."
+  },
+  {
+    "id": "q11_rag_vetorial",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "A resposta afirma GUI, Alto e Ethernet como desenvolvidos no PARC, com base em C1, C4 e C5; os itens extras também estão sustentados."
+  },
+  {
+    "id": "q12_rag_vetorial",
+    "acerto": 0.0,
+    "veredito": "abstencao",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "A resposta cita o Python como linguagem de Van Rossum, mas se recusa a afirmá-lo como a linguagem influenciada pela ABC e declara que falta informação."
+  },
+  {
+    "id": "q01_graphrag",
+    "acerto": 0.0,
+    "veredito": "incorreta",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "A resposta dá AMPL como a única linguagem e nega que C++ tenha sido criada no grupo; não afirma C, C++ nem B. As afirmações têm apoio nas triplas, mas a evidência de F3 não cita o Bell Labs."
+  },
+  {
+    "id": "q02_graphrag",
+    "acerto": 0.0,
+    "veredito": "abstencao",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "Declara que não há informação suficiente e não cita Ritchie nem Thompson; a única afirmação, que Turing trabalhou no Bell Labs, tem apoio em F1."
+  },
+  {
+    "id": "q03_graphrag",
+    "acerto": 0.5,
+    "veredito": "parcial",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "Afirma o Intel 8080 com apoio em F4, mas diz que não há informação sobre a empresa desenvolvedora e por isso não afirma Intel."
+  },
+  {
+    "id": "q04_graphrag",
+    "acerto": 0.0,
+    "veredito": "abstencao",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "O contexto está vazio e o sistema declara corretamente que não tem informação."
+  },
+  {
+    "id": "q05_graphrag",
+    "acerto": 0.0,
+    "veredito": "abstencao",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "Declara que não há informação sobre a linguagem nem sobre quem a criou; as afirmações sobre Unix e PDP-7 têm apoio em F1 e F3."
+  },
+  {
+    "id": "q06_graphrag",
+    "acerto": 0.0,
+    "veredito": "abstencao",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "Declara que não há informação suficiente e não cita PDP-7 nem PDP-11; as afirmações têm apoio em F1 e F3."
+  },
+  {
+    "id": "q07_graphrag",
+    "acerto": 0.0,
+    "veredito": "abstencao",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "Declara que nenhuma linguagem que influenciou C está registrada e não afirma Ken Thompson como resposta; as afirmações têm apoio em F1 a F5."
+  },
+  {
+    "id": "q08_graphrag",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [
+      "Cerf criou o TCP juntamente com Kahn [F3]"
+    ],
+    "citacao_errada": [],
+    "comentario": "Afirma que o TCP/IP foi desenvolvido por Robert Kahn e Vint Cerf, com apoio em F1, mas a evidência de F3 não nomeia Kahn como coautor do TCP."
+  },
+  {
+    "id": "q09_graphrag",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "Afirma o CERN como resposta, com apoio em F1 e F2; o desenvolvimento da Web pelo CERN tem apoio em F8."
+  },
+  {
+    "id": "q10_graphrag",
+    "acerto": 0.0,
+    "veredito": "abstencao",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "Declara que não há fatos sobre outros pesquisadores de Princeton e não cita nenhum item esperado."
+  },
+  {
+    "id": "q11_graphrag",
+    "acerto": 0.3333,
+    "veredito": "parcial",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "Afirma só o Xerox Alto, com apoio em F1; não cita Ethernet nem interface gráfica."
+  },
+  {
+    "id": "q12_graphrag",
+    "acerto": 0.0,
+    "veredito": "abstencao",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "Declara que não há informação suficiente e não afirma Python; as afirmações têm apoio em F1 e F2."
+  }
+]

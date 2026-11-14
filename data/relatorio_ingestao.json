@@ -24,6 +24,10 @@
     "sobre": 147,
     "relacoes": 1955
   },
+  "embeddings_gravados": {
+    "chunks": 2374,
+    "entidades": 2574
+  },
   "grafo_final": {
     "nos": {
       "Chunk": 2374,

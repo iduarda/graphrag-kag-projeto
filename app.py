@@ -1,239 +1,172 @@
+"""
+Interface do sistema GraphRAG/KAG (Pessoa 6).
 
-import streamlit as st
+Uso (na raiz do repositório, com o Neo4j ligado):
+    streamlit run app.py
+
+Fluxo de uma pergunta:
+  1. Busca híbrida (src/recuperacao.py): Cypher + busca vetorial + expansão no grafo.
+  2. Grounding (src/grounding.py): fatos do subgrafo com evidências -> resposta
+     do LLM citando [F1], [F2]... As citações são verificadas.
+  3. Visualização do subgrafo, dos fatos citados e do Cypher gerado.
+"""
+
 import graphviz
+import streamlit as st
 
-from src.ingestao import conectar
-from src.recuperacao import executar_busca_hibrida
-from src.algoritmos_grafo import buscar_evidencias_relacao
+from src.embeddings import E5Embedder
+from src.grounding import responder
+from src.ingestao import carregar_env, conectar
+from src.recuperacao import _client_llm, executar_busca_hibrida
 
-
-st.set_page_config(
-    page_title="GraphRAG + KAG",
-    page_icon="🔎",
-    layout="wide"
-)
+st.set_page_config(page_title="GraphRAG + KAG", page_icon="🔎", layout="wide")
+carregar_env()
 
 RELACOES_SEMANTICAS = {
-    "TRABALHOU_EM",
-    "ESTUDOU_EM",
-    "FUNDOU",
-    "CRIOU",
-    "DESENVOLVEU",
-    "INFLUENCIADA_POR",
-    "ESCRITO_EM",
-    "EXECUTA_EM",
-    "UTILIZA",
-    "SUCESSOR_DE",
-    "RECEBEU",
-    "COLABOROU_COM",
-    "NASCEU_EM",
-    "SEDIADA_EM",
+    "TRABALHOU_EM", "ESTUDOU_EM", "FUNDOU", "CRIOU", "DESENVOLVEU", "INFLUENCIADA_POR", "ESCRITO_EM",
+    "EXECUTA_EM", "UTILIZA", "SUCESSOR_DE", "RECEBEU", "COLABOROU_COM", "NASCEU_EM", "SEDIADA_EM",
 }
 
+EXEMPLOS = [
+    "Quais linguagens foram criadas por pessoas que trabalharam no Bell Labs?",
+    "Qual processador o Altair 8800 utiliza e qual empresa o desenvolveu?",
+    "Em que linguagem o Unix foi escrito e quem criou essa linguagem?",
+]
 
+
+@st.cache_resource(show_spinner="Carregando o modelo de embedding (só na primeira vez)...")
+def carregar_embedder():
+    return E5Embedder()
+
+
+@st.cache_resource
+def carregar_cliente_llm():
+    return _client_llm()
+
+
+# ----------------------------------------------------------------------------- barra lateral
+with st.sidebar:
+    st.header("Configurações")
+    cliente_llm = carregar_cliente_llm()
+    usar_llm = st.toggle(
+        "Gerar resposta com LLM",
+        value=cliente_llm is not None,
+        disabled=cliente_llm is None,
+        help="Sem chave de API no .env, a resposta lista os fatos do grafo mais relevantes.",
+    )
+    if cliente_llm is None:
+        st.caption("Nenhum LLM configurado no .env (ANTHROPIC_API_KEY ou OPENAI_API_KEY).")
+    else:
+        st.caption(f"Modelo: {cliente_llm[1]}")
+    profundidade = st.slider("Saltos na travessia (multi-hop)", 1, 3, 2)
+    st.divider()
+    st.markdown("**Exemplos de perguntas**")
+    for exemplo in EXEMPLOS:
+        st.caption(exemplo)
+
+# ----------------------------------------------------------------------------- página
 st.title("GraphRAG + KAG")
-st.subheader("Exploração inteligente de conhecimento")
-
+st.subheader("História da Computação")
 st.write(
-    "Faça perguntas sobre a base de conhecimento "
-    "e explore as entidades, relações e evidências do grafo."
+    "Faça uma pergunta. A resposta é montada só com fatos do grafo de conhecimento, "
+    "e cada afirmação indica de qual fato veio, com o trecho da Wikipédia que a comprova."
 )
 
-pergunta = st.text_input(
-    "Digite sua pergunta:",
-    placeholder="Ex.: Quais computadores utilizaram o Intel 8080?"
-)
+pergunta = st.text_input("Digite sua pergunta:", placeholder=EXEMPLOS[0])
 
-if st.button("Buscar"):
+if st.button("Buscar", type="primary"):
     if not pergunta.strip():
         st.warning("Digite uma pergunta antes de buscar.")
+        st.stop()
 
-    else:
-        executor = None
-
-        try:
-            with st.spinner("Consultando o grafo de conhecimento..."):
-                executor = conectar()
-                resultado = executar_busca_hibrida(
-                    executor,
-                    pergunta
-                )
-
-            st.subheader("Resposta")
-            st.write(resultado.resposta)
-
-            st.metric(
-                "Índice de confiança calculado",
-                f"{resultado.confianca:.0%}"
+    executor = None
+    try:
+        with st.spinner("Consultando o grafo de conhecimento..."):
+            executor = conectar()
+            resultado = executar_busca_hibrida(
+                executor, pergunta, profundidade=profundidade, embedder=carregar_embedder(), usar_llm=usar_llm
+            )
+            resposta = responder(
+                executor, pergunta, resultado.nos, embedder=carregar_embedder(),
+                usar_llm=usar_llm, cliente=cliente_llm if usar_llm else None,
             )
 
-            st.caption(
-                "Indicador interno da recuperação; não representa "
-                "uma garantia de correção da resposta."
+        # --- resposta fundamentada
+        st.subheader("Resposta")
+        if resposta.abstencao:
+            st.warning(resposta.texto)
+        else:
+            st.markdown(resposta.texto)
+
+        col1, col2, col3 = st.columns(3)
+        col1.metric("Confiança da recuperação", f"{resultado.confianca:.0%}")
+        col2.metric("Fatos citados", f"{len(resposta.citados)} de {len(resposta.fatos)}")
+        col3.metric("Fundamentação", "verificada" if resposta.fundamentada else "não verificada")
+        if resposta.citacoes_invalidas:
+            st.error(
+                "O LLM citou fatos que não existem no contexto e essas citações foram removidas: "
+                + ", ".join(resposta.citacoes_invalidas)
             )
+        st.caption(
+            "A confiança indica a força dos sinais de recuperação (busca vetorial, Cypher e grafo); "
+            "não é uma garantia de correção."
+        )
 
-            nos = resultado.nos or []
-            arestas = resultado.arestas or []
-
-            evidencias_relacoes = []
-
-            entidades = [
-                n for n in nos
-                if n.get("tipo") not in {"Chunk", "Documento"}
-            ]
-
-            evidencias = [
-                n for n in nos
-                if n.get("tipo") in {"Chunk", "Documento"}
-            ]
-
-            for origem in entidades:
-                for destino in entidades:
-                    if origem["id"] != destino["id"]:
-                        encontradas = buscar_evidencias_relacao(
-                            executor,
-                            origem["nome"],
-                            destino["nome"]
-                        )
-                        evidencias_relacoes.extend(encontradas)
-
-            relacoes_semanticas = [
-                a for a in arestas
-                if a.get("tipo") in RELACOES_SEMANTICAS
-            ]
-
-            outras_relacoes = [
-                a for a in arestas
-                if a.get("tipo") not in RELACOES_SEMANTICAS
-            ]
-
-            st.subheader("Visualização do subgrafo")
-
-            if nos:
-                grafo = graphviz.Digraph()
-                grafo.attr(rankdir="LR")
-
-                nos_visiveis = nos[:30]
-                ids_visiveis = set()
-                ids_por_nome = {}
-
-                for no in nos_visiveis:
-                    identificador = str(no["id"])
-                    ids_visiveis.add(identificador)
-
-                    if no.get("nome"):
-                        ids_por_nome[no["nome"]] = identificador
-
-                    grafo.node(
-                        identificador,
-                        label=(
-                            f"{no.get('nome') or identificador}\n"
-                            f"[{no.get('tipo') or 'Entidade'}]"
-                        )
+        # --- fatos citados com evidência
+        st.subheader("Evidências da resposta")
+        if resposta.fatos_citados:
+            for f in resposta.fatos_citados:
+                with st.container(border=True):
+                    st.markdown(f"**[{f['ref']}] {f['origem']} → {f['relacao']} → {f['destino']}**")
+                    st.info(f.get("evidencia") or "Sem trecho disponível.")
+                    fonte = f"[{f['documento']}]({f['url']})" if f.get("url") else "documento não identificado"
+                    st.caption(
+                        f"Fonte: {fonte} · Confiança da extração: {(f.get('confianca') or 0):.0%} · "
+                        f"Chunks: {', '.join(f.get('chunk_ids') or [])}"
                     )
+        else:
+            st.info("Nenhum fato do grafo foi citado.")
 
-                for aresta in arestas[:40]:
-                    origem = str(aresta.get("de", ""))
-                    destino = str(aresta.get("para", ""))
-
-                    if origem in ids_visiveis and destino in ids_visiveis:
-                        grafo.edge(
-                            origem,
-                            destino,
-                            label=str(aresta.get("tipo", ""))
-                        )
-
-                for evidencia in evidencias_relacoes:
-                    origem = ids_por_nome.get(evidencia["origem"])
-                    destino = ids_por_nome.get(evidencia["destino"])
-
-                    if origem and destino:
-                        grafo.edge(
-                            origem,
-                            destino,
-                            label=evidencia["relacao"],
-                            color="blue"
-                        )
-
-                st.graphviz_chart(
-                    grafo,
-                    use_container_width=True
+        # --- subgrafo: as entidades e relações dos fatos usados na resposta
+        st.subheader("Subgrafo utilizado")
+        if resposta.fatos:
+            citados = set(resposta.citados)
+            grafo = graphviz.Digraph()
+            grafo.attr(rankdir="LR")
+            for f in resposta.fatos:
+                grafo.node(f["origem_id"], label=f["origem"])
+                grafo.node(f["destino_id"], label=f["destino"])
+            for f in resposta.fatos:
+                destaque = f["ref"] in citados
+                grafo.edge(
+                    f["origem_id"], f["destino_id"], label=f"{f['relacao']} [{f['ref']}]",
+                    color="blue" if destaque else "gray", penwidth="2" if destaque else "1",
+                    fontcolor="blue" if destaque else "gray",
                 )
-            else:
-                st.info("Não há nós suficientes para desenhar o subgrafo.")
+            st.graphviz_chart(grafo, width="stretch")
+            st.caption("Fatos enviados ao LLM. Em azul, os citados na resposta.")
+        else:
+            st.info("Nenhum fato foi recuperado para esta pergunta.")
 
-            st.subheader("Entidades encontradas")
-
-            if entidades:
-                st.dataframe(entidades, use_container_width=True)
-            else:
-                st.info("Nenhuma entidade encontrada.")
-
-            st.subheader("Relações semânticas")
-
-            if relacoes_semanticas:
+        # --- detalhes
+        with st.expander("Todos os fatos enviados ao LLM"):
+            if resposta.fatos:
                 st.dataframe(
-                    relacoes_semanticas,
-                    use_container_width=True
+                    [{k: f.get(k) for k in ("ref", "origem", "relacao", "destino", "similaridade", "confianca", "documento")}
+                     for f in resposta.fatos],
+                    width="stretch",
                 )
             else:
-                st.info("Nenhuma relação semântica encontrada.")
+                st.info("Nenhum fato encontrado no subgrafo.")
+        with st.expander("Entidades encontradas pela busca híbrida"):
+            st.dataframe(
+                [n for n in (resultado.nos or []) if n.get("tipo") not in {"Chunk", "Documento"}], width="stretch"
+            )
+        with st.expander("Consulta Cypher gerada"):
+            st.code(resultado.cypher, language="cypher")
 
-            with st.expander("Evidências das relações semânticas", expanded=True):
-                if evidencias_relacoes:
-                    for evidencia in evidencias_relacoes:
-                        st.markdown(
-                            f"### {evidencia['origem']} → "
-                            f"{evidencia['relacao']} → "
-                            f"{evidencia['destino']}"
-                        )
-
-                        st.info(
-                            evidencia.get("evidencia")
-                            or "Sem descrição disponível."
-                        )
-
-                        col1, col2 = st.columns(2)
-
-                        with col1:
-                            st.metric(
-                                "Confiança da evidência",
-                                f"{evidencia.get('confianca', 0):.0%}"
-                            )
-
-                        with col2:
-                            st.caption(
-                                "Chunks: "
-                                + ", ".join(
-                                    evidencia.get("chunk_ids") or []
-                                )
-                            )
-
-                        st.divider()
-                else:
-                    st.info("Nenhuma evidência direta encontrada.")
-
-            with st.expander("Documentos e chunks utilizados como evidência"):
-                if evidencias:
-                    st.dataframe(evidencias, use_container_width=True)
-                else:
-                    st.info("Nenhuma evidência documental encontrada.")
-
-            with st.expander("Outras relações do grafo"):
-                if outras_relacoes:
-                    st.dataframe(
-                        outras_relacoes,
-                        use_container_width=True
-                    )
-                else:
-                    st.info("Nenhuma outra relação encontrada.")
-
-            with st.expander("Consultar código Cypher"):
-                st.code(resultado.cypher, language="cypher")
-
-        except Exception as erro:
-            st.error(f"Erro ao consultar o grafo: {erro}")
-
-        finally:
-            if executor is not None:
-                executor.fechar()
+    except Exception as erro:
+        st.error(f"Erro ao consultar o grafo: {erro}")
+    finally:
+        if executor is not None:
+            executor.fechar()
