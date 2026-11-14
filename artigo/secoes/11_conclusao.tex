@@ -1,14 +1,14 @@
 % =====================================================================
 % Conclusão
-% Responsável: Pessoa 1 (Maria Eduarda) — escrever depois da avaliação
-%
-% O que cobrir:
-% - Retomar o objetivo e resumir o que foi construído.
-% - Principais resultados, com números da Seção de Avaliação.
-% - Limitações (ex.: páginas curtas, extração depende do LLM, só português).
-% - Trabalhos futuros.
+% Responsável: Pessoa 1 (Maria Eduarda)
 % =====================================================================
 
 \section{Conclusão}
 
-\pendente{conclusão}
+Este trabalho apresentou um sistema GraphRAG sobre a história da computação, construído de ponta a ponta: a coleta de 147 artigos da Wikipédia em português, a extração de entidades e relações por LLM com validação por contrato, um grafo de propriedades no Neo4j com uma camada de conhecimento e uma camada de procedência, a recuperação híbrida com travessia \emph{multi-hop}, algoritmos de grafo e caminhos mínimos, a geração de respostas ancoradas em fatos citados e uma interface que mostra a evidência e o subgrafo de cada resposta.
+
+A extração mostrou-se confiável: na amostra de 150 relações avaliada, 94,0\% estavam corretas. Na comparação com um RAG apenas vetorial, o GraphRAG final obteve 70,8\% de acerto, contra 75,0\% da linha de base. A diferença é de meia resposta em 12 perguntas e é menor que a variação do próprio LLM entre execuções. O resultado mais claro é qualitativo: o grafo foi superior quando a resposta estava espalhada em documentos diferentes, e o RAG vetorial quando um único trecho continha a resposta completa. Os dois sistemas não citaram nenhuma fonte inexistente, e as afirmações sem suporte foram raras. No GraphRAG, porém, cada afirmação aponta para um fato do grafo com o trecho de origem, o que torna a verificação direta para o usuário.
+
+A avaliação também mostrou que, no GraphRAG, a qualidade da resposta depende mais da recuperação do que do grafo. Na primeira versão, o grafo já continha a maioria das respostas, mas elas não chegavam ao LLM, e o acerto foi de 23,6\%. A seleção por similaridade e os caminhos mínimos entre as entidades da pergunta elevaram o acerto para 70,8\% sem nenhuma mudança no grafo.
+
+Entre as limitações, destacam-se o conjunto pequeno de perguntas, elaboradas pelo próprio grupo, o julgamento feito por um LLM sem revisão humana completa, a dependência de um LLM na extração e o uso de um único idioma e domínio. Como trabalhos futuros, propõe-se ampliar o conjunto de perguntas e incluir revisão humana, melhorar a seleção de fatos em torno de entidades muito conectadas (os erros restantes concentram-se nesse ponto) e combinar as duas estratégias, entregando ao LLM tanto os fatos do grafo quanto os trechos mais similares, já que cada uma se mostrou superior em um tipo de pergunta.

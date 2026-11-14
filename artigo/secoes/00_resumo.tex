@@ -1,16 +1,14 @@
 % =====================================================================
 % Abstract e Resumo
-% Responsável: Pessoa 1 (Maria Eduarda) — escrever POR ÚLTIMO, depois
-% que os resultados estiverem prontos.
+% Responsável: Pessoa 1 (Maria Eduarda)
 %
-% Cada um com até 10 linhas: problema, o que foi feito, principal
-% resultado (com número) e conclusão.
+% Escritos com os números finais (rodada 3 da Seção de Avaliação).
 % =====================================================================
 
 \begin{abstract}
-\pendente{abstract in English, written last}
+Large language models answer questions fluently, but they may state unsupported facts, struggle with multi-hop questions and do not show where each claim comes from. This paper presents a GraphRAG system on the history of computing, built from 147 Portuguese Wikipedia articles. An LLM extracts entities and relations into a Neo4j labeled property graph with a provenance layer (5,095 nodes, 2,772 semantic relations). Questions are answered by hybrid retrieval (vector and full-text search, Cypher, multi-hop traversal and shortest paths), and every sentence of the answer must cite a graph fact, whose source text is shown in a Streamlit interface with an interactive subgraph. On 12 multi-hop questions judged by an independent LLM reviewer, the final GraphRAG scored 70.8\% against 75.0\% for a vector-only RAG baseline, with no invented citations. The graph was better on questions whose answer spans several documents, and the baseline when a single passage held the full answer.
 \end{abstract}
 
 \begin{resumo}
-\pendente{resumo em português, escrito por último}
+Modelos de linguagem respondem perguntas com fluência, mas podem fazer afirmações sem suporte, têm dificuldade com perguntas de vários saltos e não mostram de onde vem cada afirmação. Este artigo apresenta um sistema GraphRAG sobre a história da computação, construído a partir de 147 artigos da Wikipédia em português. Um LLM extrai entidades e relações para um grafo de propriedades no Neo4j com uma camada de procedência (5.095 nós e 2.772 relações semânticas). As perguntas são respondidas por recuperação híbrida (busca vetorial e textual, Cypher, travessia \emph{multi-hop} e caminhos mínimos), e cada frase da resposta precisa citar um fato do grafo, cuja evidência é exibida em uma interface Streamlit com o subgrafo interativo. Em 12 perguntas de vários saltos julgadas por um revisor independente, o GraphRAG final obteve 70,8\% de acerto, contra 75,0\% de um RAG apenas vetorial, sem citações inventadas. O grafo foi superior nas perguntas cuja resposta está espalhada em vários documentos, e o RAG vetorial quando um único trecho continha a resposta completa.
 \end{resumo}

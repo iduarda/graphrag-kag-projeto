@@ -320,3 +320,25 @@ def test_selecao_prefere_segundo_passo_a_mais_fatos_da_semente():
     escolhidos = g._selecionar(nucleo + [mais_um_da_semente, segundo_passo], limite=g.NUCLEO + 1,
                                sementes={"fairchild"})
     assert segundo_passo in escolhidos and mais_um_da_semente not in escolhidos
+
+
+def test_fatos_de_caminho_entre_entidades_citadas():
+    from src.grounding import fatos_de_caminho
+
+    ponte = {"origem_id": "pessoa:ken_thompson", "origem": "Ken Thompson", "relacao": "RECEBEU",
+             "destino_id": "premio:turing", "destino": "Prêmio Turing", "evidencia": "e", "confianca": 0.9}
+    ja = {"origem_id": "pessoa:ken_thompson", "origem": "Ken Thompson", "relacao": "TRABALHOU_EM",
+          "destino_id": "organizacao:bell_labs", "destino": "Bell Labs", "evidencia": "e", "confianca": 0.9}
+
+    class Ex:
+        pares = []
+
+        def ler(self, query, **params):
+            self.pares.append((params["a"], params["b"]))
+            return [ja, ponte]
+
+    ex = Ex()
+    extras = fatos_de_caminho(ex, ["organizacao:bell_labs", "premio:turing"], ja_escolhidos=[ja])
+    assert ex.pares == [("organizacao:bell_labs", "premio:turing")]
+    assert extras == [{**ponte, "caminho": True}]          # o fato repetido não entra de novo
+    assert fatos_de_caminho(ex, ["so_uma_entidade"]) == []  # precisa de pelo menos duas entidades

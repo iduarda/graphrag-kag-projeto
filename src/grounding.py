@@ -4,7 +4,8 @@ Grounding (ancoragem) das respostas no subgrafo recuperado — Pessoa 5.
 Fluxo:
   1. `recuperar_fatos`: sementes (entidades citadas pelo nome na pergunta + busca vetorial)
      -> expansão de até 2 saltos só pelas relações semânticas -> reordenação dos fatos pela
-     semelhança com a pergunta (embeddings), completando as cadeias de vários passos.
+     semelhança com a pergunta (embeddings), completando as cadeias de vários passos
+     -> + fatos dos menores caminhos entre as entidades citadas (algoritmo de grafo).
      Cada fato traz a evidência (trecho do texto), a confiança e o documento de origem,
      e é numerado [F1], [F2]...
   2. `responder_com_fatos`: o LLM recebe SOMENTE esses fatos e precisa citar [F#] em
@@ -101,6 +102,24 @@ RETURN a.id AS origem_id, a.nome AS origem, type(r) AS relacao, b.id AS destino_
 LIMIT $limite
 """
 
+# Menores caminhos (até 4 saltos, só relações semânticas) entre duas entidades citadas na pergunta.
+Q_CAMINHOS = f"""
+MATCH (a:Entidade {{id: $a}}), (b:Entidade {{id: $b}})
+MATCH caminho = allShortestPaths((a)-[:{'|'.join(RELACOES_SEMANTICAS)}*..4]-(b))
+WITH caminho LIMIT 10
+UNWIND relationships(caminho) AS r
+WITH DISTINCT r
+WHERE r.evidencia IS NOT NULL
+WITH r, startNode(r) AS x, endNode(r) AS y
+OPTIONAL MATCH (d:Documento)-[:TEM_CHUNK]->(c:Chunk {{id: r.chunk_ids[0]}})
+RETURN x.id AS origem_id, x.nome AS origem, type(r) AS relacao, y.id AS destino_id, y.nome AS destino,
+       r.evidencia AS evidencia, r.confianca AS confianca, r.chunk_ids AS chunk_ids,
+       d.titulo AS documento, d.url AS url,
+       coalesce(x.pagerank, 0.0) + coalesce(y.pagerank, 0.0) AS relevancia
+"""
+MAX_FATOS_CAMINHO = 8
+MAX_PARES_CAMINHO = 3
+
 Q_VETOR_ENTIDADES = """
 CALL db.index.vector.queryNodes('entidade_embedding', $k, $v) YIELD node, score
 WHERE EXISTS { (node)-[]-(:Entidade) }
@@ -188,7 +207,8 @@ def recuperar_fatos(
     Sementes: entidades citadas pelo nome na pergunta + as mais parecidas na busca vetorial
     + (opcional) entidades achadas pela busca híbrida.
     """
-    sementes = entidades_citadas(executor, pergunta)
+    citadas = entidades_citadas(executor, pergunta)
+    sementes = list(citadas)
     if embedder is not None:
         vetor = embedder.codificar_consulta(pergunta)
         linhas = executor.ler(Q_VETOR_ENTIDADES, k=MAX_SEMENTES_VETOR * 3, v=vetor) or []
@@ -199,7 +219,28 @@ def recuperar_fatos(
         return []
     candidatos = executor.ler(Q_EXPANDIR, sementes=sementes, limite=LIMITE_CANDIDATOS) or []
     escolhidos = _selecionar(_ordenar(candidatos, pergunta, embedder), limite, set(sementes))
+    escolhidos += fatos_de_caminho(executor, citadas, ja_escolhidos=escolhidos)
     return [{"ref": f"F{i}", **f} for i, f in enumerate(escolhidos, start=1)]
+
+
+def fatos_de_caminho(executor: Any, citadas: list[str], ja_escolhidos: list[dict] | None = None) -> list[dict]:
+    """Algoritmo de grafo no contexto: menores caminhos entre as entidades citadas na pergunta.
+
+    Para perguntas que ligam duas entidades ("ganhadores do Prêmio Turing que trabalharam no
+    Bell Labs"), os caminhos mínimos entre elas trazem exatamente as pontes (quem recebeu o
+    prêmio E trabalhou no Bell Labs). Os fatos do caminho são ACRESCENTADOS aos já escolhidos
+    (até MAX_FATOS_CAMINHO), marcados com "caminho": True.
+    """
+    vistos = {(f["origem_id"], f["relacao"], f["destino_id"]) for f in ja_escolhidos or []}
+    extras: list[dict] = []
+    pares = [(a, b) for i, a in enumerate(citadas) for b in citadas[i + 1:]][:MAX_PARES_CAMINHO]
+    for a, b in pares:
+        for f in executor.ler(Q_CAMINHOS, a=a, b=b) or []:
+            chave = (f["origem_id"], f["relacao"], f["destino_id"])
+            if chave not in vistos and len(extras) < MAX_FATOS_CAMINHO:
+                vistos.add(chave)
+                extras.append({**f, "caminho": True})
+    return extras
 
 
 def buscar_fatos(executor: Any, ids: list[str], limite: int = LIMITE_FATOS) -> list[dict]:

@@ -288,6 +288,7 @@ Ele calcula o **PageRank** (importância das entidades) e as comunidades **Louva
 1. escolhe as **sementes**: entidades citadas pelo nome na pergunta (ex.: "Unix", "Bell Labs") e as mais parecidas na busca vetorial;
 2. **expande** até 2 saltos, só pelas 14 relações semânticas (sem passar por chunks);
 3. **reordena** os fatos candidatos pela semelhança com a pergunta (embeddings E5) e escolhe 20, completando as cadeias de vários passos.
+4. acrescenta os fatos dos **menores caminhos** (até 4 saltos) entre as entidades citadas na pergunta, um algoritmo de grafo que traz as "pontes" entre elas (ex.: quem trabalhou no Bell Labs **e** recebeu o Prêmio Turing).
 
 Os fatos são numerados `[F1]`, `[F2]`... e o LLM só pode responder com eles, citando o fato de cada afirmação. As citações são conferidas: citações a fatos que não existem são removidas e a resposta é marcada como não verificada. Sem LLM configurado, a resposta lista os fatos mais relevantes, também citados.
 
@@ -297,7 +298,7 @@ Os fatos são numerados `[F1]`, `[F2]`... e o LLM só pode responder com eles, c
 python scripts/avaliar_sistema.py
 ```
 
-Mede acerto, respostas fundamentadas, frases sem citação e citações inventadas. Com `data/avaliacao/julgamento_llm.json` (revisor independente), o acerto e as afirmações sem suporte vêm do julgamento. A primeira rodada, com a recuperação original, está guardada em `data/avaliacao/rodada1_recuperacao_original/`. Resultado em `data/resultados/avaliacao_sistema.json`.
+Mede acerto, respostas fundamentadas, frases sem citação e citações inventadas. Com `data/avaliacao/julgamento_llm.json` (revisor independente), o acerto e as afirmações sem suporte vêm do julgamento. Os arquivos em `data/avaliacao/` são da rodada final (rodada 3, com caminhos mínimos); as rodadas anteriores estão em `data/avaliacao/rodada1_recuperacao_original/` e `data/avaliacao/rodada2_recuperacao_semantica/`. Resultado em `data/resultados/avaliacao_sistema.json`.
 
 **Sem chave de API** (como foi feito no projeto), a avaliação roda em três passos, com os mesmos prompts:
 
@@ -315,7 +316,7 @@ As respostas esperadas não vão para o arquivo de contextos, para não influenc
 streamlit run app.py
 ```
 
-Abre em `http://localhost:8501`. Para cada pergunta, mostra a resposta com as citações, as evidências de cada fato citado (trecho, documento com link para a Wikipédia e confiança da extração), o subgrafo com as relações citadas destacadas em azul e a consulta Cypher gerada.
+Abre em `http://localhost:8501`. Para cada pergunta, mostra a resposta com as citações, as evidências de cada fato citado (trecho, documento com link para a Wikipédia e confiança da extração), o **subgrafo interativo** (pyvis/vis.js: arrastar, zoom e evidência ao passar o mouse), com as relações citadas destacadas em azul, e a consulta Cypher gerada. A biblioteca do grafo vai embutida na página, então a interface funciona sem internet.
 
 ### LLM (resposta, Text-to-Cypher e avaliação)
 
@@ -385,7 +386,7 @@ _A preencher conforme o projeto avança (exigência do professor: toda bibliotec
 | [sentence-transformers](https://www.sbert.net/)                                                                                           | Geração dos embeddings                                 | Apache 2.0        |
 | [intfloat/multilingual-e5-base](https://huggingface.co/intfloat/multilingual-e5-base)                                                     | Modelo de embeddings (768 dim.)                        | MIT               |
 | [Streamlit](https://streamlit.io/)                                                                                                        | Interface web                                          | Apache 2.0        |
-| [graphviz (Python)](https://github.com/xflr6/graphviz)                                                                                    | Desenho do subgrafo na interface                       | MIT               |
+| [pyvis](https://github.com/WestHealth/pyvis) / [vis-network](https://visjs.github.io/vis-network/) | Subgrafo interativo na interface | BSD / Apache 2.0 e MIT |
 | [pytest](https://docs.pytest.org/)                                                                                                        | Testes automatizados                                   | MIT               |
 
 ---
@@ -404,6 +405,6 @@ _A preencher conforme o projeto avança (exigência do professor: toda bibliotec
 - [ ] Fase 4 — Código final, interface, artigo (SBC/IEEE) e defesa
   - [x] Interface com subgrafo e evidências
   - [x] Grounding com citações verificadas
-  - [x] Avaliação comparativa (GraphRAG 62,5% × RAG vetorial 75,0% de acerto; ver Seção 10 do artigo)
+  - [x] Avaliação comparativa (rodada final: GraphRAG 70,8% × RAG vetorial 75,0% de acerto, 0 citações inventadas; ver Seção 10 do artigo)
   - [ ] Artigo completo
   - [ ] Ensaio da apresentação

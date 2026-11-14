@@ -64,12 +64,13 @@ Os algoritmos operam sobre uma projeção em memória com os 2.574 nós \rot{Ent
 
 \subsection{Recuperação dos fatos para o LLM}
 
-A ancoragem começa pela escolha dos fatos que o LLM poderá usar. A primeira versão do sistema reaproveitava a expansão genérica da busca híbrida (Seção~\ref{sec:recuperacao}). Como ela percorria todas as relações do grafo, inclusive as da camada de procedência, e parava em poucos caminhos por semente, os fatos relevantes frequentemente ficavam de fora, como mostra a avaliação da Seção~\ref{sec:avaliacao}. A versão final (\texttt{recuperar\_fatos}) tem três etapas:
+A ancoragem começa pela escolha dos fatos que o LLM poderá usar. A primeira versão do sistema reaproveitava a expansão genérica da busca híbrida (Seção~\ref{sec:recuperacao}). Como ela percorria todas as relações do grafo, inclusive as da camada de procedência, e parava em poucos caminhos por semente, os fatos relevantes frequentemente ficavam de fora, como mostra a avaliação da Seção~\ref{sec:avaliacao}. A versão final (\texttt{recuperar\_fatos}) tem quatro etapas:
 
 \begin{enumerate}
   \item \textbf{Sementes}: as entidades cujo nome aparece na pergunta (por exemplo, ``Unix'' ou ``Bell Labs''), identificadas como palavra inteira, mais as três entidades mais próximas da pergunta no índice vetorial.
   \item \textbf{Expansão}: todos os fatos a até dois saltos das sementes, percorrendo apenas as 14 relações semânticas.
   \item \textbf{Seleção}: os fatos candidatos são ordenados pela similaridade de cosseno entre o embedding do fato (``origem, relação, destino e evidência'') e o da pergunta. Os 12 mais similares são escolhidos, e as vagas restantes, até 20, vão para fatos que continuam as cadeias a partir deles sem voltar às sementes. Essa última regra garante o segundo passo de perguntas multi-hop: em ``que empresa foi fundada por pessoas que trabalharam na Fairchild?'', o fato \emph{Robert Noyce \rel{TRABALHOU\_EM} Fairchild} puxa \emph{Robert Noyce \rel{FUNDOU} Intel}.
+  \item \textbf{Caminhos mínimos}: quando a pergunta cita duas ou mais entidades, os fatos de todos os menores caminhos entre elas (até quatro saltos, apenas relações semânticas) são acrescentados ao contexto, até oito fatos. Esse é o uso de um algoritmo de grafo para enriquecer diretamente o que o LLM recebe: em ``quais ganhadores do Prêmio Turing trabalharam no Bell Labs?'', os caminhos mínimos entre \emph{Bell Labs} e \emph{Prêmio Turing} são exatamente as pessoas que trabalharam em um e receberam o outro.
 \end{enumerate}
 
 \subsection{Geração ancorada e verificação das citações}

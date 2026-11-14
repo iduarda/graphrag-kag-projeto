@@ -11,8 +11,11 @@ Fluxo de uma pergunta:
   3. Visualização do subgrafo, dos fatos citados e do Cypher gerado.
 """
 
-import graphviz
+import html
+
 import streamlit as st
+import streamlit.components.v1 as components
+from pyvis.network import Network
 
 from src.embeddings import E5Embedder
 from src.grounding import responder
@@ -42,6 +45,34 @@ def carregar_embedder():
 @st.cache_resource
 def carregar_cliente_llm():
     return _client_llm()
+
+
+CORES_TIPO = {
+    "pessoa": "#4C78A8", "organizacao": "#F58518", "linguagem": "#54A24B", "hardware": "#B279A2",
+    "tecnologia": "#E45756", "premio": "#EECA3B", "local": "#9D755D",
+}
+
+
+def desenhar_subgrafo(fatos: list[dict], citados: set[str]) -> str:
+    """HTML interativo (vis.js via pyvis) do subgrafo de fatos enviados ao LLM."""
+    rede = Network(height="540px", width="100%", directed=True, cdn_resources="in_line", bgcolor="#ffffff")
+    rede.barnes_hut(gravity=-6000, spring_length=160)
+    for f in fatos:
+        for nid, nome in ((f["origem_id"], f["origem"]), (f["destino_id"], f["destino"])):
+            tipo = nid.split(":", 1)[0]
+            rede.add_node(nid, label=nome, title=f"{nome} ({tipo})", color=CORES_TIPO.get(tipo, "#888888"))
+    for f in fatos:
+        citado = f["ref"] in citados
+        rede.add_edge(
+            f["origem_id"], f["destino_id"],
+            label=f"{f['relacao']} [{f['ref']}]",
+            title=html.escape(f"[{f['ref']}] {f.get('evidencia') or ''}"),
+            color="#1f5fd1" if citado else "#bbbbbb",
+            width=3 if citado else 1,
+            dashes=bool(f.get("caminho")),
+            font={"size": 13, "color": "#1f5fd1" if citado else "#777777", "strokeWidth": 4, "strokeColor": "#ffffff"},
+        )
+    return rede.generate_html(notebook=False)
 
 
 # ----------------------------------------------------------------------------- barra lateral
@@ -127,24 +158,19 @@ if st.button("Buscar", type="primary"):
         else:
             st.info("Nenhum fato do grafo foi citado.")
 
-        # --- subgrafo: as entidades e relações dos fatos usados na resposta
+        # --- subgrafo interativo: as entidades e relações dos fatos usados na resposta
         st.subheader("Subgrafo utilizado")
         if resposta.fatos:
-            citados = set(resposta.citados)
-            grafo = graphviz.Digraph()
-            grafo.attr(rankdir="LR")
-            for f in resposta.fatos:
-                grafo.node(f["origem_id"], label=f["origem"])
-                grafo.node(f["destino_id"], label=f["destino"])
-            for f in resposta.fatos:
-                destaque = f["ref"] in citados
-                grafo.edge(
-                    f["origem_id"], f["destino_id"], label=f"{f['relacao']} [{f['ref']}]",
-                    color="blue" if destaque else "gray", penwidth="2" if destaque else "1",
-                    fontcolor="blue" if destaque else "gray",
-                )
-            st.graphviz_chart(grafo, width="stretch")
-            st.caption("Fatos enviados ao LLM. Em azul, os citados na resposta.")
+            st.caption(
+                "Arraste os nós e use a roda do mouse para dar zoom. Passe o mouse sobre uma relação para ver a "
+                "evidência. Em azul, as relações citadas na resposta; tracejadas, as que vieram do menor caminho "
+                "entre as entidades da pergunta."
+            )
+            html_subgrafo = desenhar_subgrafo(resposta.fatos, set(resposta.citados))
+            if hasattr(st, "iframe"):  # Streamlit novo
+                st.iframe(html_subgrafo, height=560)
+            else:  # versões antigas
+                components.html(html_subgrafo, height=560, scrolling=False)
         else:
             st.info("Nenhum fato foi recuperado para esta pergunta.")
 

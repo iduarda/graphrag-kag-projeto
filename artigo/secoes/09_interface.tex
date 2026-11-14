@@ -2,8 +2,7 @@
 % Interface e Explicabilidade
 % Responsável: Pessoa 6
 %
-% Implementação em app.py. Falta inserir uma captura de tela da
-% interface (ver \pendente abaixo).
+% Implementação em app.py. Captura de tela em artigo/figuras/.
 % =====================================================================
 
 \section{Interface e Explicabilidade}
@@ -15,10 +14,17 @@ A interface foi construída com Streamlit (\texttt{app.py}) e tem como objetivo 
   \item \textbf{Resposta}, com as citações \texttt{[F1]}, \texttt{[F2]}, \ldots{} no texto. Quando o sistema não encontra informação suficiente, a abstenção é destacada como aviso, e não como erro.
   \item \textbf{Indicadores}: o índice de confiança da recuperação, quantos dos fatos recebidos foram citados e se a fundamentação foi verificada. Se o LLM citar um fato inexistente, a interface informa que a citação foi removida.
   \item \textbf{Evidências}: para cada fato citado, a relação (origem, tipo e destino), o trecho da Wikipédia que a comprova, o documento de origem com link para a página, a confiança da extração e os identificadores dos trechos.
-  \item \textbf{Subgrafo}: desenho, gerado com Graphviz, das entidades e relações enviadas ao LLM. As relações citadas na resposta aparecem destacadas em azul, com o número do fato correspondente.
+  \item \textbf{Subgrafo interativo}: as entidades e relações enviadas ao LLM, renderizadas com a biblioteca vis.js (via pyvis). O usuário pode arrastar os nós e aproximar a imagem, e ao passar o mouse sobre uma relação vê a evidência textual correspondente. As entidades são coloridas por tipo, as relações citadas na resposta aparecem em azul com o número do fato, e as que vieram dos caminhos mínimos aparecem tracejadas. A biblioteca é embutida na própria página, de modo que a visualização funciona sem acesso à internet.
   \item \textbf{Detalhes}: a lista completa de fatos enviados ao LLM, com a similaridade de cada um com a pergunta, as entidades encontradas pela busca híbrida e a consulta Cypher gerada.
 \end{enumerate}
 
 Na barra lateral, o usuário escolhe o número de saltos da travessia e se a resposta deve ser gerada pelo LLM. Sem um LLM configurado, a interface continua funcional no modo extrativo, listando os fatos mais relevantes com suas citações. Essa escolha de projeto garante que a explicabilidade não dependa de um serviço externo: o caminho da pergunta até a evidência é sempre exibido.
 
-\pendente{inserir captura de tela da interface respondendo a uma pergunta multi-hop, por exemplo ``Que empresa foi fundada por pessoas que trabalharam na Fairchild Semiconductor?''}
+A Figura~\ref{fig:interface} mostra o subgrafo exibido para a pergunta ``Quais ganhadores do Prêmio Turing trabalharam no Bell Labs?''. As arestas tracejadas \emph{Ken Thompson}, \emph{Dennis Ritchie} e \emph{Jeffrey Ullman} \rel{TRABALHOU\_EM} \emph{Bell Labs} vieram da busca por caminhos mínimos entre as duas entidades citadas na pergunta. São justamente os fatos que completam a cadeia \emph{pessoa -- prêmio -- organização}.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\textwidth]{figuras/interface_subgrafo.png}
+\caption{Subgrafo interativo da interface para a pergunta ``Quais ganhadores do Prêmio Turing trabalharam no Bell Labs?''. Cores indicam o tipo da entidade; arestas tracejadas vêm dos caminhos mínimos; arestas em azul são as citadas na resposta.}
+\label{fig:interface}
+\end{figure}

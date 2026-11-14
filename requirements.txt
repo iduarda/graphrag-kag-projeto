@@ -13,4 +13,4 @@ sentence-transformers>=3.0   # embeddings (multilingual-e5-base); baixa ~1 GB de
 pytest>=8
 
 streamlit>=1.46
-graphviz>=0.20
+pyvis>=0.3.2   # subgrafo interativo (vis.js) na interface

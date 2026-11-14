@@ -1,19 +1,29 @@
 % =====================================================================
 % 2. Fundamentação Teórica e Trabalhos Relacionados
-% Responsável: Pessoa 4
-%
-% O que cobrir (cerca de 1 página):
-% - RAG tradicional (busca vetorial + LLM) e suas limitações
-%   \cite{lewis2020rag}.
-% - Grafos de conhecimento e o modelo de grafo de propriedades
-%   \cite{hogan2021kg,angles2018pg}.
-% - GraphRAG \cite{edge2024graphrag} e KAG \cite{liang2024kag}: o que
-%   cada um propõe e em que este trabalho se apoia.
-% - Diferença deste trabalho: domínio, idioma (português) e foco em
-%   procedência visível na interface.
-% As referências acima já estão em referencias.bib.
+% Responsável: Pessoa 4 (rascunho escrito para revisão)
 % =====================================================================
 
 \section{Fundamentação Teórica e Trabalhos Relacionados}
+\label{sec:fundamentacao}
 
-\pendente{fundamentação teórica e trabalhos relacionados}
+\subsection{Geração aumentada por recuperação}
+
+A geração aumentada por recuperação (\emph{Retrieval-Augmented Generation}, RAG) combina um modelo de linguagem com um mecanismo de busca: antes de gerar a resposta, o sistema recupera documentos relevantes para a pergunta e os fornece ao modelo como contexto \cite{lewis2020rag}. Com isso, a resposta pode se apoiar em informação externa ao modelo, atualizável sem novo treinamento, e as fontes usadas podem ser apresentadas ao usuário.
+
+Na forma mais difundida, os documentos são divididos em trechos, cada trecho é convertido em um vetor (\emph{embedding}) e a recuperação seleciona os trechos mais similares à pergunta. Essa abordagem funciona bem quando a resposta está concentrada em um trecho, mas tem limitações conhecidas: a similaridade vetorial não representa relações explícitas entre entidades, e perguntas cuja resposta depende de informações distribuídas em vários documentos podem não ter nenhum trecho individualmente similar o bastante para ser recuperado.
+
+\subsection{Grafos de conhecimento e o modelo de grafo de propriedades}
+
+Grafos de conhecimento representam o conhecimento como entidades (nós) ligadas por relações (arestas) com significado definido \cite{hogan2021kg}. No modelo de grafo de propriedades rotuladas (LPG), adotado por bancos como o Neo4j, nós e relações têm rótulos (tipos) e podem carregar propriedades na forma chave--valor \cite{angles2018pg,robinson2015graphdb}. Essa representação permite consultas que percorrem cadeias de relações, como ``pessoas que trabalharam na organização $X$ e criaram uma linguagem'', e permite guardar em cada relação metadados como a fonte de onde ela foi extraída.
+
+\subsection{GraphRAG e KAG}
+
+O GraphRAG, proposto por Edge et al. \cite{edge2024graphrag}, usa um LLM para extrair entidades e relações de um corpus, constrói um grafo de conhecimento, detecta comunidades de entidades com algoritmos de agrupamento e gera resumos para cada comunidade. Esses resumos permitem responder a perguntas globais sobre o corpus inteiro, que o RAG vetorial trata mal por dependerem de muitos documentos ao mesmo tempo.
+
+O KAG (\emph{Knowledge Augmented Generation}) \cite{liang2024kag} propõe integrar o grafo de conhecimento e os trechos de texto originais por meio de uma indexação mútua, de modo que cada fato do grafo remeta ao texto que o sustenta e vice-versa. O raciocínio é guiado por formas lógicas que decompõem a pergunta em passos, combinando consultas ao grafo e recuperação de texto, com foco em domínios profissionais nos quais a precisão e a rastreabilidade são essenciais.
+
+\subsection{Posicionamento deste trabalho}
+
+Este trabalho se apoia nas duas propostas. Do GraphRAG, adota a construção do grafo por extração com LLM e o uso de algoritmos de grafo, como a detecção de comunidades. Do KAG, adota a ligação explícita entre cada fato e o trecho de origem, representada no modelo pela camada de procedência (Seção~\ref{sec:modelagem}), e a ênfase em respostas verificáveis. O foco, porém, não são perguntas globais sobre o corpus, e sim perguntas factuais de vários saltos, respondidas a partir de um subgrafo local recuperado para cada pergunta.
+
+O trabalho se diferencia ainda por três aspectos: trata um corpus em português, com um modelo de embedding multilíngue \cite{wang2024me5}; restringe a extração e a recuperação a um esquema semântico fixo, que funciona como verificação das saídas do LLM; e torna a procedência visível na interface, com a citação de cada fato na resposta e a exibição da evidência textual correspondente.

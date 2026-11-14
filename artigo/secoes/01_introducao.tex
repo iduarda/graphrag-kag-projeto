@@ -1,20 +1,26 @@
 % =====================================================================
 % 1. Introdução
 % Responsável: Pessoa 1 (Maria Eduarda)
-%
-% O que cobrir (cerca de 1 página):
-% - Problema: LLMs alucinam, falham em raciocínio multi-hop e não
-%   mostram de onde tiraram a resposta.
-% - Por que grafos ajudam: conhecimento explícito, travessia de
-%   relações, procedência verificável.
-% - O que este trabalho faz: sistema GraphRAG/KAG sobre a história da
-%   computação, com Neo4j + LLM.
-% - Contribuições, em lista: (i) dataset, (ii) modelo LPG, (iii)
-%   pipeline Text-to-Graph, (iv) recuperação híbrida multi-hop,
-%   (v) interface com procedência, (vi) avaliação comparativa.
-% - Parágrafo final com a organização do artigo (seção 2 trata de...).
 % =====================================================================
 
 \section{Introdução}
 
-\pendente{introdução -- escrever depois que as seções técnicas estiverem prontas}
+Modelos de linguagem de grande porte (LLMs) tornaram-se capazes de responder perguntas em linguagem natural sobre praticamente qualquer assunto. Três limitações, porém, dificultam o seu uso quando a resposta precisa ser confiável: os modelos podem produzir afirmações plausíveis e falsas (alucinações), têm dificuldade em perguntas que exigem combinar várias informações (raciocínio \emph{multi-hop}) e não indicam de onde veio cada parte da resposta.
+
+A geração aumentada por recuperação (RAG) reduz parte desses problemas ao entregar ao LLM trechos de documentos relevantes para a pergunta. Na sua forma mais comum, porém, a recuperação é feita apenas por similaridade vetorial entre a pergunta e os trechos. Quando a resposta depende de informações espalhadas em documentos diferentes, como em ``que empresa foi fundada por pessoas que trabalharam na Fairchild Semiconductor?'', é comum que nenhum trecho isolado contenha a cadeia completa.
+
+Grafos de conhecimento oferecem uma alternativa. Ao representar entidades e relações de forma explícita, eles permitem percorrer a cadeia de fatos que liga a pergunta à resposta e associar cada fato ao trecho de texto de onde foi extraído. Essa é a ideia central das abordagens GraphRAG e KAG, que combinam grafos de conhecimento com LLMs para fundamentar as respostas em fatos verificáveis.
+
+Este trabalho apresenta o projeto, a implementação e a avaliação de um sistema GraphRAG sobre a história da computação. A partir de 147 artigos da Wikipédia em português, o sistema extrai entidades e relações com um LLM, armazena o conhecimento em um grafo de propriedades no Neo4j e responde a perguntas combinando busca vetorial, consultas Cypher e travessia do grafo. As respostas são geradas apenas a partir de fatos do grafo, cada afirmação cita o fato que a sustenta, e a interface exibe o subgrafo utilizado e a evidência textual de cada fato.
+
+As contribuições do trabalho são:
+\begin{itemize}
+  \item um \textbf{dataset} de 147 artigos interligados sobre a história da computação, coletado e documentado de forma reproduzível (Seção~\ref{sec:dataset});
+  \item um \textbf{modelo de grafo} com uma camada de conhecimento e uma camada de procedência, implementado no Neo4j com restrições e índices de três tipos (Seção~\ref{sec:modelagem});
+  \item um \textbf{pipeline Text-to-Graph} com extração por LLM, validação por contrato e resolução de entidades (Seções~\ref{sec:extracao} e~\ref{sec:ingestao});
+  \item uma \textbf{recuperação híbrida} com travessia \emph{multi-hop} e uso de algoritmos de grafo no contexto do LLM (Seções~\ref{sec:recuperacao} e~\ref{sec:grounding});
+  \item uma \textbf{interface} que torna visível a procedência de cada resposta (Seção~\ref{sec:interface});
+  \item uma \textbf{avaliação comparativa} com um RAG apenas vetorial, que mostra em que tipo de pergunta o grafo faz diferença e documenta como a análise dos erros levou à versão final da recuperação (Seção~\ref{sec:avaliacao}).
+\end{itemize}
+
+O restante do artigo está organizado da seguinte forma. A Seção~2 apresenta os conceitos e trabalhos relacionados. As Seções~3 e~4 descrevem o dataset e o modelo do grafo. As Seções~5 e~6 tratam da extração e da ingestão. As Seções~7 e~8 descrevem a recuperação e a ancoragem das respostas, e a Seção~9, a interface. A Seção~10 apresenta a avaliação, e a Seção~11 conclui o trabalho.
