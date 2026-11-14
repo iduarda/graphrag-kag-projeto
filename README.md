@@ -18,8 +18,8 @@ Sistema de Geração Aumentada por Recuperação baseado em grafos de conhecimen
 | _Anna Maria Albino_   | Extração de entidades e relações (NER/RE)                   |
 | _Milena Azevêdo_      | Pipeline de ingestão e resolução de entidades               |
 | _Eduarda Barros_      | Recuperação híbrida (vetorial + Cypher) e multi-hop         |
-| _Nome 5_              | Algoritmos de grafo, grounding e avaliação                  |
-| _Nome 6_              | Interface (Streamlit) e visualização do subgrafo            |
+| _Álvaro_              | Algoritmos de grafo, grounding e avaliação                  |
+| _Álvaro_              | Interface (Streamlit) e visualização do subgrafo            |
 
 ---
 
