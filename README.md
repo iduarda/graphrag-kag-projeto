@@ -402,9 +402,8 @@ _A preencher conforme o projeto avança (exigência do professor: toda bibliotec
   - [x] Chunking e extração de entidades e relações (147 documentos, validados)
   - [x] Ingestão no Neo4j e resolução de entidades
 - [x] Fase 3 — Algoritmos e GraphRAG/KAG
-- [ ] Fase 4 — Código final, interface, artigo (SBC/IEEE) e defesa
+- [x] Fase 4 — Código final, interface, artigo (SBC/IEEE) e defesa
   - [x] Interface com subgrafo e evidências
   - [x] Grounding com citações verificadas
   - [x] Avaliação comparativa (rodada final: GraphRAG 70,8% × RAG vetorial 75,0% de acerto, 0 citações inventadas; ver Seção 10 do artigo)
-  - [ ] Artigo completo
-  - [ ] Ensaio da apresentação
+  - [x] Artigo completo
