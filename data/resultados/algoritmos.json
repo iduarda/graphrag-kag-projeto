@@ -1,0 +1,378 @@
+{
+  "projecao": {
+    "graphName": "p5_semantico",
+    "nodeCount": 2574,
+    "relationshipCount": 3910
+  },
+  "pagerank_top15": [
+    {
+      "entidade": "Intel",
+      "rotulos": [
+        "Entidade",
+        "Organizacao"
+      ],
+      "importancia": 20.864019272090992
+    },
+    {
+      "entidade": "Digital Equipment Corporation",
+      "rotulos": [
+        "Entidade",
+        "Organizacao"
+      ],
+      "importancia": 17.424332219001204
+    },
+    {
+      "entidade": "John von Neumann",
+      "rotulos": [
+        "Entidade",
+        "Pessoa"
+      ],
+      "importancia": 16.51273207535242
+    },
+    {
+      "entidade": "Bell Labs",
+      "rotulos": [
+        "Entidade",
+        "Organizacao"
+      ],
+      "importancia": 13.175334407264355
+    },
+    {
+      "entidade": "AT&T",
+      "rotulos": [
+        "Entidade",
+        "Organizacao"
+      ],
+      "importancia": 12.055497449118072
+    },
+    {
+      "entidade": "Alan Turing",
+      "rotulos": [
+        "Entidade",
+        "Pessoa"
+      ],
+      "importancia": 10.715814113653478
+    },
+    {
+      "entidade": "Instituto de Tecnologia de Massachusetts",
+      "rotulos": [
+        "Entidade",
+        "Organizacao"
+      ],
+      "importancia": 9.417116257508274
+    },
+    {
+      "entidade": "Microsoft",
+      "rotulos": [
+        "Entidade",
+        "Organizacao"
+      ],
+      "importancia": 9.387564454626046
+    },
+    {
+      "entidade": "Texas Instruments",
+      "rotulos": [
+        "Entidade",
+        "Organizacao"
+      ],
+      "importancia": 9.313964497985285
+    },
+    {
+      "entidade": "Medalha de Honra IEEE",
+      "rotulos": [
+        "Entidade",
+        "Premio"
+      ],
+      "importancia": 8.917539960939862
+    },
+    {
+      "entidade": "Apple",
+      "rotulos": [
+        "Entidade",
+        "Organizacao"
+      ],
+      "importancia": 8.683144136090068
+    },
+    {
+      "entidade": "Tim Berners-Lee",
+      "rotulos": [
+        "Entidade",
+        "Pessoa"
+      ],
+      "importancia": 8.454643404534908
+    },
+    {
+      "entidade": "Paul Allen",
+      "rotulos": [
+        "Entidade",
+        "Pessoa"
+      ],
+      "importancia": 8.340547165673687
+    },
+    {
+      "entidade": "Intel 8086",
+      "rotulos": [
+        "Entidade",
+        "Hardware"
+      ],
+      "importancia": 8.274946414540077
+    },
+    {
+      "entidade": "Universidade de Cambridge",
+      "rotulos": [
+        "Entidade",
+        "Organizacao"
+      ],
+      "importancia": 8.176166989566616
+    }
+  ],
+  "total_comunidades": 1100,
+  "maiores_comunidades": [
+    {
+      "comunidade": 681,
+      "quantidade": 124,
+      "exemplos": [
+        "Bell Labs",
+        "Dennis Ritchie",
+        "Ken Thompson",
+        "Python",
+        "C",
+        "Bell Labs Fellow"
+      ]
+    },
+    {
+      "comunidade": 1567,
+      "quantidade": 100,
+      "exemplos": [
+        "Texas Instruments",
+        "Medalha de Honra IEEE",
+        "Prêmio Nobel de Física",
+        "William Bradford Shockley",
+        "Walter Houser Brattain",
+        "John Bardeen"
+      ]
+    },
+    {
+      "comunidade": 666,
+      "quantidade": 89,
+      "exemplos": [
+        "Apple",
+        "NeXT",
+        "Steve Jobs",
+        "Steve Wozniak",
+        "Macintosh",
+        "Motorola"
+      ]
+    },
+    {
+      "comunidade": 654,
+      "quantidade": 84,
+      "exemplos": [
+        "Digital Equipment Corporation",
+        "PDP-11",
+        "VAX",
+        "DEC Alpha",
+        "Lisp",
+        "StrongARM"
+      ]
+    },
+    {
+      "comunidade": 1464,
+      "quantidade": 82,
+      "exemplos": [
+        "Microsoft",
+        "Paul Allen",
+        "Bill Gates",
+        "BASIC",
+        "MITS",
+        "Seattle"
+      ]
+    },
+    {
+      "comunidade": 2436,
+      "quantidade": 76,
+      "exemplos": [
+        "Google",
+        "Hewlett-Packard",
+        "Douglas Engelbart",
+        "Universidade Stanford",
+        "Palo Alto",
+        "Universidade da Califórnia em Berkeley"
+      ]
+    },
+    {
+      "comunidade": 1094,
+      "quantidade": 76,
+      "exemplos": [
+        "Intel",
+        "Federico Faggin",
+        "Intel 4004",
+        "Intel 80286",
+        "Zilog",
+        "Intel 8080"
+      ]
+    },
+    {
+      "comunidade": 2265,
+      "quantidade": 74,
+      "exemplos": [
+        "Tim Berners-Lee",
+        "Prêmio Turing",
+        "Donald Knuth",
+        "Organização Europeia para a Investigação Nuclear",
+        "Charles Antony Richard Hoare",
+        "Barbara Liskov"
+      ]
+    },
+    {
+      "comunidade": 1164,
+      "quantidade": 72,
+      "exemplos": [
+        "Instituto de Tecnologia de Massachusetts",
+        "Claude Shannon",
+        "Marvin Minsky",
+        "Universidade Harvard",
+        "John McCarthy",
+        "Richard Stallman"
+      ]
+    },
+    {
+      "comunidade": 1685,
+      "quantidade": 66,
+      "exemplos": [
+        "Fairchild Semiconductor",
+        "Gordon Moore",
+        "Robert Noyce",
+        "Shockley Semiconductor Laboratory",
+        "Mountain View",
+        "Oracle Corporation"
+      ]
+    }
+  ],
+  "caminhos": [
+    {
+      "origem": "Alan Turing",
+      "destino": "Linus Torvalds",
+      "caminho": [
+        "Alan Turing",
+        "Bell Labs",
+        "C",
+        "Linux",
+        "Linus Torvalds"
+      ],
+      "custo": 4.0,
+      "passos": [
+        {
+          "origem": "Alan Turing",
+          "relacao": "TRABALHOU_EM",
+          "destino": "Bell Labs",
+          "evidencia": "Após seu trabalho no Bell Labs nos Estados Unidos"
+        },
+        {
+          "origem": "Bell Labs",
+          "relacao": "DESENVOLVEU",
+          "destino": "C",
+          "evidencia": "seus pesquisadores desenvolveram a radioastronomia, o transistor, o laser, a célula fotovoltaica, o dispositivo de carga acoplada, ou CCD, a teoria da informação, o sistema operacional Unix e as linguagens de programação B, C, C++, S, SNOBOL, AWK e AMPL"
+        },
+        {
+          "origem": "Linux",
+          "relacao": "ESCRITO_EM",
+          "destino": "C",
+          "evidencia": "O Linux é escrito na versão da linguagem de programação C suportada pelo GCC"
+        },
+        {
+          "origem": "Linus Torvalds",
+          "relacao": "CRIOU",
+          "destino": "Linux",
+          "evidencia": "O núcleo (kernel) Linux foi concebido e criado em 1991 por Linus Torvalds"
+        }
+      ]
+    },
+    {
+      "origem": "Grace Hopper",
+      "destino": "Python",
+      "caminho": [
+        "Grace Hopper",
+        "Medalha Nacional de Tecnologia e Inovação",
+        "Ken Thompson",
+        "Go",
+        "Python"
+      ],
+      "custo": 4.0,
+      "passos": [
+        {
+          "origem": "Grace Hopper",
+          "relacao": "RECEBEU",
+          "destino": "Medalha Nacional de Tecnologia e Inovação",
+          "evidencia": "Em 1991 recebeu uma Medalha Nacional de Tecnologia"
+        },
+        {
+          "origem": "Ken Thompson",
+          "relacao": "RECEBEU",
+          "destino": "Medalha Nacional de Tecnologia e Inovação",
+          "evidencia": "Em 21 de abril de 1999, Thompson e Ritchie receberam juntamente a Medalha Nacional de Tecnologia e Inovação"
+        },
+        {
+          "origem": "Ken Thompson",
+          "relacao": "CRIOU",
+          "destino": "Go",
+          "evidencia": "onde co-inventou a linguagem de programação Go"
+        },
+        {
+          "origem": "Go",
+          "relacao": "INFLUENCIADA_POR",
+          "destino": "Python",
+          "evidencia": "Go, que se baseia nos princípios de desenvolvimento rápido de Python"
+        }
+      ]
+    },
+    {
+      "origem": "Dennis Ritchie",
+      "destino": "Steve Jobs",
+      "caminho": [
+        "Dennis Ritchie",
+        "Medalha Nacional de Tecnologia e Inovação",
+        "Steve Jobs"
+      ],
+      "custo": 2.0,
+      "passos": [
+        {
+          "origem": "Dennis Ritchie",
+          "relacao": "RECEBEU",
+          "destino": "Medalha Nacional de Tecnologia e Inovação",
+          "evidencia": "Em 21 de abril de 1999, Thompson e Ritchie receberam juntamente a Medalha Nacional de Tecnologia e Inovação"
+        },
+        {
+          "origem": "Steve Jobs",
+          "relacao": "RECEBEU",
+          "destino": "Medalha Nacional de Tecnologia e Inovação",
+          "evidencia": "1985: Medalha Nacional de Tecnologia e Inovação (com Steve Wozniak)."
+        }
+      ]
+    },
+    {
+      "origem": "Tim Berners-Lee",
+      "destino": "Bill Gates",
+      "caminho": [
+        "Tim Berners-Lee",
+        "Ordem do Império Britânico",
+        "Bill Gates"
+      ],
+      "custo": 2.0,
+      "passos": [
+        {
+          "origem": "Tim Berners-Lee",
+          "relacao": "RECEBEU",
+          "destino": "Ordem do Império Britânico",
+          "evidencia": "Berners-Lee recebeu o título de cavaleiro da Ordem do Império Britânico na lista de condecorações do Ano-Novo de 2004"
+        },
+        {
+          "origem": "Bill Gates",
+          "relacao": "RECEBEU",
+          "destino": "Ordem do Império Britânico",
+          "evidencia": "Gates também foi condecorado por duas ordens de cavalaria: a Ordem do Império Britânico, em 2005"
+        }
+      ]
+    }
+  ]
+}

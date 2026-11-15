@@ -22,7 +22,10 @@ MAX_SEMENTES = 3
 
 # Relações e rótulos conhecidos do grafo (usados no prompt do LLM).
 ROTULOS = ["Pessoa", "Organizacao", "Linguagem", "Hardware", "Tecnologia", "Premio", "Local"]
-RELACOES = ["TRABALHOU_EM", "CRIOU", "ESTUDOU_EM"]
+RELACOES = [
+    "TRABALHOU_EM", "ESTUDOU_EM", "FUNDOU", "CRIOU", "DESENVOLVEU", "INFLUENCIADA_POR", "ESCRITO_EM",
+    "EXECUTA_EM", "UTILIZA", "SUCESSOR_DE", "RECEBEU", "COLABOROU_COM", "NASCEU_EM", "SEDIADA_EM",
+]
 
 # Procedimentos CALL de leitura permitidos (índices vetorial e fulltext).
 _CALLS_PERMITIDOS = {
@@ -194,7 +197,7 @@ def _client_llm(provedor: str | None = None, modelo: str | None = None):
         try:
             import anthropic
 
-            return anthropic.Anthropic(api_key=api_key), modelo
+            return anthropic.Anthropic(api_key=api_key, timeout=60, max_retries=1), modelo
         except Exception:
             return None
 
@@ -204,7 +207,7 @@ def _client_llm(provedor: str | None = None, modelo: str | None = None):
     try:
         import openai
 
-        return openai.OpenAI(api_key=api_key), modelo
+        return openai.OpenAI(api_key=api_key, timeout=60, max_retries=1), modelo
     except Exception:
         return None
 

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "q01_rag_vetorial",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "A resposta afirma que C, C++ e B foram desenvolvidas no Bell Labs, e cada uma dessas afirmações aparece em C1, C2, C3 ou C5."
+  },
+  {
+    "id": "q02_rag_vetorial",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "A resposta afirma que Ken Thompson e Dennis Ritchie receberam o prêmio, e os outros premiados que cita também aparecem em C2 e C1."
+  },
+  {
+    "id": "q03_rag_vetorial",
+    "acerto": 0.5,
+    "veredito": "parcial",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "A resposta afirma o Intel 8080, mas diz expressamente que os trechos não informam que a Intel desenvolveu o processador, então não afirma o segundo item."
+  },
+  {
+    "id": "q04_rag_vetorial",
+    "acerto": 0.0,
+    "veredito": "abstencao",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "A resposta diz que os trechos não dão o nome da empresa de Noyce e Moore e cita a Intel só de passagem, como empresa em que houve investimento, sem afirmá-la como resposta."
+  },
+  {
+    "id": "q05_rag_vetorial",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "A resposta afirma que o Unix foi reescrito em C e que Dennis Ritchie criou o C, com apoio em C4 e C3."
+  },
+  {
+    "id": "q06_rag_vetorial",
+    "acerto": 0.5,
+    "veredito": "parcial",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "A resposta afirma só o PDP-7. O PDP-11 não aparece no contexto deste item, e a resposta declara que não há outros computadores citados."
+  },
+  {
+    "id": "q07_rag_vetorial",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [
+      "As características de C foram obtidas da linguagem B 'segundo Ken Thompson' (C2 atribui a Thompson apenas a afirmação de que B era uma versão reduzida de BCPL)"
+    ],
+    "citacao_errada": [],
+    "comentario": "A resposta afirma que Ken Thompson criou a linguagem B, que precedeu o C, como diz C3, mas atribui a Thompson uma afirmação que C2 não lhe atribui."
+  },
+  {
+    "id": "q08_rag_vetorial",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "A resposta afirma Robert Kahn e Vint Cerf como quem desenvolveu o TCP/IP, como diz C5."
+  },
+  {
+    "id": "q09_rag_vetorial",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "A resposta afirma que Tim Berners-Lee trabalhou no CERN, o que C1 e C2 sustentam."
+  },
+  {
+    "id": "q10_rag_vetorial",
+    "acerto": 0.0,
+    "veredito": "abstencao",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "A resposta declara que não há informação suficiente e não afirma nenhum dos pesquisadores esperados."
+  },
+  {
+    "id": "q11_rag_vetorial",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "A resposta afirma a GUI, a Ethernet e o Alto como desenvolvidos no PARC, e as afirmações têm apoio em C1, C2, C3, C4 e C5."
+  },
+  {
+    "id": "q12_rag_vetorial",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [
+      "O Python foi influenciado pela ABC (a própria resposta reconhece que os trechos não dizem isso)"
+    ],
+    "citacao_errada": [],
+    "comentario": "A resposta afirma o Python como a linguagem de Guido van Rossum, mas a influência da ABC é uma inferência sem apoio no contexto."
+  },
+  {
+    "id": "q01_graphrag",
+    "acerto": 0.0,
+    "veredito": "incorreta",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "A resposta dá AMPL (e AWK, de passagem) como resposta. Cita C e C++ só como 'desenvolvidas pelo Bell Labs' e diz que não dá para ligá-las a pessoas, por isso não afirma nenhum dos itens esperados (C, C++, B)."
+  },
+  {
+    "id": "q02_graphrag",
+    "acerto": 0.0,
+    "veredito": "incorreta",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "A resposta afirma Jeffrey Ullman como o único ganhador confirmado. Diz que não pode afirmar Ken Thompson e nem menciona Dennis Ritchie, então nenhum item esperado é afirmado."
+  },
+  {
+    "id": "q03_graphrag",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "Afirma o Intel 8080 [F1] e a Intel como desenvolvedora [F13], ambos sustentados pelo contexto."
+  },
+  {
+    "id": "q04_graphrag",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "Afirma a Intel com Noyce e Moore, citações corretas. O acréscimo da Zilog via Faggin também tem suporte em [F7] e [F17]."
+  },
+  {
+    "id": "q05_graphrag",
+    "acerto": 0.5,
+    "veredito": "parcial",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "Afirma C [F4], mas diz não saber quem criou C, embora a evidência de [F6] diga que Ritchie criou as linguagens B e C. Por isso o item Ritchie fica sem acerto."
+  },
+  {
+    "id": "q06_graphrag",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [],
+    "citacao_errada": [
+      "O Unix foi executado no PDP-7 e no PDP-11 [F1][F2]"
+    ],
+    "comentario": "Afirma o PDP-7 e o PDP-11, sustentados por [F13] e [F15]. Porém a primeira frase cita [F1][F2], que só tratam da criação do Unix."
+  },
+  {
+    "id": "q07_graphrag",
+    "acerto": 0.0,
+    "veredito": "abstencao",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "Declara que não há informação suficiente e não afirma Ken Thompson."
+  },
+  {
+    "id": "q08_graphrag",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [
+      "TCP e IP são componentes do TCP/IP"
+    ],
+    "citacao_errada": [],
+    "comentario": "Afirma Robert Kahn e Vint Cerf com citações corretas. Só a caracterização de TCP e IP como componentes do TCP/IP não está no contexto."
+  },
+  {
+    "id": "q09_graphrag",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "Afirma que Tim Berners-Lee trabalhou no CERN, o que as evidências de [F5] e [F6] sustentam."
+  },
+  {
+    "id": "q10_graphrag",
+    "acerto": 0.0,
+    "veredito": "abstencao",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "Declara que não há informação sobre outros pesquisadores em Princeton e não afirma nenhum item esperado."
+  },
+  {
+    "id": "q11_graphrag",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "Afirma a Ethernet, o Xerox Alto e a GUI com citações corretas ([F1], [F2], [F4])."
+  },
+  {
+    "id": "q12_graphrag",
+    "acerto": 1.0,
+    "veredito": "correta",
+    "sem_suporte": [],
+    "citacao_errada": [],
+    "comentario": "Afirma Python, com suporte em [F5] e [F3]."
+  }
+]

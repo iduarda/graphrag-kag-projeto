@@ -1,3 +1,15 @@
+"""
+Algoritmos de grafo com o Neo4j Graph Data Science (Pessoa 5).
+
+- PageRank: importância das entidades. É gravado em cada nó (`pagerank`) e usado
+  pelo grounding (src/grounding.py) para priorizar os fatos mais centrais no
+  contexto enviado ao LLM.
+- Louvain: comunidades de entidades relacionadas, gravadas em `comunidade`.
+- Dijkstra: menor caminho entre duas entidades, usado para explicar como elas se ligam.
+
+A projeção é NÃO DIRECIONADA: para responder "como X se liga a Y" o caminho pode
+seguir as relações nos dois sentidos (ex.: Turing <-ESTUDOU_EM- ... ).
+"""
 
 RELACOES_SEMANTICAS = [
     "TRABALHOU_EM",
@@ -16,8 +28,14 @@ RELACOES_SEMANTICAS = [
     "SEDIADA_EM",
 ]
 
+NOME_PADRAO = "p5_semantico"
 
-def criar_projecao(ex, nome_grafo="p5_semantico"):
+
+def _projecao_relacoes() -> dict:
+    return {tipo: {"orientation": "UNDIRECTED"} for tipo in RELACOES_SEMANTICAS}
+
+
+def criar_projecao(ex, nome_grafo=NOME_PADRAO):
     existente = ex.ler(
         "CALL gds.graph.exists($nome) YIELD exists RETURN exists",
         nome=nome_grafo,
@@ -31,27 +49,38 @@ def criar_projecao(ex, nome_grafo="p5_semantico"):
 
     return ex.ler(
         """
-        CALL gds.graph.project(
-            $nome,
-            'Entidade',
-            $relacoes
-        )
+        CALL gds.graph.project($nome, 'Entidade', $relacoes)
         YIELD graphName, nodeCount, relationshipCount
         RETURN graphName, nodeCount, relationshipCount
         """,
         nome=nome_grafo,
-        relacoes=RELACOES_SEMANTICAS,
+        relacoes=_projecao_relacoes(),
     )
 
 
-def executar_pagerank(ex, limite=10, nome_grafo="p5_semantico"):
+def gravar_pagerank(ex, nome_grafo=NOME_PADRAO):
+    """Grava o PageRank de cada entidade na propriedade `pagerank`."""
+    ex.escrever(
+        "CALL gds.pageRank.write($nome, {writeProperty: 'pagerank'}) YIELD nodePropertiesWritten RETURN nodePropertiesWritten",
+        nome=nome_grafo,
+    )
+
+
+def gravar_louvain(ex, nome_grafo=NOME_PADRAO):
+    """Grava a comunidade (Louvain) de cada entidade na propriedade `comunidade`."""
+    ex.escrever(
+        "CALL gds.louvain.write($nome, {writeProperty: 'comunidade'}) YIELD communityCount RETURN communityCount",
+        nome=nome_grafo,
+    )
+
+
+def executar_pagerank(ex, limite=10, nome_grafo=NOME_PADRAO):
     return ex.ler(
         """
         CALL gds.pageRank.stream($nome)
         YIELD nodeId, score
-        RETURN
-            gds.util.asNode(nodeId).nome AS entidade,
-            score AS importancia
+        WITH gds.util.asNode(nodeId) AS n, score
+        RETURN n.nome AS entidade, labels(n) AS rotulos, score AS importancia
         ORDER BY importancia DESC
         LIMIT $limite
         """,
@@ -60,16 +89,18 @@ def executar_pagerank(ex, limite=10, nome_grafo="p5_semantico"):
     )
 
 
-def executar_louvain(ex, limite=10, nome_grafo="p5_semantico"):
+def executar_louvain(ex, limite=10, nome_grafo=NOME_PADRAO):
     return ex.ler(
         """
         CALL gds.louvain.stream($nome)
         YIELD nodeId, communityId
-        WITH communityId, collect(gds.util.asNode(nodeId).nome) AS entidades
+        WITH communityId, gds.util.asNode(nodeId) AS n
+        ORDER BY coalesce(n.pagerank, 0.0) DESC
+        WITH communityId, collect(n.nome) AS entidades
         RETURN
             communityId AS comunidade,
             size(entidades) AS quantidade,
-            entidades[0..5] AS exemplos
+            entidades[0..6] AS exemplos
         ORDER BY quantidade DESC
         LIMIT $limite
         """,
@@ -78,21 +109,15 @@ def executar_louvain(ex, limite=10, nome_grafo="p5_semantico"):
     )
 
 
-def executar_dijkstra(ex, origem, destino, nome_grafo="p5_semantico"):
+def executar_dijkstra(ex, origem, destino, nome_grafo=NOME_PADRAO):
     resultados = ex.ler(
         """
         MATCH (a:Entidade {nome: $origem})
-        CALL {
-            WITH a
-            MATCH (b:Entidade {nome: $destino})
-            RETURN id(b) AS targetNode
-        }
+        MATCH (b:Entidade {nome: $destino})
+        WITH a, b LIMIT 1
         CALL gds.shortestPath.dijkstra.stream(
             $nome,
-            {
-                sourceNode: id(a),
-                targetNode: targetNode
-            }
+            {sourceNode: a, targetNode: b}
         )
         YIELD totalCost, nodeIds
         RETURN
@@ -108,6 +133,26 @@ def executar_dijkstra(ex, origem, destino, nome_grafo="p5_semantico"):
         return {"caminho": [], "custo": None}
 
     return resultados[0]
+
+
+def explicar_caminho(ex, caminho):
+    """Para cada par vizinho do caminho, a relação que os liga e a evidência."""
+    passos = []
+    for a, b in zip(caminho, caminho[1:]):
+        linhas = ex.ler(
+            """
+            MATCH (x:Entidade {nome: $a})-[r]-(y:Entidade {nome: $b})
+            WHERE r.evidencia IS NOT NULL
+            RETURN startNode(r).nome AS origem, type(r) AS relacao, endNode(r).nome AS destino,
+                   r.evidencia AS evidencia
+            ORDER BY r.confianca DESC LIMIT 1
+            """,
+            a=a,
+            b=b,
+        )
+        if linhas:
+            passos.append(linhas[0])
+    return passos
 
 
 def buscar_evidencias_relacao(ex, origem, destino):

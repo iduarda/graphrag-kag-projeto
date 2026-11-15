@@ -2,18 +2,93 @@
 % Avaliação e Resultados
 % Responsável: Pessoa 5
 %
-% O que cobrir:
-% - Conjunto de perguntas de teste (quantas, quantos saltos cada uma). Ver exemplos em docs/modelo_lpg.md.
-% - Comparação GraphRAG x RAG só vetorial: acertos, alucinações, respostas com fonte.
-% - Qualidade das relações extraídas comparada ao Wikidata (usar os wikidata_id do dataset, Seção 3).
-% - Tabela de resultados e discussão: onde o grafo ajudou, onde falhou.
-%
-% Dicas: use \rot{Pessoa} para rótulos e \rel{CRIOU} para relações.
-% Cite com \cite{chave} (chaves em referencias.bib). Ao terminar,
-% apague o \pendente abaixo.
+% Dados em data/avaliacao/ (rodada 3, final),
+% data/avaliacao/rodada2_recuperacao_semantica/ e
+% data/avaliacao/rodada1_recuperacao_original/.
+% Métricas calculadas por scripts/pontuar_respostas.py.
 % =====================================================================
 
 \section{Avaliação e Resultados}
 \label{sec:avaliacao}
 
-\pendente{avaliação e resultados}
+A avaliação compara o sistema GraphRAG com uma linha de base de RAG apenas vetorial, para verificar se a recuperação pelo grafo melhora as respostas a perguntas de vários saltos e se reduz afirmações sem suporte.
+
+\subsection{Metodologia}
+
+\paragraph{Perguntas.} Foram elaboradas 12 perguntas sobre o domínio (\texttt{data/avaliacao/perguntas\_multihop.json}), das quais 10 exigem combinar duas informações, como ``em que linguagem o Unix foi escrito e quem criou essa linguagem?'', e 2 são de um salto, usadas como controle. Cada pergunta tem uma lista de respostas esperadas (por exemplo, \emph{C} e \emph{Dennis Ritchie}). Todas as respostas esperadas são fatos históricos verificados e estão presentes no texto do corpus.
+
+\paragraph{Sistemas comparados.} Os dois sistemas usam o mesmo LLM, as mesmas regras (responder só com o contexto, citar a fonte de cada afirmação e declarar quando a informação não for suficiente) e diferem apenas no contexto:
+\begin{itemize}
+  \item \textbf{RAG vetorial}: os cinco trechos (\emph{chunks}) mais similares à pergunta no índice vetorial, numerados \texttt{[C1]}--\texttt{[C5]};
+  \item \textbf{GraphRAG}: os fatos recuperados do grafo (Seção~\ref{sec:grounding}), cada um com sua evidência, numerados \texttt{[F1]}, \texttt{[F2]}, \ldots{}: 20 fatos selecionados por similaridade e, quando a pergunta cita duas entidades, até 8 fatos dos caminhos mínimos entre elas (de 20 a 26 fatos por pergunta na rodada final).
+\end{itemize}
+
+\paragraph{Geração das respostas.} Como o grupo não dispunha de chave de API, os prompts completos foram exportados (\texttt{scripts/exportar\_contextos.py}) e respondidos pelo Claude Sonnet 5.5 em sessão interativa, o mesmo modelo usado na extração (Seção~\ref{sec:extracao}). Cada prompt foi respondido por uma instância independente do modelo, que recebeu apenas aquele prompt, sem acesso às respostas esperadas, às demais perguntas ou ao contexto do outro sistema.
+
+\paragraph{Julgamento.} Cada resposta foi julgada por um revisor independente, uma instância do Claude Opus 5.5 que recebeu a pergunta, as respostas esperadas, o contexto entregue ao sistema e a resposta. O revisor atribuiu um \emph{acerto} (fração das respostas esperadas efetivamente afirmadas como resposta), um veredito (correta, parcial, incorreta ou abstenção) e listou as \emph{afirmações sem suporte}, isto é, afirmações não sustentadas pelo contexto recebido, mesmo que verdadeiras. Essa última medida é a que corresponde à alucinação em relação às fontes. Uma primeira contagem automática, que apenas verificava se o nome esperado aparecia no texto, foi descartada: ela contava como acerto respostas que citavam o nome justamente para dizer que não havia informação sobre ele.
+
+\paragraph{Três rodadas.} A avaliação foi repetida a cada mudança na recuperação do GraphRAG, sempre com as mesmas perguntas e o mesmo procedimento. A rodada 1 usou a primeira versão da recuperação de fatos. A rodada 2 introduziu a recuperação por sementes, expansão semântica e seleção por similaridade. A rodada 3, final, acrescentou os fatos dos caminhos mínimos entre as entidades citadas na pergunta. O RAG vetorial recebeu exatamente os mesmos trechos nas três rodadas, de modo que as suas variações medem apenas a variação do LLM entre execuções.
+
+\subsection{Resultados}
+
+A Tabela~\ref{tab:avaliacao} resume as três rodadas.
+
+\begin{table}[ht]
+\centering
+\caption{Resultados da avaliação (12 perguntas, julgamento por revisor independente). R1, R2 e R3 são as rodadas; a rodada 3 é a versão final do sistema.}
+\label{tab:avaliacao}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lcccccc}
+\toprule
+ & \multicolumn{3}{c}{\textbf{RAG vetorial}} & \multicolumn{3}{c}{\textbf{GraphRAG}} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+ & R1 & R2 & \textbf{R3} & R1 & R2 & \textbf{R3} \\
+\midrule
+Acerto médio & 79,2\% & 75,0\% & \textbf{75,0\%} & 23,6\% & 62,5\% & \textbf{70,8\%} \\
+Corretas & 9 & 8 & \textbf{9} & 2 & 7 & \textbf{8} \\
+Parciais & 1 & 2 & \textbf{0} & 2 & 1 & \textbf{1} \\
+Abstenções & 2 & 2 & \textbf{3} & 7 & 2 & \textbf{2} \\
+Incorretas & 0 & 0 & \textbf{0} & 1 & 2 & \textbf{1} \\
+Afirm. sem suporte & 2 & 2 & \textbf{1} & 1 & 1 & \textbf{1} \\
+Citações inexistentes & 0 & 0 & \textbf{0} & 0 & 0 & \textbf{0} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Evolução do GraphRAG.} Na rodada 1, o GraphRAG acertou apenas 23,6\% e se absteve em 7 das 12 perguntas. A inspeção dos contextos mostrou que o grafo continha as respostas (por exemplo, \emph{Unix \rel{ESCRITO\_EM} C}), mas a recuperação não as entregava ao LLM. Com a recuperação por sementes, expansão semântica e seleção por similaridade (rodada 2), o acerto subiu para 62,5\%, e as abstenções caíram para 2. Os caminhos mínimos (rodada 3) levaram o acerto a 70,8\%. O efeito aparece na q02 (``Quais ganhadores do Prêmio Turing trabalharam no Bell Labs?''), que passou de 0 para 1: os fatos \emph{Ken Thompson} e \emph{Dennis Ritchie} \rel{TRABALHOU\_EM} \emph{Bell Labs} existiam no grafo, mas ficavam fora da seleção por similaridade, e entraram no contexto como parte dos caminhos entre \emph{Prêmio Turing} e \emph{Bell Labs} (Figura~\ref{fig:interface}).
+
+\paragraph{Comparação com o RAG vetorial.} Na rodada final, o RAG vetorial (75,0\%) ainda ficou à frente do GraphRAG (70,8\%), uma diferença de meia resposta em 12. A diferença depende do tipo de pergunta, como mostra a Tabela~\ref{tab:por-pergunta}. O GraphRAG foi superior nas perguntas cuja resposta está espalhada em páginas diferentes: a empresa fundada por ex-funcionários da Fairchild (q04) e os computadores em que o Unix rodou (q06). Nesses casos, os trechos recuperados pelo RAG vetorial cobriam só parte da cadeia, e o sistema se abstinha. Já o RAG vetorial foi superior quando um único trecho contém a resposta completa, como as linguagens criadas no Bell Labs (q01), que aparecem listadas em uma única frase da página do Bell Labs.
+
+\begin{table}[ht]
+\centering
+\caption{Acerto por pergunta. RAG: rodada 3; GraphRAG: rodadas 2 e 3.}
+\label{tab:por-pergunta}
+\small
+\begin{tabularx}{\textwidth}{lXccc}
+\toprule
+ & \textbf{Pergunta (resumida)} & \textbf{RAG} & \textbf{GraphRAG R2} & \textbf{GraphRAG R3} \\
+\midrule
+q01 & Linguagens criadas por pessoas do Bell Labs & 1,0 & 0,0 & 0,0 \\
+q02 & Ganhadores do Prêmio Turing que trabalharam no Bell Labs & 1,0 & 0,0 & 1,0 \\
+q03 & Processador do Altair 8800 e empresa que o desenvolveu & 1,0 & 1,0 & 1,0 \\
+q04 & Empresa fundada por ex-funcionários da Fairchild & 0,0 & 1,0 & 1,0 \\
+q05 & Linguagem do Unix e seu criador & 1,0 & 0,5 & 0,5 \\
+q06 & Computadores em que o Unix foi executado & 0,0 & 1,0 & 1,0 \\
+q07 & Criador da linguagem que influenciou a C & 1,0 & 0,0 & 0,0 \\
+q08 & Criadores do TCP/IP & 1,0 & 1,0 & 1,0 \\
+q09 & Organização em que trabalhou o criador da Web & 1,0 & 1,0 & 1,0 \\
+q10 & Outros pesquisadores que estudaram em Princeton & 0,0 & 0,0 & 0,0 \\
+q11 & Tecnologias desenvolvidas no Xerox PARC & 1,0 & 1,0 & 1,0 \\
+q12 & Linguagem de Guido van Rossum influenciada pela ABC & 1,0 & 1,0 & 1,0 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\paragraph{Fundamentação.} Em nenhuma das rodadas os sistemas citaram fontes inexistentes, e as afirmações sem suporte foram raras (no máximo 2 por sistema em 12 respostas). Na rodada final, a afirmação sem suporte do RAG vetorial foi a conclusão de que o Python foi influenciado pela ABC, inferida do fato de Guido van Rossum ter trabalhado na ABC, sem que os trechos dissessem isso. No GraphRAG, a resposta correspondente se apoiou em um fato explícito do grafo (\emph{Python \rel{INFLUENCIADA\_POR} ABC}). A afirmação sem suporte do GraphRAG foi a de que nenhum fato indicava o criador da linguagem C (q05), quando a evidência de um dos fatos dizia que Ritchie a criou. Ou seja, o erro foi de omissão, e não uma informação inventada. Em todas as abstenções e respostas parciais, o modelo declarou o que faltava em vez de completar com conhecimento próprio.
+
+\subsection{Análise dos erros e limitações}
+
+Os erros restantes do GraphRAG concentram-se em duas causas. A primeira é a seleção dos fatos em torno de entidades muito conectadas. Na q10, os fatos de Alan Turing com a Universidade de Cambridge ocuparam o espaço dos colegas de Princeton. Na q07, o grafo contém a cadeia completa (\emph{C \rel{INFLUENCIADA\_POR} B} e \emph{Ken Thompson \rel{CRIOU} B}), mas ela não ficou entre os fatos escolhidos. Os fatos em que a C influencia outras linguagens, como Java e Python, foram considerados mais similares à pergunta, embora apontem na direção oposta. Os caminhos mínimos não ajudam nesses dois casos, já que cada pergunta cita uma única entidade. A segunda causa é o conservadorismo do LLM diante de relações próximas, mas não idênticas, à pergunta. Na q01, o grafo tinha \emph{Bell Labs \rel{DESENVOLVEU} C}, mas a pergunta pedia linguagens criadas por pessoas, e o modelo, corretamente pelas regras, não fez essa ligação. Na q05, a evidência de um fato mencionava que Ritchie criou a linguagem C, mas a relação extraída indicava apenas a linguagem B, e o modelo não usou a informação.
+
+A avaliação tem limitações que devem ser consideradas na leitura dos números. O conjunto tem apenas 12 perguntas, elaboradas pelo próprio grupo, e uma diferença de uma resposta muda o acerto em mais de 8 pontos percentuais. O julgamento foi feito por um LLM, ainda que independente da geração, sem revisão humana completa. Por fim, as respostas do LLM variam entre execuções: o RAG vetorial recebeu os mesmos trechos nas três rodadas e ainda assim teve acerto entre 75,0\% e 79,2\%. Na q06, por exemplo, ele afirmou o PDP-7 na rodada 2 e se absteve na rodada 3, com o mesmo contexto. Uma variação dessa ordem é maior que a diferença final entre os dois sistemas, que portanto não pode ser considerada significativa com este conjunto de perguntas.

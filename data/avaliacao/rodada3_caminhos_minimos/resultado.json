@@ -1,0 +1,622 @@
+{
+  "modelo_llm": "claude-sonnet-5-5 (sessão interativa, um agente independente por prompt)",
+  "modo": "sessao_interativa",
+  "resumo": {
+    "rag_vetorial": {
+      "perguntas": 12,
+      "acerto_medio_pct": 75.0,
+      "respostas_corretas": 9,
+      "respostas_fundamentadas_pct": 100.0,
+      "frases_sem_citacao_pct": 12.8,
+      "citacoes_invalidas": 0,
+      "abstencoes": 3,
+      "erros": 0,
+      "incorretas": 0,
+      "respostas_com_afirmacao_sem_suporte": 1,
+      "afirmacoes_sem_suporte": 1
+    },
+    "graphrag": {
+      "perguntas": 12,
+      "acerto_medio_pct": 70.8,
+      "respostas_corretas": 8,
+      "respostas_fundamentadas_pct": 100.0,
+      "frases_sem_citacao_pct": 10.4,
+      "citacoes_invalidas": 0,
+      "abstencoes": 2,
+      "erros": 0,
+      "incorretas": 1,
+      "respostas_com_afirmacao_sem_suporte": 1,
+      "afirmacoes_sem_suporte": 1
+    }
+  },
+  "detalhes": [
+    {
+      "id": "q01",
+      "pergunta": "Quais linguagens de programação foram criadas por pessoas que trabalharam no Bell Labs?",
+      "saltos": 2,
+      "rag_vetorial": {
+        "texto": "Segundo os trechos, pesquisadores do Bell Labs desenvolveram as linguagens B, C, C++, S, SNOBOL, AWK e AMPL, entre outras tecnologias [C3]. A C e a C++ também aparecem entre as tecnologias desenvolvidas no Bell Laboratories [C5]. A C++ foi desenvolvida por Bjarne Stroustrup, do Bell Labs, como extensão da linguagem C [C1][C2]. A AMPL foi criada por Robert Fourer, David M. Gay e Brian Kernighan no Bell Laboratories em 1985 [C1].",
+        "citadas": [
+          "C3",
+          "C5",
+          "C1",
+          "C2"
+        ],
+        "invalidas": [],
+        "contexto": 5,
+        "abstencao": false,
+        "acerto": 1.0,
+        "correta": true,
+        "fundamentada": true,
+        "frases_sem_citacao": 0.2,
+        "acerto_por_nome": 1.0,
+        "veredito": "correta",
+        "sem_suporte": [],
+        "citacao_errada": [],
+        "comentario_revisor": "A resposta afirma B, C e C++ como linguagens desenvolvidas por pesquisadores do Bell Labs, como diz C3. As demais afirmações, sobre Stroustrup e a AMPL, têm apoio em C1, C2 e C5."
+      },
+      "graphrag": {
+        "texto": "Segundo os fatos, a linguagem de modelagem AMPL foi criada por Brian Kernighan, David M. Gay e Robert Fourer, que a desenvolveram no Bell Laboratories [F7][F8][F9]. Kernighan também é co-autor da linguagem AWK [F18]. O Bell Labs, como instituição, desenvolveu as linguagens C e C++ [F1][F2], mas os fatos não dizem quais pessoas as criaram nem que elas trabalharam lá. Por isso não dá para atribuí-las a indivíduos específicos. O único fato sobre uma pessoa que trabalhou no Bell Labs sem ser autor dessas linguagens é o de Alan Turing, que criou a Bombe, e não uma linguagem de programação [F12][F19].",
+        "citadas": [
+          "F7",
+          "F8",
+          "F9",
+          "F18",
+          "F1",
+          "F2",
+          "F12",
+          "F19"
+        ],
+        "invalidas": [],
+        "contexto": 20,
+        "abstencao": false,
+        "acerto": 0.0,
+        "correta": false,
+        "fundamentada": true,
+        "frases_sem_citacao": 0.333,
+        "cypher": "MATCH (n:Entidade) WHERE toLower(n.nome) CONTAINS 'bell labs' RETURN n.id AS id, n.nome AS nome, labels(n) AS labels LIMIT 5",
+        "acerto_por_nome": 0.667,
+        "veredito": "incorreta",
+        "sem_suporte": [],
+        "citacao_errada": [],
+        "comentario_revisor": "A resposta cita C e C++ só para dizer que não dá para atribuí-las a pessoas que trabalharam no Bell Labs, então não as afirma. B não aparece, e a resposta dá AMPL e AWK, que não estão no gabarito. As afirmações feitas têm suporte no contexto."
+      }
+    },
+    {
+      "id": "q02",
+      "pergunta": "Quais ganhadores do Prêmio Turing trabalharam no Bell Labs?",
+      "saltos": 2,
+      "rag_vetorial": {
+        "texto": "Segundo os trechos, pesquisadores do Bell Labs receberam o Prêmio Turing em cinco edições [C2]. Os laureados dessas edições foram Richard Hamming (1968), Ken Thompson e Dennis Ritchie (1983), Robert Tarjan (1986), Yann LeCun (2018) e Alfred Aho e Jeffrey Ullman (2020) [C2]. Os trechos confirmam que Aho e Ullman trabalharam juntos no Bell Labs entre 1967 e 1969 [C1]. Os trechos não dizem se John Hopcroft, Yoshua Bengio e Geoffrey Hinton, que dividiram prêmios com Tarjan e LeCun, trabalharam no Bell Labs [C2].",
+        "citadas": [
+          "C2",
+          "C1"
+        ],
+        "invalidas": [],
+        "contexto": 5,
+        "abstencao": false,
+        "acerto": 1.0,
+        "correta": true,
+        "fundamentada": true,
+        "frases_sem_citacao": 0.0,
+        "acerto_por_nome": 1.0,
+        "veredito": "correta",
+        "sem_suporte": [],
+        "citacao_errada": [],
+        "comentario_revisor": "A resposta afirma Ken Thompson e Dennis Ritchie (1983) entre os pesquisadores do Bell Labs premiados com o Turing, conforme C2. Ela também lista os outros laureados, todos com apoio em C1 e C2."
+      },
+      "graphrag": {
+        "texto": "Ken Thompson recebeu o Prêmio Turing [F5] e trabalhou no Bell Labs [F23]. Dennis Ritchie recebeu o Prêmio Turing [F21] e trabalhou no Bell Labs [F22]. Alfred Aho recebeu o Prêmio Turing [F24] e trabalhou no Bell Labs [F25]. Jeffrey Ullman recebeu o Prêmio Turing [F8] e trabalhou no Bell Labs [F26]. Portanto, os ganhadores do Prêmio Turing que trabalharam no Bell Labs são Ken Thompson, Dennis Ritchie, Alfred Aho e Jeffrey Ullman [F5][F23][F21][F22][F24][F25][F8][F26].",
+        "citadas": [
+          "F5",
+          "F23",
+          "F21",
+          "F22",
+          "F24",
+          "F25",
+          "F8",
+          "F26"
+        ],
+        "invalidas": [],
+        "contexto": 26,
+        "abstencao": false,
+        "acerto": 1.0,
+        "correta": true,
+        "fundamentada": true,
+        "frases_sem_citacao": 0.0,
+        "cypher": "MATCH (n:Entidade) WHERE toLower(n.nome) CONTAINS 'bell labs' RETURN n.id AS id, n.nome AS nome, labels(n) AS labels LIMIT 5",
+        "acerto_por_nome": 1.0,
+        "veredito": "correta",
+        "sem_suporte": [],
+        "citacao_errada": [],
+        "comentario_revisor": "A resposta afirma Ken Thompson e Dennis Ritchie com as citações corretas. Também inclui Alfred Aho e Jeffrey Ullman, e os dois têm suporte nos fatos F24, F25, F8 e F26."
+      }
+    },
+    {
+      "id": "q03",
+      "pergunta": "Qual processador o Altair 8800 utiliza e qual empresa desenvolveu esse processador?",
+      "saltos": 2,
+      "rag_vetorial": {
+        "texto": "O Altair 8800 utiliza a CPU Intel 8080 [C1]. Portanto, o processador foi desenvolvido pela Intel [C3]. Os trechos mostram que a Intel forneceu o 8080 a Roberts, projetista do Altair, e o vendia normalmente por $360 [C3].",
+        "citadas": [
+          "C1",
+          "C3"
+        ],
+        "invalidas": [],
+        "contexto": 5,
+        "abstencao": false,
+        "acerto": 1.0,
+        "correta": true,
+        "fundamentada": true,
+        "frases_sem_citacao": 0.0,
+        "acerto_por_nome": 1.0,
+        "veredito": "correta",
+        "sem_suporte": [],
+        "citacao_errada": [
+          "O processador foi desenvolvido pela Intel [C3]"
+        ],
+        "comentario_revisor": "A resposta afirma o Intel 8080 e a Intel, e ambos aparecem no contexto. Porém C3 só diz que a Intel forneceu e vendia o 8080, sem dizer que o desenvolveu; essa autoria só se deduz do nome 'CPU Intel 8080' em C1."
+      },
+      "graphrag": {
+        "texto": "O Altair 8800 utiliza o processador Intel 8080 [F1]. Esse processador foi desenvolvido pela Intel [F13].",
+        "citadas": [
+          "F1",
+          "F13"
+        ],
+        "invalidas": [],
+        "contexto": 20,
+        "abstencao": false,
+        "acerto": 1.0,
+        "correta": true,
+        "fundamentada": true,
+        "frases_sem_citacao": 0.0,
+        "cypher": "MATCH (n:Entidade) WHERE toLower(n.nome) CONTAINS 'qual processador' RETURN n.id AS id, n.nome AS nome, labels(n) AS labels LIMIT 5",
+        "acerto_por_nome": 1.0,
+        "veredito": "correta",
+        "sem_suporte": [],
+        "citacao_errada": [],
+        "comentario_revisor": "A resposta afirma o Intel 8080 [F1] e a Intel como desenvolvedora [F13], com as citações adequadas."
+      }
+    },
+    {
+      "id": "q04",
+      "pergunta": "Que empresa foi fundada por pessoas que trabalharam na Fairchild Semiconductor?",
+      "saltos": 2,
+      "rag_vetorial": {
+        "texto": "Não encontrei no grafo informação suficiente para responder qual empresa específica foi fundada por ex-funcionários da Fairchild; falta um trecho que nomeie a empresa criada por Noyce e Moore. Os trechos dizem que Noyce decidiu sair para lançar a sua própria empresa, junto com Gordon Moore, co-fundador da Fairchild, mas não informam o nome dela [C2]. Dizem também que boa parte dos fundadores deixou a Fairchild na década de 1960 para criar empresas, apelidadas de \"fairchildren\", sem nomeá-las [C4]. A Intel aparece apenas como empresa da qual cinco dos fundadores da Fairchild eram investidores, o que não afirma que eles a tenham fundado [C4].",
+        "citadas": [
+          "C2",
+          "C4"
+        ],
+        "invalidas": [],
+        "contexto": 5,
+        "abstencao": true,
+        "acerto": 0.0,
+        "correta": false,
+        "fundamentada": true,
+        "frases_sem_citacao": 0.0,
+        "acerto_por_nome": 1.0,
+        "veredito": "abstencao",
+        "sem_suporte": [],
+        "citacao_errada": [],
+        "comentario_revisor": "A resposta começa com a frase de abstenção e cita a Intel apenas como empresa em que fundadores da Fairchild investiram, sem afirmar que eles a fundaram. As afirmações correspondem a C2 e C4."
+      },
+      "graphrag": {
+        "texto": "A Intel foi fundada por Robert Noyce e Gordon Moore [F15][F16], e ambos trabalharam na Fairchild Semiconductor [F4][F8]. A Zilog foi fundada por Federico Faggin [F17], que também trabalhou na Fairchild Semiconductor [F7]. Portanto, as empresas fundadas por pessoas que trabalharam na Fairchild Semiconductor foram a Intel e a Zilog [F15][F16][F17][F4][F8][F7].",
+        "citadas": [
+          "F15",
+          "F16",
+          "F4",
+          "F8",
+          "F17",
+          "F7"
+        ],
+        "invalidas": [],
+        "contexto": 20,
+        "abstencao": false,
+        "acerto": 1.0,
+        "correta": true,
+        "fundamentada": true,
+        "frases_sem_citacao": 0.0,
+        "cypher": "MATCH (n:Entidade) WHERE toLower(n.nome) CONTAINS 'fairchild semiconductor' RETURN n.id AS id, n.nome AS nome, labels(n) AS labels LIMIT 5",
+        "acerto_por_nome": 1.0,
+        "veredito": "correta",
+        "sem_suporte": [],
+        "citacao_errada": [],
+        "comentario_revisor": "A resposta afirma a Intel, fundada por Noyce e Moore, que trabalharam na Fairchild. A Zilog, que ela também menciona, tem suporte em F17 e F7."
+      }
+    },
+    {
+      "id": "q05",
+      "pergunta": "Em que linguagem o Unix foi escrito e quem criou essa linguagem?",
+      "saltos": 2,
+      "rag_vetorial": {
+        "texto": "O Unix foi inicialmente escrito em linguagem de montagem (assembly), quando Ken Thompson começou a reescrever o Multics como Unics em um PDP-7 [C4]. Em 1973, Dennis Ritchie e Ken Thompson reescreveram o Unix na linguagem C, para um computador PDP-11 [C4]. A linguagem C foi criada por Dennis Ritchie, para substituir e superar as limitações da linguagem B, desenvolvida por Thompson [C4][C3].",
+        "citadas": [
+          "C4",
+          "C3"
+        ],
+        "invalidas": [],
+        "contexto": 5,
+        "abstencao": false,
+        "acerto": 1.0,
+        "correta": true,
+        "fundamentada": true,
+        "frases_sem_citacao": 0.0,
+        "acerto_por_nome": 1.0,
+        "veredito": "correta",
+        "sem_suporte": [],
+        "citacao_errada": [],
+        "comentario_revisor": "A resposta afirma que o Unix foi reescrito em C e que Dennis Ritchie criou a linguagem C, com apoio em C4 e C3. A versão inicial em assembly também tem apoio em C4."
+      },
+      "graphrag": {
+        "texto": "O Unix foi escrito em C [F4]. Essa linguagem foi criada nos Bell Labs, que a desenvolveram [F19]. Os fatos fornecidos não indicam nenhum criador individual de C. Eles só indicam que Dennis Ritchie criou a linguagem B [F6] e que Dennis Ritchie e Ken Thompson criaram o Unix [F1][F2].",
+        "citadas": [
+          "F4",
+          "F19",
+          "F6",
+          "F1",
+          "F2"
+        ],
+        "invalidas": [],
+        "contexto": 20,
+        "abstencao": false,
+        "acerto": 0.5,
+        "correta": false,
+        "fundamentada": true,
+        "frases_sem_citacao": 0.25,
+        "cypher": "MATCH (p:Pessoa)-[:CRIOU]->(l:Linguagem) WHERE toLower(p.nome) CONTAINS 'que linguagem o unix foi escrito e quem criou essa linguagem' RETURN p.id AS pessoa_id, p.nome AS pessoa, l.id AS linguagem_id, l.nome AS linguagem LIMIT 5",
+        "acerto_por_nome": 1.0,
+        "veredito": "parcial",
+        "sem_suporte": [
+          "Os fatos fornecidos não indicam nenhum criador individual de C"
+        ],
+        "citacao_errada": [],
+        "comentario_revisor": "A resposta afirma C corretamente, mas diz que nenhum criador individual de C aparece nos fatos. Isso é falso: a evidência de F6 diz que Ritchie criou as linguagens B e C."
+      }
+    },
+    {
+      "id": "q06",
+      "pergunta": "Em quais computadores foi executado o sistema operacional criado por Ken Thompson e Dennis Ritchie?",
+      "saltos": 2,
+      "rag_vetorial": {
+        "texto": "Não encontrei no grafo informação suficiente para responder: os trechos dizem que Ritchie e Thompson criaram o Unix, mas citam apenas um computador, o PDP-7, e só como a máquina em que Thompson desenvolveu os primeiros programas e o sistema operacional [C4]. Não há nada sobre outros computadores em que o Unix tenha sido executado depois disso. Também não há confirmação de que o PDP-7 foi a máquina em que o Unix rodou como sistema concluído. Os trechos informam ainda que o Unix foi escrito em C por Ritchie e Thompson [C5], mas isso não indica em quais máquinas ele foi executado. Falta a informação sobre as plataformas de hardware que executaram o Unix.",
+        "citadas": [
+          "C4",
+          "C5"
+        ],
+        "invalidas": [],
+        "contexto": 5,
+        "abstencao": true,
+        "acerto": 0.0,
+        "correta": false,
+        "fundamentada": true,
+        "frases_sem_citacao": 0.75,
+        "acerto_por_nome": 0.5,
+        "veredito": "abstencao",
+        "sem_suporte": [],
+        "citacao_errada": [],
+        "comentario_revisor": "A resposta se abstém. Cita o PDP-7, mas diz explicitamente que não há confirmação de que o Unix rodou nele, e não menciona o PDP-11, que também não aparece no contexto. As afirmações têm apoio em C4 e C5."
+      },
+      "graphrag": {
+        "texto": "O sistema operacional criado por Ken Thompson e Dennis Ritchie foi o Unix [F1][F2]. Esse Unix foi executado no PDP-7, a máquina para a qual foi originalmente escrito [F13]. Ele também foi executado no PDP-11 [F15].",
+        "citadas": [
+          "F1",
+          "F2",
+          "F13",
+          "F15"
+        ],
+        "invalidas": [],
+        "contexto": 20,
+        "abstencao": false,
+        "acerto": 1.0,
+        "correta": true,
+        "fundamentada": true,
+        "frases_sem_citacao": 0.0,
+        "cypher": "MATCH (n:Entidade) WHERE toLower(n.nome) CONTAINS 'dennis ritchie' RETURN n.id AS id, n.nome AS nome, labels(n) AS labels LIMIT 5",
+        "acerto_por_nome": 1.0,
+        "veredito": "correta",
+        "sem_suporte": [],
+        "citacao_errada": [],
+        "comentario_revisor": "A resposta afirma o PDP-7 [F13] e o PDP-11 [F15], ambos com citação correta."
+      }
+    },
+    {
+      "id": "q07",
+      "pergunta": "Quem criou a linguagem que influenciou a linguagem C?",
+      "saltos": 2,
+      "rag_vetorial": {
+        "texto": "A linguagem que influenciou C foi a B, pois as características de C foram obtidas a partir dela [C2]. A B foi predecessora da linguagem C [C3]. Ela foi majoritariamente um trabalho de Ken Thompson, com contribuições de Dennis Ritchie [C3]. Portanto, quem a criou foi principalmente Ken Thompson [C3].",
+        "citadas": [
+          "C2",
+          "C3"
+        ],
+        "invalidas": [],
+        "contexto": 5,
+        "abstencao": false,
+        "acerto": 1.0,
+        "correta": true,
+        "fundamentada": true,
+        "frases_sem_citacao": 0.0,
+        "acerto_por_nome": 1.0,
+        "veredito": "correta",
+        "sem_suporte": [],
+        "citacao_errada": [],
+        "comentario_revisor": "A resposta identifica B como a linguagem que deu origem a C e Ken Thompson como seu principal criador, com apoio em C2 e C3."
+      },
+      "graphrag": {
+        "texto": "Não encontrei no grafo informação suficiente para responder: nenhum fato indica qual linguagem influenciou a C, nem quem criou essa linguagem. Faltam uma relação do tipo \"C -INFLUENCIADA_POR-> (alguma linguagem)\" e um fato \"(criador) -CRIOU-> (essa linguagem)\". Os fatos mostram apenas que Dennis Ritchie criou a C [F1], e que a C influenciou outras linguagens, como Java [F2] e Python [F12]. A linguagem B aparece só na evidência de [F1], como a que a C substituiu, sem relação de influência nem criador registrados.",
+        "citadas": [
+          "F1",
+          "F2",
+          "F12"
+        ],
+        "invalidas": [],
+        "contexto": 20,
+        "abstencao": true,
+        "acerto": 0.0,
+        "correta": false,
+        "fundamentada": true,
+        "frases_sem_citacao": 0.333,
+        "cypher": "MATCH (p:Pessoa)-[:CRIOU]->(l:Linguagem) WHERE toLower(p.nome) CONTAINS 'criou a linguagem que influenciou a linguagem c' RETURN p.id AS pessoa_id, p.nome AS pessoa, l.id AS linguagem_id, l.nome AS linguagem LIMIT 5",
+        "acerto_por_nome": 0.0,
+        "veredito": "abstencao",
+        "sem_suporte": [],
+        "citacao_errada": [],
+        "comentario_revisor": "A resposta se abstém e não afirma Ken Thompson. O contexto de fato não tem relação de influência sobre C nem um criador de B, só a menção a B na evidência de F1."
+      }
+    },
+    {
+      "id": "q08",
+      "pergunta": "Quem criou o protocolo TCP/IP?",
+      "saltos": 1,
+      "rag_vetorial": {
+        "texto": "Os protocolos TCP/IP foram desenvolvidos para a ARPANET pelos cientistas da computação Robert Kahn e Vint Cerf. [C5] Eles incorporaram conceitos do projeto francês CYCLADES, dirigido por Louis Pouzin. [C5] Segundo outro trecho, o TCP/IP foi desenvolvido pela agência de pesquisa do Departamento de Defesa dos EUA (ARPA/DARPA) como recurso para o projeto experimental ARPANET. [C3] A ARPANET, por sua vez, foi financiada inicialmente pela ARPA, do Departamento de Defesa dos Estados Unidos. [C5]",
+        "citadas": [
+          "C5",
+          "C3"
+        ],
+        "invalidas": [],
+        "contexto": 5,
+        "abstencao": false,
+        "acerto": 1.0,
+        "correta": true,
+        "fundamentada": true,
+        "frases_sem_citacao": 0.0,
+        "acerto_por_nome": 1.0,
+        "veredito": "correta",
+        "sem_suporte": [],
+        "citacao_errada": [],
+        "comentario_revisor": "A resposta afirma Robert Kahn e Vint Cerf como criadores do TCP/IP, conforme C5. As informações sobre CYCLADES e ARPA têm apoio em C3 e C5."
+      },
+      "graphrag": {
+        "texto": "TCP/IP foi criado por Robert Kahn e Vint Cerf, que aparecem como criadores do protocolo [F1][F2]. Os dois também desenvolveram juntos o TCP, que faz parte do conjunto [F6][F7][F12]. Além deles, a Agência de Projetos de Pesquisa Avançada de Defesa (DARPA) é registrada como a organização que desenvolveu o TCP/IP [F3]. Vint Cerf também é apontado como criador do IP [F4].",
+        "citadas": [
+          "F1",
+          "F2",
+          "F6",
+          "F7",
+          "F12",
+          "F3",
+          "F4"
+        ],
+        "invalidas": [],
+        "contexto": 20,
+        "abstencao": false,
+        "acerto": 1.0,
+        "correta": true,
+        "fundamentada": true,
+        "frases_sem_citacao": 0.0,
+        "cypher": "MATCH (n:Entidade) WHERE toLower(n.nome) CONTAINS 'quem criou' RETURN n.id AS id, n.nome AS nome, labels(n) AS labels LIMIT 5",
+        "acerto_por_nome": 1.0,
+        "veredito": "correta",
+        "sem_suporte": [],
+        "citacao_errada": [],
+        "comentario_revisor": "A resposta afirma Robert Kahn e Vint Cerf [F1][F2]. Os acréscimos sobre a DARPA, o TCP e o IP têm suporte e citação correta."
+      }
+    },
+    {
+      "id": "q09",
+      "pergunta": "Em que organização de pesquisa europeia trabalhou o criador da World Wide Web?",
+      "saltos": 2,
+      "rag_vetorial": {
+        "texto": "O criador da World Wide Web, Tim Berners-Lee, trabalhou no CERN, a Organização Europeia para a Investigação Nuclear. [C1][C2] Ele se tornou consultor de engenharia de software no CERN, onde escreveu o programa Enquire, que serviu de base para o desenvolvimento da Web. [C1][C2] Foi também no CERN que ele apresentou a proposta de hipertexto de 1989, e a Web funcionou primeiro dentro dessa organização antes de ser disponibilizada mundialmente em 1991. [C1][C2][C5]",
+        "citadas": [
+          "C1",
+          "C2",
+          "C5"
+        ],
+        "invalidas": [],
+        "contexto": 5,
+        "abstencao": false,
+        "acerto": 1.0,
+        "correta": true,
+        "fundamentada": true,
+        "frases_sem_citacao": 0.0,
+        "acerto_por_nome": 1.0,
+        "veredito": "correta",
+        "sem_suporte": [],
+        "citacao_errada": [],
+        "comentario_revisor": "A resposta afirma que Tim Berners-Lee trabalhou no CERN, conforme C1 e C2. Os detalhes sobre o Enquire, a proposta de 1989 e a abertura da Web em 1991 também têm apoio no contexto."
+      },
+      "graphrag": {
+        "texto": "O criador da World Wide Web, Tim Berners-Lee [F3], trabalhou na Organização Europeia para a Investigação Nuclear (CERN). Em 1980, no CERN, ele construiu o ENQUIRE, cujas ideias estão por trás da Web [F6]. Também foi no CERN que ele desenvolveu o WorldWideWeb, o primeiro navegador, em 1990 [F5]. O CERN é ainda apontado como responsável pela invenção da World Wide Web [F1].",
+        "citadas": [
+          "F3",
+          "F6",
+          "F5",
+          "F1"
+        ],
+        "invalidas": [],
+        "contexto": 20,
+        "abstencao": false,
+        "acerto": 1.0,
+        "correta": true,
+        "fundamentada": true,
+        "frases_sem_citacao": 0.0,
+        "cypher": "MATCH (p:Pessoa)-[:TRABALHOU_EM]->(o:Organizacao) WHERE toLower(o.nome) CONTAINS 'world wide web' RETURN p.id AS pessoa_id, p.nome AS pessoa, o.id AS organizacao_id, o.nome AS organizacao LIMIT 5",
+        "acerto_por_nome": 1.0,
+        "veredito": "correta",
+        "sem_suporte": [],
+        "citacao_errada": [],
+        "comentario_revisor": "A resposta afirma o CERN. O trabalho de Berners-Lee no CERN tem suporte nas evidências de F5 e F6, embora o contexto não tenha uma relação TRABALHOU_EM explícita."
+      }
+    },
+    {
+      "id": "q10",
+      "pergunta": "Além de Alan Turing, quais pesquisadores estudaram na Universidade de Princeton?",
+      "saltos": 2,
+      "rag_vetorial": {
+        "texto": "Não encontrei no grafo informação suficiente para responder, pois nenhum trecho afirma que algum pesquisador estudou na Universidade de Princeton. O que há é que, em 1940, Claude Shannon se tornou pesquisador do Instituto Nacional de Estudos Avançados em Princeton, Nova Jérsia, onde discutiu suas ideias com Hermann Weyl e John von Neumann, além de ter um encontro ocasional com Albert Einstein [C1]. Esse instituto, porém, não é descrito como a Universidade de Princeton, e os trechos não dizem que Weyl, von Neumann ou Einstein tenham estudado lá, apenas que Shannon os encontrou [C1]. O trecho sobre Alan Turing também não menciona Princeton [C4]. Falta, portanto, uma informação explícita ligando algum pesquisador a estudos na Universidade de Princeton.",
+        "citadas": [
+          "C1",
+          "C4"
+        ],
+        "invalidas": [],
+        "contexto": 5,
+        "abstencao": true,
+        "acerto": 0.0,
+        "correta": false,
+        "fundamentada": true,
+        "frases_sem_citacao": 0.25,
+        "acerto_por_nome": 0.0,
+        "veredito": "abstencao",
+        "sem_suporte": [],
+        "citacao_errada": [],
+        "comentario_revisor": "A resposta se abstém e não menciona Kernighan, Bardeen nem Minsky, que não aparecem no contexto. O que ela diz sobre Shannon no instituto de Princeton tem apoio em C1."
+      },
+      "graphrag": {
+        "texto": "Não encontrei no grafo informação suficiente para responder: nenhum fato lista outros pesquisadores que tenham estudado na Universidade de Princeton. O único fato sobre estudo em Princeton é o de Alan Turing, que obteve o PhD no Departamento de Matemática de lá [F1]. Os demais fatos tratam de pessoas que estudaram em Cambridge [F2][F3][F4][F5], de quem trabalhou em Manchester [F8][F19] e de Princeton apenas como sediada em Princeton [F21]. Falta uma relação ESTUDOU_EM ou TRABALHOU_EM ligando outra pessoa à Universidade de Princeton.",
+        "citadas": [
+          "F1",
+          "F2",
+          "F3",
+          "F4",
+          "F5",
+          "F8",
+          "F19",
+          "F21"
+        ],
+        "invalidas": [],
+        "contexto": 21,
+        "abstencao": true,
+        "acerto": 0.0,
+        "correta": false,
+        "fundamentada": true,
+        "frases_sem_citacao": 0.333,
+        "cypher": "MATCH (n:Entidade) WHERE toLower(n.nome) CONTAINS 'alan turing' RETURN n.id AS id, n.nome AS nome, labels(n) AS labels LIMIT 5",
+        "acerto_por_nome": 0.0,
+        "veredito": "abstencao",
+        "sem_suporte": [],
+        "citacao_errada": [],
+        "comentario_revisor": "A resposta se abstém, e o contexto de fato não liga nenhum dos pesquisadores esperados a Princeton. As afirmações sobre o contexto estão corretas."
+      }
+    },
+    {
+      "id": "q11",
+      "pergunta": "Que tecnologias foram desenvolvidas no Xerox PARC?",
+      "saltos": 1,
+      "rag_vetorial": {
+        "texto": "O Xerox PARC foi o berço de vários elementos dos computadores atuais, e o Alto, considerado o primeiro computador pessoal, reuniu muitos deles: o mouse, gráficos em cores, um editor de texto WYSIWYG, InterPress (linguagem de descrição de página precursora do PostScript), Ethernet, programação orientada a objeto em Smalltalk e ambiente de desenvolvimento integrado [C5]. A impressora a laser foi desenvolvida na mesma época, como parte do ambiente geral [C5]. O PARC também é famoso pela interface gráfica (GUI) dos computadores pessoais, com janelas, menus, botões de rádio e caixas de seleção, que culminou no Xerox Alto de 1973, o primeiro computador com uma GUI [C1][C4]. O conceito de ícones foi introduzido mais tarde por David Canfield Smith, e a GUI usava um dispositivo apontador junto com o teclado (WIMP) [C4]. Houve ainda avanços em ciência de materiais, incluindo pioneiros em tecnologias LCD e de disco óptico [C2].",
+        "citadas": [
+          "C5",
+          "C1",
+          "C4",
+          "C2"
+        ],
+        "invalidas": [],
+        "contexto": 5,
+        "abstencao": false,
+        "acerto": 1.0,
+        "correta": true,
+        "fundamentada": true,
+        "frases_sem_citacao": 0.0,
+        "acerto_por_nome": 1.0,
+        "veredito": "correta",
+        "sem_suporte": [],
+        "citacao_errada": [],
+        "comentario_revisor": "A resposta afirma Ethernet, o Alto e a GUI como inovações do PARC, com apoio em C1, C4 e C5. Os itens adicionais (impressora a laser, LCD, disco óptico) também têm apoio em C2 e C5."
+      },
+      "graphrag": {
+        "texto": "O Xerox PARC desenvolveu a Ethernet [F1], o computador Xerox Alto [F2] e a Interface gráfica do utilizador (GUI) [F4]. Os fatos também mostram que a Ethernet foi criada por Chuck Thacker [F11], Butler Lampson [F13], David Boggs [F14] e Robert Metcalfe [F15]. O Xerox Alto também é atribuído à Xerox [F3], e o Smalltalk executava no Alto [F12]. Os fatos não dizem que o Smalltalk foi desenvolvido no PARC, embora Alan Kay, seu criador [F17], tenha trabalhado lá [F9].",
+        "citadas": [
+          "F1",
+          "F2",
+          "F4",
+          "F11",
+          "F13",
+          "F14",
+          "F15",
+          "F3",
+          "F12",
+          "F17",
+          "F9"
+        ],
+        "invalidas": [],
+        "contexto": 20,
+        "abstencao": false,
+        "acerto": 1.0,
+        "correta": true,
+        "fundamentada": true,
+        "frases_sem_citacao": 0.0,
+        "cypher": "MATCH (n:Entidade) WHERE toLower(n.nome) CONTAINS 'xerox parc' RETURN n.id AS id, n.nome AS nome, labels(n) AS labels LIMIT 5",
+        "acerto_por_nome": 1.0,
+        "veredito": "correta",
+        "sem_suporte": [],
+        "citacao_errada": [],
+        "comentario_revisor": "A resposta afirma a Ethernet, o Xerox Alto e a GUI com as citações corretas. Os acréscimos sobre os inventores e o Smalltalk têm suporte."
+      }
+    },
+    {
+      "id": "q12",
+      "pergunta": "Qual linguagem criada por Guido van Rossum foi influenciada pela linguagem ABC?",
+      "saltos": 2,
+      "rag_vetorial": {
+        "texto": "Python é a linguagem criada por Guido van Rossum e foi influenciada pela ABC, mas os trechos só sustentam parte dessa relação. Guido van Rossum é o autor da linguagem de programação Python [C2]. Ele trabalhou no desenvolvimento da linguagem ABC, descrita como descendente da linguagem Simula [C1]. A ABC é uma linguagem da CWI, interativa, estruturada, de alto nível e fácil de aprender, voltada principalmente ao ensino da programação [C3]. Os trechos não afirmam explicitamente que o Python foi influenciado pela ABC. Eles apenas ligam Guido à criação do Python [C2] e ao desenvolvimento da ABC [C1].",
+        "citadas": [
+          "C2",
+          "C1",
+          "C3"
+        ],
+        "invalidas": [],
+        "contexto": 5,
+        "abstencao": false,
+        "acerto": 1.0,
+        "correta": true,
+        "fundamentada": true,
+        "frases_sem_citacao": 0.333,
+        "acerto_por_nome": 1.0,
+        "veredito": "correta",
+        "sem_suporte": [
+          "Python foi influenciada pela ABC"
+        ],
+        "citacao_errada": [],
+        "comentario_revisor": "A resposta afirma na primeira frase que o Python foi influenciado pela ABC, mas nenhum trecho do contexto diz isso, como a própria resposta reconhece depois. As demais afirmações têm apoio em C1, C2 e C3."
+      },
+      "graphrag": {
+        "texto": "Python é a linguagem criada por Guido van Rossum [F5] que foi influenciada pela linguagem ABC [F3]. Python também é descrita como sucessora da ABC [F21]. A ABC, por sua vez, foi desenvolvida pelo Instituto de Pesquisa Nacional para Matemática e Ciência da Computação (CWI), onde Guido van Rossum também trabalhou [F1][F9].",
+        "citadas": [
+          "F5",
+          "F3",
+          "F21",
+          "F1",
+          "F9"
+        ],
+        "invalidas": [],
+        "contexto": 21,
+        "abstencao": false,
+        "acerto": 1.0,
+        "correta": true,
+        "fundamentada": true,
+        "frases_sem_citacao": 0.0,
+        "cypher": "MATCH (n:Entidade) WHERE toLower(n.nome) CONTAINS 'criada por guido van rossum foi influenciada pela linguagem abc' RETURN n.id AS id, n.nome AS nome, labels(n) AS labels LIMIT 5",
+        "acerto_por_nome": 1.0,
+        "veredito": "correta",
+        "sem_suporte": [],
+        "citacao_errada": [],
+        "comentario_revisor": "A resposta afirma Python, com citações corretas para criador [F5], influência [F3] e sucessão [F21]. Os detalhes sobre o CWI também têm suporte."
+      }
+    }
+  ],
+  "julgamento": "revisor independente (LLM), contra o gabarito e contra o contexto de cada resposta"
+}
