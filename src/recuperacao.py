@@ -644,7 +644,7 @@ def executar_busca_hibrida(
     arestas = _unir_arestas(listas_arestas)
 
     if nos:
-        principais = ", ".join(n["nome"] for n in nos[:5])
+        principais = ", ".join(str(n["nome"]) for n in nos[:5])
         resposta = (
             f"Encontrei {len(nos)} nós e {len(arestas)} relações relevantes para: {pergunta}. "
             f"Principais: {principais}."
