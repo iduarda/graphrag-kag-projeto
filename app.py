@@ -151,7 +151,7 @@ if st.button("Buscar"):
                         grafo.edge(
                             origem,
                             destino,
-                            label=evidencia["relacao"],
+                            label=str(evidencia["relacao"]),
                             color="blue"
                         )
 
@@ -196,17 +196,17 @@ if st.button("Buscar"):
                         col1, col2 = st.columns(2)
 
                         with col1:
+                            confianca = float(evidencia.get("confianca") or 0)
                             st.metric(
                                 "Confiança da evidência",
-                                f"{evidencia.get('confianca', 0):.0%}"
+                                f"{confianca:.0%}"
                             )
 
                         with col2:
+                            chunk_ids = evidencia.get("chunk_ids") or []
                             st.caption(
                                 "Chunks: "
-                                + ", ".join(
-                                    evidencia.get("chunk_ids") or []
-                                )
+                                + ", ".join(str(chunk_id) for chunk_id in chunk_ids)
                             )
 
                         st.divider()
